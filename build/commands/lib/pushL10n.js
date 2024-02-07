@@ -1,3 +1,8 @@
+/* Copyright (c) 2017 The Brave Authors. All rights reserved.
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+ * You can obtain one at https://mozilla.org/MPL/2.0/. */
+
 const path = require('path')
 const config = require('../lib/config')
 const util = require('../lib/util')
@@ -28,7 +33,18 @@ const pushL10n = (options) => {
     util.run('git', args, runOptions)
     l10nUtil.getBraveTopLevelPaths().forEach((sourceStringPath) => {
       if (!options.grd_path || sourceStringPath.endsWith(path.sep + options.grd_path))
-        util.run('python3', ['script/push-l10n.py', '--source_string_path', sourceStringPath, extraScriptOptions], cmdOptions)
+        util.run(
+        'python3',
+        [
+          'script/push-l10n.py',
+          '--service', options.service,
+          '--channel', options.channel,
+          '--source_string_path',
+          sourceStringPath,
+          extraScriptOptions
+        ],
+        cmdOptions
+      )
     })
   }
 }
