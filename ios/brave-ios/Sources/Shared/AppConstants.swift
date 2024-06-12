@@ -36,7 +36,7 @@ public enum AppBuildChannel: String {
   }
 }
 
-public struct KVOConstants: Equatable {
+public struct KVOConstants: Equatable, Sendable {
   public var keyPath: String
 
   public init(keyPath: String) {
@@ -58,17 +58,19 @@ public struct AppConstants {
   public static let isRunningTest = NSClassFromString("XCTestCase") != nil
 
   /// Build Channel.
-  public fileprivate(set) static var buildChannel: AppBuildChannel = .debug
+  nonisolated(unsafe) public fileprivate(set) static var buildChannel: AppBuildChannel = .debug
 
   /// Whether or not this is an official build
-  public fileprivate(set) static var isOfficialBuild: Bool = false
+  nonisolated(unsafe) public fileprivate(set) static var isOfficialBuild: Bool = false
 }
 
 @_spi(AppLaunch)
 extension AppConstants {
+  @MainActor
   public static func setBuildChannel(_ buildChannel: AppBuildChannel) {
     self.buildChannel = buildChannel
   }
+  @MainActor
   public static func setOfficialBuild(_ isOfficialBuild: Bool) {
     self.isOfficialBuild = isOfficialBuild
   }

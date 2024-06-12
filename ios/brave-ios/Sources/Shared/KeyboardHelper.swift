@@ -5,7 +5,7 @@
 import UIKit
 
 /// The keyboard state at the time of notification.
-public struct KeyboardState {
+@MainActor public struct KeyboardState {
   public let animationDuration: Double
   public let animationCurve: UIView.AnimationCurve
   private let userInfo: [AnyHashable: Any]
@@ -51,17 +51,12 @@ public protocol KeyboardHelperDelegate: AnyObject {
 }
 
 /// Convenience class for observing keyboard state.
-open class KeyboardHelper: NSObject {
+@MainActor open class KeyboardHelper: NSObject {
   open var currentState: KeyboardState?
 
   fileprivate var delegates = [WeakKeyboardDelegate]()
 
-  open class var defaultHelper: KeyboardHelper {
-    struct Singleton {
-      static let instance = KeyboardHelper()
-    }
-    return Singleton.instance
-  }
+  public static let defaultHelper = KeyboardHelper()
 
   /// Starts monitoring the keyboard state.
   open func startObserving() {
