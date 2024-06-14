@@ -9,7 +9,7 @@ import Shared
 import UIKit
 
 extension BraveAds {
-  public func initialize(
+  @MainActor public func initialize(
     walletInfo: BraveAds.WalletInfo? = nil,
     completion: @escaping (Bool) -> Void
   ) {

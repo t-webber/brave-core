@@ -91,6 +91,9 @@ var package = Package(
     .target(
       name: "BraveShared",
       dependencies: ["BraveCore", "Shared", "Preferences"],
+      swiftSettings: [
+        .swiftLanguageVersion(.version("6"))
+      ],
       plugins: ["LoggerPlugin"]
     ),
     .target(
@@ -293,7 +296,14 @@ var package = Package(
       ],
       plugins: ["LoggerPlugin"]
     ),
-    .target(name: "Preferences", dependencies: ["Shared"], plugins: ["LoggerPlugin"]),
+    .target(
+      name: "Preferences",
+      dependencies: ["Shared"],
+      swiftSettings: [
+        .swiftLanguageVersion(.version("6"))
+      ],
+      plugins: ["LoggerPlugin"]
+    ),
     .target(
       name: "Onboarding",
       dependencies: [

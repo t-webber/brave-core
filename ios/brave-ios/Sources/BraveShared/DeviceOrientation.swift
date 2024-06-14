@@ -5,7 +5,7 @@
 
 import UIKit
 
-public final class DeviceOrientation {
+@MainActor public final class DeviceOrientation {
 
   private var windowScene: UIWindowScene? {
     return UIApplication.shared.connectedScenes.first as? UIWindowScene

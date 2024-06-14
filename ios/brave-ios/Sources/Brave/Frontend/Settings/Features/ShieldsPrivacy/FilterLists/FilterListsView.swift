@@ -326,7 +326,7 @@ struct FilterListsView: View {
     }
 
     Task {
-      await removedURLs.asyncConcurrentForEach { removedURL in
+      await removedURLs.asyncConcurrentForEach { @MainActor removedURL in
         // 1. Remove content blocker
         // We cannot do this for some reason as
         // it will not allow us to remove it from the tab if we do.

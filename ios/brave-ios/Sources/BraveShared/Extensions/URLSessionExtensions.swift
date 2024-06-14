@@ -16,7 +16,7 @@ extension URLSession {
     parameters: [String: Any] = [:],
     rawData: Data? = nil,
     encoding: ParameterEncoding = .query,
-    _ completion: @escaping (Result<Any, Error>) -> Void
+    _ completion: @Sendable @escaping (Result<Any, Error>) -> Void
   ) -> URLSessionDataTask! {
     do {
       let request = try buildRequest(

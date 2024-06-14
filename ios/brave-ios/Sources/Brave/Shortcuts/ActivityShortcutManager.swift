@@ -149,7 +149,10 @@ public class ActivityShortcutManager: NSObject {
     }
   }
 
-  private func handleActivityDetails(type: ActivityType, using bvc: BrowserViewController) {
+  @MainActor private func handleActivityDetails(
+    type: ActivityType,
+    using bvc: BrowserViewController
+  ) {
     switch type {
     case .newTab:
       bvc.openBlankNewTab(

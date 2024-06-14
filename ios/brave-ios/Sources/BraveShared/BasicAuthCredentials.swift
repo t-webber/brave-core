@@ -8,8 +8,8 @@ import Foundation
 import UIKit
 import os.log
 
-public class BasicAuthCredentialsManager: NSObject, URLSessionDataDelegate {
-  private static var credentials = [String: URLCredential]()  // ["origin:port": credential]
+public final class BasicAuthCredentialsManager: NSObject, URLSessionDataDelegate {
+  @MainActor private static var credentials = [String: URLCredential]()  // ["origin:port": credential]
 
   public static let validDomains: Set<String> = [
     // Brave Search
@@ -21,7 +21,7 @@ public class BasicAuthCredentialsManager: NSObject, URLSessionDataDelegate {
     "playlist.bravesoftware.com",
   ]
 
-  public static func setCredential(origin: String, credential: URLCredential?) {
+  @MainActor public static func setCredential(origin: String, credential: URLCredential?) {
     credentials[origin] = credential
   }
 
@@ -76,8 +76,8 @@ public class BasicAuthCredentialsManager: NSObject, URLSessionDataDelegate {
       return (.performDefaultHandling, nil)
     }
 
-    if let proposedCredential = challenge.proposedCredential
-      ?? BasicAuthCredentialsManager.credentials[origin],
+    let cachedCredential = await BasicAuthCredentialsManager.credentials[origin]
+    if let proposedCredential = challenge.proposedCredential ?? cachedCredential,
       !(proposedCredential.user?.isEmpty ?? true),
       challenge.previousFailureCount == 0
     {

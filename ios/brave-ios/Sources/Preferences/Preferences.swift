@@ -13,7 +13,9 @@ import os.log
 /// stored to automatically interact with `UserDefaults`
 public class Preferences {
   /// The default `UserDefaults` that all `Option`s will use unless specified
-  public static let defaultContainer = UserDefaults(suiteName: AppInfo.sharedContainerIdentifier)!
+  nonisolated(unsafe) public static let defaultContainer = UserDefaults(
+    suiteName: AppInfo.sharedContainerIdentifier
+  )!
 }
 
 /// Defines an object which may watch a set of `Preference.Option`s
@@ -29,7 +31,7 @@ extension Preferences {
   /// An entry in the `Preferences`
   ///
   /// `ValueType` defines the type of value that will stored in the UserDefaults object
-  public class Option<ValueType: Equatable>: ObservableObject {
+  public final class Option<ValueType: Equatable>: ObservableObject, @unchecked Sendable {
     /// The list of observers for this option
     private let observers = WeakList<PreferencesObserver>()
     /// The UserDefaults container that you wish to save to

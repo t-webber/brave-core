@@ -5,7 +5,7 @@
 
 import Foundation
 
-extension Sequence {
+extension Sequence where Element: Sendable {
   public func asyncForEach(_ operation: (Element) async throws -> Void) async rethrows {
     for element in self {
       try await operation(element)
@@ -13,7 +13,7 @@ extension Sequence {
   }
 
   public func asyncConcurrentForEach(
-    _ operation: @escaping (Element) async throws -> Void
+    _ operation: @Sendable @escaping (Element) async throws -> Void
   ) async rethrows {
     await withThrowingTaskGroup(of: Void.self) { group in
       for element in self {
@@ -30,8 +30,8 @@ extension Sequence {
     return results
   }
 
-  public func asyncConcurrentMap<T>(
-    _ transform: @escaping (Element) async throws -> T
+  public func asyncConcurrentMap<T: Sendable>(
+    _ transform: @Sendable @escaping (Element) async throws -> T
   ) async rethrows -> [T] {
     try await withThrowingTaskGroup(of: T.self) { group in
       for element in self {
@@ -56,8 +56,8 @@ extension Sequence {
     return results
   }
 
-  public func asyncConcurrentCompactMap<T>(
-    _ transform: @escaping (Element) async throws -> T?
+  public func asyncConcurrentCompactMap<T: Sendable>(
+    _ transform: @Sendable @escaping (Element) async throws -> T?
   ) async rethrows -> [T] {
     try await withThrowingTaskGroup(of: T?.self) { group in
       for element in self {
@@ -88,7 +88,7 @@ extension Sequence {
   }
 
   public func asyncConcurrentFilter(
-    _ isIncluded: @escaping (Element) async throws -> Bool
+    _ isIncluded: @Sendable @escaping (Element) async throws -> Bool
   ) async rethrows -> [Element] {
     try await withThrowingTaskGroup(of: Element?.self) { group in
       for element in self {
