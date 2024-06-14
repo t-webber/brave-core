@@ -72,7 +72,7 @@ public enum FeatureLinkageLogicType {
   case reporting, campaingId
 }
 
-public class AttributionManager {
+@MainActor public class AttributionManager {
 
   private let dau: DAU
   private let urp: UserReferralProgram
@@ -89,7 +89,7 @@ public class AttributionManager {
     self.urp = urp
   }
 
-  public func handleReferralLookup(completion: @escaping (URL) -> Void) {
+  public func handleReferralLookup(completion: @Sendable @escaping (URL) -> Void) {
     if Preferences.URP.referralLookupOutstanding.value == true {
       performProgramReferralLookup(refCode: UserReferralProgram.getReferralCode()) { offerUrl in
         guard let url = offerUrl else { return }
@@ -101,7 +101,7 @@ public class AttributionManager {
   }
 
   @discardableResult
-  @MainActor public func handleSearchAdsInstallAttribution() async throws -> AdAttributionData {
+  public func handleSearchAdsInstallAttribution() async throws -> AdAttributionData {
     do {
       let attributionData = try await urp.adCampaignLookup()
       generateReferralCodeAndPingServer(with: attributionData)
@@ -112,7 +112,7 @@ public class AttributionManager {
     }
   }
 
-  @MainActor public func handleSearchAdsFeatureLinkage() async throws -> FeatureLinkageType? {
+  public func handleSearchAdsFeatureLinkage() async throws -> FeatureLinkageType? {
     do {
       let attributionData = try await urp.adCampaignLookup(isRetryEnabled: false, timeout: 30)
       generateReferralCodeAndPingServer(with: attributionData)
@@ -123,21 +123,19 @@ public class AttributionManager {
     }
   }
 
-  public func pingDAUServer(_ isP3AEnabled: Bool) {
-    Task { @MainActor in
-      do {
-        let attributionData =
-          isP3AEnabled ? try await urp.adCampaignLookup(isRetryEnabled: false, timeout: 30) : nil
-        generateReferralCodeAndPingServer(with: attributionData)
+  public func pingDAUServer(_ isP3AEnabled: Bool) async {
+    do {
+      let attributionData =
+        isP3AEnabled ? try await urp.adCampaignLookup(isRetryEnabled: false, timeout: 30) : nil
+      generateReferralCodeAndPingServer(with: attributionData)
 
-      } catch {
-        generateReferralCodeAndPingServer(with: nil)
-        Logger.module.error("Error Campaign Lookup: \(error)")
-      }
+    } catch {
+      generateReferralCodeAndPingServer(with: nil)
+      Logger.module.error("Error Campaign Lookup: \(error)")
     }
   }
 
-  @MainActor public func handleAdsReportingFeatureLinkage() async throws -> FeatureLinkageType? {
+  public func handleAdsReportingFeatureLinkage() async throws -> FeatureLinkageType? {
     // This function should run multiple tasks first adCampaignLookup
     // and adReportsKeywordLookup depending on adCampaignLookup result.
     // There is a 60 sec timeout added for adCampaignLookup and will be run with no retry and
@@ -201,8 +199,10 @@ public class AttributionManager {
     setupReferralCodeAndPingServer(refCode: refCode)
   }
 
-  private func performProgramReferralLookup(refCode: String?, completion: @escaping (URL?) -> Void)
-  {
+  private func performProgramReferralLookup(
+    refCode: String?,
+    completion: @Sendable @escaping (URL?) -> Void
+  ) {
     urp.referralLookup(refCode: refCode) { referralCode, offerUrl in
       Preferences.URP.referralLookupOutstanding.value = false
 

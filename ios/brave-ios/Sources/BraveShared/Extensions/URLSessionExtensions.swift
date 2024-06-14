@@ -16,7 +16,7 @@ extension URLSession {
     parameters: [String: Any] = [:],
     rawData: Data? = nil,
     encoding: ParameterEncoding = .query,
-    _ completion: @Sendable @escaping (Result<Any, Error>) -> Void
+    _ completion: @Sendable @escaping (Result<Data, Error>) -> Void
   ) -> URLSessionDataTask! {
     do {
       let request = try buildRequest(
@@ -45,13 +45,7 @@ extension URLSession {
           )
         }
 
-        do {
-          completion(
-            .success(try JSONSerialization.jsonObject(with: data, options: .mutableLeaves))
-          )
-        } catch {
-          completion(.failure(error))
-        }
+        completion(.success(data))
       }
       task.resume()
       return task
@@ -67,40 +61,9 @@ extension URLSession {
     headers: [String: String] = [:],
     parameters: [String: Any] = [:],
     rawData: Data? = nil,
-    encoding: ParameterEncoding = .query
-  ) -> AnyPublisher<Any, Error> {
-    do {
-      let request = try buildRequest(
-        url,
-        method: method,
-        headers: headers,
-        parameters: parameters,
-        rawData: rawData,
-        encoding: encoding
-      )
-
-      return dataTaskPublisher(for: request)
-        .tryMap({ data, response in
-          try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
-        })
-        .mapError({ $0 as Error })
-        .receive(on: DispatchQueue.main)
-        .eraseToAnyPublisher()
-    } catch {
-      Logger.module.error("\(error.localizedDescription)")
-      return Fail(error: error).eraseToAnyPublisher()
-    }
-  }
-
-  public func request(
-    _ url: URL,
-    method: HTTPMethod = .get,
-    headers: [String: String] = [:],
-    parameters: [String: Any] = [:],
-    rawData: Data? = nil,
     encoding: ParameterEncoding = .query,
     timeout: TimeInterval = 60
-  ) async throws -> (Any, URLResponse) {
+  ) async throws -> (Data, URLResponse) {
     do {
       let request = try buildRequest(
         url,

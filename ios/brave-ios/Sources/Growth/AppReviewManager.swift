@@ -110,12 +110,14 @@ public class AppReviewManager: ObservableObject {
 
   // MARK: Lifecycle
 
-  public static var shared = AppReviewManager()
+  @MainActor public static let shared = AppReviewManager()
 
   // MARK: Review Request Handling
 
-  public func handleAppReview(for logicType: AppReviewLogicType, using controller: UIViewController)
-  {
+  @MainActor public func handleAppReview(
+    for logicType: AppReviewLogicType,
+    using controller: UIViewController
+  ) {
     guard logicType == activeAppReviewLogicType else {
       return
     }

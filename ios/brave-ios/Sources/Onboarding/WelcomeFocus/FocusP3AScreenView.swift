@@ -185,7 +185,9 @@ struct FocusP3AScreenView: View {
   }
 
   private func handleAdCampaignLookupAndDAUPing(isP3AEnabled: Bool) {
-    attributionManager?.pingDAUServer(isP3AEnabled)
+    Task { @MainActor in
+      await attributionManager?.pingDAUServer(isP3AEnabled)
+    }
 
     p3aUtilities?.isNoticeAcknowledged = true
     Preferences.Onboarding.p3aOnboardingShown.value = true

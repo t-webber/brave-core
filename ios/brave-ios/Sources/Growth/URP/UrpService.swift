@@ -49,7 +49,7 @@ struct UrpService {
 
   func referralCodeLookup(
     refCode: String?,
-    completion: @escaping (ReferralData?, UrpError?) -> Void
+    completion: @Sendable @escaping (ReferralData?, UrpError?) -> Void
   ) {
     guard var endPoint = URL(string: host) else {
       completion(nil, .endpointError)
@@ -69,11 +69,9 @@ struct UrpService {
     sessionManager.urpApiRequest(endPoint: endPoint, params: params) { response in
       switch response {
       case .success(let data):
-        if let data = data as? Data {
-          Logger.module.debug(
-            "Referral code lookup response: \(String(data: data, encoding: .utf8) ?? "nil")"
-          )
-        }
+        Logger.module.debug(
+          "Referral code lookup response: \(String(data: data, encoding: .utf8) ?? "nil")"
+        )
 
         let json = JSON(data)
         let referral = ReferralData(json: json)
@@ -106,15 +104,11 @@ struct UrpService {
         timeout: timeout
       )
 
-      if let resultData = result as? Data {
-        let jsonResponse =
-          try JSONSerialization.jsonObject(with: resultData, options: []) as? [String: Any]
-        let adAttributionData = try AdAttributionData(json: jsonResponse)
+      let jsonResponse =
+        try JSONSerialization.jsonObject(with: result, options: []) as? [String: Any]
+      let adAttributionData = try AdAttributionData(json: jsonResponse)
 
-        return adAttributionData
-      }
-
-      throw SerializationError.invalid("Invalid Data type from response", "")
+      return adAttributionData
     } catch {
       throw error
     }
@@ -138,13 +132,9 @@ struct UrpService {
     do {
       let (result, _) = try await sessionManager.adGroupsReportApiRequest(endPoint: endPoint)
 
-      if let resultData = result as? Data {
-        let adGroupsReportData = try AdGroupReportData(data: resultData, keywordId: keywordId)
+      let adGroupsReportData = try AdGroupReportData(data: result, keywordId: keywordId)
 
-        return adGroupsReportData.productKeyword
-      }
-
-      throw SerializationError.invalid("Invalid Data type from response", "")
+      return adGroupsReportData.productKeyword
     } catch {
       throw error
     }
@@ -152,7 +142,7 @@ struct UrpService {
 
   func checkIfAuthorizedForGrant(
     with downloadId: String,
-    completion: @escaping (Bool?, UrpError?) -> Void
+    completion: @Sendable @escaping (Bool?, UrpError?) -> Void
   ) {
     guard var endPoint = URL(string: host) else {
       completion(nil, .endpointError)
@@ -168,11 +158,9 @@ struct UrpService {
     sessionManager.urpApiRequest(endPoint: endPoint, params: params) { response in
       switch response {
       case .success(let data):
-        if let data = data as? Data {
-          Logger.module.debug(
-            "Check if authorized for grant response: \(String(data: data, encoding: .utf8) ?? "nil")"
-          )
-        }
+        Logger.module.debug(
+          "Check if authorized for grant response: \(String(data: data, encoding: .utf8) ?? "nil")"
+        )
         let json = JSON(data)
         completion(json["finalized"].boolValue, nil)
 
@@ -189,7 +177,7 @@ extension URLSession {
   func urpApiRequest(
     endPoint: URL,
     params: [String: String],
-    completion: @escaping (Result<Any, Error>) -> Void
+    completion: @Sendable @escaping (Result<Data, Error>) -> Void
   ) {
     request(endPoint, method: .put, parameters: params, encoding: .json) { response in
       completion(response)
@@ -202,7 +190,7 @@ extension URLSession {
     rawData: Data?,
     isRetryEnabled: Bool,
     timeout: TimeInterval
-  ) async throws -> (Any, URLResponse) {
+  ) async throws -> (Data, URLResponse) {
     // Re-try logic will not be enabled while onboarding happening on first launch
     if isRetryEnabled {
       // According to attributiontoken API docs
@@ -227,13 +215,13 @@ extension URLSession {
     }
   }
 
-  func adGroupsReportApiRequest(endPoint: URL) async throws -> (Any, URLResponse) {
+  func adGroupsReportApiRequest(endPoint: URL) async throws -> (Data, URLResponse) {
     // Having Reports Keywrod Lookup Endpoint 30 sec timeout
     return try await self.request(endPoint, method: .post, encoding: .json, timeout: 30)
   }
 }
 
-class URPCertificatePinningService: NSObject, URLSessionDelegate {
+final class URPCertificatePinningService: NSObject, URLSessionDelegate {
   func urlSession(
     _ session: URLSession,
     didReceive challenge: URLAuthenticationChallenge

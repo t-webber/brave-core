@@ -7,12 +7,14 @@ import Foundation
 import Preferences
 
 /// Monitors how long the browser is foregrounded to answer the `Brave.Uptime.BrowserOpenTime` P3A question
-public class UptimeMonitor {
+@preconcurrency
+public final class UptimeMonitor {
   private var timer: Timer?
 
-  private(set) static var usageInterval: TimeInterval = 15
-  private(set) static var now: () -> Date = { .now }
-  private(set) static var calendar: Calendar = .current
+  // Setters for testing
+  nonisolated(unsafe) private(set) static var usageInterval: TimeInterval = 15
+  nonisolated(unsafe) private(set) static var now: () -> Date = { .now }
+  nonisolated(unsafe) private(set) static var calendar: Calendar = .current
 
   public init() {
     if Preferences.UptimeMonitor.startTime.value == nil {
@@ -27,7 +29,7 @@ public class UptimeMonitor {
   }
 
   // For testing
-  var didRecordP3A: ((_ durationInMinutes: Int) -> Void)?
+  nonisolated(unsafe) var didRecordP3A: ((_ durationInMinutes: Int) -> Void)?
 
   public var isMonitoring: Bool {
     timer != nil

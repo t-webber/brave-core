@@ -11,11 +11,12 @@ import Shared
 import WebKit
 import os.log
 
+@preconcurrency
 public class UserReferralProgram {
 
   /// Domains must match server HTTP header ones _exactly_
   private static let urpCookieOnlyDomains = ["coinbase.com"]
-  public static let shared = UserReferralProgram()
+  @MainActor public static let shared = UserReferralProgram()
 
   struct HostUrl {
     static let staging = "https://laptop-updates.bravesoftware.com"
@@ -57,9 +58,10 @@ public class UserReferralProgram {
   /// Looks for referral and returns its landing page if possible.
   public func referralLookup(
     refCode: String? = nil,
-    completion: @escaping (_ refCode: String?, _ offerUrl: String?) -> Void
+    completion: @Sendable @escaping (_ refCode: String?, _ offerUrl: String?) -> Void
   ) {
-    let referralBlock: (ReferralData?, UrpError?) -> Void = { [weak self] referral, error in
+    let referralBlock: @Sendable (ReferralData?, UrpError?) -> Void = {
+      [weak self] referral, error in
       guard let self = self else { return }
 
       if error == Growth.UrpError.endpointError {

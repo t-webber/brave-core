@@ -9,7 +9,8 @@ import Preferences
 import Shared
 import os.log
 
-public class DAU {
+@preconcurrency
+public final class DAU {
 
   /// Default installation date for legacy woi version.
   public static let defaultWoiDate = "2016-01-04"

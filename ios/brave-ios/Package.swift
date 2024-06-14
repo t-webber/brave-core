@@ -62,7 +62,7 @@ var package = Package(
       url: "https://github.com/brave/PanModal",
       revision: "e67e9eff53c05f19b41bbb2ca7d27ff5859a586c"
     ),
-    .package(url: "https://github.com/apple/swift-collections", from: "1.0.0"),
+    .package(url: "https://github.com/apple/swift-collections", from: "1.1.0"),
     .package(url: "https://github.com/siteline/SwiftUI-Introspect", from: "0.1.3"),
     .package(url: "https://github.com/apple/swift-algorithms", from: "1.0.0"),
     .package(url: "https://github.com/devxoul/Then", from: "2.7.0"),
@@ -113,12 +113,21 @@ var package = Package(
         .copy("Certificates/certviewer/github.com.cer"),
       ]
     ),
-    .target(name: "BraveStrings", dependencies: ["Strings", "Preferences"]),
+    .target(
+      name: "BraveStrings",
+      dependencies: ["Strings", "Preferences"],
+      swiftSettings: [
+        .swiftLanguageVersion(.version("6"))
+      ]
+    ),
     .target(
       name: "Growth",
       dependencies: [
         "BraveVPN", "Shared", "BraveShared", "Strings", "SnapKit", "CertificateUtilities",
         .product(name: "OrderedCollections", package: "swift-collections"),
+      ],
+      swiftSettings: [
+        .swiftLanguageVersion(.version("6"))
       ],
       plugins: ["LoggerPlugin"]
     ),

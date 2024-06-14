@@ -9,7 +9,7 @@ import os.log
 
 public enum SerializationError: Error {
   case missing(String)
-  case invalid(String, Any)
+  case invalid(String, String)
 }
 
 public enum SearchAdError: Error {
@@ -22,7 +22,7 @@ public enum SearchAdError: Error {
   case successfulCampaignFailedKeywordLookup(AdAttributionData)
 }
 
-public struct AdAttributionData {
+public struct AdAttributionData: Sendable {
   // A value of true returns if a user clicks an Apple Search Ads impression up to 30 days before your app download.
   // If the API can’t find a matching attribution record, the attribution value is false.
   let attribution: Bool
