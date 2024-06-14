@@ -99,6 +99,9 @@ var package = Package(
     .target(
       name: "CertificateUtilities",
       dependencies: ["Shared"],
+      swiftSettings: [
+        .swiftLanguageVersion(.version("6"))
+      ],
       plugins: ["LoggerPlugin"]
     ),
     .testTarget(

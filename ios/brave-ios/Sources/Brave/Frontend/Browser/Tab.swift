@@ -157,7 +157,7 @@ class Tab: NSObject {
           // Cert is valid but should be validated by the system
           // Let the system handle it and we'll show an error if the system cannot validate it
           do {
-            try await BraveCertificateUtils.evaluateTrust(serverTrust, for: origin.host)
+            try await BraveCertificateUtils.evaluateTrust(serverTrust)
             return isMixedContent ? .mixedContent : .secure
           } catch {
             return .invalidCert

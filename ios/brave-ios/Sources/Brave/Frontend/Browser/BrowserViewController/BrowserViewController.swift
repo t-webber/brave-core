@@ -3635,7 +3635,7 @@ extension BrowserViewController {
         var errorDescription: String?
 
         do {
-          try await BraveCertificateUtils.evaluateTrust(trust, for: host)
+          try await BraveCertificateUtils.evaluateTrust(trust)
         } catch {
           Logger.module.error("\(error.localizedDescription)")
 

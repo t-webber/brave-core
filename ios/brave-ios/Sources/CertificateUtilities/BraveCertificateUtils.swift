@@ -7,7 +7,7 @@ import BraveCore
 import Foundation
 import Shared
 
-public struct BraveCertificateUtils {
+public actor BraveCertificateUtils {
   /// Formats a hex string
   /// Example: formatHex("020401") -> "02 04 01"
   /// Example: formatHex("020401", separator: " - ") -> "02 - 04 - 01"
@@ -221,23 +221,18 @@ extension BraveCertificateUtils {
   }
 
   /// Verifies ServerTrust using Apple's APIs which validates also the X509 Certificate against the System Trusts
-  public static func evaluateTrust(_ trust: SecTrust, for host: String?) async throws {
-    try await withCheckedThrowingContinuation { (continuation: CheckedContinuation<Void, Error>) in
-      BraveCertificateUtils.evaluationQueue.async {
-        SecTrustEvaluateAsyncWithError(trust, BraveCertificateUtils.evaluationQueue) {
-          _,
-          isTrusted,
-          error in
-          if !isTrusted {
-            if let error = error {
-              continuation.resume(throwing: error as Error)
-            } else {
-              continuation.resume(throwing: BraveCertificateUtilError.trustEvaluationFailed)
-            }
-          } else {
-            continuation.resume()
-          }
+  public static func evaluateTrust(_ trust: SecTrust) async throws {
+    return try await withCheckedThrowingContinuation { continuation in
+      var error: CFError?
+      let isTrusted = SecTrustEvaluateWithError(trust, &error)
+      if !isTrusted {
+        if let error = error {
+          continuation.resume(throwing: error as Error)
+        } else {
+          continuation.resume(throwing: BraveCertificateUtilError.trustEvaluationFailed)
         }
+      } else {
+        continuation.resume()
       }
     }
   }
