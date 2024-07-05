@@ -45,11 +45,14 @@ private let KVOs: [KVOConstants] = [
   .loading,
   .canGoBack,
   .canGoForward,
-  .url,
   .title,
-  .hasOnlySecureContent,
-  .serverTrust,
+  .visibleURL,
+  .visibleSSLStatus
+]
+
+private let webViewKVOs: [KVOConstants] = [
   ._sampledPageTopColor,
+//  .url,
 ]
 
 public class BrowserViewController: UIViewController {
@@ -494,7 +497,7 @@ public class BrowserViewController: UIViewController {
       queue: .main
     ) { [weak self] _ in
       self?.tabManager.allTabs.forEach({
-        guard let url = $0.webView?.url else { return }
+        guard let url = $0.webView?.visibleURL else { return }
         let zoomLevel =
           self?.privateBrowsingManager.isPrivateBrowsing == true
           ? 1.0
@@ -1803,7 +1806,7 @@ public class BrowserViewController: UIViewController {
       if isUserDefinedURLNavigation, let webView = tab.webView,
         let code = url.bookmarkletCodeComponent
       {
-        webView.evaluateSafeJavaScript(
+        webView.underlyingWebView?.evaluateSafeJavaScript(
           functionName: code,
           contentWorld: .page,
           asFunction: false
@@ -1868,7 +1871,7 @@ public class BrowserViewController: UIViewController {
     context: UnsafeMutableRawPointer?
   ) {
 
-    guard let webView = object as? WKWebView else {
+    guard let webView = object as? BraveWebView else {
       Logger.module.error(
         "An object of type: \(String(describing: object), privacy: .public) is being observed instead of a WKWebView"
       )
@@ -1896,7 +1899,7 @@ public class BrowserViewController: UIViewController {
         // `WKWebView.estimatedProgress` is a `Double` type so it must be casted as such
         let progress = change?[.newKey] as? Double
       else { break }
-      if let url = webView.url, !InternalURL.isValid(url: url) {
+      if let url = webView.lastCommittedURL, !InternalURL.isValid(url: url) {
         topToolbar.updateProgressBar(Float(progress))
       } else {
         topToolbar.hideProgressBar()
@@ -1909,19 +1912,19 @@ public class BrowserViewController: UIViewController {
           topToolbar.updateProgressBar(1)
         }
       }
-    case .url:
+    case .visibleURL:
       guard let tab = tabManager[webView] else { break }
 
-      // Special case for "about:blank" popups, if the webView.url is nil, keep the tab url as "about:blank"
-      if tab.url?.absoluteString == "about:blank" && webView.url == nil {
+      // Special case for "about:blank" popups, if the webView.lastCommittedURL is nil, keep the tab url as "about:blank"
+      if tab.url?.absoluteString == "about:blank" && webView.lastCommittedURL == nil {
         break
       }
 
       // To prevent spoofing, only change the URL immediately if the new URL is on
       // the same origin as the current URL. Otherwise, do nothing and wait for
       // didCommitNavigation to confirm the page load.
-      if tab.url?.origin == webView.url?.origin {
-        tab.url = webView.url
+      if tab.url?.origin == webView.visibleURL.origin {
+        tab.url = webView.visibleURL
 
         if tab === tabManager.selectedTab && !tab.restoring {
           updateUIForReaderHomeStateForTab(tab)
@@ -1936,7 +1939,7 @@ public class BrowserViewController: UIViewController {
         // didCommit is called and it will cause url bar be empty in that period
         // To fix this when tab display url is empty, webview url is used
         if tab === tabManager.selectedTab, tab.url?.displayURL == nil {
-          if let url = webView.url, !url.isLocal, !InternalURL.isValid(url: url) {
+          if let url = webView.lastCommittedURL, !url.isLocal, !InternalURL.isValid(url: url) {
             updateToolbarCurrentURL(url.displayURL)
           }
         } else if tab === tabManager.selectedTab, tab.isDisplayingBasicAuthPrompt {
@@ -1954,7 +1957,7 @@ public class BrowserViewController: UIViewController {
           url.host == rewardsURL.host
         {
           tab.reportPageNavigation(to: rewards)
-          if let url = webView.url {
+          if let url = webView.lastCommittedURL {
             tab.reportPageLoad(to: rewards, redirectChain: [url])
           }
         }
@@ -1962,24 +1965,16 @@ public class BrowserViewController: UIViewController {
 
       // Update the estimated progress when the URL changes. Estimated progress may update to 0.1 when the url
       // is still an internal URL even though a request may be pending for a web page.
-      if tab === tabManager.selectedTab, let url = webView.url,
+      if tab === tabManager.selectedTab, let url = webView.lastCommittedURL,
         !InternalURL.isValid(url: url), webView.estimatedProgress > 0
       {
         topToolbar.updateProgressBar(Float(webView.estimatedProgress))
-      }
-
-      Task {
-        await tab.updateSecureContentState()
-        self.logSecureContentState(tab: tab, path: .url, change: change)
-        if self.tabManager.selectedTab === tab {
-          self.updateToolbarSecureContentState(tab.lastKnownSecureContentState)
-        }
       }
     case .title:
       // Ensure that the tab title *actually* changed to prevent repeated calls
       // to navigateInTab(tab:).
       guard
-        let title = (webView.title?.isEmpty == true ? webView.url?.absoluteString : webView.title)
+        let title = (webView.title?.isEmpty == true ? webView.lastCommittedURL?.absoluteString : webView.title)
       else { break }
       if !title.isEmpty && title != tab.lastTitle {
         navigateInTab(tab: tab)
@@ -1991,19 +1986,10 @@ public class BrowserViewController: UIViewController {
       }
 
       updateBackForwardActionStatus(for: webView)
-    case .hasOnlySecureContent:
+    case .visibleSSLStatus:
       Task {
         await tab.updateSecureContentState()
-        self.logSecureContentState(tab: tab, path: .hasOnlySecureContent, change: change)
         if tabManager.selectedTab === tab {
-          self.updateToolbarSecureContentState(tab.lastKnownSecureContentState)
-        }
-      }
-    case .serverTrust:
-      Task {
-        await tab.updateSecureContentState()
-        self.logSecureContentState(tab: tab, path: .serverTrust, change: change)
-        if self.tabManager.selectedTab === tab {
           self.updateToolbarSecureContentState(tab.lastKnownSecureContentState)
         }
       }
@@ -2014,43 +2000,43 @@ public class BrowserViewController: UIViewController {
     }
   }
 
-  func logSecureContentState(
-    tab: Tab,
-    path: KVOConstants? = nil,
-    change: [NSKeyValueChangeKey: Any]? = nil
-  ) {
-    var text = """
-      Tab URL: \(tab.url?.absoluteString ?? "Empty Tab URL")
-       Secure State: \(tab.lastKnownSecureContentState.rawValue)
-      """
+//  func logSecureContentState(
+//    tab: Tab,
+//    path: KVOConstants? = nil,
+//    change: [NSKeyValueChangeKey: Any]? = nil
+//  ) {
+//    var text = """
+//      Tab URL: \(tab.url?.absoluteString ?? "Empty Tab URL")
+//       Secure State: \(tab.lastKnownSecureContentState.rawValue)
+//      """
+//
+//    if let keyPath = path?.keyPath {
+//      text.append("\n Value Observed: \(keyPath)\n")
+//    }
+//
+//    if let webView = tab.webView {
+//      text.append(
+//        """
+//         WebView url: \(webView.lastCommittedURL?.absoluteString ?? "nil")
+//         WebView hasOnlySecureContent: \(webView. hasOnlySecureContent ?? false ? "true" : "false")
+//         WebView serverTrust: \(webView.serverTrust != nil ? "present" : "nil")
+//        """
+//      )
+//    }
+//
+//    if let change, path == .serverTrust, let newServerTrust = change[.newKey] {
+//      text.append("\n Change: \(newServerTrust != nil ? "present" : "nil")")
+//    } else if let change, let value = change[.newKey] {
+//      text.append("\n Change: \(String(describing: value))")
+//    }
+//
+//    DebugLogger.log(for: .secureState, text: text)
+//  }
 
-    if let keyPath = path?.keyPath {
-      text.append("\n Value Observed: \(keyPath)\n")
-    }
-
-    if let webView = tab.webView {
-      text.append(
-        """
-         WebView url: \(webView.url?.absoluteString ?? "nil")
-         WebView hasOnlySecureContent: \(webView.hasOnlySecureContent ? "true" : "false")
-         WebView serverTrust: \(webView.serverTrust != nil ? "present" : "nil")
-        """
-      )
-    }
-
-    if let change, path == .serverTrust, let newServerTrust = change[.newKey] {
-      text.append("\n Change: \(newServerTrust != nil ? "present" : "nil")")
-    } else if let change, let value = change[.newKey] {
-      text.append("\n Change: \(String(describing: value))")
-    }
-
-    DebugLogger.log(for: .secureState, text: text)
-  }
-
-  func updateBackForwardActionStatus(for webView: WKWebView?) {
+  func updateBackForwardActionStatus(for webView: BraveWebView?) {
     guard let webView = webView else { return }
 
-    if let forwardListItem = webView.backForwardList.forwardList.first,
+    if let forwardListItem = webView.underlyingWebView?.backForwardList.forwardList.first,
       forwardListItem.url.isInternalURL(for: .readermode)
     {
       navigationToolbar.updateForwardStatus(false)
@@ -2324,14 +2310,14 @@ public class BrowserViewController: UIViewController {
       let zoomLevel =
         privateBrowsingManager.isPrivateBrowsing
         ? 1.0 : domain?.zoom_level?.doubleValue ?? Preferences.General.defaultPageZoomLevel.value
-      tab.webView?.setValue(zoomLevel, forKey: PageZoomHandler.propertyName)
+      tab.webView?.underlyingWebView?.setValue(zoomLevel, forKey: PageZoomHandler.propertyName)
     }
   }
 
   public override var preferredStatusBarStyle: UIStatusBarStyle {
     if isUsingBottomBar, let tab = tabManager.selectedTab,
       tab.url.map(InternalURL.isValid) == false,
-      let color = tab.webView?.sampledPageTopColor
+      let color = tab.webView?.underlyingWebView?.sampledPageTopColor
     {
       return color.isLight ? .darkContent : .lightContent
     }
@@ -2342,7 +2328,7 @@ public class BrowserViewController: UIViewController {
     defer { setNeedsStatusBarAppearanceUpdate() }
     guard isUsingBottomBar, let tab = tabManager.selectedTab,
       tab.url.map(InternalURL.isValid) == false,
-      let color = tab.webView?.sampledPageTopColor
+      let color = tab.webView?.underlyingWebView?.sampledPageTopColor
     else {
       statusBarOverlay.backgroundColor = privateBrowsingManager.browserColors.chromeBackground
       return
@@ -2358,7 +2344,7 @@ public class BrowserViewController: UIViewController {
       return
     }
 
-    if let url = webView.url {
+    if let url = webView.lastCommittedURL {
       // Whether to show search icon or + icon
       toolbar?.setSearchButtonState(url: url)
 
@@ -2367,7 +2353,7 @@ public class BrowserViewController: UIViewController {
         // because that event will not always fire due to unreliable page caching. This will either let us know that
         // the currently loaded page can be turned into reading mode or if the page already is in reading mode. We
         // ignore the result because we are being called back asynchronous when the readermode status changes.
-        webView.evaluateSafeJavaScript(
+        webView.underlyingWebView?.evaluateSafeJavaScript(
           functionName: "\(readerModeNamespace).checkReadability",
           contentWorld: ReaderModeScriptHandler.scriptSandbox
         )
@@ -2628,12 +2614,14 @@ extension BrowserViewController: TabsBarViewControllerDelegate {
 }
 
 extension BrowserViewController: TabDelegate {
-  func tab(_ tab: Tab, didCreateWebView webView: WKWebView) {
+  func tab(_ tab: Tab, didCreateWebView webView: BraveWebView) {
     webView.frame = webViewContainer.frame
 
     // Observers that live as long as the tab. Make sure these are all cleared in willDeleteWebView below!
     KVOs.forEach { webView.addObserver(self, forKeyPath: $0.keyPath, options: .new, context: nil) }
-    webView.uiDelegate = self
+    webViewKVOs.forEach { webView.underlyingWebView?.addObserver(self, forKeyPath: $0.keyPath, options: .new, context: nil )}
+    // FIXME: UI Delegate
+//    webView.uiDelegate = self
 
     var injectedScripts: [TabContentScript] = [
       ReaderModeScriptHandler(tab: tab),
@@ -2718,7 +2706,7 @@ extension BrowserViewController: TabDelegate {
       as? Web3NameServiceScriptHandler)?.delegate = self
   }
 
-  func tab(_ tab: Tab, willDeleteWebView webView: WKWebView) {
+  func tab(_ tab: Tab, willDeleteWebView webView: BraveWebView) {
     tab.cancelQueuedAlerts()
     KVOs.forEach { webView.removeObserver(self, forKeyPath: $0.keyPath) }
     toolbarVisibilityViewModel.endScrollViewObservation(webView.scrollView)
@@ -2760,9 +2748,8 @@ extension BrowserViewController: TabDelegate {
 
   /// Triggered when "Find in Page" is selected on selected text
   func tab(_ tab: Tab, didSelectFindInPageFor selectedText: String) {
-    if let findInteraction = tab.webView?.findInteraction {
-      findInteraction.searchText = selectedText
-      findInteraction.presentFindNavigator(showingReplace: false)
+    if let findInteraction = tab.webView?.findInPageController {
+      findInteraction.findString(inPage: selectedText)
     }
   }
 
@@ -2978,14 +2965,14 @@ extension BrowserViewController: SearchViewControllerDelegate {
     shouldFindInPage query: String
   ) {
     topToolbar.leaveOverlayMode()
-    if let findInteraction = tabManager.selectedTab?.webView?.findInteraction {
+    if let findInteraction = tabManager.selectedTab?.webView?.underlyingWebView?.findInteraction {
       findInteraction.searchText = query
       findInteraction.presentFindNavigator(showingReplace: false)
     }
   }
 
   func searchViewControllerAllowFindInPage() -> Bool {
-    if let url = tabManager.selectedTab?.webView?.url,
+    if let url = tabManager.selectedTab?.webView?.lastCommittedURL,
       let internalURL = InternalURL(url),
       internalURL.isAboutHomeURL
     {
@@ -3273,7 +3260,7 @@ extension BrowserViewController: PreferencesObserver {
       recordGlobalFingerprintingShieldsP3A()
     case Preferences.General.defaultPageZoomLevel.key:
       tabManager.allTabs.forEach({
-        guard let url = $0.webView?.url else { return }
+        guard let url = $0.webView?.lastCommittedURL else { return }
         let zoomLevel =
           $0.isPrivate
           ? 1.0
@@ -3289,7 +3276,7 @@ extension BrowserViewController: PreferencesObserver {
         self.tabManager.reloadSelectedTab()
         for tab in self.tabManager.allTabs where tab != self.tabManager.selectedTab {
           tab.createWebview()
-          if let url = tab.webView?.url {
+          if let url = tab.webView?.lastCommittedURL {
             tab.loadRequest(PrivilegedRequest(url: url) as URLRequest)
           }
         }
@@ -3505,7 +3492,7 @@ extension BrowserViewController: UIScreenshotServiceDelegate {
       guard screenshotService.windowScene != nil,
         presentedViewController == nil,
         let webView = tabManager.selectedTab?.webView,
-        let url = webView.url,
+        let url = webView.lastCommittedURL,
         url.isWebPage()
       else {
         continuation.resume(returning: (nil, 0, .zero))
@@ -3517,8 +3504,7 @@ extension BrowserViewController: UIScreenshotServiceDelegate {
       rect.origin.y =
         webView.scrollView.contentSize.height - rect.height - webView.scrollView.contentOffset.y
 
-      webView.createPDF { result in
-
+      webView.underlyingWebView?.createPDF { result in
         switch result {
         case .success(let data):
           continuation.resume(returning: (data, 0, rect))
@@ -3588,7 +3574,7 @@ extension BrowserViewController {
 
     let getServerTrustForErrorPage = { () -> SecTrust? in
       do {
-        if let url = webView.url {
+        if let url = webView.lastCommittedURL {
           return try ErrorPageHelper.serverTrust(from: url)
         }
       } catch {
@@ -3598,11 +3584,12 @@ extension BrowserViewController {
       return nil
     }
 
-    guard let trust = webView.serverTrust ?? getServerTrustForErrorPage() else {
+    // FIXME: Certificate
+    guard let trust = webView.underlyingWebView?.serverTrust ?? getServerTrustForErrorPage() else {
       return
     }
 
-    let host = webView.url?.host
+    let host = webView.lastCommittedURL?.host
 
     Task.detached {
       let serverCertificates: [SecCertificate] =
@@ -3635,7 +3622,7 @@ extension BrowserViewController {
 
         await MainActor.run { [errorDescription] in
           // System components sit on top so we want to dismiss it
-          webView.findInteraction?.dismissFindNavigator()
+          webView.findInPageController.stopFindInPage()
           let certificateViewController = CertificateViewController(
             certificate: certificate,
             evaluationError: errorDescription
@@ -3656,7 +3643,7 @@ extension BrowserViewController {
   }
 
   func openBraveLeo(with query: String? = nil) {
-    let webView = (query == nil) ? tabManager.selectedTab?.webView : nil
+    let webView = (query == nil) ? tabManager.selectedTab?.webView?.underlyingWebView : nil
 
     let model = AIChatViewModel(
       braveCore: braveCore,
