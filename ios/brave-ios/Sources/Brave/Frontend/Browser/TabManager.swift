@@ -460,12 +460,10 @@ class TabManager: NSObject {
 
   @MainActor func addPopupForParentTab(
     _ parentTab: Tab,
-    configuration: WKWebViewConfiguration
+    configuration: CWVWebViewConfiguration
   ) -> Tab {
-    let popup = Tab(
+    let popup = parentTab.childPopupTab(
       configuration: configuration,
-      id: UUID(),
-      type: parentTab.type,
       tabGeneratorAPI: tabGeneratorAPI
     )
     configureTab(
@@ -554,7 +552,8 @@ class TabManager: NSObject {
     let tabId = id ?? UUID()
     let type: TabType = isPrivate ? .private : .regular
     let tab = Tab(
-      configuration: configuration,
+      wkConfiguration: configuration,
+      configuration: nil,
       id: tabId,
       type: type,
       tabGeneratorAPI: tabGeneratorAPI
@@ -880,7 +879,7 @@ class TabManager: NSObject {
   }
 
   @MainActor private func forgetData(for url: URL, in tab: Tab?) async {
-    await forgetData(for: [url], dataStore: tab?.webView?.underlyingWebView?.configuration.websiteDataStore)
+    await forgetData(for: [url], dataStore: tab?.webView?.wkConfiguration.websiteDataStore)
 
     ContentBlockerManager.log.debug("Cleared website data for `\(url.baseDomain ?? "")`")
     if let etldP1 = url.baseDomain, let tab {
@@ -1063,7 +1062,7 @@ class TabManager: NSObject {
 
   func removeAllBrowsingDataForTab(_ tab: Tab, completionHandler: @escaping () -> Void = {}) {
     let dataTypes = WKWebsiteDataStore.allWebsiteDataTypes()
-    tab.webView?.underlyingWebView?.configuration.websiteDataStore.removeData(
+    tab.webView?.wkConfiguration.websiteDataStore.removeData(
       ofTypes: dataTypes,
       modifiedSince: Date.distantPast,
       completionHandler: completionHandler
@@ -1591,7 +1590,7 @@ extension TabManager: PreferencesObserver {
       let allowPopups = !Preferences.General.blockPopups.value
       // Each tab may have its own configuration, so we should tell each of them in turn.
       allTabs.forEach {
-        $0.webView?.underlyingWebView?.configuration.preferences
+        $0.webView?.wkConfiguration.preferences
           .javaScriptCanOpenWindowsAutomatically = allowPopups
       }
       // The default tab configurations also need to change.
