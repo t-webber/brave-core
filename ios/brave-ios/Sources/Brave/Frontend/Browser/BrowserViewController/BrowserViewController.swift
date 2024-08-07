@@ -2602,7 +2602,6 @@ extension BrowserViewController: TabDelegate {
 
     var injectedScripts: [TabContentScript] = [
       ReaderModeScriptHandler(tab: tab),
-      ErrorPageHelper(certStore: profile.certStore),
       SessionRestoreScriptHandler(tab: tab),
       BlockedDomainScriptHandler(tab: tab),
       HTTPBlockedScriptHandler(tab: tab, tabManager: tabManager),
@@ -3543,18 +3542,6 @@ extension BrowserViewController {
     guard let tab = tabManager.selectedTab, let webView = tab.webView else {
       Logger.module.error("Invalid WebView")
       return
-    }
-
-    let getServerTrustForErrorPage = { () -> SecTrust? in
-      do {
-        if let url = webView.lastCommittedURL {
-          return try ErrorPageHelper.serverTrust(from: url)
-        }
-      } catch {
-        Logger.module.error("\(error.localizedDescription)")
-      }
-
-      return nil
     }
 
     Task.detached {
