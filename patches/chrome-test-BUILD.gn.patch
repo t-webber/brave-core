@@ -1,8 +1,8 @@
 diff --git a/chrome/test/BUILD.gn b/chrome/test/BUILD.gn
-index f6ba7799556ad6626825727071c20e29df4be6af..d96489f1776c3e0772d013805cf60ae5a11543ae 100644
+index 157749e08ba62fb61e79bff0720be073c3717c64..9d5c5dcd7839c31093493ed47bb9120d2d758166 100644
 --- a/chrome/test/BUILD.gn
 +++ b/chrome/test/BUILD.gn
-@@ -565,6 +565,7 @@ static_library("test_support") {
+@@ -568,6 +568,7 @@ static_library("test_support") {
      "//ui/gl",
    ]
  
@@ -10,7 +10,7 @@ index f6ba7799556ad6626825727071c20e29df4be6af..d96489f1776c3e0772d013805cf60ae5
    data = []
    data_deps = []
  
-@@ -3277,7 +3278,6 @@ if (!is_android) {
+@@ -3293,7 +3294,6 @@ if (!is_android) {
            "../browser/safe_browsing/cloud_content_scanning/cloud_binary_upload_service_browsertest.cc",
            "../browser/safe_browsing/download_protection/deep_scanning_browsertest.cc",
          ]
@@ -18,15 +18,11 @@ index f6ba7799556ad6626825727071c20e29df4be6af..d96489f1776c3e0772d013805cf60ae5
        }
      }
  
-@@ -9593,7 +9593,10 @@ test("unit_tests") {
-       "../browser/enterprise/connectors/analysis/analysis_service_settings_unittest.cc",
-       "../browser/enterprise/connectors/connectors_manager_unittest.cc",
+@@ -9601,6 +9601,7 @@ test("unit_tests") {
+       "../browser/enterprise/connectors/connectors_service_unittest.cc",
      ]
--    deps += [ "//components/enterprise/connectors/core" ]
-+    deps += [
-+      "//chrome/browser/enterprise/connectors/analysis:features",
-+      "//components/enterprise/connectors/core",
-+    ]
+     deps += [ "//components/enterprise/connectors/core" ]
++    deps += [ "//chrome/browser/enterprise/connectors/analysis:features" ]
    }
  
    if (enterprise_cloud_content_analysis) {
