@@ -95,17 +95,22 @@ extension WKWebView {
     escapeArgs: Bool = true,
     asFunction: Bool = true
   ) async -> (Any?, Error?) {
-    await withCheckedContinuation { continuation in
-      evaluateSafeJavaScript(
+    var javascript = functionName
+    if asFunction {
+      let js = generateJSFunctionString(
         functionName: functionName,
         args: args,
-        frame: frame,
-        contentWorld: contentWorld,
-        escapeArgs: escapeArgs,
-        asFunction: asFunction
-      ) { value, error in
-        continuation.resume(returning: (value, error))
+        escapeArgs: escapeArgs
+      )
+      if js.error != nil {
+        return (nil, js.error)
       }
+      javascript = js.javascript
+    }
+    do {
+      return (try await evaluateJavaScript(javascript, in: frame, contentWorld: contentWorld), nil)
+    } catch {
+      return (nil, error)
     }
   }
 

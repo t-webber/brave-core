@@ -23,7 +23,7 @@ extension AccessibleAction {  // UIAccessibilityCustomAction
     return handler()
   }
 
-  public var accessibilityCustomAction: UIAccessibilityCustomAction {
+  @MainActor public var accessibilityCustomAction: UIAccessibilityCustomAction {
     return UIAccessibilityCustomAction(
       name: name,
       target: self,

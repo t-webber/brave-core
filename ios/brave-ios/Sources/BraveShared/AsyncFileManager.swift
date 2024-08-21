@@ -10,11 +10,11 @@ import Foundation
 /// is required to be done in sequence with other calls (at which point, use FileManager + Dispatch)
 ///
 /// Simply replace `FileManager.default` with `AsyncFileManager.default` and add `await`
-public final class AsyncFileManager {
+public final class AsyncFileManager: Sendable {
   public static let `default` = AsyncFileManager(fileManager: .default)
 
   /// The underlying file manager to execute items on
-  private let fileManager: FileManager
+  nonisolated(unsafe) private let fileManager: FileManager
 
   /// Create an `AsyncFileManager` with a `FileManager`
   public init(fileManager: FileManager) {

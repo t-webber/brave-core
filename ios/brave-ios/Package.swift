@@ -84,7 +84,7 @@ var package = Package(
         "SwiftyJSON",
       ],
       swiftSettings: [
-        .swiftLanguageVersion(.version("6"))
+        .swiftLanguageMode(.version("6"))
       ],
       plugins: ["LoggerPlugin"]
     ),
@@ -92,7 +92,7 @@ var package = Package(
       name: "BraveShared",
       dependencies: ["BraveCore", "Shared", "Preferences"],
       swiftSettings: [
-        .swiftLanguageVersion(.version("6"))
+        .swiftLanguageMode(.v6)
       ],
       plugins: ["LoggerPlugin"]
     ),
@@ -100,7 +100,7 @@ var package = Package(
       name: "CertificateUtilities",
       dependencies: ["Shared"],
       swiftSettings: [
-        .swiftLanguageVersion(.version("6"))
+        .swiftLanguageMode(.v6)
       ],
       plugins: ["LoggerPlugin"]
     ),
@@ -117,7 +117,7 @@ var package = Package(
       name: "BraveStrings",
       dependencies: ["Strings", "Preferences"],
       swiftSettings: [
-        .swiftLanguageVersion(.version("6"))
+        .swiftLanguageMode(.v6)
       ]
     ),
     .target(
@@ -127,7 +127,7 @@ var package = Package(
         .product(name: "OrderedCollections", package: "swift-collections"),
       ],
       swiftSettings: [
-        .swiftLanguageVersion(.version("6"))
+        .swiftLanguageMode(.v6)
       ],
       plugins: ["LoggerPlugin"]
     ),
@@ -312,7 +312,7 @@ var package = Package(
       name: "Preferences",
       dependencies: ["Shared"],
       swiftSettings: [
-        .swiftLanguageVersion(.version("6"))
+        .swiftLanguageMode(.version("6"))
       ],
       plugins: ["LoggerPlugin"]
     ),
@@ -452,6 +452,7 @@ var package = Package(
     ),
     .executableTarget(name: "LeoAssetCatalogGenerator"),
   ],
+  swiftLanguageModes: [.v5],
   cxxLanguageStandard: .cxx17
 )
 

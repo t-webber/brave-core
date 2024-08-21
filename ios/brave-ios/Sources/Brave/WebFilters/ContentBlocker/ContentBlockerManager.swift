@@ -363,10 +363,14 @@ import os.log
           mode: mode
         )
 
-        self.cachedRuleLists[identifier] = .success(ruleList)
+        await MainActor.run {
+          self.cachedRuleLists[identifier] = .success(ruleList)
+        }
         Self.log.debug("Compiled rule list for `\(identifier)` v\(version)")
       } catch {
-        self.cachedRuleLists[identifier] = .failure(error)
+        await MainActor.run {
+          self.cachedRuleLists[identifier] = .failure(error)
+        }
         Self.log.debug(
           "Failed to compile rule list for `\(identifier)` v\(version): \(String(describing: error))"
         )

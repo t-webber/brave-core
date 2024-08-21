@@ -177,7 +177,7 @@ public class BraveRewards: PreferencesObserver {
     }
   }
 
-  func reset() async {
+  @MainActor func reset() async {
     try? await AsyncFileManager.default.removeItem(
       at: configuration.storageURL.appendingPathComponent("ledger")
     )
