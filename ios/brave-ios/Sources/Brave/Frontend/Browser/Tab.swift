@@ -373,6 +373,8 @@ class Tab: NSObject {
   /// tab instance, queue it for later until we become foregrounded.
   fileprivate var alertQueue = [JSAlertInfo]()
 
+  var sampledTopPageColorNotifier: SampledTopPageColorNotifier?
+
   var nightMode: Bool {
     didSet {
       var isNightModeEnabled = false
