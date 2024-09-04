@@ -1,0 +1,40 @@
+From b27e163073a0c8ebc928e34f7a9bdf9ebf6b5930 Mon Sep 17 00:00:00 2001
+From: Justin Cohen <justincohen@google.com>
+Date: Tue, 6 Aug 2024 19:31:08 +0000
+Subject: [PATCH] ios: Fix updateTraitsIfNeeded availability check.
+
+This will otherwise (correctly) fail to compile with the latest Xcode.
+
+Change-Id: I0e1dd0f070d722fca570f4434f0c2248612534fb
+Reviewed-on: https://chromium-review.googlesource.com/c/chromium/src/+/5767115
+Commit-Queue: Joemer Ramos <joemerramos@chromium.org>
+Commit-Queue: Justin Cohen <justincohen@chromium.org>
+Auto-Submit: Justin Cohen <justincohen@chromium.org>
+Owners-Override: Justin Cohen <justincohen@chromium.org>
+Reviewed-by: Joemer Ramos <joemerramos@chromium.org>
+Cr-Commit-Position: refs/heads/main@{#1338044}
+---
+ .../browser_view/ui_bundled/browser_view_controller.mm   | 9 ++++-----
+ 1 file changed, 4 insertions(+), 5 deletions(-)
+
+diff --git a/ios/chrome/browser/browser_view/ui_bundled/browser_view_controller.mm b/ios/chrome/browser/browser_view/ui_bundled/browser_view_controller.mm
+index 7972925b8b8ca7..b8ee533287dc5a 100644
+--- a/ios/chrome/browser/browser_view/ui_bundled/browser_view_controller.mm
++++ b/ios/chrome/browser/browser_view/ui_bundled/browser_view_controller.mm
+@@ -1006,12 +1006,11 @@ - (void)didReceiveMemoryWarning {
+ - (void)traitCollectionDidChange:(UITraitCollection*)previousTraitCollection {
+   [super traitCollectionDidChange:previousTraitCollection];
+ 
+-#if defined(__IPHONE_17_0) && __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_17_0
+-  if (base::ios::IsRunningOnIOS17OrLater() &&
+-      base::FeatureList::IsEnabled(kEnableTraitCollectionWorkAround)) {
+-    [self updateTraitsIfNeeded];
++  if (@available(iOS 17.0, *)) {
++    if (base::FeatureList::IsEnabled(kEnableTraitCollectionWorkAround)) {
++      [self updateTraitsIfNeeded];
++    }
+   }
+-#endif
+ 
+   // After `-shutdown` is called, browserState is invalid and will cause a
+   // crash.
