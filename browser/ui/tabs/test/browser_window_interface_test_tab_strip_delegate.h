@@ -3,6 +3,9 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
+#ifndef BRAVE_BROWSER_UI_TABS_TEST_BROWSER_WINDOW_INTERFACE_TEST_TAB_STRIP_DELEGATE_H_
+#define BRAVE_BROWSER_UI_TABS_TEST_BROWSER_WINDOW_INTERFACE_TEST_TAB_STRIP_DELEGATE_H_
+
 #include <memory>
 
 #include "chrome/browser/ui/browser_window/public/browser_window_features.h"
@@ -62,7 +65,7 @@ class BrowserWindowInterfaceTestTabStripModelDelegate
     base::CallbackListSubscription RegisterDidBecomeActive(
         DidBecomeActiveCallback callback) override;
     base::CallbackListSubscription RegisterDidBecomeInactive(
-      DidBecomeInactiveCallback callback) override;
+        DidBecomeInactiveCallback callback) override;
     ExclusiveAccessManager* GetExclusiveAccessManager() override;
     BrowserActions* GetActions() override;
     BrowserWindowInterface::Type GetType() const override;
@@ -96,3 +99,5 @@ class BrowserWindowInterfaceTestTabStripModelDelegate
  private:
   std::unique_ptr<BrowserWindowInterface> interface_;
 };
+
+#endif  // BRAVE_BROWSER_UI_TABS_TEST_BROWSER_WINDOW_INTERFACE_TEST_TAB_STRIP_DELEGATE_H_
