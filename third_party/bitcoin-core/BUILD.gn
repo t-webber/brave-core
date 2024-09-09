@@ -9,6 +9,10 @@ config("warnings") {
   }
 }
 
+config("no-optimize") {
+  cflags = [ "-O0" ]
+}
+
 config("external_config") {
   # Use full path for the override location because the include looks in the
   # root
@@ -116,10 +120,39 @@ static_library("secp256k1") {
     "src/src/secp256k1/src/scalar.h",
     "src/src/secp256k1/src/scalar_8x32.h",
     "src/src/secp256k1/src/scalar_8x32_impl.h",
-    "src/src/secp256k1/src/scalar_impl.h",
     "src/src/secp256k1/src/scratch.h",
     "src/src/secp256k1/src/scratch_impl.h",
     "src/src/secp256k1/src/selftest.h",
     "src/src/secp256k1/src/util.h",
   ]
+
+  deps = []
+  if ((is_android || is_macos) && target_cpu == "arm64") {
+    deps += [ ":secp256k1_unoptimized_sources" ]
+  } else {
+    sources += [ "src/src/secp256k1/src/scalar_impl.h" ]
+  }
+}
+
+source_set("secp256k1_unoptimized_sources") {
+  configs -= [ "//build/config/compiler:chromium_code" ]
+  configs += [
+    "//build/config/compiler:no_chromium_code",
+    ":no-optimize",
+  ]
+
+  include_dirs = [ "src/src/secp256k1" ]
+  defines = [
+    "USE_NUM_NONE",
+    "USE_FORCE_WIDEMUL_INT64",
+    "USE_FIELD_INV_BUILTIN",
+    "USE_SCALAR_INV_BUILTIN",
+    "ECMULT_WINDOW_SIZE=15",
+    "ECMULT_GEN_PREC_BITS=4",
+    "ENABLE_MODULE_RECOVERY",
+  ]
+
+  visibility = [ ":secp256k1" ]
+
+  sources = [ "src/src/secp256k1/src/scalar_impl.h" ]
 }
