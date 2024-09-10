@@ -1,5 +1,5 @@
 diff --git a/chrome/browser/resources/downloads/downloads.ts b/chrome/browser/resources/downloads/downloads.ts
-index bb295d55818aa3c98e402c44e083e2422fa999f9..28b5b068e2c3d81d2c43f9a68f23bb2a9700315e 100644
+index 42bc42a6d52b44caf3ac344cda06cfb3b0554c89..259033713a94b4295a931fad6c8c3cc14c98f09c 100644
 --- a/chrome/browser/resources/downloads/downloads.ts
 +++ b/chrome/browser/resources/downloads/downloads.ts
 @@ -2,6 +2,7 @@
@@ -9,4 +9,4 @@ index bb295d55818aa3c98e402c44e083e2422fa999f9..28b5b068e2c3d81d2c43f9a68f23bb2a
 +import './brave_overrides/index.js';
  import './manager.js';
  
- export {CrToastManagerElement} from 'chrome://resources/cr_elements/cr_toast/cr_toast_manager.js';
+ export {CrIconElement} from 'chrome://resources/cr_elements/cr_icon/cr_icon.js';

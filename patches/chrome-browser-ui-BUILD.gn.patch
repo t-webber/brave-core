@@ -1,16 +1,16 @@
 diff --git a/chrome/browser/ui/BUILD.gn b/chrome/browser/ui/BUILD.gn
-index 9490a6b5e4bcf1ffa9f6fb779cb869d63bc8d85d..372f501775a379a633f879c4e3ac1e6b46cb60de 100644
+index 2dc0c8d442f0d49d88a8f88bb69e84bb257d4392..354e99cf8b6fea2f8a6cea4277d14f0e87ff95f6 100644
 --- a/chrome/browser/ui/BUILD.gn
 +++ b/chrome/browser/ui/BUILD.gn
-@@ -766,6 +766,7 @@ static_library("ui") {
- 
+@@ -770,6 +770,7 @@ static_library("ui") {
      "//chrome/browser/ui/bluetooth:impl",
+     "//chrome/browser/picture_in_picture:impl",
    ]
 +  public_deps += [ "//brave/browser/ui" ] allow_circular_includes_from += [ "//brave/browser/ui" ]
  
    if (enable_vr && is_win) {
      deps += [ "//chrome/browser/vr:vr_base" ]
-@@ -3854,7 +3855,10 @@ static_library("ui") {
+@@ -3846,7 +3847,10 @@ static_library("ui") {
        ]
        deps += [ "//chrome/updater/app/server/win:updater_legacy_idl" ]
      } else {
