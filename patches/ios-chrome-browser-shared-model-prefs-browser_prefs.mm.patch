@@ -1,5 +1,5 @@
 diff --git a/ios/chrome/browser/shared/model/prefs/browser_prefs.mm b/ios/chrome/browser/shared/model/prefs/browser_prefs.mm
-index 6c8e02352eab57cb2c248bcc8751bde18f9e5a3b..b090e6249577eab9a2128e731ca22a1ce1fa2b5d 100644
+index e64f136238262281faad2897262cddbf2bda4474..9fbc5e3c3d558d4c276d1822bd914423ad51f2ac 100644
 --- a/ios/chrome/browser/shared/model/prefs/browser_prefs.mm
 +++ b/ios/chrome/browser/shared/model/prefs/browser_prefs.mm
 @@ -692,6 +692,7 @@ void RegisterLocalStatePrefs(PrefRegistrySimple* registry) {
@@ -10,10 +10,10 @@ index 6c8e02352eab57cb2c248bcc8751bde18f9e5a3b..b090e6249577eab9a2128e731ca22a1c
  }
  
  void RegisterBrowserStatePrefs(user_prefs::PrefRegistrySyncable* registry) {
-@@ -1028,6 +1029,7 @@ void RegisterBrowserStatePrefs(user_prefs::PrefRegistrySyncable* registry) {
-   registry->RegisterStringPref(kSyncPasswordLengthAndHashSalt, std::string());
-   registry->RegisterStringPref(kContextualSearchEnabled, std::string());
+@@ -1032,6 +1033,7 @@ void RegisterBrowserStatePrefs(user_prefs::PrefRegistrySyncable* registry) {
    registry->RegisterInt64Pref(kNtpShownBookmarksFolder, 3);
+ 
+   registry->RegisterDictionaryPref(prefs::kIosPreRestoreAccountInfo);
 +  BRAVE_REGISTER_BROWSER_STATE_PREFS
  }
  
