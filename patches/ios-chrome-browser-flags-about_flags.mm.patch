@@ -1,8 +1,8 @@
 diff --git a/ios/chrome/browser/flags/about_flags.mm b/ios/chrome/browser/flags/about_flags.mm
-index 1cb0153464862ee75a1e78511a6104e2b9acdad8..e4364733180ea6f987f1b0fc3f077a52ca10257e 100644
+index e578fe1f7656c345de8a28a2b34b1cf244ab5993..dc9297db0963cb8518a3602e40e4ab188dbb66eb 100644
 --- a/ios/chrome/browser/flags/about_flags.mm
 +++ b/ios/chrome/browser/flags/about_flags.mm
-@@ -991,6 +991,7 @@ const FeatureEntry::FeatureVariation kTabResumption2Variations[] = {
+@@ -1012,6 +1012,7 @@ const FeatureEntry::FeatureVariation kEphemeralCardRankerCardOverrideOptions[] =
  //
  // When adding a new choice, add it to the end of the list.
  const flags_ui::FeatureEntry kFeatureEntries[] = {

@@ -1,8 +1,8 @@
 diff --git a/chrome/browser/about_flags.cc b/chrome/browser/about_flags.cc
-index 11577a88e8328b8b1a0aad248b3e51a507fa9633..d149c0464239e869cc568622baa861362d53f723 100644
+index a1d962ecd7bc9adf774eadb680f08bdeb8abed2a..6b78f825a334668fe34d0c659ebfd82c9373cea2 100644
 --- a/chrome/browser/about_flags.cc
 +++ b/chrome/browser/about_flags.cc
-@@ -4148,6 +4148,7 @@ const FeatureEntry::FeatureVariation kClayBlockingVariations[] = {
+@@ -4160,6 +4160,7 @@ const FeatureEntry::FeatureVariation kClayBlockingVariations[] = {
  //
  // When adding a new choice, add it to the end of the list.
  const FeatureEntry kFeatureEntries[] = {
