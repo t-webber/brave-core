@@ -982,9 +982,6 @@ Permissions you've already given to websites and apps may apply to this account.
         <message name="IDS_ENTERPRISE_SIGNIN_WORK_PROFILE_EXPLANATION" desc="The warning message displayed to an enterprise user about to link their profile to their Brave account. This message is followed by a 'Learn more' link.">
           Any Brave data that is generated during the use of this profile (such as the creation of bookmarks, history, passwords, and other settings) can be removed by the work profile administrator. <ph name="LEARN_MORE">$1<ex>Learn more</ex></ph>
         </message>
-        <message name="IDS_ENTERPRISE_WELCOME_PROFILE_INFORMATION_DETAILS" desc="Paragraph disclaiming to the user what their organization can do with their profile information.">
-          Your organization can see and manage browsing data in your work profile, such as your bookmarks, history, and passwords. It can’t see browsing data in personal Brave profiles.
-        </message>
         <!-- New one-click sign-in dialog contents for SAML support -->
         <message name="IDS_ONE_CLICK_SIGNIN_DIALOG_TITLE_NEW" desc="The title of the modal dialog window that opens when the user chooses to use one click sign-in.">
           You're signed in to Brave!
@@ -1450,6 +1447,9 @@ Permissions you've already given to websites and apps may apply to this account.
       <!-- User menu errors -->
       <message name="IDS_SYNC_ERROR_USER_MENU_UPGRADE_BUTTON" desc="Button in the header of desktop user menu that prompts the user to update Brave to fix the out-of-date Brave client error.">
         Update Brave
+      </message>
+      <message name="IDS_SYNC_ERROR_PASSPHRASE_USER_MENU_TITLE_SIGNED_IN_ONLY" desc="Title of the sync/signin error header of desktop user menu. Shown for users who are signed-in but not syncing.">
+        To use and save Brave data in your Brave sync chain, enter your passphrase
       </message>
 
       <!-- Sync errors. Android uses native UI to handle Sync settings -->

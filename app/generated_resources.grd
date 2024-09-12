@@ -6707,18 +6707,6 @@ Keep your key file in a safe place. You will need it to create new versions of y
         <message name="IDS_PASSWORD_GENERATION_SUGGESTION_GPM_WITHOUT_STRONG" desc="Text shown next to a generated password describing it as a suggestion.">
           Use suggested password
         </message>
-        <message name="IDS_PASSWORD_GENERATION_SUGGESTION_TRUSTED_ADVICE" desc="Text shown next to a generated password describing it as recommended.">
-          Use recommended password
-        </message>
-        <message name="IDS_PASSWORD_GENERATION_SUGGESTION_SAFETY_FIRST" desc="Text shown next to a generated password describing it as safe.">
-          Use a safer password
-        </message>
-        <message name="IDS_PASSWORD_GENERATION_SUGGESTION_TRY_SOMETHING_NEW" desc="Text shown next to a generated password describing it in a reassuring way.">
-          Try a new password
-        </message>
-        <message name="IDS_PASSWORD_GENERATION_SUGGESTION_CONVENIENCE" desc="Text shown next to a generated password describing its convenience.">
-          Quickly use a strong password
-        </message>
         <message name="IDS_PASSWORD_GENERATION_NUDGE_CANCEL_BUTTON" desc="Text shown on a cancel button in the password generation flow.">
           Choose your own
         </message>
@@ -6735,18 +6723,6 @@ Keep your key file in a safe place. You will need it to create new versions of y
         </message>
         <message name="IDS_PASSWORD_GENERATION_SUGGESTION_GPM_WITHOUT_STRONG" desc="In Title Case: Text shown next to a generated password describing it as a suggestion.">
           Use Suggested Password
-        </message>
-        <message name="IDS_PASSWORD_GENERATION_SUGGESTION_TRUSTED_ADVICE" desc="Text shown next to a generated password describing it as recommended.">
-          Use Recommended Password
-        </message>
-        <message name="IDS_PASSWORD_GENERATION_SUGGESTION_SAFETY_FIRST" desc="Text shown next to a generated password describing it as safe.">
-          Use a Safer Password
-        </message>
-        <message name="IDS_PASSWORD_GENERATION_SUGGESTION_TRY_SOMETHING_NEW" desc="Text shown next to a generated password describing it in a reassuring way.">
-          Try a New Password
-        </message>
-        <message name="IDS_PASSWORD_GENERATION_SUGGESTION_CONVENIENCE" desc="Text shown next to a generated password describing its convenience.">
-          Quickly Use a Strong Password
         </message>
         <message name="IDS_PASSWORD_GENERATION_NUDGE_CANCEL_BUTTON" desc="Text shown on a cancel button in the password generation flow.">
           Choose Your Own
@@ -6838,35 +6814,8 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_PASSWORD_GENERATION_PROMPT_GOOGLE_PASSWORD_MANAGER" desc="Autofill dropdown text describing password generation.">
           You won't need to remember this password. It will be saved to <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave Password Manager</ex></ph> for <ph name="EMAIL">$2<ex>user@gmail.com</ex></ph>.
       </message>
-      <message name="IDS_PASSWORD_GENERATION_HELP_TEXT_TRUSTED_ADVICE" desc="Autofill dropdown text describing password generation focusing on strong security messaging.">
-          Keep this account more secure with a strong password. It will be saved to <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave Password Manager</ex></ph> for <ph name="EMAIL">$2<ex>user@gmail.com</ex></ph>.
-      </message>
-      <message name="IDS_PASSWORD_GENERATION_HELP_TEXT_SAFETY_FIRST" desc="Autofill dropdown text describing password generation focusing on safety.">
-          Stay safer online with a strong password. It will be saved to <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave Password Manager</ex></ph> for <ph name="EMAIL">$2<ex>user@gmail.com</ex></ph>.
-      </message>
-      <message name="IDS_PASSWORD_GENERATION_HELP_TEXT_TRY_SOMETHING_NEW" desc="Autofill dropdown text describing password generation with a more persuasive and reassuring tone.">
-          You can always change this password later. It will be saved to <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave Password Manager</ex></ph> for <ph name="EMAIL">$2<ex>user@gmail.com</ex></ph>.
-      </message>
-      <message name="IDS_PASSWORD_GENERATION_HELP_TEXT_CONVENIENCE" desc="Autofill dropdown text describing password generation with a convenience proposition.">
-          Sign up and sign in faster when your password is automatically saved to <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave Password Manager</ex></ph> for <ph name="EMAIL">$2<ex>user@gmail.com</ex></ph>.
-      </message>
       <message name="IDS_PASSWORD_GENERATION_NUDGE_TITLE" desc="Autofill dropdown title describing password generation.">
           Brave Password Manager created a strong password for this website
-      </message>
-      <message name="IDS_PASSWORD_GENERATION_BENEFITS" desc="Autofill dropdown text before listing bullet points of password generation benefits.">
-          When you use and save this password:
-      </message>
-      <message name="IDS_PASSWORD_GENERATION_CROSS_DEVICE" desc="Autofill dropdown text describing that the generated password is available cross-device.">
-          It's available on any device
-      </message>
-      <message name="IDS_PASSWORD_GENERATION_SECURITY" desc="Autofill dropdown text describing that the generated password is protected by the best Brave technologies.">
-          It's protected by the best of Brave
-      </message>
-      <message name="IDS_PASSWORD_GENERATION_PROACTIVE_CHECK" desc="Autofill dropdown text describing that the user will be notified whenever their saved generated password is at risk.">
-          You'll be notified if it's ever at risk
-      </message>
-      <message name="IDS_PASSWORD_GENERATION_HELP_TEXT" desc="Autofill dropdown text describing where the generated password is saved and how to access it.">
-          It will be saved to <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave Password Manager</ex></ph> for <ph name="EMAIL">$2<ex>user@gmail.com</ex></ph>.
       </message>
       <message name="IDS_PASSWORD_MANAGEMENT_BUBBLE_FOOTER_ACCOUNT_STORE_USERS" desc="The footer text of the managment bubble the lists saved password for this website. This is used only for account store users.">
         Passwords are saved to <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave Password Manager</ex></ph>.
@@ -8776,6 +8725,18 @@ Keep your key file in a safe place. You will need it to create new versions of y
       </message>
 
       <!-- Bookmarks strings -->
+      <!-- TODO(crbug.com/363277495): Update and mark translateable. -->
+      <message name="IDS_BOOKMARKS_MOVE_TO_ACCOUNT_DIALOG_TITLE" translateable="false" desc="Title for the dialog that offers the user to move a bookmark from their device to their signed-in account.">
+        Save to a folder in your Brave sync chain?
+      </message>
+      <!-- TODO(crbug.com/363277495): Update and mark translateable. -->
+      <message name="IDS_BOOKMARKS_MOVE_TO_ACCOUNT_DIALOG_SUBTITLE" translateable="false" desc="Subtitle for the dialog that offers the user to move a bookmark from their device to their signed-in account.">
+        This bookmark is saved only on this device. You can save it in your Brave sync chain.
+      </message>
+      <!-- TODO(crbug.com/363277495): Update and mark translateable. -->
+      <message name="IDS_BOOKMARKS_MOVE_TO_ACCOUNT_DIALOG_OK_BUTTON_LABEL" translateable="false" desc="OK button label for the dialog that offers the user to move a bookmark from their device to their signed-in account.">
+        Save in account
+      </message>
       <message name="IDS_BOOKMARKS_SORT_BY_TYPE" desc="Menu item label for selecting the bookmarks sort type.">
         Sort by <ph name="SORT_TYPE">$1<ex>Newest</ex></ph>
       </message>
@@ -9064,6 +9025,9 @@ Keep your key file in a safe place. You will need it to create new versions of y
       </message>
       <message name="IDS_READING_MODE_WORD_HIGHLIGHT_LABEL" desc="Dropdown option for setting the word highlight granularity in Read Aloud.">
         Word
+      </message>
+      <message name="IDS_READING_MODE_PHRASE_HIGHLIGHT_LABEL" desc="Dropdown option for setting the phrase highlight granularity in Read Aloud.">
+        Phrase
       </message>
       <message name="IDS_READING_MODE_SENTENCE_HIGHLIGHT_LABEL" desc="Dropdown option for setting the sentence highlight granularity in Read Aloud.">
         Sentence
@@ -11209,6 +11173,21 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave P
       </message>
       <message name="IDS_TAB_ORGANIZATION_THUMBS_UP" desc="Accessibility label for the thumbs up icon that a user can click to provide positive feedback about a tab organization." is_accessibility_with_no_ui="true">
         Thumbs up submits feedback that you like this tab group suggestion
+      </message>
+      <message name="IDS_AUTO_TAB_GROUPS_SELECTOR_HEADING" desc="Heading for the auto tab groups button in the tab organization selector.">
+        Group tabs
+      </message>
+      <message name="IDS_AUTO_TAB_GROUPS_SELECTOR_SUBHEADING" desc="Subheading for the auto tab groups button in the tab organization selector.">
+        Check for suggestions
+      </message>
+      <message name="IDS_DECLUTTER_SELECTOR_HEADING" desc="Heading for the declutter button in the tab organization selector.">
+        {NUM_TABS, plural,
+          =0 {No unused tabs}
+          =1 {Close 1 unused tab}
+          other {Close # unused tabs}}
+      </message>
+      <message name="IDS_DECLUTTER_SELECTOR_SUBHEADING" desc="Subheading for the declutter button in the tab organization selector.">
+        Review and decide
       </message>
       <message name="IDS_DECLUTTER_TITLE" desc="The header text for the declutter UI">
         Close unused tabs
@@ -17090,17 +17069,32 @@ Please help our engineers fix this problem. Tell us what happened right before y
     <message name="IDS_ACCOUNT_SELECTION_CHOOSE_AN_ACCOUNT_BUTTON" desc="Title of the button that lets the user look at all account options. Used when we want to highlight a single returning account in the UI.">
       Choose an account
     </message>
+    <message name="IDS_ACCOUNT_SELECTION_DATA_SHARING_NAME" desc="A user's name, to be used in a list of items shared with a website">
+      name
+    </message>
+    <message name="IDS_ACCOUNT_SELECTION_DATA_SHARING_EMAIL" desc="A user's email address, to be used in a list of items shared with a website">
+      email address
+    </message>
+    <message name="IDS_ACCOUNT_SELECTION_DATA_SHARING_PICTURE" desc="A user's profile picture, to be used in a list of items shared with a website">
+      profile picture
+    </message>
+    <message name="IDS_ACCOUNT_SELECTION_DATA_SHARING_STRING" desc="A list of a number of items (that will be shared with a website), for example 'name and email address'.">
+      {count, plural,
+        =1 {{field_1}}
+        =2 {{field_1} and {field_2}}
+        other {{field_1}, {field_2}, and {field_3}}}
+    </message>
     <message name="IDS_ACCOUNT_SELECTION_DATA_SHARING_CONSENT_NO_PP_OR_TOS" desc="The consent text shown to the user before sign up when there is no privacy policy or terms of service.">
-      To continue, <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE">$1<ex>idp.com</ex></ph> will share your name, email address, and profile picture with this site.
+      To continue, <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE">$1<ex>idp.com</ex></ph> will share your <ph name="FIELDS_STRING">$2<ex>name and email address</ex></ph> with this site.
     </message>
     <message name="IDS_ACCOUNT_SELECTION_DATA_SHARING_CONSENT_NO_PP" desc="The consent text shown to the user before sign up when there is no privacy policy.">
-      To continue, <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE">$1<ex>idp.com</ex></ph> will share your name, email address, and profile picture with this site. See this site's <ph name="BEGIN_LINK">$2</ph>terms of service<ph name="END_LINK">$3</ph>.
+      To continue, <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE">$1<ex>idp.com</ex></ph> will share your <ph name="FIELDS_STRING">$2<ex>name and email address</ex></ph> with this site. See this site's <ph name="BEGIN_LINK">$3</ph>terms of service<ph name="END_LINK">$4</ph>.
     </message>
     <message name="IDS_ACCOUNT_SELECTION_DATA_SHARING_CONSENT_NO_TOS" desc="The consent text shown to the user before sign up when there is no terms of service.">
-      To continue, <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE">$1<ex>idp.com</ex></ph> will share your name, email address, and profile picture with this site. See this site's <ph name="BEGIN_LINK">$2</ph>privacy policy<ph name="END_LINK">$3</ph>.
+      To continue, <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE">$1<ex>idp.com</ex></ph> will share your <ph name="FIELDS_STRING">$2<ex>name and email address</ex></ph> with this site. See this site's <ph name="BEGIN_LINK">$3</ph>privacy policy<ph name="END_LINK">$4</ph>.
     </message>
     <message name="IDS_ACCOUNT_SELECTION_DATA_SHARING_CONSENT" desc="The consent text shown to the user before sign up.">
-      To continue, <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE">$1<ex>idp.com</ex></ph> will share your name, email address, and profile picture with this site. See this site's <ph name="BEGIN_LINK1">$2</ph>privacy policy<ph name="END_LINK1">$3</ph> and <ph name="BEGIN_LINK2">$4</ph>terms of service<ph name="END_LINK2">$5</ph>.
+      To continue, <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE">$1<ex>idp.com</ex></ph> will share your <ph name="FIELDS_STRING">$2<ex>name and email address</ex></ph> with this site. See this site's <ph name="BEGIN_LINK1">$3</ph>privacy policy<ph name="END_LINK1">$4</ph> and <ph name="BEGIN_LINK2">$5</ph>terms of service<ph name="END_LINK2">$6</ph>.
     </message>
     <message name="IDS_ACCOUNT_SELECTION_USE_OTHER_ACCOUNT" desc="Title of the button that lets the user log in to a different account.">
       Use a different account
