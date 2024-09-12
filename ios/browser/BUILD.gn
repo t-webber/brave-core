@@ -61,7 +61,6 @@ source_set("browser") {
     "//components/variations",
     "//components/variations/service",
     "//ios/chrome/browser/application_context/model",
-    "//ios/chrome/browser/browser_state/model",
     "//ios/chrome/browser/flags",
     "//ios/chrome/browser/flags:client_side",
     "//ios/chrome/browser/providers/raccoon:chromium_raccoon",
