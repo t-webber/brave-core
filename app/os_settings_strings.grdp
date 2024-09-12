@@ -3512,13 +3512,13 @@ Press an assigned switch or key to remove assignment.
     Noise cancellation
   </message>
   <message name="IDS_SETTINGS_AUDIO_INPUT_STYLE_TRANSFER_TITLE" desc="In Device Settings, the title of the style transfer toggle under the input section in audio settings subpage.">
-    Studio mic
+    Studio-style mic
   </message>
   <message name="IDS_SETTINGS_AUDIO_INPUT_STYLE_TRANSFER_BADGE" desc="In Device Settings, the badge of the style transfer toggle under the input section in audio settings subpage.">
     Experimental
   </message>
   <message name="IDS_SETTINGS_AUDIO_INPUT_STYLE_TRANSFER_DESCRIPTION" desc="In Device Settings, the description of the allowance of style transfer toggle under the input section in audio settings subpage.">
-    Enhance your built-in microphone sound with various effects
+    Apply noise cancellation and audio improvements.
   </message>
   <message name="IDS_SETTINGS_AUDIO_DEVICE_FRONT_MIC_LABEL" desc="In Device Settings, the label used for the front microphone.">
     Front microphone
@@ -5739,14 +5739,14 @@ Press an assigned switch or key to remove assignment.
   <message name="IDS_SETTINGS_FACTORY_CONTINUE_BUTTON_LABEL" desc="Label for the button that navigates from the eSIM warning to the 'Factory Reset' UI.">
     Continue
   </message>
-  <message name="IDS_OS_SETTINGS_SANITIZE" desc="The string sanitize will be used for title, button name, and button label.">
-    Sanitize
+  <message name="IDS_OS_SETTINGS_SANITIZE" desc="The heading and the button string of the safety reset feature.">
+    Safety reset
   </message>
   <message name="IDS_OS_SETTINGS_SANITIZE_HEADING" desc="Name of the sanitize dialog describes the feature to the user before they proceed.">
     Sanitize your device
   </message>
-  <message name="IDS_OS_SETTINGS_SANITIZE_SHORT_DESCRIPTION" desc="Short description of the sanitize feature on the ChromeOS settings page.">
-    Reset settings on your ChromeOS device to safe defaults.
+  <message name="IDS_OS_SETTINGS_SANITIZE_SHORT_DESCRIPTION" desc="Short description of the safety reset feature on the ChromeOS settings page.">
+    Remove unwanted pop-ups, fix network issues, and more by restoring your settings to safe defaults.
   </message>
   <message name="IDS_OS_SETTINGS_SANITIZE_DESCRIPTION" desc="Description of the sanitize feature on the sanitize window.">
     Getting unwanted pop-ups, or other unexpected behavior? Sometimes, apps and extensions that you install can change your ChromeOS settings without you knowing.
@@ -5831,6 +5831,12 @@ Press an assigned switch or key to remove assignment.
   </message>
   <message name="IDS_SETTINGS_DISPLAY_MIRROR_DISPLAY_NAME" desc="In Device Settings &gt; Displays, the label for the mirrored display name shown in the layout.">
     Mirrored
+  </message>
+  <message name="IDS_SETTINGS_DISPLAY_EXCLUDE_IN_MIRROR_LABEL" desc="In Device Settings &gt; Displays, the label for the control of excluding display in mirror mode.">
+    Exclude this display in mirror mode
+  </message>
+  <message name="IDS_SETTINGS_DISPLAY_EXCLUDE_IN_MIRROR_SUBLABEL" desc="In Device Settings &gt; Displays, the sublabel for the control of excluding display in mirror mode.">
+    Only one display can be excluded in mirror mode
   </message>
   <message name="IDS_SETTINGS_DISPLAY_AMBIENT_COLOR_TITLE" desc="In Device Settings &gt; Displays, the label for toggling ambient color.">
     Ambient colors

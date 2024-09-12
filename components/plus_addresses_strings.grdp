@@ -104,6 +104,12 @@
     <message name="IDS_PLUS_ADDRESS_MANUAL_FALLBACK_CREATE_ACTION_TEXT_IOS" desc="The action title shown in the manual fallbacks view to create a plus addresss" translateable="false">
         Create Plus Address...
     </message>
+    <message name="IDS_PLUS_ADDRESS_MANUAL_FALLBACK_SELECT_ACTION_TEXT_IOS" desc="The action title shown in the manual fallbacks view to select a plus addresss from the list of plus addresses" translateable="false">
+        Select Plus Address...
+    </message>
+   <message name="IDS_SELECT_PLUS_ADDRESS_TITLE_IOS" desc="The title shown in the sheet listing all plus addresses for selections" translateable="false">
+        Select Plus Address
+    </message>
 
     <!-- Desktop strings -->
     <message name="IDS_PLUS_ADDRESS_MODAL_TITLE" desc="Title for the experimental enterprise plus addresses feature modal" translateable="false">
@@ -175,6 +181,29 @@
     </message>
     <message name="IDS_PLUS_ADDRESS_MANAGE_PLUS_ADDRESSES_TEXT" desc="The main text in the Autofill suggestion for opening the settings page with creates plus addresses." translateable="false">
       Lorem Ipsum dolor ...
+    </message>
+    <message name="IDS_PLUS_ADDRESS_RESERVE_GENERIC_ERROR_TEXT" desc="The error description shown inside the popup when an error occurs while attempting to reserve a plus address." translateable="false">
+      Something went wrong
+    </message>
+
+    <!-- Error modal for inline creation strings -->
+    <message name="IDS_PLUS_ADDRESS_CREATE_INLINE_AFFILATION_ERROR_TITLE" desc="The title in the modal that is shown if an affiliation error is encountered during inline creation." translateable="false">
+      Oops! We found an affiliated plus address
+    </message>
+    <message name="IDS_PLUS_ADDRESS_CREATE_INLINE_AFFILATION_ERROR_DESCRIPTION" desc="The description text in the modal that is shown if an affiliation error is encountered during inline creation." translateable="false">
+      We found <ph name="DOMAIN">$1<ex>foo.com</ex></ph> that can be used for: <ph name="PLUS_ADDRESS">$2<ex>foo@bar.com</ex></ph> Use this one instead of creating a new one.
+    </message>
+    <message name="IDS_PLUS_ADDRESS_CREATE_INLINE_AFFILATION_ERROR_ACCEPT_BUTTON" desc="The button title of the accept button in the modal that is shown if an affiliation error is encountered during inline creation." translateable="false">
+      Fill with existing address
+    </message>
+    <message name="IDS_PLUS_ADDRESS_CREATE_INLINE_ERROR_TITLE" desc="The title in the modal that is shown if a generic error is encountered during inline creation." translateable="false">
+      Something went wrong
+    </message>
+    <message name="IDS_PLUS_ADDRESS_CREATE_INLINE_ERROR_DESCRIPTION" desc="The description text in the modal that is shown if a generic error is encountered during inline creation." translateable="false">
+      Can't save plus address.
+    </message>
+    <message name="IDS_PLUS_ADDRESS_CREATE_INLINE_ERROR_ACCEPT_BUTTON" desc="The button title of the accept button in the modal that is shown if a generic error is encountered during inline creation." translateable="false">
+      Try again
     </message>
 
     <!-- IPH strings -->
