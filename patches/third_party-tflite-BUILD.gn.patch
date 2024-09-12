@@ -1,8 +1,8 @@
 diff --git a/third_party/tflite/BUILD.gn b/third_party/tflite/BUILD.gn
-index de0c83507ad68ed0363fd73a390700dbd37d8f16..0ce607c69cf239b43924d1f52054c2f6235d52e0 100644
+index 78a63109a0d926cd45fa692571c23557999623e0..1c341275852ec8279291bd0c9c1288cb302f6112 100644
 --- a/third_party/tflite/BUILD.gn
 +++ b/third_party/tflite/BUILD.gn
-@@ -202,6 +202,7 @@ tflite_static_library("tflite_builtin_op_resolver") {
+@@ -211,6 +211,7 @@ tflite_static_library("tflite_builtin_op_resolver") {
      "//services/webnn/*",
      "//third_party/mediapipe/*",
    ]
