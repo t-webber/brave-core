@@ -6,10 +6,10 @@
 import("//build/config/ios/rules.gni")
 import("//ios/build/config.gni")
 
-source_set("browser_state") {
+source_set("model") {
   sources = [
-    "brave_browser_state_keyed_service_factories.h",
-    "brave_browser_state_keyed_service_factories.mm",
+    "brave_keyed_service_factories.h",
+    "brave_keyed_service_factories.mm",
   ]
   deps = [
     "//base",

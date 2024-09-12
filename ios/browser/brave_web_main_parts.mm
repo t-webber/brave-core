@@ -14,7 +14,7 @@
 #include "brave/components/brave_component_updater/browser/brave_on_demand_updater.h"
 #include "brave/components/brave_wallet/browser/wallet_data_files_installer.h"
 #include "brave/ios/browser/application_context/brave_application_context_impl.h"
-#include "brave/ios/browser/browser_state/brave_browser_state_keyed_service_factories.h"
+#include "brave/ios/browser/profile/model/brave_keyed_service_factories.h"
 #include "components/component_updater/installer_policies/safety_tips_component_installer.h"
 #include "components/flags_ui/pref_service_flags_storage.h"
 #include "components/metrics/metrics_service.h"

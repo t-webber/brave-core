@@ -52,7 +52,7 @@ source_set("browser") {
     "//brave/components/constants",
     "//brave/ios/browser/application_context",
     "//brave/ios/browser/brave_wallet",
-    "//brave/ios/browser/browser_state",
+    "//brave/ios/browser/profile/model",
     "//brave/ios/browser/ui/webui",
     "//components/component_updater/installer_policies",
     "//components/flags_ui",
