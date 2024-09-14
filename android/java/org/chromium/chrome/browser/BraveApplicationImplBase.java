@@ -10,6 +10,7 @@ import com.wireguard.android.backend.GoBackend;
 
 import org.chromium.chrome.browser.base.SplitCompatApplication;
 import org.chromium.chrome.browser.vpn.utils.BraveVpnProfileUtils;
+
 // TODO(alexeybarabash): needs to be redone for cr130
 // import org.chromium.components.safe_browsing.BraveSafeBrowsingApiHandler;
 
