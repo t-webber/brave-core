@@ -177,3 +177,11 @@ android_aar_prebuilt("com_google_android_play_integrity_java") {
     "//third_party/android_deps:google_play_services_tasks_java",
   ]
 }
+
+java_prebuilt("com_google_apis_google_api_services_safebrowsing_java") {
+  jar_path = "libs/com_google_apis_google_api_services_safebrowsing/google-api-services-safebrowsing-v5-rev20240505-2.0.0.jar"
+  output_name = "com_google_apis_google_api_services_safebrowsing"
+  supports_android = true
+}
+
+#com.google.api-client

@@ -1,0 +1,15 @@
+Name: Safe Browsing API
+Short Name: safe-browsing
+URL: https://mvnrepository.com/artifact/com.google.apis/google-api-services-safebrowsing/v5-rev20240505-2.0.0
+Version: 5
+License: Apache Version 2.0
+License File: LICENSE
+CPEPrefix: unknown
+Security Critical: yes
+Shipped: yes
+
+Description:
+Safe Browsing API
+
+Local Modifications:
+No modifications.

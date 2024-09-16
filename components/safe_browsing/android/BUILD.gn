@@ -9,13 +9,49 @@ import("//build/config/android/rules.gni")
 android_library("brave_safe_browsing_java") {
   deps = [
     "//base:base_java",
+    #? AB: is google_play_services_safetynet_java a subject to remove?
     "//brave/third_party/android_deps:google_play_services_safetynet_java",
     "//build/android:build_java",
     "//components/safe_browsing/android:safe_browsing_java",
     "//third_party/android_deps:google_play_services_basement_java",
     "//third_party/android_deps:google_play_services_tasks_java",
+
+    "//brave/third_party/android_deps:com_google_apis_google_api_services_safebrowsing_java",
+
   ]
 
   # TODO(alexeybarabash): needs to be redone for cr130
   sources = [ "java/src/org/chromium/components/safe_browsing/BraveSafeBrowsingApiHandler.java" ]
 }
+
+#
+#"one of: 
+# //brave/third_party/android_deps:com_google_apis_google_api_services_safebrowsing_java, 
+# //brave/third_party/android_deps:com_google_apis_google_api_services_safebrowsing_java, 
+# //brave/third_party/android_deps:com_google_apis_google_api_services_safebrowsing_java",
+
+
+# ERROR Unresolved dependencies.
+# //brave/components/safe_browsing/android:brave_safe_browsing_java(//build/toolchain/android:android_clang_arm)
+#   needs //third_party/android_deps:com_google_apis_google_api_services_safebrowsing_java(//build/toolchain/android:android_clang_arm)
+
+# //brave/components/safe_browsing/android:brave_safe_browsing_java__assetres(//build/toolchain/android:android_clang_arm)
+#   needs //third_party/android_deps:com_google_apis_google_api_services_safebrowsing_java__assetres(//build/toolchain/android:android_clang_arm)
+# //brave/components/safe_browsing/android:brave_safe_browsing_java__build_config_crbug_908819(//build/toolchain/android:android_clang_arm)
+#   needs //third_party/android_deps:com_google_apis_google_api_services_safebrowsing_java__build_config_crbug_908819(//build/toolchain/android:android_clang_arm)
+# //brave/components/safe_browsing/android:brave_safe_browsing_java__compile_java(//build/toolchain/android:android_clang_arm)
+#   needs //third_party/android_deps:com_google_apis_google_api_services_safebrowsing_java__header(//build/toolchain/android:android_clang_arm)
+# //brave/components/safe_browsing/android:brave_safe_browsing_java__dex(//build/toolchain/android:android_clang_arm)
+#   needs //third_party/android_deps:com_google_apis_google_api_services_safebrowsing_java__header(//build/toolchain/android:android_clang_arm)
+# //brave/components/safe_browsing/android:brave_safe_browsing_java__errorprone(//build/toolchain/android:android_clang_arm)
+#   needs //third_party/android_deps:com_google_apis_google_api_services_safebrowsing_java__header(//build/toolchain/android:android_clang_arm)
+# //brave/components/safe_browsing/android:brave_safe_browsing_java__header(//build/toolchain/android:android_clang_arm)
+#   needs //third_party/android_deps:com_google_apis_google_api_services_safebrowsing_java__header(//build/toolchain/android:android_clang_arm)
+# //brave/components/safe_browsing/android:brave_safe_browsing_java__host(//build/toolchain/android:android_clang_arm)
+#   needs //third_party/android_deps:com_google_apis_google_api_services_safebrowsing_java__host(//build/toolchain/android:android_clang_arm)
+# //brave/components/safe_browsing/android:brave_safe_browsing_java__process_device(//build/toolchain/android:android_clang_arm)
+#   needs //third_party/android_deps:com_google_apis_google_api_services_safebrowsing_java__host(//build/toolchain/android:android_clang_arm)
+# //brave/components/safe_browsing/android:brave_safe_browsing_java__validate(//build/toolchain/android:android_clang_arm)
+#   needs //third_party/android_deps:com_google_apis_google_api_services_safebrowsing_java__host(//build/toolchain/android:android_clang_arm)
+# //brave/components/safe_browsing/android:brave_safe_browsing_java__validate(//build/toolchain/android:android_clang_arm)
+#   needs //third_party/android_deps:com_google_apis_google_api_services_safebrowsing_java__validate(//build/toolchain/android:android_clang_arm)
