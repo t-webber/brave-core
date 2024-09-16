@@ -7,6 +7,10 @@
 #include "brave/browser/download/android/jni_headers/BraveMimeUtils_jni.h"
 #include "chrome/browser/download/android/jni_headers/MimeUtils_jni.h"
 
+// //brave/browser/download/android:jni_headers
+// //brave/browser/download/android:java
+
+
 namespace {
 
 // We need this just to avoid unused function

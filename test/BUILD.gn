@@ -1266,6 +1266,10 @@ if (is_android) {
       "//base:base_java_test_support",
       "//base:base_shared_preferences_java",
       "//brave/components/brave_wallet/common:mojom_java",
+      
+      # //chrome/browser
+      #"//brave/browser/download/android:java",
+      
       "//cc:cc_java",
       "//chrome/android/features/keyboard_accessory/public:public_java",
       "//chrome/browser/android/browserservices/intents:java",

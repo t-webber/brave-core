@@ -13,6 +13,13 @@ import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.common.api.CommonStatusCodes;
 import com.google.android.gms.safetynet.SafetyNet;
 import com.google.android.gms.safetynet.SafetyNetStatusCodes;
+import com.google.api.services.safebrowsing.v5.Safebrowsing;
+import com.google.api.client.extensions.android.http.AndroidHttp;  // deprectted (https://cloud.google.com/java/docs/reference/google-http-client/latest/com.google.api.client.extensions.android.http)
+import com.google.api.client.json.jackson2.JacksonFactory;
+
+import java.util.ArrayList;
+import java.security.GeneralSecurityException;
+import java.io.IOException;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -20,11 +27,12 @@ import org.json.JSONObject;
 
 import org.chromium.base.ContextUtils;
 import org.chromium.base.Log;
+import org.chromium.components.safe_browsing.SafeBrowsingApiHandler.LookupResult;
 
 /**
  * Brave implementation of SafetyNetApiHandler for Safe Browsing
  */
-public class BraveSafeBrowsingApiHandler implements SafetyNetApiHandler {
+public class BraveSafeBrowsingApiHandler implements /*SafetyNetApiHandler*/SafeBrowsingApiHandler {
     public static final long SAFE_BROWSING_INIT_INTERVAL_MS = 30000;
     private static final long DEFAULT_CHECK_DELTA = 10;
     private static final String SAFE_METADATA = "{}";
@@ -41,7 +49,7 @@ public class BraveSafeBrowsingApiHandler implements SafetyNetApiHandler {
         Activity getActivity();
     }
 
-    private Observer mObserver;
+    private SafeBrowsingApiHandler.Observer mObserver;
     private String mApiKey;
     private boolean mInitialized;
     private int mTriesCount;
@@ -72,53 +80,61 @@ public class BraveSafeBrowsingApiHandler implements SafetyNetApiHandler {
     }
 
     @Override
-    public boolean init(Observer observer) {
+    public void setObserver(SafeBrowsingApiHandler.Observer observer) {
         mObserver = observer;
-        return true;
     }
 
     @Override
-    public void startUriLookup(final long callbackId, String uri, int[] threatsOfInterest) {
+    public void startUriLookup(        long callbackId, String uri, int[] threatTypes, int protocol) {
+        Safebrowsing safebrowsing = new Safebrowsing.Builder(
+                        AndroidHttp.newCompatibleTransport(),
+                 JacksonFactory.getDefaultInstance(),
+                 null
+         ).setApplicationName("Brave Browser")
+          .setGoogleClientRequestInitializer(request -> request.put("key", "API_KEY")) //API_KEY
+          .build();
+
         if (mBraveSafeBrowsingApiHandlerDelegate == null
                 || !mBraveSafeBrowsingApiHandlerDelegate.isSafeBrowsingEnabled()
                 || !isHttpsOrHttp(uri)) {
             mObserver.onUrlCheckDone(
-                    callbackId, SafeBrowsingResult.TIMEOUT, "{}", DEFAULT_CHECK_DELTA);
+                    callbackId,
+                    LookupResult.FAILURE_API_CALL_TIMEOUT,
+                    0,
+                    new int[0],
+                    0,
+                    DEFAULT_CHECK_DELTA);
             return;
         }
         mTriesCount++;
+
         if (!mInitialized) {
             initSafeBrowsing();
         }
 
         SafetyNet.getClient(ContextUtils.getApplicationContext())
-                .lookupUri(uri, mApiKey, threatsOfInterest)
+                .lookupUri(uri, mApiKey, /*threatsOfInterest*/threatTypes)
                 .addOnSuccessListener(mBraveSafeBrowsingApiHandlerDelegate.getActivity(),
                         sbResponse -> {
                             mTriesCount = 0;
-                            try {
-                                String metadata = SAFE_METADATA;
+
+                                int[] arrThreatTypes = new int[sbResponse.getDetectedThreats().size()];
+
                                 if (!sbResponse.getDetectedThreats().isEmpty()) {
-                                    JSONArray jsonArray = new JSONArray();
                                     for (int i = 0; i < sbResponse.getDetectedThreats().size();
-                                            i++) {
-                                        JSONObject jsonObj = new JSONObject();
-                                        jsonObj.put("threat_type",
-                                                String.valueOf(sbResponse.getDetectedThreats()
-                                                                       .get(i)
-                                                                       .getThreatType()));
-                                        jsonArray.put(jsonObj);
+                                             i++) {
+                                        arrThreatTypes[i] = sbResponse.getDetectedThreats().get(i).getThreatType();
                                     }
-                                    JSONObject finalObj = new JSONObject();
-                                    finalObj.put("matches", jsonArray);
-                                    metadata = finalObj.toString();
                                 }
                                 if (mObserver != null) {
-                                    mObserver.onUrlCheckDone(callbackId, SafeBrowsingResult.SUCCESS,
-                                            metadata, DEFAULT_CHECK_DELTA);
+                                    mObserver.onUrlCheckDone(
+                                        callbackId, 
+                                        LookupResult.SUCCESS,
+                                        arrThreatTypes.length>0?arrThreatTypes[0]:0,
+                                        arrThreatTypes,
+                                        0,
+                                        DEFAULT_CHECK_DELTA);
                                 }
-                            } catch (JSONException e) {
-                            }
                         })
                 .addOnFailureListener(mBraveSafeBrowsingApiHandlerDelegate.getActivity(), e -> {
                     // An error occurred while communicating with the service.
@@ -149,10 +165,16 @@ public class BraveSafeBrowsingApiHandler implements SafetyNetApiHandler {
                                 && apiException.getStatusCode()
                                         == SafetyNetStatusCodes.SAFE_BROWSING_API_NOT_INITIALIZED) {
                             initSafeBrowsing();
-                            startUriLookup(callbackId, uri, threatsOfInterest);
+                            //startUriLookup(callbackId, uri, threatsOfInterest);
+                            startUriLookup(callbackId, uri, threatTypes, protocol);
                         } else {
-                            mObserver.onUrlCheckDone(callbackId, SafeBrowsingResult.TIMEOUT, "{}",
-                                    DEFAULT_CHECK_DELTA);
+                            mObserver.onUrlCheckDone(
+                                callbackId,
+                                LookupResult.FAILURE_API_CALL_TIMEOUT,
+                                threatTypes[0],
+                                new int[0],
+                                0,
+                                DEFAULT_CHECK_DELTA);                                    
                         }
                     } else {
                         // A different, unknown type of error occurred.
@@ -160,16 +182,14 @@ public class BraveSafeBrowsingApiHandler implements SafetyNetApiHandler {
                             Log.d(TAG, "Error: " + e.getMessage());
                         }
                         mObserver.onUrlCheckDone(
-                                callbackId, SafeBrowsingResult.TIMEOUT, "{}", DEFAULT_CHECK_DELTA);
+                                callbackId, LookupResult.FAILURE_API_CALL_TIMEOUT, threatTypes[0], new int[0], 0, DEFAULT_CHECK_DELTA);
                     }
                     mTriesCount = 0;
                 });
+
+        
     }
 
-    @Override
-    public boolean startAllowlistLookup(final String uri, int threatType) {
-        return false;
-    }
 
     public void initSafeBrowsing() {
         SafetyNet.getClient(ContextUtils.getApplicationContext()).initSafeBrowsing();
@@ -197,15 +217,5 @@ public class BraveSafeBrowsingApiHandler implements SafetyNetApiHandler {
 
     private boolean isHttpsOrHttp(String uri) {
         return URLUtil.isHttpsUrl(uri) || URLUtil.isHttpUrl(uri);
-    }
-
-    @Override
-    public void isVerifyAppsEnabled(long callbackId) {
-        mObserver.onVerifyAppsEnabledDone(callbackId, VerifyAppsResult.SUCCESS_ENABLED);
-    }
-
-    @Override
-    public void enableVerifyApps(long callbackId) {
-        mObserver.onVerifyAppsEnabledDone(callbackId, VerifyAppsResult.SUCCESS_ENABLED);
     }
 }

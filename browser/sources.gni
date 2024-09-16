@@ -390,6 +390,8 @@ if (is_android) {
     "//brave/components/brave_sync:sync_service_impl_helper",
     "//chrome/android:jni_headers",
     "//components/sync_device_info",
+    
+    #"//brave/browser/download/android:jni_headers",
   ]
 } else {
   brave_chrome_browser_sources += [

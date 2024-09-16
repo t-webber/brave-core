@@ -1,0 +1,15 @@
+Name: Jackson Core
+Short Name: safe-browsing
+URL: https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core/2.17.2
+Version: 2.17.2
+License: Apache Version 2.0
+License File: LICENSE
+CPEPrefix: unknown
+Security Critical: yes
+Shipped: yes
+
+Description:
+Core Jackson processing abstractions (aka Streaming API), implementation for JSON
+
+Local Modifications:
+No modifications.

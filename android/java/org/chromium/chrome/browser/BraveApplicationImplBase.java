@@ -12,7 +12,8 @@ import org.chromium.chrome.browser.base.SplitCompatApplication;
 import org.chromium.chrome.browser.vpn.utils.BraveVpnProfileUtils;
 
 // TODO(alexeybarabash): needs to be redone for cr130
-// import org.chromium.components.safe_browsing.BraveSafeBrowsingApiHandler;
+import org.chromium.components.safe_browsing.BraveSafeBrowsingApiHandler;
+import org.chromium.components.safe_browsing.SafeBrowsingApiBridge;
 
 public class BraveApplicationImplBase extends SplitCompatApplication.Impl {
     @Override
@@ -28,7 +29,8 @@ public class BraveApplicationImplBase extends SplitCompatApplication.Impl {
                     });
             // Set a handler for SafeBrowsing. It has to be done only once for a process lifetime.
             // TODO(alexeybarabash): needs to be redone for cr130
-            // SafeBrowsingApiBridge.setSafetyNetApiHandler(BraveSafeBrowsingApiHandler.getInstance());
+            //SafeBrowsingApiBridge.setSafetyNetApiHandler(BraveSafeBrowsingApiHandler.getInstance());
+            SafeBrowsingApiBridge.setSafeBrowsingApiHandler(BraveSafeBrowsingApiHandler.getInstance());
         }
     }
 }
