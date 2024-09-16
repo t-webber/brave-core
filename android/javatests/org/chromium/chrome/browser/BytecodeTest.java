@@ -2015,10 +2015,6 @@ public class BytecodeTest {
                         "org/chromium/chrome/browser/omnibox/LocationBarMediator",
                         "mIsLocationBarFocusedFromNtpScroll"));
         Assert.assertTrue(
-                fieldExists(
-                        "org/chromium/chrome/browser/omnibox/LocationBarMediator",
-                        "mShouldClearOmniboxOnFocus"));
-        Assert.assertTrue(
                 fieldExists("org/chromium/chrome/browser/omnibox/LocationBarMediator", "mContext"));
         Assert.assertTrue(
                 fieldExists(
