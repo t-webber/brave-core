@@ -11,6 +11,7 @@ import android.webkit.URLUtil;
 
 import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.common.api.CommonStatusCodes;
+
 import com.google.android.gms.safetynet.SafetyNet;
 import com.google.android.gms.safetynet.SafetyNetStatusCodes;
 
@@ -20,11 +21,14 @@ import org.json.JSONObject;
 
 import org.chromium.base.ContextUtils;
 import org.chromium.base.Log;
+import org.chromium.components.safe_browsing.SafeBrowsingApiHandler.LookupResult;
+
+import java.util.ArrayList;
 
 /**
  * Brave implementation of SafetyNetApiHandler for Safe Browsing
  */
-public class BraveSafeBrowsingApiHandler implements SafetyNetApiHandler {
+public class BraveSafeBrowsingApiHandler implements /*SafetyNetApiHandler*/SafeBrowsingApiHandler {
     public static final long SAFE_BROWSING_INIT_INTERVAL_MS = 30000;
     private static final long DEFAULT_CHECK_DELTA = 10;
     private static final String SAFE_METADATA = "{}";
@@ -41,7 +45,7 @@ public class BraveSafeBrowsingApiHandler implements SafetyNetApiHandler {
         Activity getActivity();
     }
 
-    private Observer mObserver;
+    private SafeBrowsingApiHandler.Observer mObserver;
     private String mApiKey;
     private boolean mInitialized;
     private int mTriesCount;
@@ -71,19 +75,30 @@ public class BraveSafeBrowsingApiHandler implements SafetyNetApiHandler {
         mBraveSafeBrowsingApiHandlerDelegate = null;
     }
 
+    // @Override
+    // public boolean init(Observer observer) {
+    //     mObserver = observer;
+    //     return true;
+    // }
     @Override
-    public boolean init(Observer observer) {
+    public void setObserver(SafeBrowsingApiHandler.Observer observer) {
         mObserver = observer;
-        return true;
     }
 
     @Override
-    public void startUriLookup(final long callbackId, String uri, int[] threatsOfInterest) {
+    //public void startUriLookup(final long callbackId, String uri, int[] threatsOfInterest) {
+    public void startUriLookup(        long callbackId, String uri, int[] threatTypes, int protocol) {
         if (mBraveSafeBrowsingApiHandlerDelegate == null
                 || !mBraveSafeBrowsingApiHandlerDelegate.isSafeBrowsingEnabled()
                 || !isHttpsOrHttp(uri)) {
             mObserver.onUrlCheckDone(
-                    callbackId, SafeBrowsingResult.TIMEOUT, "{}", DEFAULT_CHECK_DELTA);
+                    callbackId, // long callbackId,
+                    LookupResult.FAILURE_API_CALL_TIMEOUT, // @LookupResult int lookupResult, 
+                    threatTypes[0], //int threatType
+                    new int[0],
+                    0, // responseStatus
+                    DEFAULT_CHECK_DELTA//long checkDeltaMs
+                    );
             return;
         }
         mTriesCount++;
@@ -92,33 +107,48 @@ public class BraveSafeBrowsingApiHandler implements SafetyNetApiHandler {
         }
 
         SafetyNet.getClient(ContextUtils.getApplicationContext())
-                .lookupUri(uri, mApiKey, threatsOfInterest)
+                .lookupUri(uri, mApiKey, /*threatsOfInterest*/threatTypes)
                 .addOnSuccessListener(mBraveSafeBrowsingApiHandlerDelegate.getActivity(),
                         sbResponse -> {
                             mTriesCount = 0;
-                            try {
-                                String metadata = SAFE_METADATA;
+                            //try {
+
+                                //ArrayList<Integer> arrThreatTypes = new ArrayList();
+
+                                int[] arrThreatTypes = new int[sbResponse.getDetectedThreats().size()];
+
+                                //String metadata = SAFE_METADATA;
                                 if (!sbResponse.getDetectedThreats().isEmpty()) {
-                                    JSONArray jsonArray = new JSONArray();
+                                    // JSONArray jsonArray = new JSONArray();
                                     for (int i = 0; i < sbResponse.getDetectedThreats().size();
-                                            i++) {
-                                        JSONObject jsonObj = new JSONObject();
-                                        jsonObj.put("threat_type",
-                                                String.valueOf(sbResponse.getDetectedThreats()
-                                                                       .get(i)
-                                                                       .getThreatType()));
-                                        jsonArray.put(jsonObj);
+                                             i++) {
+                                    //     JSONObject jsonObj = new JSONObject();
+                                    //     jsonObj.put("threat_type",
+                                    //             String.valueOf(sbResponse.getDetectedThreats()
+                                    //                                    .get(i)
+                                    //                                    .getThreatType()));
+                                    //     jsonArray.put(jsonObj);
+
+                                        //arrThreatTypes.add(sbResponse.getDetectedThreats().get(i).getThreatType());
+                                        arrThreatTypes[i] = sbResponse.getDetectedThreats().get(i).getThreatType();
                                     }
-                                    JSONObject finalObj = new JSONObject();
-                                    finalObj.put("matches", jsonArray);
-                                    metadata = finalObj.toString();
+                                    // JSONObject finalObj = new JSONObject();
+                                    // finalObj.put("matches", jsonArray);
+                                    // metadata = finalObj.toString();
                                 }
                                 if (mObserver != null) {
-                                    mObserver.onUrlCheckDone(callbackId, SafeBrowsingResult.SUCCESS,
-                                            metadata, DEFAULT_CHECK_DELTA);
+                                    mObserver.onUrlCheckDone(
+                                        callbackId, 
+                                        LookupResult.SUCCESS,
+                                        arrThreatTypes[0], // /*threatTypes[0]*/,//int threatType
+                                        arrThreatTypes,//int[] threatAttributes,
+                                        0,//int responseStatus,
+                                        DEFAULT_CHECK_DELTA //long checkDeltaMs
+                                        
+                                        );
                                 }
-                            } catch (JSONException e) {
-                            }
+                            // } catch (JSONException e) {
+                            // }
                         })
                 .addOnFailureListener(mBraveSafeBrowsingApiHandlerDelegate.getActivity(), e -> {
                     // An error occurred while communicating with the service.
@@ -149,10 +179,19 @@ public class BraveSafeBrowsingApiHandler implements SafetyNetApiHandler {
                                 && apiException.getStatusCode()
                                         == SafetyNetStatusCodes.SAFE_BROWSING_API_NOT_INITIALIZED) {
                             initSafeBrowsing();
-                            startUriLookup(callbackId, uri, threatsOfInterest);
+                            //startUriLookup(callbackId, uri, threatsOfInterest);
+                            startUriLookup(callbackId, uri, threatTypes, protocol);
                         } else {
-                            mObserver.onUrlCheckDone(callbackId, SafeBrowsingResult.TIMEOUT, "{}",
-                                    DEFAULT_CHECK_DELTA);
+                            /*mObserver.onUrlCheckDone(callbackId, SafeBrowsingResult.TIMEOUT, "{}",
+                                    DEFAULT_CHECK_DELTA);*/
+                            mObserver.onUrlCheckDone(
+                                callbackId, // long callbackId,
+                                LookupResult.FAILURE_API_CALL_TIMEOUT, // @LookupResult int lookupResult, 
+                                threatTypes[0], //int threatType
+                                new int[0],
+                                0, // responseStatus
+                                DEFAULT_CHECK_DELTA//long checkDeltaMs
+                                );                                    
                         }
                     } else {
                         // A different, unknown type of error occurred.
@@ -160,16 +199,16 @@ public class BraveSafeBrowsingApiHandler implements SafetyNetApiHandler {
                             Log.d(TAG, "Error: " + e.getMessage());
                         }
                         mObserver.onUrlCheckDone(
-                                callbackId, SafeBrowsingResult.TIMEOUT, "{}", DEFAULT_CHECK_DELTA);
+                                callbackId, LookupResult.FAILURE_API_CALL_TIMEOUT, threatTypes[0], new int[0], 0, DEFAULT_CHECK_DELTA);
                     }
                     mTriesCount = 0;
                 });
     }
 
-    @Override
-    public boolean startAllowlistLookup(final String uri, int threatType) {
-        return false;
-    }
+    // @Override
+    // public boolean startAllowlistLookup(final String uri, int threatType) {
+    //     return false;
+    // }
 
     public void initSafeBrowsing() {
         SafetyNet.getClient(ContextUtils.getApplicationContext()).initSafeBrowsing();
@@ -199,13 +238,13 @@ public class BraveSafeBrowsingApiHandler implements SafetyNetApiHandler {
         return URLUtil.isHttpsUrl(uri) || URLUtil.isHttpUrl(uri);
     }
 
-    @Override
-    public void isVerifyAppsEnabled(long callbackId) {
-        mObserver.onVerifyAppsEnabledDone(callbackId, VerifyAppsResult.SUCCESS_ENABLED);
-    }
+    // @Override
+    // public void isVerifyAppsEnabled(long callbackId) {
+    //     mObserver.onVerifyAppsEnabledDone(callbackId, VerifyAppsResult.SUCCESS_ENABLED);
+    // }
 
-    @Override
-    public void enableVerifyApps(long callbackId) {
-        mObserver.onVerifyAppsEnabledDone(callbackId, VerifyAppsResult.SUCCESS_ENABLED);
-    }
+    // @Override
+    // public void enableVerifyApps(long callbackId) {
+    //     mObserver.onVerifyAppsEnabledDone(callbackId, VerifyAppsResult.SUCCESS_ENABLED);
+    // }
 }
