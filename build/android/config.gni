@@ -71,6 +71,8 @@ brave_chrome_java_deps += brave_app_playlist_deps
 brave_chrome_all_java_deps = [
   "//brave/android/features/tab_ui:java",
   "//brave/browser/partnercustomizations:delegate_public_impl_java",
+
+  #"//components/search_engines/android:delegate_public_impl_java",
 ]
 
 # To use our overrided enum in java, put the header file of our overrided enum
@@ -135,3 +137,17 @@ brave_jni_headers_sources = [
   "//brave/browser/brave_ads/android/java/org/chromium/chrome/browser/BraveAdsNativeHelper.java",
   "//brave/components/safetynet/java/org/chromium/chrome/browser/util/SafetyNetCheck.java",
 ]
+
+# Additional deps for //components/search_engines/android:java to make these tests succeed on cr130:
+#   PageMetricsUnitTest.DomainsLoadedCount
+#   PageMetricsUnitTest.BookmarkCount
+#   PageMetricsUnitTest.FirstPageLoadTimeTooLate
+#   PageMetricsUnitTest.FirstPageLoadTimeImmediate
+#   PageMetricsUnitTest.PagesLoadedCount
+#   PageMetricsUnitTest.FirstPageLoadTimeLater
+#   BraveSearchProviderTest.SearchDoesNotIncludeHistoryWhenHistoryDisabled
+#   BraveSearchProviderTest.SearchIncludesHistoryWhenHistoryEnabled
+# Related Chromium change: https://github.com/chromium/chromium/commit/17b1d05d2ccda19c3ebd903075227bc8e851acf0
+# Tests were crashing because they cannot create SearchEngineCountryDelegateImpl object
+brave_components_search_engines_android_java_deps =
+    [ "//components/search_engines/android:delegate_public_impl_java" ]
