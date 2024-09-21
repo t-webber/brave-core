@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/safe_browsing/BUILD.gn b/chrome/browser/safe_browsing/BUILD.gn
+index fd47cd395ad8e531da57dc4ca0666162f5b28caa..58be2335b3278607b1c34e0fafa5acfacbad1088 100644
+--- a/chrome/browser/safe_browsing/BUILD.gn
++++ b/chrome/browser/safe_browsing/BUILD.gn
+@@ -74,6 +74,7 @@ static_library("safe_browsing") {
+     "//mojo/public/cpp/system",
+     "//services/preferences/public/cpp",
+   ]
++  import("//brave/browser/safe_browsing/sources.gni") sources += brave_browser_safe_browsing_sources deps += brave_browser_safe_browsing_deps
+ 
+   if (is_android) {
+     deps += [
