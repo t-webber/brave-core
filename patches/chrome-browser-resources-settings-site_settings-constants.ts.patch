@@ -1,8 +1,8 @@
 diff --git a/chrome/browser/resources/settings/site_settings/constants.ts b/chrome/browser/resources/settings/site_settings/constants.ts
-index baa078662b99c3fb3574f0eaa19d8f1938b20768..3c42a8f67617eedeb63ecffd72b0763fd569966a 100644
+index 8436627f132985651fa640e48803e56808399ec3..959cf6904aca50fcf155b4c093fdd3f0a504bc99 100644
 --- a/chrome/browser/resources/settings/site_settings/constants.ts
 +++ b/chrome/browser/resources/settings/site_settings/constants.ts
-@@ -64,6 +64,7 @@ export enum ContentSettingsTypes {
+@@ -67,6 +67,7 @@ export enum ContentSettingsTypes {
    PDF_DOCUMENTS = 'pdfDocuments',
    SITE_DATA = 'site-data',
    OFFER_WRITING_HELP = 'offer-writing-help',

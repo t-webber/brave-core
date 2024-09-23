@@ -1,5 +1,5 @@
 diff --git a/components/search_engines/android/BUILD.gn b/components/search_engines/android/BUILD.gn
-index 5845a4e24dbc6b95ad580d7c00e2a4e46acd3bfa..25444dd66b414c1b9e113ed255f6d4ecafe83d6d 100644
+index 7fc78ce161432892253e5b6c72ddb8b8c6968488..f2776dbcba1d3fa48d209ae8a509bb3786921930 100644
 --- a/components/search_engines/android/BUILD.gn
 +++ b/components/search_engines/android/BUILD.gn
 @@ -55,6 +55,7 @@ android_library("java") {
