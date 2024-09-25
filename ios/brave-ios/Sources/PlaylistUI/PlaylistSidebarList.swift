@@ -9,12 +9,14 @@ import Foundation
 import Playlist
 import Strings
 import SwiftUI
+import DesignSystem
 
 struct PlaylistSidebarList: View {
   var folders: [PlaylistFolder]
   var selectedFolderID: PlaylistFolder.ID
   @Binding var selectedItemID: PlaylistItem.ID?
   var isPlaying: Bool
+  @Binding var isPresentingSearch: Bool
 
   @Environment(\.openTabURL) private var openTabURL
   @FetchRequest private var items: FetchedResults<PlaylistItem>
@@ -26,7 +28,8 @@ struct PlaylistSidebarList: View {
     folders: [PlaylistFolder],
     folderID: PlaylistFolder.ID,
     selectedItemID: Binding<PlaylistItem.ID?>,
-    isPlaying: Bool
+    isPlaying: Bool,
+    isPresentingSearch: Binding<Bool>
   ) {
     self.folders = folders
     self.selectedFolderID = folderID
@@ -39,13 +42,14 @@ struct PlaylistSidebarList: View {
     )
     self._selectedItemID = selectedItemID
     self.isPlaying = isPlaying
+    self._isPresentingSearch = isPresentingSearch
   }
 
   var body: some View {
     LazyVStack(alignment: .leading, spacing: 0) {
       if items.isEmpty {
         // FIXME: Would be better as an overaly on the ScrollView itself, so it could grow to the height of the drawer but would have to get the PlaylistDrawerScrollView out of PlaylistSplitView somehow
-        PlaylistSidebarContentUnavailableView()
+        PlaylistSidebarContentUnavailableView(isPresentingSearchView: $isPresentingSearch)
       } else {
         ForEach(items) { item in
           Button {
@@ -179,6 +183,7 @@ struct PlaylistSidebarListHeader: View {
   var selectedItemID: PlaylistItem.ID?
   @Binding var isPlaying: Bool
   @Binding var isNewPlaylistAlertPresented: Bool
+  @Binding var isNewAutoPlaylistAlertPresented: Bool
   @Binding var isEditModePresented: Bool
 
   @State private var totalSizeOnDisk = Measurement<UnitInformationStorage>(value: 0, unit: .bytes)
@@ -193,6 +198,7 @@ struct PlaylistSidebarListHeader: View {
     selectedItemID: PlaylistItem.ID?,
     isPlaying: Binding<Bool>,
     isNewPlaylistAlertPresented: Binding<Bool>,
+    isNewAutoPlaylistAlertPresented: Binding<Bool>,
     isEditModePresented: Binding<Bool>
   ) {
     self.folders = folders
@@ -200,6 +206,7 @@ struct PlaylistSidebarListHeader: View {
     self.selectedItemID = selectedItemID
     self._isPlaying = isPlaying
     self._isNewPlaylistAlertPresented = isNewPlaylistAlertPresented
+    self._isNewAutoPlaylistAlertPresented = isNewAutoPlaylistAlertPresented
     self._isEditModePresented = isEditModePresented
     self._selectedFolderItems = .init(
       sortDescriptors: [],
@@ -271,6 +278,11 @@ struct PlaylistSidebarListHeader: View {
             isNewPlaylistAlertPresented = true
           } label: {
             Label(Strings.Playlist.newPlaylistButtonTitle, braveSystemImage: "leo.plus.add")
+          }
+          Button {
+            isNewAutoPlaylistAlertPresented = true
+          } label: {
+            Label("Create Playlist For Me", braveSystemImage: "leo.brave.icon-search")
           }
         } label: {
           Text("\(selectedFolder.title ?? "") \(Image(braveSystemName: "leo.carat.down"))")
@@ -351,6 +363,8 @@ struct PlaylistSidebarListHeader: View {
 }
 
 struct PlaylistSidebarContentUnavailableView: View {
+  @Binding var isPresentingSearchView: Bool
+  
   var body: some View {
     VStack(spacing: 24) {
       HStack(spacing: 12) {
@@ -363,6 +377,15 @@ struct PlaylistSidebarContentUnavailableView: View {
         .multilineTextAlignment(.center)
         .foregroundStyle(Color(braveSystemName: .textTertiary))
         .frame(maxWidth: .infinity)
+      Button {
+        isPresentingSearchView = true
+      } label: {
+        HStack {
+          Image(braveSystemName: "leo.brave.icon-search")
+          Text("Find Videos with Brave Search")
+        }
+      }
+      .buttonStyle(BraveFilledButtonStyle(size: .small))
     }
     .padding(40)
   }
@@ -370,6 +393,6 @@ struct PlaylistSidebarContentUnavailableView: View {
 
 #if DEBUG
 #Preview {
-  PlaylistSidebarList(folders: [], folderID: "", selectedItemID: .constant(nil), isPlaying: false)
+  PlaylistSidebarList(folders: [], folderID: "", selectedItemID: .constant(nil), isPlaying: false, isPresentingSearch: .constant(false))
 }
 #endif

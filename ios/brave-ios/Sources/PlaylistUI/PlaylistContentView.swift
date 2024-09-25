@@ -28,9 +28,12 @@ struct PlaylistContentView: View {
 
   @State private var selectedDetent: PlaylistSheetDetent = .anchor(.mediaControls)
   @State private var isNewPlaylistAlertPresented: Bool = false
+  @State private var isNewAutoPlaylistAlertPresented: Bool = false
   @State private var isEditModePresented: Bool = false
   @State private var newPlaylistName: String = ""
+  @State private var autoPlaylistQuery: String = ""
   @State private var isPopulatingNewPlaylist: Bool = false
+  @State private var isPresentingBraveSearch: Bool = false
 
   private var selectedItemID: PlaylistItem.ID? {
     playerModel.selectedItemID
@@ -79,7 +82,8 @@ struct PlaylistContentView: View {
             }
           }
         ),
-        isPlaying: playerModel.isPlaying
+        isPlaying: playerModel.isPlaying,
+        isPresentingSearch: $isPresentingBraveSearch
       )
     } sidebarHeader: {
       if let selectedFolder = selectedFolder {
@@ -111,6 +115,7 @@ struct PlaylistContentView: View {
             }
           ),
           isNewPlaylistAlertPresented: $isNewPlaylistAlertPresented,
+          isNewAutoPlaylistAlertPresented: $isNewAutoPlaylistAlertPresented,
           isEditModePresented: $isEditModePresented
         )
       }
@@ -133,6 +138,12 @@ struct PlaylistContentView: View {
       }
       .fontWeight(.semibold)
       Spacer()
+      Button {
+        isPresentingBraveSearch = true
+      } label: {
+        Label("Brave Search", braveSystemImage: "leo.brave.icon-search")
+      }
+      .labelStyle(.iconOnly)
       if playerModel.isPictureInPictureSupported {
         Button {
           playerModel.startPictureInPicture()
@@ -200,6 +211,53 @@ struct PlaylistContentView: View {
       //   action even when the button is enabled.
       // .disabled(newPlaylistName.isEmpty)
     }
+    .alert("What would you like to watch?", isPresented: $isNewAutoPlaylistAlertPresented) {
+      TextField("Videos about SwiftUI", text: $autoPlaylistQuery)
+      Button(role: .cancel) {
+        autoPlaylistQuery = ""
+      } label: {
+        Text(Strings.CancelString)
+      }
+      .keyboardShortcut(.cancelAction)
+      Button {
+        defer { autoPlaylistQuery = "" }
+        if autoPlaylistQuery.isEmpty {
+          // See comment below about .disabled modifier
+          return
+        }
+        PlaylistFolder.addFolder(title: autoPlaylistQuery) { [autoPlaylistQuery] uuid in
+          Task {
+            let videos = try await SearchAPI().search(query: autoPlaylistQuery, count: 10)
+            let infos: [PlaylistInfo] = videos.map { videoResult in
+              return .init(
+                name: videoResult.title,
+                src: "",
+                pageSrc: videoResult.url,
+                pageTitle: videoResult.title,
+                mimeType: "video",
+                duration: 0,
+                lastPlayedOffset: 0,
+                detected: true,
+                dateAdded: .now,
+                tagId: "",
+                order: 0,
+                isInvisible: false
+              )
+            }
+            PlaylistItem.addItems(infos, folderUUID: uuid, cachedData: nil)
+            playerModel.selectedFolderID = uuid
+          }
+        }
+      } label: {
+        Text(Strings.Playlist.createNewPlaylistButtonTitle)
+      }
+      .keyboardShortcut(.defaultAction)
+      // Unfortunately we can't disable this button due to _many_ SwiftUI bugs.
+      // - On iOS 16, the button simply does not get added to the alert at all.
+      // - On iOS 17 (tested to 17.4), the button shows up but tapping it does not execute the
+      //   action even when the button is enabled.
+      // .disabled(newPlaylistName.isEmpty)
+    }
     .alert(
       isPresented: playerModel.isErrorAlertPresented,
       error: playerModel.error,
@@ -219,6 +277,11 @@ struct PlaylistContentView: View {
     .sheet(isPresented: $isPopulatingNewPlaylist) {
       PopulateNewPlaylistView(destinationFolder: selectedFolderID)
         .presentationDetents([.medium, .large])
+        .environment(\.colorScheme, .dark)
+        .preferredColorScheme(.dark)
+    }
+    .sheet(isPresented: $isPresentingBraveSearch) {
+      SearchView()
         .environment(\.colorScheme, .dark)
         .preferredColorScheme(.dark)
     }
