@@ -22,7 +22,6 @@
 #include "chrome/browser/ui/tabs/tab_strip_model_observer.h"
 #include "chrome/browser/ui/views/side_panel/side_panel_coordinator.h"
 #include "chrome/browser/ui/views/side_panel/side_panel_entry_observer.h"
-#include "chrome/browser/ui/views/side_panel/side_panel_registry_observer.h"
 #include "components/prefs/pref_member.h"
 #include "ui/events/event_observer.h"
 #include "ui/gfx/animation/slide_animation.h"
@@ -57,7 +56,6 @@ class SidebarContainerView
       public SidebarShowOptionsEventDetectWidget::Delegate,
       public sidebar::SidebarModel::Observer,
       public SidePanelEntryObserver,
-      public SidePanelRegistryObserver,
       public TabStripModelObserver {
   METADATA_HEADER(SidebarContainerView, views::View)
  public:
@@ -121,12 +119,12 @@ class SidebarContainerView
   void OnEntryShown(SidePanelEntry* entry) override;
   void OnEntryHidden(SidePanelEntry* entry) override;
 
-  // SidePanelRegistryObserver:
-  void OnEntryRegistered(SidePanelRegistry* registry,
-                         SidePanelEntry* entry) override;
-  void OnEntryWillDeregister(SidePanelRegistry* registry,
-                             SidePanelEntry* entry) override;
-  void OnRegistryDestroying(SidePanelRegistry* registry) override;
+  //   // SidePanelRegistryObserver:
+  //   void OnEntryRegistered(SidePanelRegistry* registry,
+  //                          SidePanelEntry* entry) override;
+  //   void OnEntryWillDeregister(SidePanelRegistry* registry,
+  //                              SidePanelEntry* entry) override;
+  //   void OnRegistryDestroying(SidePanelRegistry* registry) override;
 
   // TabStripModelObserver:
   void OnTabStripModelChanged(
@@ -210,9 +208,9 @@ class SidebarContainerView
       sidebar_model_observation_{this};
   base::ScopedMultiSourceObservation<SidePanelEntry, SidePanelEntryObserver>
       panel_entry_observations_{this};
-  base::ScopedMultiSourceObservation<SidePanelRegistry,
-                                     SidePanelRegistryObserver>
-      panel_registry_observations_{this};
+  //   base::ScopedMultiSourceObservation<SidePanelRegistry,
+  //                                      SidePanelRegistryObserver>
+  //       panel_registry_observations_{this};
 };
 
 #endif  // BRAVE_BROWSER_UI_VIEWS_SIDEBAR_SIDEBAR_CONTAINER_VIEW_H_

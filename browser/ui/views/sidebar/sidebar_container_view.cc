@@ -142,7 +142,7 @@ void SidebarContainerView::Init() {
   DCHECK(browser_view);
 
   auto* global_registry = side_panel_coordinator_->GetWindowRegistry();
-  panel_registry_observations_.AddObservation(global_registry);
+  // panel_registry_observations_.AddObservation(global_registry);
 
   for (const auto& entry : global_registry->entries()) {
     DVLOG(1) << "Observing panel entry in ctor: "
@@ -791,27 +791,28 @@ void SidebarContainerView::OnEntryHidden(SidePanelEntry* entry) {
   }
 }
 
-void SidebarContainerView::OnEntryRegistered(SidePanelRegistry* registry,
-                                             SidePanelEntry* entry) {
-  // Observe when it's shown or hidden
-  DVLOG(1) << "Observing panel entry in registry observer: "
-           << SidePanelEntryIdToString(entry->key().id());
-  panel_entry_observations_.AddObservation(entry);
-}
+// void SidebarContainerView::OnEntryRegistered(SidePanelRegistry* registry,
+//                                              SidePanelEntry* entry) {
+//   // Observe when it's shown or hidden
+//   DVLOG(1) << "Observing panel entry in registry observer: "
+//            << SidePanelEntryIdToString(entry->key().id());
+//   panel_entry_observations_.AddObservation(entry);
+// }
 
-void SidebarContainerView::OnEntryWillDeregister(SidePanelRegistry* registry,
-                                                 SidePanelEntry* entry) {
-  // Stop observing
-  DVLOG(1) << "Unobserving panel entry in registry observer: "
-           << SidePanelEntryIdToString(entry->key().id());
-  panel_entry_observations_.RemoveObservation(entry);
-}
+// void SidebarContainerView::OnEntryWillDeregister(SidePanelRegistry* registry,
+//                                                  SidePanelEntry* entry) {
+//   // Stop observing
+//   DVLOG(1) << "Unobserving panel entry in registry observer: "
+//            << SidePanelEntryIdToString(entry->key().id());
+//   panel_entry_observations_.RemoveObservation(entry);
+// }
 
-void SidebarContainerView::OnRegistryDestroying(SidePanelRegistry* registry) {
-  if (panel_registry_observations_.IsObservingSource(registry)) {
-    StopObservingContextualSidePanelRegistry(registry);
-  }
-}
+// void SidebarContainerView::OnRegistryDestroying(SidePanelRegistry* registry)
+// {
+//   if (panel_registry_observations_.IsObservingSource(registry)) {
+//     StopObservingContextualSidePanelRegistry(registry);
+//   }
+// }
 
 void SidebarContainerView::OnTabStripModelChanged(
     TabStripModel* tab_strip_model,
@@ -881,7 +882,7 @@ void SidebarContainerView::StopObservingContextualSidePanelRegistry(
     return;
   }
 
-  panel_registry_observations_.RemoveObservation(registry);
+  // panel_registry_observations_.RemoveObservation(registry);
 
   for (const auto& entry : registry->entries()) {
     if (panel_entry_observations_.IsObservingSource(entry.get())) {
@@ -900,7 +901,7 @@ void SidebarContainerView::StartObservingContextualSidePanelRegistry(
     return;
   }
 
-  panel_registry_observations_.AddObservation(registry);
+  // panel_registry_observations_.AddObservation(registry);
 
   for (const auto& entry : registry->entries()) {
     if (!panel_entry_observations_.IsObservingSource(entry.get())) {
