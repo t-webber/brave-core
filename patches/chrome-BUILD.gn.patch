@@ -1,5 +1,5 @@
 diff --git a/chrome/BUILD.gn b/chrome/BUILD.gn
-index 6d355ce559b80b3a74292c29a548f6b8078e8b55..b1b3d5efbe11adaacd4d5c888af40d91d500ec7c 100644
+index 3049bfae136860928c25ad9a06fbd82c25084763..d88f99cca21854775d163c1743c0609e833a5d14 100644
 --- a/chrome/BUILD.gn
 +++ b/chrome/BUILD.gn
 @@ -203,6 +203,7 @@ if (!is_android && !is_mac) {
@@ -68,7 +68,7 @@ index 6d355ce559b80b3a74292c29a548f6b8078e8b55..b1b3d5efbe11adaacd4d5c888af40d91
        } else {
          sources += [ "$root_out_dir/${updater_product_full_name}.app" ]
  
-@@ -1253,6 +1261,7 @@ if (is_win) {
+@@ -1254,6 +1262,7 @@ if (is_win) {
        "-current_version",
        chrome_dylib_version,
      ]
@@ -76,7 +76,7 @@ index 6d355ce559b80b3a74292c29a548f6b8078e8b55..b1b3d5efbe11adaacd4d5c888af40d91
  
      if (!is_component_build) {
        # Specify a sensible install_name for static builds. The library is
-@@ -1434,6 +1443,7 @@ if (is_win) {
+@@ -1435,6 +1444,7 @@ if (is_win) {
  
  group("dependencies") {
    public_deps = [
@@ -84,7 +84,7 @@ index 6d355ce559b80b3a74292c29a548f6b8078e8b55..b1b3d5efbe11adaacd4d5c888af40d91
      "//build:branding_buildflags",
      "//build:chromeos_buildflags",
      "//chrome/browser",
-@@ -1499,7 +1509,7 @@ group("dependencies") {
+@@ -1500,7 +1510,7 @@ group("dependencies") {
  
  if (is_win) {
    process_version_rc_template("chrome_exe_version") {
@@ -93,7 +93,7 @@ index 6d355ce559b80b3a74292c29a548f6b8078e8b55..b1b3d5efbe11adaacd4d5c888af40d91
      output = "$target_gen_dir/chrome_exe_version.rc"
    }
  
-@@ -1548,6 +1558,7 @@ group("resources") {
+@@ -1549,6 +1559,7 @@ group("resources") {
      "//chrome/browser:resources",
      "//chrome/common:resources",
      "//chrome/renderer:resources",
@@ -101,7 +101,7 @@ index 6d355ce559b80b3a74292c29a548f6b8078e8b55..b1b3d5efbe11adaacd4d5c888af40d91
    ]
  }
  
-@@ -1601,6 +1612,7 @@ if (!is_android) {
+@@ -1602,6 +1613,7 @@ if (!is_android) {
      if (enable_resource_allowlist_generation) {
        repack_allowlist = _chrome_resource_allowlist
        deps = [ ":resource_allowlist" ]

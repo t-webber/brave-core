@@ -1,8 +1,8 @@
 diff --git a/ios/chrome/browser/shared/model/prefs/browser_prefs.mm b/ios/chrome/browser/shared/model/prefs/browser_prefs.mm
-index 8ce52d5400e63ea4193277c2ebf15700d2efc440..048517197f31e73bf27ae158e4ed2bee7aa8c487 100644
+index aa2121af400aedebfb6aa4ac2338f506bc52ced9..1fb802c2144ae72ed7b256515d595050711b6cd3 100644
 --- a/ios/chrome/browser/shared/model/prefs/browser_prefs.mm
 +++ b/ios/chrome/browser/shared/model/prefs/browser_prefs.mm
-@@ -760,6 +760,7 @@ void RegisterLocalStatePrefs(PrefRegistrySimple* registry) {
+@@ -767,6 +767,7 @@ void RegisterLocalStatePrefs(PrefRegistrySimple* registry) {
  
    registry->RegisterIntegerPref(prefs::kAddressBarSettingsNewBadgeShownCount,
                                  0);
@@ -10,7 +10,7 @@ index 8ce52d5400e63ea4193277c2ebf15700d2efc440..048517197f31e73bf27ae158e4ed2bee
  }
  
  void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
-@@ -1101,6 +1102,7 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
+@@ -1110,6 +1111,7 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
    registry->RegisterInt64Pref(kNtpShownBookmarksFolder, 3);
  
    registry->RegisterDictionaryPref(prefs::kIosPreRestoreAccountInfo);

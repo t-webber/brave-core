@@ -1,8 +1,8 @@
 diff --git a/chrome/browser/BUILD.gn b/chrome/browser/BUILD.gn
-index 2b66b11333f732ea1ec65474d709b55638696cf3..3a3e5ee879ef5cc3b36012140c892fc0287717a1 100644
+index 5c279715b863215a9d34272cdeea5b58beaedfce..603dfdc2ba5d2accc85db77b6f85748ea71fdf41 100644
 --- a/chrome/browser/BUILD.gn
 +++ b/chrome/browser/BUILD.gn
-@@ -2516,6 +2516,7 @@ static_library("browser") {
+@@ -2513,6 +2513,7 @@ static_library("browser") {
        "performance_monitor/metric_evaluator_helper_posix.h",
      ]
    }
@@ -10,7 +10,7 @@ index 2b66b11333f732ea1ec65474d709b55638696cf3..3a3e5ee879ef5cc3b36012140c892fc0
  
    if (!is_chromeos_ash) {
      sources += [
-@@ -8510,6 +8511,7 @@ static_library("browser_public_dependencies") {
+@@ -8575,6 +8576,7 @@ static_library("browser_public_dependencies") {
        "//rlz:rlz_lib",
      ]
    }
