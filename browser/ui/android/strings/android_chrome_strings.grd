@@ -2878,8 +2878,20 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
       </message>
 
       <!-- Tab switcher -->
-      <message name="IDS_ACCESSIBILITY_TAB_SWITCHER_STANDARD_STACK" desc="Content description for the standard stack selection 'button'.">
-        Standard tabs
+      <message name="IDS_TAB_SWITCHER_STANDARD_STACK_TEXT" desc="Text for the standard stack selection 'button'.">
+        Tabs
+      </message>
+      <message name="IDS_ACCESSIBILITY_TAB_SWITCHER_STANDARD_STACK" desc="Content description for the standard stack selection 'button'. NUMBER_OF_TABS is the number of tabs within the tab switcher.">
+        {NUMBER_OF_TABS, plural,
+          =1 {<ph name="TABS_COUNT_ONE">%1$d<ex>1</ex></ph> standard tab}
+          other {<ph name="TABS_COUNT_MANY">%1$d<ex>2</ex></ph> standard tabs}
+        }
+      </message>
+      <message name="IDS_ACCESSIBILITY_TAB_SWITCHER_STANDARD_STACK_WITH_NOTIFICATION" desc="Content description for the standard stack selection 'button' with a notification icon.">
+        {NUMBER_OF_TABS, plural,
+          =1 {<ph name="TABS_COUNT_ONE">%1$d<ex>1</ex></ph> standard tab with new activity in shared tab groups}
+          other {<ph name="TABS_COUNT_MANY">%1$d<ex>2</ex></ph> standard tabs with new activity in shared tab groups}
+        }
       </message>
       <message name="IDS_ACCESSIBILITY_TAB_SWITCHER_INCOGNITO_STACK" desc="Content description for the Private stack selection 'button'.">
         Private tabs
@@ -2941,9 +2953,12 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
           =1 {1 download pending}
           other {# downloads pending}}
       </message>
+      <message name="IDS_DOWNLOAD_MESSAGE_SINGLE_DOWNLOAD_BLOCKED" desc="Download message label describing that one download was blocked due to corporate policy">
+        Blocked by your organization
+      </message>
       <message name="IDS_DOWNLOAD_MESSAGE_MULTIPLE_DOWNLOAD_BLOCKED" desc="Download message label describing that one or more downloads are blocked due to corporate policy">
         {FILE_COUNT, plural,
-          =1 {Blocked by your organization}
+          =1 {1 was blocked by your organization}
           other {# were blocked by your organization}}
       </message>
 
@@ -4470,17 +4485,11 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
       <message name="IDS_BOOKMARK_SAVE_FLOW_TITLE" desc="The title when a user chooses save a bookmarks.">
         Bookmark saved
       </message>
-      <message name="IDS_BOOKMARK_SAVE_FLOW_TITLE_MOVE" desc="The title when a user chooses to move a bookmark.">
-        Bookmark moved
-      </message>
       <message name="IDS_PRICE_TRACKING_TITLE" desc="The title when a user chooses to track the price of a product.">
         Tracking price
       </message>
       <message name="IDS_PRICE_TRACKING_SAVE_FLOW_NOTIFICATION_SWITCH_SUBTITLE" desc="The subtitle of an optional switch to track the price for product pages added as bookmarks.">
         Get alerts if the price drops on any site
-      </message>
-      <message name="IDS_PRICE_TRACKING_SAVE_FLOW_NOTIFICATION_SWITCH_SUBTITLE_ERROR" desc="The subtitle of an optional switch to track the price for product pages added as bookmarks shown in error.">
-        Couldn’t update Track price
       </message>
       <message name="IDS_ENABLE_PRICE_TRACKING_MENU_ITEM" desc="Menu item which allows user to track the price of a product page. [CHAR_LIMIT=32]">
         Track price
@@ -4556,6 +4565,9 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
       </message>
       <message name="IDS_PRICE_HISTORY_TITLE" desc="The title when a user see the price history graph section in the price insights bottom sheet.">
         Price history across the web
+      </message>
+      <message name="IDS_PRICE_HISTORY_CHART_CONTENT_DESCRIPTION" desc="Accessibility string that describes price history chart and its content action for a product." translateable="false">
+        Price history graph for <ph name="PRODUCT_NAME">%s<ex>Nike Air Max</ex></ph>. Use two fingers to move left and right to explore prices over time.
       </message>
       <message name="IDS_PRICE_HISTORY_MULTIPLE_CATALOGS_TITLE" desc="The title when a user see the price history graph for multiple catalog in the price insights bottom sheet.">
         Price history across the web for this option
@@ -4830,8 +4842,17 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
       <message name="IDS_TABSWITCHER_NO_TABS_OPEN_TO_VISIT_DIFFERENT_PAGES" desc="Text appearing on an empty tab switcher that indicates that users can open tabs here to visit different pages.">
         Open tabs to visit different pages at the same time
       </message>
-      <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_TABSWITCHER_TOGGLE_DEFAULT" desc="Placeholder content description for the button that enters or leaves the tab switcher.">
-        Switch or close tabs
+      <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_TABSWITCHER_TOGGLE_DEFAULT" desc="Placeholder content description for the button that enters or leaves the tab switcher. NUMBER_OF_TABS is the number of tabs within the tab switcher.">
+        {NUMBER_OF_TABS, plural,
+          =1 {See <ph name="TABS_COUNT_ONE">%1$d<ex>1</ex></ph> tab}
+          other {See <ph name="TABS_COUNT_MANY">%1$d<ex>2</ex></ph> tabs}
+        }
+      </message>
+      <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_TABSWITCHER_TOGGLE_DEFAULT_WITH_NOTIFICATION" desc="Placeholder content description for the button that enters or leaves the tab switcher when a notification icon is present. NUMBER_OF_TABS is the number of tabs within the tab switcher.">
+        {NUMBER_OF_TABS, plural,
+          =1 {See <ph name="TABS_COUNT_ONE">%1$d<ex>1</ex></ph> tab with new activity in shared tab groups}
+          other {See <ph name="TABS_COUNT_MANY">%1$d<ex>2</ex></ph> tabs with new activity in shared tab groups}
+        }
       </message>
       <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_IDENTITY_DISC" desc="The content description for a toolbar button displaying user profile picture. Tapping on this button navigates to 'Sync and Brave services' page in settings">
               Manage account
@@ -6249,17 +6270,26 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
       <message name="IDS_ACCOUNT_SELECTION_SHEET_TITLE_EXPLICIT_CONTINUE" desc="Header for continue sheet. Sheet is shown to prompt user to continue to a website using an account from an identity provider.">
         Continue to <ph name="SITE_ETLD_PLUS_ONE">%1$s<ex>rp.example</ex></ph> with <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE">%2$s<ex>idp.com</ex></ph>
       </message>
+    <message name="IDS_ACCOUNT_SELECTION_DATA_SHARING_NAME" desc="A user's name, to be used in a list of items shared with a website">
+      name
+    </message>
+    <message name="IDS_ACCOUNT_SELECTION_DATA_SHARING_EMAIL" desc="A user's email address, to be used in a list of items shared with a website">
+      email address
+    </message>
+    <message name="IDS_ACCOUNT_SELECTION_DATA_SHARING_PICTURE" desc="A user's profile picture, to be used in a list of items shared with a website">
+      profile picture
+    </message>
       <message name="IDS_ACCOUNT_SELECTION_DATA_SHARING_CONSENT_NO_PP_OR_TOS" desc="The consent text shown to the user before sign up when there is no privacy policy or terms of service.">
-      To continue, <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE">%1$s<ex>idp.com</ex></ph> will share your name, email address, and profile picture with this site.
+      To continue, <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE">%1$s<ex>idp.com</ex></ph> will share your <ph name="FIELDS_STRING">%2$s<ex>name and email address</ex></ph> with this site.
       </message>
       <message name="IDS_ACCOUNT_SELECTION_DATA_SHARING_CONSENT_NO_PP" desc="The consent text shown to the user before sign up when there is no privacy policy.">
-      To continue, <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE">%1$s<ex>idp.com</ex></ph> will share your name, email address, and profile picture with this site. See this site's <ph name="BEGIN_LINK1">&lt;link_terms_of_service&gt;</ph>terms of service<ph name="END_LINK1">&lt;/link_terms_of_service&gt;</ph>.
+      To continue, <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE">%1$s<ex>idp.com</ex></ph> will share your <ph name="FIELDS_STRING">%2$s<ex>name and email address</ex></ph> with this site. See this site's <ph name="BEGIN_LINK1">&lt;link_terms_of_service&gt;</ph>terms of service<ph name="END_LINK1">&lt;/link_terms_of_service&gt;</ph>.
       </message>
       <message name="IDS_ACCOUNT_SELECTION_DATA_SHARING_CONSENT_NO_TOS" desc="The consent text shown to the user before sign up when there is no terms of service.">
-      To continue, <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE">%1$s<ex>idp.com</ex></ph> will share your name, email address, and profile picture with this site. See this site's <ph name="BEGIN_LINK1">&lt;link_privacy_policy&gt;</ph>privacy policy<ph name="END_LINK1">&lt;/link_privacy_policy&gt;</ph>.
+      To continue, <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE">%1$s<ex>idp.com</ex></ph> will share your <ph name="FIELDS_STRING">%2$s<ex>name and email address</ex></ph> with this site. See this site's <ph name="BEGIN_LINK1">&lt;link_privacy_policy&gt;</ph>privacy policy<ph name="END_LINK1">&lt;/link_privacy_policy&gt;</ph>.
       </message>
       <message name="IDS_ACCOUNT_SELECTION_DATA_SHARING_CONSENT" desc="The consent text shown to the user before sign up.">
-        To continue, <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE">%1$s<ex>idp.com</ex></ph> will share your name, email address, and profile picture with this site. See this site's <ph name="BEGIN_LINK1">&lt;link_privacy_policy&gt;</ph>privacy policy<ph name="END_LINK1">&lt;/link_privacy_policy&gt;</ph> and <ph name="BEGIN_LINK2">&lt;link_terms_of_service&gt;</ph>terms of service<ph name="END_LINK2">&lt;/link_terms_of_service&gt;</ph>.
+        To continue, <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE">%1$s<ex>idp.com</ex></ph> will share your <ph name="FIELDS_STRING">%2$s<ex>name and email address</ex></ph> with this site. See this site's <ph name="BEGIN_LINK1">&lt;link_privacy_policy&gt;</ph>privacy policy<ph name="END_LINK1">&lt;/link_privacy_policy&gt;</ph> and <ph name="BEGIN_LINK2">&lt;link_terms_of_service&gt;</ph>terms of service<ph name="END_LINK2">&lt;/link_terms_of_service&gt;</ph>.
       </message>
 
       <message name="IDS_ACCOUNT_SELECTION_CONTINUE" desc="Title of the button that continues filling with the only available set of credentials.">
@@ -6749,6 +6779,36 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
       </message>
       <message name="IDS_ARCHIVED_TAB_IPH_CARD_SUBTITLE_SETTINGS_TITLE" desc="The word for settings, used in IDS_ARCHIVED_TAB_IPH_CARD_SUBTITLE.">
         Settings
+      </message>
+
+      <!-- Hub search -->
+      <message name="IDS_HUB_SEARCH_EMPTY_HINT" desc="The text displayed in the search box when it's empty.">
+        Search your tabs
+      </message>
+
+      <!-- Default browser promo -->
+      <message name="IDS_DEFAULT_BROWSER_PROMO_CARD_TITLE" desc="Title of a promotion about setting Brave the default browser.">
+        Make Brave your default browser
+      </message>
+      <message name="IDS_DEFAULT_BROWSER_PROMO_CARD_DESCRIPTION" desc="Description of a promot about setting Brave as default browser. It explains the user benefit of setting default browser.">
+        You can use Brave any time you tap links in messages, documents and other apps
+      </message>
+      <message name="IDS_DEFAULT_BROWSER_PROMO_OPEN_SETTINGS_LABEL" desc="Text that displayed on button that allows the user to open Android settings to set a default browser.">
+          Open Settings
+      </message>
+
+       <!-- Mandatory biometric auth errors -->
+      <message name="IDS_IDENTITY_CHECK_LOCKOUT_ERROR_TITLE" desc="Title for the error dialog shown to the user when Identity Check cannot authenticate them because the maximum number of attempts to authenticate with biometrics has been exceeded and biometrics have been locked out.">
+        Identity Check is on and can’t verify it’s you
+      </message>
+      <message name="IDS_IDENTITY_CHECK_LOCKOUT_ERROR_DESCRIPTION" desc="Description for the error dialog shown to the user when the maximum number of attempts to authenticate with biometrics has been exceeded and biometrics have been locked out, but Identity Check is on so verification is mandatory.">
+        Biometrics failed too many times. Lock and unlock your device to retry.
+      </message>
+      <message name="IDS_IDENTITY_CHECK_LOCKOUT_ERROR_MORE_DETAILS" desc="Second paragraph of the description for the lockout error, explaining to the user how they can manage Identity Check.">
+        You can manage Identity Check in theft protection settings. <ph name="BEGIN_LINK">&lt;link&gt;</ph>Go to settings<ph name="END_LINK">&lt;/link&gt;</ph>
+      </message>
+      <message name="IDS_LOCK_SCREEN" desc="Title for the button that the user can tap to lock the device screen. This is the only way to exit a biometric lockout status.">
+        Lock screen
       </message>
     </messages>
   </release>

@@ -49,17 +49,60 @@
     <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_NOTICE_ANDROID" desc="The notice text on the creation dialog for plus addresses on Android when the dialog is shown for the first time." translateable="false">
       First time usage notice placeholder (<ph name="GAIA_EMAIL">$1<ex>foo@gmail.com</ex></ph>), which includes the redirection link <ph name="BEGIN_LINK">&lt;link&gt;</ph>link placeholder<ph name="END_LINK">&lt;/link&gt;</ph>.
     </message>
-    <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_RESERVE_ERROR_TITLE_ANDROID" desc="Title shown in the plus address creation bottom sheet when the backend fails to reserve the plus address after the user click the confirm button" translateable="false">
-      Reserve error title placeholder
+    <!-- Android reserve error strings -->
+    <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_RESERVE_TIMEOUT_ERROR_TITLE_ANDROID" desc="Title shown in the plus address creation bottom sheet when the backend fails to reserve the plus address after the user click the confirm button due to the network request timeout." translateable="false">
+      Something went wrong
     </message>
-    <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_RESERVE_ERROR_DESCRIPTION_ANDROID" desc="Description message shown in the plus address creation bottom sheet when the backend fails to reserve the plus address after the user click the confirm button" translateable="false">
-      Reserve error description placeholder.
+    <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_RESERVE_TIMEOUT_ERROR_DESCRIPTION_ANDROID" desc="Description message shown in the plus address creation bottom sheet when the backend fails to reserve the plus address after the user click the confirm button due to the network request timeout." translateable="false">
+      Make sure you're online and try again.
     </message>
-    <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_RESERVE_ERROR_OK_BUTTON_ANDROID" desc="The user clicked confirm on the plus address creation bottom sheet and received and error. The text of the button that restarts the process." translateable="false">
-      Reserve ok button placeholder
+    <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_RESERVE_QUOTA_ERROR_TITLE_ANDROID" desc="Title shown in the plus address creation bottom sheet when the backend fails to reserve the plus address after the user click the confirm button due to the plus address quota limit exceeded." translateable="false">
+      Too many plus addresses
     </message>
-    <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_RESERVE_ERROR_CANCEL_BUTTON_ANDROID" desc="The user clicked confirm on the plus address creation bottom sheet and received and error. The text of the button that closes the current error message." translateable="false">
-      Reserver cancel button placeholder
+    <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_RESERVE_QUOTA_ERROR_DESCRIPTION_ANDROID" desc="Description message shown in the plus address creation bottom sheet when the backend fails to reserve the plus address after the user click the confirm button due to the plus address quota limit exceeded." translateable="false">
+      Can't create any more plus addresses.
+    </message>
+    <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_RESERVE_GENERIC_ERROR_TITLE_ANDROID" desc="Title shown in the plus address creation bottom sheet when the backend fails to reserve the plus address after the user click the confirm button due to an unknown error." translateable="false">
+      Something went wrong
+    </message>
+    <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_RESERVE_GENERIC_ERROR_DESCRIPTION_ANDROID" desc="Description message shown in the plus address creation bottom sheet when the backend fails to reserve the plus address after the user click the confirm button due to an unknown error." translateable="false">
+      Can't create plus address right now.
+    </message>
+    <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_CREATE_TIMEOUT_ERROR_TITLE_ANDROID" desc="Title message shown in the plus address creation bottom sheet when the backend fails to create the plus address after the user click the confirm button due to the timeout error." translateable="false">
+      Something went wrong
+    </message>
+    <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_CREATE_TIMEOUT_ERROR_DESCRIPTION_ANDROID" desc="Description message shown in the plus address creation bottom sheet when the backend fails to create the plus address after the user click the confirm button due to the timeout error." translateable="false">
+      Make sure you're online and try again.
+    </message>
+    <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_CREATE_QUOTA_ERROR_TITLE_ANDROID" desc="Title message shown in the plus address creation bottom sheet when the backend fails to create the plus address after the user click the confirm button due to the quota error." translateable="false">
+      Too many plus addresses
+    </message>
+    <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_CREATE_QUOTA_ERROR_DESCRIPTION_ANDROID" desc="Description message shown in the plus address creation bottom sheet when the backend fails to create the plus address after the user click the confirm button due to the quota error." translateable="false">
+      Can't create any more plus addresses.
+    </message>
+    <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_CREATE_AFFILIATION_ERROR_TITLE_ANDROID" desc="Title message shown in the plus address creation bottom sheet when the backend returns an already existing plus address after the user click the confirm button due to the quota error." translateable="false">
+      Use existing address?
+    </message>
+    <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_CREATE_AFFILIATION_ERROR_DESCRIPTION_ANDROID" desc="Description message shown in the plus address creation bottom sheet when the backend returns an already existing plus address after the user click the confirm button due to the quota error." translateable="false">
+      You already have a plus address for &lt;b1&gt;<ph name="DOMAIN">$1<ex>domain.com</ex></ph>&lt;/b1&gt;. Use existing address &lt;b2&gt;<ph name="GAIA_EMAIL">$2<ex>example@gmail.com</ex></ph>&lt;/b2&gt;?
+    </message>
+    <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_CREATE_GENERIC_ERROR_TITLE_ANDROID" desc="Title message shown in the plus address creation bottom sheet when the backend fails to create the plus address after the user click the confirm button due to an unknown error." translateable="false">
+      Something went wrong
+    </message>
+    <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_CREATE_GENERIC_ERROR_DESCRIPTION_ANDROID" desc="Description message shown in the plus address creation bottom sheet when the backend fails to create the plus address after the user click the confirm button due to an unknown error." translateable="false">
+      Can't create plus address right now.
+    </message>
+    <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_ERROR_OK_BUTTON_TEXT_ANDROID" desc="Confirm button text in the plus address creation bottom sheet that closes the bottom sheet." translateable="false">
+      OK
+    </message>
+    <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_ERROR_TRY_AGAIN_BUTTON_TEXT_ANDROID" desc="Confirm button text in the plus address creation bottom sheet that retries the previously failed action." translateable="false">
+      Try again
+    </message>
+    <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_ERROR_USE_EXISTING_ADDRESS_BUTTON_TEXT_ANDROID" desc="Confirm button text in the plus address creation bottom sheet that tries to fill an existing plus address into the triggering field." translateable="false">
+      Use existing address
+    </message>
+    <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_ERROR_CANCEL_BUTTON_TEXT_ANDROID" desc="Cancel button text in the plus address creation bottom sheet that closes the bottom sheet." translateable="false">
+      Cancel
     </message>
 
     <!-- iOS strings -->
@@ -88,7 +131,7 @@
       Use Address
     </message>
     <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_LOADING_TEMPORARY_LABEL_CONTENT_IOS" desc="The content shown in the plus address label of the bottomsheet on iOS while a refresh is ongoing." translateable="false">
-      Loading...
+      Generating...
     </message>
     <message name="IDS_PLUS_ADDRESS_BOTTOMSHEET_REFRESH_TEMPORARY_LABEL_CONTENT_IOS" desc="The content shown in the plus address label of the bottomsheet on iOS while a refresh is ongoing." translateable="false">
       Refreshing...
@@ -115,6 +158,14 @@
     </message>
     <message name="IDS_PLUS_ADDRESS_MANUAL_FALLBACK_SUGGESTION_SUBLABEL_PREFIX_TEXT_IOS" desc="The prefix of the sub label of the plus address manual fallback suggestion." translateable="false">
 	Plus address for <ph name="DOMAIN">$1<ex>foo.com</ex></ph>
+    </message>
+
+    <!-- iOS Error State strings -->
+    <message name="IDS_PLUS_ADDRESS_GENERIC_ERROR_ALERT_TITLE_IOS" desc="The title of the generic error alert." translateable="false">
+        Something Went Wrong
+    </message>
+    <message name="IDS_PLUS_ADDRESS_GENERIC_ERROR_ALERT_MESSAGE_IOS" desc="The message displayed in the generic error alert." translateable="false">
+	Try reloading the page or some lorem ipsum generic text
     </message>
 
     <!-- Desktop strings -->
@@ -165,6 +216,9 @@
     </message>
     <message name="IDS_PLUS_ADDRESS_MODAL_CREATE_ERROR" desc="The error text shown below the suggested plus address if a plus address could not be created." translateable="false">
       Can't create plus address address. Try again.
+    </message>
+    <message name="IDS_PLUS_ADDRESS_MODAL_CREATE_TIMEOUT_ERROR" desc="The error text shown below the suggested plus address if a plus address could not be created due to a timeout." translateable="false">
+      Make sure you're online and try again.
     </message>
     <message name="IDS_PLUS_ADDRESS_MODAL_CREATE_ERROR_BUTTON" desc="The message on the accept button after an error has occurred during an attempt to create a plus address." translateable="false">
       Try again
