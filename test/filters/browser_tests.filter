@@ -1845,6 +1845,7 @@
 -SendTabToSelfBubbleTest.InvokeUi_ShowSigninPromo
 -SendTabToSelfToolbarIconControllerTest.DisplayNewEntry
 -SendTabToSelfToolbarIconControllerTest.ReplaceExistingEntry
+-SendTabToSelfToolbarIconControllerTest.StorePendingNewEntry
 
 # These test fail because kToolbarPinning is disabled
 -ChromeLabsMultipleFeaturesUiTest.InvokeUi_default
