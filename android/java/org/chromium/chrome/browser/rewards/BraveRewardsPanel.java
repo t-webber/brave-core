@@ -1517,9 +1517,9 @@ public class BraveRewardsPanel
                             + mPopupView
                                     .getResources()
                                     .getString(R.string.rewards_panel_unverified_on_section_text);
-                rewardsPanelUnverifiedOnSectionText.setText(Html.fromHtml(sectionText));
-                connectAccountButton.setVisibility(View.VISIBLE);
-                rewardsPanelUnverifiedOnSectionLearnMoreText.setVisibility(View.GONE);
+            rewardsPanelUnverifiedOnSectionText.setText(Html.fromHtml(sectionText));
+            connectAccountButton.setVisibility(View.VISIBLE);
+            rewardsPanelUnverifiedOnSectionLearnMoreText.setVisibility(View.GONE);
             rewardsPanelUnverifiedOffSection.setVisibility(View.GONE);
             mBraveRewardsNativeWorker.getPublishersVisitedCount();
         } else {
