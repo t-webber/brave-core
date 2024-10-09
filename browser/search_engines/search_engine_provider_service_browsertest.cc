@@ -143,6 +143,12 @@ IN_PROC_BROWSER_TEST_F(SearchEngineProviderServiceTest,
 IN_PROC_BROWSER_TEST_F(SearchEngineProviderServiceTest,
                        PRE_InvalidPrivateSearchProviderRestoreTest) {
   auto* profile = browser()->profile();
+  // Sometimes on CI PRE_ triggers
+  // NormalWindowSearchEngineProviderService::OnPreferenceChanged which CHECKs
+  // in UpdateDefaultPrivateSearchProviderData because the service hasn't done
+  // loading yet. Get around the CHECK by forcing loaded state.
+  auto* service = TemplateURLServiceFactory::GetForProfile(profile);
+  service->set_loaded(true);
   profile->GetPrefs()->SetString(prefs::kSyncedDefaultPrivateSearchProviderGUID,
                                  "invalid_id");
 }
