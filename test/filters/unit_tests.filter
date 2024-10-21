@@ -29,7 +29,7 @@
 -MV2/ExtensionProtocolsTest.MetadataFolder/0
 -MV3/ExtensionProtocolsTest.MetadataFolder/0
 
-# These tests fail because sync_helper::IsSyncable(extension) resturns false
+# These tests fail because sync_helper::IsSyncable(extension) returns false
 # due to UPDATER_DEV_ENDPOINT being empty and not matching expected store URL.
 -ExtensionSyncServiceCustomGalleryTest.ProcessSyncDataDeferredEnable
 -ExtensionSyncServiceCustomGalleryTest.ProcessSyncDataPermissionApproval
@@ -355,12 +355,14 @@
 -AccountExtensionTrackerUnitTest.AccountExtensionTypeResetWhenSignedOut
 -AccountExtensionTrackerUnitTest.AccountExtensionTypeSignedIn
 -AccountExtensionTrackerUnitTest.AccountExtensionTypeTransportMode
+-AppMenuModelTest.ProfileSyncOnTest
 -ChromeAutofillPredictionImprovementsClientTest.EligibilityOfNotSignedInUser
 -ChromeAutofillPredictionImprovementsClientTest.EligibilityOfSignedInUser
 -ChromeAutofillPredictionImprovementsClientTest.EligibilityOfSignedInUserWithMlDisabled
 -ChromeAutofillPredictionImprovementsClientTest.EligibilityOfSignedInUserWithMlEnabled
 -EnclaveAuthenticatorRequestDelegateTest.BrowserProvidedPasskeysAvailable
 -EnclaveManagerTest.PrimaryUserChange
+-ExtensionSyncServiceTransportModeTest.OnlySyncAccountExtensions
 -ManagePasswordsUIControllerWithBrowserTestExplicitBrowserSignin.MovePasswordUponSigninWithExistingAccount
 -PeopleHandlerDiceTest.StoredAccountsList
 -PeopleHandlerDiceUnifiedConsentTest.StoredAccountsList
@@ -373,7 +375,6 @@
 -SigninManagerSupervisedUserTest.SignoutOnCookiesDeletedNotAllowed/*
 -SignInPromoVersionTest.SignInPromoVersions
 -SignoutAllowed/SigninManagerTest.*
--TestAppMenuModelCR2023.ProfileSyncOnTest
 
 # Failed because we disabled upstream's entire client-side field trials.
 # See ChromeBrowserFieldTrials.
@@ -503,10 +504,11 @@
 # https://issues.chromium.org/issues/41484323
 -TabSearchPageHandlerDeclutterTest.TabDeclutterFindStaleTabs
 -TabSearchPageHandlerDeclutterTest.TabDeclutterObserverTest
+-TabSearchPageHandlerDeclutterTest.TabDeclutterStaleTabChanges
 
 # This test fails because we insert our own bookmarks submenu into the app menu
 # model
--TestAppMenuModelCR2023.ModelHasIcons
+-AppMenuModelTest.ModelHasIcons
 
 # This test fails because we override Chromium's "what's new" util functionality
 # see brave/chromium_src/chrome/browser/ui/webui/whats_new/whats_new_util.cc
@@ -657,6 +659,13 @@
 -SafetyHubHandlerTest.HandleGetSafetyHubEntryPointData_Subheader_AllModules
 -SafetyHubHandlerTest.HandleGetSafetyHubEntryPointData_Subheader_OneModule
 -SafetyHubHandlerTest.HandleGetSafetyHubEntryPointData_Subheader_TwoModulesWithPassword
+
+# These tests fail because we disable features::kControlledFrame
+-ControlledFramePermissionsTest.Verify
+
+# These tests fail because we remap our handling of OTR profiles for the
+# TemplateUrlServiceFactory
+-SearchProviderOTRTest.*
 
 # Tests below this point have not been diagnosed or had issues created yet.
 -AboutFlagsHistogramTest.*
@@ -1056,6 +1065,7 @@
 -UserNoteUICoordinatorTest.*
 -UserScriptListenerTest.*
 -VideoOverlayWindowViewsTest.*
+-VideoOverlayWindowViewsWith2024UITest.*
 -WebDialogWebContentsDelegateTest.*
 -WebRtcEventLogUploaderImplTest.*
 -WebstoreInstallerTest.*
