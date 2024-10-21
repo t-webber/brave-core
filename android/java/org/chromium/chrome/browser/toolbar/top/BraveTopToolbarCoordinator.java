@@ -49,6 +49,8 @@ import java.util.function.BooleanSupplier;
 public class BraveTopToolbarCoordinator extends TopToolbarCoordinator {
     // To delete in bytecode. Variables from the parent class will be used instead.
     private OptionalBrowsingModeButtonController mOptionalButtonController;
+
+    @SuppressWarnings("UnusedVariable")
     private ToolbarColorObserverManager mToolbarColorObserverManager;
 
     // Own members.

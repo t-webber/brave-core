@@ -42,23 +42,38 @@ import java.util.Set;
 public class NTPImageUtil {
     private static final String TAG = "NTPUtil";
 
-    private static final int BOTTOM_TOOLBAR_HEIGHT = 56;
     private static final String REMOVED_SITES = "removed_sites";
 
     public static HashMap<String, SoftReference<Bitmap>> imageCache =
             new HashMap<String, SoftReference<Bitmap>>();
 
-    private static SpannableString getBannerText(ChromeActivity chromeActivity, int ntpType,
-            View bannerLayout, SponsoredTab sponsoredTab, NewTabPageListener newTabPageListener) {
+    // TODO(alexeybarabash): the method seems unused, but let's ask author
+    // These:
+    //      R.string.you_are_earning_tokens
+    //      R.string.earn_tokens_for_viewing
+    // then also will become unused.
+    @SuppressWarnings("UnusedVariable")
+    private static SpannableString getBannerText(
+            ChromeActivity chromeActivity,
+            int ntpType,
+            View bannerLayout,
+            SponsoredTab sponsoredTab,
+            NewTabPageListener newTabPageListener) {
         String bannerText = "";
         if (ntpType == SponsoredImageUtil.BR_ON_ADS_ON) {
-            bannerText = String.format(
-                    chromeActivity.getResources().getString(R.string.you_are_earning_tokens),
-                    chromeActivity.getResources().getString(R.string.learn_more));
+            bannerText =
+                    String.format(
+                            chromeActivity
+                                    .getResources()
+                                    .getString(R.string.you_are_earning_tokens),
+                            chromeActivity.getResources().getString(R.string.learn_more));
         } else if (ntpType == SponsoredImageUtil.BR_ON_ADS_OFF) {
-            bannerText = String.format(
-                    chromeActivity.getResources().getString(R.string.earn_tokens_for_viewing),
-                    chromeActivity.getResources().getString(R.string.learn_more));
+            bannerText =
+                    String.format(
+                            chromeActivity
+                                    .getResources()
+                                    .getString(R.string.earn_tokens_for_viewing),
+                            chromeActivity.getResources().getString(R.string.learn_more));
         }
         int learnMoreIndex =
                 bannerText.indexOf(chromeActivity.getResources().getString(R.string.learn_more));
