@@ -20,20 +20,24 @@
 #define RecentlyClosedGroupsFromCurrentSession \
   DISABLED_RecentlyClosedGroupsFromCurrentSession
 
-// Disabling these tests because they reference items in menu explicitly by
-// index which doesn't match our menu since we insert an additional "Clear
-// browsing data" item ahead of the entries of interest to the test.
+// Disabling this test because it references items in menu explicitly by index
+// which doesn't match our menu since we insert an additional "Clear browsing
+// data" item ahead of the entries of interest to the test.
 #define MaxSessionsAndRecency DISABLED_MaxSessionsAndRecency
 
-// Disabling these tests because our "More..." item doesn't match the test's
+// Disabling this test because our "More..." item doesn't match the test's
 // expectation of the tab name.
 #define MaxTabsPerSessionAndRecency DISABLED_MaxTabsPerSessionAndRecency
 
-// Disabling this because we have refresh disabled, but it fails because
-// ExtensionWebContentsObserver::GetForWebContents returns nullptr and makes
-// the test crash.
+// Disabling this test because we have refresh disabled, but it fails because
+// ExtensionWebContentsObserver::GetForWebContents returns nullptr and makes the
+// test crash.
 #define RecentlyClosedTabsAndWindowsFromLastSessionWithRefresh \
   DISABLED_RecentlyClosedTabsAndWindowsFromLastSessionWithRefresh
+
+// Disabling this test because we disable history clusters
+#define LogMenuMetricsForShowGroupedHistory \
+  DISABLED_LogMenuMetricsForShowGroupedHistory
 
 #define BRAVE_RECENT_TABS_SUB_MENU_MODEL_TEST           \
   void VerifyModel(const RecentTabsSubMenuModel& model, \
@@ -48,6 +52,7 @@
 
 #undef BRAVE_RECENT_TABS_SUB_MENU_MODEL_TEST
 
+#undef LogMenuMetricsForShowGroupedHistory
 #undef RecentlyClosedTabsAndWindowsFromLastSessionWithRefresh
 #undef MaxTabsPerSessionAndRecency
 #undef MaxSessionsAndRecency
@@ -62,6 +67,9 @@ void RecentTabsSubMenuModelTest::VerifyModel(
     base::span<const ModelData> input) {
   // We have to copy it over as we can not modify the input.
   auto data = base::ToVector(input);
+
+  // We disable history clusters, so remove it as the second item
+  data.erase(std::next(data.begin()));
 
   // We replace the "Sign in to see tabs from other devices" menu command with
   // the non-command string "No tabs from other devices" and need to adjust the
