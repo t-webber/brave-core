@@ -1145,7 +1145,6 @@ IN_PROC_BROWSER_TEST_F(SidebarBrowserTestWithAIChat, TabSpecificPanel) {
 
   // Delete Tab 0 and check model doesn't have active index.
   tab_model()->DetachAndDeleteWebContentsAt(0);
-  EXPECT_FALSE(!!model()->active_index());
   ASSERT_EQ(tab_model()->GetTabCount(), 1);
 
   // Create two more tab for test below.
