@@ -1,0 +1,12 @@
+diff --git a/tools/typescript/tsconfig_base_polymer.json b/tools/typescript/tsconfig_base_polymer.json
+index 29595001ebb5f88ac75672aa21eb9c2f5b1bcc66..507bc8cca9d065ec7521747ffd01d34587dad0ec 100644
+--- a/tools/typescript/tsconfig_base_polymer.json
++++ b/tools/typescript/tsconfig_base_polymer.json
+@@ -2,7 +2,6 @@
+   "extends": "./tsconfig_base.json",
+   "compilerOptions": {
+     "noUncheckedIndexedAccess": false,
+-    "noUncheckedSideEffectImports": true,
+     "noUnusedLocals": false,
+     "strictPropertyInitialization": false,
+     "useDefineForClassFields": false
