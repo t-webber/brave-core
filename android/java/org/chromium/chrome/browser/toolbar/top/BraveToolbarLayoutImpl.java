@@ -101,6 +101,7 @@ import org.chromium.chrome.browser.tabmodel.TabModelSelectorTabModelObserver;
 import org.chromium.chrome.browser.tabmodel.TabModelSelectorTabObserver;
 import org.chromium.chrome.browser.theme.ThemeUtils;
 import org.chromium.chrome.browser.toolbar.ToolbarDataProvider;
+import org.chromium.chrome.browser.toolbar.ToolbarProgressBar;
 import org.chromium.chrome.browser.toolbar.ToolbarTabController;
 import org.chromium.chrome.browser.toolbar.bottom.BottomToolbarConfiguration;
 import org.chromium.chrome.browser.toolbar.bottom.BottomToolbarVariationManager;
@@ -1596,7 +1597,8 @@ public abstract class BraveToolbarLayoutImpl extends ToolbarLayout
             BooleanSupplier partnerHomepageEnabledSupplier,
             OfflineDownloader offlineDownloader,
             UserEducationHelper userEducationHelper,
-            ObservableSupplier<Tracker> trackerSupplier) {
+            ObservableSupplier<Tracker> trackerSupplier,
+            ToolbarProgressBar progressBar) {
         super.initialize(
                 toolbarDataProvider,
                 tabController,
@@ -1606,7 +1608,8 @@ public abstract class BraveToolbarLayoutImpl extends ToolbarLayout
                 partnerHomepageEnabledSupplier,
                 offlineDownloader,
                 userEducationHelper,
-                trackerSupplier);
+                trackerSupplier,
+                progressBar);
 
         BraveMenuButtonCoordinator.setMenuFromBottom(isMenuButtonOnBottom());
     }
