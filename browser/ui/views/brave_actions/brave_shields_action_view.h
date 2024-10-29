@@ -28,8 +28,9 @@ class BraveShieldsActionView
   METADATA_HEADER(BraveShieldsActionView, views::LabelButton)
  public:
   DECLARE_CLASS_ELEMENT_IDENTIFIER_VALUE(kShieldsActionIcon);
-  explicit BraveShieldsActionView(Profile& profile,
-                                  TabStripModel& tab_strip_model);
+  explicit BraveShieldsActionView(
+      BrowserWindowInterface* browser_window_interface,
+      TabStripModel& tab_strip_model);
   BraveShieldsActionView(const BraveShieldsActionView&) = delete;
   BraveShieldsActionView& operator=(const BraveShieldsActionView&) = delete;
   ~BraveShieldsActionView() override;
@@ -49,7 +50,7 @@ class BraveShieldsActionView
   }
 
  private:
-  void ButtonPressed();
+  void ButtonPressed(BrowserWindowInterface* browser_window_interface);
   bool SchemeIsLocal(GURL url);
   void UpdateIconState();
   gfx::ImageSkia GetIconImage(bool is_enabled);
@@ -66,7 +67,7 @@ class BraveShieldsActionView
       const TabStripSelectionChange& selection) override;
 
   raw_ptr<views::MenuButtonController> menu_button_controller_ = nullptr;
-  raw_ref<Profile> profile_;
+  raw_ptr<Profile> profile_;
   raw_ref<TabStripModel> tab_strip_model_;
   std::unique_ptr<WebUIBubbleManager> webui_bubble_manager_;
 };

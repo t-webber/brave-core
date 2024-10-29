@@ -176,15 +176,15 @@ class RewardsActionMenuModel : public ui::SimpleMenuModel,
 
 std::unique_ptr<WebUIBubbleManager> CreateBubbleManager(
     views::View* anchor_view,
-    Profile* profile) {
+    BrowserWindowInterface* browser_window_interface) {
   if (base::FeatureList::IsEnabled(
           brave_rewards::features::kNewRewardsUIFeature)) {
     return WebUIBubbleManager::Create<brave_rewards::RewardsPageTopUI>(
-        anchor_view, profile, GURL(kRewardsPageTopURL),
+        anchor_view, browser_window_interface, GURL(kRewardsPageTopURL),
         IDS_BRAVE_UI_BRAVE_REWARDS);
   }
   return WebUIBubbleManager::Create<brave_rewards::RewardsPanelUI>(
-      anchor_view, profile, GURL(kBraveRewardsPanelURL),
+      anchor_view, browser_window_interface, GURL(kBraveRewardsPanelURL),
       IDS_BRAVE_UI_BRAVE_REWARDS);
 }
 
@@ -199,7 +199,7 @@ BraveRewardsActionView::BraveRewardsActionView(Browser* browser)
           nullptr,
           false),
       browser_(browser),
-      bubble_manager_(CreateBubbleManager(this, browser->profile())) {
+      bubble_manager_(CreateBubbleManager(this, browser)) {
   DCHECK(browser_);
 
   SetButtonController(std::make_unique<views::MenuButtonController>(
