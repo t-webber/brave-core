@@ -1,0 +1,20 @@
+diff --git a/android_webview/browser/permission/media_access_permission_request.cc b/android_webview/browser/permission/media_access_permission_request.cc
+index ebf7f59d595171feb117eb76addbbb20f99b5633..d2d011a49d642d25ad536562580bdb243ff4e267 100644
+--- a/android_webview/browser/permission/media_access_permission_request.cc
++++ b/android_webview/browser/permission/media_access_permission_request.cc
+@@ -85,6 +85,7 @@ void MediaAccessPermissionRequest::NotifyRequestResult(bool allowed) {
+         audio_devices, request_.requested_audio_device_ids);
+     if (device)
+       devices.audio_device = *device;
++    if (/* DISABLES CODE */ (false))
+     if (request_.url_origin.scheme() != url::kFileScheme ||
+         can_cache_file_url_permissions_) {
+       permission_manager_->SetOriginCanReadEnumerateDevicesAudioLabels(
+@@ -102,6 +103,7 @@ void MediaAccessPermissionRequest::NotifyRequestResult(bool allowed) {
+         video_devices, request_.requested_video_device_ids);
+     if (device)
+       devices.video_device = *device;
++    if (/* DISABLES CODE */ (false))
+     if (request_.url_origin.scheme() != url::kFileScheme ||
+         can_cache_file_url_permissions_) {
+       permission_manager_->SetOriginCanReadEnumerateDevicesVideoLabels(
