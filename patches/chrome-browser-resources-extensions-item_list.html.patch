@@ -1,9 +1,9 @@
 diff --git a/chrome/browser/resources/extensions/item_list.html b/chrome/browser/resources/extensions/item_list.html
-index 0142e7b64129a4b30505d8951f19d08ebef273e7..a027bc9045bcc4917702a07db9c41462fd58026d 100644
+index 639b57cf1f12b9d4edda95ea41f825a929644109..e80e033b9b186fc5fa21ae03d71ac7da0965bd19 100644
 --- a/chrome/browser/resources/extensions/item_list.html
 +++ b/chrome/browser/resources/extensions/item_list.html
-@@ -165,5 +165,6 @@
-         </template>
+@@ -65,5 +65,6 @@ import {asyncMap} from './async_map_directive.js';
+           </extensions-item>`, 6)}
        </div>
      </div>
 +    <extensions-brave-item-list-more-items apps="{{apps}}" extensions="{{extensions}}" />
