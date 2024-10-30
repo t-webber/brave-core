@@ -13,6 +13,8 @@
 #include "brave/components/constants/pref_names.h"
 #include "brave/components/constants/url_constants.h"
 #include "brave/components/constants/webui_url_constants.h"
+#include "brave/ios/browser/ui/webui/brave_wallet/brave_wallet_page_ui.h"
+#include "brave/ios/browser/ui/webui/brave_wallet/nft_ui.h"
 #include "brave/ios/browser/ui/webui/skus/skus_internals_ui.h"
 #include "build/build_config.h"
 #include "components/prefs/pref_service.h"
@@ -63,6 +65,10 @@ WebUIIOSFactoryFunction GetWebUIIOSFactoryFunction(const GURL& url) {
 
   if (url_host == kSkusInternalsHost) {
     return &NewWebUIIOS<SkusInternalsUI>;
+  } else if (url_host == kWalletPageHost) {
+    return &NewWebUIIOS<BraveWalletPageUI>;
+  } else if (url_host == kUntrustedNftHost) {
+    return &NewWebUIIOS<UntrustedNftUI>;
   }
   return nullptr;
 }

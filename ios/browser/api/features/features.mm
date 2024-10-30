@@ -24,6 +24,7 @@
 #include "brave/components/p3a/features.h"
 #include "brave/components/playlist/common/features.h"
 #include "brave/components/skus/common/features.h"
+#include "brave/ios/browser/brave_wallet/features.h"
 #include "brave/ios/browser/playlist/features.h"
 #import "build/blink_buildflags.h"
 #include "build/build_config.h"
@@ -312,6 +313,11 @@
 + (Feature*)kHttpsOnlyMode {
   return [[Feature alloc]
       initWithFeature:&security_interstitials::features::kHttpsOnlyMode];
+}
+
++ (Feature*)kBraveWalletWebUIIOS {
+  return [[Feature alloc]
+      initWithFeature:&brave_wallet::features::kBraveWalletWebUIIOS];
 }
 
 @end

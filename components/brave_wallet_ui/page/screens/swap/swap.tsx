@@ -51,7 +51,12 @@ import {
   AlertMessageWrapper
 } from '../composer_ui/shared_composer.style'
 
-export const Swap = () => {
+interface Props {
+  isIOS?: boolean
+}
+
+export const Swap = React.memo((props: Props) => {
+  const { isIOS = false } = props
   // Hooks
   const swap = useSwap()
   const {
@@ -133,7 +138,8 @@ export const Swap = () => {
         wrapContentInBox={true}
         noCardPadding={true}
         noMinCardHeight={true}
-        hideNav={isPanel}
+        hideNav={isPanel || isIOS}
+        hideHeader={isIOS}
         cardHeader={
           isPanel ? (
             <PanelActionHeader
@@ -309,4 +315,4 @@ export const Swap = () => {
       )}
     </>
   )
-}
+})

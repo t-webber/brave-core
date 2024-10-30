@@ -889,6 +889,11 @@ struct SwapFees {
   SwapDiscountCode discount_code;
 };
 
+const string kLedgerHardwareVendor = "Ledger";
+const string kUntrustedLedgerBridgeURL = "chrome-untrusted://ledger-bridge/";
+const string kTrezorHardwareVendor = "Trezor";
+const string kUntrustedTrezorBridgeURL = "chrome-untrusted://trezor-bridge/";
+
 enum KeyringId {
   kDefault = 0,
   kSolana = 1,

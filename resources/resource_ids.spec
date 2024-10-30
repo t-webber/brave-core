@@ -225,4 +225,8 @@
     "META": {"sizes": {"includes": [10]}},
     "includes": [64700],
   },
+  "<(SHARED_INTERMEDIATE_DIR)/brave/web-ui-brave_wallet_ios_container/brave_wallet_ios_container.grd": {
+    "META": {"sizes": {"includes": [100]}},
+    "includes": [64710],
+  }
 }

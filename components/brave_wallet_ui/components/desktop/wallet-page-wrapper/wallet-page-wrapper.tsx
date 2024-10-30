@@ -79,6 +79,8 @@ export const WalletPageWrapper = (props: Props) => {
   } = props
 
   const isAndroid = loadTimeData.getBoolean('isAndroid') || false
+  const isIOS = loadTimeData.getBoolean('isIOS') || false
+  const isMobile = isAndroid || isIOS
 
   // Wallet Selectors (safe)
   const isWalletCreated = useSafeWalletSelector(WalletSelectors.isWalletCreated)
@@ -156,14 +158,14 @@ export const WalletPageWrapper = (props: Props) => {
       )}
       <Wrapper
         noPadding={noPadding}
-        noTopPosition={isPanel || isAndroid}
+        noTopPosition={isPanel || isMobile}
       >
         {isPanel && isPortfolio && <PortfolioBackgroundWatermark />}
-        {isWalletCreated && !hideHeader && !isPanel && !isAndroid && (
+        {isWalletCreated && !hideHeader && !isPanel && !isMobile && (
           <TabHeader hideHeaderMenu={hideHeaderMenu} />
         )}
         {isWalletCreated && !isWalletLocked && !hideNav && (
-          <WalletNav isAndroid={isAndroid} />
+          <WalletNav isAndroid={isMobile} />
         )}
         {!isWalletLocked && (
           <FeatureRequestButtonWrapper>
@@ -208,7 +210,7 @@ export const WalletPageWrapper = (props: Props) => {
                 <CardHeader
                   shadowOpacity={headerShadowOpacity}
                   isPanel={isPanel}
-                  isAndroid={isAndroid}
+                  isMobile={isMobile}
                   useDarkBackground={useDarkBackground || shouldUsePanelCard}
                   backgroundOpacity={headerBackgroundOpacity}
                 >
