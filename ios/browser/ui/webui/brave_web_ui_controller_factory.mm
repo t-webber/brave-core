@@ -19,6 +19,8 @@
 #include "ios/components/webui/web_ui_url_constants.h"
 #include "url/gurl.h"
 #include "ios/chrome/browser/shared/model/url/chrome_url_constants.h"
+#include "ios/components/webui/web_ui_url_constants.h"
+#include "url/gurl.h"
 
 using web::WebUIIOS;
 using web::WebUIIOSController;
@@ -42,7 +44,8 @@ std::unique_ptr<WebUIIOSController> NewWebUIIOS(WebUIIOS* web_ui,
 WebUIIOSFactoryFunction GetWebUIIOSFactoryFunction(const GURL& url) {
   // This will get called a lot to check all URLs, so do a quick check of other
   // schemes to filter out most URLs.
-  if (!url.SchemeIs(kBraveUIScheme) && !url.SchemeIs(kChromeUIScheme)) {
+  if (!url.SchemeIs(kBraveUIScheme) && !url.SchemeIs(kChromeUIScheme) &&
+      !url.SchemeIs(kChromeUIUntrustedScheme)) {
     return nullptr;
   }
 
