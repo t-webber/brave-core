@@ -147,6 +147,12 @@ void SequentialUpdateChecker::UpdateResultAvailable(
   } else {
     CheckNext();
   }
+
+  // These are no longer necessary, so we should discard them, specially the
+  // shared reference.
+  update_checker_ = nullptr;
+  update_context_ = nullptr;
+
   VLOG(3) << "> UpdateResultAvailable(" << error << ")";
 }
 
