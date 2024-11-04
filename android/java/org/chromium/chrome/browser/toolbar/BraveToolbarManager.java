@@ -273,8 +273,7 @@ public class BraveToolbarManager extends ToolbarManager {
                             .createTabGroupUi(
                                     mActivity,
                                     mBottomControls.findViewById(R.id.bottom_container_slot),
-                                    mBrowserControlsSizer,
-                                    mIncognitoStateProvider,
+                                    /* BrowserControlsStateProvider or BrowserControlsManager*/ null,
                                     mScrimCoordinator,
                                     mOmniboxFocusStateSupplier,
                                     mBottomSheetController,
@@ -283,8 +282,8 @@ public class BraveToolbarManager extends ToolbarManager {
                                     mTabContentManager,
                                     mTabCreatorManager,
                                     mLayoutStateProviderSupplier,
-                                    mModalDialogManagerSupplier.get());
-
+                                    mModalDialogManagerSupplier.get(),
+                                    /*themeColorProvider*/ null);
             mContentDelegateSupplier.set(mTabGroupUi);
 
             BrowserStateBrowserControlsVisibilityDelegate controlsVisibilityDelegate =
