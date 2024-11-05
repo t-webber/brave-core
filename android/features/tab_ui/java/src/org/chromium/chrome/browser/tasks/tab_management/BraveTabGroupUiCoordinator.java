@@ -34,8 +34,6 @@ public class BraveTabGroupUiCoordinator extends TabGroupUiCoordinator {
     private TabGroupUiToolbarView mToolbarView;
 
     // Own members.
-    // private IncognitoStateProvider mIncognitoStateProvider;
-    // private IncognitoStateObserver mIncognitoStateObserver;
     private TabModelSelector mTabModelSelector;
 
     public BraveTabGroupUiCoordinator(
@@ -67,7 +65,6 @@ public class BraveTabGroupUiCoordinator extends TabGroupUiCoordinator {
                 modalDialogManager,
                 themeColorProvider);
 
-        // mIncognitoStateProvider = incognitoStateProvider;
         mTabModelSelector = tabModelSelector;
 
         assert mToolbarView != null : "Make sure mToolbarView is properly patched in bytecode.";
@@ -131,20 +128,6 @@ public class BraveTabGroupUiCoordinator extends TabGroupUiCoordinator {
             BottomControlsCoordinator.BottomControlsVisibilityController visibilityController,
             Callback<Object> onModelTokenChange) {
         super.initializeWithNative(activity, visibilityController, onModelTokenChange);
-
-        // mIncognitoStateObserver =
-        //         (isIncognito) -> {
-        //             if (!isIncognito) {
-        //                 // Make sure that background color match bottom toolbar color.
-        //                 LinearLayout mainContent = mToolbarView.findViewById(R.id.main_content);
-        //                 assert mainContent != null : "Something has changed in upstream!";
-        //                 if (mainContent != null) {
-        //                     mainContent.setBackgroundColor(
-        //                             activity.getColor(R.color.dialog_bg_color_baseline));
-        //                 }
-        //             }
-        //         };
-        // mIncognitoStateProvider.addIncognitoStateObserverAndTrigger(mIncognitoStateObserver);
     }
 
     @Override
@@ -155,6 +138,5 @@ public class BraveTabGroupUiCoordinator extends TabGroupUiCoordinator {
             // mTabStripCoordinator could be null in a base class.
             // https://github.com/brave/brave-browser/issues/40673
         }
-        // mIncognitoStateProvider.removeObserver(mIncognitoStateObserver);
     }
 }

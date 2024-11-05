@@ -1906,6 +1906,10 @@ public class BytecodeTest {
                         "mTabObscuringHandler"));
         Assert.assertTrue(
                 fieldExists(
+                        "org/chromium/chrome/browser/toolbar/ToolbarManager",
+                        "mTopUiThemeColorProvider"));
+        Assert.assertTrue(
+                fieldExists(
                         "org/chromium/chrome/browser/toolbar/top/TopToolbarCoordinator",
                         "mOptionalButtonController"));
         Assert.assertTrue(
