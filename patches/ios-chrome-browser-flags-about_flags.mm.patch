@@ -1,8 +1,8 @@
 diff --git a/ios/chrome/browser/flags/about_flags.mm b/ios/chrome/browser/flags/about_flags.mm
-index 17e7dc7507bf2294fc77c9ba2fa15363bf6bf29e..85a27a2d4d40bb1b8fbcbac7abe7f9be2f05de30 100644
+index 1cd7c8bdd1fec6284aeafda1bb410d3f82073099..3d3f383eae142b8a4b5bbf0e9762ea66feb38eb6 100644
 --- a/ios/chrome/browser/flags/about_flags.mm
 +++ b/ios/chrome/browser/flags/about_flags.mm
-@@ -1124,6 +1124,7 @@ const FeatureEntry::FeatureVariation kSendTabIOSPushNotificationsVariations[] =
+@@ -1123,6 +1123,7 @@ const FeatureEntry::FeatureVariation kIOSSoftLockVariations[] = {
  //
  // When adding a new choice, add it to the end of the list.
  const flags_ui::FeatureEntry kFeatureEntries[] = {

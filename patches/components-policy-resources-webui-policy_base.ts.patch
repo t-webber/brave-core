@@ -1,8 +1,8 @@
 diff --git a/components/policy/resources/webui/policy_base.ts b/components/policy/resources/webui/policy_base.ts
-index 24dd7cbf06582e255b8b3c997420655db4dac57b..c68afa09447d2a539e96ede9c5331d2a50fc5890 100644
+index 01b12d5fd2569ba29c5d9b67444fddfd4f7fa89c..9b0998fdaa0fc63c4012a22dded5b38a332eea09 100644
 --- a/components/policy/resources/webui/policy_base.ts
 +++ b/components/policy/resources/webui/policy_base.ts
-@@ -187,7 +187,7 @@ export class Page {
+@@ -197,7 +197,7 @@ export class Page {
                        policyNames['precedence']?.policyNames,
                      ].includes(knownPolicyNames) &&
                              knownPolicyNamesSet.has(name) ?

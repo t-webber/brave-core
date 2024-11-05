@@ -1,8 +1,8 @@
 diff --git a/third_party/blink/renderer/platform/runtime_enabled_features.json5 b/third_party/blink/renderer/platform/runtime_enabled_features.json5
-index 316e8f2ba00ce2efea297249f1adb71c93092fa8..787019c2ff9495dc82dfe5a242278b94300f3978 100644
+index 912951e3c8f8a10a1be9c525471476b23b6a6e1c..0355466a83cc783e5161093878670faeba4262da 100644
 --- a/third_party/blink/renderer/platform/runtime_enabled_features.json5
 +++ b/third_party/blink/renderer/platform/runtime_enabled_features.json5
-@@ -1948,6 +1948,7 @@
+@@ -1957,6 +1957,7 @@
        // In-development features for the File System Access API.
        name: "FileSystemAccessAPIExperimental",
        status: "experimental",
@@ -10,7 +10,7 @@ index 316e8f2ba00ce2efea297249f1adb71c93092fa8..787019c2ff9495dc82dfe5a242278b94
      },
      {
        // The FileSystemHandle.getCloudIdentifiers() method (see
-@@ -1963,6 +1964,7 @@
+@@ -1972,6 +1973,7 @@
        // Non-OPFS File System Access API.
        name: "FileSystemAccessLocal",
        status: {"default": "stable"},
@@ -18,7 +18,7 @@ index 316e8f2ba00ce2efea297249f1adb71c93092fa8..787019c2ff9495dc82dfe5a242278b94
      },
      {
        name: "FileSystemAccessLockingScheme",
-@@ -2502,7 +2504,7 @@
+@@ -2510,7 +2512,7 @@
        // enterprise policies have both expired. See the
        // KeyboardFocusableScrollersOptOut flag.
        name: "KeyboardFocusableScrollers",
@@ -27,7 +27,7 @@ index 316e8f2ba00ce2efea297249f1adb71c93092fa8..787019c2ff9495dc82dfe5a242278b94
        public: true,
      },
      {
-@@ -2785,6 +2787,7 @@
+@@ -2801,6 +2803,7 @@
      {
        name: "MiddleClickAutoscroll",
        status: "test",
@@ -35,7 +35,7 @@ index 316e8f2ba00ce2efea297249f1adb71c93092fa8..787019c2ff9495dc82dfe5a242278b94
      },
      // Killswitch. Remove after 1 or 2 stable releases.
      {
-@@ -3836,6 +3839,7 @@
+@@ -3862,6 +3865,7 @@
      {
        name: "Serial",
        status: {"Android": "", "default": "stable"},

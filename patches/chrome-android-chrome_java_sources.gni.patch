@@ -1,8 +1,8 @@
 diff --git a/chrome/android/chrome_java_sources.gni b/chrome/android/chrome_java_sources.gni
-index de1a79fe79f5d13629b190f5cef9cdef553fb41a..043c7cbdcacbb0b11842fe730c178c0f4aefa447 100644
+index 84e5f99918033c9df2403420aebf63488dfbeeee..ae49383baf76965fc1077ee16a29da8fe466b8dd 100644
 --- a/chrome/android/chrome_java_sources.gni
 +++ b/chrome/android/chrome_java_sources.gni
-@@ -1231,3 +1231,4 @@ if (enable_screen_capture) {
+@@ -1229,3 +1229,4 @@ if (enable_screen_capture) {
      "java/src/org/chromium/chrome/browser/media/MediaCapturePickerDialogBridge.java",
    ]
  }
