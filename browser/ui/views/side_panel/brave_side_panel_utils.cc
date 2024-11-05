@@ -21,13 +21,14 @@ END_METADATA
 namespace {
 
 std::unique_ptr<views::View> CreateAIChatSidePanelWebView(
-    base::WeakPtr<Profile> profile) {
+    base::WeakPtr<Profile> profile,
+    SidePanelEntryScope& scope) {
   if (!profile) {
     NOTREACHED_NORETURN();
   }
 
   auto web_view = std::make_unique<SidePanelWebUIViewT<AIChatUI>>(
-      base::RepeatingClosure(), base::RepeatingClosure(),
+      scope, base::RepeatingClosure(), base::RepeatingClosure(),
       std::make_unique<WebUIContentsWrapperT<AIChatUI>>(
           GURL(kChatUIURL), profile.get(),
           IDS_SIDEBAR_CHAT_SUMMARIZER_ITEM_TITLE,
