@@ -251,9 +251,7 @@ const BraveCoreLogSeverity BraveCoreLogSeverityVerbose =
                 cus, GetApplicationContext()->GetLocalState())];
 
 #if BUILDFLAG(IOS_CREDENTIAL_PROVIDER_ENABLED)
-    if (IsCredentialProviderExtensionSupported()) {
-      CredentialProviderServiceFactory::GetForProfile(_main_profile);
-    }
+    CredentialProviderServiceFactory::GetForProfile(_main_profile);
 #endif
   }
   return self;
