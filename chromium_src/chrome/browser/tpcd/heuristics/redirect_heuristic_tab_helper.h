@@ -25,9 +25,6 @@ class RedirectHeuristicTabHelper
     return {};
   }
 
-  using InteractionType =
-      RedirectHeuristicTabHelper_ChromiumImpl::InteractionType;
-
  private:
   explicit RedirectHeuristicTabHelper(content::WebContents* web_contents);
   // So WebContentsUserData::CreateForWebContents() can call the constructor.
