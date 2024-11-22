@@ -1,19 +1,19 @@
 diff --git a/ios/chrome/browser/shared/model/prefs/browser_prefs.mm b/ios/chrome/browser/shared/model/prefs/browser_prefs.mm
-index 1cbd2015d45808a11d1887b3ef3c5179699b0d26..36e04df0859470a5cf510eb735f45552abd14741 100644
+index 076ac44e5cb5cc0f1c1fd8f7783eaeca6cf1ffaa..11c8e478b428de63a04d1675f9ae91dd6f569b55 100644
 --- a/ios/chrome/browser/shared/model/prefs/browser_prefs.mm
 +++ b/ios/chrome/browser/shared/model/prefs/browser_prefs.mm
-@@ -784,6 +784,7 @@ void RegisterLocalStatePrefs(PrefRegistrySimple* registry) {
- 
-   registry->RegisterIntegerPref(
+@@ -786,6 +786,7 @@ void RegisterLocalStatePrefs(PrefRegistrySimple* registry) {
        prefs::kProminenceNotificationAlertImpressionCount, 0);
+ 
+   registry->RegisterIntegerPref(prefs::kChromeDataRegionSetting, 0);
 +  BRAVE_REGISTER_LOCAL_STATE_PREFS
  }
  
  void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
-@@ -1141,6 +1142,7 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
- 
-   // Deprecated 11/2024
+@@ -1145,6 +1146,7 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
    registry->RegisterBooleanPref(kEnableDoNotTrackIos, false);
+ 
+   registry->RegisterIntegerPref(prefs::kChromeDataRegionSetting, 0);
 +  BRAVE_REGISTER_BROWSER_STATE_PREFS
  }
  
