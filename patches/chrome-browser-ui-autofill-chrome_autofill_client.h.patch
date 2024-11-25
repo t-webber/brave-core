@@ -1,0 +1,29 @@
+diff --git a/chrome/browser/ui/autofill/chrome_autofill_client.h b/chrome/browser/ui/autofill/chrome_autofill_client.h
+index 444deaed4f2732dafd365c25a04534dbf01a96b8..430e0779ab7adacc499ed29b9ba8b084b5ce1294 100644
+--- a/chrome/browser/ui/autofill/chrome_autofill_client.h
++++ b/chrome/browser/ui/autofill/chrome_autofill_client.h
+@@ -104,9 +104,9 @@ class ChromeAutofillClient : public ContentAutofillClient,
+   bool IsOffTheRecord() const final;
+   scoped_refptr<network::SharedURLLoaderFactory> GetURLLoaderFactory() final;
+   AutofillCrowdsourcingManager* GetCrowdsourcingManager() final;
+-  AutofillOptimizationGuide* GetAutofillOptimizationGuide() const final;
++  AutofillOptimizationGuide* GetAutofillOptimizationGuide() const override;
+   FieldClassificationModelHandler* GetAutofillFieldClassificationModelHandler()
+-      final;
++      override;
+   FieldClassificationModelHandler*
+   GetPasswordManagerFieldClassificationModelHandler() final;
+   PersonalDataManager& GetPersonalDataManager() final;
+@@ -170,10 +170,10 @@ class ChromeAutofillClient : public ContentAutofillClient,
+   void TriggerUserPerceptionOfAutofillSurvey(
+       FillingProduct filling_product,
+       const std::map<std::string, std::string>& field_filling_stats_data) final;
+-  bool IsAutofillEnabled() const final;
++  bool IsAutofillEnabled() const override;
+   bool IsAutofillProfileEnabled() const final;
+   bool IsAutofillPaymentMethodsEnabled() const final;
+-  bool IsAutocompleteEnabled() const final;
++  bool IsAutocompleteEnabled() const override;
+   bool IsPasswordManagerEnabled() const final;
+   void DidFillOrPreviewForm(mojom::ActionPersistence action_persistence,
+                             AutofillTriggerSource trigger_source,
