@@ -1,12 +1,12 @@
 diff --git a/ios/chrome/browser/net/model/ios_chrome_network_delegate.h b/ios/chrome/browser/net/model/ios_chrome_network_delegate.h
-index 84190ad63d78b134f2f06dc366c9d9f325ed2fe3..3c78a944599569673670809246b04d0bc96c3066 100644
+index 68689a6cd82c05245a4fb659c6b321487aba573a..b1fa46c4243eaa5074b6865453e7825ed50ec35d 100644
 --- a/ios/chrome/browser/net/model/ios_chrome_network_delegate.h
 +++ b/ios/chrome/browser/net/model/ios_chrome_network_delegate.h
-@@ -42,6 +42,7 @@ class IOSChromeNetworkDelegate : public net::NetworkDelegateImpl {
-   }
+@@ -30,6 +30,7 @@ class IOSChromeNetworkDelegate : public net::NetworkDelegateImpl {
+   ~IOSChromeNetworkDelegate() override;
  
   private:
 +  BRAVE_IOS_CHROME_NETWORK_DELEGATE_H
-   bool OnAnnotateAndMoveUserBlockedCookies(
+   bool OnCancelURLRequestWithPolicyViolatingReferrerHeader(
        const net::URLRequest& request,
-       const net::FirstPartySetMetadata& first_party_set_metadata,
+       const GURL& target_url,
