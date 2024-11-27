@@ -24,8 +24,6 @@ namespace brave_shields {
 
 namespace {
 
-void AddNothingToFilterSet(rust::Box<adblock::FilterSet>*) {}
-
 // static
 void AddDATBufferToFilterSet(uint8_t permission_mask,
                              DATFileDataBuffer buffer,
@@ -38,9 +36,9 @@ void OnReadDATFileData(
     base::OnceCallback<
         void(base::OnceCallback<void(rust::Box<adblock::FilterSet>*)>)> cb,
     uint8_t permission_mask,
-    DATFileDataBuffer buffer) {
-  std::move(cb).Run(
-      base::BindOnce(&AddDATBufferToFilterSet, permission_mask, buffer));
+    std::optional<DATFileDataBuffer> buffer) {
+  std::move(cb).Run(base::BindOnce(&AddDATBufferToFilterSet, permission_mask,
+                                   buffer.value_or(DATFileDataBuffer())));
 }
 
 }  // namespace
@@ -90,30 +88,28 @@ void AdBlockComponentFiltersProvider::UnregisterComponent() {
 }
 
 void AdBlockComponentFiltersProvider::OnComponentReady(
-    const base::FilePath& path) {
-  base::FilePath old_path = component_path_;
-  component_path_ = path;
-
-  NotifyObservers(engine_is_default_);
-
-  if (!old_path.empty()) {
+    scoped_refptr<brave_component_updater::ComponentContentsAccessor>
+        accessor) {
+  if (component_accessor_) {
     base::ThreadPool::PostTask(
         FROM_HERE, {base::TaskPriority::BEST_EFFORT, base::MayBlock()},
-        base::BindOnce(IgnoreResult(&base::DeletePathRecursively), old_path));
+        base::GetDeletePathRecursivelyCallback(
+            component_accessor_->GetComponentRoot()));
   }
+  component_accessor_ = std::move(accessor);
+
+  NotifyObservers(engine_is_default_);
 }
 
 bool AdBlockComponentFiltersProvider::IsInitialized() const {
-  return !component_path_.empty();
+  return !!component_accessor_;
 }
 
 base::FilePath AdBlockComponentFiltersProvider::GetFilterSetPath() {
-  if (component_path_.empty()) {
-    // Since we know it's empty return it as is.
-    return component_path_;
+  if (!component_accessor_) {
+    return base::FilePath();
   }
-
-  return component_path_.AppendASCII(kListFile);
+  return component_accessor_->GetComponentRoot().AppendASCII(kListFile);
 }
 
 void AdBlockComponentFiltersProvider::LoadFilterSet(
@@ -121,16 +117,19 @@ void AdBlockComponentFiltersProvider::LoadFilterSet(
         void(base::OnceCallback<void(rust::Box<adblock::FilterSet>*)>)> cb) {
   base::FilePath list_file_path = GetFilterSetPath();
 
-  if (list_file_path.empty()) {
+  if (!component_accessor_) {
     // If the path is not ready yet, provide a no-op callback immediately. An
     // update will be pushed later to notify about the newly available list.
-    std::move(cb).Run(base::BindOnce(AddNothingToFilterSet));
+    std::move(cb).Run(base::DoNothing());
     return;
   }
 
   base::ThreadPool::PostTaskAndReplyWithResult(
       FROM_HERE, {base::MayBlock()},
-      base::BindOnce(&brave_component_updater::ReadDATFileData, list_file_path),
+      base::BindOnce(
+          &brave_component_updater::ComponentContentsAccessor::GetFileAsBytes,
+          base::RetainedRef(component_accessor_),
+          base::FilePath::FromASCII(kListFile)),
       base::BindOnce(&OnReadDATFileData, std::move(cb), permission_mask_));
 }
 
