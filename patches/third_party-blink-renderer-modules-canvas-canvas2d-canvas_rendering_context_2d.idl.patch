@@ -1,11 +1,11 @@
 diff --git a/third_party/blink/renderer/modules/canvas/canvas2d/canvas_rendering_context_2d.idl b/third_party/blink/renderer/modules/canvas/canvas2d/canvas_rendering_context_2d.idl
-index 077d0a8289afb0b903c6fd641210b40c62dc2d94..941b3cf36a3172b776ef4c0bd569ca1274593abf 100644
+index ca61c7e0237f791de6229c3c190be26cfc4c0f04..030041f91816d30d8fb16053e504c8ca231e64a6 100644
 --- a/third_party/blink/renderer/modules/canvas/canvas2d/canvas_rendering_context_2d.idl
 +++ b/third_party/blink/renderer/modules/canvas/canvas2d/canvas_rendering_context_2d.idl
 @@ -118,10 +118,10 @@ interface CanvasRenderingContext2D {
  
-     void clip(optional CanvasFillRule winding);
-     void clip(Path2D path, optional CanvasFillRule winding);
+     [HighEntropy] void clip(optional CanvasFillRule winding);
+     [HighEntropy] void clip(Path2D path, optional CanvasFillRule winding);
 -    [HighEntropy] boolean isPointInPath(unrestricted double x, unrestricted double y, optional CanvasFillRule winding);
 -    [HighEntropy] boolean isPointInPath(Path2D path, unrestricted double x, unrestricted double y, optional CanvasFillRule winding);
 -    [HighEntropy] boolean isPointInStroke(unrestricted double x, unrestricted double y);
