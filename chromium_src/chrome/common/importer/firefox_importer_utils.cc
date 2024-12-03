@@ -10,7 +10,8 @@
 #include "build/build_config.h"
 
 #if BUILDFLAG(IS_ANDROID)
-// We don't use firefox importer on Android, so just return an empty path to avoid linker error. 
+// We don't use firefox importer on Android, so just return an empty path to
+// avoid linker error.
 base::FilePath GetProfilesINI() {
   return base::FilePath();
 }
