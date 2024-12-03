@@ -1,8 +1,8 @@
 diff --git a/chrome/browser/ui/autofill/chrome_autofill_client.h b/chrome/browser/ui/autofill/chrome_autofill_client.h
-index 444deaed4f2732dafd365c25a04534dbf01a96b8..430e0779ab7adacc499ed29b9ba8b084b5ce1294 100644
+index 75caee23939944e78bc1b3438b5fee065af7c825..3caad2eaea4eee6ff6c7cad0edba1b3a7c140b6c 100644
 --- a/chrome/browser/ui/autofill/chrome_autofill_client.h
 +++ b/chrome/browser/ui/autofill/chrome_autofill_client.h
-@@ -104,9 +104,9 @@ class ChromeAutofillClient : public ContentAutofillClient,
+@@ -105,9 +105,9 @@ class ChromeAutofillClient : public ContentAutofillClient,
    bool IsOffTheRecord() const final;
    scoped_refptr<network::SharedURLLoaderFactory> GetURLLoaderFactory() final;
    AutofillCrowdsourcingManager* GetCrowdsourcingManager() final;
@@ -25,5 +25,5 @@ index 444deaed4f2732dafd365c25a04534dbf01a96b8..430e0779ab7adacc499ed29b9ba8b084
 -  bool IsAutocompleteEnabled() const final;
 +  bool IsAutocompleteEnabled() const override;
    bool IsPasswordManagerEnabled() const final;
-   void DidFillOrPreviewForm(mojom::ActionPersistence action_persistence,
-                             AutofillTriggerSource trigger_source,
+   void DidFillForm(AutofillTriggerSource trigger_source, bool is_refill) final;
+   bool IsContextSecure() const final;
