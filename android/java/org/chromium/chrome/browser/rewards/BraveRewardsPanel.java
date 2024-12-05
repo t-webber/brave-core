@@ -1593,7 +1593,9 @@ public class BraveRewardsPanel
                         });
         int learnMoreIndex = text.indexOf(mActivity.getResources().getString(R.string.learn_more));
 
-        ss.setSpan(clickableSpan, learnMoreIndex,
+        ss.setSpan(
+                clickableSpan,
+                learnMoreIndex,
                 learnMoreIndex + mActivity.getResources().getString(R.string.learn_more).length(),
                 Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         return ss;
@@ -1614,7 +1616,10 @@ public class BraveRewardsPanel
                         });
         int clickableTextIndex = mainText.indexOf(clickableText);
 
-        ss.setSpan(clickableSpan, clickableTextIndex, clickableTextIndex + clickableText.length(),
+        ss.setSpan(
+                clickableSpan,
+                clickableTextIndex,
+                clickableTextIndex + clickableText.length(),
                 Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         return ss;
     }
