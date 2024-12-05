@@ -1,11 +1,11 @@
 diff --git a/chrome/browser/ui/autofill/chrome_autofill_client.h b/chrome/browser/ui/autofill/chrome_autofill_client.h
-index 75caee23939944e78bc1b3438b5fee065af7c825..3caad2eaea4eee6ff6c7cad0edba1b3a7c140b6c 100644
+index c4e4e4c551ad4bce187fc37c7417385295da565f..59afe1175b5813964acb7ad895c00990bedd3a9b 100644
 --- a/chrome/browser/ui/autofill/chrome_autofill_client.h
 +++ b/chrome/browser/ui/autofill/chrome_autofill_client.h
 @@ -105,9 +105,9 @@ class ChromeAutofillClient : public ContentAutofillClient,
    bool IsOffTheRecord() const final;
    scoped_refptr<network::SharedURLLoaderFactory> GetURLLoaderFactory() final;
-   AutofillCrowdsourcingManager* GetCrowdsourcingManager() final;
+   AutofillCrowdsourcingManager& GetCrowdsourcingManager() final;
 -  AutofillOptimizationGuide* GetAutofillOptimizationGuide() const final;
 +  AutofillOptimizationGuide* GetAutofillOptimizationGuide() const override;
    FieldClassificationModelHandler* GetAutofillFieldClassificationModelHandler()
