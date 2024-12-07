@@ -51,10 +51,8 @@ class BraveSearchFallbackHost final
  private:
   using SimpleURLLoaderList =
       std::list<std::unique_ptr<network::SimpleURLLoader>>;
-  using URLRequestCallback =
-      base::OnceCallback<void(const int,
-                              const std::string&,
-                              const std::map<std::string, std::string>&)>;
+  using URLRequestCallback = base::OnceCallback<
+      void(int, const std::string&, const std::map<std::string, std::string>&)>;
 
   void OnURLLoaderComplete(
       SimpleURLLoaderList::iterator iter,

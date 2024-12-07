@@ -33,7 +33,7 @@ class DatabaseContributionInfo : public DatabaseTable {
   void GetAllRecords(ContributionInfoListCallback callback);
 
   void GetOneTimeTips(const mojom::ActivityMonth month,
-                      const int year,
+                      int year,
                       GetOneTimeTipsCallback callback);
 
   void GetNotCompletedRecords(ContributionInfoListCallback callback);

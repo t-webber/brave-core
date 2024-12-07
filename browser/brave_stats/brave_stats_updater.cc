@@ -297,8 +297,7 @@ void BraveStatsUpdater::OnReferralInitialization() {
   }
 }
 
-void BraveStatsUpdater::OnDetectUncertainFuture(
-    const bool is_uncertain_future) {
+void BraveStatsUpdater::OnDetectUncertainFuture(bool is_uncertain_future) {
   if (is_uncertain_future) {
     arch_ = ProcessArch::kArchVirt;
   } else {

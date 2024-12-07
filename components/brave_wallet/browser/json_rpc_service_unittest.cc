@@ -197,9 +197,9 @@ void OnRequestResponse(bool* callback_called,
                        const std::string& expected_response,
                        base::Value id,
                        base::Value formed_response,
-                       const bool reject,
+                       bool reject,
                        const std::string& first_allowed_account,
-                       const bool update_bind_js_properties) {
+                       bool update_bind_js_properties) {
   *callback_called = true;
   std::string response;
   base::JSONWriter::Write(formed_response, &response);

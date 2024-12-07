@@ -30,7 +30,7 @@ class RewardsBrowserTestContribution : public RewardsServiceObserver {
   void Initialize(Browser* browser, RewardsServiceImpl* rewards_service);
 
   void TipViaCode(const std::string& publisher_key,
-                  const double amount,
+                  double amount,
                   const mojom::PublisherStatus status,
                   const bool recurring = false);
 
@@ -40,11 +40,9 @@ class RewardsBrowserTestContribution : public RewardsServiceObserver {
                     const int32_t selection = 0,
                     double custom_amount = 0.0);
 
-  void VerifyTip(const double amount,
-                 const bool monthly,
-                 const bool via_code = false);
+  void VerifyTip(double amount, bool monthly, const bool via_code = false);
 
-  void AddBalance(const double balance);
+  void AddBalance(double balance);
 
   double GetBalance();
 
@@ -55,19 +53,18 @@ class RewardsBrowserTestContribution : public RewardsServiceObserver {
   void WaitForTipReconcileCompleted();
 
   void UpdateContributionBalance(
-      const double amount,
+      double amount,
       const bool verified = false,
       const mojom::ContributionProcessor processor =
           mojom::ContributionProcessor::BRAVE_TOKENS);
 
-  void WaitForMultipleTipReconcileCompleted(const int32_t needed);
+  void WaitForMultipleTipReconcileCompleted(int32_t needed);
 
   void WaitForACReconcileCompleted();
 
   void IsBalanceCorrect();
 
-  void WaitForMultipleACReconcileCompleted(
-    const int32_t needed);
+  void WaitForMultipleACReconcileCompleted(int32_t needed);
 
   mojom::Result GetACStatus();
 
@@ -86,14 +83,14 @@ class RewardsBrowserTestContribution : public RewardsServiceObserver {
       RewardsService* rewards_service,
       const mojom::Result result,
       const std::string& contribution_id,
-      const double amount,
-      const mojom::RewardsType type,
+      double amount,
+      mojom::RewardsType type,
       const mojom::ContributionProcessor processor) override;
 
   void WaitForRecurringTipToBeSaved();
 
   void OnRecurringTipSaved(RewardsService* rewards_service,
-                           const bool success) override;
+                           bool success) override;
 
   std::string GetStringBalance();
 

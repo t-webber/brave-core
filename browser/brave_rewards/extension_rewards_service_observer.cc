@@ -170,8 +170,8 @@ void ExtensionRewardsServiceObserver::OnReconcileComplete(
     RewardsService* rewards_service,
     const brave_rewards::mojom::Result result,
     const std::string& contribution_id,
-    const double amount,
-    const brave_rewards::mojom::RewardsType type,
+    double amount,
+    brave_rewards::mojom::RewardsType type,
     const brave_rewards::mojom::ContributionProcessor processor) {
   auto* event_router = extensions::EventRouter::Get(profile_);
   if (!event_router) {
@@ -217,7 +217,7 @@ void ExtensionRewardsServiceObserver::OnExternalWalletDisconnected() {
   }
 }
 
-void ExtensionRewardsServiceObserver::OnCompleteReset(const bool success) {
+void ExtensionRewardsServiceObserver::OnCompleteReset(bool success) {
   auto* event_router = extensions::EventRouter::Get(profile_);
   if (!event_router) {
     return;

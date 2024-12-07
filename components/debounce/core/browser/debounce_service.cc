@@ -60,7 +60,7 @@ bool DebounceService::IsEnabled() {
   return prefs_->GetBoolean(prefs::kDebounceEnabled);
 }
 
-void DebounceService::SetIsEnabled(const bool isEnabled) {
+void DebounceService::SetIsEnabled(bool isEnabled) {
   prefs_->SetBoolean(prefs::kDebounceEnabled, isEnabled);
   prefs_->CommitPendingWrite();
 }

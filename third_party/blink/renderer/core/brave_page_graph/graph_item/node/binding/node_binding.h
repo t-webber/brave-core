@@ -15,7 +15,7 @@ class NodeBinding : public GraphNode {
  public:
   NodeBinding(GraphItemContext* context,
               const Binding binding,
-              const BindingType binding_type);
+              BindingType binding_type);
   ~NodeBinding() override;
 
   Binding GetBinding() const { return binding_; }

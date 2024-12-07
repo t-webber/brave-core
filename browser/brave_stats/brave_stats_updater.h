@@ -85,7 +85,7 @@ class BraveStatsUpdater : public ProfileManagerObserver {
   void OnReferralInitialization();
 
   // Invoked after brave ads initializes
-  void OnDetectUncertainFuture(const bool is_uncertain_future);
+  void OnDetectUncertainFuture(bool is_uncertain_future);
 
   void DetectUncertainFuture();
   void StartServerPingStartupTimer();

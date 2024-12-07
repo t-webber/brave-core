@@ -44,7 +44,7 @@ std::string ReadFile(const base::FilePath& file_path) {
 MatchedRule CreateMatchedRule(const base::FilePath& component_path,
                               const base::FilePath& test_script_path,
                               const base::FilePath& policy_script_path,
-                              const int version) {
+                              int version) {
   auto prefix = base::FilePath(component_path).Append(kScriptsDir);
   auto test_script = ReadFile(base::FilePath(prefix).Append(test_script_path));
   auto policy_script =

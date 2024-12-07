@@ -67,7 +67,7 @@ std::string BuildDeletePingPayload(std::string_view collection_id) {
 }
 
 bool ShouldResetCollectionId(std::string_view collection_id,
-                             const base::Time expiration_time) {
+                             base::Time expiration_time) {
   if (collection_id.empty() || expiration_time.is_null()) {
     return true;
   }

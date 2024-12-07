@@ -57,8 +57,8 @@ class ExtensionRewardsServiceObserver : public RewardsServiceObserver {
       RewardsService* rewards_service,
       const brave_rewards::mojom::Result result,
       const std::string& contribution_id,
-      const double amount,
-      const brave_rewards::mojom::RewardsType type,
+      double amount,
+      brave_rewards::mojom::RewardsType type,
       const brave_rewards::mojom::ContributionProcessor processor) override;
 
   void OnExternalWalletConnected() override;
@@ -67,7 +67,7 @@ class ExtensionRewardsServiceObserver : public RewardsServiceObserver {
 
   void OnExternalWalletDisconnected() override;
 
-  void OnCompleteReset(const bool success) override;
+  void OnCompleteReset(bool success) override;
 
   void OnPanelPublisherInfo(RewardsService* rewards_service,
                             const brave_rewards::mojom::Result result,

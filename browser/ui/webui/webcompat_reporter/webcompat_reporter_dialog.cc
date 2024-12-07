@@ -117,12 +117,12 @@ bool WebcompatReporterDialogDelegate::ShouldShowDialogTitle() const {
 
 void PrepareParamsAndShowDialog(
     content::WebContents* initiator,
-    const std::string report_url,
+    std::string report_url,
     bool shields_enabled,
     const std::string_view adblock_mode,
     const std::string_view fingerprint_mode,
-    const int source,
-    const bool is_error_page,
+    int source,
+    bool is_error_page,
     const std::optional<std::string>& contact_info) {
   base::Value::Dict params_dict;
   params_dict.Set(kSiteURLField, report_url);

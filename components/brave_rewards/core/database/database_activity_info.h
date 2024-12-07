@@ -24,8 +24,8 @@ class DatabaseActivityInfo : public DatabaseTable {
   void NormalizeList(std::vector<mojom::PublisherInfoPtr> list,
                      ResultCallback callback);
 
-  void GetRecordsList(const int start,
-                      const int limit,
+  void GetRecordsList(int start,
+                      int limit,
                       mojom::ActivityInfoFilterPtr filter,
                       GetActivityInfoListCallback callback);
 

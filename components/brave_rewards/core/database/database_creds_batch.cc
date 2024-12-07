@@ -61,10 +61,9 @@ void DatabaseCredsBatch::InsertOrUpdate(mojom::CredsBatchPtr creds,
       base::BindOnce(&OnResultCallback, std::move(callback)));
 }
 
-void DatabaseCredsBatch::GetRecordByTrigger(
-    const std::string& trigger_id,
-    const mojom::CredsBatchType trigger_type,
-    GetCredsBatchCallback callback) {
+void DatabaseCredsBatch::GetRecordByTrigger(const std::string& trigger_id,
+                                            mojom::CredsBatchType trigger_type,
+                                            GetCredsBatchCallback callback) {
   DCHECK(!trigger_id.empty());
   auto transaction = mojom::DBTransaction::New();
 

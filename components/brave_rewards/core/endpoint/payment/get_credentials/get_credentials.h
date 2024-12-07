@@ -66,7 +66,7 @@ class GetCredentials {
  private:
   std::string GetUrl(const std::string& order_id, const std::string& item_id);
 
-  mojom::Result CheckStatusCode(const int status_code);
+  mojom::Result CheckStatusCode(int status_code);
 
   mojom::Result ParseBody(const std::string& body, mojom::CredsBatch* batch);
 

@@ -52,7 +52,7 @@ class BraveSearchDefaultJSHandler {
       std::unique_ptr<v8::Global<v8::Promise::Resolver>> promise_resolver,
       v8::Isolate* isolate,
       std::unique_ptr<v8::Global<v8::Context>> context_old,
-      const bool response);
+      bool response);
 
   raw_ptr<content::RenderFrame> render_frame_ = nullptr;
   const bool can_always_set_default_ = false;

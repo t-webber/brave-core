@@ -109,8 +109,7 @@ class APIRequestHelper {
       base::RepeatingCallback<void(ValueOrError result)>;
   using ResultCallback = base::OnceCallback<void(APIRequestResult)>;
   using ResponseStartedCallback =
-      base::OnceCallback<void(const std::string& url,
-                              const int64_t content_length)>;
+      base::OnceCallback<void(const std::string& url, int64_t content_length)>;
   using ResponseConversionCallback =
       base::OnceCallback<std::optional<std::string>(
           const std::string& raw_response)>;

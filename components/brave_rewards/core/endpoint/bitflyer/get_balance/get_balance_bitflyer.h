@@ -48,8 +48,8 @@ class RewardsEngine;
 namespace endpoint {
 namespace bitflyer {
 
-using GetBalanceCallback = base::OnceCallback<void(const mojom::Result result,
-                                                   const double available)>;
+using GetBalanceCallback =
+    base::OnceCallback<void(const mojom::Result result, double available)>;
 
 class GetBalance {
  public:
@@ -61,7 +61,7 @@ class GetBalance {
  private:
   std::string GetUrl();
 
-  mojom::Result CheckStatusCode(const int status_code);
+  mojom::Result CheckStatusCode(int status_code);
 
   mojom::Result ParseBody(const std::string& body, double* available);
 

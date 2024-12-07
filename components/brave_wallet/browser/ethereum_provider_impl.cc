@@ -1519,9 +1519,9 @@ void EthereumProviderImpl::OnResponse(bool format_json_rpc_response,
                                       RequestCallback callback,
                                       base::Value id,
                                       base::Value formed_response,
-                                      const bool reject,
+                                      bool reject,
                                       const std::string& first_allowed_account,
-                                      const bool update_bind_js_properties) {
+                                      bool update_bind_js_properties) {
   if (format_json_rpc_response) {
     auto json_rpc_formed_response =
         ToProviderResponse(id.Clone(), reject ? nullptr : &formed_response,

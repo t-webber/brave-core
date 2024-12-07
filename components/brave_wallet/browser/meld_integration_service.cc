@@ -124,7 +124,7 @@ GURL AppendFilterParams(
   return url;
 }
 
-bool NeedsToParseResponse(const int http_error_code) {
+bool NeedsToParseResponse(int http_error_code) {
   static const base::NoDestructor<std::unordered_set<int>>
       kRespCodesAllowedToContinueParsing({400, 401, 403});
   return kRespCodesAllowedToContinueParsing->contains(http_error_code);
@@ -404,7 +404,7 @@ void MeldIntegrationService::GetCryptoQuotes(
     const std::string& country,
     const std::string& source_currency_code,
     const std::string& destination_currency_code,
-    const double source_amount,
+    double source_amount,
     const std::optional<std::string>& account,
     const std::optional<std::string>& payment_method,
     GetCryptoQuotesCallback callback) {

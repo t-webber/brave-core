@@ -28,7 +28,7 @@ using challenge_bypass_ristretto::UnblindedToken;
 using challenge_bypass_ristretto::VerificationKey;
 using challenge_bypass_ristretto::VerificationSignature;
 
-std::vector<Token> GenerateCreds(const int count) {
+std::vector<Token> GenerateCreds(int count) {
   DCHECK_GT(count, 0);
   std::vector<Token> creds;
 
@@ -166,7 +166,7 @@ std::vector<std::string> UnBlindCredsMock(const mojom::CredsBatch& creds) {
   return unblinded_encoded_creds;
 }
 
-std::string ConvertRewardTypeToString(const mojom::RewardsType type) {
+std::string ConvertRewardTypeToString(mojom::RewardsType type) {
   switch (type) {
     case mojom::RewardsType::AUTO_CONTRIBUTE: {
       return "auto-contribute";

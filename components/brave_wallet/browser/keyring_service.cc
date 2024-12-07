@@ -2528,7 +2528,7 @@ mojom::ZCashAccountInfoPtr KeyringService::GetZCashAccountInfo(
 std::optional<std::vector<uint8_t>> KeyringService::SignMessageByZCashKeyring(
     const mojom::AccountIdPtr& account_id,
     const mojom::ZCashKeyIdPtr& key_id,
-    const base::span<const uint8_t, 32> message) {
+    base::span<const uint8_t, 32> message) {
   CHECK(account_id);
   CHECK(key_id);
   CHECK(IsZCashAccount(*account_id));

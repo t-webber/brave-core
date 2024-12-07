@@ -64,7 +64,7 @@ class PostTransactionUphold {
 
   std::string GeneratePayload(const mojom::SKUTransaction& transaction);
 
-  mojom::Result CheckStatusCode(const int status_code);
+  mojom::Result CheckStatusCode(int status_code);
 
   void OnRequest(PostTransactionUpholdCallback callback,
                  mojom::UrlResponsePtr response);

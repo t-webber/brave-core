@@ -93,7 +93,7 @@ void RewardsNotificationServiceImpl::DeleteNotification(
 }
 
 void RewardsNotificationServiceImpl::DeleteAllNotifications(
-    const bool delete_displayed) {
+    bool delete_displayed) {
   bool displayed = delete_displayed;
 
 #if BUILDFLAG(IS_ANDROID)
@@ -315,8 +315,8 @@ void RewardsNotificationServiceImpl::OnReconcileComplete(
     RewardsService* rewards_service,
     const mojom::Result result,
     const std::string& contribution_id,
-    const double amount,
-    const mojom::RewardsType type,
+    double amount,
+    mojom::RewardsType type,
     const mojom::ContributionProcessor processor) {
   if (type == mojom::RewardsType::ONE_TIME_TIP) {
     return;

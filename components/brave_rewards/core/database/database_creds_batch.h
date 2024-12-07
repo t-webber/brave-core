@@ -26,7 +26,7 @@ class DatabaseCredsBatch : public DatabaseTable {
   void InsertOrUpdate(mojom::CredsBatchPtr creds, ResultCallback callback);
 
   void GetRecordByTrigger(const std::string& trigger_id,
-                          const mojom::CredsBatchType trigger_type,
+                          mojom::CredsBatchType trigger_type,
                           GetCredsBatchCallback callback);
 
   void SaveSignedCreds(mojom::CredsBatchPtr creds, ResultCallback callback);

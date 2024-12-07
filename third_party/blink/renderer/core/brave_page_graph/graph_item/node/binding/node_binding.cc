@@ -11,7 +11,7 @@ namespace brave_page_graph {
 
 NodeBinding::NodeBinding(GraphItemContext* context,
                          const Binding binding,
-                         const BindingType binding_type)
+                         BindingType binding_type)
     : GraphNode(context), binding_(binding), binding_type_(binding_type) {}
 
 NodeBinding::~NodeBinding() = default;

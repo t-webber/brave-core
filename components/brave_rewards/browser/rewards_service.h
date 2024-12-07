@@ -70,9 +70,9 @@ using GetRewardsParametersCallback =
 
 using LoadDiagnosticLogCallback = base::OnceCallback<void(const std::string&)>;
 
-using ClearDiagnosticLogCallback = base::OnceCallback<void(const bool success)>;
+using ClearDiagnosticLogCallback = base::OnceCallback<void(bool success)>;
 
-using SuccessCallback = base::OnceCallback<void(const bool success)>;
+using SuccessCallback = base::OnceCallback<void(bool success)>;
 
 using GetEventLogsCallback =
     base::OnceCallback<void(std::vector<mojom::EventLogPtr> logs)>;
@@ -130,8 +130,8 @@ class RewardsService : public KeyedService {
   using FetchUICardsCallback = mojom::RewardsEngine::FetchUICardsCallback;
   virtual void FetchUICards(FetchUICardsCallback callback) = 0;
 
-  virtual void GetActivityInfoList(const uint32_t start,
-                                   const uint32_t limit,
+  virtual void GetActivityInfoList(uint32_t start,
+                                   uint32_t limit,
                                    mojom::ActivityInfoFilterPtr filter,
                                    GetPublisherInfoListCallback callback) = 0;
 
@@ -164,10 +164,9 @@ class RewardsService : public KeyedService {
       GetPublisherMinVisitsCallback callback) = 0;
   virtual void SetPublisherMinVisits(int visits) const = 0;
 
-  virtual void GetBalanceReport(
-      const uint32_t month,
-      const uint32_t year,
-      GetBalanceReportCallback callback) = 0;
+  virtual void GetBalanceReport(uint32_t month,
+                                uint32_t year,
+                                GetBalanceReportCallback callback) = 0;
   virtual void GetPublisherActivityFromVisitData(
       mojom::VisitDataPtr visit_data) = 0;
   virtual void GetPublisherActivityFromUrl(
@@ -227,7 +226,7 @@ class RewardsService : public KeyedService {
       const std::string& publisher_key,
       GetPublisherInfoCallback callback) = 0;
 
-  virtual void SavePublisherInfo(const uint64_t window_id,
+  virtual void SavePublisherInfo(uint64_t window_id,
                                  mojom::PublisherInfoPtr publisher_info,
                                  SavePublisherInfoCallback callback) = 0;
 
@@ -269,13 +268,12 @@ class RewardsService : public KeyedService {
       GetAllContributionsCallback callback) = 0;
 
   virtual void WriteDiagnosticLog(const std::string& file,
-                                  const int line,
-                                  const int verbose_level,
+                                  int line,
+                                  int verbose_level,
                                   const std::string& message) = 0;
 
-  virtual void LoadDiagnosticLog(
-      const int num_lines,
-      LoadDiagnosticLogCallback callback) = 0;
+  virtual void LoadDiagnosticLog(int num_lines,
+                                 LoadDiagnosticLogCallback callback) = 0;
 
   virtual void ClearDiagnosticLog(
       ClearDiagnosticLogCallback callback) = 0;

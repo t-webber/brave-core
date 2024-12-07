@@ -827,7 +827,7 @@ void SolanaTxManager::OnGetSPLTokenProgramByMint(
 
 void SolanaTxManager::MakeTxDataFromBase64EncodedTransaction(
     const std::string& encoded_transaction,
-    const mojom::TransactionType tx_type,
+    mojom::TransactionType tx_type,
     mojom::SolanaSendTransactionOptionsPtr send_options,
     MakeTxDataFromBase64EncodedTransactionCallback callback) {
   std::optional<std::vector<std::uint8_t>> transaction_bytes =

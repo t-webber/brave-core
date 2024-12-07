@@ -153,7 +153,7 @@ GURL GetUrl(
   return https_server->GetURL(publisher_key, new_path);
 }
 
-void ActivateTabAtIndex(Browser* browser, const int32_t index) {
+void ActivateTabAtIndex(Browser* browser, int32_t index) {
   DCHECK(browser);
   browser->tab_strip_model()->ActivateTabAt(
       index, TabStripUserGestureDetails(

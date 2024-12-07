@@ -40,7 +40,7 @@ class DataStore {
   int GetNextTrainingInstanceId();
   void SaveCovariate(const brave_federated::mojom::CovariateInfo& covariate,
                      int training_instance_id,
-                     const base::Time created_at);
+                     base::Time created_at);
   bool AddTrainingInstance(
       const std::vector<brave_federated::mojom::CovariateInfoPtr>
           training_instance);

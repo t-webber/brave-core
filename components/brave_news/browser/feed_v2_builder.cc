@@ -200,7 +200,7 @@ std::vector<mojom::FeedItemV2Ptr> GenerateBlockFromContentGroups(
              publisher_id_to_channels,
          bool is_hero) {
         return base::BindRepeating(
-            [](const bool is_hero, const ContentGroup& content_group,
+            [](bool is_hero, const ContentGroup& content_group,
                const base::flat_map<std::string, std::vector<std::string>>&
                    publisher_id_to_channels,
                const std::string& locale,

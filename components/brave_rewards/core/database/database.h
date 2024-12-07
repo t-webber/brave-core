@@ -101,7 +101,7 @@ class Database {
                                    GetContributionInfoCallback callback);
 
   void GetOneTimeTips(const mojom::ActivityMonth month,
-                      const int year,
+                      int year,
                       GetOneTimeTipsCallback callback);
 
   void GetNotCompletedContributions(ContributionInfoListCallback callback);
@@ -141,7 +141,7 @@ class Database {
   void SaveCredsBatch(mojom::CredsBatchPtr info, ResultCallback callback);
 
   void GetCredsBatchByTrigger(const std::string& trigger_id,
-                              const mojom::CredsBatchType trigger_type,
+                              mojom::CredsBatchType trigger_type,
                               GetCredsBatchCallback callback);
 
   void SaveSignedCreds(mojom::CredsBatchPtr info, ResultCallback callback);

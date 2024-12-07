@@ -246,7 +246,7 @@ std::optional<GURL> MaybeApplyQueryStringFilter(
     const GURL& redirect_source_url,
     const GURL& request_url,
     const std::string& request_method,
-    const bool internal_redirect) {
+    bool internal_redirect) {
   if (!request_url.has_query()) {
     // Optimization:
     // If there are no query params then we have nothing to strip.

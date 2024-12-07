@@ -21,9 +21,9 @@
   void RefreshLocalDeviceInfoIfNeeded
 
 // private:
-#define StoreSpecifics                                                 \
-  OnDeviceInfoDeleted(const std::string& client_id, const int attempt, \
-                      base::OnceClosure callback);                     \
+#define StoreSpecifics                                           \
+  OnDeviceInfoDeleted(const std::string& client_id, int attempt, \
+                      base::OnceClosure callback);               \
   void StoreSpecifics
 
 #include "src/components/sync_device_info/device_info_sync_bridge.h"  // IWYU pragma: export

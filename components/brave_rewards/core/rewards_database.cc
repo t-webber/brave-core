@@ -193,8 +193,8 @@ mojom::DBCommandResponsePtr RewardsDatabase::RunTransaction(
 }
 
 mojom::DBCommandResponse::Status RewardsDatabase::Initialize(
-    const int32_t version,
-    const int32_t compatible_version,
+    int32_t version,
+    int32_t compatible_version,
     mojom::DBCommandResponse* command_response) {
   DCHECK_CALLED_ON_VALID_SEQUENCE(sequence_checker_);
 
@@ -302,8 +302,8 @@ mojom::DBCommandResponse::Status RewardsDatabase::Read(
 }
 
 mojom::DBCommandResponse::Status RewardsDatabase::Migrate(
-    const int32_t version,
-    const int32_t compatible_version) {
+    int32_t version,
+    int32_t compatible_version) {
   if (!initialized_) {
     return mojom::DBCommandResponse::Status::INITIALIZATION_ERROR;
   }

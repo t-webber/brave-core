@@ -105,9 +105,9 @@ class BraveReferralsService {
   void OnReadPromoCodeComplete(const std::string& promo_code);
 
 #if BUILDFLAG(IS_ANDROID)
-  void GetSafetynetStatusResult(const bool token_received,
+  void GetSafetynetStatusResult(bool token_received,
                                 const std::string& result_string,
-                                const bool attestation_passed);
+                                bool attestation_passed);
   safetynet_check::SafetyNetCheckRunner safetynet_check_runner_;
 
   void InitAndroidReferrer();

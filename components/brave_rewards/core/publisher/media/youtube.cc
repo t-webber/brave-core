@@ -352,9 +352,9 @@ void YouTube::ProcessActivityFromUrl(uint64_t window_id,
 
 void YouTube::OnMediaPublisherInfo(const std::string& media_id,
                                    const std::string& media_key,
-                                   const uint64_t duration,
+                                   uint64_t duration,
                                    const mojom::VisitData& visit_data,
-                                   const uint64_t window_id,
+                                   uint64_t window_id,
                                    mojom::Result result,
                                    mojom::PublisherInfoPtr publisher_info) {
   if (result != mojom::Result::OK && result != mojom::Result::NOT_FOUND) {
@@ -386,11 +386,11 @@ void YouTube::OnMediaPublisherInfo(const std::string& media_id,
   }
 }
 
-void YouTube::OnEmbedResponse(const uint64_t duration,
+void YouTube::OnEmbedResponse(uint64_t duration,
                               const std::string& media_key,
                               const std::string& media_url,
                               const mojom::VisitData& visit_data,
-                              const uint64_t window_id,
+                              uint64_t window_id,
                               mojom::UrlResponsePtr response) {
   DCHECK(response);
   if (response->status_code != net::HTTP_OK) {
@@ -417,12 +417,12 @@ void YouTube::OnEmbedResponse(const uint64_t duration,
                      visit_data, window_id));
 }
 
-void YouTube::OnPublisherPage(const uint64_t duration,
+void YouTube::OnPublisherPage(uint64_t duration,
                               const std::string& media_key,
                               std::string publisher_url,
                               std::string publisher_name,
                               const mojom::VisitData& visit_data,
-                              const uint64_t window_id,
+                              uint64_t window_id,
                               mojom::UrlResponsePtr response) {
   DCHECK(response);
   if (response->status_code != net::HTTP_OK && publisher_name.empty()) {
@@ -447,12 +447,12 @@ void YouTube::OnPublisherPage(const uint64_t duration,
   }
 }
 
-void YouTube::SavePublisherInfo(const uint64_t duration,
+void YouTube::SavePublisherInfo(uint64_t duration,
                                 const std::string& media_key,
                                 const std::string& publisher_url,
                                 const std::string& publisher_name,
                                 const mojom::VisitData& visit_data,
-                                const uint64_t window_id,
+                                uint64_t window_id,
                                 const std::string& fav_icon,
                                 const std::string& channel_id) {
   std::string url;

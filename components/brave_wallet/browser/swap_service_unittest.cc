@@ -433,7 +433,7 @@ class SwapServiceUnitTest : public testing::Test {
                         const std::string& from_chain_id,
                         mojom::CoinType to_coin,
                         const std::string& to_chain_id,
-                        const bool expected_success,
+                        bool expected_success,
                         mojom::SwapProvider provider) {
     SetInterceptor(json);
     auto expected_error_string =
@@ -453,9 +453,9 @@ class SwapServiceUnitTest : public testing::Test {
   }
 
   void TestGetJupiterTransaction(
-      const bool expected_success,
+      bool expected_success,
       const std::string& expected_response,
-      const bool has_error,
+      bool has_error,
       const std::string& output_mint =
           "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"  // USDC
   ) {

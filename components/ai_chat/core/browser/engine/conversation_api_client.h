@@ -98,7 +98,7 @@ class ConversationAPIClient {
   std::string CreateJSONRequestBody(
       const std::vector<ConversationEvent>& conversation,
       const std::string& selected_language,
-      const bool is_sse_enabled);
+      bool is_sse_enabled);
 
   void SetAPIRequestHelperForTesting(
       std::unique_ptr<api_request_helper::APIRequestHelper> api_helper) {
@@ -111,7 +111,7 @@ class ConversationAPIClient {
  private:
   void PerformRequestWithCredentials(
       const std::vector<ConversationEvent>& conversation,
-      const std::string selected_language,
+      std::string selected_language,
       GenerationDataCallback data_received_callback,
       GenerationCompletedCallback completed_callback,
       std::optional<CredentialCacheEntry> credential);

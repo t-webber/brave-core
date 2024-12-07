@@ -55,7 +55,7 @@ struct CORE_EXPORT FingerprintingRule {
   FingerprintingRule(const std::string& primary_pattern,
                      const std::string& secondary_pattern,
                      const std::string& source,
-                     const bool incognito);
+                     bool incognito);
 
   bool operator==(const FingerprintingRule& other) const;
   bool operator<(const FingerprintingRule& other) const;
@@ -150,14 +150,14 @@ enum GraphMLAttrType {
   kGraphMLAttrTypeDouble,
   kGraphMLAttrTypeUnknown
 };
-CORE_EXPORT std::string GraphMLAttrTypeToString(const GraphMLAttrType type);
+CORE_EXPORT std::string GraphMLAttrTypeToString(GraphMLAttrType type);
 
 enum GraphMLAttrForType {
   kGraphMLAttrForTypeNode = 0,
   kGraphMLAttrForTypeEdge,
   kGraphMLAttrForTypeUnknown
 };
-CORE_EXPORT std::string GraphMLForTypeToString(const GraphMLAttrForType type);
+CORE_EXPORT std::string GraphMLForTypeToString(GraphMLAttrForType type);
 
 enum RequestStatus {
   kRequestStatusStart = 0,

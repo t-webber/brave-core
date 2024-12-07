@@ -478,7 +478,7 @@ void TxService::MakeTokenProgramTransferTxData(
 
 void TxService::MakeTxDataFromBase64EncodedTransaction(
     const std::string& encoded_transaction,
-    const mojom::TransactionType tx_type,
+    mojom::TransactionType tx_type,
     mojom::SolanaSendTransactionOptionsPtr send_options,
     MakeTxDataFromBase64EncodedTransactionCallback callback) {
   GetSolanaTxManager()->MakeTxDataFromBase64EncodedTransaction(

@@ -506,7 +506,7 @@ std::optional<ZCashOrchardStorage::Error> ZCashOrchardStorage::UpdateNotes(
     const mojom::AccountIdPtr& account_id,
     const std::vector<OrchardNote>& found_notes,
     const std::vector<OrchardNoteSpend>& found_nullifiers,
-    const uint32_t latest_scanned_block,
+    uint32_t latest_scanned_block,
     const std::string& latest_scanned_block_hash) {
   DCHECK_CALLED_ON_VALID_SEQUENCE(sequence_checker_);
   CHECK(account_id);

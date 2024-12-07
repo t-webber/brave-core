@@ -20,7 +20,7 @@ PrepopulatedEngine MakeBravePrepopulatedEngine(const char16_t* const name,
                                                const char* const encoding,
                                                const char* const suggest_url,
                                                SearchEngineType type,
-                                               const int id) {
+                                               int id) {
   return {name,
           keyword,
           favicon_url,

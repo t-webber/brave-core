@@ -30,7 +30,7 @@ namespace cosmetic_filters {
 class CosmeticFiltersJSHandler : public mojom::CosmeticFiltersAgent {
  public:
   CosmeticFiltersJSHandler(content::RenderFrame* render_frame,
-                           const int32_t isolated_world_id);
+                           int32_t isolated_world_id);
   ~CosmeticFiltersJSHandler() override;
 
   // Adds the "cf_worker" JavaScript object and its functions to the current

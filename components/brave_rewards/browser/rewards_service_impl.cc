@@ -1349,10 +1349,9 @@ void RewardsServiceImpl::OnGetBalanceReport(
   std::move(callback).Run(result, std::move(report));
 }
 
-void RewardsServiceImpl::GetBalanceReport(
-    const uint32_t month,
-    const uint32_t year,
-    GetBalanceReportCallback callback) {
+void RewardsServiceImpl::GetBalanceReport(uint32_t month,
+                                          uint32_t year,
+                                          GetBalanceReportCallback callback) {
   if (!Connected() || month < 1 || month > 12) {
     return DeferCallback(FROM_HERE, std::move(callback), mojom::Result::FAILED,
                          nullptr);
@@ -1591,7 +1590,7 @@ void RewardsServiceImpl::GetPublisherPanelInfo(
 }
 
 void RewardsServiceImpl::SavePublisherInfo(
-    const uint64_t window_id,
+    uint64_t window_id,
     mojom::PublisherInfoPtr publisher_info,
     SavePublisherInfoCallback callback) {
   if (!Connected()) {
@@ -1640,7 +1639,7 @@ void RewardsServiceImpl::RemoveRecurringTip(
 }
 
 void RewardsServiceImpl::OnSetPublisherExclude(const std::string& publisher_key,
-                                               const bool exclude,
+                                               bool exclude,
                                                const mojom::Result result) {
   if (result != mojom::Result::OK) {
     return;
@@ -1679,8 +1678,8 @@ void RewardsServiceImpl::ShowNotificationTipsPaid() {
 }
 
 void RewardsServiceImpl::WriteDiagnosticLog(const std::string& file,
-                                            const int line,
-                                            const int verbose_level,
+                                            int line,
+                                            int verbose_level,
                                             const std::string& message) {
   if (engine_for_testing_ || resetting_rewards_) {
     return;
@@ -1696,13 +1695,12 @@ void RewardsServiceImpl::WriteDiagnosticLog(const std::string& file,
       base::BindOnce(&RewardsServiceImpl::OnDiagnosticLogWritten, AsWeakPtr()));
 }
 
-void RewardsServiceImpl::OnDiagnosticLogWritten(const bool success) {
+void RewardsServiceImpl::OnDiagnosticLogWritten(bool success) {
   DCHECK(success);
 }
 
-void RewardsServiceImpl::LoadDiagnosticLog(
-      const int num_lines,
-      LoadDiagnosticLogCallback callback) {
+void RewardsServiceImpl::LoadDiagnosticLog(int num_lines,
+                                           LoadDiagnosticLogCallback callback) {
   diagnostic_log_->ReadLastNLines(
       num_lines, base::BindOnce(&RewardsServiceImpl::OnDiagnosticLogLoaded,
                                 AsWeakPtr(), std::move(callback)));
@@ -2247,7 +2245,7 @@ void RewardsServiceImpl::CompleteReset(SuccessCallback callback) {
 
 void RewardsServiceImpl::OnFilesDeletedForCompleteReset(
     SuccessCallback callback,
-    const bool success) {
+    bool success) {
   DCHECK_CALLED_ON_VALID_SEQUENCE(sequence_checker_);
   resetting_rewards_ = false;
   for (auto& observer : observers_) {

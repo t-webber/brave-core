@@ -35,7 +35,7 @@ OBJC_EXPORT
 #pragma mark -
 
 /// Generates a UUID using NSUUID
-- (const std::string)generateUUID;
+- (std::string)generateUUID;
 
 #pragma mark - Network
 

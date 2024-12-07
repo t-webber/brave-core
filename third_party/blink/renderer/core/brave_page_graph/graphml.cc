@@ -22,9 +22,9 @@ namespace {
 uint32_t graphml_index = 0;
 }
 
-GraphMLAttr::GraphMLAttr(const GraphMLAttrForType for_value,
+GraphMLAttr::GraphMLAttr(GraphMLAttrForType for_value,
                          const String& name,
-                         const GraphMLAttrType type)
+                         GraphMLAttrType type)
     : for_(for_value),
       name_(name),
       type_(type),
@@ -70,7 +70,7 @@ void GraphMLAttr::AddValueNodeXmlChar(xmlDocPtr doc,
 
 void GraphMLAttr::AddValueNode(xmlDocPtr doc,
                                xmlNodePtr parent_node,
-                               const int value) const {
+                               int value) const {
   CHECK(type_ == kGraphMLAttrTypeInt);
   xmlNodePtr new_node =
       xmlNewTextChild(parent_node, nullptr, BAD_CAST "data",
@@ -80,7 +80,7 @@ void GraphMLAttr::AddValueNode(xmlDocPtr doc,
 
 void GraphMLAttr::AddValueNode(xmlDocPtr doc,
                                xmlNodePtr parent_node,
-                               const bool value) const {
+                               bool value) const {
   CHECK(type_ == kGraphMLAttrTypeBoolean);
   xmlNodePtr new_node = xmlNewTextChild(parent_node, nullptr, BAD_CAST "data",
                                         BAD_CAST(value ? "true" : "false"));
@@ -89,7 +89,7 @@ void GraphMLAttr::AddValueNode(xmlDocPtr doc,
 
 void GraphMLAttr::AddValueNode(xmlDocPtr doc,
                                xmlNodePtr parent_node,
-                               const int64_t value) const {
+                               int64_t value) const {
   CHECK(type_ == kGraphMLAttrTypeString);
   xmlNodePtr new_node =
       xmlNewTextChild(parent_node, nullptr, BAD_CAST "data",
@@ -99,7 +99,7 @@ void GraphMLAttr::AddValueNode(xmlDocPtr doc,
 
 void GraphMLAttr::AddValueNode(xmlDocPtr doc,
                                xmlNodePtr parent_node,
-                               const uint64_t value) const {
+                               uint64_t value) const {
   CHECK(type_ == kGraphMLAttrTypeString);
   xmlNodePtr new_node =
       xmlNewTextChild(parent_node, nullptr, BAD_CAST "data",
@@ -109,7 +109,7 @@ void GraphMLAttr::AddValueNode(xmlDocPtr doc,
 
 void GraphMLAttr::AddValueNode(xmlDocPtr doc,
                                xmlNodePtr parent_node,
-                               const double value) const {
+                               double value) const {
   CHECK(type_ == kGraphMLAttrTypeDouble);
   xmlNodePtr new_node =
       xmlNewTextChild(parent_node, nullptr, BAD_CAST "data",
@@ -119,7 +119,7 @@ void GraphMLAttr::AddValueNode(xmlDocPtr doc,
 
 void GraphMLAttr::AddValueNode(xmlDocPtr doc,
                                xmlNodePtr parent_node,
-                               const base::TimeDelta value) const {
+                               base::TimeDelta value) const {
   CHECK(type_ == kGraphMLAttrTypeInt);
   xmlNodePtr new_node = xmlNewTextChild(
       parent_node, nullptr, BAD_CAST "data",

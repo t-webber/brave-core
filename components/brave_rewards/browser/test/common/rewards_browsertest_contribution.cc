@@ -45,9 +45,9 @@ content::WebContents* RewardsBrowserTestContribution::contents() {
 
 void RewardsBrowserTestContribution::TipViaCode(
     const std::string& publisher_key,
-    const double amount,
+    double amount,
     const mojom::PublisherStatus status,
-    const bool recurring) {
+    bool recurring) {
   multiple_tip_reconcile_completed_ = false;
   multiple_tip_reconcile_count_ = 0;
 
@@ -179,9 +179,9 @@ void RewardsBrowserTestContribution::TipPublisher(
   VerifyTip(amount, set_monthly);
 }
 
-void RewardsBrowserTestContribution::VerifyTip(const double amount,
-                                               const bool monthly,
-                                               const bool via_code) {
+void RewardsBrowserTestContribution::VerifyTip(double amount,
+                                               bool monthly,
+                                               bool via_code) {
   if (via_code && monthly) {
     return;
   }
@@ -206,7 +206,7 @@ void RewardsBrowserTestContribution::IsBalanceCorrect() {
       contents(), "[data-test-id=rewards-balance-text]", GetStringBalance());
 }
 
-void RewardsBrowserTestContribution::AddBalance(const double balance) {
+void RewardsBrowserTestContribution::AddBalance(double balance) {
   balance_ += balance;
 }
 
@@ -231,8 +231,8 @@ void RewardsBrowserTestContribution::OnReconcileComplete(
     RewardsService* rewards_service,
     const mojom::Result result,
     const std::string& contribution_id,
-    const double amount,
-    const mojom::RewardsType type,
+    double amount,
+    mojom::RewardsType type,
     const mojom::ContributionProcessor processor) {
   if (result == mojom::Result::OK) {
     UpdateContributionBalance(
@@ -287,8 +287,8 @@ void RewardsBrowserTestContribution::OnReconcileComplete(
 }
 
 void RewardsBrowserTestContribution::UpdateContributionBalance(
-    const double amount,
-    const bool verified,
+    double amount,
+    bool verified,
     const mojom::ContributionProcessor processor) {
   if (verified) {
     if (processor == mojom::ContributionProcessor::BRAVE_TOKENS) {
@@ -316,7 +316,7 @@ void RewardsBrowserTestContribution::WaitForRecurringTipToBeSaved() {
 
 void RewardsBrowserTestContribution::OnRecurringTipSaved(
     RewardsService* rewards_service,
-    const bool success) {
+    bool success) {
   if (!success) {
     return;
   }
@@ -328,7 +328,7 @@ void RewardsBrowserTestContribution::OnRecurringTipSaved(
 }
 
 void RewardsBrowserTestContribution::WaitForMultipleTipReconcileCompleted(
-    const int32_t needed) {
+    int32_t needed) {
   multiple_tip_reconcile_needed_ = needed;
   if (multiple_tip_reconcile_completed_||
       multiple_tip_reconcile_count_ == needed) {
@@ -340,7 +340,7 @@ void RewardsBrowserTestContribution::WaitForMultipleTipReconcileCompleted(
 }
 
 void RewardsBrowserTestContribution::WaitForMultipleACReconcileCompleted(
-    const int32_t needed) {
+    int32_t needed) {
   multiple_ac_reconcile_needed_ = needed;
   if (multiple_ac_reconcile_completed_ ||
       multiple_ac_reconcile_count_ == needed) {

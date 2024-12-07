@@ -16,7 +16,7 @@ namespace brave_page_graph {
 FingerprintingRule::FingerprintingRule(const std::string& primary_pattern,
                                        const std::string& secondary_pattern,
                                        const std::string& source,
-                                       const bool incognito)
+                                       bool incognito)
     : primary_pattern(primary_pattern),
       secondary_pattern(secondary_pattern),
       source(source),
@@ -87,7 +87,7 @@ const char* BindingEventToString(blink::PageGraphBindingEvent binding_event) {
   }
 }
 
-std::string GraphMLAttrTypeToString(const GraphMLAttrType type) {
+std::string GraphMLAttrTypeToString(GraphMLAttrType type) {
   switch (type) {
     case kGraphMLAttrTypeString:
       return "string";
@@ -105,7 +105,7 @@ std::string GraphMLAttrTypeToString(const GraphMLAttrType type) {
   }
 }
 
-std::string GraphMLForTypeToString(const GraphMLAttrForType type) {
+std::string GraphMLForTypeToString(GraphMLAttrForType type) {
   switch (type) {
     case kGraphMLAttrForTypeNode:
       return "node";

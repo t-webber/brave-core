@@ -28,7 +28,7 @@ std::string GetMe::GetUrl() {
       .spec();
 }
 
-mojom::Result GetMe::CheckStatusCode(const int status_code) {
+mojom::Result GetMe::CheckStatusCode(int status_code) {
   if (status_code == net::HTTP_UNAUTHORIZED) {
     engine_->LogError(FROM_HERE) << "Unauthorized access";
     return mojom::Result::EXPIRED_TOKEN;

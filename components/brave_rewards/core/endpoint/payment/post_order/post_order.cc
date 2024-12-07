@@ -48,7 +48,7 @@ std::string PostOrder::GeneratePayload(
   return json;
 }
 
-mojom::Result PostOrder::CheckStatusCode(const int status_code) {
+mojom::Result PostOrder::CheckStatusCode(int status_code) {
   if (status_code == net::HTTP_BAD_REQUEST) {
     engine_->LogError(FROM_HERE) << "Invalid request";
     return mojom::Result::RETRY_SHORT;

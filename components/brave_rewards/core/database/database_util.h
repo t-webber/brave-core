@@ -20,19 +20,17 @@ namespace database {
 
 inline constexpr size_t kBatchLimit = 999;
 
-void BindNull(mojom::DBCommand* command, const int index);
+void BindNull(mojom::DBCommand* command, int index);
 
-void BindInt(mojom::DBCommand* command, const int index, const int32_t value);
+void BindInt(mojom::DBCommand* command, int index, int32_t value);
 
-void BindInt64(mojom::DBCommand* command, const int index, const int64_t value);
+void BindInt64(mojom::DBCommand* command, int index, int64_t value);
 
-void BindDouble(mojom::DBCommand* command, const int index, const double value);
+void BindDouble(mojom::DBCommand* command, int index, double value);
 
-void BindBool(mojom::DBCommand* command, const int index, const bool value);
+void BindBool(mojom::DBCommand* command, int index, bool value);
 
-void BindString(mojom::DBCommand* command,
-                const int index,
-                const std::string& value);
+void BindString(mojom::DBCommand* command, int index, const std::string& value);
 
 int32_t GetCurrentVersion();
 
@@ -41,15 +39,15 @@ int32_t GetCompatibleVersion();
 void OnResultCallback(ResultCallback callback,
                       mojom::DBCommandResponsePtr response);
 
-int GetIntColumn(mojom::DBRecord* record, const int index);
+int GetIntColumn(mojom::DBRecord* record, int index);
 
-int64_t GetInt64Column(mojom::DBRecord* record, const int index);
+int64_t GetInt64Column(mojom::DBRecord* record, int index);
 
-double GetDoubleColumn(mojom::DBRecord* record, const int index);
+double GetDoubleColumn(mojom::DBRecord* record, int index);
 
-bool GetBoolColumn(mojom::DBRecord* record, const int index);
+bool GetBoolColumn(mojom::DBRecord* record, int index);
 
-std::string GetStringColumn(mojom::DBRecord* record, const int index);
+std::string GetStringColumn(mojom::DBRecord* record, int index);
 
 std::string GenerateStringInCase(const std::vector<std::string>& items);
 

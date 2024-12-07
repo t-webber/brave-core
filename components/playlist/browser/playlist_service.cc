@@ -1301,7 +1301,7 @@ void PlaylistService::CancelQuery(const std::string& query_id) {
 }
 
 void PlaylistService::OnResponseStarted(const std::string& url,
-                                        const int64_t content_length) {
+                                        int64_t content_length) {
   streaming_observer_->OnResponseStarted(url, content_length);
 }
 

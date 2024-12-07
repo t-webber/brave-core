@@ -162,7 +162,7 @@ bool EngineConsumerConversationAPI::SupportsDeltaTextResponses() const {
 ConversationEvent
 EngineConsumerConversationAPI::GetAssociatedContentConversationEvent(
     const std::string& content,
-    const bool is_video) {
+    bool is_video) {
   const std::string& truncated_page_content =
       content.substr(0, max_associated_content_length_);
 

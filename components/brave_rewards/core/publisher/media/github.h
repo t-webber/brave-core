@@ -48,17 +48,17 @@ class GitHub {
 
   void FetchDataFromUrl(const std::string& url, LoadURLCallback callback);
 
-  void OnUserPage(const uint64_t duration,
+  void OnUserPage(uint64_t duration,
                   uint64_t window_id,
                   const mojom::VisitData& visit_data,
                   mojom::UrlResponsePtr response);
 
-  void SavePublisherInfo(const uint64_t duration,
+  void SavePublisherInfo(uint64_t duration,
                          const std::string& user_id,
                          const std::string& user_name,
                          const std::string& publisher_name,
                          const std::string& profile_picture,
-                         const uint64_t window_id,
+                         uint64_t window_id,
                          GetPublisherInfoCallback callback);
 
   void GetPublisherPanelInfo(uint64_t window_id,

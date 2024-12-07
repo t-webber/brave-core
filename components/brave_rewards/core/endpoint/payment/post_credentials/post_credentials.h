@@ -62,7 +62,7 @@ class PostCredentials {
                               const std::string& type,
                               base::Value::List&& blinded_creds);
 
-  mojom::Result CheckStatusCode(const int status_code);
+  mojom::Result CheckStatusCode(int status_code);
 
   void OnRequest(PostCredentialsCallback callback,
                  mojom::UrlResponsePtr response);

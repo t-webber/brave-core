@@ -93,11 +93,11 @@ class BraveSyncServiceImpl : public SyncServiceImpl {
   void OnBraveSyncPrefsChanged(const std::string& path);
 
   void PermanentlyDeleteAccountImpl(
-      const int current_attempt,
+      int current_attempt,
       base::OnceCallback<void(const SyncProtocolError&)> callback);
 
   void OnAccountDeleted(
-      const int current_attempt,
+      int current_attempt,
       base::OnceCallback<void(const SyncProtocolError&)> callback,
       const SyncProtocolError&);
 

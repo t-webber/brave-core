@@ -766,9 +766,9 @@ class BraveWalletServiceUnitTest : public testing::Test {
     service_->AddSuggestTokenRequest(
         request.Clone(),
         base::BindLambdaForTesting(
-            [&](base::Value id, base::Value formed_response, const bool reject,
+            [&](base::Value id, base::Value formed_response, bool reject,
                 const std::string& first_allowed_account,
-                const bool update_bind_js_properties) {
+                bool update_bind_js_properties) {
               bool user_approved = false;
               if (formed_response.type() == base::Value::Type::BOOLEAN) {
                 user_approved = formed_response.GetBool();

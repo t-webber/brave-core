@@ -82,8 +82,7 @@ class WebcompatReporterServiceUnitTest : public testing::Test {
 
   PrefService* pref_service() { return &pref_service_; }
 
-  void TestSubmitWebcompatReport(const std::string contact,
-                                 const bool is_incognito) {
+  void TestSubmitWebcompatReport(std::string contact, bool is_incognito) {
     if (is_incognito) {
       webcompat_reporter_service_->SetPrefServiceTest(nullptr);
     }

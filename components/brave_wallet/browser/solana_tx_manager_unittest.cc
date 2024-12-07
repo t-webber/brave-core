@@ -552,7 +552,7 @@ class SolanaTxManagerUnitTest : public testing::Test {
 
   void TestMakeTxDataFromBase64EncodedTransaction(
       const std::string& encoded_transaction,
-      const mojom::TransactionType tx_type,
+      mojom::TransactionType tx_type,
       mojom::SolanaSendTransactionOptionsPtr send_options,
       mojom::SolanaTxDataPtr expected_tx_data,
       mojom::SolanaProviderError expected_error,

@@ -30,13 +30,13 @@ class COMPONENT_EXPORT(PSST_BROWSER_CONTENT) PsstTabHelper
       public content::WebContentsUserData<PsstTabHelper> {
  public:
   static void MaybeCreateForWebContents(content::WebContents* contents,
-                                        const int32_t world_id);
+                                        int32_t world_id);
   ~PsstTabHelper() override;
   PsstTabHelper(const PsstTabHelper&) = delete;
   PsstTabHelper& operator=(const PsstTabHelper&) = delete;
 
  private:
-  PsstTabHelper(content::WebContents*, const int32_t world_id);
+  PsstTabHelper(content::WebContents*, int32_t world_id);
   // Called to insert both test script and policy script.
   void InsertScriptInPage(
       const content::GlobalRenderFrameHostId& render_frame_host_id,

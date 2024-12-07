@@ -10,7 +10,7 @@
 
 namespace brave_rpill {
 
-using IsUncertainFutureCallback = base::OnceCallback<void(const bool)>;
+using IsUncertainFutureCallback = base::OnceCallback<void(bool)>;
 
 // Detects if the future is uncertain or bright. The specified |callback| wil be
 // run upon completion with the result.

@@ -41,7 +41,7 @@ class RewardsBrowserTestResponse {
 
   void SetSKUOrder(mojom::SKUOrderPtr order);
 
-  void SetAlternativePublisherList(const bool alternative);
+  void SetAlternativePublisherList(bool alternative);
 
   void SetExternalBalance(const std::string& balance);
 

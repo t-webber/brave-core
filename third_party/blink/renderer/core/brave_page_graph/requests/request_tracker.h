@@ -73,12 +73,12 @@ class RequestTracker {
   void RegisterDocumentRequestStart(const InspectorId request_id,
                                     const FrameId& frame_id,
                                     const blink::KURL& url,
-                                    const bool is_main_frame,
-                                    const base::TimeDelta timestamp);
+                                    bool is_main_frame,
+                                    base::TimeDelta timestamp);
   void RegisterDocumentRequestComplete(const InspectorId request_id,
                                        const FrameId& frame_id,
-                                       const int64_t encoded_data_length,
-                                       const base::TimeDelta timestamp);
+                                       int64_t encoded_data_length,
+                                       base::TimeDelta timestamp);
   DocumentRequest* GetDocumentRequestInfo(const InspectorId request_id);
   TrackedRequestRecord* GetTrackingRecord(const InspectorId request_id);
 

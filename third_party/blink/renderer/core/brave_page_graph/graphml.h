@@ -19,7 +19,7 @@ namespace brave_page_graph {
 
 class GraphMLAttr {
  public:
-  GraphMLAttr(const GraphMLAttrForType for_value,
+  GraphMLAttr(GraphMLAttrForType for_value,
               const String& name,
               const GraphMLAttrType type = kGraphMLAttrTypeString);
 
@@ -33,24 +33,16 @@ class GraphMLAttr {
   void AddValueNode(xmlDocPtr doc,
                     xmlNodePtr parent_node,
                     const String& value) const;
+  void AddValueNode(xmlDocPtr doc, xmlNodePtr parent_node, int value) const;
+  void AddValueNode(xmlDocPtr doc, xmlNodePtr parent_node, bool value) const;
+  void AddValueNode(xmlDocPtr doc, xmlNodePtr parent_node, int64_t value) const;
   void AddValueNode(xmlDocPtr doc,
                     xmlNodePtr parent_node,
-                    const int value) const;
+                    uint64_t value) const;
+  void AddValueNode(xmlDocPtr doc, xmlNodePtr parent_node, double value) const;
   void AddValueNode(xmlDocPtr doc,
                     xmlNodePtr parent_node,
-                    const bool value) const;
-  void AddValueNode(xmlDocPtr doc,
-                    xmlNodePtr parent_node,
-                    const int64_t value) const;
-  void AddValueNode(xmlDocPtr doc,
-                    xmlNodePtr parent_node,
-                    const uint64_t value) const;
-  void AddValueNode(xmlDocPtr doc,
-                    xmlNodePtr parent_node,
-                    const double value) const;
-  void AddValueNode(xmlDocPtr doc,
-                    xmlNodePtr parent_node,
-                    const base::TimeDelta value) const;
+                    base::TimeDelta value) const;
 
  private:
   void AddValueNodeXmlChar(xmlDocPtr doc,

@@ -149,7 +149,7 @@ class LocalhostAccessBrowserTest : public InProcessBrowserTest {
     WaitForAdBlockServiceThreads();
   }
 
-  void InsertImage(const std::string& src, const bool expected) {
+  void InsertImage(const std::string& src, bool expected) {
     std::string insert_image = content::JsReplace(
         R"(
         (async () => {
@@ -244,7 +244,7 @@ class LocalhostAccessBrowserTest : public InProcessBrowserTest {
     EXPECT_EQ(prompt_count + 2, prompt_factory()->show_count());
   }
 
-  void CheckNoPromptFlow(const bool expected, GURL localhost_url) {
+  void CheckNoPromptFlow(bool expected, GURL localhost_url) {
     CheckCurrentStatusIs(ContentSetting::CONTENT_SETTING_ASK);
     EXPECT_EQ(0, prompt_factory()->show_count());
     ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), embedding_url_));

@@ -78,12 +78,11 @@ scoped_refptr<const TrackedRequestRecord> RequestTracker::RegisterRequestError(
   return ReturnTrackingRecord(request_id);
 }
 
-void RequestTracker::RegisterDocumentRequestStart(
-    const InspectorId request_id,
-    const FrameId& frame_id,
-    const blink::KURL& url,
-    const bool is_main_frame,
-    const base::TimeDelta timestamp) {
+void RequestTracker::RegisterDocumentRequestStart(const InspectorId request_id,
+                                                  const FrameId& frame_id,
+                                                  const blink::KURL& url,
+                                                  bool is_main_frame,
+                                                  base::TimeDelta timestamp) {
   // Any previous document requests from this root should have been canceled.
   if (document_request_initiators_.Contains(frame_id)) {
     CHECK_EQ(document_request_initiators_.at(frame_id), request_id);
@@ -106,8 +105,8 @@ void RequestTracker::RegisterDocumentRequestStart(
 void RequestTracker::RegisterDocumentRequestComplete(
     const InspectorId request_id,
     const FrameId& frame_id,
-    const int64_t encoded_data_length,
-    const base::TimeDelta timestamp) {
+    int64_t encoded_data_length,
+    base::TimeDelta timestamp) {
   // The request should have been started previously.
   auto request_record_it = document_requests_.find(request_id);
   CHECK(request_record_it != document_requests_.end());

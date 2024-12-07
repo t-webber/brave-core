@@ -148,7 +148,7 @@ class BraveHistoryQuickProviderTest : public testing::Test {
 
   // As above, simply with a cursor position specified.
   void RunTestWithCursor(const std::u16string& text,
-                         const size_t cursor_position,
+                         size_t cursor_position,
                          bool prevent_inline_autocomplete,
                          const std::vector<std::string>& expected_urls,
                          bool expected_can_inline_top_result,

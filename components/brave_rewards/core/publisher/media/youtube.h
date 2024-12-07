@@ -73,33 +73,33 @@ class YouTube {
 
   void OnMediaPublisherInfo(const std::string& media_id,
                             const std::string& media_key,
-                            const uint64_t duration,
+                            uint64_t duration,
                             const mojom::VisitData& visit_data,
                             uint64_t window_id,
                             mojom::Result result,
                             mojom::PublisherInfoPtr publisher_info);
 
-  void OnEmbedResponse(const uint64_t duration,
+  void OnEmbedResponse(uint64_t duration,
                        const std::string& media_key,
                        const std::string& media_url,
                        const mojom::VisitData& visit_data,
-                       const uint64_t window_id,
+                       uint64_t window_id,
                        mojom::UrlResponsePtr response);
 
-  void OnPublisherPage(const uint64_t duration,
+  void OnPublisherPage(uint64_t duration,
                        const std::string& media_key,
                        std::string publisher_url,
                        std::string publisher_name,
                        const mojom::VisitData& visit_data,
-                       const uint64_t window_id,
+                       uint64_t window_id,
                        mojom::UrlResponsePtr response);
 
-  void SavePublisherInfo(const uint64_t duration,
+  void SavePublisherInfo(uint64_t duration,
                          const std::string& media_key,
                          const std::string& publisher_url,
                          const std::string& publisher_name,
                          const mojom::VisitData& visit_data,
-                         const uint64_t window_id,
+                         uint64_t window_id,
                          const std::string& fav_icon,
                          const std::string& channel_id);
 

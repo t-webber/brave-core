@@ -155,7 +155,7 @@ class RewardsStateBrowserTest : public InProcessBrowserTest {
     *path = test_path;
   }
 
-  void CopyPublisherFile(const int32_t current_version) const {
+  void CopyPublisherFile(int32_t current_version) const {
     if (current_version != 0) {
       return;
     }
@@ -167,7 +167,7 @@ class RewardsStateBrowserTest : public InProcessBrowserTest {
     ASSERT_TRUE(base::CopyFile(test_path, profile_path));
   }
 
-  void CopyStateFile(const int32_t current_version) const {
+  void CopyStateFile(int32_t current_version) const {
     if (current_version != 1) {
       return;
     }

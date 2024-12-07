@@ -188,7 +188,7 @@ class DeAmpBrowserTest : public InProcessBrowserTest {
                             custom_headers, content_type));
   }
 
-  void TogglePref(const bool on) {
+  void TogglePref(bool on) {
     prefs_->SetBoolean(de_amp::kDeAmpPrefEnabled, on);
     web_contents()->GetController().Reload(content::ReloadType::NORMAL, false);
   }

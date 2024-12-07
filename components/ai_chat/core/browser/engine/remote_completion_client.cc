@@ -70,7 +70,7 @@ base::Value::Dict CreateApiParametersDict(
     const std::string& model_name,
     const base::flat_set<std::string_view>& stop_sequences,
     const std::vector<std::string>& additional_stop_sequences,
-    const bool is_sse_enabled) {
+    bool is_sse_enabled) {
   base::Value::Dict dict;
 
   base::Value::List all_stop_sequences;

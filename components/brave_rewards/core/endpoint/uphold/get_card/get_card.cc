@@ -30,7 +30,7 @@ std::string GetCard::GetUrl(const std::string& address) {
       .spec();
 }
 
-mojom::Result GetCard::CheckStatusCode(const int status_code) {
+mojom::Result GetCard::CheckStatusCode(int status_code) {
   if (status_code == net::HTTP_UNAUTHORIZED ||
       status_code == net::HTTP_NOT_FOUND ||
       status_code == net::HTTP_FORBIDDEN) {

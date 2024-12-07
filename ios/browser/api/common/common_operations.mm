@@ -60,7 +60,7 @@
   }
 }
 
-- (const std::string)generateUUID {
+- (std::string)generateUUID {
   return std::string([NSUUID UUID].UUIDString.UTF8String);
 }
 

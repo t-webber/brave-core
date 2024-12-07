@@ -520,9 +520,9 @@ void BraveReferralsService::InitReferral() {
 
 #if BUILDFLAG(IS_ANDROID)
 void BraveReferralsService::GetSafetynetStatusResult(
-    const bool token_received,
+    bool token_received,
     const std::string& result_string,
-    const bool attestation_passed) {
+    bool attestation_passed) {
   if (pref_service_->GetString(kSafetynetStatus).empty()) {
     // The device could not support SafetyNet.
     pref_service_->SetString(kSafetynetStatus, "not verified");

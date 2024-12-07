@@ -184,7 +184,7 @@ void DatabaseContributionInfo::GetAllRecords(
 }
 
 void DatabaseContributionInfo::GetOneTimeTips(const mojom::ActivityMonth month,
-                                              const int year,
+                                              int year,
                                               GetOneTimeTipsCallback callback) {
   if (year == 0) {
     engine_->Log(FROM_HERE) << "Year is 0";

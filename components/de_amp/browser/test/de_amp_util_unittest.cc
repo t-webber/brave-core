@@ -11,8 +11,8 @@ namespace de_amp {
 /** Test helpers */
 void CheckFindCanonicalLinkResult(const std::string& expected_link,
                                   const std::string& body,
-                                  const bool expected_detect_amp,
-                                  const bool expected_find_canonical) {
+                                  bool expected_detect_amp,
+                                  bool expected_find_canonical) {
   const bool actual_detect_amp = CheckIfAmpPage(body);
   EXPECT_EQ(expected_detect_amp, actual_detect_amp);
   if (expected_detect_amp) {  // Only check for canonical link if this is an AMP
@@ -26,7 +26,7 @@ void CheckFindCanonicalLinkResult(const std::string& expected_link,
 }
 void CheckCheckCanonicalLinkResult(const std::string& canonical_link,
                                    const std::string& original,
-                                   const bool expected) {
+                                   bool expected) {
   GURL canonical_url(canonical_link), original_url(original);
   EXPECT_EQ(expected, VerifyCanonicalAmpUrl(canonical_url, original_url));
 }

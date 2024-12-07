@@ -130,8 +130,8 @@ class RewardsServiceImpl final : public RewardsService,
 
   void FetchUICards(FetchUICardsCallback callback) override;
 
-  void GetActivityInfoList(const uint32_t start,
-                           const uint32_t limit,
+  void GetActivityInfoList(uint32_t start,
+                           uint32_t limit,
                            mojom::ActivityInfoFilterPtr filter,
                            GetPublisherInfoListCallback callback) override;
 
@@ -158,10 +158,9 @@ class RewardsServiceImpl final : public RewardsService,
       GetPublisherMinVisitTimeCallback callback) override;
   void GetPublisherMinVisits(GetPublisherMinVisitsCallback callback) override;
   void RestorePublishers() override;
-  void GetBalanceReport(
-      const uint32_t month,
-      const uint32_t year,
-      GetBalanceReportCallback callback) override;
+  void GetBalanceReport(uint32_t month,
+                        uint32_t year,
+                        GetBalanceReportCallback callback) override;
   void GetPublisherActivityFromVisitData(
       mojom::VisitDataPtr visit_data) override;
   void GetPublisherActivityFromUrl(uint64_t tab_id,
@@ -217,7 +216,7 @@ class RewardsServiceImpl final : public RewardsService,
       const std::string& publisher_key,
       GetPublisherInfoCallback callback) override;
 
-  void SavePublisherInfo(const uint64_t window_id,
+  void SavePublisherInfo(uint64_t window_id,
                          mojom::PublisherInfoPtr publisher_info,
                          SavePublisherInfoCallback callback) override;
 
@@ -333,7 +332,7 @@ class RewardsServiceImpl final : public RewardsService,
   void ShowNotificationTipsPaid();
 
   void OnSetPublisherExclude(const std::string& publisher_key,
-                             const bool exclude,
+                             bool exclude,
                              const mojom::Result result);
 
   void OnEngineInitialized(mojom::Result result);
@@ -367,15 +366,14 @@ class RewardsServiceImpl final : public RewardsService,
                                     bool success);
 
   void WriteDiagnosticLog(const std::string& file,
-                          const int line,
-                          const int verbose_level,
+                          int line,
+                          int verbose_level,
                           const std::string& message) override;
 
-  void OnDiagnosticLogWritten(const bool success);
+  void OnDiagnosticLogWritten(bool success);
 
-  void LoadDiagnosticLog(
-      const int num_lines,
-      LoadDiagnosticLogCallback callback) override;
+  void LoadDiagnosticLog(int num_lines,
+                         LoadDiagnosticLogCallback callback) override;
 
   void OnDiagnosticLogLoaded(LoadDiagnosticLogCallback callback,
                              const std::string& value);
@@ -491,8 +489,7 @@ class RewardsServiceImpl final : public RewardsService,
   void OnRunDBTransaction(RunDBTransactionCallback callback,
                           mojom::DBCommandResponsePtr response);
 
-  void OnFilesDeletedForCompleteReset(SuccessCallback callback,
-                                      const bool success);
+  void OnFilesDeletedForCompleteReset(SuccessCallback callback, bool success);
 
   void OnDiagnosticLogDeleted(DeleteLogCallback callback, bool success);
 

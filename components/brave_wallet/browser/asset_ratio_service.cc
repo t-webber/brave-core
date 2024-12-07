@@ -511,7 +511,7 @@ void AssetRatioService::OnGetPriceHistory(GetPriceHistoryCallback callback,
 
 // static
 GURL AssetRatioService::GetCoinMarketsURL(const std::string& vs_asset,
-                                          const uint8_t limit) {
+                                          uint8_t limit) {
   GURL url = GURL(base::StringPrintf("%s/v2/market/provider/coingecko",
                                      base_url_for_test_.is_empty()
                                          ? GetAssetRatioBaseURL().c_str()
@@ -522,7 +522,7 @@ GURL AssetRatioService::GetCoinMarketsURL(const std::string& vs_asset,
 }
 
 void AssetRatioService::GetCoinMarkets(const std::string& vs_asset,
-                                       const uint8_t limit,
+                                       uint8_t limit,
                                        GetCoinMarketsCallback callback) {
   std::string vs_asset_lower = base::ToLowerASCII(vs_asset);
   auto internal_callback =

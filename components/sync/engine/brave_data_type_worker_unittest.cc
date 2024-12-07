@@ -50,7 +50,7 @@ class BraveDataTypeWorkerTest : public ::testing::Test {
     nudge_handler()->ClearCounters();
   }
 
-  void InitializeWithState(const DataType type, const DataTypeState& state) {
+  void InitializeWithState(DataType type, const DataTypeState& state) {
     DCHECK(!worker());
 
     auto processor = std::make_unique<MockDataTypeProcessor>();

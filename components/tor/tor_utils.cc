@@ -45,7 +45,7 @@ struct MinMaxTraits<tor::BridgesConfig::BuiltinType> {
 };
 
 template <typename Enum>
-Enum CastToEnum(const int value) {
+Enum CastToEnum(int value) {
   if (value >= static_cast<int>(MinMaxTraits<Enum>::kMin) &&
       value <= static_cast<int>(MinMaxTraits<Enum>::kMax)) {
     return static_cast<Enum>(value);

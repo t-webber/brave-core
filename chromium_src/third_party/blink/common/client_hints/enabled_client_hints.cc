@@ -25,8 +25,8 @@
 
 namespace blink {
 
-void EnabledClientHints::SetIsEnabled(const WebClientHintsType type,
-                                      const bool should_send) {
+void EnabledClientHints::SetIsEnabled(WebClientHintsType type,
+                                      bool should_send) {
   bool type_is_enabled = false;
   switch (type) {
     case WebClientHintsType::kUA:

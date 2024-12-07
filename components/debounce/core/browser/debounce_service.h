@@ -28,7 +28,7 @@ class DebounceService : public KeyedService {
   bool Debounce(const GURL& original_url, GURL* final_url) const;
   static void RegisterProfilePrefs(PrefRegistrySimple* registry);
   bool IsEnabled();
-  void SetIsEnabled(const bool isEnabled);
+  void SetIsEnabled(bool isEnabled);
 
  private:
   const raw_ptr<DebounceComponentInstaller> component_installer_;

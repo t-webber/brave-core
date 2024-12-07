@@ -555,9 +555,9 @@ void JSEthereumProvider::OnRequestOrSendAsync(
     v8::Isolate* isolate,
     base::Value id,
     base::Value formed_response,
-    const bool reject,
+    bool reject,
     const std::string& first_allowed_account,
-    const bool update_bind_js_properties) {
+    bool update_bind_js_properties) {
   if (update_bind_js_properties) {
     first_allowed_account_ = first_allowed_account;
   }

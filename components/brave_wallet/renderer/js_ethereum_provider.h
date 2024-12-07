@@ -111,9 +111,9 @@ class JSEthereumProvider final : public gin::Wrappable<JSEthereumProvider>,
                             v8::Isolate* isolate,
                             base::Value id,
                             base::Value formed_response,
-                            const bool reject,
+                            bool reject,
                             const std::string& first_allowed_account,
-                            const bool update_bind_js_properties);
+                            bool update_bind_js_properties);
 
   void SendResponse(base::Value id,
                     v8::Global<v8::Context> global_context,

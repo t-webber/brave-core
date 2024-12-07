@@ -27,7 +27,7 @@ namespace psst {
 
 // static
 void PsstTabHelper::MaybeCreateForWebContents(content::WebContents* contents,
-                                              const int32_t world_id) {
+                                              int32_t world_id) {
   if (contents->GetBrowserContext()->IsOffTheRecord() ||
       !base::FeatureList::IsEnabled(psst::features::kBravePsst)) {
     return;
@@ -37,7 +37,7 @@ void PsstTabHelper::MaybeCreateForWebContents(content::WebContents* contents,
 }
 
 PsstTabHelper::PsstTabHelper(content::WebContents* web_contents,
-                             const int32_t world_id)
+                             int32_t world_id)
     : WebContentsObserver(web_contents),
       content::WebContentsUserData<PsstTabHelper>(*web_contents),
       world_id_(world_id),

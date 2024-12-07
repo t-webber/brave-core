@@ -185,9 +185,9 @@ class BraveRewardsNativeWorker
   void OnCreateRewardsWallet(
       brave_rewards::mojom::CreateRewardsWalletResult result);
 
-  void OnCompleteReset(const bool success) override;
+  void OnCompleteReset(bool success) override;
 
-  void OnResetTheWholeState(const bool success);
+  void OnResetTheWholeState(bool success);
 
   void OnGetGetReconcileStamp(uint64_t timestamp);
 
@@ -211,8 +211,8 @@ class BraveRewardsNativeWorker
       brave_rewards::RewardsService* rewards_service,
       const brave_rewards::mojom::Result result,
       const std::string& contribution_id,
-      const double amount,
-      const brave_rewards::mojom::RewardsType type,
+      double amount,
+      brave_rewards::mojom::RewardsType type,
       const brave_rewards::mojom::ContributionProcessor processor) override;
 
   void OnNotificationAdded(
@@ -255,7 +255,7 @@ class BraveRewardsNativeWorker
   std::string StdStrStrMapToJsonString(
       const base::flat_map<std::string, std::string>& args);
 
-  void OnGetUserType(const brave_rewards::mojom::UserType user_type);
+  void OnGetUserType(brave_rewards::mojom::UserType user_type);
 
   void OnBalance(brave_rewards::mojom::BalancePtr balance);
 

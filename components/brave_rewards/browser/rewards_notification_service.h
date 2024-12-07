@@ -60,7 +60,7 @@ class RewardsNotificationService {
                                RewardsNotificationID id = "",
                                bool only_once = false) = 0;
   virtual void DeleteNotification(RewardsNotificationID id) = 0;
-  virtual void DeleteAllNotifications(const bool delete_displayed) = 0;
+  virtual void DeleteAllNotifications(bool delete_displayed) = 0;
   virtual void GetNotification(RewardsNotificationID id) = 0;
   virtual void GetNotifications() = 0;
   virtual const RewardsNotificationsMap& GetAllNotifications() const = 0;

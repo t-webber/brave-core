@@ -10,7 +10,7 @@
 
 namespace brave_l10n {
 
-std::u16string GetLocalizedResourceUTF16String(const int resource_id) {
+std::u16string GetLocalizedResourceUTF16String(int resource_id) {
   const std::string resource =
       ui::ResourceBundle::GetSharedInstance().LoadLocalizedResourceString(
           resource_id);

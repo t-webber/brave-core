@@ -147,7 +147,7 @@ void BraveAdaptiveCaptchaService::ClearScheduledCaptcha() {
   prefs_->SetBoolean(prefs::kScheduledCaptchaPaused, false);
 }
 
-void BraveAdaptiveCaptchaService::OnCompleteReset(const bool success) {
+void BraveAdaptiveCaptchaService::OnCompleteReset(bool success) {
   ClearScheduledCaptcha();
 }
 

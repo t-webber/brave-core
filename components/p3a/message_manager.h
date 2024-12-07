@@ -116,7 +116,7 @@ class MessageManager : public MetricLogStore::Delegate {
 
   // MetricLogStore::Delegate
   std::string SerializeLog(std::string_view histogram_name,
-                           const uint64_t value,
+                           uint64_t value,
                            MetricLogType log_type,
                            bool is_constellation,
                            const std::string& upload_type) override;

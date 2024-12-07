@@ -39,7 +39,7 @@ ContentSetting GetBraveWebcompatContentSettingFromRules(
     const std::map<ContentSettingsType, ContentSettingsForOneType>&
         webcompat_rules,
     const GURL& primary_url,
-    const ContentSettingsType content_settings_type) {
+    ContentSettingsType content_settings_type) {
   if (!base::FeatureList::IsEnabled(
           webcompat::features::kBraveWebcompatExceptionsService)) {
     return CONTENT_SETTING_DEFAULT;

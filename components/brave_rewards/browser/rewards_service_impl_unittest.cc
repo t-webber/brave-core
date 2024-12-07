@@ -36,8 +36,8 @@ class MockRewardsServiceObserver : public RewardsServiceObserver {
                void(RewardsService*,
                     const mojom::Result,
                     const std::string&,
-                    const double,
-                    const mojom::RewardsType,
+                    double,
+                    mojom::RewardsType,
                     const mojom::ContributionProcessor));
   MOCK_METHOD2(OnGetRecurringTips,
                void(RewardsService*,

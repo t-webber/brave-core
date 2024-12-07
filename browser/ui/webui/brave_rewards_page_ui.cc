@@ -135,17 +135,17 @@ class RewardsDOMHandler
   void GetAdsHistory(const base::Value::List& args);
   void OnGetAdsHistory(std::optional<base::Value::List> ad_history);
   void ToggleAdThumbUp(const base::Value::List& args);
-  void OnToggleAdThumbUp(const bool success);
+  void OnToggleAdThumbUp(bool success);
   void ToggleAdThumbDown(const base::Value::List& args);
-  void OnToggleAdThumbDown(const bool success);
+  void OnToggleAdThumbDown(bool success);
   void ToggleAdOptIn(const base::Value::List& args);
-  void OnToggleAdOptIn(const bool success);
+  void OnToggleAdOptIn(bool success);
   void ToggleAdOptOut(const base::Value::List& args);
-  void OnToggleAdOptOut(const bool success);
+  void OnToggleAdOptOut(bool success);
   void ToggleSavedAd(const base::Value::List& args);
-  void OnToggleSavedAd(const bool success);
+  void OnToggleSavedAd(bool success);
   void ToggleFlaggedAd(const base::Value::List& args);
-  void OnToggleFlaggedAd(const bool success);
+  void OnToggleFlaggedAd(bool success);
   void SaveAdsSetting(const base::Value::List& args);
   void OnGetReconcileStamp(uint64_t reconcile_stamp);
   void GetStatement(const base::Value::List& args);
@@ -171,8 +171,8 @@ class RewardsDOMHandler
 
   void GetBalanceReport(const base::Value::List& args);
 
-  void OnGetBalanceReport(const uint32_t month,
-                          const uint32_t year,
+  void OnGetBalanceReport(uint32_t month,
+                          uint32_t year,
                           const brave_rewards::mojom::Result result,
                           brave_rewards::mojom::BalanceReportInfoPtr report);
 
@@ -207,8 +207,8 @@ class RewardsDOMHandler
       brave_rewards::RewardsService* rewards_service,
       const brave_rewards::mojom::Result result,
       const std::string& contribution_id,
-      const double amount,
-      const brave_rewards::mojom::RewardsType type,
+      double amount,
+      brave_rewards::mojom::RewardsType type,
       const brave_rewards::mojom::ContributionProcessor processor) override;
 
   void OnPublisherListNormalized(
@@ -234,7 +234,7 @@ class RewardsDOMHandler
 
   void ReconcileStampReset() override;
 
-  void OnCompleteReset(const bool success) override;
+  void OnCompleteReset(bool success) override;
 
   // bat_ads::mojom::BatAdsObserver implementation
   void OnAdRewardsDidChange() override;
@@ -846,8 +846,8 @@ void RewardsDOMHandler::OnReconcileComplete(
     brave_rewards::RewardsService* rewards_service,
     const brave_rewards::mojom::Result result,
     const std::string& contribution_id,
-    const double amount,
-    const brave_rewards::mojom::RewardsType type,
+    double amount,
+    brave_rewards::mojom::RewardsType type,
     const brave_rewards::mojom::ContributionProcessor processor) {
   if (!IsJavascriptAllowed()) {
     return;
@@ -1047,7 +1047,7 @@ void RewardsDOMHandler::ToggleAdThumbUp(const base::Value::List& args) {
                      weak_factory_.GetWeakPtr()));
 }
 
-void RewardsDOMHandler::OnToggleAdThumbUp(const bool success) {
+void RewardsDOMHandler::OnToggleAdThumbUp(bool success) {
   if (!IsJavascriptAllowed()) {
     return;
   }
@@ -1080,7 +1080,7 @@ void RewardsDOMHandler::ToggleAdThumbDown(const base::Value::List& args) {
                      weak_factory_.GetWeakPtr()));
 }
 
-void RewardsDOMHandler::OnToggleAdThumbDown(const bool success) {
+void RewardsDOMHandler::OnToggleAdThumbDown(bool success) {
   if (!IsJavascriptAllowed()) {
     return;
   }
@@ -1113,7 +1113,7 @@ void RewardsDOMHandler::ToggleAdOptIn(const base::Value::List& args) {
                      weak_factory_.GetWeakPtr()));
 }
 
-void RewardsDOMHandler::OnToggleAdOptIn(const bool success) {
+void RewardsDOMHandler::OnToggleAdOptIn(bool success) {
   if (!IsJavascriptAllowed()) {
     return;
   }
@@ -1146,7 +1146,7 @@ void RewardsDOMHandler::ToggleAdOptOut(const base::Value::List& args) {
                      weak_factory_.GetWeakPtr()));
 }
 
-void RewardsDOMHandler::OnToggleAdOptOut(const bool success) {
+void RewardsDOMHandler::OnToggleAdOptOut(bool success) {
   if (!IsJavascriptAllowed()) {
     return;
   }
@@ -1178,7 +1178,7 @@ void RewardsDOMHandler::ToggleSavedAd(const base::Value::List& args) {
                                             weak_factory_.GetWeakPtr()));
 }
 
-void RewardsDOMHandler::OnToggleSavedAd(const bool success) {
+void RewardsDOMHandler::OnToggleSavedAd(bool success) {
   if (!IsJavascriptAllowed()) {
     return;
   }
@@ -1211,7 +1211,7 @@ void RewardsDOMHandler::ToggleFlaggedAd(const base::Value::List& args) {
                      weak_factory_.GetWeakPtr()));
 }
 
-void RewardsDOMHandler::OnToggleFlaggedAd(const bool success) {
+void RewardsDOMHandler::OnToggleFlaggedAd(bool success) {
   if (!IsJavascriptAllowed()) {
     return;
   }
@@ -1477,8 +1477,8 @@ void RewardsDOMHandler::ReconcileStampReset() {
 }
 
 void RewardsDOMHandler::OnGetBalanceReport(
-    const uint32_t month,
-    const uint32_t year,
+    uint32_t month,
+    uint32_t year,
     const brave_rewards::mojom::Result result,
     brave_rewards::mojom::BalanceReportInfoPtr report) {
   if (!IsJavascriptAllowed() || !report) {
@@ -1563,7 +1563,7 @@ void RewardsDOMHandler::CompleteReset(const base::Value::List& args) {
   rewards_service_->CompleteReset(base::DoNothing());
 }
 
-void RewardsDOMHandler::OnCompleteReset(const bool success) {
+void RewardsDOMHandler::OnCompleteReset(bool success) {
   if (!IsJavascriptAllowed()) {
     return;
   }

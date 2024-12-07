@@ -41,8 +41,8 @@ class RewardsServiceObserver : public base::CheckedObserver {
       RewardsService* rewards_service,
       const mojom::Result result,
       const std::string& contribution_id,
-      const double amount,
-      const mojom::RewardsType type,
+      double amount,
+      mojom::RewardsType type,
       const mojom::ContributionProcessor processor) {}
 
   virtual void OnPublisherListNormalized(
@@ -71,7 +71,7 @@ class RewardsServiceObserver : public base::CheckedObserver {
 
   virtual void ReconcileStampReset() {}
 
-  virtual void OnCompleteReset(const bool success) {}
+  virtual void OnCompleteReset(bool success) {}
 
   virtual void OnPanelPublisherInfo(RewardsService* rewards_service,
                                     const mojom::Result result,

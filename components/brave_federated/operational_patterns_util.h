@@ -16,14 +16,14 @@ namespace brave_federated {
 int GetCollectionSlot();
 std::string CreateCollectionId();
 
-std::u16string FriendlyTime(const base::Time time);
+std::u16string FriendlyTime(base::Time time);
 
 std::string BuildCollectionPingPayload(std::string_view collection_id,
                                        int slot);
 std::string BuildDeletePingPayload(std::string_view collection_id);
 
 bool ShouldResetCollectionId(std::string_view collection_id,
-                             const base::Time expiration_time);
+                             base::Time expiration_time);
 
 }  // namespace brave_federated
 

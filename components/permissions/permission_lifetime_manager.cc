@@ -157,8 +157,7 @@ void PermissionLifetimeManager::OnContentSettingChanged(
       [](const HostContentSettingsMap* host_content_settings_map,
          const ContentSettingsPattern* primary_pattern,
          const ContentSettingsPattern* secondary_pattern,
-         const ContentSettingsType content_type,
-         const PermissionOrigins& origins) {
+         ContentSettingsType content_type, const PermissionOrigins& origins) {
         if (primary_pattern->IsValid() &&
             !primary_pattern->Matches(origins.requesting_origin())) {
           return false;

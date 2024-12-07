@@ -392,7 +392,7 @@ void BraveNewsController::SubscribeToNewDirectFeed(
 void BraveNewsController::OnVerifiedDirectFeedUrl(
     const GURL& feed_url,
     SubscribeToNewDirectFeedCallback callback,
-    const bool is_valid,
+    bool is_valid,
     const std::string& feed_title) {
   VLOG(1) << __FUNCTION__ << " Is new feed valid? " << is_valid
           << " Title: " << feed_title;
@@ -476,8 +476,8 @@ void BraveNewsController::GetImageData(const GURL& padded_image_url,
   private_cdn_request_helper_.DownloadToString(
       padded_image_url,
       base::BindOnce(
-          [](GetImageDataCallback callback, const bool is_padded,
-             const int response_code, const std::string& body) {
+          [](GetImageDataCallback callback, bool is_padded, int response_code,
+             const std::string& body) {
             // Handle the response
             VLOG(3) << "getimagedata response code: " << response_code;
             // Attempt to remove byte padding if applicable

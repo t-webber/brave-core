@@ -310,7 +310,7 @@ void GitHub::FetchDataFromUrl(const std::string& url,
                                  std::move(callback));
 }
 
-void GitHub::OnUserPage(const uint64_t duration,
+void GitHub::OnUserPage(uint64_t duration,
                         uint64_t window_id,
                         const mojom::VisitData& visit_data,
                         mojom::UrlResponsePtr response) {
@@ -329,12 +329,12 @@ void GitHub::OnUserPage(const uint64_t duration,
                     profile_picture, window_id, base::DoNothing());
 }
 
-void GitHub::SavePublisherInfo(const uint64_t duration,
+void GitHub::SavePublisherInfo(uint64_t duration,
                                const std::string& user_id,
                                const std::string& screen_name,
                                const std::string& publisher_name,
                                const std::string& profile_picture,
-                               const uint64_t window_id,
+                               uint64_t window_id,
                                GetPublisherInfoCallback callback) {
   const std::string publisher_key = GetPublisherKey(user_id);
   const std::string media_key = GetMediaKey(screen_name);

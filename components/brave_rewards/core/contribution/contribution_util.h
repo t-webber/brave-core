@@ -14,17 +14,15 @@
 namespace brave_rewards::internal {
 namespace contribution {
 
-mojom::ReportType GetReportTypeFromRewardsType(const mojom::RewardsType type);
+mojom::ReportType GetReportTypeFromRewardsType(mojom::RewardsType type);
 
 mojom::ContributionProcessor GetProcessor(const std::string& wallet_type);
 
 std::string GetNextProcessor(const std::string& current_processor);
 
-bool HaveEnoughFundsToContribute(double* amount,
-                                 const bool partial,
-                                 const double balance);
+bool HaveEnoughFundsToContribute(double* amount, bool partial, double balance);
 
-int32_t GetVotesFromAmount(const double amount);
+int32_t GetVotesFromAmount(double amount);
 
 }  // namespace contribution
 }  // namespace brave_rewards::internal

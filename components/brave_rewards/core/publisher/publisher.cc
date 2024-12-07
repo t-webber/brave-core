@@ -95,7 +95,7 @@ void Publisher::OnPrefixListUpdated() {
   engine_->client()->OnPublisherRegistryUpdated();
 }
 
-void Publisher::CalcScoreConsts(const int min_duration_seconds) {
+void Publisher::CalcScoreConsts(int min_duration_seconds) {
   // we increase duration for 100 to keep it as close to muon implementation
   // as possible (we used 1000 in muon)
   // keeping it with only seconds visits are not spaced out equally
@@ -133,8 +133,8 @@ bool ignoreMinTime(const std::string& publisher_id) {
 
 void Publisher::SaveVisit(const std::string& publisher_key,
                           const mojom::VisitData& visit_data,
-                          const uint64_t duration,
-                          const bool first_visit,
+                          uint64_t duration,
+                          bool first_visit,
                           uint64_t window_id,
                           PublisherInfoCallback callback) {
   if (publisher_key.empty()) {
@@ -187,8 +187,8 @@ mojom::ActivityInfoFilterPtr Publisher::CreateActivityFilter(
 void Publisher::OnSaveVisitServerPublisher(
     const std::string& publisher_key,
     const mojom::VisitData& visit_data,
-    const uint64_t duration,
-    const bool first_visit,
+    uint64_t duration,
+    bool first_visit,
     uint64_t window_id,
     PublisherInfoCallback callback,
     mojom::ServerPublisherInfoPtr server_info) {
@@ -234,8 +234,8 @@ void Publisher::OnGetActivityInfo(PublisherInfoCallback callback,
 void Publisher::SaveVisitInternal(const mojom::PublisherStatus status,
                                   const std::string& publisher_key,
                                   const mojom::VisitData& visit_data,
-                                  const uint64_t duration,
-                                  const bool first_visit,
+                                  uint64_t duration,
+                                  bool first_visit,
                                   uint64_t window_id,
                                   PublisherInfoCallback callback,
                                   mojom::Result result,

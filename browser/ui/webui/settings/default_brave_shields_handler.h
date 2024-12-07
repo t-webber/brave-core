@@ -62,7 +62,7 @@ class DefaultBraveShieldsHandler
   void SetContactInfoSaveFlag(const base::Value::List& args);
   void GetContactInfoSaveFlag(const base::Value::List& args);
   void OnGetContactInfoSaveFlag(base::Value javascript_callback,
-                                const bool contact_info_save_flag);
+                                bool contact_info_save_flag);
 
   raw_ptr<Profile> profile_ = nullptr;
 

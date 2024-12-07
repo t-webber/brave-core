@@ -127,8 +127,7 @@ constexpr char kSkusStateValueTemplate[] = R"({
   "wallet": null
 })";
 
-std::string formatSkusStateValue(const base::Time start_time,
-                                 int shift_days = 0) {
+std::string formatSkusStateValue(base::Time start_time, int shift_days = 0) {
   std::vector<std::string> replacements;
   base::Time shifted_start_time = start_time + base::Days(shift_days);
   for (int i = 0; i < 5; ++i) {

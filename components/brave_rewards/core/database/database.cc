@@ -138,7 +138,7 @@ void Database::GetAllContributions(ContributionInfoListCallback callback) {
 }
 
 void Database::GetOneTimeTips(const mojom::ActivityMonth month,
-                              const int year,
+                              int year,
                               GetOneTimeTipsCallback callback) {
   contribution_info_.GetOneTimeTips(month, year, std::move(callback));
 }
@@ -203,7 +203,7 @@ void Database::SaveCredsBatch(mojom::CredsBatchPtr info,
 }
 
 void Database::GetCredsBatchByTrigger(const std::string& trigger_id,
-                                      const mojom::CredsBatchType trigger_type,
+                                      mojom::CredsBatchType trigger_type,
                                       GetCredsBatchCallback callback) {
   creds_batch_.GetRecordByTrigger(trigger_id, trigger_type,
                                   std::move(callback));

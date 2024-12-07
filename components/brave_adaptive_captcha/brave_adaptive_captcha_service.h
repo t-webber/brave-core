@@ -70,7 +70,7 @@ class BraveAdaptiveCaptchaService
 
  private:
   // brave_rewards::RewardsServiceObserver:
-  void OnCompleteReset(const bool success) override;
+  void OnCompleteReset(bool success) override;
 
   raw_ptr<PrefService> prefs_ = nullptr;
   raw_ptr<brave_rewards::RewardsService> rewards_service_ =

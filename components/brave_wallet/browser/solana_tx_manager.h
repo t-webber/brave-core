@@ -89,7 +89,7 @@ class SolanaTxManager : public TxManager, public SolanaBlockTracker::Observer {
       MakeTokenProgramTransferTxDataCallback callback);
   void MakeTxDataFromBase64EncodedTransaction(
       const std::string& encoded_transaction,
-      const mojom::TransactionType tx_type,
+      mojom::TransactionType tx_type,
       mojom::SolanaSendTransactionOptionsPtr send_options,
       MakeTxDataFromBase64EncodedTransactionCallback callback);
   void GetSolanaTxFeeEstimation(const std::string& chain_id,

@@ -132,14 +132,14 @@ class MeldIntegrationServiceUnitTest : public testing::Test {
       const std::string& country,
       const std::string& from_asset,
       const std::string& to_asset,
-      const double source_amount,
+      double source_amount,
       const std::optional<std::string>& account,
       const std::optional<std::string>& payment_method,
       MeldIntegrationService::GetCryptoQuotesCallback callback,
       const net::HttpStatusCode http_status = net::HTTP_OK) {
     auto request_payload_check_callback = base::BindRepeating(
         [](const std::string& country, const std::string& from_asset,
-           const std::string& to_asset, const double source_amount,
+           const std::string& to_asset, double source_amount,
            const std::optional<std::string>& account,
            const std::optional<std::string>& payment_method,
            const std::string& request_payload) {

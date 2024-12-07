@@ -98,7 +98,7 @@ void DeviceInfoSyncBridge::DeleteDeviceInfo(const std::string& client_id,
 }
 
 void DeviceInfoSyncBridge::OnDeviceInfoDeleted(const std::string& client_id,
-                                               const int attempt,
+                                               int attempt,
                                                base::OnceClosure callback) {
   // Make sure the deleted device info is sent
   if (change_processor()->IsEntityUnsynced(client_id) &&

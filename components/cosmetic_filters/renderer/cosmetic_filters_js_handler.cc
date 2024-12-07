@@ -120,7 +120,7 @@ constexpr char kHideSelectorsInjectScript[] =
           };
         })();)";
 
-std::string LoadDataResource(const int id) {
+std::string LoadDataResource(int id) {
   auto& resource_bundle = ui::ResourceBundle::GetSharedInstance();
   if (resource_bundle.IsGzipped(id)) {
     return resource_bundle.LoadDataResourceString(id);
@@ -232,7 +232,7 @@ class CosmeticFilterPerfTracker {
 
 CosmeticFiltersJSHandler::CosmeticFiltersJSHandler(
     content::RenderFrame* render_frame,
-    const int32_t isolated_world_id)
+    int32_t isolated_world_id)
     : render_frame_(render_frame),
       isolated_world_id_(isolated_world_id),
       enabled_1st_party_cf_(false) {

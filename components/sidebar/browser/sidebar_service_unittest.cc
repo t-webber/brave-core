@@ -992,7 +992,7 @@ class SidebarServiceOrderingTest : public SidebarServiceTest {
   void LoadFromPrefsTest(
       const base::Value::Dict& sidebar_prefs,
       const std::vector<SidebarItem::BuiltInItemType>& defined_order,
-      const size_t expected_items_loaded) {
+      size_t expected_items_loaded) {
     GetPrefs()->Set(kSidebarItems,
                     std::move(sidebar_prefs.Find("sidebar_items")->Clone()));
 

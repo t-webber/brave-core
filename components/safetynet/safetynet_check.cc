@@ -32,9 +32,10 @@ SafetyNetCheck::~SafetyNetCheck() {
   Java_SafetyNetCheck_destroy(base::android::AttachCurrentThread(), java_obj_);
 }
 
-bool SafetyNetCheck::clientAttestation(const std::string& nonce,
+bool SafetyNetCheck::clientAttestation(
+    const std::string& nonce,
     ClientAttestationCallback attest_callback,
-    const bool perform_attestation_on_client) {
+    bool perform_attestation_on_client) {
   attest_callback_ = std::move(attest_callback);
   JNIEnv* env = base::android::AttachCurrentThread();
   base::android::ScopedJavaLocalRef<jstring> jnonce =
@@ -67,9 +68,10 @@ SafetyNetCheckRunner::SafetyNetCheckRunner() {
 SafetyNetCheckRunner::~SafetyNetCheckRunner() {
 }
 
-void SafetyNetCheckRunner::performSafetynetCheck(const std::string& nonce,
+void SafetyNetCheckRunner::performSafetynetCheck(
+    const std::string& nonce,
     ClientAttestationCallback attest_callback,
-    const bool perform_attestation_on_client) {
+    bool perform_attestation_on_client) {
   jobs_.push_back(std::make_unique<SafetyNetCheck>(this));
   if (!jobs_.back()->clientAttestation(nonce, std::move(attest_callback),
       perform_attestation_on_client)) {

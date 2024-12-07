@@ -23,7 +23,7 @@ class EdgeJSCall final : public EdgeJS {
              NodeJS* in_node,
              const FrameId& frame_id,
              const blink::PageGraphValues& arguments,
-             const int script_position);
+             int script_position);
 
   ~EdgeJSCall() override;
 

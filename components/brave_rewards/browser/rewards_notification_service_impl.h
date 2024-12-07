@@ -40,7 +40,7 @@ class RewardsNotificationServiceImpl final : public RewardsNotificationService,
                        RewardsNotificationID id = "",
                        bool only_once = false) override;
   void DeleteNotification(RewardsNotificationID id) override;
-  void DeleteAllNotifications(const bool delete_displayed) override;
+  void DeleteAllNotifications(bool delete_displayed) override;
   void GetNotification(RewardsNotificationID id) override;
   void GetNotifications() override;
   const RewardsNotificationsMap& GetAllNotifications() const override;
@@ -56,8 +56,8 @@ class RewardsNotificationServiceImpl final : public RewardsNotificationService,
       RewardsService* rewards_service,
       const mojom::Result result,
       const std::string& contribution_id,
-      const double amount,
-      const mojom::RewardsType type,
+      double amount,
+      mojom::RewardsType type,
       const mojom::ContributionProcessor processor) override;
 
   void TriggerOnNotificationAdded(

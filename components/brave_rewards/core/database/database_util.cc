@@ -18,7 +18,7 @@ constexpr int kCompatibleVersionNumber = 1;
 
 namespace brave_rewards::internal::database {
 
-void BindNull(mojom::DBCommand* command, const int index) {
+void BindNull(mojom::DBCommand* command, int index) {
   if (!command) {
     return;
   }
@@ -29,7 +29,7 @@ void BindNull(mojom::DBCommand* command, const int index) {
   command->bindings.push_back(std::move(binding));
 }
 
-void BindInt(mojom::DBCommand* command, const int index, const int32_t value) {
+void BindInt(mojom::DBCommand* command, int index, int32_t value) {
   if (!command) {
     return;
   }
@@ -40,9 +40,7 @@ void BindInt(mojom::DBCommand* command, const int index, const int32_t value) {
   command->bindings.push_back(std::move(binding));
 }
 
-void BindInt64(mojom::DBCommand* command,
-               const int index,
-               const int64_t value) {
+void BindInt64(mojom::DBCommand* command, int index, int64_t value) {
   if (!command) {
     return;
   }
@@ -53,9 +51,7 @@ void BindInt64(mojom::DBCommand* command,
   command->bindings.push_back(std::move(binding));
 }
 
-void BindDouble(mojom::DBCommand* command,
-                const int index,
-                const double value) {
+void BindDouble(mojom::DBCommand* command, int index, double value) {
   if (!command) {
     return;
   }
@@ -66,7 +62,7 @@ void BindDouble(mojom::DBCommand* command,
   command->bindings.push_back(std::move(binding));
 }
 
-void BindBool(mojom::DBCommand* command, const int index, const bool value) {
+void BindBool(mojom::DBCommand* command, int index, bool value) {
   if (!command) {
     return;
   }
@@ -78,7 +74,7 @@ void BindBool(mojom::DBCommand* command, const int index, const bool value) {
 }
 
 void BindString(mojom::DBCommand* command,
-                const int index,
+                int index,
                 const std::string& value) {
   if (!command) {
     return;
@@ -109,7 +105,7 @@ void OnResultCallback(ResultCallback callback,
   std::move(callback).Run(mojom::Result::OK);
 }
 
-int GetIntColumn(mojom::DBRecord* record, const int index) {
+int GetIntColumn(mojom::DBRecord* record, int index) {
   if (!record || static_cast<int>(record->fields.size()) < index) {
     return 0;
   }
@@ -121,7 +117,7 @@ int GetIntColumn(mojom::DBRecord* record, const int index) {
   return record->fields.at(index)->get_int_value();
 }
 
-int64_t GetInt64Column(mojom::DBRecord* record, const int index) {
+int64_t GetInt64Column(mojom::DBRecord* record, int index) {
   if (!record || static_cast<int>(record->fields.size()) < index) {
     return 0;
   }
@@ -133,7 +129,7 @@ int64_t GetInt64Column(mojom::DBRecord* record, const int index) {
   return record->fields.at(index)->get_int64_value();
 }
 
-double GetDoubleColumn(mojom::DBRecord* record, const int index) {
+double GetDoubleColumn(mojom::DBRecord* record, int index) {
   if (!record || static_cast<int>(record->fields.size()) < index) {
     return 0.0;
   }
@@ -145,7 +141,7 @@ double GetDoubleColumn(mojom::DBRecord* record, const int index) {
   return record->fields.at(index)->get_double_value();
 }
 
-bool GetBoolColumn(mojom::DBRecord* record, const int index) {
+bool GetBoolColumn(mojom::DBRecord* record, int index) {
   if (!record || static_cast<int>(record->fields.size()) < index) {
     return false;
   }
@@ -157,7 +153,7 @@ bool GetBoolColumn(mojom::DBRecord* record, const int index) {
   return record->fields.at(index)->get_bool_value();
 }
 
-std::string GetStringColumn(mojom::DBRecord* record, const int index) {
+std::string GetStringColumn(mojom::DBRecord* record, int index) {
   if (!record || static_cast<int>(record->fields.size()) < index) {
     return "";
   }

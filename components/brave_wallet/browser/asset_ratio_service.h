@@ -68,7 +68,7 @@ class AssetRatioService : public KeyedService, public mojom::AssetRatioService {
                        mojom::AssetPriceTimeframe timeframe,
                        GetPriceHistoryCallback callback) override;
   void GetCoinMarkets(const std::string& vs_asset,
-                      const uint8_t limit,
+                      uint8_t limit,
                       GetCoinMarketsCallback callback) override;
 
   static GURL GetSardineBuyURL(const std::string& network,

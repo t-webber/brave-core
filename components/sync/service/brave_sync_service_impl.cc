@@ -237,7 +237,7 @@ constexpr int kDelayBetweenDeleteSyncAccountAttemptsMsec = 500;
 }  // namespace
 
 void BraveSyncServiceImpl::OnAccountDeleted(
-    const int current_attempt,
+    int current_attempt,
     base::OnceCallback<void(const SyncProtocolError&)> callback,
     const SyncProtocolError& sync_protocol_error) {
   brave_sync_prefs_.AddLeaveChainDetail(__FILE__, __LINE__, __func__);
@@ -264,7 +264,7 @@ void BraveSyncServiceImpl::OnAccountDeleted(
 }
 
 void BraveSyncServiceImpl::PermanentlyDeleteAccountImpl(
-    const int current_attempt,
+    int current_attempt,
     base::OnceCallback<void(const SyncProtocolError&)> callback) {
   brave_sync_prefs_.AddLeaveChainDetail(__FILE__, __LINE__, __func__);
   if (!engine_) {

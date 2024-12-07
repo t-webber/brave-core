@@ -109,7 +109,7 @@ class ZCashOrchardStorage {
       const mojom::AccountIdPtr& account_id,
       const std::vector<OrchardNote>& notes_to_add,
       const std::vector<OrchardNoteSpend>& found_nullifiers,
-      const uint32_t latest_scanned_block,
+      uint32_t latest_scanned_block,
       const std::string& latest_scanned_block_hash);
   void ResetDatabase();
 

@@ -223,7 +223,7 @@ class CORE_EXPORT PageGraph : public GarbageCollected<PageGraph>,
 
   // *** v8 handlers ***
   void RegisterV8ScriptCompilationFromEval(v8::Isolate* isolate,
-                                           const int script_id,
+                                           int script_id,
                                            v8::Local<v8::String> source);
   void RegisterV8JSBuiltinCall(
       blink::ExecutionContext* receiver_context,
@@ -376,7 +376,7 @@ class CORE_EXPORT PageGraph : public GarbageCollected<PageGraph>,
                                const brave_page_graph::FrameId& frame_id);
   void RegisterRequestCompleteForDocument(
       const InspectorId request_id,
-      const int64_t size,
+      int64_t size,
       const brave_page_graph::FrameId& frame_id);
   void RegisterRequestError(const InspectorId request_id,
                             const brave_page_graph::FrameId& frame_id);
@@ -426,7 +426,7 @@ class CORE_EXPORT PageGraph : public GarbageCollected<PageGraph>,
 
   void RegisterBindingEvent(blink::ExecutionContext* execution_context,
                             const Binding binding,
-                            const BindingType binding_type,
+                            BindingType binding_type,
                             const BindingEvent binding_event);
 
   NodeActor* GetCurrentActingNode(
@@ -443,8 +443,7 @@ class CORE_EXPORT PageGraph : public GarbageCollected<PageGraph>,
   NodeTrackerFilter* GetTrackerFilterNodeForHost(const String& host);
   NodeFingerprintingFilter* GetFingerprintingFilterNodeForRule(
       const FingerprintingRule& rule);
-  NodeBinding* GetBindingNode(const Binding binding,
-                              const BindingType binding_type);
+  NodeBinding* GetBindingNode(const Binding binding, BindingType binding_type);
   NodeJSWebAPI* GetJSWebAPINode(const MethodName& method);
   NodeJSBuiltin* GetJSBuiltinNode(const MethodName& method);
 

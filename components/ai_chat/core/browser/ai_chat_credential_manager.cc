@@ -99,7 +99,7 @@ void AIChatCredentialManager::GetPremiumStatus(
 void AIChatCredentialManager::OnCredentialSummary(
     mojom::Service::GetPremiumStatusCallback callback,
     const std::string& domain,
-    const bool credential_in_cache,
+    bool credential_in_cache,
     skus::mojom::SkusResultPtr summary) {
   mojom::PremiumInfoPtr premium_info = mojom::PremiumInfo::New();
   if (credential_in_cache) {

@@ -107,7 +107,7 @@ void InitializeUnsupportedShieldSettingInDictionary(
 void CheckMigrationFromResourceIdentifierForDictionary(
     const base::Value::Dict& dict,
     std::string_view patterns_string,
-    const std::optional<base::Time> expected_last_modified,
+    std::optional<base::Time> expected_last_modified,
     std::optional<int> expected_setting_value) {
   const base::Value::Dict* settings_dict = dict.FindDict(patterns_string);
   EXPECT_NE(settings_dict, nullptr);

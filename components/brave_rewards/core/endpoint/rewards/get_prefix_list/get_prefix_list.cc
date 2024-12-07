@@ -25,7 +25,7 @@ std::string GetPrefixList::GetUrl() {
       .spec();
 }
 
-mojom::Result GetPrefixList::CheckStatusCode(const int status_code) {
+mojom::Result GetPrefixList::CheckStatusCode(int status_code) {
   if (status_code != net::HTTP_OK) {
     engine_->LogError(FROM_HERE) << "Unexpected HTTP status: " << status_code;
     return mojom::Result::FAILED;

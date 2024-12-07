@@ -63,7 +63,7 @@ class RewardsInternalsDOMHandler : public content::WebUIMessageHandler {
   void GetFulllLog(const base::Value::List& args);
   void OnGetFulllLog(const std::string& log);
   void ClearLog(const base::Value::List& args);
-  void OnClearLog(const bool success);
+  void OnClearLog(bool success);
   void GetExternalWallet(const base::Value::List& args);
   void OnGetExternalWallet(brave_rewards::mojom::ExternalWalletPtr wallet);
   void GetEventLogs(const base::Value::List& args);
@@ -315,7 +315,7 @@ void RewardsInternalsDOMHandler::ClearLog(const base::Value::List& args) {
       &RewardsInternalsDOMHandler::OnClearLog, weak_ptr_factory_.GetWeakPtr()));
 }
 
-void RewardsInternalsDOMHandler::OnClearLog(const bool success) {
+void RewardsInternalsDOMHandler::OnClearLog(bool success) {
   if (!IsJavascriptAllowed()) {
     return;
   }

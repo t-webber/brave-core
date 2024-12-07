@@ -92,7 +92,7 @@ int DataStore::GetNextTrainingInstanceId() {
 void DataStore::SaveCovariate(
     const brave_federated::mojom::CovariateInfo& covariate,
     int training_instance_id,
-    const base::Time created_at) {
+    base::Time created_at) {
   sql::Statement statement(database_.GetUniqueStatement(
       base::StringPrintf("INSERT INTO %s (training_instance_id, "
                          "feature_name, feature_type, "

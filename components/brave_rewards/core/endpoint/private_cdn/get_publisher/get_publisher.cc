@@ -160,7 +160,7 @@ std::string GetPublisher::GetUrl(const std::string& hash_prefix) {
       .spec();
 }
 
-mojom::Result GetPublisher::CheckStatusCode(const int status_code) {
+mojom::Result GetPublisher::CheckStatusCode(int status_code) {
   if (status_code == net::HTTP_NOT_FOUND) {
     return mojom::Result::NOT_FOUND;
   }

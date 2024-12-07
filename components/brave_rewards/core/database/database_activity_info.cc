@@ -19,8 +19,8 @@ namespace {
 
 constexpr char kTableName[] = "activity_info";
 
-std::string GenerateActivityFilterQuery(const int start,
-                                        const int limit,
+std::string GenerateActivityFilterQuery(int start,
+                                        int limit,
                                         mojom::ActivityInfoFilterPtr filter) {
   std::string query = "";
   if (!filter) {
@@ -210,8 +210,8 @@ void DatabaseActivityInfo::InsertOrUpdate(mojom::PublisherInfoPtr info,
 }
 
 void DatabaseActivityInfo::GetRecordsList(
-    const int start,
-    const int limit,
+    int start,
+    int limit,
     mojom::ActivityInfoFilterPtr filter,
     GetActivityInfoListCallback callback) {
   if (!filter) {

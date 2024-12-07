@@ -48,8 +48,8 @@ class RewardsEngine;
 namespace endpoint {
 namespace gemini {
 
-using PostBalanceCallback = base::OnceCallback<void(const mojom::Result result,
-                                                    const double available)>;
+using PostBalanceCallback =
+    base::OnceCallback<void(const mojom::Result result, double available)>;
 
 class PostBalance {
  public:

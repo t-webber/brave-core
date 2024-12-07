@@ -207,7 +207,7 @@ class TxService : public mojom::TxService,
       MakeTokenProgramTransferTxDataCallback callback) override;
   void MakeTxDataFromBase64EncodedTransaction(
       const std::string& encoded_transaction,
-      const mojom::TransactionType tx_type,
+      mojom::TransactionType tx_type,
       mojom::SolanaSendTransactionOptionsPtr send_options,
       MakeTxDataFromBase64EncodedTransactionCallback callback) override;
   void GetSolanaTxFeeEstimation(

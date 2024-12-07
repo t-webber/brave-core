@@ -237,7 +237,7 @@ class KeyringService : public mojom::KeyringService {
   std::optional<std::vector<uint8_t>> SignMessageByZCashKeyring(
       const mojom::AccountIdPtr& account_id,
       const mojom::ZCashKeyIdPtr& key_id,
-      const base::span<const uint8_t, 32> message);
+      base::span<const uint8_t, 32> message);
   mojom::ZCashAddressPtr GetZCashAddress(const mojom::AccountId& account_id,
                                          const mojom::ZCashKeyId& key_id);
   std::optional<std::vector<mojom::ZCashAddressPtr>> GetZCashAddresses(

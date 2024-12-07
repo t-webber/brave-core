@@ -57,7 +57,7 @@ class PostVotes {
 
   std::string GeneratePayload(const credential::CredentialsRedeem& redeem);
 
-  mojom::Result CheckStatusCode(const int status_code);
+  mojom::Result CheckStatusCode(int status_code);
 
   void OnRequest(PostVotesCallback callback, mojom::UrlResponsePtr response);
 

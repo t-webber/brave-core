@@ -28,7 +28,7 @@ std::string GetBalance::GetUrl() {
       .spec();
 }
 
-mojom::Result GetBalance::CheckStatusCode(const int status_code) {
+mojom::Result GetBalance::CheckStatusCode(int status_code) {
   if (status_code == net::HTTP_UNAUTHORIZED ||
       status_code == net::HTTP_NOT_FOUND ||
       status_code == net::HTTP_FORBIDDEN) {

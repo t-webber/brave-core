@@ -80,7 +80,7 @@ class PostOrder {
 
   std::string GeneratePayload(const std::vector<mojom::SKUOrderItem>& items);
 
-  mojom::Result CheckStatusCode(const int status_code);
+  mojom::Result CheckStatusCode(int status_code);
 
   mojom::Result ParseBody(const std::string& body,
                           const std::vector<mojom::SKUOrderItem>& order_items,

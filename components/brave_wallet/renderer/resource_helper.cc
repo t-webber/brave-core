@@ -15,7 +15,7 @@
 
 namespace brave_wallet {
 
-std::string LoadDataResource(const int id) {
+std::string LoadDataResource(int id) {
   auto& resource_bundle = ui::ResourceBundle::GetSharedInstance();
   if (resource_bundle.IsGzipped(id)) {
     return resource_bundle.LoadDataResourceString(id);
@@ -24,7 +24,7 @@ std::string LoadDataResource(const int id) {
   return std::string(resource_bundle.GetRawDataResource(id));
 }
 
-std::optional<std::string> LoadImageResourceAsDataUrl(const int id) {
+std::optional<std::string> LoadImageResourceAsDataUrl(int id) {
   auto& resource_bundle = ui::ResourceBundle::GetSharedInstance();
   if (resource_bundle.IsGzipped(id)) {
     return resource_bundle.LoadDataResourceString(id);

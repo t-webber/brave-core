@@ -33,7 +33,7 @@ class PrivateCDNRequestHelper {
   ~PrivateCDNRequestHelper();
 
   using DownloadToStringCallback =
-      base::OnceCallback<void(const int, const std::string&)>;
+      base::OnceCallback<void(int, const std::string&)>;
 
   void DownloadToString(const GURL& url,
                         DownloadToStringCallback callback,

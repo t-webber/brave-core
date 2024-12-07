@@ -158,7 +158,7 @@ class RewardsNotificationBrowserTest
     wait_for_delete_notification_loop_->Run();
   }
 
-  bool IsShowingNotificationForType(const RewardsNotificationType type) {
+  bool IsShowingNotificationForType(RewardsNotificationType type) {
     const auto& notifications = rewards_service_->GetAllNotifications();
     for (const auto& notification : notifications) {
       if (notification.second.type_ == type) {

@@ -123,8 +123,8 @@ ImageData* BaseRenderingContext2D::getImageData(
 }
 
 bool BaseRenderingContext2D::isPointInPath(ScriptState* script_state,
-                                           const double x,
-                                           const double y,
+                                           double x,
+                                           double y,
                                            const V8CanvasFillRule& winding) {
   if (!AllowFingerprintingFromScriptState(script_state))
     return false;
@@ -133,8 +133,8 @@ bool BaseRenderingContext2D::isPointInPath(ScriptState* script_state,
 
 bool BaseRenderingContext2D::isPointInPath(ScriptState* script_state,
                                            Path2D* dom_path,
-                                           const double x,
-                                           const double y,
+                                           double x,
+                                           double y,
                                            const V8CanvasFillRule& winding) {
   if (!AllowFingerprintingFromScriptState(script_state))
     return false;
@@ -142,8 +142,8 @@ bool BaseRenderingContext2D::isPointInPath(ScriptState* script_state,
 }
 
 bool BaseRenderingContext2D::isPointInStroke(ScriptState* script_state,
-                                             const double x,
-                                             const double y) {
+                                             double x,
+                                             double y) {
   if (!AllowFingerprintingFromScriptState(script_state))
     return false;
   return isPointInStroke(x, y);
@@ -151,8 +151,8 @@ bool BaseRenderingContext2D::isPointInStroke(ScriptState* script_state,
 
 bool BaseRenderingContext2D::isPointInStroke(ScriptState* script_state,
                                              Path2D* dom_path,
-                                             const double x,
-                                             const double y) {
+                                             double x,
+                                             double y) {
   if (!AllowFingerprintingFromScriptState(script_state))
     return false;
   return isPointInStroke(dom_path, x, y);

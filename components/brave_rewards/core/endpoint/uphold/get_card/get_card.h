@@ -78,8 +78,8 @@ class RewardsEngine;
 namespace endpoint {
 namespace uphold {
 
-using GetCardCallback = base::OnceCallback<void(const mojom::Result result,
-                                                const double available)>;
+using GetCardCallback =
+    base::OnceCallback<void(const mojom::Result result, double available)>;
 
 class GetCard {
  public:
@@ -93,7 +93,7 @@ class GetCard {
  private:
   std::string GetUrl(const std::string& address);
 
-  mojom::Result CheckStatusCode(const int status_code);
+  mojom::Result CheckStatusCode(int status_code);
 
   mojom::Result ParseBody(const std::string& body, double* available);
 

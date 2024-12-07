@@ -10,7 +10,7 @@
 #include "components/os_crypt/sync/key_storage_kwallet.h"
 
 namespace {
-void Dummy(const int handle,
+void Dummy(int handle,
            const std::string& folder_name,
            const std::string& app_name,
            bool* has_folder_ptr) {}

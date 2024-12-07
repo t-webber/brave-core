@@ -26,7 +26,7 @@ class RewardsEngine;
 
 namespace credential {
 
-std::vector<Token> GenerateCreds(const int count);
+std::vector<Token> GenerateCreds(int count);
 
 std::string GetCredsJSON(const std::vector<Token>& creds);
 
@@ -42,7 +42,7 @@ base::expected<std::vector<std::string>, std::string> UnBlindCreds(
 
 std::vector<std::string> UnBlindCredsMock(const mojom::CredsBatch& creds);
 
-std::string ConvertRewardTypeToString(const mojom::RewardsType type);
+std::string ConvertRewardTypeToString(mojom::RewardsType type);
 
 base::Value::List GenerateCredentials(
     RewardsEngine& engine,

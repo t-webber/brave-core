@@ -12,8 +12,8 @@
 
 namespace brave_wallet {
 
-std::string LoadDataResource(const int id);
-std::optional<std::string> LoadImageResourceAsDataUrl(const int id);
+std::string LoadDataResource(int id);
+std::optional<std::string> LoadImageResourceAsDataUrl(int id);
 
 }  // namespace brave_wallet
 

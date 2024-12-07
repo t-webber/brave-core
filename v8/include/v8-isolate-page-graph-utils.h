@@ -26,7 +26,7 @@ class V8_EXPORT PageGraphDelegate {
   virtual ~PageGraphDelegate() = default;
 
   virtual void OnEvalScriptCompiled(Isolate* isolate,
-                                    const int script_id,
+                                    int script_id,
                                     Local<String> source) = 0;
 #if BUILDFLAG(ENABLE_BRAVE_PAGE_GRAPH_WEBAPI_PROBES)
   virtual void OnBuiltinCall(Local<Context> context,

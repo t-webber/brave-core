@@ -22,7 +22,7 @@ class PrefService;
 namespace brave_news {
 
 using IsValidCallback =
-    base::OnceCallback<void(const bool is_valid, const std::string& title)>;
+    base::OnceCallback<void(bool is_valid, const std::string& title)>;
 
 // Controls RSS / Atom / JSON / etc. feeds - those downloaded
 // directly from the feed source server.

@@ -45,7 +45,7 @@ class MeldIntegrationService : public KeyedService,
   void GetCryptoQuotes(const std::string& country,
                        const std::string& source_currency_code,
                        const std::string& destination_currency_code,
-                       const double source_amount,
+                       double source_amount,
                        const std::optional<std::string>& account,
                        const std::optional<std::string>& payment_method,
                        GetCryptoQuotesCallback callback) override;

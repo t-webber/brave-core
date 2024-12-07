@@ -239,7 +239,7 @@ void ConversationAPIClient::PerformRequest(
 std::string ConversationAPIClient::CreateJSONRequestBody(
     const std::vector<ConversationEvent>& conversation,
     const std::string& selected_language,
-    const bool is_sse_enabled) {
+    bool is_sse_enabled) {
   base::Value::Dict dict;
 
   dict.Set("events", ConversationEventsToList(conversation));
@@ -259,7 +259,7 @@ std::string ConversationAPIClient::CreateJSONRequestBody(
 
 void ConversationAPIClient::PerformRequestWithCredentials(
     const std::vector<ConversationEvent>& conversation,
-    const std::string selected_language,
+    std::string selected_language,
     GenerationDataCallback data_received_callback,
     GenerationCompletedCallback completed_callback,
     std::optional<CredentialCacheEntry> credential) {

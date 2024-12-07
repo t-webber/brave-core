@@ -41,8 +41,8 @@ class Publisher {
 
   void SaveVisit(const std::string& publisher_key,
                  const mojom::VisitData& visit_data,
-                 const uint64_t duration,
-                 const bool first_visit,
+                 uint64_t duration,
+                 bool first_visit,
                  uint64_t window_id,
                  PublisherInfoCallback callback);
 
@@ -76,7 +76,7 @@ class Publisher {
 
   void SynopsisNormalizer();
 
-  void CalcScoreConsts(const int min_duration_seconds);
+  void CalcScoreConsts(int min_duration_seconds);
 
   void GetServerPublisherInfo(const std::string& publisher_key,
                               GetServerPublisherInfoCallback callback);
@@ -123,8 +123,8 @@ class Publisher {
   void SaveVisitInternal(const mojom::PublisherStatus,
                          const std::string& publisher_key,
                          const mojom::VisitData& visit_data,
-                         const uint64_t duration,
-                         const bool first_visit,
+                         uint64_t duration,
+                         bool first_visit,
                          uint64_t window_id,
                          PublisherInfoCallback callback,
                          mojom::Result result,
@@ -132,8 +132,8 @@ class Publisher {
 
   void OnSaveVisitServerPublisher(const std::string& publisher_key,
                                   const mojom::VisitData& visit_data,
-                                  const uint64_t duration,
-                                  const bool first_visit,
+                                  uint64_t duration,
+                                  bool first_visit,
                                   uint64_t window_id,
                                   PublisherInfoCallback callback,
                                   mojom::ServerPublisherInfoPtr server_info);

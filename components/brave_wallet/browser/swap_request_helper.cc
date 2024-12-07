@@ -211,7 +211,7 @@ std::optional<base::Value::Dict> EncodeToken(
   return result;
 }
 
-std::string EncodeStepType(const mojom::LiFiStepType type) {
+std::string EncodeStepType(mojom::LiFiStepType type) {
   switch (type) {
     case mojom::LiFiStepType::kSwap:
       return "swap";

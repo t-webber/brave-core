@@ -52,7 +52,7 @@ void EnsureIsolatedWorldInitialized(int world_id) {
 
 CosmeticFiltersJsRenderFrameObserver::CosmeticFiltersJsRenderFrameObserver(
     content::RenderFrame* render_frame,
-    const int32_t isolated_world_id,
+    int32_t isolated_world_id,
     base::RepeatingCallback<bool(void)> get_de_amp_enabled_closure)
     : RenderFrameObserver(render_frame),
       RenderFrameObserverTracker<CosmeticFiltersJsRenderFrameObserver>(

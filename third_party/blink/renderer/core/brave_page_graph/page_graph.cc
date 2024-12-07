@@ -246,7 +246,7 @@ PageGraph* GetPageGraphFromIsolate(v8::Isolate* isolate) {
 class V8PageGraphDelegate : public v8::page_graph::PageGraphDelegate {
  public:
   void OnEvalScriptCompiled(v8::Isolate* isolate,
-                            const int script_id,
+                            int script_id,
                             v8::Local<v8::String> source) override {
     if (auto* page_graph = GetPageGraphFromIsolate(isolate)) {
       page_graph->RegisterV8ScriptCompilationFromEval(isolate, script_id,
@@ -993,7 +993,7 @@ void PageGraph::ConsoleMessageAdded(blink::ConsoleMessage* console_message) {
 
 void PageGraph::RegisterV8ScriptCompilationFromEval(
     v8::Isolate* isolate,
-    const int script_id,
+    int script_id,
     v8::Local<v8::String> source) {
   v8::page_graph::ExecutingScript executing_script =
       v8::page_graph::GetExecutingScript(isolate);
@@ -1684,10 +1684,9 @@ void PageGraph::RegisterRequestComplete(const InspectorId request_id,
                                                frame_id);
 }
 
-void PageGraph::RegisterRequestCompleteForDocument(
-    const InspectorId request_id,
-    const int64_t encoded_data_length,
-    const FrameId& frame_id) {
+void PageGraph::RegisterRequestCompleteForDocument(const InspectorId request_id,
+                                                   int64_t encoded_data_length,
+                                                   const FrameId& frame_id) {
   VLOG(1) << "RegisterRequestCompleteForDocument) request id: " << request_id
           << ", frame id: " << frame_id
           << ", encoded_data_length: " << encoded_data_length;
@@ -2022,7 +2021,7 @@ void PageGraph::RegisterJSBuiltInResponse(
 
 void PageGraph::RegisterBindingEvent(blink::ExecutionContext* execution_context,
                                      const Binding binding,
-                                     const BindingType binding_type,
+                                     BindingType binding_type,
                                      const BindingEvent binding_event) {
   VLOG(2) << "RegisterBindingEvent) binding: " << binding
           << ", event: " << binding_event;
@@ -2144,7 +2143,7 @@ NodeJSBuiltin* PageGraph::GetJSBuiltinNode(const MethodName& method) {
 }
 
 NodeBinding* PageGraph::GetBindingNode(const Binding binding,
-                                       const BindingType binding_type) {
+                                       BindingType binding_type) {
   auto binding_node_it = binding_nodes_.find(binding);
   if (binding_node_it != binding_nodes_.end()) {
     return binding_node_it->value;

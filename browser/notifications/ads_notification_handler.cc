@@ -37,7 +37,7 @@ void AdsNotificationHandler::OnShow(Profile* profile, const std::string& id) {
 void AdsNotificationHandler::OnClose(Profile* profile,
                                      const GURL& origin,
                                      const std::string& id,
-                                     const bool by_user,
+                                     bool by_user,
                                      base::OnceClosure completed_closure) {
   AdsService* ads_service = AdsServiceFactory::GetForProfile(profile);
   if (!ads_service) {

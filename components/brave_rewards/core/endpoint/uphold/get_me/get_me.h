@@ -129,7 +129,7 @@ class GetMe {
  private:
   std::string GetUrl();
 
-  mojom::Result CheckStatusCode(const int status_code);
+  mojom::Result CheckStatusCode(int status_code);
 
   mojom::Result ParseBody(const std::string& body,
                           internal::uphold::User* user);

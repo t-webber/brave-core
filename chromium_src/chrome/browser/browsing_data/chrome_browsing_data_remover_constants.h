@@ -9,7 +9,7 @@
 #include "src/chrome/browser/browsing_data/chrome_browsing_data_remover_constants.h"  // IWYU pragma: export
 
 namespace chrome_browsing_data_remover {
-constexpr DataType GetBraveDataTypeValue(const int index) {
+constexpr DataType GetBraveDataTypeValue(int index) {
   return DataType(1) << (63 - index);
 }
 

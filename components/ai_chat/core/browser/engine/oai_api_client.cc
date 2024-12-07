@@ -59,7 +59,7 @@ net::NetworkTrafficAnnotationTag GetNetworkTrafficAnnotationTag() {
 
 std::string CreateJSONRequestBody(
     base::Value::List messages,
-    const bool is_sse_enabled,
+    bool is_sse_enabled,
     const mojom::CustomModelOptions& model_options) {
   base::Value::Dict dict;
 

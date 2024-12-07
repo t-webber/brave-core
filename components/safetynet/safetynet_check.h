@@ -19,7 +19,7 @@ namespace safetynet_check {
 
 class SafetyNetCheckRunner;
 using ClientAttestationCallback =
-  base::OnceCallback<void(const bool, const std::string&, const bool)>;
+    base::OnceCallback<void(bool, const std::string&, bool)>;
 
 class SafetyNetCheck {
  public:
@@ -30,8 +30,8 @@ class SafetyNetCheck {
 
     // Performs client attestation, called from C++
     bool clientAttestation(const std::string& nonce,
-      ClientAttestationCallback attest_callback,
-      const bool perform_attestation_on_client);
+                           ClientAttestationCallback attest_callback,
+                           bool perform_attestation_on_client);
     // Callback returns client attestation final result, called from Java
     void ClientAttestationResult(
         JNIEnv* env,

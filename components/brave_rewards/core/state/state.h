@@ -26,15 +26,15 @@ class State {
 
   void Initialize(ResultCallback callback);
 
-  void SetVersion(const int version);
+  void SetVersion(int version);
 
   int GetVersion();
 
-  void SetPublisherMinVisitTime(const int duration);
+  void SetPublisherMinVisitTime(int duration);
 
   int GetPublisherMinVisitTime();
 
-  void SetPublisherMinVisits(const int visits);
+  void SetPublisherMinVisits(int visits);
 
   int GetPublisherMinVisits();
 
@@ -44,15 +44,15 @@ class State {
 
   uint64_t GetReconcileStamp();
 
-  void SetReconcileStamp(const int reconcile_interval);
+  void SetReconcileStamp(int reconcile_interval);
 
   void ResetReconcileStamp();
 
   uint64_t GetCreationStamp();
 
-  void SetCreationStamp(const uint64_t stamp);
+  void SetCreationStamp(uint64_t stamp);
 
-  void SetServerPublisherListStamp(const uint64_t stamp);
+  void SetServerPublisherListStamp(uint64_t stamp);
 
   uint64_t GetServerPublisherListStamp();
 

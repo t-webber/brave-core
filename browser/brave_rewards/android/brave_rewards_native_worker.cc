@@ -212,7 +212,7 @@ void BraveRewardsNativeWorker::GetUserType(JNIEnv* env) {
 }
 
 void BraveRewardsNativeWorker::OnGetUserType(
-    const brave_rewards::mojom::UserType user_type) {
+    brave_rewards::mojom::UserType user_type) {
   JNIEnv* env = base::android::AttachCurrentThread();
   Java_BraveRewardsNativeWorker_onGetUserType(
       env, weak_java_brave_rewards_native_worker_.get(env),
@@ -266,8 +266,8 @@ void BraveRewardsNativeWorker::OnReconcileComplete(
     brave_rewards::RewardsService* rewards_service,
     const brave_rewards::mojom::Result result,
     const std::string& contribution_id,
-    const double amount,
-    const brave_rewards::mojom::RewardsType type,
+    double amount,
+    brave_rewards::mojom::RewardsType type,
     const brave_rewards::mojom::ContributionProcessor processor) {
   JNIEnv* env = base::android::AttachCurrentThread();
   Java_BraveRewardsNativeWorker_onReconcileComplete(
@@ -625,14 +625,14 @@ void BraveRewardsNativeWorker::ResetTheWholeState(JNIEnv* env) {
                      weak_factory_.GetWeakPtr()));
 }
 
-void BraveRewardsNativeWorker::OnCompleteReset(const bool success) {
+void BraveRewardsNativeWorker::OnCompleteReset(bool success) {
   JNIEnv* env = base::android::AttachCurrentThread();
 
   Java_BraveRewardsNativeWorker_onCompleteReset(
       env, weak_java_brave_rewards_native_worker_.get(env), success);
 }
 
-void BraveRewardsNativeWorker::OnResetTheWholeState(const bool success) {
+void BraveRewardsNativeWorker::OnResetTheWholeState(bool success) {
   JNIEnv* env = base::android::AttachCurrentThread();
 
   Java_BraveRewardsNativeWorker_onResetTheWholeState(

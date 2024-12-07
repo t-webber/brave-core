@@ -11,7 +11,7 @@
 
 namespace brave_rewards::internal::contribution {
 
-mojom::ReportType GetReportTypeFromRewardsType(const mojom::RewardsType type) {
+mojom::ReportType GetReportTypeFromRewardsType(mojom::RewardsType type) {
   switch (type) {
     case mojom::RewardsType::AUTO_CONTRIBUTE:
       return mojom::ReportType::AUTO_CONTRIBUTION;
@@ -62,9 +62,7 @@ std::string GetNextProcessor(const std::string& current_processor) {
   return constant::kWalletUnBlinded;
 }
 
-bool HaveEnoughFundsToContribute(double* amount,
-                                 const bool partial,
-                                 const double balance) {
+bool HaveEnoughFundsToContribute(double* amount, bool partial, double balance) {
   DCHECK(amount);
 
   if (partial) {
@@ -86,7 +84,7 @@ bool HaveEnoughFundsToContribute(double* amount,
   return true;
 }
 
-int32_t GetVotesFromAmount(const double amount) {
+int32_t GetVotesFromAmount(double amount) {
   DCHECK_GT(constant::kVotePrice, 0);
   return std::floor(amount / constant::kVotePrice);
 }

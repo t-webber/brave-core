@@ -31,7 +31,7 @@ std::string GetCredentials::GetUrl(const std::string& order_id,
       .spec();
 }
 
-mojom::Result GetCredentials::CheckStatusCode(const int status_code) {
+mojom::Result GetCredentials::CheckStatusCode(int status_code) {
   if (status_code == net::HTTP_ACCEPTED) {
     return mojom::Result::RETRY_SHORT;
   }

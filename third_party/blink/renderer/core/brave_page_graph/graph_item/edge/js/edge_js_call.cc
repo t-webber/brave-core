@@ -20,7 +20,7 @@ EdgeJSCall::EdgeJSCall(GraphItemContext* context,
                        NodeJS* in_node,
                        const FrameId& frame_id,
                        const blink::PageGraphValues& arguments,
-                       const int script_position)
+                       int script_position)
     : EdgeJS(context, out_node, in_node, frame_id),
       arguments_(blink::PageGraphValueToString(arguments)),
       script_position_(script_position) {}

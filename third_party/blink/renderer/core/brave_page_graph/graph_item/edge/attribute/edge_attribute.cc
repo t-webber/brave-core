@@ -18,7 +18,7 @@ EdgeAttribute::EdgeAttribute(GraphItemContext* context,
                              NodeHTMLElement* in_node,
                              const FrameId& frame_id,
                              const String& name,
-                             const bool is_style)
+                             bool is_style)
     : GraphEdge(context, out_node, in_node),
       frame_id_(frame_id),
       name_(name),

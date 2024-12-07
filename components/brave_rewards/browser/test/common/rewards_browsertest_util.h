@@ -36,7 +36,7 @@ GURL GetUrl(
     const std::string& publisher_key,
     const std::string& path = "");
 
-void ActivateTabAtIndex(Browser* browser, const int index);
+void ActivateTabAtIndex(Browser* browser, int index);
 
 std::string BalanceDoubleToString(double amount);
 

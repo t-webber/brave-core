@@ -14,7 +14,7 @@ namespace brave_page_graph {
 EdgeBindingEvent::EdgeBindingEvent(GraphItemContext* context,
                                    NodeScript* out_node,
                                    NodeBindingEvent* in_node,
-                                   const int script_position)
+                                   int script_position)
     : GraphEdge(context, out_node, in_node),
       script_position_(script_position) {}
 

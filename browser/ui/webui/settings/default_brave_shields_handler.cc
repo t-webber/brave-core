@@ -355,7 +355,7 @@ void DefaultBraveShieldsHandler::SetContactInfoSaveFlag(
 
 void DefaultBraveShieldsHandler::OnGetContactInfoSaveFlag(
     base::Value javascript_callback,
-    const bool contact_info_save_flag) {
+    bool contact_info_save_flag) {
   ResolveJavascriptCallback(javascript_callback,
                             base::Value(contact_info_save_flag));
 }

@@ -53,7 +53,7 @@ std::string PostVotes::GeneratePayload(
   return json;
 }
 
-mojom::Result PostVotes::CheckStatusCode(const int status_code) {
+mojom::Result PostVotes::CheckStatusCode(int status_code) {
   if (status_code == net::HTTP_BAD_REQUEST) {
     engine_->LogError(FROM_HERE) << "Invalid request";
     return mojom::Result::RETRY_SHORT;

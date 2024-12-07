@@ -45,7 +45,7 @@ class GetPublisher {
  private:
   std::string GetUrl(const std::string& hash_prefix);
 
-  mojom::Result CheckStatusCode(const int status_code);
+  mojom::Result CheckStatusCode(int status_code);
 
   mojom::Result ParseBody(const std::string& body,
                           const std::string& publisher_key,

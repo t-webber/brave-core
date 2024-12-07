@@ -29,7 +29,7 @@ void State::Initialize(ResultCallback callback) {
   migration_.Start(std::move(callback));
 }
 
-void State::SetVersion(const int version) {
+void State::SetVersion(int version) {
   engine_->database()->SaveEventLog(kVersion, std::to_string(version));
   engine_->SetState(kVersion, version);
 }
@@ -38,7 +38,7 @@ int State::GetVersion() {
   return engine_->GetState<int>(kVersion);
 }
 
-void State::SetPublisherMinVisitTime(const int duration) {
+void State::SetPublisherMinVisitTime(int duration) {
   engine_->database()->SaveEventLog(kMinVisitTime, std::to_string(duration));
   engine_->SetState(kMinVisitTime, duration);
   engine_->publisher()->CalcScoreConsts(duration);
@@ -49,7 +49,7 @@ int State::GetPublisherMinVisitTime() {
   return engine_->GetState<int>(kMinVisitTime);
 }
 
-void State::SetPublisherMinVisits(const int visits) {
+void State::SetPublisherMinVisits(int visits) {
   engine_->database()->SaveEventLog(kMinVisits, std::to_string(visits));
   engine_->SetState(kMinVisits, visits);
   engine_->publisher()->SynopsisNormalizer();
@@ -82,7 +82,7 @@ uint64_t State::GetReconcileStamp() {
   return stamp;
 }
 
-void State::SetReconcileStamp(const int reconcile_interval) {
+void State::SetReconcileStamp(int reconcile_interval) {
   uint64_t reconcile_stamp = util::GetCurrentTimeStamp();
   if (reconcile_interval > 0) {
     reconcile_stamp += reconcile_interval * 60;
@@ -103,12 +103,12 @@ uint64_t State::GetCreationStamp() {
   return engine_->GetState<uint64_t>(kCreationStamp);
 }
 
-void State::SetCreationStamp(const uint64_t stamp) {
+void State::SetCreationStamp(uint64_t stamp) {
   engine_->database()->SaveEventLog(kCreationStamp, std::to_string(stamp));
   engine_->SetState(kCreationStamp, stamp);
 }
 
-void State::SetServerPublisherListStamp(const uint64_t stamp) {
+void State::SetServerPublisherListStamp(uint64_t stamp) {
   engine_->SetState(kServerPublisherListStamp, stamp);
 }
 

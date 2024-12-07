@@ -38,7 +38,7 @@ class GetPrefixList {
  private:
   std::string GetUrl();
 
-  mojom::Result CheckStatusCode(const int status_code);
+  mojom::Result CheckStatusCode(int status_code);
 
   void OnRequest(GetPrefixListCallback callback,
                  mojom::UrlResponsePtr response);

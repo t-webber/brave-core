@@ -269,9 +269,9 @@ class EthereumProviderImpl final : public mojom::EthereumProvider,
                   RequestCallback callback,
                   base::Value id,
                   base::Value formed_response,
-                  const bool reject,
+                  bool reject,
                   const std::string& first_allowed_account,
-                  const bool update_bind_js_properties);
+                  bool update_bind_js_properties);
 
   // EthBlockTracker::Observer:
   void OnLatestBlock(const std::string& chain_id, uint256_t block_num) override;

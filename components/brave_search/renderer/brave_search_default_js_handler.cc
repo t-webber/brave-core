@@ -135,7 +135,7 @@ void BraveSearchDefaultJSHandler::OnCanSetDefaultSearchProvider(
     std::unique_ptr<v8::Global<v8::Promise::Resolver>> promise_resolver,
     v8::Isolate* isolate,
     std::unique_ptr<v8::Global<v8::Context>> context_old,
-    const bool response) {
+    bool response) {
   v8::HandleScope handle_scope(isolate);
   v8::Local<v8::Context> context = context_old->Get(isolate);
   v8::Context::Scope context_scope(context);
