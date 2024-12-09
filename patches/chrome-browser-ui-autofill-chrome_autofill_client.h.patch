@@ -1,11 +1,11 @@
 diff --git a/chrome/browser/ui/autofill/chrome_autofill_client.h b/chrome/browser/ui/autofill/chrome_autofill_client.h
-index c4e4e4c551ad4bce187fc37c7417385295da565f..59afe1175b5813964acb7ad895c00990bedd3a9b 100644
+index e200840106a545f4170b3c24b135e172238df142..c9c68157e352ee7cc9d32acbc47d048f801a6be2 100644
 --- a/chrome/browser/ui/autofill/chrome_autofill_client.h
 +++ b/chrome/browser/ui/autofill/chrome_autofill_client.h
-@@ -105,9 +105,9 @@ class ChromeAutofillClient : public ContentAutofillClient,
-   bool IsOffTheRecord() const final;
+@@ -107,9 +107,9 @@ class ChromeAutofillClient : public ContentAutofillClient,
    scoped_refptr<network::SharedURLLoaderFactory> GetURLLoaderFactory() final;
    AutofillCrowdsourcingManager& GetCrowdsourcingManager() final;
+   VotesUploader& GetVotesUploader() final;
 -  AutofillOptimizationGuide* GetAutofillOptimizationGuide() const final;
 +  AutofillOptimizationGuide* GetAutofillOptimizationGuide() const override;
    FieldClassificationModelHandler* GetAutofillFieldClassificationModelHandler()
@@ -14,7 +14,7 @@ index c4e4e4c551ad4bce187fc37c7417385295da565f..59afe1175b5813964acb7ad895c00990
    FieldClassificationModelHandler*
    GetPasswordManagerFieldClassificationModelHandler() final;
    PersonalDataManager& GetPersonalDataManager() final;
-@@ -170,10 +170,10 @@ class ChromeAutofillClient : public ContentAutofillClient,
+@@ -172,10 +172,10 @@ class ChromeAutofillClient : public ContentAutofillClient,
    void TriggerUserPerceptionOfAutofillSurvey(
        FillingProduct filling_product,
        const std::map<std::string, std::string>& field_filling_stats_data) final;
