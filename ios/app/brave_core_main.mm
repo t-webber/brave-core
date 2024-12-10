@@ -39,7 +39,6 @@
 #include "brave/ios/browser/api/content_settings/default_host_content_settings_internal.h"
 #include "brave/ios/browser/api/de_amp/de_amp_prefs+private.h"
 #include "brave/ios/browser/api/history/brave_history_api+private.h"
-#include "brave/ios/browser/api/https_upgrade_exceptions/https_upgrade_exceptions_service+private.h"
 #include "brave/ios/browser/api/ipfs/ipfs_api+private.h"
 #include "brave/ios/browser/api/ntp_background_images/ntp_background_images_service_ios+private.h"
 #include "brave/ios/browser/api/opentabs/brave_opentabs_api+private.h"
@@ -47,6 +46,7 @@
 #include "brave/ios/browser/api/opentabs/brave_tabgenerator_api+private.h"
 #include "brave/ios/browser/api/p3a/brave_p3a_utils+private.h"
 #include "brave/ios/browser/api/password/brave_password_api+private.h"
+#include "brave/ios/browser/api/prefs/browser_prefs+private.h"
 #include "brave/ios/browser/api/sync/brave_sync_api+private.h"
 #include "brave/ios/browser/api/sync/driver/brave_sync_profile_service+private.h"
 #include "brave/ios/browser/api/web_image/web_image+private.h"
@@ -163,8 +163,6 @@ const BraveCoreLogSeverity BraveCoreLogSeverityVerbose =
 @property(nonatomic) BraveP3AUtils* p3aUtils;
 @property(nonatomic) DeAmpPrefs* deAmpPrefs;
 @property(nonatomic) NTPBackgroundImagesService* backgroundImagesService;
-@property(nonatomic)
-    HTTPSUpgradeExceptionsService* httpsUpgradeExceptionsService;
 @property(nonatomic) DefaultHostContentSettings* defaultHostContentSettings;
 @property(nonatomic) CWVWebViewConfiguration* defaultWebViewConfiguration;
 @property(nonatomic) CWVWebViewConfiguration* nonPersistentWebViewConfiguration;
@@ -518,14 +516,6 @@ static bool CustomLogHandler(int severity,
   return _braveWalletAPI;
 }
 
-- (HTTPSUpgradeExceptionsService*)httpsUpgradeExceptionsService {
-  if (!_httpsUpgradeExceptionsService) {
-    _httpsUpgradeExceptionsService =
-        [[HTTPSUpgradeExceptionsService alloc] init];
-  }
-  return _httpsUpgradeExceptionsService;
-}
-
 - (BraveStats*)braveStats {
   return [[BraveStats alloc] initWithBrowserState:_main_profile];
 }
@@ -565,6 +555,10 @@ static bool CustomLogHandler(int severity,
         [[DeAmpPrefs alloc] initWithProfileState:_main_profile->GetPrefs()];
   }
   return _deAmpPrefs;
+}
+
+- (BrowserPrefs*)browserPrefs {
+  return [[BrowserPrefs alloc] initWithPrefService:_main_profile->GetPrefs()];
 }
 
 - (AIChat*)aiChatAPIWithDelegate:(id<AIChatDelegate>)delegate {
