@@ -1,5 +1,5 @@
 diff --git a/tools/crates/gnrt/lib/readme.rs b/tools/crates/gnrt/lib/readme.rs
-index f38a03e67e11f6f6f33ebde262c7fad707e6a626..51840f957e8bc85f416135174bfe691af63814dd 100644
+index 7f4851b9b603b6f777835a08d5961636c65aa479..a8f20f70f5c2ad55270724879d5acaf4c2c55682 100644
 --- a/tools/crates/gnrt/lib/readme.rs
 +++ b/tools/crates/gnrt/lib/readme.rs
 @@ -150,7 +150,7 @@ pub fn readme_file_from_package<'a>(
@@ -18,11 +18,11 @@ index f38a03e67e11f6f6f33ebde262c7fad707e6a626..51840f957e8bc85f416135174bfe691a
 -static ALLOWED_LICENSES: [(&str, &str); 22] = [
 +static ALLOWED_LICENSES: [(&str, &str); 27] = [
      // ("Cargo.toml string", "License for README.chromium")
-     ("Apache-2.0", "Apache 2.0"),
-     ("MIT OR Apache-2.0", "Apache 2.0"),
+     ("Apache-2.0", "Apache-2.0"),
+     ("MIT OR Apache-2.0", "Apache-2.0"),
 @@ -236,6 +236,11 @@ static ALLOWED_LICENSES: [(&str, &str); 22] = [
-     ("Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT", "Apache 2.0"),
-     ("BSD-2-Clause OR Apache-2.0 OR MIT", "Apache 2.0"),
+     ("Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT", "Apache-2.0"),
+     ("BSD-2-Clause OR Apache-2.0 OR MIT", "Apache-2.0"),
      ("Zlib", "Zlib"),
 +    ("CC0-1.0 OR MIT-0 OR Apache-2.0", "Apache 2.0"),
 +    ("MIT OR Apache-2.0 OR BSD-1-Clause", "Apache 2.0"),
