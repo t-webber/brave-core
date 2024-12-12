@@ -84,7 +84,6 @@
 <translation id="1118970888826017401">啟用對繞過頂層重新導向追蹤 URL 的支援。</translation>
 <translation id="94154759592465111">阻擋指令稿</translation>
 <translation id="7714773920987474116">封鎖 JavaScript (可能會使網站無法正常運作)</translation>
-<translation id="995782501881226248">YouTube</translation>
 <translation id="2233004324252915283">封鎖 YouTube 推薦內容</translation>
 <translation id="1005372663692637999">封鎖 youtube.com 的「下一部影片」和結尾畫面等元素。</translation>
 <translation id="5152595963250646670">封鎖 YouTube 上使人分心的元素</translation>
@@ -115,7 +114,6 @@
 <translation id="9148058034647219655">結束</translation>
 <translation id="8047754398610073499">攔截 cookie 同意通知</translation>
 <translation id="2621893359845808115">攔截要求您接受/拒絕網站 cookie 的彈出式視窗</translation>
-<translation id="7534079972563542000">Unstoppable Domains</translation>
 <translation id="6486983549008741930">內容過濾</translation>
 <translation id="2398817776566547893">啟用自訂篩選器，藉此封鎖特定區域和語言的追蹤程式，以及惱人的內容</translation>
 <translation id="8578397014396032341">內容篩選器</translation>
@@ -138,7 +136,6 @@
 <translation id="4335929145384293789">在上方欄位中新增您建立的自訂篩選條件，每行一個條件。請確保使用 <ph name="ADBLOCK_FILTER_SYNTAX"/>。</translation>
 <translation id="5023212862780303376">Adblock 篩選條件語法</translation>
 <translation id="6513892817556267573">以太坊域名服務</translation>
-<translation id="531747189990625622">Solana Name Service</translation>
 <translation id="3894650624018948468">解決方法</translation>
 <translation id="8410806609595910352">ENS 鏈下查詢</translation>
 <translation id="2356070529366658676">詢問</translation>
@@ -216,7 +213,6 @@
 <translation id="49147335255967913">在 Brave 中開啟 YouTube 連結</translation>
 <translation id="4150201353443180367">顯示設定</translation>
 <translation id="4275663329226226506">媒體</translation>
-<translation id="5950428831347558278">Widevine DRM</translation>
 <translation id="6716942308303275900">使用 Widevine 數位版權管理 (DRM) 以在瀏覽器中檢視受保護的媒體內容。</translation>
 <translation id="255204363133978824">允許受保護內容</translation>
 <translation id="4736073408974888559"><ph name="BEGIN_LINK"/>深入瞭解 Widevine<ph name="END_LINK"/></translation>
@@ -252,7 +248,6 @@
 <translation id="1331593888918588693">您稍後能隨時在應用程式設定中更改您的偏好。</translation>
 <translation id="5806601733251372221">Brave 防護</translation>
 <translation id="8537217141725709400">賺取 <ph name="TOKEN"/></translation>
-<translation id="3333887201479867589">Brave Rewards</translation>
 <translation id="5870330605209713397">預設透過觀看尊重隱私的廣告來支援您最愛的網站與創作者。</translation>
 <translation id="5302488867897327287">透過點擊「開始使用 Brave Rewards」，即表示您同意</translation>
 <translation id="4281844954008187215">服務條款</translation>
@@ -295,9 +290,7 @@
 <translation id="8220228041552340594">十月</translation>
 <translation id="8280223431922155812">十一月</translation>
 <translation id="4254029385847607686">十二月</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
 <translation id="1772301834467143364">Brave 新聞</translation>
-<translation id="7732576862074737148">≈ <ph name="VALUE"/> USD</translation>
 <translation id="8428213095426709021">設定</translation>
 <translation id="6020176662032623904">已驗證的創作者</translation>
 <translation id="2369994359029526515">未驗證的創作者</translation>
@@ -427,9 +420,6 @@
 <translation id="5308380583665731573">連線</translation>
 <translation id="3368922792935385530">已連線</translation>
 <translation id="6569877533335686968">維持</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
-<translation id="8533411848724153701">Gemini</translation>
-<translation id="6011108706830742093">ZebPay</translation>
 <translation id="1665118090708049096">前往我的 <ph name="WALLET_PROVIDER"/> 帳戶</translation>
 <translation id="4858636682078269312">登入您的 <ph name="WALLET_PROVIDER"/> 帳戶</translation>
 <translation id="8874184842967597500">未連線</translation>
@@ -517,7 +507,6 @@
 <translation id="6814582232712814369">時間節省了</translation>
 <translation id="3694122362646626770">網站</translation>
 <translation id="2225863440766607138">追蹤裝置</translation>
-<translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
 <translation id="6737820963776538947">您在過去 3 小時以 Brave 瀏覽器封鎖了 <ph name="COUNT"/> 追蹤裝置 &amp; 廣告。</translation>
 <translation id="5005713153542196658">封鎖追蹤器和廣告，以最快 6 倍的速度透過 Brave 瀏覽各大新聞網站。</translation>
 <translation id="7427567994475794038">開啟隱私權報告來觀看在過去 3 小時已經封鎖多少追蹤裝置 &amp; 廣告。</translation>
@@ -616,7 +605,6 @@
 <translation id="1577948178257477049"><ph name="ACCOUNT_NAME"/>帳戶 <ph name="ACCOUNT_NUMBER"/></translation>
 <translation id="7665369617277396874">新增帳戶</translation>
 <translation id="3448492834076427715">更新帳戶</translation>
-<translation id="5532363218245261099">#<ph name="NUMBER"/> <ph name="RECOVERY_PHRASE"/></translation>
 <translation id="1537175937716697987">檢視我的復原詞句</translation>
 <translation id="5303015959766064022">稍後再備份</translation>
 <translation id="7345730059518887993">請檢查</translation>
@@ -631,7 +619,7 @@
 <translation id="3961126209136843111">匯入現有錢包</translation>
 <translation id="4811736040444856406">顯示備援短語</translation>
 <translation id="4359319875297001084">從舊 Brave 加密幣錢包匯入？</translation>
-<translation id="3157931365184549694">Restore</translation>
+<translation id="3157931365184549694">還原</translation>
 <translation id="5844138175312846408">已有錢包？</translation>
 <translation id="2502258949541727762">開始之前</translation>
 <translation id="4303748097351941030">支援的網路</translation>
@@ -651,7 +639,6 @@
 <translation id="574392208103952083">中等</translation>
 <translation id="6697810017029555732">符合！</translation>
 <translation id="5981303441790732480">匯入您現有的錢包</translation>
-<translation id="9111102763498581341">Unlock</translation>
 <translation id="6657585470893396449">密碼</translation>
 <translation id="7553242001898162573">輸入您的密碼</translation>
 <translation id="5619264711680220002">生物識別技術解鎖</translation>
@@ -783,7 +770,6 @@
 <translation id="2186011161688824046">金額 + 費用</translation>
 <translation id="1950052789869821983">交易</translation>
 <translation id="2304783958703511257">進階設定</translation>
-<translation id="4220062530885628403">Nonce</translation>
 <translation id="1924965034964265193">輸入自訂的 Nonce 值</translation>
 <translation id="5317780077021120954">儲存</translation>
 <translation id="4979796155378508955">如果自訂的 Nonce 值並非連續數值，或具有其他錯誤，交易可能無法傳輸至網路。</translation>
@@ -837,12 +823,12 @@
 <translation id="4351811224047421378">小數點精度</translation>
 <translation id="3494964159182650590">獎勵摘要</translation>
 <translation id="590733288489975971">廣告獎勵</translation>
+<translation id="1450735350187803276">本月看到的廣告</translation>
 <translation id="1767561995429774671">捐獻</translation>
 <translation id="7335371657242627509">加入自動贊助</translation>
 <translation id="6727102863431372879">設定</translation>
 <translation id="3074127054582480056">注意</translation>
 <translation id="2280319752798785157">每月貢獻</translation>
-<translation id="3079421456571897484"><ph name="VALUE"/> BAT</translation>
 <translation id="1241283133946520352">網路</translation>
 <translation id="1062463687579789365">錢包網路自訂項目</translation>
 <translation id="2512821599885971349">新增網路</translation>
@@ -1034,7 +1020,6 @@
 <translation id="4530494379350999373">來源</translation>
 <translation id="6736243959894955139">帳戶位址</translation>
 <translation id="3095940652251934233">聲明</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">版本</translation>
 <translation id="1313065465616456728">發出日期</translation>
 <translation id="7902225556763260253">到期時間</translation>
@@ -1084,7 +1069,6 @@
 <translation id="7618347247876614969">位址查詢表格帳戶：</translation>
 <translation id="7659483790930268440">位址查詢表格索引：</translation>
 <translation id="5494920125229734069">全選</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8613144770663526433">用 Brave 錢包登入</translation>
 <translation id="3696514931437952995">您正在登入 <ph name="ORIGIN"/>。Brave 錢包將與 <ph name="ORIGIN"/> 分享您的錢包位址。</translation>
 <translation id="1028781062521375153">檢視詳細資料</translation>
@@ -1096,7 +1080,6 @@
 <translation id="1250335737108905610">重設並清除 Leo 資料</translation>
 <translation id="6165101586663336913">如果重設 Leo 助理，日後必須重新選擇加入才能再次使用，您的聊天記錄也會一併清除。清除聊天記錄會刪除您先前與 Leo 的對話。此動作無法復原。</translation>
 <translation id="3692772534525889713">將 Play 商店的購買項目與您的 Brave 帳戶建立連結，即可在其他裝置上使用 Brave Leo。</translation>
-<translation id="73236265316873967">Leo Premium</translation>
 <translation id="1028627582482425924">1 年</translation>
 <translation id="2985392169397572983">最佳價值</translation>
 <translation id="1166682575529520472">每月</translation>

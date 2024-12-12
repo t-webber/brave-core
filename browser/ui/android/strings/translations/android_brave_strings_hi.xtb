@@ -138,7 +138,6 @@
 <translation id="4335929145384293789">ऊपर दिए गए फ़ील्ड में, हर लाइन में आपके द्वारा बनाए गए कस्टम फ़िल्टर जोड़ें। <ph name="ADBLOCK_FILTER_SYNTAX"/> का इस्तेमाल ज़रूर करें।</translation>
 <translation id="5023212862780303376">ऐडब्लॉक फ़िल्टर सिंटेक्स</translation>
 <translation id="6513892817556267573">Ethereum नाम सेवा</translation>
-<translation id="531747189990625622">Solana Name Service</translation>
 <translation id="3894650624018948468">हल निकालने का तरीका</translation>
 <translation id="8410806609595910352">ENS ऑफ़चेन को खोजना</translation>
 <translation id="2356070529366658676">पूछें</translation>
@@ -216,7 +215,6 @@
 <translation id="49147335255967913">YouTube लिंक Brave पर खोलें</translation>
 <translation id="4150201353443180367">डिसप्ले</translation>
 <translation id="4275663329226226506">मीडिया</translation>
-<translation id="5950428831347558278">Widevine DRM</translation>
 <translation id="6716942308303275900">Widevine डिजिटल राइट्स मैनेजमेंट (DRM) का इस्तेमाल करें और ब्राउज़र में संरक्षित मीडिया कंटेंट देखें.</translation>
 <translation id="255204363133978824">संरक्षित कंटेंट की अनुमति दें</translation>
 <translation id="4736073408974888559"><ph name="BEGIN_LINK"/>Widevine के बारे में और जानें<ph name="END_LINK"/></translation>
@@ -295,9 +293,6 @@
 <translation id="8220228041552340594">अक्टूबर</translation>
 <translation id="8280223431922155812">नवम्बर</translation>
 <translation id="4254029385847607686">दिसम्बर</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="1772301834467143364">Brave News</translation>
-<translation id="7732576862074737148">≈ <ph name="VALUE"/> USD</translation>
 <translation id="8428213095426709021">सेटिंग</translation>
 <translation id="6020176662032623904">वेरिफ़ाइड क्रिएटर</translation>
 <translation id="2369994359029526515">नहीं वेरिफ़ाइड क्रिएटर</translation>
@@ -312,7 +307,7 @@
 <translation id="4157741509680155021">सिंक चेन पर डिवाइस</translation>
 <translation id="279635009973773843">डिवाइस लोड हो रही हैं...</translation>
 <translation id="6394333525003604181">सिंक चेन छोड़ना...</translation>
-<translation id="2569646144216067185">शब्द गणना:  <ph name="WORD_COUNT"/></translation>
+<translation id="2569646144216067185">शब्द गणना: <ph name="WORD_COUNT"/></translation>
 <translation id="7507533586185621084">गलत सिंक कोड</translation>
 <translation id="8284063834901328650">गलत सिंक QR कोड</translation>
 <translation id="859506441384380749">यह कोड Brave के पुराने पिछड़े संस्करण से जेनरेट किया गया था, कृपया पहले अपने अन्य डिवाइस को अपग्रेड करें</translation>
@@ -426,9 +421,6 @@
 <translation id="5308380583665731573">जुडिये</translation>
 <translation id="3368922792935385530">कनेक्टेड</translation>
 <translation id="6569877533335686968">बनाए रखें</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
-<translation id="8533411848724153701">Gemini</translation>
-<translation id="6011108706830742093">ZebPay</translation>
 <translation id="1665118090708049096">मेरे <ph name="WALLET_PROVIDER"/>अकाउंट पर जाएँ</translation>
 <translation id="4858636682078269312">अपने <ph name="WALLET_PROVIDER"/> अकाउंट में लॉग इन करें</translation>
 <translation id="8874184842967597500">कनेक्ट नहीं है</translation>
@@ -516,7 +508,6 @@
 <translation id="6814582232712814369">समय बच गया</translation>
 <translation id="3694122362646626770">वेबसाइट</translation>
 <translation id="2225863440766607138">ट्रैकर्स</translation>
-<translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
 <translation id="6737820963776538947">आपने <ph name="COUNT"/> ट्रैकर्स &amp; पिछले 3 घंटों में Brave ब्राउज़र वाले विज्ञापनों को ब्लॉक किया है।</translation>
 <translation id="5005713153542196658">ट्रैकर्स और विज्ञापनों को ब्लॉक करके Brave में मुख्य समाचार साइटों पर 6 गुना तेज़ी से ब्राउज़ करें।</translation>
 <translation id="7427567994475794038">कितने ट्रैकर्स और &amp; विज्ञापनों को बीते 3 घंटों में ब्लॉक किया गया देखने के लिए गोपनीयता रिपोर्ट को चालू करें।</translation>
@@ -615,7 +606,6 @@
 <translation id="1577948178257477049"><ph name="ACCOUNT_NAME"/> अकाउंट <ph name="ACCOUNT_NUMBER"/></translation>
 <translation id="7665369617277396874">खाता जोड़ें</translation>
 <translation id="3448492834076427715">अकाउंट अपडेट करें</translation>
-<translation id="5532363218245261099">#<ph name="NUMBER"/> <ph name="RECOVERY_PHRASE"/></translation>
 <translation id="1537175937716697987">मेरा रिकवरी फ़्रेज़ व्यू करें</translation>
 <translation id="5303015959766064022">मैं बाद में बैकअप लूंगा</translation>
 <translation id="7345730059518887993">आइये देखें</translation>
@@ -678,14 +668,12 @@
 <translation id="4862812525895306758">लेन-देन और नॉन्स की जानकारी मिटाएँ</translation>
 <translation id="5693968582510626466">ट्रांजेक्शन हटाने से स्थानीय सर्वर पर स्टेट क्लियर करते समय या डेवलपर्स के लिए उपयोगी हो सकता है</translation>
 <translation id="5421107279168565467">क्या आप वाकई लेन-देन और नॉन्स की जानकारी को मिटाना चाहते हैं? इस विकल्प का इस्तेमाल आमतौर पर लोकल टेस्ट सर्वर चलाने वाले डेवलपर करते हैं. कन्फ़र्म करने के लिए  "<ph name="CONFIRMATION_PHRASE"/>" टाइप करें.</translation>
-<translation id="930472263779999522">{MINUTES, plural, =1 {# minute} other {# minutes}}</translation>
 <translation id="8146860193318415026">वीडियो स्ट्रीम करें. कोई विज्ञापन नहीं.</translation>
 <translation id="6311019535466417620">आपके वीडियो से पहले कोई विज्ञापन नहीं</translation>
 <translation id="4274652342814424451">आपके वीडियो के दौरान कोई विज्ञापन नहीं</translation>
 <translation id="1721710839767183848">पेज पर कोई विज्ञापन नहीं</translation>
 <translation id="4647035642622555398">कोई रुकावट नहीं</translation>
 <translation id="4122515759479497554">वीडियो सर्च करें</translation>
-<translation id="4449475351935531438">Brave Firewall + VPN</translation>
 <translation id="719977489961414786">अपने कनेक्शन की सुरक्षा के लिए VPN में अपग्रेड करें और हर जगह ज़बरदस्ती घुसने वाले ट्रैकर्स को ब्लॉक करें.</translation>
 <translation id="8814357473522731680">द्वारा संचालित</translation>
 <translation id="5892534145504632332">हर ऐप और अपने पूरे डिवाइस को सुरक्षित रखें</translation>
@@ -836,12 +824,12 @@
 <translation id="4351811224047421378">डेसिमल ऑफ़ प्रिसिशन</translation>
 <translation id="3494964159182650590">रिवॉर्ड के बारे में जानकारी</translation>
 <translation id="590733288489975971">विज्ञापनों से रिवॉर्ड</translation>
+<translation id="1450735350187803276">इस महीने देखे गए विज्ञापन</translation>
 <translation id="1767561995429774671">सहयोग करें</translation>
 <translation id="7335371657242627509">ऑटो-योगदान में शामिल करें</translation>
 <translation id="6727102863431372879">सेट</translation>
 <translation id="3074127054582480056">ध्यान दें</translation>
 <translation id="2280319752798785157">मासिक योगदान</translation>
-<translation id="3079421456571897484"><ph name="VALUE"/> BAT</translation>
 <translation id="1241283133946520352">नेटवर्क</translation>
 <translation id="1062463687579789365">वॉलेट नेटवर्क में मनचाहे बदलाव</translation>
 <translation id="2512821599885971349">नेटवर्क जोड़ें</translation>
@@ -1033,7 +1021,6 @@
 <translation id="4530494379350999373">मूल</translation>
 <translation id="6736243959894955139">पता</translation>
 <translation id="3095940652251934233">स्टेटमेंट</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">वर्शन</translation>
 <translation id="1313065465616456728">जारी करने का समय</translation>
 <translation id="7902225556763260253">अंतिम अवधि</translation>
@@ -1188,7 +1175,6 @@
 <translation id="6848689413353508904">कंटेनर</translation>
 <translation id="1496514951988037011">यूज़रनेम</translation>
 <translation id="6155129418108337061">लॉगिन</translation>
-<translation id="4038523199754403233">id</translation>
 <translation id="901834265349196618">ईमेल</translation>
 <translation id="3488199663160411179">नाम</translation>
 <translation id="793994607260936590">पहला</translation>

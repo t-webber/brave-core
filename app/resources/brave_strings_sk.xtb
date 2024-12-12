@@ -218,6 +218,7 @@ Niektoré funkcie nemusia byť k dispozícii a zmeny vykonané v predvoľbách s
 <translation id="4050175100176540509">V najnovšej verzii sú k dispozícii dôležité vylepšenia zabezpečenia a nové funkcie.</translation>
 <translation id="4055805654398742145">Správca hesiel</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{Vaša organizácia Brave automaticky zavrie, keď sa nebude používať jednu minútu. Dáta prehliadania budú odstránené. Môže v nich byť zahrnutá história, automatické dopĺňanie a stiahnuté súbory.}few{Vaša organizácia Brave automaticky zavrie, keď sa nebude používať # minúty. Dáta prehliadania budú odstránené. Môže v nich byť zahrnutá história, automatické dopĺňanie a stiahnuté súbory.}many{Vaša organizácia Brave automaticky zavrie, keď sa nebude používať # minúty. Dáta prehliadania budú odstránené. Môže v nich byť zahrnutá história, automatické dopĺňanie a stiahnuté súbory.}other{Vaša organizácia Brave automaticky zavrie, keď sa nebude používať # minút. Dáta prehliadania budú odstránené. Môže v nich byť zahrnutá história, automatické dopĺňanie a stiahnuté súbory.}}</translation>
+<translation id="2589970573128789862">Režim Inkognito prehliadača Brave</translation>
 <translation id="5794951150713244901">Prejsť na stránku informácií o prehliadači Brave</translation>
 <translation id="4148957013307229264">Inštaluje sa...</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> – prihlásenie do siete – Brave</translation>
@@ -617,6 +618,5 @@ Na tento účet sa môžu vzťahovať povolenia, ktoré ste už udelili webovým
 <translation id="2176087127109773485">Svoje prihlásené synchronizačné reťazce Brave môžete spravovať. Vaše synchronizačné reťazce Brave sa používajú pre prehliadač Brave, Play Store, Gmail a ďalšie. Ak chcete pridať účet pre niekoho iného, napríklad pre člena rodiny, pridajte do svojho <ph name="DEVICE_TYPE"/> namiesto toho nový profil. <ph name="LINK_BEGIN"/>Learn more<ph name="LINK_END"/></translation>
 <translation id="79269250264141507">Pri písaní do adresného riadka alebo vyhľadávacieho poľa posiela Brave vložený text vášmu predvolenému vyhľadávaču, čím získate lepšie návrhy. Táto možnosť je v súkromnom režime vypnutá.</translation>
 <translation id="3739288578188828252">Pri písaní do adresného riadka alebo vyhľadávacieho poľa posiela Brave vložený text do Google Drive, čím získate návrhy položiek. Táto možnosť je v súkromnom režime vypnutá.</translation>
-<translation id="2589970573128789862">Brave Private</translation>
 <translation id="5994282802285556682">Pri prehliadaní v súkromnom režime vás aplikácia Brave upozorní pred načítaním stránky prostredníctvom nezabezpečeného pripojenia.</translation>
 </translationbundle>

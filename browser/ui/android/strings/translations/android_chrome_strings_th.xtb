@@ -744,6 +744,7 @@
 <translation id="2782276843156939908">รายการรหัสผ่านที่บันทึกไว้สำหรับ Brave และ <ph name="CHROME_CHANNEL"/> รวมเข้าด้วยกันแล้ว คุณยังคงป้อนรหัสผ่านที่บันทึกไว้ทั้งหมดโดยอัตโนมัติได้ในทั้ง 2 แอป</translation>
 <translation id="4616150815774728855">เปิด <ph name="WEBAPK_NAME"/></translation>
 <translation id="4619564267100705184">ยืนยันว่าเป็นคุณ</translation>
+<translation id="2589970573128789862">โหมดไม่ระบุตัวตนของ Brave</translation>
 <translation id="4634124774493850572">ใช้รหัสผ่าน</translation>
 <translation id="4640331037679501949">{NUM_PASSWORDS,plural, =1{มีรหัสผ่านที่ถูกละเมิด 1 รายการ}other{มีรหัสผ่านที่ถูกละเมิด # รายการ}}</translation>
 <translation id="4642472735733036929">หยุดติดตามราคาแล้ว</translation>
@@ -1810,7 +1811,6 @@
 <translation id="5722020415664104421">บล็อกขณะใช้งานส่วนตัว</translation>
 <translation id="8915136961932734044">ขณะอยู่ในโหมดส่วนตัว เว็บไซต์ต่างๆ จะไม่สามารถใช้คุกกี้ของคุณเพื่อดูกิจกรรมการท่องเว็บของคุณในเว็บไซต์ต่างๆ ได้ เช่น เพื่อปรับโฆษณาตามโปรไฟล์ของคุณ ฟีเจอร์ในบางเว็บไซต์อาจใช้งานไม่ได้</translation>
 <translation id="2213938739750509524">เมื่อคุณแตะหรือพิมพ์ในแถบที่อยู่หรือช่องค้นหา คุณจะเห็นคำแนะนำจากเครื่องมือค้นหาเริ่มต้นของคุณ โดยจะปิดอยู่ในโหมดส่วนตัว</translation>
-<translation id="2589970573128789862">Brave Private</translation>
 <translation id="5809126106485463836">โหมดส่วนตัวช่วยให้การท่องเว็บของคุณเป็นส่วนตัวจากผู้อื่นที่ใช้งานอุปกรณ์ของคุณ</translation>
 <translation id="2633278372998075009">แท็บส่วนตัว</translation>
 <translation id="8810805383611013660">เปิดในแท็บส่วนตัว</translation>
@@ -1845,7 +1845,7 @@
           other {<ph name="TAB_COUNT_MANY"/> แท็บส่วนตัวจะถูกปิด}}</translation>
 <translation id="2703361981471284696">{TAB_COUNT, plural,
           =1 {แท็บส่วนตัว <ph name="INCOGNITO_TAB_COUNT"/> แท็บและแท็บเพิ่มเติม <ph name="TAB_COUNT_ONE"/> แท็บจะถูกปิด}
-          other {แท็บส่วนตัว <ph name="INCOGNITO_TAB_COUNT"/> แท็บและแท็บเพิ่มเติม <ph name="TAB_COUNT_MANY"/>  แท็บจะถูกปิด}}</translation>
+          other {แท็บส่วนตัว <ph name="INCOGNITO_TAB_COUNT"/> แท็บและแท็บเพิ่มเติม <ph name="TAB_COUNT_MANY"/> แท็บจะถูกปิด}}</translation>
 <translation id="4362959348993021460">แตะค้างไว้เพื่อสลับไปเป็นโหมดส่วนตัว</translation>
 <translation id="1393515642387718683">แตะสองครั้งและกดค้างไว้เพื่อสลับไปเป็นโหมดส่วนตัว</translation>
 <translation id="7096147642287317420">แตะค้างไว้เพื่อออกจากโหมดส่วนตัว</translation>

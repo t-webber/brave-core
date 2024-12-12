@@ -29,7 +29,6 @@
 <translation id="1113597929977215864">Vereenvoudigde weergave bekijken</translation>
 <translation id="1126696498560056882">Accounts op dit apparaat beheren</translation>
 <translation id="1129510026454351943">Details: <ph name="ERROR_DESCRIPTION"/></translation>
-<translation id="5809126106485463836">Met de incognitomodus kun je je browse-activiteit privé houden voor anderen die je apparaat gebruiken</translation>
 <translation id="1138458427267715730">Krijg meldingen als de prijs daalt op een site op internet</translation>
 <translation id="1142732900304639782">Niet aanbieden om deze sites te vertalen</translation>
 <translation id="1145536944570833626">Bestaande gegevens verwijderen.</translation>
@@ -216,7 +215,6 @@ Alleen iemand met je wachtwoordzin kan je versleutelde gegevens lezen. De wachtw
 <translation id="2038563949887743358">'Desktopsite aanvragen' aanzetten</translation>
 <translation id="7675869148432102528"><ph name="APP_NAME"/> heeft ook gegevens in Brave</translation>
 <translation id="2046634576464120978">Registratie mislukt</translation>
-<translation id="7096147642287317420">Houd je vinger hierop om de incognitomodus te verlaten</translation>
 <translation id="2049574241039454490"><ph name="FILE_SIZE_OF_TOTAL"/> <ph name="SEPARATOR"/> <ph name="DESCRIPTION"/></translation>
 <translation id="2051669996101374349">Gebruik waar mogelijk HTTPS en krijg een waarschuwing voordat er sites worden geladen die dit niet ondersteunen. Je kunt deze instelling niet wijzigen, omdat je Geavanceerde beveiliging hebt aangezet.</translation>
 <translation id="2056878612599315956">Site onderbroken</translation>
@@ -382,7 +380,6 @@ Alleen iemand met je wachtwoordzin kan je versleutelde gegevens lezen. De wachtw
 <translation id="2841216154655874070">{NUM_DAYS,plural, =1{1 dag geleden gecheckt}other{# dagen geleden gecheckt}}</translation>
 <translation id="2842985007712546952">Bovenliggende map</translation>
 <translation id="6324134303015966238">Brave laadt vooraf de pagina's die je waarschijnlijk gaat bezoeken, zodat de pagina's sneller laden als je ze bezoekt</translation>
-<translation id="4362959348993021460">Houd je vinger hierop om te wisselen naar de incognitomodus</translation>
 <translation id="2855243985454069333">Hiermee wordt de geschiedenis van al je gesynchroniseerde apparaten verwijderd.</translation>
 <translation id="2856503607207334158">Inloggen mislukt</translation>
 <translation id="2860954141821109167">Zorg ervoor dat een telefoon-app aanstaat op dit apparaat</translation>
@@ -876,7 +873,6 @@ Voor je Brave-account kunnen andere vormen van browsegeschiedenis (zoals zoekopd
 <translation id="5161254044473106830">Titel is vereist</translation>
 <translation id="5161262286013276579">Bevestigingsblad voor toegangssleutel geopend</translation>
 <translation id="5163361352003913350"><ph name="NAME"/> is op dit moment geselecteerd. Kies een account.</translation>
-<translation id="2331163878318921124">Dubbeltik en houd je vinger hierop om de incognitomodus te verlaten</translation>
 <translation id="5170568018924773124">Tonen in map</translation>
 <translation id="5171045022955879922">Zoek of typ een URL</translation>
 <translation id="5174700554036517242">Tabblad is teruggezet naar oorspronkelijke hoogte</translation>
@@ -914,7 +910,6 @@ Voor je Brave-account kunnen andere vormen van browsegeschiedenis (zoals zoekopd
 <translation id="5355191726083956201">Geoptimaliseerde beveiliging staat aan</translation>
 <translation id="4771279424883068914">De URL van de pagina waarvoor je feedback geeft, wordt naar Brave gestuurd en kan door mensen worden beoordeeld om deze functie te verbeteren</translation>
 <translation id="5375577065097716013">Afbeelding zoeken met Google Lens <ph name="BEGIN_NEW"/>Nieuw<ph name="END_NEW"/></translation>
-<translation id="4300497327999623298">Overschakelen vanuit incognitomodus</translation>
 <translation id="4799771635362945886">Zorg dat je de Brave-gegevens in je Brave-account altijd kunt gebruiken</translation>
 <translation id="539881862970320163">Sterk wachtwoord voorgesteld. Toetsenbord verborgen.</translation>
 <translation id="5409881200985013443"><ph name="ONE_TIME_CODE"/> doorgeven op <ph name="CLIENT_NAME"/>?</translation>
@@ -1346,7 +1341,6 @@ Als je deze instelling wilt wijzigen, <ph name="BEGIN_LINK"/>verwijder je de Bra
 <translation id="7221869452894271364">Deze pagina opnieuw laden</translation>
 <translation id="8713221522704424328">Alle wachtwoorden die alleen op dit apparaat zijn opgeslagen voor Brave en <ph name="CHROME_CHANNEL"/>, zijn samengevoegd. Je kunt al je opgeslagen wachtwoorden automatisch laten invullen in beide apps.</translation>
 <translation id="7227218174981371415">{FILE_COUNT,plural, =1{1 download in behandeling}other{# downloads in behandeling}}</translation>
-<translation id="1988906120194081364">Overschakelen naar incognitomodus</translation>
 <translation id="72415438529550637">Wachtwoordsuggestie is gesloten.</translation>
 <translation id="7252076891734325316">Houd je telefoon dicht bij de computer</translation>
 <translation id="4957342254208357193">Je Android-apparaat kan een vergelijkbare instelling hebben. Als advertentiemeting aanstaat in Brave en op je Android-apparaat, kan een bedrijf mogelijk de effectiviteit van een advertentie meten op websites die je bezoekt en in apps die je gebruikt.</translation>
@@ -1610,7 +1604,6 @@ Als je deze instelling wilt wijzigen, <ph name="BEGIN_LINK"/>verwijder je de Bra
 <translation id="8378850197701296741">Je hebt bookmarks, geschiedenis en andere instellingen van <ph name="FROM_ACCOUNT"/>.</translation>
 <translation id="8387617938027387193">Verifiëren dat jij het bent</translation>
 <translation id="8393700583063109961">Bericht verzenden</translation>
-<translation id="1393515642387718683">Dubbeltik en houd je vinger hierop om te wisselen naar de incognitomodus</translation>
 <translation id="8402673309244746971">Naar Je volgt</translation>
 <translation id="8413126021676339697">Hele geschiedenis bekijken</translation>
 <translation id="5348884013239264115">Beschermt tegen sites, downloads en extensies die als gevaarlijk zijn bestempeld. Als je een site bezoekt, stuurt Brave een geobfusceerd gedeelte van de URL naar Brave via een privacyserver die je IP-adres verbergt. Doet een site iets verdachts, dan worden ook volledige URL's en delen van de paginacontent verstuurd.</translation>
@@ -1718,7 +1711,6 @@ Als je deze instelling wilt wijzigen, <ph name="BEGIN_LINK"/>verwijder je de Bra
 <translation id="8863714995118816041">Rechten opnieuw toegestaan voor <ph name="SITE_NAME"/></translation>
 <translation id="7261356974224431851">Brave-gegevens in je account</translation>
 <translation id="8888527824584402177">Tabbladen die je <ph name="DAYS_INACTIVE"/> dagen niet hebt gebruikt, worden hierheen verplaatst<ph name="AUTODELETE_SECTION"/>. Je kunt dit altijd wijzigen via <ph name="SETTINGS_TITLE"/>.</translation>
-<translation id="4325212706000356062">Zoek op je incognitotabbladen</translation>
 <translation id="1984646864943401749">Stuurt URL's van sommige pagina's die je bezoekt, beperkte systeeminformatie en bepaalde paginacontent naar Brave om nieuwe dreigingen te ontdekken en iedereen op internet te beschermen.</translation>
 <translation id="8909135823018751308">Delen</translation>
 <translation id="8921980840204105660">Voer een synchronisatie uit om de bookmarks van je andere apparaten op te halen</translation>
@@ -1819,6 +1811,7 @@ Als je deze instelling wilt wijzigen, <ph name="BEGIN_LINK"/>verwijder je de Bra
 <translation id="8915136961932734044">Als u Privé gebruikt, kunnen websites uw cookies niet gebruiken om uw browseractiviteiten op verschillende websites te bekijken om bijvoorbeeld advertenties te personaliseren. Functies op bepaalde websites werken mogelijk niet meer.</translation>
 <translation id="2213938739750509524">Wanneer u in de adresbalk of het zoekveld tikt of begint met typen, ziet u suggesties van uw standaard zoekmachine. Deze instelling staat uit in Privé.</translation>
 <translation id="2589970573128789862">Brave Privé</translation>
+<translation id="5809126106485463836">Met de incognitomodus kun je je browse-activiteit privé houden voor anderen die je apparaat gebruiken</translation>
 <translation id="2633278372998075009">Privé-tabbladen</translation>
 <translation id="8810805383611013660">Openen in privétabblad</translation>
 <translation id="3110967157686007724">Privétabblad</translation>
@@ -1833,6 +1826,8 @@ Als je deze instelling wilt wijzigen, <ph name="BEGIN_LINK"/>verwijder je de Bra
 <translation id="3763131702135887799">Help ons Brave te verbeteren voor profielen die Brave op dezelfde manier als u gebruiken</translation>
 <translation id="4167670741834902166">Nieuw privétabblad</translation>
 <translation id="8120164982795455341">Nieuw privétabblad</translation>
+<translation id="1988906120194081364">Overschakelen naar incognitomodus</translation>
+<translation id="4300497327999623298">Overschakelen vanuit incognitomodus</translation>
 <translation id="4968908871398201967">Privé-mode</translation>
 <translation id="8448127664493413656">Privémodus openen</translation>
 <translation id="6484416399492735324">Privémodus verlaten</translation>
@@ -1851,8 +1846,13 @@ Als je deze instelling wilt wijzigen, <ph name="BEGIN_LINK"/>verwijder je de Bra
 <translation id="2703361981471284696">{TAB_COUNT, plural,
           =1 {<ph name="INCOGNITO_TAB_COUNT"/> private and <ph name="TAB_COUNT_ONE"/> extra tabblad wordt gesloten}
           other {<ph name="INCOGNITO_TAB_COUNT"/> private and <ph name="TAB_COUNT_MANY"/> extra tabbladen worden gesloten}}</translation>
+<translation id="4362959348993021460">Houd je vinger hierop om te wisselen naar de incognitomodus</translation>
+<translation id="1393515642387718683">Dubbeltik en houd je vinger hierop om te wisselen naar de incognitomodus</translation>
+<translation id="7096147642287317420">Houd je vinger hierop om de incognitomodus te verlaten</translation>
+<translation id="2331163878318921124">Dubbeltik en houd je vinger hierop om de incognitomodus te verlaten</translation>
 <translation id="3947065058794437451">Privébrowser is niet beschikbaar op dit apparaat</translation>
 <translation id="1998933850996224665">Als je wilt delen met mensen in de buurt, laat je ze deze QR-code scannen</translation>
 <translation id="3095878721037212218">U kunt mediabesturing, privésessies, downloads en nog veel meer eenvoudig beheren</translation>
 <translation id="5129323533070334129">Wachtwoordsleutel buiten Privé opslaan?</translation>
+<translation id="4325212706000356062">Zoek op je incognitotabbladen</translation>
 </translationbundle>

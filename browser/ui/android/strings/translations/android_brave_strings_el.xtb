@@ -84,7 +84,6 @@
 <translation id="1118970888826017401">Ενεργοποιήστε την υποστήριξη για παράκαμψη σε ανώτατο επίπεδο, ανακατεύθυνσης διευθύνσεων URL παρακολούθησης.</translation>
 <translation id="94154759592465111">Αποκλεισμός δεσμών ενεργειών</translation>
 <translation id="7714773920987474116">Αποκλείει το JavaScript (μπορεί να αποκόψει ιστοτόπους)</translation>
-<translation id="995782501881226248">YouTube</translation>
 <translation id="2233004324252915283">Αποκλεισμός προτεινόμενου περιεχομενου του YouTube</translation>
 <translation id="1005372663692637999">Αποκλείει τα επερχόμενα και τα τα τελικά στοιχεία της κάρτας στο youtube.com.</translation>
 <translation id="5152595963250646670">Αποκλεισμός στοιχείων που αποσπούν την προσοχή εντός YouTube</translation>
@@ -216,7 +215,6 @@
 <translation id="49147335255967913">Άνοιγμα συνδέσμων YouTube στο Brave</translation>
 <translation id="4150201353443180367">Οθόνη</translation>
 <translation id="4275663329226226506">Μέσα</translation>
-<translation id="5950428831347558278">Widevine DRM</translation>
 <translation id="6716942308303275900">Χρησιμοποιήστε τη διαχείριση ψηφιακών δικαιωμάτων (DRM) Widevine για να προβάλετε προστατευμένο περιεχόμενο πολυμέσων στο πρόγραμμα περιήγησης.</translation>
 <translation id="255204363133978824">Να επιτρέπεται προστατευμένο περιεχόμενο</translation>
 <translation id="4736073408974888559"><ph name="BEGIN_LINK"/>Μάθετε περισσότερα για το Widevine<ph name="END_LINK"/></translation>
@@ -296,8 +294,6 @@
 <translation id="8280223431922155812">ΝΟΕΜΒΡΙΟΣ</translation>
 <translation id="4254029385847607686">ΔΕΚΕΜΒΡΙΟΣ</translation>
 <translation id="3960619311638643872">VPN Brave</translation>
-<translation id="1772301834467143364">Brave News</translation>
-<translation id="7732576862074737148">≈ <ph name="VALUE"/> USD</translation>
 <translation id="8428213095426709021">Ρυθμίσεις</translation>
 <translation id="6020176662032623904">Επαληθευμένος δημιουργός</translation>
 <translation id="2369994359029526515">Μη επαληθευμένος δημιουργός</translation>
@@ -412,7 +408,6 @@
 <translation id="2975780980638932742">Έφτασαν οι Διαφημίσεις Brave!</translation>
 <translation id="7541582550122501404">Εκκρεμής συνεισφορά</translation>
 <translation id="8520059774736886747">Ο δημιουργός <ph name="PUBLISHER_NAME"/> επαληθεύτηκε πρόσφατα</translation>
-<translation id="1486343603936278248">token</translation>
 <translation id="7781069478569868053">Νέα καρτέλα σελίδας</translation>
 <translation id="3171669670217312786">Εικόνες φόντου</translation>
 <translation id="8522669544471808198">Εμφάνιση εικόνων φόντου</translation>
@@ -426,10 +421,6 @@
 <translation id="2394961582378297792">Αποσυνδέθηκε</translation>
 <translation id="5308380583665731573">Σύνδεση</translation>
 <translation id="3368922792935385530">Σε σύνδεση</translation>
-<translation id="6569877533335686968">Uphold</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
-<translation id="8533411848724153701">Gemini</translation>
-<translation id="6011108706830742093">ZebPay</translation>
 <translation id="1665118090708049096">Μετάβαση στον <ph name="WALLET_PROVIDER"/> λογαριασμό μου</translation>
 <translation id="4858636682078269312">Συνδεθείτε στον λογαριασμό σας <ph name="WALLET_PROVIDER"/></translation>
 <translation id="8874184842967597500">Δεν υπάρχει σύνδεση</translation>
@@ -517,7 +508,6 @@
 <translation id="6814582232712814369">Χρόνος που εξοικονομήθηκε</translation>
 <translation id="3694122362646626770">Ιστοσελίδες</translation>
 <translation id="2225863440766607138">Ιχνηλάτες</translation>
-<translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
 <translation id="6737820963776538947">Αποκλείσατε <ph name="COUNT"/> τους ιχνηλάτες &amp; διαφημίσεις με το πρόγραμμα περιήγησης Brave κατά τις τελευταίες 3 ώρες.</translation>
 <translation id="5005713153542196658">Κάντε περιήγηση μέχρι και 6 φορές πιο γρήγορα σε γνωστές ιστοσελίδες ειδήσεων στο Brave, αποκλείοντας ιχνηλάτες και διαφημίσεις.</translation>
 <translation id="7427567994475794038">Ενεργοποιείστε τις Αναφορές απορρήτου για να δείτε πόσοι ιχνηλάτες &amp; διαφημίσεις έχουν αποκλειστεί τις προηγούμενες 3 ώρες.</translation>
@@ -616,7 +606,6 @@
 <translation id="1577948178257477049"><ph name="ACCOUNT_NAME"/> Λογαριασμός<ph name="ACCOUNT_NUMBER"/></translation>
 <translation id="7665369617277396874">Προσθήκη λογαριασμού</translation>
 <translation id="3448492834076427715">Ενημέρωση λογαριασμού</translation>
-<translation id="5532363218245261099">#<ph name="NUMBER"/> <ph name="RECOVERY_PHRASE"/></translation>
 <translation id="1537175937716697987">Προβολή της φράσης ανάκτησής μου</translation>
 <translation id="5303015959766064022">Θα δημιουργήσω αντίγραφο ασφαλείας αργότερα</translation>
 <translation id="7345730059518887993">Ας ελέγξουμε</translation>
@@ -679,7 +668,6 @@
 <translation id="4862812525895306758">Εκκαθάριση συναλλαγής &amp; πληροφοριών nonce</translation>
 <translation id="5693968582510626466">Η διαγραφή συναλλαγών μπορεί να είναι χρήσιμη για προγραμματιστές ή κατά τη διαγραφή της κατάστασης σε έναν τοπικό διακομιστή</translation>
 <translation id="5421107279168565467">Είστε βέβαιοι ότι θέλετε να επαναφέρετε τις πληροφορίες συναλλαγής και τις πληροφορίες nonce; Αυτή η επιλογή χρησιμοποιείται κυρίως από προγραμματιστές με έναν τοπικό δοκιμαστικό διακομιστή. Πληκτρολογήστε "<ph name="CONFIRMATION_PHRASE"/>" για επιβεβαίωση.</translation>
-<translation id="930472263779999522">{MINUTES, plural, =1 {# minute} other {# minutes}}</translation>
 <translation id="8146860193318415026">Μεταδώστε βίντεο σε ροή. Χωρίς διαφημίσεις.</translation>
 <translation id="6311019535466417620">Χωρίς διαφημίσεις πριν από το βίντεό σας</translation>
 <translation id="4274652342814424451">Χωρίς διαφημίσεις κατά τη διάρκεια του βίντεό σας</translation>
@@ -783,7 +771,6 @@
 <translation id="2186011161688824046">Ποσό + τέλος</translation>
 <translation id="1950052789869821983">Συναλλαγή</translation>
 <translation id="2304783958703511257">Ρυθμίσεις για προχωρημένους</translation>
-<translation id="4220062530885628403">Nonce</translation>
 <translation id="1924965034964265193">Εισαγάγετε προσαρμοσμένη τιμή nonce</translation>
 <translation id="5317780077021120954">Αποθήκευση</translation>
 <translation id="4979796155378508955">Η συναλλαγή δεν μπορεί να μεταδοθεί στο δίκτυο εάν η προσαρμοσμένη τιμή nonce είναι μη διαδοχική ή έχει άλλα σφάλματα.</translation>
@@ -837,12 +824,12 @@
 <translation id="4351811224047421378">Δεκαδικά ψηφία ακριβείας</translation>
 <translation id="3494964159182650590">Σύνοψη Ανταμοιβών</translation>
 <translation id="590733288489975971">Ανταμοιβές από Διαφημίσεις</translation>
+<translation id="1450735350187803276">Διαφημίσεις που είδατε αυτόν τον μήνα</translation>
 <translation id="1767561995429774671">Συνεισφορά</translation>
 <translation id="7335371657242627509">Συμπερίληψη στην Αυτόματη συνεισφορά</translation>
 <translation id="6727102863431372879">Ρύθμιση</translation>
 <translation id="3074127054582480056">Προσοχή</translation>
 <translation id="2280319752798785157">Μηνιαία Συνεισφορά</translation>
-<translation id="3079421456571897484"><ph name="VALUE"/> BAT</translation>
 <translation id="1241283133946520352">Δίκτυα</translation>
 <translation id="1062463687579789365">Προσαρμογή δικτύων πορτοφολιού</translation>
 <translation id="2512821599885971349">Προσθήκη δικτύου</translation>
@@ -1034,7 +1021,6 @@
 <translation id="4530494379350999373">Προέλευση</translation>
 <translation id="6736243959894955139">Διεύθυνση</translation>
 <translation id="3095940652251934233">Δήλωση</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">Έκδοση</translation>
 <translation id="1313065465616456728">Εκδόθηκε στις</translation>
 <translation id="7902225556763260253">Ώρα λήξης</translation>
@@ -1084,7 +1070,6 @@
 <translation id="7618347247876614969">Λογαριασμός πίνακα αναζήτησης διεύθυνσης:</translation>
 <translation id="7659483790930268440">Ευρετήριο πίνακα αναζήτησης διεύθυνσης:</translation>
 <translation id="5494920125229734069">Επιλογή όλων</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8613144770663526433">Σύνδεση με το Πορτοφόλι Brave</translation>
 <translation id="3696514931437952995">Συνδέεστε στο<ph name="ORIGIN"/>. Το Πορτοφόλι Brave θα κοινοποιήσει τη διεύθυνση του πορτοφολιού σας με <ph name="ORIGIN"/>.</translation>
 <translation id="1028781062521375153">Προβολή λεπτομερειών</translation>
@@ -1096,7 +1081,6 @@
 <translation id="1250335737108905610">Κάντε επαναφορά και εκκαθάριση των δεδομένων του Leo</translation>
 <translation id="6165101586663336913">Η επαναφορά του βοηθού Leo θα απαιτήσει την από μέρους σας αποδοχή της χρήσης του Leo στο μέλλον και θα διαγράψει το ιστορικό συνομιλιών. Η διαγραφή του ιστορικού συνομιλιών θα διαγράψει όλες τις προηγούμενες συζητήσεις με το Leo. Δεν είναι δυνατή η αναίρεση αυτής της ενέργειας.</translation>
 <translation id="3692772534525889713">Συνδέστε την αγορά σας από το Play Store με τον λογαριασμό σας Brave για να χρησιμοποιήσετε το Brave Leo σε άλλες συσκευές.</translation>
-<translation id="73236265316873967">Leo Premium</translation>
 <translation id="1028627582482425924">Ένα έτος</translation>
 <translation id="2985392169397572983">ΒΕΛΤΙΣΤΗ ΑΞΙΑ</translation>
 <translation id="1166682575529520472">Μηνιαίως</translation>

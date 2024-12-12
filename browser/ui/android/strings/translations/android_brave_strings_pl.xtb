@@ -84,7 +84,6 @@
 <translation id="1118970888826017401">Włącz obsługę pomijania przekierowywania najwyższego poziomu w przypadku śledzących adresów URL.</translation>
 <translation id="94154759592465111">Zablokuj skrypty</translation>
 <translation id="7714773920987474116">Blokuje skrypty Javascript (może popsuć działanie stron internetowych)</translation>
-<translation id="995782501881226248">YouTube</translation>
 <translation id="2233004324252915283">Blokuj treści rekomendowane przez YouTube</translation>
 <translation id="1005372663692637999">Blokuje ekrany końcowe i następne w serwisie youtube.com.</translation>
 <translation id="5152595963250646670">Blokuje rozpraszające elementy YouTube</translation>
@@ -115,7 +114,6 @@
 <translation id="9148058034647219655">Wyjście</translation>
 <translation id="8047754398610073499">Blokuj powiadomienia o wyrażeniu zgody na pliki cookie</translation>
 <translation id="2621893359845808115">Blokuj okna pop-up na stronie internetowej, które wymagają potwierdzenia/odrzucenia plików cookie</translation>
-<translation id="7534079972563542000">Unstoppable Domains</translation>
 <translation id="6486983549008741930">Filtrowanie treści</translation>
 <translation id="2398817776566547893">Włącz filtry niestandardowe, które blokują oprogramowanie śledzące i przeszkadzające, konkretne dla danego regionu oraz języka</translation>
 <translation id="8578397014396032341">Filtry treści</translation>
@@ -137,7 +135,6 @@
 <translation id="5132969826889386652">Zmiany zapisano pomyślnie</translation>
 <translation id="4335929145384293789">W polu powyżej dodaj utworzone przez siebie filtry niestandardowe, po jednym na wiersz. Upewnij się, że korzystasz ze składni filtru Adblock <ph name="ADBLOCK_FILTER_SYNTAX"/></translation>
 <translation id="5023212862780303376">.</translation>
-<translation id="6513892817556267573">Ethereum Name Service</translation>
 <translation id="531747189990625622">Domena Solana Name Service</translation>
 <translation id="3894650624018948468">Metoda rozwiązania</translation>
 <translation id="8410806609595910352">Wyszukiwanie ENS poza łańcuchem</translation>
@@ -216,7 +213,6 @@
 <translation id="49147335255967913">Otwieraj linki z YouTube w Brave</translation>
 <translation id="4150201353443180367">Wygląd</translation>
 <translation id="4275663329226226506">Multimedia</translation>
-<translation id="5950428831347558278">Widevine DRM</translation>
 <translation id="6716942308303275900">Korzystaj z komponentu do zarządzania prawami cyfrowymi (DRM) Widevine, aby oglądać chronione treści multimedialne w przeglądarce.</translation>
 <translation id="255204363133978824">Zezwalaj na treści chronione</translation>
 <translation id="4736073408974888559"><ph name="BEGIN_LINK"/>Dowiedz się więcej o Widevine<ph name="END_LINK"/></translation>
@@ -295,9 +291,6 @@
 <translation id="8220228041552340594">PAŹDZIERNIK</translation>
 <translation id="8280223431922155812">LISTOPAD</translation>
 <translation id="4254029385847607686">GRUDZIEŃ</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="1772301834467143364">Brave News</translation>
-<translation id="7732576862074737148">≈ <ph name="VALUE"/> USD</translation>
 <translation id="8428213095426709021">Ustawienia</translation>
 <translation id="6020176662032623904">Zweryfikowany twórca</translation>
 <translation id="2369994359029526515">Niezweryfikowany twórca</translation>
@@ -412,7 +405,6 @@ Czy na pewno chcesz to zrobić?</translation>
 <translation id="2975780980638932742">Reklamy Brave są już dostępne!</translation>
 <translation id="7541582550122501404">Datek oczekujący</translation>
 <translation id="8520059774736886747">Twórca <ph name="PUBLISHER_NAME"/> został niedawno zweryfikowany.</translation>
-<translation id="1486343603936278248">token</translation>
 <translation id="7781069478569868053">Strona nowej karty</translation>
 <translation id="3171669670217312786">Obrazy tła</translation>
 <translation id="8522669544471808198">Wyświetl obrazy w tle</translation>
@@ -427,9 +419,6 @@ Czy na pewno chcesz to zrobić?</translation>
 <translation id="5308380583665731573">Połącz</translation>
 <translation id="3368922792935385530">Połączone</translation>
 <translation id="6569877533335686968">Wesprzyj</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
-<translation id="8533411848724153701">Gemini</translation>
-<translation id="6011108706830742093">ZebPay</translation>
 <translation id="1665118090708049096">Przejdź do mojego konta <ph name="WALLET_PROVIDER"/></translation>
 <translation id="4858636682078269312">Zaloguj się do swojego konta <ph name="WALLET_PROVIDER"/></translation>
 <translation id="8874184842967597500">Brak połączenia</translation>
@@ -442,7 +431,7 @@ Czy na pewno chcesz to zrobić?</translation>
 <translation id="1275213816424141989">Może później</translation>
 <translation id="4406937629441301400">Zyskaj tokeny za obejrzenie tego obrazu i przekaż dalej twórcom. <ph name="LEARN_MORE"/></translation>
 <translation id="6632345639591919543">Zyskujesz tokeny za oglądanie tego obrazu.\n<ph name="LEARN_MORE"/></translation>
-<translation id="8164992819127316581">Przetwarzanie wypłaty nagród za miesiąc  <ph name="CURRENT_MONTH"/> rozpocznie się do <ph name="PAYOUT_DATE"/>.</translation>
+<translation id="8164992819127316581">Przetwarzanie wypłaty nagród za miesiąc <ph name="CURRENT_MONTH"/> rozpocznie się do <ph name="PAYOUT_DATE"/>.</translation>
 <translation id="33967210973550414">Przetwarzanie wypłaty nagród za miesiąc <ph name="CURRENT_MONTH"/> w toku. <ph name="CHECK_STATUS"/></translation>
 <translation id="1622952853310946314">Przetwarzanie wypłaty nagród za miesiąc <ph name="CURRENT_MONTH"/> zostało zakończone. <ph name="SUPPORT"/></translation>
 <translation id="7717357606512850995">Sprawdź status</translation>
@@ -518,7 +507,6 @@ Czy na pewno chcesz to zrobić?</translation>
 <translation id="6814582232712814369">Oszczędzony czas</translation>
 <translation id="3694122362646626770">Witryny internetowe</translation>
 <translation id="2225863440766607138">Narzędzia do monitorowania</translation>
-<translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
 <translation id="6737820963776538947">W ciągu ostatnich trzech godzin zablokowałeś z pomocą przeglądarki Brave <ph name="COUNT"/> skryptów śledzących i reklam.</translation>
 <translation id="5005713153542196658">Przeszukuj największe portale informacyjne do 6 x szybciej w przeglądarce Brave, blokując śledzenie i reklamy.</translation>
 <translation id="7427567994475794038">Włącz raporty o prywatności, aby zobaczyć, ile narzędzi do monitorowania i reklam zablokowano w ciągu ostatnich trzech godzin.</translation>
@@ -617,7 +605,6 @@ Czy na pewno chcesz to zrobić?</translation>
 <translation id="1577948178257477049">Konto <ph name="ACCOUNT_NAME"/> <ph name="ACCOUNT_NUMBER"/></translation>
 <translation id="7665369617277396874">Dodaj konto</translation>
 <translation id="3448492834076427715">Zaktualizuj konto</translation>
-<translation id="5532363218245261099">#<ph name="NUMBER"/> <ph name="RECOVERY_PHRASE"/></translation>
 <translation id="1537175937716697987">Wyświetl moją frazę odzyskiwania</translation>
 <translation id="5303015959766064022">Zrobię to później</translation>
 <translation id="7345730059518887993">Sprawdźmy to</translation>
@@ -729,7 +716,6 @@ Jeżeli nie zaakceptujesz tego żądania, połączenie z VPN nie zostanie ponown
 <translation id="3428909627460825679">Nie udało się utworzyć profilu VPN. Spróbuj ponownie.</translation>
 <translation id="1264320790738638119">Twoja subskrypcja wygasła. Możesz ją odnowić w każdej chwili.</translation>
 <translation id="8681480718817027245">Subskrypcja</translation>
-<translation id="7805768142964895445">Status</translation>
 <translation id="5747552184818312860">Wygasa</translation>
 <translation id="1656814355341174523">Zarządzaj subskrypcją</translation>
 <translation id="1919008675977575793">Serwer</translation>
@@ -838,12 +824,12 @@ Jeżeli nie zaakceptujesz tego żądania, połączenie z VPN nie zostanie ponown
 <translation id="4351811224047421378">Dokładność liczb po przecinku</translation>
 <translation id="3494964159182650590">Podsumowanie nagród</translation>
 <translation id="590733288489975971">Nagrody z reklam</translation>
+<translation id="1450735350187803276">Reklamy wyświetlone w tym miesiącu</translation>
 <translation id="1767561995429774671">Wspieraj</translation>
 <translation id="7335371657242627509">Włącz automatyczną dotację</translation>
 <translation id="6727102863431372879">Ustal</translation>
 <translation id="3074127054582480056">Uwaga</translation>
 <translation id="2280319752798785157">Miesięczny wkład</translation>
-<translation id="3079421456571897484"><ph name="VALUE"/> BAT</translation>
 <translation id="1241283133946520352">Sieci</translation>
 <translation id="1062463687579789365">Dostosowywanie sieci portfela</translation>
 <translation id="2512821599885971349">Dodaj sieć</translation>
@@ -875,7 +861,6 @@ Jeżeli nie zaakceptujesz tego żądania, połączenie z VPN nie zostanie ponown
 <translation id="2391762656119864333">Unieważnij</translation>
 <translation id="3432029672560911238">Konto użytkownika</translation>
 <translation id="5753378322046059140">Przełącz konto</translation>
-<translation id="3897092660631435901">Menu</translation>
 <translation id="42981349822642051">Rozwiń stronę</translation>
 <translation id="3586752056660754651">Podpisz</translation>
 <translation id="3950820424414687140">Zaloguj się</translation>
@@ -1085,7 +1070,6 @@ Jeżeli nie zaakceptujesz tego żądania, połączenie z VPN nie zostanie ponown
 <translation id="7618347247876614969">Konto w tabeli adresów:</translation>
 <translation id="7659483790930268440">Indeks w tabeli adresów:</translation>
 <translation id="5494920125229734069">Wybierz wszystko</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8613144770663526433">Zaloguj się za pomocą portfela Brave</translation>
 <translation id="3696514931437952995">Logujesz się do <ph name="ORIGIN"/>. Portfel Brave udostępni adres Twojego portfela <ph name="ORIGIN"/>.</translation>
 <translation id="1028781062521375153">Zobacz szczegóły</translation>
@@ -1097,7 +1081,6 @@ Jeżeli nie zaakceptujesz tego żądania, połączenie z VPN nie zostanie ponown
 <translation id="1250335737108905610">Resetuj i wyczyść dane Leo</translation>
 <translation id="6165101586663336913">Zresetowanie asystenta Leo będzie wymagało wyrażenia zgody na korzystanie z Leo w przyszłości, a także spowoduje wyczyszczenie historii czatu. Wyczyszczenie historii czatu oznacza usunięcie wszystkich poprzednich rozmów z Leo. Tej czynności nie można cofnąć.</translation>
 <translation id="3692772534525889713">Połącz zakup w sklepie Play Store ze swoim kontem Brave, aby używać Brave Leo na innych urządzeniach.</translation>
-<translation id="73236265316873967">Leo Premium</translation>
 <translation id="1028627582482425924">Rok</translation>
 <translation id="2985392169397572983">Największe korzyści</translation>
 <translation id="1166682575529520472">Miesięcznie</translation>
@@ -1181,7 +1164,6 @@ Jeżeli nie zaakceptujesz tego żądania, połączenie z VPN nie zostanie ponown
 <translation id="5680678411439841197">miasto</translation>
 <translation id="8185518433273977704">miejscowość</translation>
 <translation id="4528386452965343421">prefektura</translation>
-<translation id="1589122976691792535">region</translation>
 <translation id="2221292964468054123">stan</translation>
 <translation id="3801482889636327368">organizacja</translation>
 <translation id="1425162721525518064">firma</translation>
@@ -1189,7 +1171,6 @@ Jeżeli nie zaakceptujesz tego żądania, połączenie z VPN nie zostanie ponown
 <translation id="5982110855572850497">etykieta</translation>
 <translation id="6848689413353508904">pole</translation>
 <translation id="1496514951988037011">nazwa użytkownika</translation>
-<translation id="6155129418108337061">login</translation>
 <translation id="4038523199754403233">identyfikator</translation>
 <translation id="901834265349196618">e-mail</translation>
 <translation id="3488199663160411179">imię</translation>

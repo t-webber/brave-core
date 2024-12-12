@@ -5690,6 +5690,7 @@ Zum Herauszoomen drücke Strg + Alt + „Helligkeit verringern“.</translatio
 <translation id="5097002363526479830">Verbinden mit dem Netzwerk "<ph name="NAME"/>" fehlgeschlagen: <ph name="DETAILS"/></translation>
 <translation id="5097306410549350357">Weitere Informationen zur Standortnutzung</translation>
 <translation id="5097349930204431044">Websites, die du besuchst, können feststellen, was dir gefällt, und dir dann Werbung vorschlagen, wenn du hinterher im Internet surfst</translation>
+<translation id="5097649414558628673">Tool: <ph name="PRINT_NAME"/></translation>
 <translation id="5097874180538493929">Automatisch klicken, wenn der Cursor stoppt</translation>
 <translation id="5098954716528935136">Bitte teile uns mit, warum du diese Datei trotzdem herunterladen möchtest</translation>
 <translation id="5098963855433723436">Wird in einer separaten Anwendung geöffnet</translation>
@@ -8917,6 +8918,7 @@ Du hast # weitere kompromittierte Passwörter. Der Brave Passwortmanager empfie
 <translation id="7487969577036436319">Es sind keine Komponenten installiert.</translation>
 <translation id="7488682689406685343">Diese Website verleitet dich möglicherweise dazu, aufdringliche Benachrichtigungen zuzulassen.</translation>
 <translation id="7489761397368794366">Über mein Gerät anrufen</translation>
+<translation id="4536111748245793305">Profil <ph name="VALUE"/></translation>
 <translation id="7490683549040131791">Restliche Passwörter prüfen</translation>
 <translation id="7491962110804786152">tab</translation>
 <translation id="7491963308094506985">{NUM_COOKIES,plural, =1{1 Cookie}other{{NUM_COOKIES} Cookies}}</translation>
@@ -10477,6 +10479,7 @@ Speichere deine Schlüsseldatei an einem sicheren Ort. Du benötigst die Datei, 
 <translation id="8613504115484579584">Anmeldemethoden</translation>
 <translation id="8613645710357126807">Keine Erweiterungen zulässig</translation>
 <translation id="8613786722548417558"><ph name="FILE_NAME"/> ist zu groß für eine Sicherheitsprüfung. Du kannst Dateien mit einer Größe von bis zu 50 MB öffnen.</translation>
+<translation id="611296870688433505">Anonyme App: <ph name="APP_NAME"/></translation>
 <translation id="8616441548384109662"><ph name="CONTACT_NAME"/> zu meinen Kontakten hinzufügen</translation>
 <translation id="8617601976406256334">Websitedaten und Berechtigungen für <ph name="SITE_NAME"/> löschen?</translation>
 <translation id="8617748779076050570">ID der sicheren Verbindung: <ph name="CONNECTION_ID"/></translation>
@@ -11460,14 +11463,12 @@ Informationen dazu, welche Daten von Brave erhoben werden und warum, findest du 
 <translation id="871606814707918245">Die meisten Nutzer blockieren Benachrichtigungen von dieser Website</translation>
 <translation id="8749961973669074620">Die meisten Profile blockieren die Freigabe des genauen Standorts für diese Seite</translation>
 <translation id="5053701565089446556">Private Erweiterung: <ph name="EXTENSION_NAME"/></translation>
-<translation id="611296870688433505">Private App: <ph name="APP_NAME"/></translation>
 <translation id="9048137919253433011">Privater Reiter: <ph name="TAB_NAME"/></translation>
 <translation id="5932571686022524861">Private Zurück-/Forwärts-Cache-Seite: <ph name="BACK_FORWARD_CACHE_INCOGNITO_PAGE_URL"/></translation>
 <translation id="1799432502220762862">Privater Subframe: <ph name="SUBFRAME_SITE"/></translation>
 <translation id="6666022817001893507">Privates Zurück-/Forwärts-Cache-Subframe: <ph name="BACK_FORWARD_CACHE_INCOGNITO_PAGE_URL"/></translation>
 <translation id="3193187622878830588">Inkognitoportal: <ph name="SUBFRAME_SITE"/></translation>
 <translation id="1389212885096774902">Privater Fenced Frame: <ph name="FENCEDFRAME_SITE"/></translation>
-<translation id="5097649414558628673">Tool: <ph name="PRINT_NAME"/></translation>
 <translation id="8808478386290700967">Webshop</translation>
 <translation id="8261378640211443080">Diese Erweiterung ist nicht im <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> aufgeführt und wurde möglicherweise ohne Ihr Wissen hinzugefügt.</translation>
 <translation id="3591188117102923109">Passen Sie Ihren Browser mit Erweiterungen aus dem <ph name="BEGIN_LINK1"/>Web Store<ph name="END_LINK1"/> noch weiter an</translation>
@@ -11527,7 +11528,6 @@ Informationen dazu, welche Daten von Brave erhoben werden und warum, findest du 
     }</translation>
 <translation id="4304377874648098617">Du bist im Privatmodus.</translation>
 <translation id="7171000599584840888">Profil hinzufügen ...</translation>
-<translation id="4536111748245793305">Profile <ph name="VALUE"/></translation>
 <translation id="5828545842856466741">Profil hinzufügen ...</translation>
 <translation id="2254158488150713536">Um fortzufahren, klicken Sie auf Ok. Klicken Sie dann auf "Profil hinzufügen", um ein neues Profil für Ihre E-Mail-Adresse zu erstellen.</translation>
 <translation id="1725743343613175327">Um fortzufahren, klicken Sie auf Ok. Klicken Sie dann auf "Profil hinzufügen", um ein neues Profil für Ihre E-Mail-Adresse bei <ph name="DOMAIN"/> zu erstellen.</translation>

@@ -16,7 +16,6 @@
 <translation id="8294286161128352783">בדף הכרטיסייה החדשה בלבד</translation>
 <translation id="6406506848690869874">סנכרון</translation>
 <translation id="1544192797660353713">ארנק</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8275068909952022340">עוד…</translation>
 <translation id="1990886731975529483">התקינו והפעילו את Google Widevine</translation>
 <translation id="8926389886865778422">אל תשאל שוב</translation>
@@ -39,8 +38,6 @@
 <translation id="8612763432858587652">צא מחלון פרטי</translation>
 <translation id="8760415064721320867">חלון גלישה פרטי עם תור</translation>
 <translation id="2055363275850890030">חלון פרטי</translation>
-<translation id="5410152065859052603">Tor</translation>
-<translation id="7897433216002294926">Tor <ph name="COUNT"/></translation>
 <translation id="1970435562892104727">זהו חלון פרטי עם Tor</translation>
 <translation id="1037341607922068025">פתח חלון פרטי עם Tor</translation>
 <translation id="607982085107926247">פתחו ב- Tor: <ph name="ADDRESS"/></translation>
@@ -85,9 +82,8 @@
 <translation id="5039804452771397117">זה בסדר</translation>
 <translation id="7053983685419859001">חסימה</translation>
 <translation id="1679356339067548863">עזור לשפר את יציבות המוצר של Brave על ידי שליחת דוחות אבחון אוטומטית כאשר הדפדפן Brave קורס או קופא.</translation>
-<translation id="660171790038410175"><ph name="BROWSER_NAME"/> quit unexpectedly.</translation>
 <translation id="1324417023773393937">דפדפן Brave</translation>
-<translation id="7276554663454265692">ניתן לשנות  <ph name="SETTING_TEXT"/> שוב בכל עת דרך הגדרות הדפדפן.</translation>
+<translation id="7276554663454265692">ניתן לשנות <ph name="SETTING_TEXT"/> שוב בכל עת דרך הגדרות הדפדפן.</translation>
 <translation id="6873781976650514089">הגדרה זו</translation>
 <translation id="4684633335323013758">האתר הזה ביקש את ה<ph name="PART_ONE"/>מיקום הכללי שלך<ph name="PART_ONE_END"/>. <ph name="PART_TWO"/>למד עוד<ph name="PART_TWO_END"/></translation>
 <translation id="8117247596084706514">אתר זה ביקש שלך <ph name="PART_ONE"/>מיקום מדויק<ph name="PART_ONE_END"/>. <ph name="PART_TWO"/>למד עוד<ph name="PART_TWO_END"/></translation>
@@ -132,9 +128,7 @@
 <translation id="4364336119478610380">אתה מרוויח בכל פעם שמופיעה התראה כזו על המסך שלך. אתה לא צריך ללחוץ כדי להרוויח.</translation>
 <translation id="5893017172751072752">אתה מרוויח כאשר מופיעה התראה של Brave Ads</translation>
 <translation id="3447730462826640312">אתה לא צריך ללחוץ כדי להרוויח, אבל לחץ אם אתה מעוניין!</translation>
-<translation id="4174337572777167894">Web Discovery Project</translation>
 <translation id="8659271182272561965">תרמו קצת לחיפוש אנונימי ונתוני גלישה כדי לשפר את Brave Search.</translation>
-<translation id="1516554614404600536">Brave Tooltip</translation>
 <translation id="4375473250631001683">הסתר סמל סרגל צד</translation>
 <translation id="2613033293035359003">הסתר סרגל צידי</translation>
 <translation id="4233010476457917696">הצג סרגל צידי</translation>
@@ -179,8 +173,6 @@
 <translation id="8731422418734770661">הגדר ארנקי קריפטו</translation>
 <translation id="8199661191594897555">התחל ארנקי קריפטו וטען מחדש</translation>
 <translation id="8428213095426709021">הגדרות</translation>
-<translation id="193368604235852218">Web3</translation>
-<translation id="4738583579791001083">Web3 Domains</translation>
 <translation id="5046066249040287308">שירותי ארנק Brave</translation>
 <translation id="4552520379838695057">מצטערים, עמוד זה חסר.</translation>
 <translation id="7299769530898469069">לא ניתן היה לטעון גרסה שמורה</translation>
@@ -208,12 +200,10 @@
 <translation id="5268098808165185458">מעתיק טקסט מתוך תמונה...</translation>
 <translation id="4046485130884276245">הועתק טקסט מתוך תמונה</translation>
 <translation id="3639779775496569782">העתקת הטקסט נכשלה</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
 <translation id="2506438154311626334">השתמש בפרוטוקול WireGuard ב-Brave VPN</translation>
 <translation id="8519170191215826548">לא ניתן לשנות הגדרה זו בזמן ש-Brave VPN מחובר</translation>
 <translation id="4235920711083356755">הצג את לחצן VPN</translation>
 <translation id="4070612712151038707">מציג את לחצן VPN בסרגל הכלים</translation>
-<translation id="7705524343798198388">VPN</translation>
 <translation id="8593397073757037946">הפעלה/השבתה של VPN</translation>
 <translation id="2345974803401546682">אודות Brave VPN</translation>
 <translation id="4378551569595875038">מתחבר...</translation>
@@ -242,7 +232,6 @@
 <translation id="6817415381278637662">הגדירו את Brave כדפדפן ברירת המחדל שלכם כדי לקבל את הגנת הפרטיות של Brave בכל דף אינטרנט שאתם פותחים.</translation>
 <translation id="7537601449003285327">הצמד לשורת המשימות</translation>
 <translation id="2307973900865360088">שמירה בעגינה</translation>
-<translation id="961012016278832836">Microsoft Edge Legacy</translation>
 <translation id="6436994631426134065">יובא מ-<ph name="BROWSER_NAME"/>.</translation>
 <translation id="1386966479075994683">הרחב כרטיסיות</translation>
 <translation id="480565261566115689">מזער כרטיסיות</translation>
@@ -361,7 +350,6 @@
 <translation id="7158817046543187970">סרגל הסימניות מוסתר בכל הדפים</translation>
 <translation id="3416468988018290825">הצג תמיד כתובות אתרים מלאות</translation>
 <translation id="5529693968082667490">הצג לחצן חיפוש כרטיסייה</translation>
-<translation id="1013121820689882118">Speedreader</translation>
 <translation id="2025435450953474282">מאמרים נטענים באופן אוטומטי במצב קריאה, כדי לחסוך לך זמן</translation>
 <translation id="7984721311211272523">השבת את פונקציית ההשתקה בסמלי רמקול כרטיסיות</translation>
 <translation id="832432428796481785">הצג כפתור הסרגל הצידי</translation>
@@ -475,8 +463,6 @@
 <translation id="6032912588568283682">מערכת קבצים</translation>
 <translation id="8016266267177410919">אחסון זמני</translation>
 <translation id="4175737294868205930">אחסון קבוע</translation>
-<translation id="1234808891666923653">Service Workers</translation>
-<translation id="3432762828853624962">Shared Workers</translation>
 <translation id="2927017729816812676">אחסון קובצי מטמון</translation>
 <translation id="1389601498324964367">אחסון מנוהל לפי מכסה</translation>
 <translation id="814018970995616154">בדיקת כתובות URL באמצעות רשימה של אתרים לא בטוחים ששמורה ב-Brave.</translation>
@@ -485,10 +471,8 @@
 <translation id="410351446219883937">הפעלה אוטומטית</translation>
 <translation id="3512883292907992390">אפשר לאתרים להפעיל סרטונים באופן אוטומטי</translation>
 <translation id="1876603079388924308">חסום אתרים מהפעלה אוטומטית של סרטונים</translation>
-<translation id="1448289340149908413">Ethereum</translation>
 <translation id="6583467242903731748">שאל מתי שאתר רוצה להיכנס ל-API של ספק Ethereum</translation>
 <translation id="7017590444693657895">חסום אתרים מלהיכנס ל-API של ספק Ethereum</translation>
-<translation id="5390923430722428146">Solana</translation>
 <translation id="4539536028173362640">שאל אותי כאשר אתר מבקש גישה אל API של ספק Solana</translation>
 <translation id="2777102601740875941">חסום אתרים מגישה אל API של ספק Solana</translation>
 <translation id="4206299587103092719">כניסה ב-Google</translation>
@@ -570,7 +554,6 @@
 <translation id="4860996720371753023">מחיקת החשבון מתבצעת...</translation>
 <translation id="4094590686212463338">לא ניתן היה להצטרף לשרשרת הסנכרון הזו. שרשרת הסנכרון נמחקה.</translation>
 <translation id="4908081302669157000">מספרי טלפון, דוא"ל וכתובות</translation>
-<translation id="294985549514492876">Web apps (PWAs)</translation>
 <translation id="924029461438529367">הצג הצעות חיפוש</translation>
 <translation id="3128251601544028053">כשאתה מקליד בשורת הכתובות או בתיבת החיפוש, Brave שולח את הטקסט שאתה מקליד אל ברירת המחדל של מנוע החיפוש שלך על מנת לקבל הצעות טובות יותר. תכונה זאת לא זמינה בחלונות פרטיים.</translation>
 <translation id="6285118765755298263">תצרו אינדקס למנועי חיפוש אחרים</translation>
@@ -640,7 +623,6 @@
 <translation id="1550684990179058322">אזהרה: שימוש חוזר בכתובת ארנק בפעילות בחלון פרטי יכול לאפשר לאתר לקשר פעילות בחלון פרטי לפעילות בחלון שאינו פרטי.</translation>
 <translation id="8239147115686034860">נעילה אוטומטית של Brave Wallet</translation>
 <translation id="414639769490080648">מספר הדקות להמתנה עד שה-Brave Wallet יינעל אוטומטית</translation>
-<translation id="856371974127598760">Wallet Networks</translation>
 <translation id="5975930666279943472">נקו מידע על עסקאות בארנק ומידע על חוסר</translation>
 <translation id="5693968582510626466">ניקוי עסקאות יכול להיות שימושי עבור מפתחים או בעת ניקוי מצב בשרת מקומי</translation>
 <translation id="2326850911705720398">אפס ונקה את נתוני הארנק</translation>

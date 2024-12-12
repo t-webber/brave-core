@@ -84,7 +84,6 @@
 <translation id="1118970888826017401">Engedélyezi a felső szintű átirányításkövető URL-ek megkerülésének támogatását.</translation>
 <translation id="94154759592465111">Scriptek blokkolása</translation>
 <translation id="7714773920987474116">Blokkolja a JavaScriptet (megzavarhatja az oldalak működését)</translation>
-<translation id="995782501881226248">YouTube</translation>
 <translation id="2233004324252915283">A YouTube ajánlott tartalmainak letiltása</translation>
 <translation id="1005372663692637999">Letiltja a Következő és a Záróképernyő elemeket a youtube.com webhelyen.</translation>
 <translation id="5152595963250646670">A YouTube zavaró elemeinek letiltása</translation>
@@ -115,7 +114,6 @@
 <translation id="9148058034647219655">Kilépés</translation>
 <translation id="8047754398610073499">Cookie-khoz való hozzájárulással kapcsolatos értesítések letiltása</translation>
 <translation id="2621893359845808115">Blokkolja a webhelyek felugró ablakait, amelyek a cookie-k elfogadásáról/elutasításáról kérdezik a webhelyükön.</translation>
-<translation id="7534079972563542000">Unstoppable Domains</translation>
 <translation id="6486983549008741930">Tartalomszűrés</translation>
 <translation id="2398817776566547893">Egyéni szűrők engedélyezése, amelyek regionális és nyelvi alapon szűrnek nyomkövetőket és kellemetlenségeket.</translation>
 <translation id="8578397014396032341">Tartalomszűrők</translation>
@@ -137,8 +135,6 @@
 <translation id="5132969826889386652">A módosítások sikeresen elmentve</translation>
 <translation id="4335929145384293789">Adja hozzá az Ön által létrehozott egyéni szűrőket a fenti mezőben, soronként egyet. Használja a következőt: <ph name="ADBLOCK_FILTER_SYNTAX"/>.</translation>
 <translation id="5023212862780303376">Adblock szűrő szintaxis</translation>
-<translation id="6513892817556267573">Ethereum Name Service</translation>
-<translation id="531747189990625622">Solana Name Service</translation>
 <translation id="3894650624018948468">Megoldási módszer</translation>
 <translation id="8410806609595910352">ENS láncon kívüli keresés</translation>
 <translation id="2356070529366658676">Kérdés</translation>
@@ -293,11 +289,6 @@
 <translation id="1202041222842415454">AUGUSZTUS</translation>
 <translation id="7317265217038113435">SZEPTEMBER</translation>
 <translation id="8220228041552340594">OKTÓBER</translation>
-<translation id="8280223431922155812">NOVEMBER</translation>
-<translation id="4254029385847607686">DECEMBER</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="1772301834467143364">Brave News</translation>
-<translation id="7732576862074737148">≈ <ph name="VALUE"/> USD</translation>
 <translation id="8428213095426709021">Beállítások</translation>
 <translation id="6020176662032623904">Ellenőrzött alkotó</translation>
 <translation id="2369994359029526515">Nem ellenőrzött alkotó</translation>
@@ -412,7 +403,6 @@ Biztosan végrehajtja a műveletet?</translation>
 <translation id="2975780980638932742">Megérkezett a Brave Ads!</translation>
 <translation id="7541582550122501404">Függő hozzájárulás</translation>
 <translation id="8520059774736886747">A tartalomkészítő <ph name="PUBLISHER_NAME"/> nemrég igazolta magát</translation>
-<translation id="1486343603936278248">token</translation>
 <translation id="7781069478569868053">Új lap</translation>
 <translation id="3171669670217312786">Háttérképek</translation>
 <translation id="8522669544471808198">Háttérképek megjelenítése</translation>
@@ -427,9 +417,6 @@ Biztosan végrehajtja a műveletet?</translation>
 <translation id="5308380583665731573">Csatlakozás</translation>
 <translation id="3368922792935385530">Kapcsolódva</translation>
 <translation id="6569877533335686968">Megerősítés</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
-<translation id="8533411848724153701">Gemini</translation>
-<translation id="6011108706830742093">ZebPay</translation>
 <translation id="1665118090708049096">Ugrás a(z) <ph name="WALLET_PROVIDER"/> fiókomra</translation>
 <translation id="4858636682078269312">Jelentkezzen be a(z) <ph name="WALLET_PROVIDER"/>-fiókjába</translation>
 <translation id="8874184842967597500">Nincs csatlakozva</translation>
@@ -517,7 +504,6 @@ Biztosan végrehajtja a műveletet?</translation>
 <translation id="6814582232712814369">Megtakarított idő</translation>
 <translation id="3694122362646626770">Weboldalak</translation>
 <translation id="2225863440766607138">Követők</translation>
-<translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
 <translation id="6737820963776538947">Az elmúlt 3 órában <ph name="COUNT"/> követőt és hirdetést blokkoltál a Brave böngészővel.</translation>
 <translation id="5005713153542196658">Böngéssze a legnagyobb híroldalakat akár 6x gyorsabban a Brave használatával és a követők és reklámok letiltásával.</translation>
 <translation id="7427567994475794038">Kapcsold be az adatvédelmi jelentéseket, hogy lásd mennyi hirdetés és követő lett letiltva az elmúlt 3 órában.</translation>
@@ -543,7 +529,7 @@ Biztosan végrehajtja a műveletet?</translation>
 <translation id="2956070106555335453">Összefoglalás</translation>
 <translation id="7465614181960492526">Szerezzen tokeneket és adjon vissza</translation>
 <translation id="2731539192954672606">Szerezzen tokeneket adatvédelmet tiszteletben tartó hirdetések nézésével, és támogassa automatikusan kedvenc oldalait és tartalomkészítőit.</translation>
-<translation id="631124996535890460">A folytatással elfogadja a  <ph name="TERMS_OF_SERVICE"/> és az <ph name="PRIVACY_POLICY"/>.</translation>
+<translation id="631124996535890460">A folytatással elfogadja a <ph name="TERMS_OF_SERVICE"/> és az <ph name="PRIVACY_POLICY"/>.</translation>
 <translation id="8804164990146287819">Adatvédelmi szabályzat</translation>
 <translation id="8363792084628930008">A jutalmak engedélyezésével elfogadja a következőket: <ph name="TERMS_OF_SERVICE"/> és <ph name="PRIVACY_POLICY"/>.</translation>
 <translation id="185034574799484512">Tegyünk egy gyors bemutatót</translation>
@@ -586,7 +572,6 @@ Biztosan végrehajtja a műveletet?</translation>
 <translation id="4954512758656527938">Alapértelmezett Ethereum pénztárca</translation>
 <translation id="7701023802820268122">Alapértelmezett Solana pénztárca</translation>
 <translation id="7701040980221191251">Nincs</translation>
-<translation id="8488282162676695335">Brave Wallet</translation>
 <translation id="8792121506918889955">WebRTC IP kezelési szabályzat</translation>
 <translation id="8798099450830957504">Alapértelmezett</translation>
 <translation id="1822560017823072927">Alapértelmezett publikus és privát interfészek</translation>
@@ -594,7 +579,6 @@ Biztosan végrehajtja a műveletet?</translation>
 <translation id="1689062823386843231">Proxy nélküli UDP letiltása</translation>
 <translation id="6915830896450988084">Küldés a következővel: <ph name="CUSTODIAN"/></translation>
 <translation id="1483493594462132177">Küldés</translation>
-<translation id="538450413584738399">Swap</translation>
 <translation id="4556086616242530072">Böngészőnatív.\nÖnálló letétkezelés.\nTöbbláncos.</translation>
 <translation id="7909462264772842773">Kezelje kriptóit és NFT-it. A Brave pénztárca támogatja az Ethereumot, EVM láncok, Solana, Filecoin és még több használatát.</translation>
 <translation id="165255193061631296">Új pénztárcára van szüksége?</translation>
@@ -783,7 +767,6 @@ other {<ph name="CITY_COUNT_MANY"/> város - }
 <translation id="2186011161688824046">Összeg + díj</translation>
 <translation id="1950052789869821983">Tranzakció</translation>
 <translation id="2304783958703511257">Speciális beállítások</translation>
-<translation id="4220062530885628403">Nonce</translation>
 <translation id="1924965034964265193">Egyéni nonce-érték megadása</translation>
 <translation id="5317780077021120954">Mentés</translation>
 <translation id="4979796155378508955">Előfordulhat, hogy a tranzakció nem terjeszthető a hálózatra, ha az egyéni nonce-érték nem sorozatos vagy más hibákat tartalmaz.</translation>
@@ -837,12 +820,12 @@ other {<ph name="CITY_COUNT_MANY"/> város - }
 <translation id="4351811224047421378">A pontosság tizedesjegyei</translation>
 <translation id="3494964159182650590">Jutalmak összefoglalója</translation>
 <translation id="590733288489975971">Jutalmak az Ads révén</translation>
+<translation id="1450735350187803276">Ebben a hónapban megtekintett hirdetések</translation>
 <translation id="1767561995429774671">Hozzájárulás</translation>
 <translation id="7335371657242627509">Automatikus Hozzájárulással</translation>
 <translation id="6727102863431372879">Beállítás</translation>
 <translation id="3074127054582480056">Figyelem</translation>
 <translation id="2280319752798785157">Havi hozzájárulás</translation>
-<translation id="3079421456571897484"><ph name="VALUE"/> BAT</translation>
 <translation id="1241283133946520352">Hálózatok</translation>
 <translation id="1062463687579789365">Pénztárca-hálózatok testreszabása</translation>
 <translation id="2512821599885971349">Hálózat hozzáadása</translation>
@@ -1034,7 +1017,6 @@ other {<ph name="CITY_COUNT_MANY"/> város - }
 <translation id="4530494379350999373">Eredet</translation>
 <translation id="6736243959894955139">Cím</translation>
 <translation id="3095940652251934233">Kivonat</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">Verzió</translation>
 <translation id="1313065465616456728">Kiállítva:</translation>
 <translation id="7902225556763260253">Lejárat ideje</translation>
@@ -1084,7 +1066,6 @@ other {<ph name="CITY_COUNT_MANY"/> város - }
 <translation id="7618347247876614969">Címkeresési tábla – fiók:</translation>
 <translation id="7659483790930268440">Címkeresési tábla – index:</translation>
 <translation id="5494920125229734069">Összes kiválasztása</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8613144770663526433">Bejelentkezés a Brave pénztárcával</translation>
 <translation id="3696514931437952995">A következőbe jelentkezik be: <ph name="ORIGIN"/>. A Brave pénztárca meg fogja osztani a pénztárcája címét a következővel: <ph name="ORIGIN"/>.</translation>
 <translation id="1028781062521375153">Részletek megtekintése</translation>

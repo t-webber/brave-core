@@ -84,7 +84,6 @@
 <translation id="1118970888826017401">En üst seviye yönlendirme izleme URL'lerini atlamak için desteği etkinleştir</translation>
 <translation id="94154759592465111">Komut Dizilerini Engelle</translation>
 <translation id="7714773920987474116">JavaScript'i engeller (sitelerde bozulma olabilir)</translation>
-<translation id="995782501881226248">YouTube</translation>
 <translation id="2233004324252915283">YouTube'da tavsiye edilen içerikleri engelle</translation>
 <translation id="1005372663692637999">youtube.com adresinde sonraki ve bitiş kartı öğelerini engeller.</translation>
 <translation id="5152595963250646670">Youtube'da dikkat dağıtıcı öğeleri engelle</translation>
@@ -115,7 +114,6 @@
 <translation id="9148058034647219655">Çıkış</translation>
 <translation id="8047754398610073499">Çerez onay bildirimlerini engelle</translation>
 <translation id="2621893359845808115">Sitelerinde çerezleri kabul etmenizi / reddetmenizi isteyen web site açılır pencerelerini engeller</translation>
-<translation id="7534079972563542000">Unstoppable Domains</translation>
 <translation id="6486983549008741930">İçerik Filtreleme</translation>
 <translation id="2398817776566547893">Bölge ve dile özgü izleyicileri ve Rahatsızlık verici şeyleri engelleyen özel filtreleri etkinleştirin</translation>
 <translation id="8578397014396032341">İçerik Filtreleri</translation>
@@ -137,8 +135,6 @@
 <translation id="5132969826889386652">Değişiklikler başarıyla kaydedildi</translation>
 <translation id="4335929145384293789">Oluşturduğunuz özel filtreleri yukarıdaki alana, her satıra bir tane gelecek şekilde ekleyin. <ph name="ADBLOCK_FILTER_SYNTAX"/> kullanmayı unutmayın.</translation>
 <translation id="5023212862780303376">Reklam engelleyici filtre sözdizimi</translation>
-<translation id="6513892817556267573">Ethereum Name Service</translation>
-<translation id="531747189990625622">Solana Name Service</translation>
 <translation id="3894650624018948468">Çözümleme Yöntemi</translation>
 <translation id="8410806609595910352">ENS offchain araması</translation>
 <translation id="2356070529366658676">Sor</translation>
@@ -216,7 +212,6 @@
 <translation id="49147335255967913">YouTube bağlantılarını Brave'de aç</translation>
 <translation id="4150201353443180367">Ekran</translation>
 <translation id="4275663329226226506">Medya</translation>
-<translation id="5950428831347558278">Widevine DRM</translation>
 <translation id="6716942308303275900">Tarayıcıda korumalı medya içeriklerini görüntülemek için Widevine dijital haklar yönetimini (DRM) kullanın.</translation>
 <translation id="255204363133978824">Korumalı içeriğe izin ver</translation>
 <translation id="4736073408974888559"><ph name="BEGIN_LINK"/>Widevine hakkında daha fazla bilgi edinin<ph name="END_LINK"/></translation>
@@ -270,7 +265,6 @@
 <translation id="19715420010996093">Brave Browser'ı seçin ve 'Her Zaman'a dokunun</translation>
 <translation id="3546439402724649282">Brave zaten varsayılan tarayıcınız olarak ayarlandı.</translation>
 <translation id="8389661903259423907">Zaten varsayılan bir tarayıcı ayarladınız. Varsayılan tarayıcıvıyı uygulama ayarlarınızda değiştirebilirsiniz.</translation>
-<translation id="1545749641540134597">Scan QR Code</translation>
 <translation id="5317781812114905957">Talimatlar</translation>
 <translation id="8515319483805157233">QR Koduyla arama yapmak için QR Kodunu çerçevenin ortasına hizalayın.</translation>
 <translation id="2734870894159530879">Bakiyenizi görmek için <ph name="WALLET_PROVIDER"/> giriş yapın.</translation>
@@ -282,7 +276,6 @@
 <translation id="745974920645827035">Daha iyi gizlilik ile bağımsız arama</translation>
 <translation id="2773167297815493692">Brave Arama, profilinizi çıkarmaz.</translation>
 <translation id="5240031343741051161">Brave Arama'yı deneyin</translation>
-<translation id="5234764350956374838">Dismiss</translation>
 <translation id="6639570430554986719">OCAK</translation>
 <translation id="1807352595146144483">ŞUBAT</translation>
 <translation id="2021828608097804771">MART</translation>
@@ -295,9 +288,7 @@
 <translation id="8220228041552340594">EKİM</translation>
 <translation id="8280223431922155812">KASIM</translation>
 <translation id="4254029385847607686">ARALIK</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
 <translation id="1772301834467143364">Brave Haberleri</translation>
-<translation id="7732576862074737148">≈ <ph name="VALUE"/> USD</translation>
 <translation id="8428213095426709021">Ayarlar</translation>
 <translation id="6020176662032623904">Doğrulanmış Oluşturucu</translation>
 <translation id="2369994359029526515">Doğrulanmamış Oluşturucu</translation>
@@ -413,7 +404,6 @@ Bunu yapmak istediğinizden emin misiniz?</translation>
 <translation id="2975780980638932742">Brave Ads geldi!</translation>
 <translation id="7541582550122501404">Beklenen Katkı</translation>
 <translation id="8520059774736886747">Oluşturucu <ph name="PUBLISHER_NAME"/> doğrulandı</translation>
-<translation id="1486343603936278248">token</translation>
 <translation id="7781069478569868053">Yeni Sekme Sayfası</translation>
 <translation id="3171669670217312786">Arka Plan Resimleri</translation>
 <translation id="8522669544471808198">Arka Plan Resimlerini Göster</translation>
@@ -421,16 +411,12 @@ Bunu yapmak istediğinizden emin misiniz?</translation>
 <translation id="8793108040181436796">Widget'lar</translation>
 <translation id="8643377320501056697">En Popüler Siteleri Göster</translation>
 <translation id="7275773481201277457">Brave İstatistiklerini Göster</translation>
-<translation id="8297488609722895137">Photo by <ph name="PHOTO_BY"/></translation>
 <translation id="2898634658146274982">Harici linkleri Brave'de aç</translation>
 <translation id="5616508928556767259">Diğer uygulamalardaki bağlantıları Brave web görünümünde açar. Not: Varsayılan tarayıcınız Brave olmalıdır.</translation>
 <translation id="2394961582378297792">Oturum kapatıldı</translation>
 <translation id="5308380583665731573">Bağlan</translation>
 <translation id="3368922792935385530">Bağlı</translation>
 <translation id="6569877533335686968">Onayla</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
-<translation id="8533411848724153701">Gemini</translation>
-<translation id="6011108706830742093">ZebPay</translation>
 <translation id="1665118090708049096"><ph name="WALLET_PROVIDER"/> hesabıma git</translation>
 <translation id="4858636682078269312"><ph name="WALLET_PROVIDER"/> hesabınıza giriş yapın</translation>
 <translation id="8874184842967597500">Bağlı değil</translation>
@@ -483,7 +469,6 @@ Bunu yapmak istediğinizden emin misiniz?</translation>
 <translation id="1209739344687072997">Arızalı bir siteyi bildir</translation>
 <translation id="8510478288840333677">Bu sitenin Kalkanlar'la düzgün çalışmadığını Brave geliştiricilerine bildirin:</translation>
 <translation id="1653405824851871276">Brave'in herkes için daha iyi olmasına yardımcı olduğunuz için teşekkürler. Bu rapor sadece bu siteyi düzeltmemiz için gereken bilgileri içerecektir. <ph name="LEARN_MORE"/></translation>
-<translation id="8759753423332885148">Learn more.</translation>
 <translation id="8740275226259417070">Bu bir hata sayfasıdır. Bozuk bir site olarak rapor edilemez.</translation>
 <translation id="721949491455392748">Mevcut sayfanın ekran görüntüsünü dahil et</translation>
 <translation id="8459191579769999214">Ekran görüntüsünü görüntüle</translation>
@@ -518,7 +503,6 @@ Bunu yapmak istediğinizden emin misiniz?</translation>
 <translation id="6814582232712814369">Tasarruf Edilen Zaman</translation>
 <translation id="3694122362646626770">Websiteleri</translation>
 <translation id="2225863440766607138">İzleyiciler</translation>
-<translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
 <translation id="6737820963776538947">Brave tarayıcı ile son 3 saatte <ph name="COUNT"/> izleyici &amp; reklamı engellediniz.</translation>
 <translation id="5005713153542196658">Brave'de, izleyicileri ve reklamları engelleyerek büyük haber sitelerinde 6 kata kadar daha hızlı şekilde gezinin.</translation>
 <translation id="7427567994475794038">Son 3 saatte kaç izleyicinin &amp; reklamın engellendiğini görmek için Gizlilik Raporları'nı açın.</translation>
@@ -652,7 +636,6 @@ Bunu yapmak istediğinizden emin misiniz?</translation>
 <translation id="574392208103952083">Orta</translation>
 <translation id="6697810017029555732">Eşleşti!</translation>
 <translation id="5981303441790732480">Mevcut cüzdanınızı içe aktarın</translation>
-<translation id="9111102763498581341">Unlock</translation>
 <translation id="6657585470893396449">Şifre</translation>
 <translation id="7553242001898162573">Parolanızı girin</translation>
 <translation id="5619264711680220002">Biyometrik kilit açma</translation>
@@ -838,12 +821,12 @@ Bu talebi kabul etmezseniz VPN yeniden bağlanmaz ve internet bağlantınız gü
 <translation id="4351811224047421378">Ondalık basamak sayısı</translation>
 <translation id="3494964159182650590">Ödüller Özeti</translation>
 <translation id="590733288489975971">Ads Ödülleri</translation>
+<translation id="1450735350187803276">Bu ay görülen reklamlar</translation>
 <translation id="1767561995429774671">Bağış yap</translation>
 <translation id="7335371657242627509">Otomatik Katkıya Dahil Et</translation>
 <translation id="6727102863431372879">Ayarla</translation>
 <translation id="3074127054582480056">Dikkat</translation>
 <translation id="2280319752798785157">Aylık Katkı</translation>
-<translation id="3079421456571897484"><ph name="VALUE"/> BAT</translation>
 <translation id="1241283133946520352">Ağlar</translation>
 <translation id="1062463687579789365">Cüzdan ağları kişiselleştirme</translation>
 <translation id="2512821599885971349">Ağ ekle</translation>
@@ -912,7 +895,6 @@ Bu talebi kabul etmezseniz VPN yeniden bağlanmaz ve internet bağlantınız gü
 <translation id="3340247553212049934">Ver</translation>
 <translation id="1982257600591932657">Ağ adı</translation>
 <translation id="5052727830821470769">Ağ URL'si</translation>
-<translation id="4822132585477111396">Chain ID</translation>
 <translation id="7131971375297699539">Para birimi sembolü</translation>
 <translation id="7982789257301363584">Ağ</translation>
 <translation id="6936860995365507185">Bu, bu ağın Brave Wallet içinde kullanılmasına izin verecektir. <ph name="CLICK_START"/>Daha fazla bilgi edin<ph name="CLICK_END"/>.</translation>
@@ -936,13 +918,11 @@ Bu talebi kabul etmezseniz VPN yeniden bağlanmaz ve internet bağlantınız gü
 <translation id="1371627247679035769">\n\n\n\n#### Brave sizi izlemez veya uygulamamızı nasıl kullandığınızı bilmez, bu nedenle VPN'i nasıl kurduğunuzu bilmiyoruz. Lütfen yaşadığınız sorunla ilgili bilgileri paylaşın, böylece sorunu olabilecek en kısa sürede çözmek için elimizden gelenin en iyisini yapalım. ####\n\n</translation>
 <translation id="3367162038532116157">\n\nVPN Ana Bilgisayar Adı\n <ph name="VALUE"/></translation>
 <translation id="6173438324126027458">\n\nAbonelik Türü\n <ph name="VALUE"/></translation>
-<translation id="1478875290576741766">\n\nPlaystore Token\n <ph name="VALUE"/></translation>
 <translation id="1403057798797848522">\n\nUygulama Sürümü\n <ph name="VALUE"/></translation>
 <translation id="2282835936933247509">\n\nZaman Dilimi\n</translation>
 <translation id="8107843365677337047">\n\nAğ Türü\n</translation>
 <translation id="5334952096674914470">\n\nHücresel Taşıyıcı\n</translation>
 <translation id="5393042357629679588">\n\nDiğer Sorun\n</translation>
-<translation id="8095666712177294104">\n\nPlatform\n</translation>
 <translation id="7080614857771109950">Ethereum blok zincirindeki EVM uyumlu varlıkları (ERC-20, ERC-721, ERC-1551, ERC-1155) destekler</translation>
 <translation id="6577166808959668729">Solana blok zincirindeki SPL uyumlu varlıkları destekler</translation>
 <translation id="4541295941776129088">FIL varlığını saklayın</translation>
@@ -980,7 +960,6 @@ Bu talebi kabul etmezseniz VPN yeniden bağlanmaz ve internet bağlantınız gü
 <translation id="3723411967118253067">Program Kimliği</translation>
 <translation id="4771176409524282426">Hesap oluştur</translation>
 <translation id="1755120947324658439">Devret</translation>
-<translation id="7588707273764747927">Transfer</translation>
 <translation id="5328067049293286962">Kaynak ile hesap oluştur</translation>
 <translation id="1512366326138054636">Tek seferlik hesabı yükselt</translation>
 <translation id="7042202638449257311">Tek seferlik hesaptan para çek</translation>
@@ -1032,10 +1011,8 @@ Bu talebi kabul etmezseniz VPN yeniden bağlanmaz ve internet bağlantınız gü
 <translation id="5802752138057422257">ASCII olmayan karakterler tespit edildi!</translation>
 <translation id="442709594176931966">Orijinal mesajı görüntüle</translation>
 <translation id="2239252396088484499">Mesajı ASCII kodlamasıyla görüntüle</translation>
-<translation id="4530494379350999373">Origin</translation>
 <translation id="6736243959894955139">Adres</translation>
 <translation id="3095940652251934233">Açıklama</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">Sürüm</translation>
 <translation id="1313065465616456728">Yayınlanma tarihi</translation>
 <translation id="7902225556763260253">Son kullanma tarihi</translation>
@@ -1085,7 +1062,6 @@ Bu talebi kabul etmezseniz VPN yeniden bağlanmaz ve internet bağlantınız gü
 <translation id="7618347247876614969">Adres Araması Tablo Hesabı:</translation>
 <translation id="7659483790930268440">Adres Araması Tablo Dizini:</translation>
 <translation id="5494920125229734069">Tümünü seç</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8613144770663526433">Brave Cüzdan'la oturum açın</translation>
 <translation id="3696514931437952995"><ph name="ORIGIN"/> adresinde oturum açıyorsunuz. Brave Cüzdanı, cüzdan adresinizi <ph name="ORIGIN"/> ile paylaşacak.</translation>
 <translation id="1028781062521375153">Detayları gör</translation>
@@ -1097,7 +1073,6 @@ Bu talebi kabul etmezseniz VPN yeniden bağlanmaz ve internet bağlantınız gü
 <translation id="1250335737108905610">Sıfırlayın ve Leo verilerini temizleyin</translation>
 <translation id="6165101586663336913">Leo asistanının sıfırlanması; ileride Leo'yu kullanmak istediğinizde asistanı kendiniz açmanızı gerektirecektir ve aynı zamanda sohbet geçmişinizi de temizleyecektir. Sohbet geçmişinin temizlenmesi, Leo ile yaptığınız önceki tüm görüşmeleri silecektir. Bu işlem geri alınamaz.</translation>
 <translation id="3692772534525889713">Brave Leo'yu diğer cihazlarda kullanmak için Play Store satın alma işleminizi Brave hesabınıza bağlayın.</translation>
-<translation id="73236265316873967">Leo Premium</translation>
 <translation id="1028627582482425924">Bir yıl</translation>
 <translation id="2985392169397572983">EN İYİ FİYAT</translation>
 <translation id="1166682575529520472">Aylık</translation>
@@ -1115,7 +1090,7 @@ Bu talebi kabul etmezseniz VPN yeniden bağlanmaz ve internet bağlantınız gü
 <translation id="1309636029062006520">Favori ses ve videolarınızdan bir oynatma listesi oluşturun ve dilediğiniz yerde, dilediğiniz zaman oynatın.</translation>
 <translation id="7899390017499980820">Oynatma Listesi Düğmesine Ekle</translation>
 <translation id="6901152954398668317">Medya eklemek veya kaldırmak üzere hızlı erişim için "Oynatma Listesine Ekle" düğmesini göster veya gizle.</translation>
-<translation id="5939518447894949180">Reset</translation>
+<translation id="5939518447894949180">Sıfırla</translation>
 <translation id="8199028711686989861">Çevrimdışı mod depolama alanı dahil olmak üzere tüm videoları Oynatma Listesinden kaldır.</translation>
 <translation id="4590997608186539865">Oynatma listesi</translation>
 <translation id="7525067979554623046">Yarat</translation>
@@ -1202,7 +1177,6 @@ Bu talebi kabul etmezseniz VPN yeniden bağlanmaz ve internet bağlantınız gü
 <translation id="5557821203571216370">apartman</translation>
 <translation id="8051552210542030943">pin kodu</translation>
 <translation id="5233247193491045452">posta kodu</translation>
-<translation id="3300502432153878901">zip</translation>
 <translation id="4130750466177569591">Kabul ediyorum</translation>
 <translation id="3251885322612056119">Güncellenmiş Hizmet Koşulları</translation>
 <translation id="4049035689681585146">Brave Ödülleri için Hizmet Koşullarını güncelledik. Bu güncellemeleri, koşullarımızı netleştirmek ve yeni özellikleri kapsadıklarından emin olmak için yaptık. Brave Ödüllerini kullanmaya devam ederseniz güncellenmiş Hizmet Koşullarını kabul etmiş olursunuz. Kabul etmiyorsanız, Brave Ödüllerini <ph name="RESET_START"/>sıfırlayabilirsiniz<ph name="RESET_END"/> ve bu özellik devre dışı kalır.</translation>

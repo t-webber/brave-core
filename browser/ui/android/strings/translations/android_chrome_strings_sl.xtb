@@ -744,6 +744,7 @@ V Brave Računu so morda druge vrste zgodovine brskanja, kot so iskanja in dejav
 <translation id="2782276843156939908">Seznami shranjenih gesel za Brave in <ph name="CHROME_CHANNEL"/> so bili združeni. Še vedno lahko samodejno izpolnite vsa shranjena gesla v obeh aplikacijah.</translation>
 <translation id="4616150815774728855">Odpri <ph name="WEBAPK_NAME"/></translation>
 <translation id="4619564267100705184">Potrditev identitete</translation>
+<translation id="2589970573128789862">Anonimni način v Chromu</translation>
 <translation id="4634124774493850572">Uporabi geslo</translation>
 <translation id="4640331037679501949">{NUM_PASSWORDS,plural, =1{1 ogroženo geslo}one{# ogroženo geslo}two{# ogroženi gesli}few{# ogrožena gesla}other{# ogroženih gesel}}</translation>
 <translation id="4642472735733036929">Sledenje cenam je ustavljeno</translation>
@@ -1810,7 +1811,6 @@ Nekatera spletna mesta se lahko na primer na zahtevo odzovejo tako, da prikažej
 <translation id="5722020415664104421">Blokiraj med uporabo zasebnega</translation>
 <translation id="8915136961932734044">Medtem ko so zasebna, spletna mesta ne morejo uporabljati vaših piškotkov za ogled vaše dejavnosti brskanja na različnih spletnih mestih, na primer za prilagajanje oglasov. Funkcije na nekaterih spletnih mestih lahko ne delujejo.</translation>
 <translation id="2213938739750509524">Ko se dotaknete ali vnesete v naslovno vrstico ali iskalno polje, boste videli predloge privzetega iskalnika. To je izklopljeno v zasebnem načinu.</translation>
-<translation id="2589970573128789862">Brave Private</translation>
 <translation id="5809126106485463836">Zasebni način vaše brskanje ohranja skrito pred drugimi osebami, ki uporabljajo vašo napravo</translation>
 <translation id="2633278372998075009">Zavihki brez beleženja zgodovine</translation>
 <translation id="8810805383611013660">Odpri v zavihku za način brez beleženja zgodovine</translation>

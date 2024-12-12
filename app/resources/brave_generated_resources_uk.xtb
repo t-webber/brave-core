@@ -16,7 +16,6 @@
 <translation id="8294286161128352783">Лише на сторінці нової вкладки</translation>
 <translation id="6406506848690869874">Синхронізація</translation>
 <translation id="1544192797660353713">Гаманець</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8275068909952022340">Більше…</translation>
 <translation id="1990886731975529483">Встановити й запустити Google Widevine</translation>
 <translation id="8926389886865778422">Не запитувати знову</translation>
@@ -40,19 +39,15 @@
 <translation id="8612763432858587652">Вийти з приватного вікна</translation>
 <translation id="8760415064721320867">Приватне вікно з Tor</translation>
 <translation id="2055363275850890030">Приватне вікно</translation>
-<translation id="5410152065859052603">Tor</translation>
-<translation id="7897433216002294926">Tor <ph name="COUNT"/></translation>
 <translation id="1970435562892104727">Це приватне вікно з Tor</translation>
 <translation id="1037341607922068025">Відкрити приватне вікно з Tor</translation>
 <translation id="607982085107926247">Відкрити в Tor: <ph name="ADDRESS"/></translation>
 <translation id="496896260395129787">Цей обліковий запис Brave Sync видалено на іншому пристрої. Якщо ви не хотіли вимикати синхронізацію, <ph name="LINK_TEXT"/></translation>
 <translation id="4353815407425635948"><ph name="INFOBAR_TEXT"/>повторно створіть обліковий запис</translation>
-<translation id="6965382102122355670">OK</translation>
 <translation id="3975865347033939965">Не вдалося запустити службу синхронізації. Синхронізація Brave не працює</translation>
 <translation id="4450893287417543264">Не показувати знову</translation>
 <translation id="4595286989346610620">Переглянути подробиці</translation>
 <translation id="8324318899000695659">Заблокувати елементи</translation>
-<translation id="7398397225367092613">.onion</translation>
 <translation id="2269780537090240241">Відкрити за допомогою адреси .onion: <ph name="ADDRESS"/></translation>
 <translation id="4759098689276706664">Вставити примусово</translation>
 <translation id="1434416574322382019">Нове приватне вікно з Tor</translation>
@@ -179,7 +174,6 @@
 <translation id="8731422418734770661">Налаштувати криптогаманці</translation>
 <translation id="8199661191594897555">Відкрийте криптогаманці та перезавантажте</translation>
 <translation id="8428213095426709021">Налаштування</translation>
-<translation id="193368604235852218">Web3</translation>
 <translation id="4738583579791001083">Домени Web3</translation>
 <translation id="5046066249040287308">Служба утиліти гаманця Brave</translation>
 <translation id="4552520379838695057">Вибачте, сторінка відсутня.</translation>
@@ -209,12 +203,10 @@
 <translation id="5268098808165185458">Копіювання тексту із зображення...</translation>
 <translation id="4046485130884276245">Текст із зображення скопійовано</translation>
 <translation id="3639779775496569782">Помилка копіювання тексту</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
 <translation id="2506438154311626334">Використовувати протокол WireGuard у Brave VPN</translation>
 <translation id="8519170191215826548">Цей параметр неможливо змінити під час активного з’єднання Brave VPN.</translation>
 <translation id="4235920711083356755">Показати кнопку VPN</translation>
 <translation id="4070612712151038707">Показує кнопку VPN на панелі інструментів</translation>
-<translation id="7705524343798198388">VPN</translation>
 <translation id="8593397073757037946">Увімкнути чи вимкнути VPN</translation>
 <translation id="2345974803401546682">Про Brave VPN</translation>
 <translation id="4378551569595875038">З’єднання…</translation>
@@ -362,7 +354,6 @@
 <translation id="7158817046543187970">Панель закладок прихована на всіх сторінках</translation>
 <translation id="3416468988018290825">Завжди показувати URL-адреси повністю</translation>
 <translation id="5529693968082667490">Показувати кнопку пошуку вкладок</translation>
-<translation id="1013121820689882118">Speedreader</translation>
 <translation id="2025435450953474282">Статті автоматично завантажуються в режимі читання, заощаджуючи ваш час</translation>
 <translation id="7984721311211272523">Вилучити функцію вимкнення звуку для піктограми гучномовця на вкладках</translation>
 <translation id="832432428796481785">Показати кнопку бічної панелі</translation>
@@ -377,7 +368,6 @@
 <translation id="7461924472993315131">Закріпити</translation>
 <translation id="735832369569964359">Натисніть «Закріпити» й підтвердьте цю дію в наступному сповіщенні Windows</translation>
 <translation id="7506648566440714944">Brave уже закріплено</translation>
-<translation id="239275665037555969">Dock</translation>
 <translation id="4057614912106618659">Brave уже закріплено в Dock</translation>
 <translation id="3195845168740336657">Налаштування щитів</translation>
 <translation id="754769152790647708">Стан щитів</translation>
@@ -476,8 +466,6 @@
 <translation id="6032912588568283682">Файлова система</translation>
 <translation id="8016266267177410919">Тимчасове сховище</translation>
 <translation id="4175737294868205930">Постійне сховище</translation>
-<translation id="1234808891666923653">Service Workers</translation>
-<translation id="3432762828853624962">Shared Workers</translation>
 <translation id="2927017729816812676">Сховище кеш</translation>
 <translation id="1389601498324964367">Сховище, кероване квотами</translation>
 <translation id="814018970995616154">Перевіряє URL-адреси за списком небезпечних сайтів, який зберігається у Brave.</translation>
@@ -486,10 +474,8 @@
 <translation id="410351446219883937">Автовідтворення</translation>
 <translation id="3512883292907992390">Дозволити сайтам автоматично відтворювати відео</translation>
 <translation id="1876603079388924308">Заборонити сайтам автоматично відтворювати відео</translation>
-<translation id="1448289340149908413">Ethereum</translation>
 <translation id="6583467242903731748">Запитувати, якщо сайт хоче отримати доступ до API провайдера Ethereum</translation>
 <translation id="7017590444693657895">Забороняти сайтам доступ до API провайдера Ethereum</translation>
-<translation id="5390923430722428146">Solana</translation>
 <translation id="4539536028173362640">Запитувати, якщо сайт хоче отримати доступ до API провайдера Solana</translation>
 <translation id="2777102601740875941">Забороняти сайтам доступ до API провайдера Solana</translation>
 <translation id="4206299587103092719">Вхід за допомогою Google</translation>

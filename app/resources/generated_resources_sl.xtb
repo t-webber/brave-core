@@ -5712,6 +5712,7 @@ Za pomanjšavo pritisnite Ctrl + Alt + tipko za zmanjšanje svetlosti.</translat
 <translation id="5097002363526479830">Povezava z omrežjem »<ph name="NAME"/>« ni uspela: <ph name="DETAILS"/></translation>
 <translation id="5097306410549350357">Preberite več o uporabi lokacije</translation>
 <translation id="5097349930204431044">Spletna mesta, ki jih obiščete, lahko določijo, kaj vam je všeč, in vam med nadaljevanjem brskanja nato predlagajo oglase.</translation>
+<translation id="5097649414558628673">Orodje: <ph name="PRINT_NAME"/></translation>
 <translation id="5097874180538493929">Samodejni klik, ko se kazalec ustavi</translation>
 <translation id="5098954716528935136">Povejte nam, zakaj vseeno prenašate to datoteko</translation>
 <translation id="5098963855433723436">Odpre se v ločeni aplikaciji</translation>
@@ -11504,7 +11505,6 @@ Dovoljenja, ki ste jih že odobrili spletnim mestom in aplikacijam, morda veljaj
 <translation id="6666022817001893507">Zasebni predpomnjeni podokvir nazaj/naprej:: <ph name="BACK_FORWARD_CACHE_INCOGNITO_PAGE_URL"/></translation>
 <translation id="3193187622878830588">Zasebni portal: <ph name="SUBFRAME_SITE"/></translation>
 <translation id="1389212885096774902">Zasebno ograjen okvir: <ph name="FENCEDFRAME_SITE"/></translation>
-<translation id="5097649414558628673">Tool: <ph name="PRINT_NAME"/></translation>
 <translation id="8808478386290700967">Spletna trgovina</translation>
 <translation id="8261378640211443080">Ta razširitev ni navedena v storitvi <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> in je bila morda dodana brez vaše vednosti.</translation>
 <translation id="3591188117102923109">Svoj brskalnik dodatno prilagodite z razširitvami iz <ph name="BEGIN_LINK1"/>Spletne trgovine<ph name="END_LINK1"/></translation>

@@ -1157,6 +1157,7 @@
 <translation id="2145951525304369600">スマートフォンに保存されているパスワードを使用するには、QR コードのサイトから iOS 版 Brave をダウンロードし、Brave アカウントにログインします。</translation>
 <translation id="1810366086647840386">イメージ サーバー</translation>
 <translation id="1810391395243432441">画面ロックを使用したパスワードの保護</translation>
+<translation id="1389212885096774902">シークレット モードのフェンス付きフレーム: <ph name="FENCEDFRAME_SITE"/></translation>
 <translation id="1812027881030482584"><ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/> を使用して <ph name="SITE_ETLD_PLUS_ONE"/> で続行できません</translation>
 <translation id="1812284620455788548"><ph name="TAB_NAME"/> をキャストしています</translation>
 <translation id="1813278315230285598">サービス</translation>
@@ -6041,6 +6042,7 @@
 <translation id="5368246151595623328"><ph name="DEVICE_NAME"/> から「<ph name="NETWORK_NAME"/>」を保存しました</translation>
 <translation id="5368441245151140827">この拡張機能には、サイト情報の読み取りや変更、バックグラウンドでの実行が許可されていません</translation>
 <translation id="5368720394188453070">スマートフォンがロックされています。ログインするにはロックを解除してしてください。</translation>
+<translation id="8712375231869053533">{0,plural, =1{シークレット}other{シークレット（#）}}</translation>
 <translation id="5369491905435686894">マウス アクセラレーションを有効にする</translation>
 <translation id="5369694795837229225">Linux 開発環境をセットアップする</translation>
 <translation id="5370819323174483825">再読み込み(&amp;R)</translation>
@@ -11457,7 +11459,6 @@
 <translation id="1799432502220762862">プライベートサブフレーム: <ph name="SUBFRAME_SITE"/></translation>
 <translation id="6666022817001893507">キャッシュ済みプライベート 戻る/進む サブフレーム: <ph name="BACK_FORWARD_CACHE_INCOGNITO_PAGE_URL"/></translation>
 <translation id="3193187622878830588">プライベートポータル: <ph name="SUBFRAME_SITE"/></translation>
-<translation id="1389212885096774902">Private Fenced Frame: <ph name="FENCEDFRAME_SITE"/></translation>
 <translation id="5097649414558628673">ツール: <ph name="PRINT_NAME"/></translation>
 <translation id="8808478386290700967">ウェブストア</translation>
 <translation id="8261378640211443080">この拡張機能は <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/>で提供されていません。知らないうちに追加された可能性があります。</translation>
@@ -11512,10 +11513,6 @@
         =1 {プライベート}
         other {# 個のプライベートウィンドウを開いています}
       }</translation>
-<translation id="8712375231869053533">{0, plural,
-      =1 {Private}
-      other {Private (#)}
-    }</translation>
 <translation id="4304377874648098617">これはプライベートウィンドウです</translation>
 <translation id="7171000599584840888">プロフィールを追加...</translation>
 <translation id="4536111748245793305">プロフィール <ph name="VALUE"/></translation>

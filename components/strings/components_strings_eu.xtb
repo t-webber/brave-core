@@ -211,6 +211,7 @@ Bestela, pribatutasun-ezarpenek blokeatu egingo dute baimen hori. Baimen honekin
 <translation id="1357195169723583938">gailua duela gutxi nork eta noiz erabili duen</translation>
 <translation id="1358187717814494928">Sortu kalkulu-orri bat</translation>
 <translation id="1359836962251219822">Sukaldea eta jangela</translation>
+<translation id="5497977785983089120">Modu pribatuan arakatzeko, ireki ezkutuko moduko leiho bat</translation>
 <translation id="1361528602584216624">Pix bakoitzeko muga: <ph name="TRANSACTION_LIMIT"/> BRL</translation>
 <translation id="1363015776076529485">Altuera osoan ireki dira ordainketarekin aurrera egiteko hauta daitezkeen ordainketa-metodoak.</translation>
 <translation id="1363028406613469049">Pista</translation>
@@ -864,10 +865,12 @@ Bestela, pribatutasun-ezarpenek blokeatu egingo dute baimen hori. Baimen honekin
 <translation id="2530042584066815841">Saguaren blokeoa eta erabilera</translation>
 <translation id="2533649878691950253">Webgune honi blokeatu egin zaio zure kokapen zehatza hautemateko aukera, normalean ez duzulako ematen</translation>
 <translation id="253493526287553278">Ikusi promozio-kodearen xehetasunak</translation>
+<translation id="40442660395682483">Modu pribatuan arakatzeko, ireki ezkutuko moduko fitxa bat</translation>
 <translation id="2535659140340599600">{COUNT,plural, =1{eta beste bat}other{eta beste #}}</translation>
 <translation id="2536110899380797252">Gehitu helbidea</translation>
 <translation id="3140033400151786080">Gailu hau erabiltzen duten beste pertsonek ez dituzte ikusiko zure jarduerak; beraz, modu pribatuagoan arakatu ahal izango duzu. Bisitatzen dituzun webguneek ez dituzte aldatuko zure datuak biltzeko modua eta erabiltzen dituzten zerbitzuak, Brave barne. Deskargak eta laster-markak gorde egingo dira.</translation>
 <translation id="2539524384386349900">Hauteman</translation>
+<translation id="375424491626359494">Ezkutuko moduko fitxetan ikusten dituzun orriak ez dira geratuko arakatzailearen historian, cookieen biltegian edo bilaketa-historian, ezkutuko moduko fitxa guztiak itxi ondoren. Deskargatutako fitxategiak edo sortutako laster-markak mantendu egingo dira.</translation>
 <translation id="2542106216580219892">Surfa</translation>
 <translation id="2544546346215446551">Administratzaileak gailua berrabiarazi du</translation>
 <translation id="2544644783021658368">Dokumentu bakarra</translation>
@@ -1010,6 +1013,7 @@ Bestela, pribatutasun-ezarpenek blokeatu egingo dute baimen hori. Baimen honekin
 <translation id="2859806420264540918">Webgune honek iragarki oztopatzaile edo iruzurrezkoak erakusten ditu.</translation>
 <translation id="28618371182701850">Ibilgailu elektrikoak</translation>
 <translation id="28761159517501904">Filmak</translation>
+<translation id="6934396344327597525">Ezkutuko modutik irtengo zara kanpoko aplikazio baten bidez ordaintzeko. Aurrera egin nahi duzu?</translation>
 <translation id="1117301625415017890"><ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT"/>, sakatu tabuladorea eta, ondoren, sakatu "Sartu" tekla Brave-ren ezarpenetara joan, eta Arakatze segurua eta beste gauza batzuk kudeatzeko</translation>
 <translation id="2878197950673342043">Horma-irudi tolestura</translation>
 <translation id="2878424575911748999">A1</translation>
@@ -1056,6 +1060,7 @@ Bestela, pribatutasun-ezarpenek blokeatu egingo dute baimen hori. Baimen honekin
 <translation id="2948083400971632585">Konexio jakin baterako konfiguratu den edozein proxy desgai dezakezu ezarpenen orrian.</translation>
 <translation id="3955566820843143766">Ez ikusiarena egin zaio makina ez dagoelako erregistratuta Brave arakatzailearen hodei-kudeaketa bidez.</translation>
 <translation id="2951588413176968965">Nire postontzia</translation>
+<translation id="4920329334239571966">Itxi ezkutuko moduko leiho guztiak</translation>
 <translation id="2952904171810469095">A2x5</translation>
 <translation id="2954624054936281172">Gordetako ordainketa-metodoen taula</translation>
 <translation id="295526156371527179">Abisua: gidalerro hau ez da bateratu hiztegi gisa gidalerroak zehaztu bezala, ez delako hiztegi bat.</translation>
@@ -1075,6 +1080,7 @@ Bestela, pribatutasun-ezarpenek blokeatu egingo dute baimen hori. Baimen honekin
 <translation id="2978824962390592855">Opera</translation>
 <translation id="2979424420072875974">Idazleentzako baliabideak</translation>
 <translation id="6172169316494799304">Txartel honen CVCa enkriptatuko da, eta Brave-ko kontuan gordeko, azkarrago ordaintzeko</translation>
+<translation id="1536541482996273580">Ireki ezkutuko moduko fitxa bat</translation>
 <translation id="2985398929374701810">Idatzi balio duen helbide bat</translation>
 <translation id="2987034854559945715">Ez dago bat datorren eginbiderik</translation>
 <translation id="714850411804317247">Brave-k mugatu egiten du arakatzen duzun bitartean webguneek zure jarraipena egiteko erabil dezaketen informazio kantitatea. Nahi duzun babes-maila aukeratzeko, ezarpenak alda ditzakezu.</translation>
@@ -1343,6 +1349,7 @@ Bestela, pribatutasun-ezarpenek blokeatu egingo dute baimen hori. Baimen honekin
 <translation id="346601286295919445">Kimika</translation>
 <translation id="3467081767799433066">Iragarkien neurketarekin, datu mota jakin batzuk soilik partekatzen dituzte webguneek elkarren artean iragarkien errendimendua neurtzeko; adibidez, webgune bat bisitatu ondoren erosketa bat egin duzun.</translation>
 <translation id="3468054117417088249">Une honetan irekita dago <ph name="TAB_SWITCH_SUFFIX"/>. Irekita dagoen fitxara joateko, sakatu tabulazio-tekla eta, ondoren, sakatu Sartu.</translation>
+<translation id="710569555563138608"><ph name="CLOSE_INCOGNITO_WINDOWS_FOCUSED_FRIENDLY_MATCH_TEXT"/>: sakatu tabuladorea eta, ondoren, sakatu "Sartu" tekla irekita dauden ezkutuko moduko leiho guztiak ixteko</translation>
 <translation id="3807334561457710885">Brave-n letrak pertsonalizatzeko botoia: aktiba ezazu letren tamaina eta tipoa pertsonalizatzeko Brave-n</translation>
 <translation id="3478033058537426179">Taldearen arabera</translation>
 <translation id="3479552764303398839">Orain ez</translation>
@@ -1471,6 +1478,7 @@ Bestela, pribatutasun-ezarpenek blokeatu egingo dute baimen hori. Baimen honekin
 <translation id="3676592649209844519">Gailu-identifikatzailea:</translation>
 <translation id="3677008721441257057">&lt;a href="#" id="dont-proceed-link"&gt;<ph name="DOMAIN"/>&lt;/a&gt; esan nahi al zenuen?</translation>
 <translation id="3678029195006412963">Ezin izan da sinatu eskaera</translation>
+<translation id="2388886110302389394">Ireki orria ezkutuko moduko leiho berri batean (Ktrl-Maius-N)</translation>
 <translation id="3678914302246317895">Idatzi <ph name="OTP_LENGTH"/> digituko egiaztapen-kodea</translation>
 <translation id="3681007416295224113">Ziurtagiriaren informazioa</translation>
 <translation id="2659564324969662497">Azkenaldiko arakatze-historian oinarrituta hartzen ditu kontuan Brave-k interesatzen zaizkizun gaiak.</translation>
@@ -1761,6 +1769,23 @@ Bestela, pribatutasun-ezarpenek blokeatu egingo dute baimen hori. Baimen honekin
 <translation id="4214357935346142455">saioa hasteko pantailaren profila</translation>
 <translation id="4219596572397833317">Ikusi prezioen historia eta beste datu batzuk modu burutsuagoan erosteko.</translation>
 <translation id="4220128509585149162">Hutsegiteak</translation>
+<translation id="1426112902089905810">&lt;h4&gt;1. urratsa: hasi saioa atarian&lt;/h4&gt;
+    &lt;p&gt;Kafetegi edo aireportuetako Wi-Fi sareetan, beharrezkoa izan ohi da saioa hastea. Saioa hasteko orria ikusteko, joan hau erabiltzen duen web-orri batera: &lt;code&gt;http://&lt;/code&gt;.&lt;/p&gt;
+    &lt;ol&gt;
+    &lt;li&gt;Joan hasieran &lt;code&gt;http://&lt;/code&gt; duen webguneren batera; esaterako, &lt;a href="http://example.com" target="_blank"&gt;http://example.com&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;Saioa hasteko orria irekiko da; hasi saioa bertan Internet erabiltzeko.&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;h4&gt;2. urratsa: ireki web-orria ezkutuko moduan (ordenagailuan bakarrik)&lt;/h4&gt;
+    &lt;p&gt;Ireki bisitatu nahi duzun web-orria ezkutuko leiho batean.&lt;/p&gt;
+    &lt;p&gt;Web-orria irekitzen bada, Brave-rako luzapen batek ez du ondo funtzionatzen. Errorea konpontzeko, desaktibatu luzapena.&lt;/p&gt;
+    &lt;h4&gt;3. urratsa: eguneratu sistema eragilea&lt;/h4&gt;
+    &lt;p&gt;Ziurtatu gailua eguneratuta dagoela.&lt;/p&gt;
+    &lt;h4&gt;4. urratsa: desaktibatu antibirusa aldi baterako&lt;/h4&gt;
+    &lt;p&gt;&gt;"HTTPS babesa" edo "HTTPS azterketak" eskaintzen dituen antibirus bat baduzu ikusiko duzu errore hori. Antibirusak ez dio uzten Brave-ri segurtasuna eskaintzen.&lt;/p&gt;
+    &lt;p&gt;Arazoa konpontzeko, desaktibatu antibirusa. Hura desaktibatu ondoren web-orriak funtzionatzen badu, desaktiba ezazu webgune seguruak erabiltzen dituzun bakoitzean.&lt;/p&gt;
+    &lt;p&gt;Gogoratu bukatzean antibirusa berriro ere aktibatzea.&lt;/p&gt;
+    &lt;h4&gt;5. urratsa: lortu laguntza gehiago&lt;/h4&gt;
+    &lt;p&gt;Oraindik ere errorea ikusten baduzu, jarri harremanetan webgunearen jabearekin.&lt;/p&gt;</translation>
 <translation id="4223404254440398437">Ukatu da mikrofonoa erabiltzeko baimena</translation>
 <translation id="4226937834893929579"><ph name="BEGIN_LINK"/>Exekutatu sare-diagnostikoak<ph name="END_LINK"/>.</translation>
 <translation id="422722221769396062">Jatetxeetarako etxez etxeko zerbitzuak</translation>
@@ -2021,6 +2046,7 @@ Bestela, pribatutasun-ezarpenek blokeatu egingo dute baimen hori. Baimen honekin
 <translation id="4744514002166662487">Sortu aurkezpen bat</translation>
 <translation id="4744603770635761495">Exekuta daitekeen fitxategiaren bide-izena</translation>
 <translation id="4744816391336495134">Zure hatz-marka erabil dezakezu gordetako pasahitz bat erabiltzen duzun bakoitzean zeu zarela egiaztatzeko</translation>
+<translation id="6417973700199526943">Ezkutuko moduan zaude</translation>
 <translation id="4750394297954878236">Iradokizunak</translation>
 <translation id="4750671009706599284">telefono hau</translation>
 <translation id="4750917950439032686">Informazioa (adibidez, pasahitzak edo kreditu-txartelen zenbakiak) eduki pribatu gisa bidaltzen da webgune honetara.</translation>
@@ -2252,6 +2278,7 @@ Bestela, pribatutasun-ezarpenek blokeatu egingo dute baimen hori. Baimen honekin
 <translation id="5148889558173091794">Zure erakundeak <ph name="BEGIN_BOLD"/><ph name="DOMAIN"/><ph name="END_BOLD"/> blokeatu du, gidalerroren bat urratzen duelako. <ph name="BEGIN_LEARN_MORE_LINK"/>Lortu abisu honi buruzko informazio gehiago<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="5157504274688344097">Merkatari eta saltoki handiak</translation>
 <translation id="5158275234811857234">Azala</translation>
+<translation id="4075123085690634698">Ireki orria ezkutuko moduko leiho berri batean (⇧⌘N)</translation>
 <translation id="5161334686036120870">Gaia:</translation>
 <translation id="5161506081086828129">9. pilatzailea</translation>
 <translation id="5164798890604758545">Testua idatzi da</translation>
@@ -2469,6 +2496,7 @@ Bestela, pribatutasun-ezarpenek blokeatu egingo dute baimen hori. Baimen honekin
 <translation id="5560088892362098740">Iraungitze-data</translation>
 <translation id="55635442646131152">Dokumentuaren eskema</translation>
 <translation id="1702142849385752335">Kokapena erabiltzeko, eman Brave-ri baimena hemen: <ph name="LINK"/>.</translation>
+<translation id="5395368798429603306">Ireki ezkutuko moduko fitxa bat</translation>
 <translation id="5565735124758917034">Aktibo</translation>
 <translation id="5569030697349375295">Kontabilitate- eta finantza-softwarea</translation>
 <translation id="5570825185877910964">Babestu kontua</translation>
@@ -3342,6 +3370,7 @@ Bestela, pribatutasun-ezarpenek blokeatu egingo dute baimen hori. Baimen honekin
 <translation id="7175401108899573750">{SHIPPING_OPTIONS,plural, =0{<ph name="SHIPPING_OPTION_PREVIEW"/>}=1{<ph name="SHIPPING_OPTION_PREVIEW"/> eta beste <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>}other{<ph name="SHIPPING_OPTION_PREVIEW"/> eta beste <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>}}</translation>
 <translation id="7179323680825933600">Gorde eta bete ordainketa-metodoak</translation>
 <translation id="7180611975245234373">Freskatu</translation>
+<translation id="5549245478906381817">Ireki ezkutuko moduko leiho bat</translation>
 <translation id="7182878459783632708">Ez da gidalerrorik ezarri</translation>
 <translation id="7184379626380324540">Etxeko altzariak</translation>
 <translation id="7186833457841277072">Gutun-azala (tinta-zurrusta)</translation>
@@ -3356,6 +3385,7 @@ Bestela, pribatutasun-ezarpenek blokeatu egingo dute baimen hori. Baimen honekin
 <translation id="7195432682252510959">Erabili kode hau ordainketa-prozesuan. Iraungitze-data: <ph name="DATE"/>.</translation>
 <translation id="7195852673246414183">Ezarpena aktibatu ondoren, itzuli fitxa honetara idazten hasteko</translation>
 <translation id="7199278868241956094">Oficio</translation>
+<translation id="7627159832789643445"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT"/>: sakatu tabuladorea eta, ondoren, sakatu "Sartu" ezkutuko moduko fitxa bat irekitzeko modu pribatuan arakatze aldera</translation>
 <translation id="2540471381262404386">Ezarri Brave sistemako arakatzaile lehenetsi gisa</translation>
 <translation id="7210863904660874423"><ph name="HOST_NAME"/> webguneak ez ditu gordetzen segurtasun-arauak.</translation>
 <translation id="7210993021468939304">Linux-en jarduera edukiontziaren barruan. Gainera, Linux-en aplikazioak instalatu eta abiaraz ditzakete edukiontziaren barruan.</translation>
@@ -3366,6 +3396,7 @@ Bestela, pribatutasun-ezarpenek blokeatu egingo dute baimen hori. Baimen honekin
 <translation id="7220786058474068424">Prozesatzen</translation>
 <translation id="7221855153210829124">Erakutsi jakinarazpenak</translation>
 <translation id="7221857374443660083">Bankuak zeu zarela berretsi nahi du</translation>
+<translation id="8326104954595890674">Ezkutuko moduko fitxa berria</translation>
 <translation id="7227293336683593977">Prezioen historia</translation>
 <translation id="7232352818707016189">Konparazio-taularako ekintza gehiago</translation>
 <translation id="7233592378249864828">Inprimatu berrespen-orria</translation>
@@ -3427,6 +3458,7 @@ Xehetasun gehiago:
 <translation id="7356678400607112844">Azken bisita</translation>
 <translation id="7359588939039777303">Blokeatu egin dira iragarkiak</translation>
 <translation id="7308957539693927108">Brave-k deskontu erabilgarriak aurkitzen dituenean, ordainketa-prozesuan erakutsiko ditu</translation>
+<translation id="8794378783472961468">Hala ere, ez zara ikusgaitz izango. Ezkutuko moduan egoteak ez du esan nahi zure enpresak, Interneteko zerbitzu-hornitzaileak edota bisitatzen dituzun webguneek arakatzen dituzun edukiak ikusi ezingo dituztenik.</translation>
 <translation id="5417725730200908216"><ph name="MANAGE_ADDRESSES_FOCUSED_FRIENDLY_MATCH_TEXT"/>, sakatu tabuladorea eta, ondoren, sakatu Sartu Brave-ren ezarpenetara joan, eta helbideak gehitzeko eta kudeatzeko</translation>
 <translation id="7365849542400970216">Gailuaren erabilera ezagutzeko baimena eman nahi diozu?</translation>
 <translation id="736592699917579616">Janaria</translation>
@@ -3621,6 +3653,7 @@ Xehetasun gehiago:
 <translation id="7661591871037163355">Konparazio-taula beteta dago. Zutabeak gehitzeko, kendu lehendik dauden batzuk.</translation>
 <translation id="7662298039739062396">Luzapen batek kontrolatzen du ezarpena</translation>
 <translation id="7663736086183791259">Ziurtagiria <ph name="CERTIFICATE_VALIDITY"/></translation>
+<translation id="1090109565956608696">Baimenik gabe ezkutuko moduan</translation>
 <translation id="7667346355482952095">Itzuli den gidalerro-tokena hutsik dago edo ez dator bat oraingo tokenarekin</translation>
 <translation id="7668654391829183341">Identifikatu ezin den gailua</translation>
 <translation id="7669320311687290322"><ph name="ITEM_LABEL"/>, <ph name="ITEMS_TOTAL"/> posiziotatik <ph name="ITEM_POSITION"/>garrena.</translation>
@@ -3777,6 +3810,7 @@ Xehetasun gehiago:
 <translation id="7952327717479677595">Bilatzaileak kudeatzeko botoia: aktiba ezazu bilatzaile eta webgune-bilaketa lehenetsiak kudeatzeko</translation>
 <translation id="7953236668995583915">Kargatu berriro orria ezarpen berriak webgune honetan aplikatzeko</translation>
 <translation id="7953569069500808819">Goiko ertza josita</translation>
+<translation id="8108906085747235166">Eska iezadazu zuzenean</translation>
 <translation id="7956713633345437162">Mugikorreko laster-markak</translation>
 <translation id="7961015016161918242">Inoiz ez</translation>
 <translation id="7962467575542381659">Plataformako makina</translation>
@@ -3925,6 +3959,7 @@ Xehetasun gehiago:
 <translation id="8232343881378637145">Plataformaren tenperatura</translation>
 <translation id="8233773197406738106">Fitxategia prestatzen</translation>
 <translation id="8238188918340945316">28 × 40 in</translation>
+<translation id="6957624206566198865">Ireki orria ezkutuko moduko fitxa berri batean</translation>
 <translation id="8241707690549784388">Bilatzen ari zaren orriak idatzi duzun informazioa erabili du. Orrira itzultzen bazara, baliteke egin dituzun ekintzak errepikatzea. Jarraitu nahi duzu?</translation>
 <translation id="8241712895048303527">Blokeatu webgune honetan</translation>
 <translation id="8242426110754782860">Egin aurrera</translation>
@@ -4199,6 +4234,7 @@ Xehetasun gehiago:
 <translation id="2184048523283917559">Webguneekin partekatzea nahi ez duzun gaiak blokea ditzakezu. Gainera, lau aste baino gehiago dituzten gaiak automatikoki ezabatzen ditu Brave-k. Lortu informazio gehiago</translation>
 <translation id="8734529307927223492"><ph name="MANAGER"/> domeinuak kudeatzen du <ph name="DEVICE_TYPE"/> gailua</translation>
 <translation id="8736059027199600831">76,2 × 101,6 cm (30 × 40 in)</translation>
+<translation id="1819281525814582516"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT"/>: sakatu tabuladorea ezkutuko moduko leiho bat irekitzeko, modu pribatuan arakatu ahal izateko</translation>
 <translation id="8737685506611670901">Ireki <ph name="PROTOCOL"/> estekak <ph name="REPLACED_HANDLER_TITLE"/> maneiatzailearen ordez</translation>
 <translation id="6326805297893828864">Konexio segurua ezartzeko, erlojuak behar bezala ezarrita egon behar du, webguneek beren burua identifikatzeko erabiltzen dituzten ziurtagiriek denboraldi jakinetarako bakarrik balio dutelako. Gailuaren erlojua oker ezarrita dagoenez, Brave-ek ezin ditu ziurtagiri horiek egiaztatu.</translation>
 <translation id="8740359287975076522">Ezin izan da aurkitu <ph name="HOST_NAME"/> webgunearen &lt;abbr id="dnsDefinition"&gt;DNS helbidea&lt;/abbr&gt;. Arazoaren diagnostikoa egiten ari gara.</translation>
@@ -4213,6 +4249,7 @@ Xehetasun gehiago:
 <translation id="8759274551635299824">Iraungita dago txartela</translation>
 <translation id="87601671197631245">Webgune honek segurtasun-konfigurazio zaharkitu bat erabiltzen du; ondorioz, baliteke zure informazioa (adibidez, pasahitzak, mezuak edo kreditu-txartelak) agerian uztea webgune honetara bidaltzen duzunean.</translation>
 <translation id="8763927697961133303">USB bidezko gailua</translation>
+<translation id="7736544743887840328">Itxi irekita dauden ezkutuko moduko leiho guztiak</translation>
 <translation id="8766943070169463815">Ordainketa seguruetarako kredentzialak autentifikatzeko orria irekita dago</translation>
 <translation id="8767765348545497220">Itxi laguntza-burbuila</translation>
 <translation id="7113746389006214608">Aurkezpen bat sortzeko botoia: aktiba ezazu Aurkezpenak zerbitzuan Brave-ko aurkezpen bat bizkor sortzeko</translation>
@@ -4241,6 +4278,7 @@ Xehetasun gehiago:
 <translation id="8814547618907885931">Ikusi konparazio-taula guztiak</translation>
 <translation id="8814707942599948500">C8 gutun-azala</translation>
 <translation id="7674607358106534914"><ph name="UPDATE_CHROME_FOCUSED_FRIENDLY_MATCH_TEXT"/>: sakatu tabuladorea eta, ondoren, sakatu Sartu Brave eguneratzeko Brave-ren ezarpenetan</translation>
+<translation id="8820817407110198400">Laster-markak</translation>
 <translation id="882338992931677877">Eskuzko erretilua</translation>
 <translation id="8830320733681313421">Hagaki postala (Japonia)</translation>
 <translation id="8830565333350631528">Ikusi fitxategiak <ph name="CLOUD_PROVIDER"/> zerbitzuan</translation>
@@ -4513,43 +4551,4 @@ Xehetasun gehiago:
 <translation id="995755448277384931">Gehitu IBANa</translation>
 <translation id="995782501881226248">YouTube</translation>
 <translation id="997986563973421916">Google Pay-tik dator</translation>
-<translation id="8820817407110198400">Laster-markak</translation>
-<translation id="8362995731815961365">Ordenagailua konfiguratu duen pertsonak webgune hau blokeatzea aukeratu du.</translation>
-<translation id="4075123085690634698">Ireki orria ezkutuko moduko leiho berri batean (⇧⌘N)</translation>
-<translation id="2388886110302389394">Ireki orria ezkutuko moduko leiho berri batean (Ktrl-Maius-N)</translation>
-<translation id="6957624206566198865">Ireki orria ezkutuko moduko fitxa berri batean</translation>
-<translation id="8326104954595890674">Ezkutuko moduko fitxa berria</translation>
-<translation id="6417973700199526943">Ezkutuko moduan zaude</translation>
-<translation id="375424491626359494">Ezkutuko moduko fitxetan ikusten dituzun orriak ez dira geratuko arakatzailearen historian, cookieen biltegian edo bilaketa-historian, ezkutuko moduko fitxa guztiak itxi ondoren. Deskargatutako fitxategiak edo sortutako laster-markak mantendu egingo dira.</translation>
-<translation id="8794378783472961468">Hala ere, ez zara ikusgaitz izango. Ezkutuko moduan egoteak ez du esan nahi zure enpresak, Interneteko zerbitzu-hornitzaileak edota bisitatzen dituzun webguneek arakatzen dituzun edukiak ikusi ezingo dituztenik.</translation>
-<translation id="5549245478906381817">Ireki ezkutuko moduko leiho bat</translation>
-<translation id="5497977785983089120">Modu pribatuan arakatzeko, ireki ezkutuko moduko leiho bat</translation>
-<translation id="1819281525814582516"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT"/>: sakatu tabuladorea ezkutuko moduko leiho bat irekitzeko, modu pribatuan arakatu ahal izateko</translation>
-<translation id="4920329334239571966">Itxi ezkutuko moduko leiho guztiak</translation>
-<translation id="7736544743887840328">Itxi irekita dauden ezkutuko moduko leiho guztiak</translation>
-<translation id="710569555563138608"><ph name="CLOSE_INCOGNITO_WINDOWS_FOCUSED_FRIENDLY_MATCH_TEXT"/>: sakatu tabuladorea eta, ondoren, sakatu "Sartu" tekla irekita dauden ezkutuko moduko leiho guztiak ixteko</translation>
-<translation id="5395368798429603306">Ireki ezkutuko moduko fitxa bat</translation>
-<translation id="40442660395682483">Modu pribatuan arakatzeko, ireki ezkutuko moduko fitxa bat</translation>
-<translation id="7627159832789643445"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT"/>: sakatu tabuladorea eta, ondoren, sakatu "Sartu" ezkutuko moduko fitxa bat irekitzeko modu pribatuan arakatze aldera</translation>
-<translation id="1536541482996273580">Ireki ezkutuko moduko fitxa bat</translation>
-<translation id="1090109565956608696">Baimenik gabe ezkutuko moduan</translation>
-<translation id="6934396344327597525">Ezkutuko modutik irtengo zara kanpoko aplikazio baten bidez ordaintzeko. Aurrera egin nahi duzu?</translation>
-<translation id="1426112902089905810">&lt;h4&gt;1. urratsa: hasi saioa atarian&lt;/h4&gt;
-    &lt;p&gt;Kafetegi edo aireportuetako Wi-Fi sareetan, beharrezkoa izan ohi da saioa hastea. Saioa hasteko orria ikusteko, joan hau erabiltzen duen web-orri batera: &lt;code&gt;http://&lt;/code&gt;.&lt;/p&gt;
-    &lt;ol&gt;
-    &lt;li&gt;Joan hasieran &lt;code&gt;http://&lt;/code&gt; duen webguneren batera; esaterako, &lt;a href="http://adibidea.com" target="_blank" rel="noopener noreferrer"&gt;http://adibidea.com&lt;/a&gt;.&lt;/li&gt;
-    &lt;li&gt;Saioa hasteko orria irekiko da; hasi saioa bertan Internet erabiltzeko.&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;h4&gt;2. urratsa: ireki web-orria ezkutuko moduan (ordenagailuan bakarrik)&lt;/h4&gt;
-    &lt;p&gt;Ireki bisitatu nahi duzun web-orria ezkutuko leiho batean.&lt;/p&gt;
-    &lt;p&gt;Web-orria irekitzen bada, Brave-rako luzapen batek ez du ondo funtzionatzen. Errorea konpontzeko, desaktibatu luzapena.&lt;/p&gt;
-    &lt;h4&gt;3. urratsa: eguneratu sistema eragilea&lt;/h4&gt;
-    &lt;p&gt;Ziurtatu gailua eguneratuta dagoela.&lt;/p&gt;
-    &lt;h4&gt;4. urratsa: desaktibatu antibirusa aldi baterako&lt;/h4&gt;
-    &lt;p&gt;&gt;"HTTPS babesa" edo "HTTPS azterketak" eskaintzen dituen antibirus bat baduzu ikusiko duzu errore hori. Antibirusak ez dio uzten Brave-ri segurtasuna eskaintzen.&lt;/p&gt;
-    &lt;p&gt;Arazoa konpontzeko, desaktibatu antibirusa. Hura desaktibatu ondoren web-orriak funtzionatzen badu, desaktiba ezazu webgune seguruak erabiltzen dituzun bakoitzean.&lt;/p&gt;
-    &lt;p&gt;Gogoratu bukatzean antibirusa berriro ere aktibatzea.&lt;/p&gt;
-    &lt;h4&gt;5. urratsa: lortu laguntza gehiago&lt;/h4&gt;
-    &lt;p&gt;Oraindik ere errorea ikusten baduzu, jarri harremanetan webgunearen jabearekin.&lt;/p&gt;</translation>
-<translation id="8108906085747235166">Eska iezadazu zuzenean</translation>
 </translationbundle>

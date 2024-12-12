@@ -6069,6 +6069,7 @@ Brug Ctrl+Alt+Lysstyrke ned for at zoome ud.</translation>
 <translation id="5368246151595623328">"<ph name="NETWORK_NAME"/>" blev gemt via <ph name="DEVICE_NAME"/></translation>
 <translation id="5368441245151140827">Denne udvidelse kan ikke læse og ændre websiteoplysninger eller køre i baggrunden</translation>
 <translation id="5368720394188453070">Din telefon er låst. Lås den op for at få adgang.</translation>
+<translation id="8712375231869053533">{0,plural, =1{Inkognito}one{Inkognito (#)}other{Inkognito (#)}}</translation>
 <translation id="5369491905435686894">Aktivér acceleration af mus</translation>
 <translation id="5369694795837229225">Konfigurer Linux-udviklingsmiljø</translation>
 <translation id="5370819323174483825">&amp;Opdater</translation>
@@ -11548,10 +11549,6 @@ De tilladelser, du har givet til websites og apps, gælder muligvis for denne ko
         =1 {Private}
         other {# åbne private vinduer}
       }</translation>
-<translation id="8712375231869053533">{0, plural,
-      =1 {Private}
-      other {Private (#)}
-    }</translation>
 <translation id="4304377874648098617">Dette er en Privat fane</translation>
 <translation id="7171000599584840888">Tilføj profil...</translation>
 <translation id="4536111748245793305">Profil <ph name="VALUE"/></translation>

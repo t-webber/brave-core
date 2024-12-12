@@ -137,8 +137,6 @@
 <translation id="5132969826889386652">পরিবর্তন সংরক্ষণ করা হয়েছে</translation>
 <translation id="4335929145384293789">উপরের ক্ষেত্রে প্রতি লাইনে একটি করে আপনার তৈরি করা কাস্টম ফিল্টার যোগ করুন। <ph name="ADBLOCK_FILTER_SYNTAX"/> ব্যবহার করতে ভুলবেন না।</translation>
 <translation id="5023212862780303376">অ্যাডব্লক ফিল্টার সিনট্যাক্স</translation>
-<translation id="6513892817556267573">Ethereum Name Service</translation>
-<translation id="531747189990625622">Solana Name Service</translation>
 <translation id="3894650624018948468">সমাধান পদ্ধতি</translation>
 <translation id="8410806609595910352">ENS অফচেইন লুকআপ</translation>
 <translation id="2356070529366658676">জিজ্ঞাসা করুন</translation>
@@ -216,7 +214,6 @@
 <translation id="49147335255967913">Brave-এ YouTube লিঙ্ক খুলুন</translation>
 <translation id="4150201353443180367">প্রদর্শন</translation>
 <translation id="4275663329226226506">মাধ্যম</translation>
-<translation id="5950428831347558278">Widevine DRM</translation>
 <translation id="6716942308303275900">ব্রাউজারে সুরক্ষিত মিডিয়ার বিষয়বস্তু দেখতে Widevine-এর ডিজিটাল অধিকারের ব্যবস্থাপনা (DRM) ব্যবহার করুন।</translation>
 <translation id="255204363133978824">সুরক্ষিত বিষয়বস্তুতে অনুমতি দিন</translation>
 <translation id="4736073408974888559"><ph name="BEGIN_LINK"/>Widevine সম্পর্কে আরও জানুন<ph name="END_LINK"/></translation>
@@ -295,9 +292,7 @@
 <translation id="8220228041552340594">অক্টোবর</translation>
 <translation id="8280223431922155812">নভেম্বর</translation>
 <translation id="4254029385847607686">ডিসেম্বর</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
 <translation id="1772301834467143364">Brave নিউজ</translation>
-<translation id="7732576862074737148">≈ <ph name="VALUE"/> USD</translation>
 <translation id="8428213095426709021">সেটিংস</translation>
 <translation id="6020176662032623904">যাচাই করা স্রষ্টা</translation>
 <translation id="2369994359029526515">অযাচাইকৃত স্রষ্টা</translation>
@@ -318,7 +313,6 @@
 <translation id="859506441384380749">এই কোডটি Brave-এর একটি অবমূল্যায়ন সংস্করণ দ্বারা তৈরি করা হয়েছে, অনুগ্রহ করে প্রথমে আপনার অন্য ডিভাইস আপগ্রেড করুন</translation>
 <translation id="3132642509209154999">এই কোডটির মেয়াদ শেষ হয়েছে। অনুগ্রহ করে আপনার অন্য ডিভাইসে একটি নতুন তৈরি করুন এবং আবার চেষ্টা করুন।</translation>
 <translation id="2859229680945501779">এই কোডটি অকার্যকর। আপনার ডিভাইসে সময় এবং টাইমজোন সঠিকভাবে সেট করা আছে কিনা অনুগ্রহ করে তা চেক করে নিন।</translation>
-<translation id="3149880132460839085">Brave Sync</translation>
 <translation id="348794064910142198">Brave সিঙ্ক ফিচারটি আপনাকে আপনার বিভিন্ন ডিভাইসে আপনার Brave ব্রাউজারের মধ্যে বুকমার্ক করা ডেটা ব্যক্তিগতভাবে সিঙ্ক করার অনুমতি দেয়।\n\nআপনার দ্বারা অন্য ডিভাইসে তৈরি করা সিঙ্ক চেইন থেকে পাওয়া কোডটি সহজেই স্ক্যান করুন। বা একটি নতুন সিঙ্ক চেইন শুরু করুন।</translation>
 <translation id="2614069607859982576">বিদ্যমান সিঙ্ক হওয়া ডিভাইসটি ব্যবহার করে Brave সেটিংস খুলুন এবং সেটিংস &gt; সিঙ্ক-এ নেভিগেট করুন। "নতুন ডিভাইস যোগ করুন" চয়ন করুন এবং স্ক্রিনে প্রদর্শিত QR কোডটি স্ক্যান করুন।</translation>
 <translation id="5241263629636958324">ক্লিপবোর্ডে কপি করা হয়েছে</translation>
@@ -427,9 +421,6 @@
 <translation id="5308380583665731573">সংযুক্ত করুন</translation>
 <translation id="3368922792935385530">সংযুক্ত</translation>
 <translation id="6569877533335686968">অনুমোদন করুন</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
-<translation id="8533411848724153701">Gemini</translation>
-<translation id="6011108706830742093">ZebPay</translation>
 <translation id="1665118090708049096">আমার <ph name="WALLET_PROVIDER"/> অ্যাকাউন্টে যান</translation>
 <translation id="4858636682078269312">আমার <ph name="WALLET_PROVIDER"/> অ্যাকাউন্টে লগ ইন করুন</translation>
 <translation id="8874184842967597500">সংযুক্ত নয়</translation>
@@ -517,7 +508,6 @@
 <translation id="6814582232712814369">সময় সংরক্ষণ করা হয়েছে</translation>
 <translation id="3694122362646626770">ওয়েবসাইটগুলি</translation>
 <translation id="2225863440766607138">ট্র্যাকারগুলি</translation>
-<translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
 <translation id="6737820963776538947">গত 3 ঘণ্টায় আপনি Brave ব্রাউজার দিয়ে <ph name="COUNT"/> ট্র্যাকারদের &amp; বিজ্ঞাপনগুলিকে ব্লক করেছেন।</translation>
 <translation id="5005713153542196658">ট্র্যাকার &amp; বিজ্ঞাপনগুলিকে ব্লক করে Brave-তে মুখ্য সংবাদের সাইটগুলিতে আরো 6x দ্রুত ব্রাউজ করুন।</translation>
 <translation id="7427567994475794038">গত 3 ঘণ্টায় কতগুলি ট্র্যাকার &amp; বিজ্ঞাপন ব্লক করা হয়েছে তা দেখতে গোপনীয়তার রিপোর্ট চালু করুন।</translation>
@@ -616,7 +606,6 @@
 <translation id="1577948178257477049"><ph name="ACCOUNT_NAME"/> অ্যাকাউন্ট <ph name="ACCOUNT_NUMBER"/></translation>
 <translation id="7665369617277396874">অ্যাকাউন্ট যোগ করুন</translation>
 <translation id="3448492834076427715">অ্যাকাউন্ট আপডেট করুন</translation>
-<translation id="5532363218245261099">#<ph name="NUMBER"/> <ph name="RECOVERY_PHRASE"/></translation>
 <translation id="1537175937716697987">আমার রিকভারি বাক্যাংশ দেখান</translation>
 <translation id="5303015959766064022">আমি পরে ব্যাক আপ রাখব</translation>
 <translation id="7345730059518887993">চলুন পরীক্ষা করি</translation>
@@ -837,12 +826,12 @@
 <translation id="4351811224047421378">নির্ভুলতার দশমিক</translation>
 <translation id="3494964159182650590">রিওয়ার্ডসের সংক্ষিপ্তসার</translation>
 <translation id="590733288489975971">বিজ্ঞাপন থেকে পুরস্কার</translation>
+<translation id="1450735350187803276">এই মাসে দেখা বিজ্ঞাপনগুলি</translation>
 <translation id="1767561995429774671">অবদান রাখুন</translation>
 <translation id="7335371657242627509">স্বয়ংক্রিয়ভাবে অবদান রাখায় অন্তর্ভুক্ত করুন</translation>
 <translation id="6727102863431372879">সেট করুন</translation>
 <translation id="3074127054582480056">মনোযোগ</translation>
 <translation id="2280319752798785157">মাসিক অবদান</translation>
-<translation id="3079421456571897484"><ph name="VALUE"/> BAT</translation>
 <translation id="1241283133946520352">নেটওয়ার্কসমূহ</translation>
 <translation id="1062463687579789365">ওয়ালেট নেটওয়ার্ক কাস্টমাইজেশন</translation>
 <translation id="2512821599885971349">নেটওয়ার্ক যোগ করুন</translation>
@@ -1034,7 +1023,6 @@
 <translation id="4530494379350999373">উৎস</translation>
 <translation id="6736243959894955139">ঠিকানা</translation>
 <translation id="3095940652251934233">স্টেটমেন্ট</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">সংস্করণ</translation>
 <translation id="1313065465616456728">ইস্যু করার সময়</translation>
 <translation id="7902225556763260253">মেয়াদ শেষ হওয়ার সময়</translation>

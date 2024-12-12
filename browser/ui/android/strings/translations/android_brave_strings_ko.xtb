@@ -84,7 +84,6 @@
 <translation id="1118970888826017401">최상위 리디렉션 추적 URL 바이패싱 지원 활성화.</translation>
 <translation id="94154759592465111">스크립트 차단</translation>
 <translation id="7714773920987474116">자바스크립트 차단(사이트가 깨질 수 있음)</translation>
-<translation id="995782501881226248">YouTube</translation>
 <translation id="2233004324252915283">YouTube 추천 콘텐츠 차단</translation>
 <translation id="1005372663692637999">youtube.com의 다음 콘텐츠와 엔드 카드 요소를 차단합니다.</translation>
 <translation id="5152595963250646670">YouTube의 거추장스러운 요소 차단</translation>
@@ -115,7 +114,6 @@
 <translation id="9148058034647219655">나가기</translation>
 <translation id="8047754398610073499">쿠키 동의 문구 차단</translation>
 <translation id="2621893359845808115">사이트에서 쿠키를 수락/거부하겠냐는 웹사이트 팝업 차단</translation>
-<translation id="7534079972563542000">Unstoppable Domains</translation>
 <translation id="6486983549008741930">콘텐츠 필터링</translation>
 <translation id="2398817776566547893">맞춤 필터를 활성화하여 특정 지역 및 언어에 특화된 트래커 등 짜증 나는 요소를 차단합니다.</translation>
 <translation id="8578397014396032341">콘텐츠 필터</translation>
@@ -137,8 +135,6 @@
 <translation id="5132969826889386652">변경사항 저장 성공</translation>
 <translation id="4335929145384293789">만드신 맞춤 필터를 위 필드 한 줄에 하나씩 추가하세요. 꼭 <ph name="ADBLOCK_FILTER_SYNTAX"/>을 사용하세요.</translation>
 <translation id="5023212862780303376">Adblock 필터 문법</translation>
-<translation id="6513892817556267573">Ethereum Name Service</translation>
-<translation id="531747189990625622">Solana Name Service</translation>
 <translation id="3894650624018948468">해결 방법</translation>
 <translation id="8410806609595910352">ENS 오프체인 룩업</translation>
 <translation id="2356070529366658676">확인</translation>
@@ -216,7 +212,6 @@
 <translation id="49147335255967913">Brave에서 YouTube 링크 열기</translation>
 <translation id="4150201353443180367">디스플레이</translation>
 <translation id="4275663329226226506">미디어</translation>
-<translation id="5950428831347558278">Widevine DRM</translation>
 <translation id="6716942308303275900">Widevine 디지털 권리 관리(DRM)를 사용하여 브라우저에서 보호된 미디어 콘텐츠를 볼 수 있습니다.</translation>
 <translation id="255204363133978824">보호된 콘텐츠 허용</translation>
 <translation id="4736073408974888559"><ph name="BEGIN_LINK"/>Widevine 자세히 알아보기<ph name="END_LINK"/></translation>
@@ -250,9 +245,7 @@
 <translation id="986879628471635371">온보딩 문제 해결</translation>
 <translation id="5808759341041733958">기본 검색 엔진 선택</translation>
 <translation id="1331593888918588693">나중에 언제든 앱 설정에서 기본 설정을 변경하실 수 있습니다.</translation>
-<translation id="5806601733251372221">Brave Shields</translation>
 <translation id="8537217141725709400"><ph name="TOKEN"/> 적립</translation>
-<translation id="3333887201479867589">Brave Rewards</translation>
 <translation id="5870330605209713397">개인 정보 보호 광고를 보셔서 기본적으로 선호하는 사이트와 작성자를 지원하세요.</translation>
 <translation id="5302488867897327287">획득 &amp; 기부를 누름으로써 다음에 동의함:</translation>
 <translation id="4281844954008187215">서비스 약관</translation>
@@ -295,9 +288,6 @@
 <translation id="8220228041552340594">10월</translation>
 <translation id="8280223431922155812">11월</translation>
 <translation id="4254029385847607686">12월</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="1772301834467143364">Brave News</translation>
-<translation id="7732576862074737148">≈ <ph name="VALUE"/> USD</translation>
 <translation id="8428213095426709021">설정</translation>
 <translation id="6020176662032623904">인증된 제작자</translation>
 <translation id="2369994359029526515">미인증 제작자</translation>
@@ -427,9 +417,7 @@
 <translation id="5308380583665731573">연결</translation>
 <translation id="3368922792935385530">연결됨</translation>
 <translation id="6569877533335686968">유지</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
 <translation id="8533411848724153701">제미니</translation>
-<translation id="6011108706830742093">ZebPay</translation>
 <translation id="1665118090708049096">내 <ph name="WALLET_PROVIDER"/> 계정으로 이동</translation>
 <translation id="4858636682078269312"><ph name="WALLET_PROVIDER"/> 계정에 로그인</translation>
 <translation id="8874184842967597500">연결되지 않음</translation>
@@ -517,7 +505,6 @@
 <translation id="6814582232712814369">시간 절약됨</translation>
 <translation id="3694122362646626770">웹사이트</translation>
 <translation id="2225863440766607138">추적기</translation>
-<translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
 <translation id="6737820963776538947">지난 3시간 동안 Brave 브라우저로 <ph name="COUNT"/> 추적기 및 광고를 차단하셨습니다.</translation>
 <translation id="5005713153542196658">Brave는 트래커 및 광고를 차단하여 주요 뉴스 사이트 탐색 속도를 최대 6배 높입니다.</translation>
 <translation id="7427567994475794038">개인정보 보고서를 켜서 지난 3시간 동안 얼마나 많은 추적기 및 광고가 차단되었는지 확인하십시오.</translation>
@@ -616,7 +603,6 @@
 <translation id="1577948178257477049"><ph name="ACCOUNT_NAME"/> 계정 <ph name="ACCOUNT_NUMBER"/></translation>
 <translation id="7665369617277396874">계정 추가</translation>
 <translation id="3448492834076427715">계정 업데이트</translation>
-<translation id="5532363218245261099">#<ph name="NUMBER"/> <ph name="RECOVERY_PHRASE"/></translation>
 <translation id="1537175937716697987">내 복구 문구 보기</translation>
 <translation id="5303015959766064022">나중에 백업</translation>
 <translation id="7345730059518887993">확인해보겠습니다</translation>
@@ -837,12 +823,12 @@
 <translation id="4351811224047421378">소수 자릿수</translation>
 <translation id="3494964159182650590">보상 요약</translation>
 <translation id="590733288489975971">광고로 받은 리워드</translation>
+<translation id="1450735350187803276">이번 달에 본 광고</translation>
 <translation id="1767561995429774671">기부</translation>
 <translation id="7335371657242627509">자동 기부에 포함하기</translation>
 <translation id="6727102863431372879">설정</translation>
 <translation id="3074127054582480056">주의</translation>
 <translation id="2280319752798785157">매월 기부금</translation>
-<translation id="3079421456571897484"><ph name="VALUE"/> BAT</translation>
 <translation id="1241283133946520352">네트워크</translation>
 <translation id="1062463687579789365">월렛 네트워크 사용자 지정</translation>
 <translation id="2512821599885971349">네트워크 추가</translation>
@@ -1034,7 +1020,6 @@
 <translation id="4530494379350999373">오리진</translation>
 <translation id="6736243959894955139">주소</translation>
 <translation id="3095940652251934233">문구</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">버전</translation>
 <translation id="1313065465616456728">발급 시각</translation>
 <translation id="7902225556763260253">만료 시간</translation>

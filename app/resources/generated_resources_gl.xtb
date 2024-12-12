@@ -6874,6 +6874,7 @@ Pódense aplicar a esta conta os permisos que xa lles concedeses aos sitios web 
 <translation id="5972826969634861500">Iniciar <ph name="PRODUCT_NAME"/></translation>
 <translation id="5973041996755340290"><ph name="CLIENT_NAME"/> comezou a depurar este navegador</translation>
 <translation id="5973605538625120605">Cambiar un PIN</translation>
+<translation id="433830930456392967">{COUNT,plural, =0{Abrir todos nunha ventá do modo de &amp;incógnito}=1{Abrir nunha ventá do modo de &amp;incógnito}other{Abrir todos ({COUNT}) nunha ventá do modo de &amp;incógnito}}</translation>
 <translation id="5975792506968920132">Porcentaxe de carga da batería</translation>
 <translation id="5976160379964388480">Outros</translation>
 <translation id="5976780232488408272">Obter axuda para escribir</translation>
@@ -8344,6 +8345,7 @@ Se máis tarde decides que non queres usar Voice Match, tan só tes que desactiv
 <translation id="7053983685419859001">Bloquear</translation>
 <translation id="7055152154916055070">Bloqueouse unha redirección:</translation>
 <translation id="7055451306017383754">Non se puido deixar de compartir este cartafol porque había unha aplicación usándoo. O cartafol deixará de compartirse cando Parallels Desktop se apague.</translation>
+<translation id="1860933807472918250">{0,plural, =1{Incógnito}other{# ventás do modo de incógnito abertas}}</translation>
 <translation id="7056526158851679338">&amp;Inspeccionar dispositivos</translation>
 <translation id="7057184853669165321">{NUM_MINS,plural, =1{A Comprobación de seguranza executouse hai 1 minuto}other{A Comprobación de seguranza executouse hai {NUM_MINS} minutos}}</translation>
 <translation id="70577934383983846">Usar este contrasinal en todos os teus dispositivos</translation>
@@ -11507,10 +11509,6 @@ Consulta máis información sobre os datos que recompila Brave e por que o fai e
 <translation id="3610571162330520499">Isto só se aplica ás ventás en modo incógnito</translation>
 <translation id="1961291599064731706">Os sitios que visitas non se gardan no modo de incógnito</translation>
 <translation id="8904732128631177813">Para borrar o historial de navegación no modo de incógnito do teu dispositivo, pecha todas as pestanas de incógnito</translation>
-<translation id="433830930456392967">{COUNT, plural,
-          =0 {Open all in &amp;Private window}
-          =1 {Open in &amp;Private window}
-          other {Open all ({COUNT}) in &amp;Private window}}</translation>
 <translation id="5464506165779993685">Abrir a ventá no modo de incógnito</translation>
 <translation id="4620367155626060530">Mostrar a barra de marcadores</translation>
 <translation id="3922078020116835067">&amp;Ocultar marcadores</translation>
@@ -11524,10 +11522,6 @@ Consulta máis información sobre os datos que recompila Brave e por que o fai e
 <translation id="7206817092936005164">Abrir todo en ventá no modo de incógnito</translation>
 <translation id="1342491857153455138">Abrir todo (<ph name="URL_COUNT"/>) en modo de incógnito</translation>
 <translation id="5556722972306334687">Abre nunha ventá no modo de incógnito</translation>
-<translation id="1860933807472918250">{0, plural,
-        =1 {Private}
-        other {# open Private windows}
-      }</translation>
 <translation id="8712375231869053533">{0,plural, =1{Incógnito}other{Incógnito (#)}}</translation>
 <translation id="4304377874648098617">Está no modo de incógnito</translation>
 <translation id="7171000599584840888">Engadir persoa...</translation>

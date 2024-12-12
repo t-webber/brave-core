@@ -84,7 +84,6 @@
 <translation id="1118970888826017401">برای دور زدن بالاترین درجه تغییر مسیر ردیابی نشانی‌های وب‌سایت پشتیبانی را فعال کنید.</translation>
 <translation id="94154759592465111">مسدود کردن اسکریپت</translation>
 <translation id="7714773920987474116">جاوااسکریپت را مسدود می‌کند (ممکن است منجر به خرابی سایت‌ها شود)</translation>
-<translation id="995782501881226248">YouTube</translation>
 <translation id="2233004324252915283">مسدود کردن محتوای توصیه‌شده YouTube</translation>
 <translation id="1005372663692637999">عناصر کارت پایان و قسمت بعدی را در youtube.com مسدود می‌کند.</translation>
 <translation id="5152595963250646670">مسدود کردن عناصر مزاحم YouTube</translation>
@@ -254,7 +253,7 @@
 <translation id="1331593888918588693">همیشه می‌توانید بعداً در تنظیمات برنامه، تنظیمات ترجیحی خود را تغییر دهید.</translation>
 <translation id="5806601733251372221">سپرهای ایمنی Brave</translation>
 <translation id="8537217141725709400">کسب کردن <ph name="TOKEN"/>s</translation>
-<translation id="3333887201479867589">Brave Rewards</translation>
+<translation id="3333887201479867589">پاداش‌های Brave</translation>
 <translation id="5870330605209713397">برای دیدن آگهی‌هایی که به حریم خصوصی احترام می‌گذارند و حمایت از سایت‌ها و پدیدآورندگان مورد علاقه‌تان به‌صورت پیش‌فرض.</translation>
 <translation id="5302488867897327287">با ضربه زدن روی «شروع»، با استفاده از Brave Rewards موافقت خود را اعلام می‌کنید با</translation>
 <translation id="4281844954008187215">شرایط خدمات</translation>
@@ -297,9 +296,6 @@
 <translation id="8220228041552340594">اکتبر</translation>
 <translation id="8280223431922155812">نوامبر</translation>
 <translation id="4254029385847607686">دسامبر</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="1772301834467143364">Brave News</translation>
-<translation id="7732576862074737148">≈ <ph name="VALUE"/> USD</translation>
 <translation id="8428213095426709021">تنظیمات</translation>
 <translation id="6020176662032623904">پدیدآورنده تأییدشده</translation>
 <translation id="2369994359029526515">پدیدآورنده تأییدنشده</translation>
@@ -320,7 +316,6 @@
 <translation id="859506441384380749">این کد توسط نسخه منسوخ Brave ایجاد شده است، لطفاً ابتدا دستگاه دیگر خود را ارتقا دهید</translation>
 <translation id="3132642509209154999">این کد منقضی شده است. لطفاً کد جدیدی در دستگاه دیگرتان ایجاد و دوباره تلاش کنید.</translation>
 <translation id="2859229680945501779">این کد نامعتبر است. لطفاً بررسی کنید که زمان و منطقه زمانی در دستگاهتان درست تنظیم شده باشند.</translation>
-<translation id="3149880132460839085">Brave Sync</translation>
 <translation id="348794064910142198">Brave Sync به شما امکان می‌دهد داده‌های نشانک‌ها را به‌طور خصوصی بین مرورگرهای Brave خود در دستگاه‌های مختلف خود همگام‌سازی کنید.\n\nکافی است کد را از زنجیره همگام‌سازی خود که در دستگاه دیگری ایجاد کرده‌اید اسکن کنید. یا یک زنجیره همگام‌سازی جدید راه‌اندازی کنید.</translation>
 <translation id="2614069607859982576">با استفاده از دستگاه همگام‌سازی‌شده موجود، «تنظیمات Brave» را باز کنید و به «تنظیمات &gt; همگام‌سازی» بروید. «افزودن دستگاه جدید» را انتخاب کنید و کد QR نمایش‌داده‌شده روی صفحه‌نمایش را اسکن کنید.</translation>
 <translation id="5241263629636958324">در کلیپ‌بورد کپی شد</translation>
@@ -428,10 +423,6 @@
 <translation id="2394961582378297792">خارج شد</translation>
 <translation id="5308380583665731573">اتصال</translation>
 <translation id="3368922792935385530">متصل</translation>
-<translation id="6569877533335686968">Uphold</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
-<translation id="8533411848724153701">Gemini</translation>
-<translation id="6011108706830742093">ZebPay</translation>
 <translation id="1665118090708049096">به حساب <ph name="WALLET_PROVIDER"/> من بروید</translation>
 <translation id="4858636682078269312">ورود به سیستم حساب <ph name="WALLET_PROVIDER"/></translation>
 <translation id="8874184842967597500">متصل نیست</translation>
@@ -519,7 +510,6 @@
 <translation id="6814582232712814369">در زمان صرفه‌جویی شد</translation>
 <translation id="3694122362646626770">وب‌سایت‌ها</translation>
 <translation id="2225863440766607138">ردیاب‌ها</translation>
-<translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
 <translation id="6737820963776538947">شما <ph name="COUNT"/> ردیاب‌ها و آگهی‌ها را در مرورگر Brave در طی 3 ساعت گذشته مسدود کرده‌اید.</translation>
 <translation id="5005713153542196658">با مسدود کردن ردیاب‌ها و آگهی‌ها، سایت‌های خبری اصلی در Brave را تا 6 برابر سریع‌تر مرور کنید.</translation>
 <translation id="7427567994475794038">برای مشاهده تعداد ردیاب‌ها و آگهی‌هایی که در طی 3 ساعت اخیر مسدود شده‌اند، گزارش‌های حریم‌خصوصی را روشن کنید.</translation>
@@ -596,7 +586,6 @@
 <translation id="1689062823386843231">غیرفعال کردن UDP غیرپروکسی</translation>
 <translation id="6915830896450988084">ارسال با <ph name="CUSTODIAN"/></translation>
 <translation id="1483493594462132177">ارسال</translation>
-<translation id="538450413584738399">Swap</translation>
 <translation id="4556086616242530072">بومی مرورگر\nخودامانی\nو جند‌زنجیره‌ای.</translation>
 <translation id="7909462264772842773">بر ارزهای دیجیتال و NFT خود تسلط پیدا کنید. کیف پول Brave دارای اتریوم، زنجیره‌های EVM،‏ Solana،‏ Filecoin و پلتفرم‌های اضافی است.</translation>
 <translation id="165255193061631296">به یک کیف پول جدید نیاز دارید؟</translation>
@@ -618,7 +607,6 @@
 <translation id="1577948178257477049">حساب <ph name="ACCOUNT_NAME"/> <ph name="ACCOUNT_NUMBER"/></translation>
 <translation id="7665369617277396874">افزودن حساب</translation>
 <translation id="3448492834076427715">به‌روز‌رسانی حساب</translation>
-<translation id="5532363218245261099">#<ph name="NUMBER"/> <ph name="RECOVERY_PHRASE"/></translation>
 <translation id="1537175937716697987">نمایش عبارت بازیابی من</translation>
 <translation id="5303015959766064022">بعداً نسخه پشتیبان تهیه می‌کنم</translation>
 <translation id="7345730059518887993">بیایید بررسی کنیم</translation>
@@ -839,12 +827,12 @@
 <translation id="4351811224047421378">اعشاریه‌های دقت</translation>
 <translation id="3494964159182650590">خلاصه پاداش‌ها</translation>
 <translation id="590733288489975971">پاداش‌های حاصل از آگهی‌ها</translation>
+<translation id="1450735350187803276">تبلیغاتی که این ماه مشاهده شده‌اند</translation>
 <translation id="1767561995429774671">کمک</translation>
 <translation id="7335371657242627509">لحاظ کردن در کمک خودکار</translation>
 <translation id="6727102863431372879">تنظیم</translation>
 <translation id="3074127054582480056">توجه</translation>
 <translation id="2280319752798785157">کمک ماهانه</translation>
-<translation id="3079421456571897484"><ph name="VALUE"/> BAT</translation>
 <translation id="1241283133946520352">شبکه ها</translation>
 <translation id="1062463687579789365">سفارشی‌سازی شبکه‌های کیف پول</translation>
 <translation id="2512821599885971349">افزودن شبکه</translation>
@@ -1036,7 +1024,6 @@
 <translation id="4530494379350999373">مبدأ</translation>
 <translation id="6736243959894955139">آدرس</translation>
 <translation id="3095940652251934233">صورتحساب</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">نسخه</translation>
 <translation id="1313065465616456728">صدور از</translation>
 <translation id="7902225556763260253">زمان انقضا</translation>
@@ -1086,7 +1073,6 @@
 <translation id="7618347247876614969">حساب جدول جستجوی نشانی:</translation>
 <translation id="7659483790930268440">شاخص جدول جستجوی نشانی:</translation>
 <translation id="5494920125229734069">انتخاب همه</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8613144770663526433">ورورد از طریق کیف پول Brave</translation>
 <translation id="3696514931437952995">شما در حال وارد شدن به <ph name="ORIGIN"/> هستید. کیف پول Brave آدرس کیف پول شما را از طریق <ph name="ORIGIN"/> به اشتراک می‌گذارد.</translation>
 <translation id="1028781062521375153">مشاهده جزئیات</translation>

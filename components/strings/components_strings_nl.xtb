@@ -4236,7 +4236,6 @@ Aanvullende informatie:
 <translation id="8830320733681313421">Hagaki (briefkaart)</translation>
 <translation id="8830565333350631528">Bestanden bekijken in <ph name="CLOUD_PROVIDER"/></translation>
 <translation id="8833007469711500369">Wasmachines en drogers</translation>
-<translation id="8169715168668926832">Je ziet deze waarschuwing omdat deze site geen HTTPS ondersteunt en je in de incognitomodus zit. <ph name="BEGIN_LEARN_MORE_LINK"/>Meer informatie over deze waarschuwing<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="8837398923270275776">Sciencefiction- en fantasyseries</translation>
 <translation id="883848425547221593">Andere bookmarks</translation>
 <translation id="8842351563145134519">Lijst met betaalmethoden die kunnen worden ingevuld via aanraking, is op halve hoogte geopend.</translation>
@@ -4548,6 +4547,7 @@ Aanvullende informatie:
     &lt;p&gt;Onthoud om je antivirusprogramma weer in te schakelen als je klaar bent.&lt;/p&gt;
     &lt;h4&gt;Stap 5: Verkrijg extra hulp&lt;/h4&gt;
     &lt;p&gt;Als je deze fout nog steeds ziet, neem dan contact op met de eigenaar van de website.&lt;/p&gt;</translation>
+<translation id="8169715168668926832">Je ziet deze waarschuwing omdat deze site geen HTTPS ondersteunt en je in de incognitomodus zit. <ph name="BEGIN_LEARN_MORE_LINK"/>Meer informatie over deze waarschuwing<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="8108906085747235166">Vragen in profiel</translation>
 <translation id="317153861231603077">In profiel vragen</translation>
 <translation id="2977472760057091832">Link in privévenster openen</translation>

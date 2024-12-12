@@ -8,7 +8,6 @@
 <translation id="2524310205387880526">பிரேவை மதிப்பிடு</translation>
 <translation id="1420756770787071946">இப்படைப்பாரை ஆதரவளி</translation>
 <translation id="7307834434086582547">பிரேவ் கவசங்களை இயக்கு/முடக்கு</translation>
-<translation id="995782501881226248">YouTube</translation>
 <translation id="6052725679982758334">சமூக ஊடகம் தடுத்தல்</translation>
 <translation id="7498695072878479744">கூகிள் உள்நுழைவு பொத்தான்களை மூன்றாம் தரப்பு தளங்களில் அனுமதி</translation>
 <translation id="863171915776379000">முகநூல் உள்நுழைவுகள் மற்றும் உட்பதித்த இடுகைகளை அனுமதி</translation>
@@ -131,6 +130,7 @@
 <translation id="597993392929850353">பிரேவ் உரிமம்</translation>
 <translation id="6336451774241870485">புது மறைநிலைத் தாவல்</translation>
 <translation id="6199596294742117349">இது மறைநிலைத் தாவல்</translation>
+<translation id="4973347371961481083">பங்களிப்புகள்</translation>
 <translation id="7781069478569868053">புது தாவல் பக்கம்</translation>
 <translation id="8522669544471808198">பின்னணி படங்களை காட்டு</translation>
 <translation id="3870475560794762985">ஆதரவளிக்கப்பட்ட படங்களை காட்டு</translation>
@@ -231,6 +231,7 @@
 <translation id="7791543448312431591">சேர்</translation>
 <translation id="2653659639078652383">சமர்ப்பி</translation>
 <translation id="5233638681132016545">புதிய தாவல்</translation>
+<translation id="8030169304546394654">துண்டிக்கப்பட்டது</translation>
 <translation id="2391762656119864333">திரும்பப்பெறு</translation>
 <translation id="3950820424414687140">உள்நுழைக</translation>
 <translation id="385051799172605136">முந்தைய பக்கம்</translation>
@@ -251,10 +252,10 @@
 <translation id="703185154752046151">நிரல் பலகை முகப்புத்திரையில் சேர்க்கப்பட்டது</translation>
 <translation id="4530494379350999373">அசல்</translation>
 <translation id="6736243959894955139">முகவரி</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">பதிப்பு</translation>
 <translation id="3435896845095436175">இயக்கு</translation>
 <translation id="5494920125229734069">எல்லாவற்றையும் தேர்ந்தெடு</translation>
+<translation id="4109670531935487117">முகவரிப்பட்டையில் தன்னிரப்புப் பரிந்துரைகளைக் காட்டு</translation>
 <translation id="1166682575529520472">மாதாந்திர</translation>
 <translation id="4850886885716139402">காட்சி</translation>
 <translation id="5939518447894949180">மீட்டமை</translation>

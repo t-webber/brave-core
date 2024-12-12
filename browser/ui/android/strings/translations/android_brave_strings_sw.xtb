@@ -84,7 +84,6 @@
 <translation id="1118970888826017401">Wezesha usaidizi kwa kuvuka URL za kufuatilia uelekezaji upya wa ngazi ya juu.</translation>
 <translation id="94154759592465111">Zuia Maandishi</translation>
 <translation id="7714773920987474116">Huzuia JavaScript (inaweza kuharibu utendakazi wa tovuti)</translation>
-<translation id="995782501881226248">YouTube</translation>
 <translation id="2233004324252915283">Zuia maudhui yanayopendekezwa na YouTube</translation>
 <translation id="1005372663692637999">Huzuia vipengele vya video inayofuata na kadi ya mwishoni kwenye youtube.com.</translation>
 <translation id="5152595963250646670">Zuia vipengele vya YouTube vinavyokatiza</translation>
@@ -137,8 +136,7 @@
 <translation id="5132969826889386652">Umefaulu kufanya mabadiliko</translation>
 <translation id="4335929145384293789">Ongeza vichujio maalum ambavyo umeunda, kimoja kwa kila mstari, katika sehemu iliyo hapo juu. Hakikisha kuwa unatumia <ph name="ADBLOCK_FILTER_SYNTAX"/>.</translation>
 <translation id="5023212862780303376">Sintaksia ya kichujio cha Adblock</translation>
-<translation id="6513892817556267573">Ethereum Name Service</translation>
-<translation id="531747189990625622">Solana Name Service</translation>
+<translation id="531747189990625622">Huduma ya Majina ya Solana</translation>
 <translation id="3894650624018948468">Mbinu ya Kusuluhisha</translation>
 <translation id="8410806609595910352">Utafutaji wa nje ya mtungo wa ENS</translation>
 <translation id="2356070529366658676">Uliza</translation>
@@ -216,7 +214,6 @@
 <translation id="49147335255967913">Fungua viungo vya YouTube kwenye Brave</translation>
 <translation id="4150201353443180367">Onyesho</translation>
 <translation id="4275663329226226506">Vyombo vya Habari</translation>
-<translation id="5950428831347558278">Widevine DRM</translation>
 <translation id="6716942308303275900">Tumia kipengele cha udhibiti wa haki za kidijitali cha Widevine (DRM) ili kutazama maudhui ya midia yanayolindwa kwenye kivinjari.</translation>
 <translation id="255204363133978824">Ruhusu maudhui yanayolindwa</translation>
 <translation id="4736073408974888559"><ph name="BEGIN_LINK"/>Pata habari zaidi kuhusu Widevine<ph name="END_LINK"/></translation>
@@ -252,7 +249,7 @@
 <translation id="1331593888918588693">Unaweza kubadilisha mapendeleo yako baadaye wakati wowote katika mipangilio.</translation>
 <translation id="5806601733251372221">Vilinzi vya Brave</translation>
 <translation id="8537217141725709400">Pata <ph name="TOKEN"/>s</translation>
-<translation id="3333887201479867589">Brave Rewards</translation>
+<translation id="3333887201479867589">Thawabu za Brave</translation>
 <translation id="5870330605209713397">kwa kutazama matangazo ya yanayoheshimu faragha na usaidizi wa tovuti zako uzipendazo na waundaji kwa chaguomsingi.</translation>
 <translation id="5302488867897327287">Kwa kugusa Anza kutumia Zawadi za Brave, unakubali</translation>
 <translation id="4281844954008187215">Masharti ya Huduma</translation>
@@ -295,13 +292,11 @@
 <translation id="8220228041552340594">OKTOBA</translation>
 <translation id="8280223431922155812">NOVEMBA</translation>
 <translation id="4254029385847607686">DISEMBA</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
 <translation id="1772301834467143364">Taarifa za Brave</translation>
 <translation id="7732576862074737148">≈ <ph name="VALUE"/> Dola za Marekani</translation>
 <translation id="8428213095426709021">Mipangilio</translation>
 <translation id="6020176662032623904">Mbunifu Aliyethibitishwa</translation>
 <translation id="2369994359029526515">Mbunifu Asiyethibitishwa</translation>
-<translation id="6112368337882254910">Auto-Contribute</translation>
 <translation id="1848737374354350807">Salio</translation>
 <translation id="4781696154289395607">Umechangia <ph name="BAT_VALUE"/> BAT.</translation>
 <translation id="2429828319207652823">Kulikuwa na tatizo kuchakatata mchango wako.</translation>
@@ -427,9 +422,6 @@ Je, una uhakika unataka kufanya hili?</translation>
 <translation id="5308380583665731573">Unganisha</translation>
 <translation id="3368922792935385530">Umeunganishwa</translation>
 <translation id="6569877533335686968">Dumisha</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
-<translation id="8533411848724153701">Gemini</translation>
-<translation id="6011108706830742093">ZebPay</translation>
 <translation id="1665118090708049096">Nenda kwenye akaunti yangu ya <ph name="WALLET_PROVIDER"/></translation>
 <translation id="4858636682078269312">Nenda kwenye akaunti yako ya <ph name="WALLET_PROVIDER"/></translation>
 <translation id="8874184842967597500">Haijaunganishwa</translation>
@@ -442,9 +434,9 @@ Je, una uhakika unataka kufanya hili?</translation>
 <translation id="1275213816424141989">Labda Baadaye</translation>
 <translation id="4406937629441301400">Pata tokeni kwa kutazama picha hii na uilipe kwa waundaji. <ph name="LEARN_MORE"/></translation>
 <translation id="6632345639591919543">Pata tokeni kwa kutazama picha hii na uilipe kwa waundaji.\n<ph name="LEARN_MORE"/></translation>
-<translation id="8164992819127316581">Malipo ya zawadi za  <ph name="CURRENT_MONTH"/> yataanza kuchakatwa kufikia <ph name="PAYOUT_DATE"/>.</translation>
-<translation id="33967210973550414">Malipo ya zawadi za  <ph name="CURRENT_MONTH"/> yanaendelea. <ph name="CHECK_STATUS"/>.</translation>
-<translation id="1622952853310946314">Malipo ya zawadi za  <ph name="CURRENT_MONTH"/> yamekamilika. <ph name="SUPPORT"/>.</translation>
+<translation id="8164992819127316581">Malipo ya zawadi za <ph name="CURRENT_MONTH"/> yataanza kuchakatwa kufikia <ph name="PAYOUT_DATE"/>.</translation>
+<translation id="33967210973550414">Malipo ya zawadi za <ph name="CURRENT_MONTH"/> yanaendelea. <ph name="CHECK_STATUS"/>.</translation>
+<translation id="1622952853310946314">Malipo ya zawadi za <ph name="CURRENT_MONTH"/> yamekamilika. <ph name="SUPPORT"/>.</translation>
 <translation id="7717357606512850995">Angalia hali</translation>
 <translation id="3624048886326677117">Zuia vifuatiliaji na matangazo (Hima)</translation>
 <translation id="7151914815476509258">Zuia vifuatiliaji na matangazo (Wastani)</translation>
@@ -517,7 +509,6 @@ Je, una uhakika unataka kufanya hili?</translation>
 <translation id="6814582232712814369">Wakati wa Kuokolewa</translation>
 <translation id="3694122362646626770">Tovuti</translation>
 <translation id="2225863440766607138">Vifuatiliaji</translation>
-<translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
 <translation id="6737820963776538947">Umezuia vifuatiliaji na matangazo <ph name="COUNT"/> kwa kivinjari cha Brave saa 3 zilizopita.</translation>
 <translation id="5005713153542196658">Vinjari haraka hadi mara 6 zaidi kwenye tovuti kuu za habari katika Brave kwa kuzuia vifuatiliaji na matangazo.</translation>
 <translation id="7427567994475794038">Washa Ripoti za Faragha ili uone vifuatiliaji na matangazo mangapi yamezuiwa saa 3 zilizopita.</translation>
@@ -594,7 +585,6 @@ Je, una uhakika unataka kufanya hili?</translation>
 <translation id="1689062823386843231">Zima UDP zisizo na usalama</translation>
 <translation id="6915830896450988084">Tuma kwa <ph name="CUSTODIAN"/></translation>
 <translation id="1483493594462132177">Tuma</translation>
-<translation id="538450413584738399">Swap</translation>
 <translation id="4556086616242530072">Asili ya kivinjari.\nJihifadhie.\nNa ya majukwaa mengi.</translation>
 <translation id="7909462264772842773">Dhibiti crypto na NFT zako. Brave Wallet huwezesha matumizi ya Ethereum, mitungo ya EVM, Solana, Filecoin, na zaidi.</translation>
 <translation id="165255193061631296">Unahitaji pochi mpya?</translation>
@@ -679,14 +669,12 @@ Je, una uhakika unataka kufanya hili?</translation>
 <translation id="4862812525895306758">Futa maelezo ya muamala na nonsi</translation>
 <translation id="5693968582510626466">Kufuta miamala kunaweza kuwa muhimu kwa wasanidi au wakati wa kusafisha hali kwenye seva ya ndani</translation>
 <translation id="5421107279168565467">Una uhakika kwamba unataka kuweka upya maelezo ya muamala na nonsi? Chaguo hili mara nyingi hutumiwa na wasanidi wanaoendesha seva ya ndani ya jaribio. Charaza "<ph name="CONFIRMATION_PHRASE"/>" ili kuthibitisha.</translation>
-<translation id="930472263779999522">{MINUTES, plural, =1 {# minute} other {# minutes}}</translation>
 <translation id="8146860193318415026">Tiririsha video. Bila matangazo.</translation>
 <translation id="6311019535466417620">Hakuna matangazo kabla ya video yako</translation>
 <translation id="4274652342814424451">Hakuna matangazo wakati wa video yako</translation>
 <translation id="1721710839767183848">Hakuna matangazo kwenye ukurasa</translation>
 <translation id="4647035642622555398">Hakuna ukatizaji</translation>
 <translation id="4122515759479497554">Tafuta video</translation>
-<translation id="4449475351935531438">Brave Firewall + VPN</translation>
 <translation id="719977489961414786">Pata toleo jipya la VPN ili kulinda muunganisho wako na uzuie vifuatiliaji vya ndani kila mahali.</translation>
 <translation id="8814357473522731680">Inaendeshwa na</translation>
 <translation id="5892534145504632332">Linda kila programu na kifaa chako chote</translation>
@@ -837,12 +825,12 @@ Usipolikubali ombi hili, VPN haitaunganisha tena na muunganisho wako wa intaneti
 <translation id="4351811224047421378">Desimali za usahihi</translation>
 <translation id="3494964159182650590">Muhtasari wa Zawadi</translation>
 <translation id="590733288489975971">Zawadi kutoka kwenye Matangazo</translation>
+<translation id="1450735350187803276">Matangazo yaliyoonekana mwezi huu</translation>
 <translation id="1767561995429774671">Changia</translation>
 <translation id="7335371657242627509">Jumuisha kwenye Auto-Contribute</translation>
 <translation id="6727102863431372879">Weka</translation>
 <translation id="3074127054582480056">Umakini</translation>
 <translation id="2280319752798785157">Mchango wa kila Mwezi</translation>
-<translation id="3079421456571897484"><ph name="VALUE"/> BAT</translation>
 <translation id="1241283133946520352">Mitandao</translation>
 <translation id="1062463687579789365">Ugeuzaji wa mitandao ya pochi inayokufaa</translation>
 <translation id="2512821599885971349">Ongeza mtandao</translation>
@@ -975,7 +963,6 @@ Usipolikubali ombi hili, VPN haitaunganisha tena na muunganisho wako wa intaneti
 <translation id="2334098351242742927">Programu ya Ed25519</translation>
 <translation id="6421371987002247943">Programu ya Tokeni</translation>
 <translation id="8780753288764281797">Programu ya Secp256k1</translation>
-<translation id="8504640708321980506">Data</translation>
 <translation id="3723411967118253067">Kitambulisho cha Programu</translation>
 <translation id="4771176409524282426">Fungua akaunti</translation>
 <translation id="1755120947324658439">Kabidhi</translation>
@@ -1034,7 +1021,6 @@ Usipolikubali ombi hili, VPN haitaunganisha tena na muunganisho wako wa intaneti
 <translation id="4530494379350999373">Asili</translation>
 <translation id="6736243959894955139">Anwani</translation>
 <translation id="3095940652251934233">Taarifa</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">Toleo</translation>
 <translation id="1313065465616456728">Ilitolewa mnamo</translation>
 <translation id="7902225556763260253">Muda wa kuisha kwa matumizi</translation>
@@ -1084,7 +1070,6 @@ Usipolikubali ombi hili, VPN haitaunganisha tena na muunganisho wako wa intaneti
 <translation id="7618347247876614969">Akaunti ya Jedwali la Kutafuta Anwani:</translation>
 <translation id="7659483790930268440">Faharasa ya Jedwali la Kutafuta Anwani:</translation>
 <translation id="5494920125229734069">Chagua zote</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8613144770663526433">Ingia kwa Pochi ya Brave</translation>
 <translation id="3696514931437952995">Unaingia kwenye <ph name="ORIGIN"/>. Pochi ya Brave itashiriki anwani ya pochi yako na <ph name="ORIGIN"/>.</translation>
 <translation id="1028781062521375153">Tazama maelezo</translation>
@@ -1096,7 +1081,6 @@ Usipolikubali ombi hili, VPN haitaunganisha tena na muunganisho wako wa intaneti
 <translation id="1250335737108905610">Weka upya na ufute data ya Leo</translation>
 <translation id="6165101586663336913">Kuweka upya msaidizi wa Leo kutakuhitaji ujisajili kutumia Leo siku zijazo na pia kutafuta historia yako ya gumzo. Kufuta historia yako ya gumzo kutafuta mazungumzo yako yote ya awali na Leo. Kitendo hiki hakiwezi kutenduliwa.</translation>
 <translation id="3692772534525889713">Unganisha ununuzi wako kwenye Play Store kwenye akaunti yako ya Brave ili utumie Brave Leo kwenye vifaa vingine.</translation>
-<translation id="73236265316873967">Leo Premium</translation>
 <translation id="1028627582482425924">Mwaka mmoja</translation>
 <translation id="2985392169397572983">THAMANI BORA ZAIDI</translation>
 <translation id="1166682575529520472">Kila Mwezi</translation>
@@ -1149,7 +1133,6 @@ Usipolikubali ombi hili, VPN haitaunganisha tena na muunganisho wako wa intaneti
 <translation id="6896758677409633944">Nakala</translation>
 <translation id="3803384303807438047">Futa data ya nje ya mtandao ya kipengee</translation>
 <translation id="4195643157523330669">Fungua katika kichupo kipya</translation>
-<translation id="4243710787042215766">Open in private tab</translation>
 <translation id="8261506727792406068">Futa</translation>
 <translation id="377872456482681602">Tafadhali chagua vipengee kwanza</translation>
 <translation id="286472539388773794">Tafadhali weka jina sahihi la orodha ya kucheza</translation>

@@ -2,7 +2,6 @@
 <!DOCTYPE translationbundle>
 <translationbundle lang="vi">
 <translation id="5288293905681750318">Trình theo dõi và quảng cáo đã bị chặn</translation>
-<translation id="2313532038420432247">HTTPS Upgrades</translation>
 <translation id="788493840831967104">Thời gian đã tiết kiệm</translation>
 <translation id="2318592590318590295">Băng thông đã tiết kiệm</translation>
 <translation id="5206618227023752085">Đã xóa trang hàng đầu.</translation>
@@ -17,10 +16,6 @@
 <translation id="8344569602005188545">giờ</translation>
 <translation id="7100907433458266664">ngày</translation>
 <translation id="4971389353431353387">ngày</translation>
-<translation id="2116364690062294218">B</translation>
-<translation id="3123243061080120667">KB</translation>
-<translation id="977224059380370527">MB</translation>
-<translation id="8776285424728638733">GB</translation>
 <translation id="8427933533533814946">Ảnh của</translation>
 <translation id="7108338896283013870">Ẩn</translation>
 <translation id="985862351129593673">Tùy chỉnh Bảng điều khiển</translation>
@@ -38,7 +33,6 @@
 <translation id="5313967007315987356">Thêm trang web</translation>
 <translation id="5052499409147950210">Chỉnh sửa trang web</translation>
 <translation id="1181037720776840403">Xóa</translation>
-<translation id="7400418766976504921">URL</translation>
 <translation id="6678563120789955720">Địa chỉ website</translation>
 <translation id="5327248766486351172">Tên</translation>
 <translation id="6916084277913254682">Tiêu đề website</translation>
@@ -126,11 +120,9 @@
 <translation id="9133213713928851646">Brave không nhớ những gì bạn làm trong Cửa sổ Riêng tư. Các trang web bạn truy cập sẽ không hiển thị trong lịch sử của bạn, và các cookie sẽ bị xóa khi bạn duyệt xong. Mặc dù vậy, Cửa sổ Riêng tư không làm cho bạn hoàn toàn ẩn danh khi trực tuyến.</translation>
 <translation id="4085423007106063912">Brave không bao giờ ghi nhớ những gì bạn làm trong Cửa sổ Riêng tư. Các trang mà bạn truy cập sẽ không xuất hiện trong lịch sử của bạn. Cookie, dữ liệu biểu mẫu và dữ liệu trang sẽ biến mất khi bạn đóng cửa sổ.</translation>
 <translation id="1700746046668116047">Lưu ý rằng hoạt động của bạn có thể vẫn xuất hiện trước nhà cung cấp dịch vụ internet của bạn, các quan sát viên mạng thụ động hoặc chủ lao động của bạn (nếu bạn đang sử dụng máy hoặc mạng của công ty). Để riêng tư hơn, hãy mở một cửa sổ riêng tư với Tor.</translation>
-<translation id="8759753423332885148">Learn more.</translation>
 <translation id="8611976753572844841">Cửa sổ Riêng tư với Kết nối Tor</translation>
 <translation id="1645589858096839236">Brave không lưu trữ hoạt động duyệt web từ Cửa sổ riêng tư. Với kết nối Tor, các trang web khó có thể nhìn thấy địa chỉ IP thực của bạn và các quan sát viên mạng có thể biết được bạn truy cập vào những trang nào. Tuy nhiên, nếu sự an toàn cá nhân của bạn phụ thuộc vào việc ẩn danh, hãy sử dụng Trình duyệt Tor để thay thế.</translation>
 <translation id="7919374705736538787">Tìm kiếm Riêng tư với</translation>
-<translation id="3135655280958284640">DuckDuckGo</translation>
 <translation id="218839872518145456">Với tìm kiếm riêng tư, Brave sẽ sử dụng DuckDuckGo để tìm kiếm trong Cửa sổ Riêng tư. DuckDuckGo không theo dõi lịch sử tìm kiếm của bạn, vì vậy bạn có thể tìm kiếm một cách riêng tư.</translation>
 <translation id="1925197199485958903">Trong Cửa số Riêng tư với Tor, công cụ tìm kiếm mặc định là DuckDuckGo. Một số công cụ tìm kiếm phổ biến khác khó sử dụng với Tor hơn. DuckDuckGo không theo dõi lịch sử tìm kiếm của bạn; và với Tor, DuckDuckGo thậm chí còn không biết địa chỉ IP của bạn.</translation>
 <translation id="4371533307685765155">Tìm kiếm với DuckDuckGo</translation>
@@ -147,7 +139,7 @@
 <translation id="8813986611396294203">Mạng Tor đang hơi chậm</translation>
 <translation id="2795840524629682765">Kết nối Tor không thành công</translation>
 <translation id="1149108864689950951">Tor đang kết nối... [[percentage]]%</translation>
-<translation id="3651192084771403430">Gặp sự cố khi kết nối? Thử  <ph name="BEGIN_LINK"/>tắt<ph name="END_LINK"/> Cửa sổ Riêng tư với Tor và bật lại trong cài đặt.</translation>
+<translation id="3651192084771403430">Gặp sự cố khi kết nối? Thử <ph name="BEGIN_LINK"/>tắt<ph name="END_LINK"/> Cửa sổ Riêng tư với Tor và bật lại trong cài đặt.</translation>
 <translation id="8834376622642889380">Mở <ph name="BEGIN_LINK"/>Cài đặt Brave<ph name="END_LINK"/>, tắt Cửa sổ Riêng tư có Tor, sau đó bật lại.</translation>
 <translation id="1576202729986800142"><ph name="BEGIN_BOLD"/>Bạn vẫn gặp vấn đề? <ph name="END_BOLD"/>Hãy thử sử dụng<ph name="BEGIN_BRIDGES_LINK"/>cầu<ph name="END_BRIDGES_LINK"/> hoặc<ph name="BEGIN_SUPPORT_LINK"/> liên hệ với bộ phận hỗ trợ<ph name="END_SUPPORT_LINK"/>.</translation>
 <translation id="8388043004918289671">Liên hệ hỗ trợ.</translation>
@@ -214,7 +206,6 @@
 <translation id="4394049700291259645">Vô hiệu hóa</translation>
 <translation id="4176463684765177261">Đã bị vô hiệu</translation>
 <translation id="8283001340969131076">Rất tiếc, đã xảy ra lỗi khi cố gắng ngắt kết nối tài khoản <ph name="PROVIDER"/> của bạn. Vui lòng thử lại sau một lúc nữa.</translation>
-<translation id="8845154268466251503">BAT</translation>
 <translation id="4684554059837592728">Thanh toán Hàng tháng</translation>
 <translation id="2846354907189538">Ngày đóng góp tiếp theo</translation>
 <translation id="1397381065858030856">Các trang đã xem</translation>
@@ -344,7 +335,6 @@
 <translation id="2280319752798785157">Khoản đóng góp hàng tháng</translation>
 <translation id="8307851765167460403">Chưa có hoạt động nào…</translation>
 <translation id="3630697955794050612">tắt</translation>
-<translation id="4921250468871504777">ok</translation>
 <translation id="7866482334467279021">trên</translation>
 <translation id="156591572855748524">Lịch sử quảng cáo 30 ngày</translation>
 <translation id="4923459931733593730">Thanh toán</translation>
@@ -357,11 +347,6 @@
 <translation id="5082474983463379713">Xin lưu ý:</translation>
 <translation id="1430915738399379752">In</translation>
 <translation id="2600847485413879104">Phần thưởng BAT</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
-<translation id="8533411848724153701">Gemini</translation>
-<translation id="6569877533335686968">Uphold</translation>
-<translation id="6011108706830742093">ZebPay</translation>
-<translation id="5390923430722428146">Solana</translation>
 <translation id="6354568176665589146">Tái diễn</translation>
 <translation id="2799223571221894425">Chạy lại</translation>
 <translation id="1110535155349301542">gỡ bỏ</translation>
@@ -376,7 +361,6 @@
 <translation id="1792148354504719133">trang web</translation>
 <translation id="6432779622695508363">Gợi ý khi thích</translation>
 <translation id="2726674968268546964">mã thông báo</translation>
-<translation id="5015443703424816075">Token</translation>
 <translation id="1634828734222219955">Tổng cộng</translation>
 <translation id="3535654229833214438">Giao dịch</translation>
 <translation id="2448312741937722512">Loại</translation>
@@ -419,8 +403,6 @@
 <translation id="412480955826088549">Đang tải xuống Thành phần...</translation>
 <translation id="4894106830958548828">Tôi hiểu</translation>
 <translation id="326118736933420687">Bạn đang xem trang WebTorrent</translation>
-<translation id="2729085694451916573">Test string for <ph name="PART_ONE"/>place holders<ph name="PART_ONE_END"/>. <ph name="PART_TWO"/>Learn more<ph name="PART_TWO_END"/></translation>
-<translation id="7534079972563542000">Unstoppable Domains</translation>
 <translation id="4492298165410552103">Bật hỗ trợ Unstoppable Domains trong Brave?</translation>
 <translation id="5015092481905019948">Brave sẽ sử dụng <ph name="PROVIDER_NAME"/> để giải quyết tên miền <ph name="DOMAIN_LIST"/> trên <ph name="DOMAIN_PROVIDER_NAME"/>. Brave ẩn địa chỉ IP của bạn. Nếu bạn bật tính năng này thì <ph name="PROVIDER_NAME"/> sẽ thấy ai đó đang cố truy cập những miền này chứ không phải gì khác. Xem<ph name="BEGIN_PROVIDER_TOU_LINK"/>điều khoản sử dụng<ph name="END_PROVIDER_TOU_LINK"/> và <ph name="BEGIN_PROVIDER_PRIVACY_LINK"/>chính sách quyền riêng tư<ph name="END_PROVIDER_PRIVACY_LINK"/> của <ph name="PROVIDER_NAME"/>.</translation>
 <translation id="6513892817556267573">Dịch vụ Cung cấp Tên miền Ethereum</translation>
@@ -519,7 +501,6 @@
 <translation id="6633436087937398390"><ph name="NAME"/> trên <ph name="PLATFORM"/></translation>
 <translation id="3733094367889291358">Gửi Đóng góp</translation>
 <translation id="7335371657242627509">Bao gồm trong Tự động Đóng góp</translation>
-<translation id="6965382102122355670">OK</translation>
 <translation id="6727102863431372879">Đặt</translation>
 <translation id="8853725596990766789">Thay đổi số lượng</translation>
 <translation id="5899814466108868020">Bạn đang giúp hỗ trợ Brave và cộng đồng BAT</translation>
@@ -542,7 +523,6 @@
 <translation id="2323171459178104277">Đã giải!</translation>
 <translation id="1512837998731269583">Quảng cáo và thu nhập bây giờ sẽ tiếp tục. Cảm ơn bạn đã giúp chúng tôi bảo vệ Brave Rewards và các quảng cáo dựa trên quyền riêng tư.</translation>
 <translation id="3247549836099021862">Liên hệ hỗ trợ</translation>
-<translation id="5234764350956374838">Dismiss</translation>
 <translation id="7859066142771796818">Sử dụng token để mua thẻ quà tặng, đổi lấy các loại tiền khác, hỗ trợ người sáng tạo nội dung, và hơn thế nữa.</translation>
 <translation id="7352651011704765696">Đã xảy ra sự cố</translation>
 <translation id="5425006356459378415">Phần thưởng Brave không khả dụng</translation>
@@ -567,7 +547,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Tìm hiểu thêm<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Đừng lo.</translation>
 <translation id="5027616819996705541">Bạn vẫn có thể duyệt web một cách riêng tư!</translation>
-<translation id="1450735350187803276">Tiền kiếm được từ trước đến nay</translation>
+<translation id="1450735350187803276">Quảng cáo đã xem trong tháng này</translation>
 <translation id="7649070708921625228">Trợ giúp</translation>
 <translation id="6042308850641462728">Xem thêm</translation>
 <translation id="6245259297588415877">Người tạo nội dung</translation>
@@ -714,9 +694,8 @@
 <translation id="6369571967625114920">Brave Quảng cáo riêng tư hiện chưa khả dụng ở khu vực của bạn.</translation>
 <translation id="5309155375926073606">Có, tôi cũng muốn đóng góp cho Brave Tìm kiếm và chọn tham gia <ph name="LINK_BEGIN"/>Dự án khám phá web<ph name="LINK_END"/>.</translation>
 <translation id="7285849890826812669">Đóng góp một số dữ liệu tìm kiếm &amp; duyệt ẩn danh để tinh chỉnh Brave Tìm kiếm với Dự án khám phá web. Hoàn toàn là mã nguồn mở.</translation>
-<translation id="4174337572777167894">Web Discovery Project</translation>
+<translation id="4174337572777167894">Dự án Khám phá Web</translation>
 <translation id="7090992647511817643">tài khoản</translation>
-<translation id="4822132585477111396">Chain ID</translation>
 <translation id="3269475789479462358">tên miền</translation>
 <translation id="1288078776976153868">mạng</translation>
 <translation id="1148827340205946630">Người dùng đã từ chối yêu cầu.</translation>
@@ -774,11 +753,6 @@
 <translation id="5483736362376139517">1 năm</translation>
 <translation id="6979737339423435258">Từ trước đến nay</translation>
 <translation id="3188963375823360044">1 giờ</translation>
-<translation id="8163269366661594721">1D</translation>
-<translation id="7640956400175663828">1W</translation>
-<translation id="9100647964747998533">1M</translation>
-<translation id="6366007539108097840">3M</translation>
-<translation id="6977728312178289892">1Y</translation>
 <translation id="6598532182053592167">Thêm xu</translation>
 <translation id="5062934803872044756"><ph name="SYMBOL"/> trên <ph name="NETWORK"/></translation>
 <translation id="629730747756840877">Tài khoản</translation>
@@ -787,15 +761,12 @@
 <translation id="2267753748892043616">Thêm tài khoản</translation>
 <translation id="5061574358754621254">Dữ liệu giá được cung cấp bởi CoinGecko</translation>
 <translation id="223536150967420869">Mua</translation>
-<translation id="538450413584738399">Swap</translation>
 <translation id="6810855196544084176">Cầu nối</translation>
 <translation id="3488255243387417752">Bán</translation>
 <translation id="5223034545851554347">Bạn không có đủ <ph name="TOKEN_SYMBOL"/> trong tài khoản này.</translation>
 <translation id="6585419509320235293">Chọn tài sản để gửi</translation>
 <translation id="1018742998826182079">Chọn tài sản để hoán đổi</translation>
 <translation id="2791691551852500015">Nhập địa chỉ người nhận</translation>
-<translation id="570080709303714420">HALF</translation>
-<translation id="2784548701748328827">MAX</translation>
 <translation id="2329227154184107678">Xem lại đơn đặt hàng</translation>
 <translation id="3220443877821207794">Kiểm tra tab gửi</translation>
 <translation id="8530071505111489657">Không có mã thông báo khả dụng</translation>
@@ -809,7 +780,6 @@
 <translation id="5292796745632149097">Gửi đến</translation>
 <translation id="7022684620581223496">Phần mở rộng tên miền không hợp lệ.</translation>
 <translation id="7620616707541471029">Chọn một tài khoản để tiếp tục</translation>
-<translation id="7099260104593926742">Market price</translation>
 <translation id="6954838107964168963">Thuộc sở hữu</translation>
 <translation id="1976851706319678835">Không sở hữu</translation>
 <translation id="7372882109707907136">Số tiền/24h</translation>
@@ -830,7 +800,6 @@
 <translation id="7056655731948492143">Khác: <ph name="SLIPPAGE_PERCENT"/>%</translation>
 <translation id="6231782223312638214">Đã đề xuất</translation>
 <translation id="8525485643657418753">Rẻ nhất</translation>
-<translation id="1224275271335624810">Fastest</translation>
 <translation id="4071446933408069155">trên <ph name="NETWORK_NAME"/></translation>
 <translation id="3751611888003301070">Tuyến</translation>
 <translation id="3799091982455573025">Hoán đổi trên <ph name="NETWORK_NAME"/> qua <ph name="EXCHANGE_NAME"/></translation>
@@ -868,7 +837,6 @@
 <translation id="6896758677409633944">Sao chép</translation>
 <translation id="7885157704277298658">Đã sao chép!</translation>
 <translation id="6518133107902771759">Xác minh</translation>
-<translation id="3157931365184549694">Restore</translation>
 <translation id="414070570958255222">Trình duyệt gốc. Tự lưu ký. Và đa chuỗi.</translation>
 <translation id="1350120992777389959">Kiểm soát tiền điện tử và NFT của bạn. Ví Brave hỗ trợ Ethereum, chuỗi EVM, Solana, Filecoin, Bitcoin và nhiều hơn nữa.</translation>
 <translation id="165255193061631296">Cần ví mới?</translation>
@@ -900,7 +868,6 @@
 <translation id="6138471905279127211">Tiêu chí mật khẩu không khớp.</translation>
 <translation id="467510802200863975">Mật khẩu không khớp</translation>
 <translation id="5168349973342709369">Nhập mật khẩu để mở khóa ví</translation>
-<translation id="9111102763498581341">Unlock</translation>
 <translation id="5045550434625856497">Mật khẩu sai</translation>
 <translation id="9195657745688986798">Mở khóa Ví</translation>
 <translation id="2274014756904854136">Nhấp đúp vào màn hình để tiếp tục</translation>
@@ -961,17 +928,13 @@
 <translation id="5745936663807461565">Kết nối ví <ph name="HARDWARE_DEVICE"/> của bạn trực tiếp với máy tính.</translation>
 <translation id="4350216031085285578">Mở khóa thiết bị của bạn và chọn ứng dụng <ph name="BLOCKCHAIN_NETWORK"/>.</translation>
 <translation id="6892232036314454524">Lỗi này có thể xảy ra khi mở sai ứng dụng trên thiết bị Ledger.</translation>
-<translation id="6598291715079540080">Trezor</translation>
-<translation id="5605670050355397069">Ledger</translation>
 <translation id="8012452656725205792">Cấp cho Brave quyền truy cập thiết bị <ph name="HARDWARE_DEVICE"/> của bạn.</translation>
-<translation id="4378551569595875038">Connecting...</translation>
 <translation id="1943188256166395881">Thêm tài khoản đã đánh dấu</translation>
 <translation id="8554010658308662631">Tải thêm</translation>
 <translation id="6998738230710304743">Đang tải thêm...</translation>
 <translation id="5592304751234049046">Tìm tài khoản</translation>
 <translation id="3168978475376026497">Đường dẫn HD</translation>
 <translation id="6151024411349343484">Hãy thử chuyển đường dẫn HD (ở trên) nếu bạn không tìm được tài khoản mà bạn đang tìm kiếm.</translation>
-<translation id="2844691569989101734">Ledger Live</translation>
 <translation id="7265732100380987017">Cũ (MEW/MyCrypto)</translation>
 <translation id="4549853322523631092">Không tìm thấy kết quả nào.</translation>
 <translation id="7261362517244085362">Cấp phép ví của bạn</translation>
@@ -981,7 +944,6 @@
 <translation id="1329837291200753515">Chọn một chuỗi khối để nhập ví phần cứng của bạn</translation>
 <translation id="6983390509997396124">Kết nối thiết bị <ph name="HARDWARE_DEVICE"/> của bạn với Ví Brave</translation>
 <translation id="5149944858285555235">Lỗi không xác định, vui lòng kết nối lại ví phần cứng của bạn và thử lại.</translation>
-<translation id="9220525904950070496">Remove account</translation>
 <translation id="8574289650879708853">Thêm tài sản tùy chỉnh</translation>
 <translation id="6600400596821238377">Tên token</translation>
 <translation id="4220693114674044366">Địa chỉ mã thông báo</translation>
@@ -993,7 +955,6 @@
 <translation id="5138307340667775659">Mã thông báo này đã được thêm vào danh mục đầu tư của bạn.</translation>
 <translation id="547122651977318828">ID token (chỉ dành cho ERC721)</translation>
 <translation id="7544552854944350190">Cần có ID token</translation>
-<translation id="1974060860693918893">Advanced</translation>
 <translation id="3842236145820483340">Mã CoinGecko</translation>
 <translation id="7642841516562576649">URL biểu tượng</translation>
 <translation id="2144247757675997850">Thêm tài sản</translation>
@@ -1009,15 +970,8 @@
 <translation id="2902856457593699108">Hiển thị khóa</translation>
 <translation id="8033497299373164724">Ẩn khóa</translation>
 <translation id="2702143907607790516">Không cập nhật được tên tài khoản, vui lòng thử lại.</translation>
-<translation id="3318280255740629162">25%</translation>
-<translation id="2636487255623744079">50%</translation>
-<translation id="8654192805213365413">75%</translation>
-<translation id="3512100619724810532">100%</translation>
 <translation id="5398538976202345089">Mạng không được hỗ trợ</translation>
-<translation id="1448289340149908413">Ethereum</translation>
-<translation id="1530109021798294736">Mainnet</translation>
 <translation id="1613627717923045622">Kiểm trang mạng</translation>
-<translation id="6742767287935968736">Sepolia</translation>
 <translation id="6749024162985917640">Máy chủ cục bộ</translation>
 <translation id="3792938779249970121">Chọn tài khoản</translation>
 <translation id="6797737193502014008">Tìm kiếm tài khoản</translation>
@@ -1074,7 +1028,6 @@
 <translation id="7084089311475827950">Không có dữ liệu.</translation>
 <translation id="5821668936183240062">tiếp theo</translation>
 <translation id="793994607260936590">đầu tiên</translation>
-<translation id="4709524402122994378">transactions</translation>
 <translation id="4591079278963448049">Tài khoản mã thông báo liên kết chưa tồn tại. Một ít SOL sẽ được sử dụng để tạo và cấp vốn cho tài khoản này.</translation>
 <translation id="3240773103344793224">Yêu cầu thay đổi quyền sở hữu tài khoản</translation>
 <translation id="8041423758956015568">Giao dịch này sẽ chuyển nhượng lại quyền sở hữu tài khoản cho một chương trình mới. Hành động này là không thể đảo ngược và có thể dẫn đến mất tiền.</translation>
@@ -1134,13 +1087,7 @@
 <translation id="6079696972035130497">Không giới hạn</translation>
 <translation id="2916401020782528840">Không tìm thấy giao dịch</translation>
 <translation id="1690963073120772693">Không thể thử lại giao dịch này.</translation>
-<translation id="2833661570529295305">Unapproved</translation>
-<translation id="8034530868111548216">Approved</translation>
 <translation id="6015436276085482001">Không chấp thuận/Bị từ chối</translation>
-<translation id="6666273175654835609">Submitted</translation>
-<translation id="2331676293859649642">Confirmed</translation>
-<translation id="8373210463207847451">Dropped</translation>
-<translation id="8214232307424031138">Signed</translation>
 <translation id="9065572743819293042">Giao dịch gần đây</translation>
 <translation id="1702356231547761669">Giao dịch hash</translation>
 <translation id="8941851657764077659">Phí ưu tiên tối đa</translation>
@@ -1156,7 +1103,6 @@
 <translation id="5956400126884970816">Phí tối đa</translation>
 <translation id="2445079431396622762">Phí tối đa</translation>
 <translation id="6152793706702141594">Phí cơ sở hiện tại</translation>
-<translation id="8689322170423904690">Gwei</translation>
 <translation id="8685908198496503620">Đặt tùy chỉnh</translation>
 <translation id="7400927223938424379">Đặt gợi ý</translation>
 <translation id="8179605702342645418">Giao dịch có thể không được truyền trong mạng.</translation>
@@ -1190,7 +1136,6 @@
 <translation id="5393164213211430081">2. Sao chép và nhập địa chỉ ETH</translation>
 <translation id="8306108469060304141">Sao chép và nhập địa chỉ chính xác. Bạn có thể thấy rằng một số ký tự đã được chuyển đổi chính xác.</translation>
 <translation id="2378355054306959991">Cần thêm trợ giúp?</translation>
-<translation id="862585889767884824">of</translation>
 <translation id="9106265941552476098">Từ chối <ph name="TRANSACTION_LENGTH"/> giao dịch</translation>
 <translation id="1118876217803190221">Số dư không đủ</translation>
 <translation id="275990379543116961">Không đủ tiền mua xăng</translation>
@@ -1230,7 +1175,6 @@
 <translation id="4213183402991860207">Cầu <ph name="DEVICE_NAME"/> chưa sẵn sàng</translation>
 <translation id="3378339846292573874">Thêm token được đề xuất</translation>
 <translation id="2322227405137827074">Bạn có muốn nhập token này không?</translation>
-<translation id="4378475168089649292">Blockchain</translation>
 <translation id="1904295039023858291">Token tiêu chuẩn</translation>
 <translation id="9033453977881595182">Mã Token</translation>
 <translation id="6332387008245531841">Địa chỉ hợp đồng</translation>
@@ -1244,7 +1188,6 @@
 <translation id="2962388922926051374">Yêu cầu phương pháp 'eth_chainId' trên <ph name="URL"/> không thành công</translation>
 <translation id="8325036459845654666">Mạng này đã được thêm.</translation>
 <translation id="554350381160981853">Ký dữ liệu đã nhập chỉ được hỗ trợ trên Trezor Model One với Firmware 1.10.5 trở lên</translation>
-<translation id="1752214435563414457">Brave Swap-stakes</translation>
 <translation id="7829441065063984927">Quà tặng tiền điện tử trong 7 ngày, giải thưởng trị giá ~500k đô la.</translation>
 <translation id="8292716346768453265">Tham gia ngay!</translation>
 <translation id="1935944189549132903">Tất cả tài sản</translation>
@@ -1262,11 +1205,7 @@
 <translation id="6534275647567011533">Mua bằng Transak</translation>
 <translation id="5973390321030037823">Mua bằng Liên kết</translation>
 <translation id="1932640759496708012">Mua bằng Coinbase Pay</translation>
-<translation id="8725252491405767337">Ramp.Network</translation>
-<translation id="1130009472404762036">Sardine</translation>
-<translation id="503018546142690471">Transak</translation>
 <translation id="7295150312737713113">Mua bằng Stripe</translation>
-<translation id="7191335763519723663">Coinbase Pay</translation>
 <translation id="7667423728712601865">Mua tiền mã hóa bằng thẻ Visa hoặc Mastercard.</translation>
 <translation id="3648994606506382289">Cách dễ nhất, nhanh nhất và rẻ nhất để mua tiền điện tử bằng thẻ và chuyển khoản ngân hàng.</translation>
 <translation id="3101839349578102016">Mua ngay bằng tài khoản ngân hàng của bạn. Phí thấp hơn.</translation>
@@ -1340,10 +1279,8 @@
 <translation id="8813165409788097898">Bạn đang đăng nhập vào <ph name="ORIGIN"/>. Ví Brave sẽ chia sẻ địa chỉ ví của bạn với<ph name="ORIGIN"/>.</translation>
 <translation id="1028781062521375153">Xem chi tiết</translation>
 <translation id="3950820424414687140">Đăng nhập</translation>
-<translation id="4530494379350999373">Origin</translation>
 <translation id="6736243959894955139">Địa chỉ</translation>
 <translation id="3095940652251934233">Tuyên bố</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">Phiên bản</translation>
 <translation id="1313065465616456728">Đã phát hành lúc</translation>
 <translation id="7902225556763260253">Thời gian hết hạn</translation>
@@ -1377,7 +1314,6 @@
 <translation id="4719005063558335704">Tài khoản:</translation>
 <translation id="4337554812324118382">Dữ liệu:</translation>
 <translation id="569870799832027680">Mã chương trình</translation>
-<translation id="9071560809248786823">Lamports</translation>
 <translation id="6129953537138746214">Dấu cách</translation>
 <translation id="2333894833508885986">Chương trình chủ sở hữu</translation>
 <translation id="673881072848521017">Cơ sở</translation>
@@ -1401,7 +1337,6 @@
 <translation id="3052313599928914393">Ủy quyền số giao dịch</translation>
 <translation id="2818177840313215015">Đã phân bổ tài khoản</translation>
 <translation id="3332926854409491692">Thuê sysvar</translation>
-<translation id="1338923714285924422">RecentBlockhashes sysvar</translation>
 <translation id="7718273517583726718">Đã khởi tạo Đào</translation>
 <translation id="1982396945501942785">Đã khởi tạo Tài khoản</translation>
 <translation id="4448996702733695148">Đã khởi tạo tài khoản Multisig</translation>
@@ -1542,7 +1477,6 @@
 <translation id="1763942310723636241">Chi tiết mã thông báo</translation>
 <translation id="2938264474197978104">Ẩn <ph name="SYMBOL"/></translation>
 <translation id="3614009429760094268">Ẩn mã thông báo?</translation>
-<translation id="6779155810671793329">Token Contract Address</translation>
 <translation id="871123550184744265">Số chữ số thập phân token</translation>
 <translation id="4038384774641714579">Bạn có thể hiển thị lại tài sản này trong tương lai bằng cách nhấp vào nút "+ Hiển thị tài sản" ở cuối tab "Danh mục đầu tư"</translation>
 <translation id="4700610707948897993">Tài sản của tôi</translation>
@@ -1555,7 +1489,6 @@
 <translation id="7657322905916621147">Cụm từ khôi phục phải dài 12, 15, 18, 21, hoặc 24 từ</translation>
 <translation id="5026874946691314267">Không hiển thị lại</translation>
 <translation id="434502623875309667">Giải quyết địa chỉ bắt buộc phải có yêu cầu mạng chuỗi ngoại tuyến. Tiếp tục?</translation>
-<translation id="2779500703989728346">NFT</translation>
 <translation id="1893207255459018302">Không có lịch sử giao dịch</translation>
 <translation id="5356382676355994980">Các giao dịch được thực hiện bằng Ví Brave của bạn sẽ xuất hiện ở đây.</translation>
 <translation id="3033638954295674319">Đã xảy ra lỗi khi tìm nạp chi tiết NFT. Vui lòng thử lại sau.</translation>
@@ -1568,7 +1501,6 @@
 <translation id="3115303896544539834">Số dư <ph name="TOKEN"/> không đủ</translation>
 <translation id="3453833142586986467">Chọn mã thông báo</translation>
 <translation id="4937657825850660613">Nửa</translation>
-<translation id="7639814793732182496">Max</translation>
 <translation id="6584782231358487640">Nhập số tiền</translation>
 <translation id="477281933640372562">Đang tải báo giá</translation>
 <translation id="5450317966495183014">Nhận (ước tính)</translation>
@@ -1593,8 +1525,6 @@
 <translation id="4967749818080339523">Chọn tài khoản</translation>
 <translation id="3887241807965836390">Đến tài khoản của tôi</translation>
 <translation id="3079716946572942356">Đến địa chỉ khác</translation>
-<translation id="8044899503464538266">Slow</translation>
-<translation id="3569512916300900704">Average</translation>
 <translation id="7019805045859631636">Nhanh</translation>
 <translation id="632241521608275119">Tỷ lệ trượt giá</translation>
 <translation id="6778140392042462129">Sàn giao dịch</translation>
@@ -1604,7 +1534,6 @@
 <translation id="2379187373676242615"><ph name="VALUE"/>% rẻ hơn CoinGecko</translation>
 <translation id="5351867352310722022">Trong <ph name="VALUE"/>% CoinGecko</translation>
 <translation id="7695501918490163821"><ph name="VALUE"/>% đắt hơn CoinGecko</translation>
-<translation id="6599816589121202398">API</translation>
 <translation id="7561262633951061138">Tốt nhất</translation>
 <translation id="8060029310790625334">Trung tâm trợ giúp</translation>
 <translation id="3143110700666266545">Ứng dụng này sử dụng các API của bên thứ ba sau:</translation>
@@ -1649,8 +1578,6 @@
 <translation id="6018568069962140636">Mã thông báo này không hợp lệ</translation>
 <translation id="8549067157732633185">Mã thông báo này đã được xác minh</translation>
 <translation id="2130170065617939165">Mã thông báo này đã được xác minh trên danh sách <ph name="NUMBER_OF_LISTS"/></translation>
-<translation id="1554316484739382186">Spender: <ph name="ADDRESS"/></translation>
-<translation id="4265415116535094892">Zebpay</translation>
 <translation id="3026353765778463291">Tài khoản <ph name="PROVIDER"/></translation>
 <translation id="5360752485622434494">Brave Phần thưởng BAT trên<ph name="PROVIDER"/></translation>
 <translation id="429061011725027672">Bạn hiện đã đăng xuất khỏi <ph name="PROVIDER"/>. Vui lòng đăng nhập để xem số dư của bạn.</translation>
@@ -1698,7 +1625,6 @@
 <translation id="2454691116905703258">Tên token cho NFT đề cập đến tên cụ thể được đặt cho một token không thể thay thế trong một bộ sưu tập hoặc dự án cụ thể. Tên này phân biệt NFT này với một NFT khác trong cùng một bộ sưu tập.</translation>
 <translation id="3212749868469431851">Biểu tượng NFT là mã định danh duy nhất được dùng để phân biệt bộ sưu tập hoặc dự án NFT.</translation>
 <translation id="8198838794018761504">Chỉ xem</translation>
-<translation id="193368604235852218">Web3</translation>
 <translation id="3417321754118442366">Không tìm thấy DApps</translation>
 <translation id="4864082959618144988">Ví đang hoạt động</translation>
 <translation id="5445224754926400848">Truy cập <ph name="VALUE"/></translation>
@@ -1786,7 +1712,6 @@
 <translation id="2665462122884195298">Bảng tin của bạn trống</translation>
 <translation id="8461269982440806387">Theo dõi các nhà xuất bản và kênh để xem họ trong bảng tin của bạn.</translation>
 <translation id="1685574186123115251">Thêm nguồn nội dung</translation>
-<translation id="939305735877869636">Brave</translation>
 <translation id="6261915643960475695">Kinh doanh</translation>
 <translation id="8265589281845759879">Ô tô</translation>
 <translation id="7726519849288907308">Người nổi tiếng</translation>
@@ -1828,7 +1753,6 @@
 <translation id="7948579849190819732">Tab hiện tại</translation>
 <translation id="7056969230130642253">Bạn đã xem hết rồi</translation>
 <translation id="7292242212818928219">Nội dung mới có sẵn. Tải lại?</translation>
-<translation id="3924145049010392604">Meta</translation>
 <translation id="7481312909269577407">Chuyển tiếp</translation>
 <translation id="1272079795634619415">Dừng</translation>
 <translation id="302781076327338683">Tải lại bỏ qua bộ nhớ đệm</translation>
@@ -2000,7 +1924,6 @@
 <translation id="1873585723672836337">Luôn sử dụng Speedreader cho tất cả các trang web</translation>
 <translation id="3138587343887871192">Chuyển đổi để bật/tắt SpeedReader cho tất cả các trang web.</translation>
 <translation id="5153147025131874069">Không phải tất cả các trang web đều cung cấp khả năng Speedreader.</translation>
-<translation id="1013121820689882118">Speedreader</translation>
 <translation id="2104268045272817433">Thoát Speedreader</translation>
 <translation id="6315170314923504164">Giọng nói</translation>
 <translation id="864152735015641598">Điều chỉnh SpeedReader</translation>
@@ -2009,10 +1932,6 @@
 <translation id="5595850093882577201">Chủ đề sepia</translation>
 <translation id="1407069428457324124">Chủ đề tối</translation>
 <translation id="9050211734566144118">Chủ đề hệ thống</translation>
-<translation id="812549962360031312">Sans</translation>
-<translation id="5016205925109358554">Serif</translation>
-<translation id="2593272815202181319">Monospace</translation>
-<translation id="8960352557529001690">Dyslexic</translation>
 <translation id="8189819085033738728">Giảm kích thước phông chữ</translation>
 <translation id="1952725803106139986">Tăng kích thước phông chữ</translation>
 <translation id="6338177649973309262">Cột nội dung thu hẹp</translation>
@@ -2022,7 +1941,6 @@
 <translation id="1199355487114804640">Phát/Dừng</translation>
 <translation id="1689210457482459023">Giảm tốc độ phát lại</translation>
 <translation id="5872363163901278000">Tăng tốc độ phát lại</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8637805148029768813">Tính năng tóm tắt hiện chỉ khả dụng cho các bài được chọn và các trang web dạng dài khác.</translation>
 <translation id="1223498995510244364">Tóm tắt</translation>
 <translation id="7491773233732232424">Về Leo</translation>
@@ -2042,7 +1960,6 @@
 <translation id="8583558415545871403">Xin chào, tôi là Leo. Tôi được Brave ủy quyền và được hỗ trợ bởi Claude 3 Haiku, một mô hình do Anthropic tạo ra để hỗ trợ các tác vụ xử lý văn bản và đàm thoại.</translation>
 <translation id="1107977270364670952">Xin chào, tôi là Leo. Tôi được Brave ủy quyền và được hỗ trợ bởi Claude 3.5 Sonnet, một mô hình do Anthropic tạo ra để hỗ trợ các tác vụ xử lý văn bản và đàm thoại.</translation>
 <translation id="6206029817087805290"><ph name="MODEL_NAME"/> bởi <ph name="COMPANY_NAME"/></translation>
-<translation id="963346402440669081">Premium</translation>
 <translation id="6187065185557150870">Trò chuyện</translation>
 <translation id="2961040541145689181">Trò chuyện mới</translation>
 <translation id="7557539689487606886">Lên Premium</translation>
@@ -2116,7 +2033,6 @@
 <translation id="1252805982772190086">Bài đăng ngắn</translation>
 <translation id="2087555497198267113">Bài đăng dài</translation>
 <translation id="4170307327863874820">Bài đăng trên blog</translation>
-<translation id="1308864651455614281">Tagline</translation>
 <translation id="5258847587364431118">Diễn giải</translation>
 <translation id="6147279996212084542">Giải thích</translation>
 <translation id="1201408613803664464">Cải thiện</translation>
@@ -2140,7 +2056,7 @@
 <translation id="7509914170164691086">Khiên đã BẬT <ph name="LINK_BEFORE"/>cho<ph name="LINK_AFTER"/></translation>
 <translation id="260764436039299868">Khiên đã TẮT <ph name="LINK_BEFORE"/>trong<ph name="LINK_AFTER"/></translation>
 <translation id="3907405056878805220">Nếu trang web này có vẻ bị hỏng thì hãy thử tắt Khiên. 
-   <ph name="LINK_BEFORE"/>Lưu ý: điều này có thể làm giảm các khả năng bảo vệ quyền riêng tư của Brave.<ph name="LINK_AFTER"/></translation>
+  <ph name="LINK_BEFORE"/>Lưu ý: điều này có thể làm giảm các khả năng bảo vệ quyền riêng tư của Brave.<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">Đã chặn trình theo dõi, quảng cáo và nhiều hơn nữa <ph name="LINK_BEFORE"/>Tìm hiểu thêm<ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Không được bảo vệ bởi Khiên Brave <ph name="LINK_BEFORE"/>Tìm hiểu thêm<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">Kiểm soát nâng cao</translation>
@@ -2219,7 +2135,6 @@
 <translation id="7818938154803162778">Chắc chắn rồi, tôi sẽ giúp</translation>
 <translation id="958268166261124668">Brave Tường lửa + VPN: Đã kết nối</translation>
 <translation id="6021669293402055982">Brave Tường lửa + VPN: Đã ngắt kết nối</translation>
-<translation id="3541307549916475335">Brave VPN Panel UI</translation>
 <translation id="7143207342074048698">Đang kết nối</translation>
 <translation id="1202549130170287307">Đang ngắt kết nối</translation>
 <translation id="2325196879156848326">Kết nối không thành công</translation>
@@ -2235,7 +2150,6 @@
 <translation id="5747552184818312860">Hết hạn</translation>
 <translation id="8421945428836418371">Tự động kết nối lại</translation>
 <translation id="434523916398030617">Liên hệ hỗ trợ kỹ thuật</translation>
-<translation id="1116694919640316211">About</translation>
 <translation id="755045397420611731">Quyền riêng tư &amp; bảo mật trực tuyến cao hơn</translation>
 <translation id="4520128772974831415">Ẩn IP và thay đổi vị trí của bạn</translation>
 <translation id="2044418816479192294">Hàng trăm máy chủ trên toàn thế giới</translation>
@@ -2295,7 +2209,6 @@ Bạn luôn có thể quay lại WireGuard trên brave://settings/system.
 
 Chúng tôi sẽ giúp bạn kết nối!</translation>
 <translation id="1657858090675311947">Không cảnh báo tôi về điều này nữa.</translation>
-<translation id="2740531572673183784">Ok</translation>
 <translation id="7423206764347669977">Thay đổi cài đặt</translation>
 <translation id="9061845622728745852">Múi giờ:</translation>
 <translation id="8295393906499561642">Phiên hết hạn</translation>
@@ -2309,6 +2222,10 @@ Chúng tôi sẽ giúp bạn kết nối!</translation>
 <translation id="8048263175525832621">Brave VPN - Đã ngắt kết nối</translation>
 <translation id="1498770726476841108">Quản lý tài khoản</translation>
 <translation id="6825718953004242472">Xóa biểu tượng</translation>
+<translation id="6819278685469225453">Bảo vệ mọi ứng dụng &amp; toàn bộ thiết bị của bạn</translation>
+<translation id="4295077644587784828">Quyền riêng tư &amp; bảo mật trực tuyến cao hơn.</translation>
+<translation id="8425213833346101688">Thay đổi</translation>
+<translation id="8703188411226330709">Bắt đầu dùng thử</translation>
 <translation id="3287942014983548982">Mở tại đây</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/>, đang mở,
     nhấn Tab rồi Enter để chuyển sang tab đang mở,</translation>
@@ -2316,10 +2233,4 @@ Chúng tôi sẽ giúp bạn kết nối!</translation>
     tab hiện có</translation>
 <translation id="451189393813405346">Hỏi Leo</translation>
 <translation id="8525248723479742219">Phát sau</translation>
-<translation id="1450735350187803276">Quảng cáo đã xem trong tháng này</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Thay đổi</translation>
-<translation id="6819278685469225453">Bảo vệ mọi ứng dụng &amp; toàn bộ thiết bị của bạn</translation>
-<translation id="4295077644587784828">Quyền riêng tư &amp; bảo mật trực tuyến cao hơn.</translation>
-<translation id="8703188411226330709">Bắt đầu dùng thử</translation>
 </translationbundle>

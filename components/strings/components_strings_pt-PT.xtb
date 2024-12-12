@@ -211,6 +211,7 @@ Se não permitir, isto será bloqueado pelas suas definições de privacidade. I
 <translation id="1357195169723583938">Quem utilizou o dispositivo recentemente e quando</translation>
 <translation id="1358187717814494928">Criar página</translation>
 <translation id="1359836962251219822">Cozinha e sala de jantar</translation>
+<translation id="5497977785983089120">Abra uma nova janela de navegação anónima para navegar em privado</translation>
 <translation id="1361528602584216624">Limite por Pix <ph name="TRANSACTION_LIMIT"/> R$</translation>
 <translation id="1363015776076529485">Métodos de pagamento disponíveis para seleção para continuar com o pagamento abertos à altura total.</translation>
 <translation id="1363028406613469049">Faixa</translation>
@@ -423,6 +424,7 @@ Se não permitir, isto será bloqueado pelas suas definições de privacidade. I
 <translation id="1727613060316725209">O certificado é válido</translation>
 <translation id="1728677426644403582">Está a ver a fonte de uma página Web</translation>
 <translation id="173080396488393970">Este tipo de cartão não é suportado</translation>
+<translation id="317153861231603077">Pedir antes pessoalmente</translation>
 <translation id="1733064249834771892">tipos de letra</translation>
 <translation id="1733631169686303142">Equipamento de áudio</translation>
 <translation id="1733762317901693627">Por vezes, até os sites normalmente seguros são comprometidos por atacantes. Visite <ph name="BEGIN_LINK"/>este site inseguro<ph name="END_LINK"/> apenas se tiver a certeza de que compreende os riscos.</translation>
@@ -743,6 +745,7 @@ Se não permitir, isto será bloqueado pelas suas definições de privacidade. I
 <translation id="2296244067976588032">Chave de acesso • Porta-chaves iCloud</translation>
 <translation id="2300306941146563769">Não carregado</translation>
 <translation id="2301098101308036335">Que Websites são visitados e quando.</translation>
+<translation id="6702454076107580912">Botão Abrir janela de navegação anónima; ative para abrir uma nova janela de navegação anónima para navegar em privado</translation>
 <translation id="2306124309679506798">Permitir uma experiência imersiva?</translation>
 <translation id="2312234273148520048">Condimentos e molhos</translation>
 <translation id="2316087952091171402">Menos de <ph name="UPPER_ESTIMATE"/>. É possível que alguns sites sejam carregados mais lentamente na sua próxima visita.</translation>
@@ -759,6 +762,7 @@ Se não permitir, isto será bloqueado pelas suas definições de privacidade. I
 <translation id="2340263603246777781"><ph name="ORIGIN"/> quer sincronizar</translation>
 <translation id="2346319942568447007">Imagem que copiou</translation>
 <translation id="2348509731468399833">Acompanhamento de preço parado.</translation>
+<translation id="2129555469258123376">Botão Abrir separador de navegação anónima; ative para abrir um novo separador de navegação anónima para navegar em privado</translation>
 <translation id="2350796302381711542">Permitir que <ph name="HANDLER_HOSTNAME"/> abra todos os links <ph name="PROTOCOL"/>, em vez de <ph name="REPLACED_HANDLER_TITLE"/>?</translation>
 <translation id="2353297238722298836">Câmara e microfone permitidos</translation>
 <translation id="2354001756790975382">Outros marcadores</translation>
@@ -861,10 +865,12 @@ Se não permitir, isto será bloqueado pelas suas definições de privacidade. I
 <translation id="2530042584066815841">Bloqueio e utilização do rato</translation>
 <translation id="2533649878691950253">Este site foi impedido de saber a sua localização exata porque, normalmente, não concede esta autorização</translation>
 <translation id="253493526287553278">Ver os detalhes do código promocional</translation>
+<translation id="40442660395682483">Abra um novo separador de navegação anónima para navegar em privado</translation>
 <translation id="2535659140340599600">{COUNT,plural, =1{e mais 1}other{e mais #}}</translation>
 <translation id="2536110899380797252">Adicionar endereço</translation>
 <translation id="3140033400151786080">As outras pessoas que usam este dispositivo não veem a sua atividade, por isso pode navegar de forma mais privada. Esta ação não altera a forma como os dados são recolhidos pelos Websites que visita nem os serviços que usam, incluindo o Brave. As transferências e os marcadores são guardados.</translation>
 <translation id="2539524384386349900">Detetar</translation>
+<translation id="375424491626359494">As páginas que visualizar em separadores de navegação anónima não são memorizadas no histórico do navegador, no armazenamento de cookies ou no histórico de pesquisas depois de fechar todos os separadores de navegação anónima. Todos os ficheiros transferidos ou os marcadores criados são guardados.</translation>
 <translation id="2542106216580219892">Surf</translation>
 <translation id="2544546346215446551">O administrador reiniciou o seu dispositivo</translation>
 <translation id="2544644783021658368">Documento único</translation>
@@ -1007,6 +1013,7 @@ Se não permitir, isto será bloqueado pelas suas definições de privacidade. I
 <translation id="2859806420264540918">Este site apresenta anúncios intrusivos ou enganadores.</translation>
 <translation id="28618371182701850">Veículos elétricos e recarregáveis</translation>
 <translation id="28761159517501904">Filmes</translation>
+<translation id="6934396344327597525">Está a sair do Modo de navegação anónima para pagar através de uma aplicação externa. Quer continuar?</translation>
 <translation id="1117301625415017890"><ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT"/>, prima Tab e, em seguida, Enter para gerir a Navegação segura e muito mais nas Definições do Brave</translation>
 <translation id="2878197950673342043">Dobra cruzada</translation>
 <translation id="2878424575911748999">A1</translation>
@@ -1053,6 +1060,7 @@ Se não permitir, isto será bloqueado pelas suas definições de privacidade. I
 <translation id="2948083400971632585">Pode desativar qualquer proxy configurado para uma ligação a partir da página de definições.</translation>
 <translation id="3955566820843143766">Ignorada porque a máquina não está inscrita no Brave Browser Cloud Management.</translation>
 <translation id="2951588413176968965">A minha caixa de correio</translation>
+<translation id="4920329334239571966">Fechar todas as janelas de navegação anónima</translation>
 <translation id="2952904171810469095">A2x5</translation>
 <translation id="2954624054936281172">Tabela dos métodos de pagamento guardados</translation>
 <translation id="295526156371527179">Aviso: esta política não foi unida como dicionário, conforme especificado pela política, porque não é um dicionário.</translation>
@@ -1072,6 +1080,7 @@ Se não permitir, isto será bloqueado pelas suas definições de privacidade. I
 <translation id="2978824962390592855">Ópera</translation>
 <translation id="2979424420072875974">Recursos para escritores</translation>
 <translation id="6172169316494799304">O Código de Segurança/CVC deste cartão vai ser encriptado e guardado na sua Conta Brave para um pagamento mais rápido</translation>
+<translation id="1536541482996273580">Abrir separador de navegação anónima</translation>
 <translation id="2985398929374701810">Introduza um endereço válido</translation>
 <translation id="2987034854559945715">Nenhuma funcionalidade correspondente</translation>
 <translation id="714850411804317247">O Brave limita a quantidade de informações que os sites podem usar para acompanhar o seu perfil enquanto navega. Pode alterar as definições para escolher o seu próprio nível de proteção.</translation>
@@ -1211,6 +1220,7 @@ Se não permitir, isto será bloqueado pelas suas definições de privacidade. I
 <translation id="323107829343500871">Introduzir o Código de Segurança/CVC de <ph name="CREDIT_CARD"/></translation>
 <translation id="3234666976984236645">Detetar sempre conteúdo importante neste site</translation>
 <translation id="3236212803136366317">Vantagens do cartão</translation>
+<translation id="2977472760057091832">Abrir link numa janela de navegação anónima</translation>
 <translation id="3240683217920639535"><ph name="MANAGE_CHROME_THEMES_FOCUSED_FRIENDLY_MATCH_TEXT"/>, prima Tab e, em seguida, Enter para personalizar o aspeto do seu navegador</translation>
 <translation id="3240791268468473923">A página de credenciais de pagamento seguro sem correspondência com as credenciais está aberta</translation>
 <translation id="324180406144491771">Os links do anfitrião "<ph name="HOST_NAME"/>" estão bloqueados</translation>
@@ -1342,6 +1352,7 @@ Se não permitir, isto será bloqueado pelas suas definições de privacidade. I
 <translation id="346601286295919445">Química</translation>
 <translation id="3467081767799433066">Com a medição de anúncios, são partilhados tipos de dados limitados entre sites para medir o desempenho dos respetivos anúncios, por exemplo, se fez uma compra depois de visitar um site.</translation>
 <translation id="3468054117417088249"><ph name="TAB_SWITCH_SUFFIX"/>, atualmente aberto, prima Tab e, em seguida, Enter para mudar para o separador aberto.</translation>
+<translation id="710569555563138608"><ph name="CLOSE_INCOGNITO_WINDOWS_FOCUSED_FRIENDLY_MATCH_TEXT"/>, prima Tab e, em seguida, Enter para fechar todas as janelas de navegação anónima atualmente abertas</translation>
 <translation id="3807334561457710885">Botão Personalizar tipos de letra no Brave; ative para personalizar os tipos de letra e os respetivos tamanhos no Brave</translation>
 <translation id="3478033058537426179">Por grupo</translation>
 <translation id="3479552764303398839">Agora não</translation>
@@ -1471,6 +1482,7 @@ Se não permitir, isto será bloqueado pelas suas definições de privacidade. I
 <translation id="3676592649209844519">ID do dispositivo:</translation>
 <translation id="3677008721441257057">Será que quis dizer &lt;a href="#" id="dont-proceed-link"&gt;<ph name="DOMAIN"/>&lt;/a&gt;?</translation>
 <translation id="3678029195006412963">Não foi possível assinar o pedido</translation>
+<translation id="2388886110302389394">Abrir a página numa nova janela de navegação anónima (Ctrl-Shift-N)</translation>
 <translation id="3678914302246317895">Introduza o código de validação de <ph name="OTP_LENGTH"/> dígitos</translation>
 <translation id="3681007416295224113">Informações do certificado</translation>
 <translation id="2659564324969662497">O Brave regista tópicos de interesse com base no seu histórico de navegação recente.</translation>
@@ -1761,6 +1773,23 @@ Se não permitir, isto será bloqueado pelas suas definições de privacidade. I
 <translation id="4214357935346142455">perfil do ecrã de início de sessão</translation>
 <translation id="4219596572397833317">Veja o histórico de preços e outras informações para fazer compras de forma mais inteligente.</translation>
 <translation id="4220128509585149162">Erros</translation>
+<translation id="1426112902089905810">&lt;h4&gt;Passo 1: inicie sessão no portal&lt;/h4&gt;
+    &lt;p&gt;As redes Wi-Fi em locais como cafés ou aeroportos necessitam que inicie sessão. Para ver a página de início de sessão, aceda a uma página cujo endereço contenha o código &lt;code&gt;http://&lt;/code&gt;.&lt;/p&gt;
+    &lt;ol&gt;
+    &lt;li&gt;Aceda a qualquer Website que comece por &lt;code&gt;http://&lt;/code&gt;, como &lt;a href="http://example.com" target="_blank"&gt;http://example.com&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;Na página de início de sessão apresentada, inicie sessão para utilizar a Internet.&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;h4&gt;Passo 2: abra a página no modo de navegação anónima (apenas no computador)&lt;/h4&gt;
+    &lt;p&gt;Abra a página que estava a visitar numa janela de navegação anónima.&lt;/p&gt;
+    &lt;p&gt;Se conseguir abrir a página, significa que uma extensão do Brave não está a funcionar corretamente. Para corrigir o erro, desative a extensão.&lt;/p&gt;
+    &lt;h4&gt;Passo 3: atualize o sistema operativo&lt;/h4&gt;
+    &lt;p&gt;Certifique-se de que o seu dispositivo está atualizado.&lt;/p&gt;
+    &lt;h4&gt;Passo 4: desative temporariamente o antivírus&lt;/h4&gt;
+    &lt;p&gt;Este erro é apresentado se tiver um software antivírus que forneça "Proteção HTTPS" ou "Análise de HTTPS". O antivírus impede o Brave de fornecer segurança.&lt;/p&gt;
+    &lt;p&gt;Para resolver o problema, desative o software antivírus. Se a página funcionar depois de desativar o software, desative-o sempre que utilizar sites seguros.&lt;/p&gt;
+    &lt;p&gt;Lembre-se de ativar novamente o programa antivírus quando terminar.&lt;/p&gt;
+    &lt;h4&gt;Passo 5: obtenha ajuda adicional&lt;/h4&gt;
+    &lt;p&gt;Se o erro persistir, contacte o proprietário do Website.&lt;/p&gt;</translation>
 <translation id="4223404254440398437">Acesso ao microfone não permitido</translation>
 <translation id="4226937834893929579"><ph name="BEGIN_LINK"/>Experimente executar o Diagnóstico de rede<ph name="END_LINK"/>.</translation>
 <translation id="422722221769396062">Serviços de entrega de comida</translation>
@@ -1788,6 +1817,7 @@ Se não permitir, isto será bloqueado pelas suas definições de privacidade. I
 <translation id="4269264543938335308">Vestuário de natação</translation>
 <translation id="4269599248168651462">O certificado do servidor é emitido para um nome não exclusivo.</translation>
 <translation id="4270541775497538019">Empilhador 6</translation>
+<translation id="896703648578722320">Quando são adicionadas extensões ao Brave, são enviados dados relevantes acerca destas extensões para terceiros para análise e estes podem estar visíveis para o seu administrador. Os dados incluem informações sobre as extensões, como o nome, a hora de instalação, a origem da instalação, bem como a atividade associada a estas extensões (como alterar separadores, contactar Websites ou aceder a cookies). Estes dados são recolhidos relativamente a extensões instaladas a partir da Web Store do Brave, bem como extensões fora da loja.</translation>
 <translation id="4275830172053184480">Reiniciar o dispositivo</translation>
 <translation id="4276974990916607331">Não</translation>
 <translation id="4277028893293644418">Repor palavra-passe</translation>
@@ -1988,6 +2018,7 @@ Se não permitir, isto será bloqueado pelas suas definições de privacidade. I
 <translation id="468314109939257734">Veja o número do cartão virtual</translation>
 <translation id="4686942373615810936">Criado agora mesmo</translation>
 <translation id="4687718960473379118">Anúncios sugeridos por sites</translation>
+<translation id="556965402266718712">Botão Fechar janelas de navegação anónima; ative para fechar todas as janelas de navegação anónima atualmente abertas</translation>
 <translation id="4691093235373904540">Coberturas</translation>
 <translation id="4692623383562244444">Motores de pesquisa</translation>
 <translation id="4698692901173737941">Desportos de combate</translation>
@@ -2019,6 +2050,7 @@ Se não permitir, isto será bloqueado pelas suas definições de privacidade. I
 <translation id="4744514002166662487">Criar apresentação</translation>
 <translation id="4744603770635761495">Caminho do Executável</translation>
 <translation id="4744816391336495134">Pode usar a impressão digital para validar a sua identidade sempre que usar uma palavra-passe guardada</translation>
+<translation id="6417973700199526943">Está na Navegação anónima</translation>
 <translation id="4750394297954878236">Sugestões</translation>
 <translation id="4750671009706599284">este telemóvel</translation>
 <translation id="4750917950439032686">As suas informações (por exemplo, palavras-passe ou números de cartões de crédito) são privadas quando são enviadas para este site.</translation>
@@ -2250,6 +2282,7 @@ Se não permitir, isto será bloqueado pelas suas definições de privacidade. I
 <translation id="5148889558173091794">A sua organização bloqueou <ph name="BEGIN_BOLD"/><ph name="DOMAIN"/><ph name="END_BOLD"/> porque viola uma política. <ph name="BEGIN_LEARN_MORE_LINK"/>Saiba mais acerca deste aviso<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="5157504274688344097">Grandes comerciantes e armazéns comerciais</translation>
 <translation id="5158275234811857234">Capa</translation>
+<translation id="4075123085690634698">Abrir a página numa nova janela de navegação anónima (⇧⌘N)</translation>
 <translation id="5161334686036120870">Assunto:</translation>
 <translation id="5161506081086828129">Empilhador 9</translation>
 <translation id="5164798890604758545">É introduzido texto</translation>
@@ -2433,6 +2466,7 @@ Se não permitir, isto será bloqueado pelas suas definições de privacidade. I
 <translation id="5512812358367123529">Mobiliário de escritório</translation>
 <translation id="5513528801833998679">Usar o início de sessão no dispositivo</translation>
 <translation id="5515388687005870733">55 x 85 mm</translation>
+<translation id="7244699920401708198">A maioria dos sites não pode usar cookies de terceiros para acompanhar o seu perfil enquanto navega, e os sites não podem usar cookies de terceiros no Modo de navegação anónima.</translation>
 <translation id="5519516356611866228">Com as suas alterações</translation>
 <translation id="5519696598216267194">Papel (perfurado)</translation>
 <translation id="5521782189689806907">Marcenaria</translation>
@@ -2466,6 +2500,7 @@ Se não permitir, isto será bloqueado pelas suas definições de privacidade. I
 <translation id="5560088892362098740">Data de validade</translation>
 <translation id="55635442646131152">Contorno do documento</translation>
 <translation id="1702142849385752335">Para usar a localização, dê acesso ao Brave nas <ph name="LINK"/>.</translation>
+<translation id="5395368798429603306">Abrir separador de navegação anónima</translation>
 <translation id="5565735124758917034">Ativo</translation>
 <translation id="5569030697349375295">Software de contabilidade e finanças</translation>
 <translation id="5570825185877910964">Proteger conta</translation>
@@ -3318,6 +3353,7 @@ Se não permitir, isto será bloqueado pelas suas definições de privacidade. I
 <translation id="7130775116821607281">Carregamento bloqueado</translation>
 <translation id="7132939140423847331">O seu administrador proibiu a cópia destes dados.</translation>
 <translation id="7135130955892390533">Mostrar estado</translation>
+<translation id="356726776930413501">Saber mais sobre a Navegação anónima</translation>
 <translation id="7138472120740807366">Método de fornecimento</translation>
 <translation id="7138678301420049075">Outros</translation>
 <translation id="7139892792842608322">Tabuleiro principal</translation>
@@ -3340,6 +3376,7 @@ Se não permitir, isto será bloqueado pelas suas definições de privacidade. I
 <translation id="7175401108899573750">{SHIPPING_OPTIONS,plural, =0{<ph name="SHIPPING_OPTION_PREVIEW"/>}=1{<ph name="SHIPPING_OPTION_PREVIEW"/> e mais <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>}other{<ph name="SHIPPING_OPTION_PREVIEW"/> e mais <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>}}</translation>
 <translation id="7179323680825933600">Guardar e preencher métodos de pagamento</translation>
 <translation id="7180611975245234373">Atualizar</translation>
+<translation id="5549245478906381817">Abrir janela de navegação anónima</translation>
 <translation id="7182878459783632708">Não estão definidas políticas</translation>
 <translation id="7184379626380324540">Casa e decoração</translation>
 <translation id="7186833457841277072">Envelope (jato de tinta)</translation>
@@ -3354,6 +3391,7 @@ Se não permitir, isto será bloqueado pelas suas definições de privacidade. I
 <translation id="7195432682252510959">Use este código no ato de pagamento. Válido até <ph name="DATE"/>.</translation>
 <translation id="7195852673246414183">Depois de ativar esta definição, regresse a este separador para começar a escrever</translation>
 <translation id="7199278868241956094">Oficio</translation>
+<translation id="7627159832789643445"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT"/>, prima Tab e, em seguida, Enter para abrir um novo separador de navegação anónima para navegar em privado</translation>
 <translation id="2540471381262404386">Defina o Brave como o navegador predefinido do sistema</translation>
 <translation id="7210863904660874423"><ph name="HOST_NAME"/> não respeita os padrões de segurança.</translation>
 <translation id="7210993021468939304">A atividade do Linux dentro do contentor, podendo instalar e executar apps para Linux no contentor.</translation>
@@ -3364,6 +3402,7 @@ Se não permitir, isto será bloqueado pelas suas definições de privacidade. I
 <translation id="7220786058474068424">A processar</translation>
 <translation id="7221855153210829124">Mostrar notificações</translation>
 <translation id="7221857374443660083">O banco quer confirmar a sua identidade</translation>
+<translation id="8326104954595890674">Novo separador anónimo</translation>
 <translation id="7227293336683593977">Histórico de preços</translation>
 <translation id="7232352818707016189">Mais ações para a tabela Comparar</translation>
 <translation id="7233592378249864828">Imprimir folha de confirmação</translation>
@@ -3425,6 +3464,7 @@ Detalhes adicionais:
 <translation id="7356678400607112844">Última visita</translation>
 <translation id="7359588939039777303">Anúncios bloqueados.</translation>
 <translation id="7308957539693927108">Quando a Brave encontra descontos disponíveis, estes são apresentados durante o pagamento</translation>
+<translation id="8794378783472961468">No entanto, a navegação não é invisível. Passar para a Navegação anónima não oculta a navegação do empregador, do fornecedor de serviços de Internet nem dos Websites que visitar.</translation>
 <translation id="5417725730200908216"><ph name="MANAGE_ADDRESSES_FOCUSED_FRIENDLY_MATCH_TEXT"/>, prima Tab e, em seguida, Enter para adicionar e gerir endereços nas Definições do Brave.</translation>
 <translation id="7365849542400970216">Sabe qual é a utilização do seu dispositivo?</translation>
 <translation id="736592699917579616">Alimentação</translation>
@@ -3618,6 +3658,7 @@ Detalhes adicionais:
 <translation id="7661591871037163355">A tabela de comparação está cheia. Remova colunas para adicionar novas.</translation>
 <translation id="7662298039739062396">Definição controlada por uma extensão</translation>
 <translation id="7663736086183791259">Certificado <ph name="CERTIFICATE_VALIDITY"/></translation>
+<translation id="1090109565956608696">Não permitida na Navegação anónima</translation>
 <translation id="7667346355482952095">O símbolo da política devolvido está vazio ou não corresponde ao símbolo atual</translation>
 <translation id="7668654391829183341">Dispositivo desconhecido</translation>
 <translation id="7669320311687290322"><ph name="ITEM_LABEL"/>, <ph name="ITEM_POSITION"/> de <ph name="ITEMS_TOTAL"/>.</translation>
@@ -3774,6 +3815,7 @@ Detalhes adicionais:
 <translation id="7952327717479677595">Botão Gerir motores de pesquisa; ative para gerir o seu motor de pesquisa e pesquisa de sites predefinidos</translation>
 <translation id="7953236668995583915">Atualize esta página para aplicar as definições atualizadas neste site</translation>
 <translation id="7953569069500808819">Coser extremidade superior</translation>
+<translation id="8108906085747235166">Perguntar presencialmente</translation>
 <translation id="7956713633345437162">Marcadores telemóvel</translation>
 <translation id="7961015016161918242">Nunca</translation>
 <translation id="7962467575542381659">Computador da plataforma</translation>
@@ -3922,6 +3964,7 @@ Detalhes adicionais:
 <translation id="8232343881378637145">Temperatura da plataforma</translation>
 <translation id="8233773197406738106">A preparar o ficheiro</translation>
 <translation id="8238188918340945316">28 x 40 pol.</translation>
+<translation id="6957624206566198865">Abrir página num novo separador anónimo</translation>
 <translation id="8241707690549784388">A página que procura utilizou informações introduzidas por si. Regressar a essa página poderá originar a repetição de qualquer ação que tenha efetuado. Quer continuar?</translation>
 <translation id="8241712895048303527">Bloquear neste site</translation>
 <translation id="8242426110754782860">Continuar</translation>
@@ -4197,6 +4240,7 @@ Detalhes adicionais:
 <translation id="2184048523283917559">Pode bloquear os tópicos que não quer partilhar com os sites. O Brave também elimina automaticamente os tópicos com mais de 4 semanas. Saiba mais</translation>
 <translation id="8734529307927223492">O seu <ph name="DEVICE_TYPE"/> é gerido por <ph name="MANAGER"/></translation>
 <translation id="8736059027199600831">30 x 40 pol.</translation>
+<translation id="1819281525814582516"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT"/>, prima Tab e, em seguida, Enter para abrir uma nova janela de navegação anónima para navegar em privado.</translation>
 <translation id="8737685506611670901">Abrir links de <ph name="PROTOCOL"/> em vez de <ph name="REPLACED_HANDLER_TITLE"/></translation>
 <translation id="6326805297893828864">Para estabelecer uma ligação segura, o relógio tem de ser definido corretamente. Isto deve-se ao facto de os certificados que os Sites utilizam para se identificarem serem apenas válidos para períodos de tempo específicos. Uma vez que o relógio do seu dispositivo está incorreto, o Brave não consegue validar estes certificados.</translation>
 <translation id="8740359287975076522">Não foi possível encontrar o &lt;abbr id="dnsDefinition"&gt;endereço DNS&lt;/abbr&gt; de <ph name="HOST_NAME"/>. Estamos a diagnosticar o problema.</translation>
@@ -4211,6 +4255,7 @@ Detalhes adicionais:
 <translation id="8759274551635299824">Este cartão expirou</translation>
 <translation id="87601671197631245">Este site utiliza uma configuração de segurança desatualizada, que pode expor as suas informações (por exemplo, palavras-passe, mensagens ou cartões de crédito) quando são enviadas para este site.</translation>
 <translation id="8763927697961133303">Dispositivo USB</translation>
+<translation id="7736544743887840328">Feche todas as janelas de navegação anónima atualmente abertas</translation>
 <translation id="8766943070169463815">A página de autenticação das credenciais de pagamento seguro está aberta</translation>
 <translation id="8767765348545497220">Fechar balão de ajuda</translation>
 <translation id="7113746389006214608">Botão Criar apresentação; ative para criar rapidamente uma nova apresentação Brave no Slides</translation>
@@ -4239,10 +4284,12 @@ Detalhes adicionais:
 <translation id="8814547618907885931">Ver todas as tabelas de comparação</translation>
 <translation id="8814707942599948500">Envelope C8</translation>
 <translation id="7674607358106534914"><ph name="UPDATE_CHROME_FOCUSED_FRIENDLY_MATCH_TEXT"/>, prima Tab e, em seguida, Enter para atualizar o Brave nas Definições do Brave.</translation>
+<translation id="8820817407110198400">Marcadores</translation>
 <translation id="882338992931677877">Ranhura manual</translation>
 <translation id="8830320733681313421">Postal Hagaki</translation>
 <translation id="8830565333350631528">Ver ficheiros no <ph name="CLOUD_PROVIDER"/></translation>
 <translation id="8833007469711500369">Máquinas de lavar e secar roupa</translation>
+<translation id="8169715168668926832">Está a ver este aviso porque o site não suporta HTTPS e está no Modo de navegação anónima. <ph name="BEGIN_LEARN_MORE_LINK"/>Saiba mais acerca deste aviso<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="8837398923270275776">Programas de TV de ficção científica e fantasia</translation>
 <translation id="883848425547221593">Outros marcadores</translation>
 <translation id="8842351563145134519">Métodos de pagamento disponíveis para preenchimento com o toque abertos a meia altura.</translation>
@@ -4511,52 +4558,4 @@ Detalhes adicionais:
 <translation id="995755448277384931">Adicione o IBAN</translation>
 <translation id="995782501881226248">YouTube</translation>
 <translation id="997986563973421916">Do Google Pay</translation>
-<translation id="8820817407110198400">Barra de marcadores</translation>
-<translation id="8362995731815961365">A pessoa que configurou este computador optou por bloquear este site.</translation>
-<translation id="896703648578722320">Quando são adicionadas extensões ao Brave, são enviados dados relevantes acerca destas extensões para terceiros para análise e estes podem estar visíveis para o seu administrador. Os dados incluem informações sobre as extensões, como o nome, a hora de instalação, a origem da instalação, bem como a atividade associada a estas extensões (como alterar separadores, contactar Websites ou aceder a cookies). Estes dados são recolhidos relativamente a extensões instaladas a partir da Web Store, bem como extensões fora da loja.</translation>
-<translation id="4075123085690634698">Abrir a página numa nova janela de Navegação Privada (⇧⌘N)</translation>
-<translation id="2388886110302389394">Abrir a página numa nova janela de Navegação Privada (Ctrl-Shift-N)</translation>
-<translation id="6957624206566198865">Abrir página num novo separador anónimo</translation>
-<translation id="8326104954595890674">Novo separador privado</translation>
-<translation id="356726776930413501">Saiba mais sobre o modo privado</translation>
-<translation id="6417973700199526943">Entrou no modo privado</translation>
-<translation id="375424491626359494">As páginas que visualizar em separadores privados não são memorizadas no histórico do navegador, no armazenamento de cookies ou no histórico de pesquisas depois de fechar todos os separadores privados. Todos os ficheiros transferidos ou os marcadores criados serão guardados.</translation>
-<translation id="8794378783472961468">No entanto, a navegação não é invisível. Passar para o modo Privado não oculta a navegação do empregador ou do fornecedor de serviços de Internet, nem dos Sites que visitar.</translation>
-<translation id="5549245478906381817">Abrir janela de Navegação Privada</translation>
-<translation id="5497977785983089120">Abrir uma nova janela de Navegação Privada para navegar anonimamente.</translation>
-<translation id="1819281525814582516"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT"/>, pressione a tecla de tabulação e depois Enter para abrir uma nova janela de navegação privada para navegar anonimamente</translation>
-<translation id="6702454076107580912">Botão de abertura de janela de navegação anónima, ative para abrir uma nova janela de navegação privada para navegar anonimamente</translation>
-<translation id="4920329334239571966">Fechar todas as janelas privadas</translation>
-<translation id="7736544743887840328">Fechar todas as janelas privadas atualmente abertas</translation>
-<translation id="710569555563138608"><ph name="CLOSE_INCOGNITO_WINDOWS_FOCUSED_FRIENDLY_MATCH_TEXT"/>, Prima a tecla de tabulação e, em seguida, Enter para fechar todas as janelas privadas atualmente abertas</translation>
-<translation id="556965402266718712">Fechar o botão das janelas privadas, ative para fechar todas as janelas privadas atualmente abertas</translation>
-<translation id="5395368798429603306">Abrir separador privado</translation>
-<translation id="40442660395682483">Abrir um novo separador privado para navegar anonimamente</translation>
-<translation id="7627159832789643445"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT"/>, prima a tecla de tabulação, seguida de Enter, para abrir um novo separador privado e navegar anonimamente</translation>
-<translation id="2129555469258123376">Botão de abertura de separador privado, ative para abrir um novo separador privado e navegar anonimamente</translation>
-<translation id="1536541482996273580">Abrir separador privado</translation>
-<translation id="1090109565956608696">Não permitido em modo privado</translation>
-<translation id="6934396344327597525">Está a sair do modo Privado para pagar através de uma aplicação externa. Pretende continuar?</translation>
-<translation id="7244699920401708198">A maioria dos sites não pode utilizar cookies de terceiros para o monitorizar enquanto estiver a navegar. Também não podem utilizar cookies de terceiros no modo privado.</translation>
-<translation id="1426112902089905810">&lt;h4&gt;Passo 1: inicie sessão no portal&lt;/h4&gt;
-    &lt;p&gt;As redes Wi-Fi em locais como cafés ou aeroportos necessitam que inicie sessão. Para ver a página de início de sessão, aceda a uma página cujo endereço contenha o código &lt;code&gt;http://&lt;/code&gt;.&lt;/p&gt;
-    &lt;ol&gt;
-    &lt;li&gt;Aceda a qualquer Website que comece por &lt;code&gt;http://&lt;/code&gt;, como &lt;a href="http://example.com" target="_blank" rel="noopener noreferrer"&gt;http://example.com&lt;/a&gt;.&lt;/li&gt;
-    &lt;li&gt;Na página de início de sessão apresentada, inicie sessão para utilizar a Internet.&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;h4&gt;Passo 2: abra a página no modo de navegação anónima (apenas no computador)&lt;/h4&gt;
-    &lt;p&gt;Abra a página que estava a visitar numa janela de navegação anónima.&lt;/p&gt;
-    &lt;p&gt;Se conseguir abrir a página, significa que uma extensão do Brave não está a funcionar corretamente. Para corrigir o erro, desative a extensão.&lt;/p&gt;
-    &lt;h4&gt;Passo 3: atualize o sistema operativo&lt;/h4&gt;
-    &lt;p&gt;Certifique-se de que o seu dispositivo está atualizado.&lt;/p&gt;
-    &lt;h4&gt;Passo 4: desative temporariamente o antivírus&lt;/h4&gt;
-    &lt;p&gt;Este erro é apresentado se tiver um software antivírus que forneça "Proteção HTTPS" ou "Análise de HTTPS". O antivírus impede o Brave de fornecer segurança.&lt;/p&gt;
-    &lt;p&gt;Para resolver o problema, desative o software antivírus. Se a página funcionar depois de desativar o software, desative-o sempre que utilizar sites seguros.&lt;/p&gt;
-    &lt;p&gt;Lembre-se de ativar novamente o programa antivírus quando terminar.&lt;/p&gt;
-    &lt;h4&gt;Passo 5: obtenha ajuda adicional&lt;/h4&gt;
-    &lt;p&gt;Se o erro persistir, contacte o proprietário do Website.&lt;/p&gt;</translation>
-<translation id="8169715168668926832">Está a ver este aviso porque este site não é compatível com HTTPS e está no modo Privado. <ph name="BEGIN_LEARN_MORE_LINK"/>Saiba mais sobre este aviso<ph name="END_LEARN_MORE_LINK"/></translation>
-<translation id="8108906085747235166">Perguntar no perfil</translation>
-<translation id="317153861231603077">Perguntar no perfil</translation>
-<translation id="2977472760057091832">Abrir a ligação numa janela privada</translation>
 </translationbundle>

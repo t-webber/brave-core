@@ -744,6 +744,7 @@ Maaaring may ibang uri ng history ng pag-browse ang iyong Brave account tulad ng
 <translation id="2782276843156939908">Na-merge ang iyong mga listahan ng mga naka-save na password para sa Brave at <ph name="CHROME_CHANNEL"/>. Puwede mo pa ring i-autofill ang lahat ng iyong naka-save na password sa parehong app.</translation>
 <translation id="4616150815774728855">Buksan ang <ph name="WEBAPK_NAME"/></translation>
 <translation id="4619564267100705184">I-verify na ikaw ito</translation>
+<translation id="2589970573128789862">Incognito sa Brave</translation>
 <translation id="4634124774493850572">Gamitin ang password</translation>
 <translation id="4640331037679501949">{NUM_PASSWORDS,plural, =1{1 nakompromisong password}one{# nakompromisong password}other{# na nakompromisong password}}</translation>
 <translation id="4642472735733036929">Ihininto ang pagsubaybay sa presyo</translation>
@@ -952,6 +953,7 @@ Maaaring may ibang uri ng history ng pag-browse ang iyong Brave account tulad ng
 <translation id="5581519193887989363">Mapipili mo kung ano ang isi-sync anumang oras sa <ph name="BEGIN_LINK1"/>mga setting<ph name="END_LINK1"/>.</translation>
 <translation id="5590372121997663538">Tandaan ang computer na ito</translation>
 <translation id="5596627076506792578">Higit pang opsyon</translation>
+<translation id="4968908871398201967">Incognito mode</translation>
 <translation id="6894318537270274409">Para sa higit pang setting na gumagamit ng data para pahusayin ang iyong experience sa Brave, pumunta sa <ph name="BEGIN_LINK"/>Mga Serbisyo ng Brave<ph name="END_LINK"/>.</translation>
 <translation id="5611398002774823980">I-save sa account</translation>
 <translation id="5614625640221885312">Mag-sign in para makuha ang iyong mga bookmark, password, at higit pa sa lahat ng device mo</translation>
@@ -1810,7 +1812,6 @@ Para baguhin ang setting na ito, <ph name="BEGIN_LINK"/>i-delete ang data sa Bra
 <translation id="5722020415664104421">I-block habang naka-Pribado</translation>
 <translation id="8915136961932734044">Habang naka-Pribado, hindi magagamit ng mga site ang iyong cookies para makita ang aktibidad mo sa pag-browse sa iba't ibang site, halimbawa, para mag-personalize ng mga ad. Puwedeng masira ang mga feature sa ilang site.</translation>
 <translation id="2213938739750509524">Kapag nag-tap o nag-type ka sa address bar o search box, makakakita ka ng mga suhestyon mula sa iyong default na search engine. Naka-off ito sa Pribado.</translation>
-<translation id="2589970573128789862">Brave Private</translation>
 <translation id="5809126106485463836">Pinapanatiling pribado ng Private mode ang pagba-browse mo mula sa ibang gumagamit ng device mo</translation>
 <translation id="2633278372998075009">Mga pribadong tab</translation>
 <translation id="8810805383611013660">Buksan sa Pribadong tab</translation>
@@ -1828,7 +1829,6 @@ Para baguhin ang setting na ito, <ph name="BEGIN_LINK"/>i-delete ang data sa Bra
 <translation id="8120164982795455341">Bagong Pribadong tab</translation>
 <translation id="1988906120194081364">Lumipat sa Pribado</translation>
 <translation id="4300497327999623298">Lumipat palabas sa Pribado</translation>
-<translation id="4968908871398201967">Private mode</translation>
 <translation id="8448127664493413656">Pumasok sa Private mode</translation>
 <translation id="6484416399492735324">Umalis sa Private mode</translation>
 <translation id="3377025655491224618">Pribadong Tab</translation>

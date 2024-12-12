@@ -84,7 +84,6 @@
 <translation id="1118970888826017401">Omogućite podršku za zaobilaženje URL-ova za preusmjeravanje praćenja najviše razine.</translation>
 <translation id="94154759592465111">Blokiraj skripte</translation>
 <translation id="7714773920987474116">Blokira Javascript (mogu se rušiti mrežna mjesta)</translation>
-<translation id="995782501881226248">YouTube</translation>
 <translation id="2233004324252915283">Blokirajte preporučeni sadržaj usluge YouTube</translation>
 <translation id="1005372663692637999">Blokira sljedeće i završne elemente kartice na youtube.com.</translation>
 <translation id="5152595963250646670">Blokiraj elemente usluge YouTube koji odvlače pažnju</translation>
@@ -115,7 +114,6 @@
 <translation id="9148058034647219655">Izlaz</translation>
 <translation id="8047754398610073499">Blokiraj obavijesti o davanju privole za kolačiće</translation>
 <translation id="2621893359845808115">Blokiraju se skočni prozori mrežnog mjesta od kojih se traži prihvaćanje/odbijanja kolačića na tom mrežnom mjestu</translation>
-<translation id="7534079972563542000">Unstoppable Domains</translation>
 <translation id="6486983549008741930">Filtriranje sadržaja</translation>
 <translation id="2398817776566547893">Omogućite prilagođene filtre kojima se blokiraju sustavi za praćenje prema regiji i jeziku, kao i smetnje.</translation>
 <translation id="8578397014396032341">Filtri sadržaja</translation>
@@ -137,8 +135,6 @@
 <translation id="5132969826889386652">Izmjene uspješno spremljene</translation>
 <translation id="4335929145384293789">Dodajte prilagođene filtre koje ste izradili, jedan po retku, u polje iznad. Obavezno upotrebljavajte <ph name="ADBLOCK_FILTER_SYNTAX"/></translation>
 <translation id="5023212862780303376">Sintaksa filtra Adblock</translation>
-<translation id="6513892817556267573">Ethereum Name Service</translation>
-<translation id="531747189990625622">Solana Name Service</translation>
 <translation id="3894650624018948468">Metoda rješavanja</translation>
 <translation id="8410806609595910352">Traženje ENS-a van tehnologije blokova</translation>
 <translation id="2356070529366658676">Upitaj</translation>
@@ -216,7 +212,6 @@
 <translation id="49147335255967913">Otvorite poveznice YouTube u pregledniku Brave</translation>
 <translation id="4150201353443180367">Zaslon</translation>
 <translation id="4275663329226226506">Mediji</translation>
-<translation id="5950428831347558278">Widevine DRM</translation>
 <translation id="6716942308303275900">Upotrijebite Widevine za upravljanje digitalnim pravima (DRM) za pregledavanje zaštićenog medijskog sadržaja u pregledniku.</translation>
 <translation id="255204363133978824">Dopusti zaštićeni sadržaj</translation>
 <translation id="4736073408974888559"><ph name="BEGIN_LINK"/>Doznaj više o softveru Widevine<ph name="END_LINK"/></translation>
@@ -361,7 +356,6 @@
 <translation id="8185825081026121627">Osvojite osnovne privlačne tokene za pregledavanje oglasa kojima se poštuje privatnost u nagradama Brave.</translation>
 <translation id="5321518976657560663">Greška ponovnog postavljanja</translation>
 <translation id="4114170343590425996">Došlo je do greške prilikom ponovnog postavljanja nagrada Brave. Ponovno pokrenite preglednik Brave i pokušajte ponovno...</translation>
-<translation id="6417420737057016607">Brave Ads</translation>
 <translation id="5611966874859284786">Prikaži obavijesti kada se preglednik Brave ne upotrebljava</translation>
 <translation id="6606319453795180219">Ovom se radnjom brišu nagrade Brave i poništavaju svi podatci o nagradama Brave</translation>
 <translation id="5717636703619499822"><ph name="BEGIN_LINK1"/>Ponovno postavite podatke Nagrada Brave…<ph name="END_LINK1"/></translation>
@@ -412,7 +406,6 @@ Sigurno želite to napraviti?</translation>
 <translation id="2975780980638932742">Oglasi su Brave stigli!</translation>
 <translation id="7541582550122501404">Doprinos na čekanju</translation>
 <translation id="8520059774736886747">Stvaratelj <ph name="PUBLISHER_NAME"/>nedavno je potvrđen</translation>
-<translation id="1486343603936278248">token</translation>
 <translation id="7781069478569868053">Stranica Nova kartica</translation>
 <translation id="3171669670217312786">Pozadinske slike</translation>
 <translation id="8522669544471808198">Prikaži pozadinske slike</translation>
@@ -427,9 +420,7 @@ Sigurno želite to napraviti?</translation>
 <translation id="5308380583665731573">Poveži se</translation>
 <translation id="3368922792935385530">Povezano</translation>
 <translation id="6569877533335686968">Zadrži</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
 <translation id="8533411848724153701">Burza Gemini</translation>
-<translation id="6011108706830742093">ZebPay</translation>
 <translation id="1665118090708049096">Idi na moj račun <ph name="WALLET_PROVIDER"/></translation>
 <translation id="4858636682078269312">Prijavite se u račun za <ph name="WALLET_PROVIDER"/></translation>
 <translation id="8874184842967597500">Niste povezani</translation>
@@ -517,7 +508,6 @@ Sigurno želite to napraviti?</translation>
 <translation id="6814582232712814369">Smanjena količina vremena</translation>
 <translation id="3694122362646626770">Mrežna mjesta</translation>
 <translation id="2225863440766607138">Elementi za praćenje</translation>
-<translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
 <translation id="6737820963776538947">Blokirali ste <ph name="COUNT"/> elemente za praćenje &amp; oglase preglednikom Brave u protekla 3 sata.</translation>
 <translation id="5005713153542196658">Do 6 puta brže pretraživanje na glavnim stranicama s vijestima u Braveu blokiranjem elementa za praćenje &amp; oglasi.</translation>
 <translation id="7427567994475794038">Uključite Izvješća o privatnosti kako biste vidjeli koliko je elemenata za praćenje &amp; oglasa blokirano u protekla 3 sata.</translation>
@@ -618,7 +608,6 @@ Račun
 <ph name="ACCOUNT_NUMBER"/></translation>
 <translation id="7665369617277396874">Dodaj račun</translation>
 <translation id="3448492834076427715">Ažuriraj račun</translation>
-<translation id="5532363218245261099">#<ph name="NUMBER"/> <ph name="RECOVERY_PHRASE"/></translation>
 <translation id="1537175937716697987">Prikaži moju rečenicu za oporavak</translation>
 <translation id="5303015959766064022">Izradit ću sigurnosnu kopiju poslije</translation>
 <translation id="7345730059518887993">Provjerimo</translation>
@@ -681,7 +670,6 @@ Račun
 <translation id="4862812525895306758">Očisti informacije o transakcijama i broju nonce</translation>
 <translation id="5693968582510626466">Uklanjanje transakcija može biti korisno za razvojne inženjere ili pri uklanjanju sadržaja na lokalnom poslužitelju</translation>
 <translation id="5421107279168565467">Sigurno želite ponovno postaviti sve informacije o transakciji i broju nonce? Tu mogućnost upotrebljavaju uglavnom razvojni inženjeri koji upravljaju lokalnim testnim poslužiteljem. Upišite „<ph name="CONFIRMATION_PHRASE"/>” za potvrdu.</translation>
-<translation id="930472263779999522">{MINUTES, plural, =1 {# minute} other {# minutes}}</translation>
 <translation id="8146860193318415026">Prenosite videozapise strujanjem. Bez oglasa.</translation>
 <translation id="6311019535466417620">Bez oglasa prije vašeg videozapisa</translation>
 <translation id="4274652342814424451">Bez oglasa tijekom vašeg videozapisa</translation>
@@ -730,7 +718,6 @@ Ako ne prihvatite taj zahtjev, mreža VPN ponovno se ne spaja i nema zaštite va
 <translation id="3428909627460825679">Neuspješna izrada profila za mrežu VPN. Pokušajte ponovno.</translation>
 <translation id="1264320790738638119">Vaša je pretplata istekla. Možete se ponovno pretplatiti u bilo kojem trenutku.</translation>
 <translation id="8681480718817027245">Pretplata</translation>
-<translation id="7805768142964895445">Status</translation>
 <translation id="5747552184818312860">Istječe</translation>
 <translation id="1656814355341174523">Upravljaj pretplatom</translation>
 <translation id="1919008675977575793">Poslužitelj</translation>
@@ -801,7 +788,6 @@ Ako ne prihvatite taj zahtjev, mreža VPN ponovno se ne spaja i nema zaštite va
 <translation id="1133619932669546254">Aktiviraj <ph name="TOKEN"/></translation>
 <translation id="2199215899212542417">VRSTA FUNKCIJE: <ph name="FTYPE"/></translation>
 <translation id="4803003663447398145">Nema podataka</translation>
-<translation id="1105525362447173583">Solana Dapp Sign Transaction</translation>
 <translation id="9061799688859969073"><ph name="ACCOUNT_NAME"/> poslao <ph name="CRYPTO_VALUE"/> <ph name="ASSET"/> ($<ph name="FIAT_VALUE"/>) - <ph name="DATE"/></translation>
 <translation id="1148985422232712046">Račun <ph name="ACCOUNT_NAME"/> poslao je <ph name="ASSET"/> br.<ph name="ASSET_ID"/> - <ph name="DATE"/></translation>
 <translation id="2911329628253651823"><ph name="ACCOUNT_NAME"/> odobrio je <ph name="ASSET"/> – <ph name="DATE"/></translation>
@@ -839,6 +825,7 @@ Ako ne prihvatite taj zahtjev, mreža VPN ponovno se ne spaja i nema zaštite va
 <translation id="4351811224047421378">Precizni decimalni brojevi</translation>
 <translation id="3494964159182650590">Sažetak o nagradama</translation>
 <translation id="590733288489975971">Nagrade od značajke Ads</translation>
+<translation id="1450735350187803276">Oglasi viđeni ovaj mjesec</translation>
 <translation id="1767561995429774671">Daj doprinos</translation>
 <translation id="7335371657242627509">Uključi u sustav automatskog doprinosa</translation>
 <translation id="6727102863431372879">Postavi</translation>
@@ -1039,7 +1026,6 @@ račun. Želite li ga sada napraviti?</translation>
 <translation id="4530494379350999373">Podrijetlo</translation>
 <translation id="6736243959894955139">Adresa</translation>
 <translation id="3095940652251934233">Izjava</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">Inačica</translation>
 <translation id="1313065465616456728">Izdano:</translation>
 <translation id="7902225556763260253">Vrijeme isteka</translation>
@@ -1089,7 +1075,6 @@ račun. Želite li ga sada napraviti?</translation>
 <translation id="7618347247876614969">Račun tablice za traženje adrese:</translation>
 <translation id="7659483790930268440">Indeks tablice za traženje adrese:</translation>
 <translation id="5494920125229734069">Odaberi sve</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8613144770663526433">Prijava Novčanikom Brave</translation>
 <translation id="3696514931437952995">Prijavljujete se u <ph name="ORIGIN"/>. Novčanikom Brave dijeli se adresa vašeg novčanika sa sljedećim: <ph name="ORIGIN"/>.</translation>
 <translation id="1028781062521375153">Pogledaj pojedinosti</translation>
@@ -1101,7 +1086,6 @@ račun. Želite li ga sada napraviti?</translation>
 <translation id="1250335737108905610">Ponovno postavi i očisti podatke pomoćnika Leo</translation>
 <translation id="6165101586663336913">Za ponovno postavljanje pomoćnika Leo morate pristati na upotrebu pomoćnika Leo u budućnosti. On čisti i vašu povijest čavrljanja. Čišćenjem povijesti čavrljanja brišu se svi vaši prethodni razgovori s pomoćnikom Leo. Ta se radnja ne može poništiti.</translation>
 <translation id="3692772534525889713">Povežite svoju kupnju u Trgovini Play sa svojim Brave računom kako biste upotrijebili Brave Leo na drugim uređajima.</translation>
-<translation id="73236265316873967">Leo Premium</translation>
 <translation id="1028627582482425924">Jedna godina</translation>
 <translation id="2985392169397572983">NAJBOLJA VRIJEDNOST</translation>
 <translation id="1166682575529520472">Mjesečno</translation>

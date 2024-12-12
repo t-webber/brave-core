@@ -16,7 +16,6 @@
 <translation id="8294286161128352783">Только на новой вкладке</translation>
 <translation id="6406506848690869874">Синхронизация</translation>
 <translation id="1544192797660353713">Кошелек</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8275068909952022340">Ещё…</translation>
 <translation id="1990886731975529483">Установка и запуск Widevine</translation>
 <translation id="8926389886865778422">Больше не спрашивать</translation>
@@ -40,8 +39,6 @@
 <translation id="8612763432858587652">Выйти из приватного окна</translation>
 <translation id="8760415064721320867">Приватное окно с Tor</translation>
 <translation id="2055363275850890030">Приватное окно</translation>
-<translation id="5410152065859052603">Tor</translation>
-<translation id="7897433216002294926">Tor <ph name="COUNT"/></translation>
 <translation id="1970435562892104727">Это приватное окно для Tor</translation>
 <translation id="1037341607922068025">Открыть приватное окно с Tor</translation>
 <translation id="607982085107926247">Открыть адрес <ph name="ADDRESS"/> в Tor</translation>
@@ -52,7 +49,6 @@
 <translation id="4450893287417543264">Не показывать снова</translation>
 <translation id="4595286989346610620">Узнать больше</translation>
 <translation id="8324318899000695659">Блокировать элементы</translation>
-<translation id="7398397225367092613">.onion</translation>
 <translation id="2269780537090240241">Открыть с помощью адреса .onion: <ph name="ADDRESS"/></translation>
 <translation id="4759098689276706664">Вставить принудительно</translation>
 <translation id="1434416574322382019">Новое приватное окно с Тор</translation>
@@ -93,7 +89,6 @@
 <translation id="8117247596084706514">Сайт запрашивает доступ к вашему <ph name="PART_ONE"/>точному местоположению<ph name="PART_ONE_END"/>. <ph name="PART_TWO"/>Подробнее…<ph name="PART_TWO_END"/></translation>
 <translation id="5486652646100591203">Сайт запрашивает доступ к вашему <ph name="PART_ONE"/>точному местоположению<ph name="PART_ONE_END"/>. Чтобы предоставить его, включите <ph name="PART_THREE"/>службы геолокации<ph name="PART_THREE_END"/>. В противном случае Brave предоставит только ваше <ph name="PART_TWO"/>примерное местоположение<ph name="PART_TWO_END"/>. <ph name="PART_FOUR"/>Подробнее…<ph name="PART_FOUR_END"/></translation>
 <translation id="8915916167043355778">Закрыть все</translation>
-<translation id="7658239707568436148">Cancel</translation>
 <translation id="4870911314065352661">Закрыть все вкладки?</translation>
 <translation id="7551864359422178684">У вас остались открытые вкладки (<ph name="NUMBER_OF_TABS"/>) в этом окне браузера.</translation>
 <translation id="2571596981920752023">Вкладок: <ph name="NUMBER_OF_TABS"/></translation>
@@ -109,7 +104,6 @@
 <translation id="2841164160723712537">Получайте точные результаты</translation>
 <translation id="4639001639513524869">Brave Поиск лучше справляется с большинством запросов по сравнению с DuckDuckGo и обеспечивает реальную конфиденциальность.</translation>
 <translation id="5240031343741051161">Попробовать Brave Поиск</translation>
-<translation id="5234764350956374838">Dismiss</translation>
 <translation id="8722651357687610395">Установить Brave по умолчанию</translation>
 <translation id="2370739752330685659">Не сейчас</translation>
 <translation id="5100490448228945668">Отменить конверсию в Brave Поиске. Чтобы убрать эту подсказку, нажмите Enter.</translation>
@@ -132,7 +126,6 @@
 <translation id="4364336119478610380">Вы получаете доход всякий раз, когда на экране появляется подобное уведомление. Для получения дохода нажатие не требуется.</translation>
 <translation id="5893017172751072752">Вы получаете доход, когда видите уведомление от Brave Рекламы</translation>
 <translation id="3447730462826640312">Для получения дохода взаимодействовать с объявлением не нужно. Вы можете нажимать только на те уведомления, которые вас заинтересовали!</translation>
-<translation id="4174337572777167894">Web Discovery Project</translation>
 <translation id="8659271182272561965">Анонимно предоставлять Brave Search данные поиска и сведения о действиях в браузере для улучшения работы сервиса</translation>
 <translation id="1516554614404600536">Подсказки Brave</translation>
 <translation id="4375473250631001683">Скрыть значок боковой панели</translation>
@@ -145,7 +138,6 @@
 <translation id="1181037720776840403">Удалить</translation>
 <translation id="7513769021866698486">Изменить элемент</translation>
 <translation id="4002066346123236978">Название</translation>
-<translation id="7400418766976504921">URL</translation>
 <translation id="5877900074358050101">Название элемента боковой панели</translation>
 <translation id="1613695740874407223">URL элемента боковой панели</translation>
 <translation id="4877147287319222750">Добавить к боковой панели</translation>
@@ -179,7 +171,6 @@
 <translation id="8731422418734770661">Настроить Crypto Wallets</translation>
 <translation id="8199661191594897555">Запустить криптовалютные кошельки и перезагрузить</translation>
 <translation id="8428213095426709021">Настройки</translation>
-<translation id="193368604235852218">Web3</translation>
 <translation id="4738583579791001083">Домены Web3</translation>
 <translation id="5046066249040287308">Утилита Brave Кошелька</translation>
 <translation id="4552520379838695057">Извините, этой страницы не существует.</translation>
@@ -209,15 +200,12 @@
 <translation id="5268098808165185458">Копирование текста с изображения…</translation>
 <translation id="4046485130884276245">Текст скопирован</translation>
 <translation id="3639779775496569782">Не удалось скопировать текст</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
 <translation id="2506438154311626334">Использовать протокол WireGuard в Brave VPN</translation>
 <translation id="8519170191215826548">Этот параметр нельзя изменить при включенном Brave VPN</translation>
 <translation id="4235920711083356755">Показать кнопку VPN</translation>
 <translation id="4070612712151038707">Показывает кнопку VPN на панели инструментов</translation>
-<translation id="7705524343798198388">VPN</translation>
 <translation id="8593397073757037946">Вкл./выкл. VPN</translation>
 <translation id="2345974803401546682">О Brave VPN</translation>
-<translation id="4378551569595875038">Connecting...</translation>
 <translation id="3368922792935385530">Подключено</translation>
 <translation id="1536754031901697553">Отключение...</translation>
 <translation id="8030169304546394654">Отключен</translation>
@@ -268,15 +256,12 @@
 <translation id="5145233969981669502">Добавить выбранные</translation>
 <translation id="55252794453047936">Перемещение медиафайла</translation>
 <translation id="4418985925423678811">Новый плейлист</translation>
-<translation id="385051799172605136">Back</translation>
-<translation id="5317780077021120954">Save</translation>
 <translation id="7930125899031086027">Создать и переместить</translation>
 <translation id="2860159216666546928">Выберите папку.</translation>
 <translation id="9130105487623071247">Название плейлиста</translation>
 <translation id="1857042171340443373">Выбрано объектов: <ph name="NUM_ITEMS"/></translation>
 <translation id="3596306474342941843">Удалить плейлист</translation>
 <translation id="7110726588168439924">Удалить плейлист и его содержимое? Действие нельзя отменить.</translation>
-<translation id="8261506727792406068">Delete</translation>
 <translation id="8152485753254079984">Новый плейлист</translation>
 <translation id="5397019762993984652">Добавить из плейлиста «Воспроизвести позже»</translation>
 <translation id="7525067979554623046">Создать</translation>
@@ -362,7 +347,6 @@
 <translation id="7158817046543187970">Панель закладок скрыта на всех вкладках</translation>
 <translation id="3416468988018290825">Всегда показывать полные URL-адреса</translation>
 <translation id="5529693968082667490">Показать кнопку «Поиск по вкладкам»</translation>
-<translation id="1013121820689882118">Speedreader</translation>
 <translation id="2025435450953474282">Статьи автоматически загружаются в режиме чтения — это экономит ваше время</translation>
 <translation id="7984721311211272523">Деактивировать функцию отключения звука с помощью значка динамика на вкладке</translation>
 <translation id="832432428796481785">Показывать кнопку боковой панели</translation>
@@ -377,7 +361,6 @@
 <translation id="7461924472993315131">Закрепить</translation>
 <translation id="735832369569964359">Нажмите «Закрепить» и подтвердите выбор в системном уведомлении Windows.</translation>
 <translation id="7506648566440714944">Браузер Brave уже закреплен</translation>
-<translation id="239275665037555969">Dock</translation>
 <translation id="4057614912106618659">Brave уже есть в Dock</translation>
 <translation id="3195845168740336657">Настройки Щита</translation>
 <translation id="754769152790647708">Статус Щита</translation>
@@ -476,7 +459,6 @@
 <translation id="6032912588568283682">Файловая система</translation>
 <translation id="8016266267177410919">Папка для временного хранения</translation>
 <translation id="4175737294868205930">Постоянное хранилище</translation>
-<translation id="1234808891666923653">Service Workers</translation>
 <translation id="3432762828853624962">Разделяемые объекты worker</translation>
 <translation id="2927017729816812676">CacheStorage</translation>
 <translation id="1389601498324964367">Хранилище с управлением квотами</translation>
@@ -486,10 +468,8 @@
 <translation id="410351446219883937">Автовоспроизведение</translation>
 <translation id="3512883292907992390">Разрешить сайтам воспроизводить видео автоматически</translation>
 <translation id="1876603079388924308">Блокировать автоматическое воспроизведение видео на сайтах</translation>
-<translation id="1448289340149908413">Ethereum</translation>
 <translation id="6583467242903731748">Спрашивать, когда сайт пытается получить доступ к API провайдера Ethereum</translation>
 <translation id="7017590444693657895">Блокировать сайтам доступ к API провайдера Ethereum</translation>
-<translation id="5390923430722428146">Solana</translation>
 <translation id="4539536028173362640">Спрашивать, когда сайт пытается получить доступ к API Solana</translation>
 <translation id="2777102601740875941">Блокировать доступ сайтов к API Solana</translation>
 <translation id="4206299587103092719">Вход с аккаунтом Google</translation>
@@ -608,7 +588,6 @@
 <translation id="6924425739431382319">Связываемся с BridgeDB…</translation>
 <translation id="811745063252080651">Чтобы запросить мост, введите ответ на капчу.</translation>
 <translation id="6936835573742749135">Не удалось запросить капчу. Повторите попытку позже.</translation>
-<translation id="2653659639078652383">Submit</translation>
 <translation id="1294350054292274934">Только разрешить адрес .onion в окнах Tor</translation>
 <translation id="601227612175911475">Сервисы Onion не будут доступны вне окон Tor.</translation>
 <translation id="2896916411183256228">WebTorrent позволит отображать информацию о торрентах прямо в браузере. Поддерживаются торрент-файлы и magnet-ссылки.</translation>

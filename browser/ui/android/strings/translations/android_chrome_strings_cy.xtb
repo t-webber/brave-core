@@ -12,6 +12,7 @@
 <translation id="1034259925032978114">Mae'r ffenestr ar agor</translation>
 <translation id="1036348656032585052">Diffodd</translation>
 <translation id="1045899828449635435">Clirio data o'r gwefannau hyn hefyd?</translation>
+<translation id="5186185447130319458">Anhysbys</translation>
 <translation id="1058669287135776095">Rydych chi all-lein. Gwiriwch eich cysylltiad rhyngrwyd a rhowch gynnig arall arni.</translation>
 <translation id="10614374240317010">Erioed wedi'i gadw</translation>
 <translation id="107147699690128016">Os byddwch yn newid yr estyniad ffeil, gall y ffeil agor mewn apiau gwahanol ac mae'n bosib y bydd yn berygl i'ch dyfais.</translation>
@@ -131,6 +132,7 @@ Dim ond rhywun sydd â'ch cyfrinymadrodd all ddarllen eich data sydd wedi'u hamg
 <translation id="154513667535157406">Mae bawd i fyny yn cyflwyno adborth eich bod yn hoffi'r crynodeb hwn</translation>
 <translation id="1549000191223877751">Symud i ffenestr arall</translation>
 <translation id="1705567146636171298">Diweddarwch Brave</translation>
+<translation id="3763131702135887799">Helpwch i wneud Brave yn well i bobl sy'n ei ddefnyddio yn yr un ffordd â chi</translation>
 <translation id="1568636008098739136">Gwrando ar y dudalen hon. I olygu'r llwybr byr hwn, cyffwrddwch a daliwch.</translation>
 <translation id="1571304935088121812">Copïo'r enw defnyddiwr</translation>
 <translation id="1668445593689059872">Ar hyn o bryd, ni ellir defnyddio cyfrineiriau sydd wedi'u cadw ar y ddyfais hon ar draws sianeli Brave. Ar ôl Brave 125, bydd cyfrineiriau sydd wedi'u cadw ar eich dyfais ar gyfer Brave a <ph name="CHROME_CHANNEL"/> yn cael eu cyfuno a gellir eu defnyddio yn y ddau ap.</translation>
@@ -323,6 +325,7 @@ Dim ond rhywun sydd â'ch cyfrinymadrodd all ddarllen eich data sydd wedi'u hamg
 <translation id="254973855621628293">Cyfrineiriau sydd wedi'u cadw i'r ddyfais hon</translation>
 <translation id="2560519950693256002">Cyfrineiriau a gwiriwyd yn ddiweddar wedi'u cadw i <ph name="USERNAME"/></translation>
 <translation id="2567385386134582609">LLUN</translation>
+<translation id="3095878721037212218">Byddwch yn gallu rheoli rheolyddion cyfryngau, sesiynau Anhysbys, lawrlwythiadau a rhagor yn hawdd</translation>
 <translation id="5079947353572974060">Cynnig anfon tudalennau mewn ieithoedd eraill i Brave Translate</translation>
 <translation id="2571834852878229351">Creu fy un fy hun</translation>
 <translation id="7242554556818074465">I weld eich tabiau o ble bynnag rydych yn defnyddio Brave, mewngofnodwch ar eich holl ddyfeisiau</translation>
@@ -380,6 +383,7 @@ Dim ond rhywun sydd â'ch cyfrinymadrodd all ddarllen eich data sydd wedi'u hamg
 <translation id="9087158967432747643">Gosodiadau, gwall Cyfrif Brave</translation>
 <translation id="2838367486340230368">Esboniad canllaw preifatrwydd sydd wedi'i agor ar uchder hanner</translation>
 <translation id="2839327205551510876">Wedi dad-ddilyn <ph name="SITE_NAME"/></translation>
+<translation id="1982350477927404142">{TAB_COUNT,plural, =1{Bydd <ph name="TAB_COUNT_ONE"/> tab anhysbys yn cael ei gau}zero{Bydd <ph name="TAB_COUNT_MANY"/> tab anhysbys yn cael eu cau}two{Bydd <ph name="TAB_COUNT_MANY"/> dab anhysbys yn cael eu cau}few{Bydd <ph name="TAB_COUNT_MANY"/> thab anhysbys yn cael eu cau}many{Bydd <ph name="TAB_COUNT_MANY"/> thab anhysbys yn cael eu cau}other{Bydd <ph name="TAB_COUNT_MANY"/> tab anhysbys yn cael eu cau}}</translation>
 <translation id="2841216154655874070">{NUM_DAYS,plural, =1{Gwiriwyd 1 diwrnod yn ôl}zero{Gwiriwyd # diwrnod yn ôl}two{Gwiriwyd # ddiwrnod yn ôl}few{Gwiriwyd # diwrnod yn ôl}many{Gwiriwyd # diwrnod yn ôl}other{Gwiriwyd # diwrnod yn ôl}}</translation>
 <translation id="2842985007712546952">Ffolder rhiant</translation>
 <translation id="6324134303015966238">Mae Brave yn rhaglwytho tudalennau rydych yn debygol o ymweld â nhw, fel eu bod yn llwytho yn gyflymach pan rydych yn ymweld â nhw</translation>
@@ -406,6 +410,7 @@ Dim ond rhywun sydd â'ch cyfrinymadrodd all ddarllen eich data sydd wedi'u hamg
 <translation id="2904414404539560095">Agorodd rhestr o ddyfeisiau i rannu tab â nhw ar uchder llawn.</translation>
 <translation id="2908243544703713905">Mae straeon sydd heb eu darllen yn barod</translation>
 <translation id="7339921667754113786">Platfform Hysbysiadau Brave</translation>
+<translation id="1014490034578104945">Defnyddio clo sgrîn i weld tabiau anhysbys sydd ar agor</translation>
 <translation id="2923908459366352541">Mae'r enw'n annilys</translation>
 <translation id="6355102470683871794">Storfa Brave <ph name="APP_NAME"/></translation>
 <translation id="2932222164150889403">Ni fydd eich bysellfwrdd yn newid</translation>
@@ -421,6 +426,7 @@ Dim ond rhywun sydd â'ch cyfrinymadrodd all ddarllen eich data sydd wedi'u hamg
 <translation id="9016397405981579308">Nid yw peth o'ch data Brave wedi\u2019i gadw yn eich Cyfrif Brave eto.\nRhowch gynnig ar aros ychydig funudau cyn allgofnodi. Os byddwch yn allgofnodi nawr, bydd y data hyn yn cael eu dileu.</translation>
 <translation id="2977350910003566746">Wrthi'n trefnu yn ôl agorwyd ddiwethaf</translation>
 <translation id="297771753501244313">Trefnu yn ôl agorwyd ddiwethaf</translation>
+<translation id="584427517463557805">Y Tab Anhysbys a Ddewisir</translation>
 <translation id="2979639724566107830">Agor mewn ffenestr newydd</translation>
 <translation id="2981364137500752533">Gallwch gael hyd at 5 ffenestr.</translation>
 <translation id="2983102365694924129">Yn seiliedig ar eich gweithgarwch ar wefan. Mae'r gosodiad hwn wedi'i ddiffodd.</translation>
@@ -578,6 +584,7 @@ Dim ond rhywun sydd â'ch cyfrinymadrodd all ddarllen eich data sydd wedi'u hamg
 <translation id="3739899004075612870">Wedi ychwanegu nod tudalen yn <ph name="PRODUCT_NAME"/></translation>
 <translation id="3740525748616366977">Nid yw chwilio â llais ar gael ar y ddyfais hon</translation>
 <translation id="376561056759077985">Nid yw rhai data wedi\u2019u cadw eto</translation>
+<translation id="4526803704855831732">Tabiau Anhysbys</translation>
 <translation id="3771290962915251154">Mae'r gosodiad hwn wedi'i ddiffodd gan fod rheolaethau rhieni wedi'u troi ymlaen</translation>
 <translation id="1138681184697033370">Telerau Gwasanaeth Brave</translation>
 <translation id="3775705724665058594">Anfon at eich dyfeisiau</translation>
@@ -594,11 +601,13 @@ Dim ond rhywun sydd â'ch cyfrinymadrodd all ddarllen eich data sydd wedi'u hamg
 <translation id="38243391581572867">Nid yw Lens ar gael ar y ddyfais hon.</translation>
 <translation id="3830886834687455630">Diweddarwch wasanaethau Google Play i wirio'ch cyfrineiriau</translation>
 <translation id="3843603704176567761">Mae'n bosib y bydd cyfrineiriau'n stopio gweithio ar y ddyfais hon yn fuan. I barhau i ddefnyddio'ch cyfrineiriau, diweddarwch wasanaethau Google Play.</translation>
+<translation id="8810805383611013660">Agor mewn tab Anhysbys</translation>
 <translation id="3847319713229060696">Helpwch i wella diogelwch y we i bawb</translation>
 <translation id="3856096718352044181">Cadarnhewch fod hwn yn ddarparwr dilys neu rhowch gynnig arall arni yn nes ymlaen</translation>
 <translation id="3858860766373142691">Enw</translation>
 <translation id="3873174561423636563">I barhau, bydd <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/> yn rhannu'ch <ph name="FIELDS_STRING"/> â'r wefan hon. Gweler <ph name="BEGIN_LINK1"/>telerau gwasanaeth<ph name="END_LINK1"/> y wefan hon.</translation>
 <translation id="3892148308691398805">Copïo'r testun</translation>
+<translation id="5248610748197335423">Cau pob tab Anhysbys</translation>
 <translation id="3900966090527141178">Allforio cyfrineiriau</translation>
 <translation id="3902562446536395999">Wrthi'n trefnu yn ôl A i Z</translation>
 <translation id="3908308510347173149">Diweddaru <ph name="PRODUCT_NAME"/></translation>
@@ -682,6 +691,7 @@ Dim ond rhywun sydd â'ch cyfrinymadrodd all ddarllen eich data sydd wedi'u hamg
 <translation id="6553929648301062677">Eich sefydliad, <ph name="MANAGED_DOMAIN"/>, sy'n rheoli'r cyfrif rydych yn mewngofnodi iddo a sut y gellir defnyddio Brave. Gall eich gweinyddwr osod neu gyfyngu ar rai nodweddion.</translation>
 <translation id="4285846616383034558">Cwcis, storfa, a data gwefan eraill</translation>
 <translation id="4291407919474070700"><ph name="BEGIN_LINK"/>Trowch glo sgrîn ymlaen yn y gosodiadau Android<ph name="END_LINK"/></translation>
+<translation id="8120164982795455341">Tab Anhysbys newydd</translation>
 <translation id="4298388696830689168">Gwefannau cysylltiedig</translation>
 <translation id="4303044213806199882">chrome_screenshot_<ph name="CURRENT_TIMESTAMP_MS"/></translation>
 <translation id="4307992518367153382">Hanfodion</translation>
@@ -733,6 +743,7 @@ Mae'n bosib y bydd gan eich cyfrif Brave fathau eraill o hanes pori megis chwili
 <translation id="452750746583162491">Adolygwch eich data a gysonwyd</translation>
 <translation id="4532845899244822526">Dewis ffolder</translation>
 <translation id="4543131175509360848">Dalen dim codau pas</translation>
+<translation id="40716919553748435">{TAB_COUNT,plural, =1{<ph name="TAB_COUNT_ONE"/> tab}zero{<ph name="TAB_COUNT_MANY"/> tab, <ph name="TAB_COUNT_INCOGNITO"/> tab anhysbys}two{<ph name="TAB_COUNT_MANY"/> dab, <ph name="TAB_COUNT_INCOGNITO"/> dab anhysbys}few{<ph name="TAB_COUNT_MANY"/> thab, <ph name="TAB_COUNT_INCOGNITO"/> thab anhysbys}many{<ph name="TAB_COUNT_MANY"/> thab, <ph name="TAB_COUNT_INCOGNITO"/> thab anhysbys}other{<ph name="TAB_COUNT_MANY"/> tab, <ph name="TAB_COUNT_INCOGNITO"/> tab anhysbys}}</translation>
 <translation id="4558311620361989323">Llwybrau byr tudalen we</translation>
 <translation id="4561730552726921821">Wedi cofrestru'n llwyddiannus</translation>
 <translation id="4565377596337484307">Cuddio'r cyfrinair</translation>
@@ -815,6 +826,7 @@ Mae'n bosib y bydd gan eich cyfrif Brave fathau eraill o hanes pori megis chwili
 <translation id="4871568871368204250">Diffodd cysoni</translation>
 <translation id="2875466387677348954">Pan fydd wedi'i ddiffodd byddwch yn gweld awgrymiadau y mae Brave yn eu darparu'n lleol o hyd</translation>
 <translation id="4875775213178255010">Awgrymiadau Cynnwys</translation>
+<translation id="8448127664493413656">Dechrau'r modd Anhysbys</translation>
 <translation id="4878404682131129617">Wedi methu â sefydlu twnnel drwy weinydd dirprwyol</translation>
 <translation id="4880127995492972015">Cyfieithu…</translation>
 <translation id="4881695831933465202">Agor</translation>
@@ -872,6 +884,7 @@ Mae'n bosib y bydd gan eich cyfrif Brave fathau eraill o hanes pori megis chwili
 <translation id="5115811374190515607">i <ph name="PRODUCT_NAME"/></translation>
 <translation id="7143053178237996319">Gallwch ddefnyddio Brave unrhyw bryd y byddwch yn tapio dolenni mewn negeseuon, dogfennau ac apiau eraill</translation>
 <translation id="5122378528687922675">Os oes angen help arnat, gofynna i dy riant (<ph name="PARENT_NAME_1"/> neu <ph name="PARENT_NAME_2"/>)</translation>
+<translation id="3110967157686007724">Tab anhysbys</translation>
 <translation id="5132942445612118989">Cysonwch eich cyfrineiriau, hanes a mwy ar bob dyfais</translation>
 <translation id="5139940364318403933">Dysgu sut i ddefnyddio Google Drive</translation>
 <translation id="5142281402488957685">Ar gyfer straeon newydd, tynnwch i lawr i ail-lwytho</translation>
@@ -960,6 +973,7 @@ Mae'n bosib y bydd gan eich cyfrif Brave fathau eraill o hanes pori megis chwili
 <translation id="5581519193887989363">Gallwch bob amser ddewis beth i'w gysoni yn y <ph name="BEGIN_LINK1"/>gosodiadau<ph name="END_LINK1"/>.</translation>
 <translation id="5590372121997663538">Cofio'r cyfrifiadur hwn</translation>
 <translation id="5596627076506792578">Rhagor o ddewisiadau</translation>
+<translation id="4968908871398201967">Modd anhysbys</translation>
 <translation id="6894318537270274409">Am ragor o osodiadau sy'n defnyddio data i wella'ch profiad Brave, ewch i <ph name="BEGIN_LINK"/>Gwasanaethau Brave<ph name="END_LINK"/>.</translation>
 <translation id="5611398002774823980">Cadw yn y cyfrif</translation>
 <translation id="5614625640221885312">Mewngofnodwch i gael eich cyfrineiriau, eich nodau tudalen a rhagor ar eich holl ddyfeisiau</translation>
@@ -994,6 +1008,7 @@ Mae'n bosib y bydd gan eich cyfrif Brave fathau eraill o hanes pori megis chwili
 <translation id="5752232708629533680">Rhannu GIF yn unig</translation>
 <translation id="5754350196967618083">Methu ag adnewyddu Darganfod</translation>
 <translation id="5755162682436943950">Rydych wedi'ch allgofnodi. Yn agor deialog i fewngofnodi a throi cysoni ymlaen.</translation>
+<translation id="2633278372998075009">Tabiau Anhysbys</translation>
 <translation id="5763514718066511291">Tapiwch i gopïo'r URL ar gyfer yr ap hwn</translation>
 <translation id="5765517223145864268">Dywedwch wrthym am eich profiad. Neu <ph name="BEGIN_LINK"/>newidiwch eich gosodiadau<ph name="END_LINK"/>.</translation>
 <translation id="5765780083710877561">Disgrifiad:</translation>
@@ -1195,6 +1210,7 @@ Er enghraifft, gall rhai gwefannau ymateb i'r cais hwn drwy ddangos hysbysebion 
 <translation id="8127050479140582768">I anfon y tab hwn i ddyfais arall, mewngofnodwch i Brave ar y ddwy ddyfais</translation>
 <translation id="6625890511281718257">Rhannu gyda thaflen adborth gryno</translation>
 <translation id="6627583120233659107">Golygu'r ffolder</translation>
+<translation id="4660964651149493586">Datgloi Anhysbys</translation>
 <translation id="6636623428211296678">Gallwch archwilio rhagor o osodiadau isod neu orffen nawr</translation>
 <translation id="2259649928554669581">Am ragor o osodiadau sy'n ymwneud â phreifatrwydd, diogelwch, a chasglu data, gweler <ph name="BEGIN_LINK1"/>Cysoni<ph name="END_LINK1"/> a <ph name="BEGIN_LINK2"/>gwasanaethau Brave<ph name="END_LINK2"/></translation>
 <translation id="7939692063031538305">Er mwyn helpu i wella'r ap, mae Brave yn anfon data defnydd a thoriadau at Brave. <ph name="BEGIN_UMA_LINK"/>Rheoli<ph name="END_UMA_LINK"/></translation>
@@ -1260,6 +1276,7 @@ Er enghraifft, gall rhai gwefannau ymateb i'r cais hwn drwy ddangos hysbysebion 
 <translation id="6864459304226931083">Lawrlwytho'r llun</translation>
 <translation id="686490460830618322">Taflen hidlo ap</translation>
 <translation id="6865313869410766144">Awtolenwi data'r ffurflen</translation>
+<translation id="4167670741834902166">Tab Anhysbys newydd</translation>
 <translation id="1565666992559765293">Nid yw cyfeiriadau wedi'u hamgryptio gyda'ch cyfrinymadrodd. Mae hyn yn gadael i chi eu defnyddio mewn gwasanaethau Brave eraill.</translation>
 <translation id="6869056123412990582">cyfrifiadur</translation>
 <translation id="6880903702195291049">Mae caniatadau'n edrych yn dda</translation>
@@ -1292,11 +1309,13 @@ Er enghraifft, gall rhai gwefannau ymateb i'r cais hwn drwy ddangos hysbysebion 
 <translation id="6955535239952325894">Mae'r gosodiad hwn wedi'i analluogi ar borwyr a reolir</translation>
 <translation id="6963766334940102469">Dileu nodau tudalen</translation>
 <translation id="6964300328304469089">Mae <ph name="NAME"/>, <ph name="EMAIL"/> wedi'i ddewis ar hyn o bryd. Dewis cyfrif.</translation>
+<translation id="6484416399492735324">Gadael y modd Anhysbys</translation>
 <translation id="6965382102122355670">Iawn</translation>
 <translation id="6968350777423863208">{NUMBER_OF_TABS,plural, =1{Gweler <ph name="TABS_COUNT_ONE"/> tab gyda gweithgarwch newydd mewn grwpiau tabiau a rennir}zero{Gweler <ph name="TABS_COUNT_MANY"/> tabiau gyda gweithgarwch newydd mewn grwpiau tabiau a rennir}two{Gweler <ph name="TABS_COUNT_MANY"/> dab gyda gweithgarwch newydd mewn grwpiau tabiau a rennir}few{Gweler <ph name="TABS_COUNT_MANY"/> thab gyda gweithgarwch newydd mewn grwpiau tabiau a rennir}many{Gweler <ph name="TABS_COUNT_MANY"/> thab gyda gweithgarwch newydd mewn grwpiau tabiau a rennir}other{Gweler <ph name="TABS_COUNT_MANY"/> tab gyda gweithgarwch newydd mewn grwpiau tabiau a rennir}}</translation>
 <translation id="6971862865055170158">Peidio â chymeradwyo</translation>
 <translation id="6978717888677691380">Gwefannau rydych wedi'u rhwystro</translation>
 <translation id="6979737339423435258">Pob un</translation>
+<translation id="3947065058794437451">Nid yw Anhysbys ar gael ar y ddyfais hon</translation>
 <translation id="4436469586880564451">Bydd eich cyfrineiriau'n cael eu huwchlwytho fel ffeil CSV. Byddant yn weladwy i unrhyw un sy'n gallu cyrchu'r ffeil, gan gynnwys apiau. Bydd cyfrineiriau wedi'u hallforio yn cael eu dileu o Brave.</translation>
 <translation id="6996145122199359148">Lawrlwytho'r dudalen hon</translation>
 <translation id="7013762323294215682">Bydd y cyfrinair hwn yn cael ei gadw i'ch rheolwr cyfrineiriau. Bydd unrhyw un sydd â mynediad ato yn gallu defnyddio'r cyfrinair hwn.</translation>
@@ -1542,6 +1561,7 @@ I newid y gosodiad hwn, <ph name="BEGIN_LINK"/>dileu'r data Brave yn eich cyfrif
 <translation id="8037750541064988519"><ph name="DAYS"/> o ddiwrnodau ar ôl</translation>
 <translation id="8037801708772278989">Newydd ei wirio</translation>
 <translation id="804335162455518893">Ni chanfuwyd cerdyn SD.</translation>
+<translation id="5048396920203761159">{TAB_COUNT,plural, =1{<ph name="TAB_COUNT_ONE"/> tab anhysbys}zero{<ph name="TAB_COUNT_NORMAL"/> tab anhysbys}two{<ph name="TAB_COUNT_NORMAL"/> dab anhysbys}few{<ph name="TAB_COUNT_NORMAL"/> thab anhysbys}many{<ph name="TAB_COUNT_NORMAL"/> thab anhysbys}other{<ph name="TAB_COUNT_NORMAL"/> tab anhysbys}}</translation>
 <translation id="8051695050440594747"><ph name="MEGABYTES"/> MB ar gael</translation>
 <translation id="2317945146070194624">Agor mewn tab Brave newydd</translation>
 <translation id="8062594758852531064">Rhaglwytho estynedig:</translation>
@@ -1555,8 +1575,10 @@ I newid y gosodiad hwn, <ph name="BEGIN_LINK"/>dileu'r data Brave yn eich cyfrif
 <translation id="1718138320251931534">Rheoli eich data Cyfrif Brave</translation>
 <translation id="6213630783726251371">Mae'n bosib na fydd rhywfaint o'ch hanes yn ymddangos yma. I weld eich holl hanes Brave, agorwch hanes Brave llawn. Hefyd, mae'n bosib y bydd gan eich Cyfrif Brave fathau eraill o hanes pori yn <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="808747664143081553">Wedi cysylltu â dyfais</translation>
+<translation id="1998933850996224665">I rannu â phobl gerllaw, gadewch iddynt sganio'r Cod QR hwn</translation>
 <translation id="8090732854597034573">Os oes angen help arnat, gofynna i dy riant</translation>
 <translation id="8101414242770404289">Dim tabiau o'r <ph name="TIME_PERIOD"/></translation>
+<translation id="3377025655491224618">Tab Anhysbys</translation>
 <translation id="3249150807062904185">Drwy barhau, rydych yn cytuno i'r <ph name="BEGIN_TOS_LINK"/>Telerau Gwasanaeth<ph name="END_TOS_LINK"/>.\nEr mwyn helpu i wella'r ap, mae Brave yn anfon data defnydd a thoriadau at Brave. <ph name="BEGIN_UMA_LINK"/>Rheoli<ph name="END_UMA_LINK"/></translation>
 <translation id="8105893657415066307"><ph name="DESCRIPTION"/> <ph name="SEPARATOR"/> <ph name="FILE_SIZE"/></translation>
 <translation id="8107530384992929318">Cau opsiynau didoli</translation>
@@ -1663,6 +1685,7 @@ I newid y gosodiad hwn, <ph name="BEGIN_LINK"/>dileu'r data Brave yn eich cyfrif
 <translation id="8540136935098276800">Rhowch URL sydd wedi'i fformatio'n gywir</translation>
 <translation id="854522910157234410">Agor y dudalen hon</translation>
 <translation id="8547025137714087639">{ARCHIVED_TAB_COUNT,plural, =1{Tab anweithredol (1)}zero{Tabiau anweithredol (#)}two{Tabiau anweithredol (#)}few{Tabiau anweithredol (#)}many{Tabiau anweithredol (#)}other{Tabiau anweithredol (#)}}</translation>
+<translation id="5711390076756601471">Cloi tabiau Anhysbys pan fyddwch yn cau Brave</translation>
 <translation id="8551524210492420949">Sarhaus neu anniogel</translation>
 <translation id="5503308854539525011">Mae Brave yn cyfyngu ar gyfanswm y data y gall gwefannau eu rhannu drwy'r porwr er mwyn mesur perfformiad hysbysebion</translation>
 <translation id="8559990750235505898">Cynnig cyfieithu tudalennau mewn ieithoedd eraill</translation>
@@ -1739,11 +1762,13 @@ I newid y gosodiad hwn, <ph name="BEGIN_LINK"/>dileu'r data Brave yn eich cyfrif
 <translation id="8945143127965743188"><ph name="LANG"/> - Ni fu modd lawrlwytho'r iaith hon. Rhowch gynnig arall arni'n nes ymlaen.</translation>
 <translation id="8963117664422609631">Ewch i'r gosodiadau gwefan</translation>
 <translation id="8965591936373831584">ar y gweill</translation>
+<translation id="2703361981471284696">{TAB_COUNT,plural, =1{Bydd <ph name="INCOGNITO_TAB_COUNT"/> tab anhysbys a <ph name="TAB_COUNT_ONE"/> tab arall yn cael eu cau}zero{Bydd <ph name="INCOGNITO_TAB_COUNT"/> tab anhysbys a <ph name="TAB_COUNT_MANY"/> tab arall yn cael eu cau}two{Bydd <ph name="INCOGNITO_TAB_COUNT"/> dab anhysbys a <ph name="TAB_COUNT_MANY"/> dab arall yn cael eu cau}few{Bydd <ph name="INCOGNITO_TAB_COUNT"/> thab anhysbys a <ph name="TAB_COUNT_MANY"/> thab arall yn cael eu cau}many{Bydd <ph name="INCOGNITO_TAB_COUNT"/> thab anhysbys a <ph name="TAB_COUNT_MANY"/> thab arall yn cael eu cau}other{Bydd <ph name="INCOGNITO_TAB_COUNT"/> tab anhysbys a <ph name="TAB_COUNT_MANY"/> tab arall yn cael eu cau}}</translation>
 <translation id="8884660759731273973">Bydd cyfrineiriau yn stopio gweithio yn fuan oherwydd nad yw gwasanaethau Google Play ar gael. I ddefnyddio cyfrineiriau sydd wedi'u cadw yn eich Cyfrif Brave, mewngofnodwch gan ddefnyddio dyfais arall, neu ewch i passwords.google.com.</translation>
 <translation id="8970887620466824814">Aeth rywbeth o'i le.</translation>
 <translation id="8972098258593396643">Lawrlwytho i'r ffolder ddiofyn?</translation>
 <translation id="8982113230057126145">Mae bawd i lawr yn cyflwyno adborth nad ydych yn hoffi'r crynodeb hwn</translation>
 <translation id="2481553173340651149">Mae eich data wedi'u hamgryptio â'ch cyfrinymadrodd. Rhowch ef i ddefnyddio a chadw data Brave yn eich Cyfrif Brave.</translation>
+<translation id="2280910239864711607">Agor tab newydd yn y Modd Anhysbys</translation>
 <translation id="8995521496079646922">Bydd yr apiau a ddewisoch yn cael eu defnyddio yn ddiofyn. Os nad yw ap eisoes ar y ddyfais hon, bydd yn cael ei lawrlwytho cyn bo hir.</translation>
 <translation id="8996847606757455498">Dewiswch ddarparwr arall</translation>
 <translation id="8998289560386111590">Dim ar gael ar eich dyfais</translation>
@@ -1766,6 +1791,7 @@ I newid y gosodiad hwn, <ph name="BEGIN_LINK"/>dileu'r data Brave yn eich cyfrif
 <translation id="9069999660519089861">Nid oes unrhyw dudalennau sydd heb eu darllen</translation>
 <translation id="9070377983101773829">Dechrau chwilio llais</translation>
 <translation id="9074739597929991885">Bluetooth</translation>
+<translation id="1961291599064731706">Nid yw gwefannau rydych yn ymweld â nhw yn cael eu cadw yn y modd Anhysbys</translation>
 <translation id="9086302186042011942">Wrthi’n cysoni</translation>
 <translation id="9086455579313502267">Methu â chyrchu'r rhwydwaith</translation>
 <translation id="2324185818196590038">I gael y profiad mwyaf personol, cynhwyswch Brave yng Ngweithgarwch ar y We ac Apiau a gwasanaethau Brave cysylltiedig</translation>
@@ -1821,30 +1847,4 @@ I newid y gosodiad hwn, <ph name="BEGIN_LINK"/>dileu'r data Brave yn eich cyfrif
 <translation id="3442126301004443274">I ddileu hanes pori Anhysbys o'ch dyfais, caewch bob tab Anhysbys.</translation>
 <translation id="992745192656291733"><ph name="TAB_COUNT"/> o dabiau</translation>
 <translation id="996149300115483134">Mae dewislen cardiau'r ffrwd ar gau</translation>
-<translation id="5186185447130319458">Anhysbys</translation>
-<translation id="5711390076756601471">Cloi tabiau Anhysbys pan fyddwch yn cau Brave</translation>
-<translation id="1014490034578104945">Defnyddio clo sgrîn i weld tabiau anhysbys sydd ar agor</translation>
-<translation id="2633278372998075009">Tabiau Anhysbys</translation>
-<translation id="8810805383611013660">Agor mewn tab Anhysbys</translation>
-<translation id="3110967157686007724">Tab anhysbys</translation>
-<translation id="1961291599064731706">Nid yw gwefannau rydych yn ymweld â nhw yn cael eu cadw yn y modd Anhysbys</translation>
-<translation id="4526803704855831732">Tabiau Anhysbys</translation>
-<translation id="5248610748197335423">Cau pob tab Anhysbys</translation>
-<translation id="4660964651149493586">Datgloi Anhysbys</translation>
-<translation id="3763131702135887799">Helpwch i wneud Brave yn well i bobl sy'n ei ddefnyddio yn yr un ffordd â chi</translation>
-<translation id="4167670741834902166">Tab Anhysbys newydd</translation>
-<translation id="8120164982795455341">Tab Anhysbys newydd</translation>
-<translation id="4968908871398201967">Modd anhysbys</translation>
-<translation id="8448127664493413656">Dechrau'r modd Anhysbys</translation>
-<translation id="6484416399492735324">Gadael y modd Anhysbys</translation>
-<translation id="3377025655491224618">Tab Anhysbys</translation>
-<translation id="584427517463557805">Y Tab Anhysbys a Ddewisir</translation>
-<translation id="2280910239864711607">Agor tab newydd yn y Modd Anhysbys</translation>
-<translation id="5048396920203761159">{TAB_COUNT,plural, =1{<ph name="TAB_COUNT_ONE"/> tab anhysbys}zero{<ph name="TAB_COUNT_NORMAL"/> tab anhysbys}two{<ph name="TAB_COUNT_NORMAL"/> dab anhysbys}few{<ph name="TAB_COUNT_NORMAL"/> thab anhysbys}many{<ph name="TAB_COUNT_NORMAL"/> thab anhysbys}other{<ph name="TAB_COUNT_NORMAL"/> tab anhysbys}}</translation>
-<translation id="40716919553748435">{TAB_COUNT,plural, =1{<ph name="TAB_COUNT_ONE"/> tab}zero{<ph name="TAB_COUNT_MANY"/> tab, <ph name="TAB_COUNT_INCOGNITO"/> tab anhysbys}two{<ph name="TAB_COUNT_MANY"/> dab, <ph name="TAB_COUNT_INCOGNITO"/> dab anhysbys}few{<ph name="TAB_COUNT_MANY"/> thab, <ph name="TAB_COUNT_INCOGNITO"/> thab anhysbys}many{<ph name="TAB_COUNT_MANY"/> thab, <ph name="TAB_COUNT_INCOGNITO"/> thab anhysbys}other{<ph name="TAB_COUNT_MANY"/> tab, <ph name="TAB_COUNT_INCOGNITO"/> tab anhysbys}}</translation>
-<translation id="1982350477927404142">{TAB_COUNT,plural, =1{Bydd <ph name="TAB_COUNT_ONE"/> tab anhysbys yn cael ei gau}zero{Bydd <ph name="TAB_COUNT_MANY"/> tab anhysbys yn cael eu cau}two{Bydd <ph name="TAB_COUNT_MANY"/> dab anhysbys yn cael eu cau}few{Bydd <ph name="TAB_COUNT_MANY"/> thab anhysbys yn cael eu cau}many{Bydd <ph name="TAB_COUNT_MANY"/> thab anhysbys yn cael eu cau}other{Bydd <ph name="TAB_COUNT_MANY"/> tab anhysbys yn cael eu cau}}</translation>
-<translation id="2703361981471284696">{TAB_COUNT,plural, =1{Bydd <ph name="INCOGNITO_TAB_COUNT"/> tab anhysbys a <ph name="TAB_COUNT_ONE"/> tab arall yn cael eu cau}zero{Bydd <ph name="INCOGNITO_TAB_COUNT"/> tab anhysbys a <ph name="TAB_COUNT_MANY"/> tab arall yn cael eu cau}two{Bydd <ph name="INCOGNITO_TAB_COUNT"/> dab anhysbys a <ph name="TAB_COUNT_MANY"/> dab arall yn cael eu cau}few{Bydd <ph name="INCOGNITO_TAB_COUNT"/> thab anhysbys a <ph name="TAB_COUNT_MANY"/> thab arall yn cael eu cau}many{Bydd <ph name="INCOGNITO_TAB_COUNT"/> thab anhysbys a <ph name="TAB_COUNT_MANY"/> thab arall yn cael eu cau}other{Bydd <ph name="INCOGNITO_TAB_COUNT"/> tab anhysbys a <ph name="TAB_COUNT_MANY"/> tab arall yn cael eu cau}}</translation>
-<translation id="3947065058794437451">Nid yw Anhysbys ar gael ar y ddyfais hon</translation>
-<translation id="1998933850996224665">I rannu â phobl gerllaw, gadewch iddynt sganio'r Cod QR hwn</translation>
-<translation id="3095878721037212218">Byddwch yn gallu rheoli rheolyddion cyfryngau, sesiynau Anhysbys, lawrlwythiadau a rhagor yn hawdd</translation>
 </translationbundle>

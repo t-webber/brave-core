@@ -10770,6 +10770,7 @@ Guarda tu archivo de clave en un lugar seguro, ya que lo necesitarás para crear
 <translation id="8805255531353778052">Ahorro muy elevado</translation>
 <translation id="8807588541160250261">Cuando no haya ningún dispositivo conectado</translation>
 <translation id="8807632654848257479">Estable</translation>
+<translation id="8808478386290700967">Brave Web Store</translation>
 <translation id="8808686172382650546">Gato</translation>
 <translation id="8809147117840417135">Turquesa claro</translation>
 <translation id="8811862054141704416">Acceso a micrófono en Crostini</translation>
@@ -11476,7 +11477,6 @@ Los permisos que hayas dado a sitios web y aplicaciones se pueden aplicar a esta
 <translation id="3193187622878830588">Portal privado: <ph name="SUBFRAME_SITE"/></translation>
 <translation id="1389212885096774902">Marco cerrado privado: <ph name="FENCEDFRAME_SITE"/></translation>
 <translation id="5097649414558628673">Herramienta: <ph name="PRINT_NAME"/></translation>
-<translation id="8808478386290700967">Web Store</translation>
 <translation id="8261378640211443080">Esta extensión no aparece en <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> y se podría haber añadido sin tu conocimiento.</translation>
 <translation id="3591188117102923109">Personalice su navegador más si cabe con extensiones de la <ph name="BEGIN_LINK1"/>Web Store<ph name="END_LINK1"/></translation>
 <translation id="7226591269860979104">Puedes encontrar colores antiguos en la Web Store</translation>

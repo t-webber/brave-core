@@ -8323,6 +8323,7 @@ Sinulla on vielä # vaarantunutta salasanaa. Brave Salasanat suosittelee, että 
 <translation id="7025082428878635038">Uusi tapa liikkua eleiden avulla</translation>
 <translation id="7025190659207909717">Mobiilidatapalvelun hallinta</translation>
 <translation id="7025895441903756761">Tietosuoja ja yksityisyys</translation>
+<translation id="1448315815373449655">{COUNT,plural, =0{Avaa kaikki &amp;incognito-ikkunassa}=1{Avaa &amp;incognito-ikkunassa}other{Avaa kaikki ({COUNT}) &amp;incognito-ikkunassa}}</translation>
 <translation id="7029307918966275733">Crostinia ei ole asennettu. Asenna Crostini nähdäksesi tekijätiedot.</translation>
 <translation id="7029809446516969842">Salasanat</translation>
 <translation id="7030304022046916278">Lähettää URL-osoitteita Selaussuojan tarkistettavaksi</translation>
@@ -11526,10 +11527,6 @@ Sivustoille ja sovelluksille myöntämäsi luvat saattavat koskea tätä tiliä.
 <translation id="5464506165779993685">Avaa &amp;Yksityisessä ikkunassa</translation>
 <translation id="4620367155626060530">Näytä kirjanmerkkipalkki</translation>
 <translation id="3922078020116835067">&amp;Piilota kirjanmerkit</translation>
-<translation id="1448315815373449655">{COUNT, plural,
-          =0 {Open All in &amp;Private Window}
-          =1 {Open in &amp;Private Window}
-          other {Open All ({COUNT}) in &amp;Private Window}}</translation>
 <translation id="1985165269306590797">Avaa &amp;yksityisessä ikkunassa</translation>
 <translation id="4680518314108745448">Näytä kirjanmerkkipalkki</translation>
 <translation id="2203566065151196658">&amp;Piilota kirjanmerkit</translation>

@@ -521,7 +521,6 @@ Ar tikrai norite tai padaryti?</translation>
 <translation id="6814582232712814369">Sutaupytas laikas</translation>
 <translation id="3694122362646626770">Svetainės</translation>
 <translation id="2225863440766607138">Sekikliai</translation>
-<translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
 <translation id="6737820963776538947">Per pastarąsias 3 valandas „Brave“ naršyklėje užblokavote tiek sekiklių ir reklamų: <ph name="COUNT"/>.</translation>
 <translation id="5005713153542196658">Iki 6 kartų greičiau naršykite svarbiausiose naujienų svetainėse naudodamiesi „Brave“ ir blokuodami sekiklius &amp; reklamas.</translation>
 <translation id="7427567994475794038">Įjunkite privatumo ataskaitas ir matykite, kiek sekiklių ir reklamų užblokavote per pastarąsias 3 valandas.</translation>
@@ -807,7 +806,7 @@ Užklausos nepriėmus, prie VPN pakartotinai prisijungta nebus ir interneto ryš
 <translation id="9061799688859969073"><ph name="ACCOUNT_NAME"/> nusiuntė<ph name="CRYPTO_VALUE"/> <ph name="ASSET"/> (<ph name="FIAT_VALUE"/> $) – <ph name="DATE"/></translation>
 <translation id="1148985422232712046"><ph name="ACCOUNT_NAME"/> nusiuntė <ph name="ASSET"/> #<ph name="ASSET_ID"/> - <ph name="DATE"/></translation>
 <translation id="2911329628253651823"><ph name="ACCOUNT_NAME"/> patvirtino <ph name="ASSET"/> – <ph name="DATE"/></translation>
-<translation id="7400134344541309180">Patvirtintas neribotas <ph name="ASSET"/> skaičius  <ph name="PROXY"/></translation>
+<translation id="7400134344541309180">Patvirtintas neribotas <ph name="ASSET"/> skaičius <ph name="PROXY"/></translation>
 <translation id="2428770727194227378"><ph name="ACCOUNT_NAME"/> sukeitimas – <ph name="DATE"/></translation>
 <translation id="2833661570529295305">Nepatvirtinta</translation>
 <translation id="8034530868111548216">Patvirtinta</translation>
@@ -841,12 +840,12 @@ Užklausos nepriėmus, prie VPN pakartotinai prisijungta nebus ir interneto ryš
 <translation id="4351811224047421378">Skaičiai po kablelio</translation>
 <translation id="3494964159182650590">Atlygio suvestinė</translation>
 <translation id="590733288489975971">Atlygis už reklamą</translation>
+<translation id="1450735350187803276">Šį mėnesį matytos reklamos</translation>
 <translation id="1767561995429774671">Įnešti</translation>
 <translation id="7335371657242627509">Įtraukti į automatinį indėlį</translation>
 <translation id="6727102863431372879">Nustatyti</translation>
 <translation id="3074127054582480056">Dėmesys</translation>
 <translation id="2280319752798785157">Mėnesinis indėlis</translation>
-<translation id="3079421456571897484"><ph name="VALUE"/> BAT</translation>
 <translation id="1241283133946520352">Tinklai</translation>
 <translation id="1062463687579789365">Piniginės tinklų tinkinimas</translation>
 <translation id="2512821599885971349">Pridėti tinklą</translation>
@@ -1038,7 +1037,6 @@ Užklausos nepriėmus, prie VPN pakartotinai prisijungta nebus ir interneto ryš
 <translation id="4530494379350999373">Kilmė</translation>
 <translation id="6736243959894955139">Adresas</translation>
 <translation id="3095940652251934233">Išrašas</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">Versija</translation>
 <translation id="1313065465616456728">Išduotas</translation>
 <translation id="7902225556763260253">Galiojimo laikas</translation>

@@ -744,6 +744,7 @@ Váš účet Brave môže mať na adrese <ph name="BEGIN_LINK"/>myactivity.googl
 <translation id="2782276843156939908">Zoznamy uložených hesiel pre Brave a kanál <ph name="CHROME_CHANNEL"/> boli zlúčené. Všetky svoje uložené heslá môžete naďalej automaticky dopĺňať v oboch aplikáciách.</translation>
 <translation id="4616150815774728855">Otvoriť <ph name="WEBAPK_NAME"/></translation>
 <translation id="4619564267100705184">Overte, že ste to vy</translation>
+<translation id="2589970573128789862">Režim inkognito Chromu</translation>
 <translation id="4634124774493850572">Použiť heslo</translation>
 <translation id="4640331037679501949">{NUM_PASSWORDS,plural, =1{1 prelomené heslo}few{# prelomené heslá}many{# compromised passwords}other{# prelomených hesiel}}</translation>
 <translation id="4642472735733036929">Sledovanie ceny bolo deaktivované</translation>
@@ -1810,7 +1811,6 @@ Ak chcete toto nastavenie zmeniť, <ph name="BEGIN_LINK"/>odstráňte údaje Chr
 <translation id="5722020415664104421">Blokovanie pri používaní súkromného režimu</translation>
 <translation id="8915136961932734044">Weby v režime inkognito nemôžu pomocou súborov cookie zobraziť vašu aktivitu prehliadania v rámci rôznych webov (napríklad na prispôsobenie reklám). Funkcie na niektorých weboch môžu zlyhávať.</translation>
 <translation id="2213938739750509524">Keď ťuknete alebo niečo napíšete do adresného riadka alebo vyhľadávacieho poľa, zobrazia sa návrhy z vášho predvoleného vyhľadávača. Táto možnosť je v súkromnom režime vypnutá.</translation>
-<translation id="2589970573128789862">Brave Private</translation>
 <translation id="5809126106485463836">Súkromný režim uchováva vaše prehliadanie v súkromí pred ostatnými používateľmi vášho zariadenia</translation>
 <translation id="2633278372998075009">Súkromné karty</translation>
 <translation id="8810805383611013660">Otvoriť v súkromnej karte</translation>

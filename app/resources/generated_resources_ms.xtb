@@ -8326,6 +8326,7 @@ Anda mempunyai # lagi kata laluan yang terjejas. Brave Password Manager mengesyo
 <translation id="7025082428878635038">Memperkenalkan cara baharu untuk menavigasi dengan gerak isyarat</translation>
 <translation id="7025190659207909717">Pengurusan perkhidmatan data mudah alih</translation>
 <translation id="7025895441903756761">Keselamatan dan Privasi</translation>
+<translation id="1448315815373449655">{COUNT,plural, =0{Buka Semua dalam Tetingkap &amp;Inkognito}=1{Buka dalam Tetingkap &amp;Inkognito}other{Buka Semua ({COUNT}) dalam Tetingkap &amp;Inkognito}}</translation>
 <translation id="7029307918966275733">Crostini tidak dipasang. Sila pasang Crostini untuk melihat kredit.</translation>
 <translation id="7029809446516969842">Kata laluan</translation>
 <translation id="7030304022046916278">Menghantar URL kepada Penyemakan Imbas Selamat untuk semakan</translation>
@@ -11531,10 +11532,6 @@ Kebenaran yang telah anda berikan kepada laman web dan apl mungkin dikenakan pad
 <translation id="5464506165779993685">Buka dalam &amp;tetingkap Peribadi</translation>
 <translation id="4620367155626060530">&amp;Tunjukkan bar penanda halaman</translation>
 <translation id="3922078020116835067">&amp;Sembunyikan penanda halaman</translation>
-<translation id="1448315815373449655">{COUNT, plural,
-          =0 {Open All in &amp;Private Window}
-          =1 {Open in &amp;Private Window}
-          other {Open All ({COUNT}) in &amp;Private Window}}</translation>
 <translation id="1985165269306590797">Buka di dalam &amp;Tetingkap Sulit</translation>
 <translation id="4680518314108745448">&amp;Tunjukkan Bar Penanda Halaman</translation>
 <translation id="2203566065151196658">&amp;Sembunyikan Penanda Halaman</translation>

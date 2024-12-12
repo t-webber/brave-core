@@ -744,6 +744,7 @@ Brave 환경을 개선하는 데 데이터를 사용하는 설정을 더 보려�
 <translation id="2782276843156939908">Brave 및 <ph name="CHROME_CHANNEL"/>에 저장된 비밀번호 목록이 병합되었습니다. 두 앱 모두에 저장된 비밀번호를 계속 자동 완성할 수 있습니다.</translation>
 <translation id="4616150815774728855"><ph name="WEBAPK_NAME"/> 열기</translation>
 <translation id="4619564267100705184">본인 인증</translation>
+<translation id="2589970573128789862">Brave 시크릿 모드</translation>
 <translation id="4634124774493850572">비밀번호 사용</translation>
 <translation id="4640331037679501949">{NUM_PASSWORDS,plural, =1{유출된 비밀번호 1개}other{유출된 비밀번호 #개}}</translation>
 <translation id="4642472735733036929">가격 추적이 중지됨</translation>
@@ -1810,7 +1811,6 @@ Brave 환경을 개선하는 데 데이터를 사용하는 설정을 더 보려�
 <translation id="5722020415664104421">비공개 모드 중 차단</translation>
 <translation id="8915136961932734044">비공개 모드에 있는 동안에는 사이트가 쿠키를 활용하여 맞춤 광고 등에 사용할 목적으로 귀하의 사이트 브라우징 활동을 볼 수 없습니다. 일부 사이트에서는 기능이 작동하지 않을 수 있습니다.</translation>
 <translation id="2213938739750509524">주소창이나 검색창에서 탭하거나 입력을 시작하면 기본 검색 엔진의 추천 검색어가 표시됩니다. 비공개 창에서는 꺼집니다.</translation>
-<translation id="2589970573128789862">Brave Private</translation>
 <translation id="5809126106485463836">동일한 기기를 사용하는 다른 사람이 귀하의 브라우징 기록에 접근할 수 없게 해주는 비공개 모드</translation>
 <translation id="2633278372998075009">비공개 탭</translation>
 <translation id="8810805383611013660">비공개 탭에서 열기</translation>

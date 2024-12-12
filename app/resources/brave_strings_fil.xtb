@@ -219,6 +219,7 @@ Maaaring hindi available ang ilang tampok at hindi mase-save ang mga pagbabago s
 <translation id="4050175100176540509">May available na mahahalagang pagpapahusay sa seguridad at mga bagong feature sa pinakabagong bersyon.</translation>
 <translation id="4055805654398742145">P&amp;assword Manager</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{Awtomatikong isinasara ng iyong organisasyon ang Brave kapag hindi ito nagamit nang 1 minuto. Ide-delete ang data mula sa pag-browse. Posibleng kasama rito ang history, autofill, at mga download.}one{Awtomatikong isinasara ng iyong organisasyon ang Brave kapag hindi ito nagamit nang # minuto. Ide-delete ang data mula sa pag-browse. Posibleng kasama rito ang history, autofill, at mga download.}other{Awtomatikong isinasara ng iyong organisasyon ang Brave kapag hindi ito nagamit nang # na minuto. Ide-delete ang data mula sa pag-browse. Posibleng kasama rito ang history, autofill, at mga download.}}</translation>
+<translation id="2589970573128789862">Incognito sa Brave</translation>
 <translation id="5794951150713244901">Pumunta sa page na Tungkol sa Brave</translation>
 <translation id="4148957013307229264">Ini-install...</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> - Pag-sign in sa Network - Brave</translation>
@@ -618,6 +619,5 @@ Maaaring malapat sa account na ito ang mga pahintulot na naibigay mo na sa mga w
 <translation id="2176087127109773485">Maaari mong pamahalaan ang iyong mga naka-sign in na chain ng pag-sync ng Brave. Ginagamit ang iyong mga chain ng pag-sync ng Brave para sa Brave browser, Play Store, Gmail, at higit pa. Kung gusto mong magdagdag ng account para sa iba pang tao, tulad ng miyembro ng pamilya, magdagdag na lang ng bagong profile sa iyong <ph name="DEVICE_TYPE"/>. <ph name="LINK_BEGIN"/>Matuto pa<ph name="LINK_END"/></translation>
 <translation id="79269250264141507">Kapag nag-type ka sa address bar o box para sa paghahanap, ipinapadala ng Brave ang tina-type mo sa iyong default na search engine para makakuha ng mas mahuhusay na suhestyon. Naka-off ito sa Pribado.</translation>
 <translation id="3739288578188828252">Kapag nag-type ka sa address bar o box para sa paghahanap, ipinapadala ng Brave ang tina-type mo sa Google Drive para makakuha ng mga suhestyon sa item. Naka-off ito sa Pribado.</translation>
-<translation id="2589970573128789862">Brave Private</translation>
 <translation id="5994282802285556682">Kapag nagba-browse sa Private mode, babalaan ka ng Brave bago mag-load ng site gamit ang isang hindi secure na koneksyon</translation>
 </translationbundle>

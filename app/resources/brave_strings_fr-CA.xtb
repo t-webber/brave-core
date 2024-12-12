@@ -599,7 +599,7 @@ Brave est incapable de récupérer vos paramètres.</translation>
 <translation id="3146636448190445245">Pour utiliser votre position, accordez l'accès à Brave dans les <ph name="BEGIN_LINK"/>paramètres système<ph name="END_LINK"/></translation>
 <translation id="137466361146087520">Google Chrome bêta</translation>
 <translation id="7535429826459677826">Google Chrome Dev</translation>
-<translation id="5359574361379286250">Si vous voulez utiliser ce compte une seule fois, vous pouvez utiliser le   <ph name="GUEST_LINK_BEGIN"/>mode Invité<ph name="GUEST_LINK_END"/> dans le navigateur Brave. Si vous voulez ajouter un compte pour quelqu'un d'autre, <ph name="LINK_BEGIN"/>ajoutez un nouveau profil <ph name="LINK_END"/> à votre <ph name="DEVICE_TYPE"/>.
+<translation id="5359574361379286250">Si vous voulez utiliser ce compte une seule fois, vous pouvez utiliser le  <ph name="GUEST_LINK_BEGIN"/>mode Invité<ph name="GUEST_LINK_END"/> dans le navigateur Brave. Si vous voulez ajouter un compte pour quelqu'un d'autre, <ph name="LINK_BEGIN"/>ajoutez un nouveau profil <ph name="LINK_END"/> à votre <ph name="DEVICE_TYPE"/>.
 
 Les autorisations que vous avez déjà accordées aux sites Web et aux applications peuvent s'appliquer à ce compte. Vous pouvez gérer vos chaînes de synchronisation Brave dans <ph name="SETTINGS_LINK_BEGIN"/>Paramètres<ph name="SETTINGS_LINK_END"/>.</translation>
 <translation id="1743665722170667430">Les extensions, applications et thèmes provenant de sources inconnues peuvent endommager votre appareil. Brave recommande de les installer uniquement depuis le <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/></translation>

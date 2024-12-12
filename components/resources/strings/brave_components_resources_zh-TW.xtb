@@ -17,10 +17,6 @@
 <translation id="8344569602005188545">小時</translation>
 <translation id="7100907433458266664">天</translation>
 <translation id="4971389353431353387">天</translation>
-<translation id="2116364690062294218">B</translation>
-<translation id="3123243061080120667">KB</translation>
-<translation id="977224059380370527">MB</translation>
-<translation id="8776285424728638733">GB</translation>
 <translation id="8427933533533814946">相片由</translation>
 <translation id="7108338896283013870">隱藏</translation>
 <translation id="985862351129593673">自訂儀表板</translation>
@@ -80,7 +76,6 @@
 <translation id="8173998484743827990">Brave 統計</translation>
 <translation id="383680190590774040">時鐘</translation>
 <translation id="1383876407941801731">搜尋</translation>
-<translation id="3333887201479867589">Brave Rewards</translation>
 <translation id="3159285901314605198">背景圖</translation>
 <translation id="385051799172605136">返回</translation>
 <translation id="4225429340218993596">純色</translation>
@@ -112,7 +107,6 @@
 <translation id="5190407395832551012">為了防止 Brave Rewards 遭到濫用，我們會隨機要求使用者解決驗證碼。點擊“「解決」”即可恢復廣告。</translation>
 <translation id="1693773514029371138">解決</translation>
 <translation id="6991128190741664836">稍後</translation>
-<translation id="8112367589167674370">Brave Talk</translation>
 <translation id="8488282162676695335">Brave 錢包</translation>
 <translation id="8820817407110198400">書籤列</translation>
 <translation id="1644574205037202324">歷史記錄</translation>
@@ -130,13 +124,11 @@
 <translation id="8611976753572844841">用 Tor 連線的私密視窗</translation>
 <translation id="1645589858096839236">Brave 不會紀錄私密視窗之瀏覽內容。使用 Tor 連線時，您的真實 IP 位址也不會被造訪之網站看見；網路觀察者也不會看到您造訪之網站。但如果匿名性攸關您的人身安全，請改用 Tor 瀏覽器。</translation>
 <translation id="7919374705736538787">隱密搜尋使用</translation>
-<translation id="3135655280958284640">DuckDuckGo</translation>
 <translation id="218839872518145456">使用隱密搜尋，Brave 將會在隱私視窗中使用 DuckDuckGo 進行搜尋。DuckDuckGo 不會追蹤您的搜尋歷史，這樣您就可以隱密地搜尋。</translation>
 <translation id="1925197199485958903">在使用 Tor 的隱私視窗中，DuckDuckGo 是預設的搜尋引擎。其他流行的搜尋引擎難以與 Tor 一起使用。DuckDuckGo 不會追蹤您的搜尋歷史；使用 Tor，他們甚至根本連您的 IP 都不知道。</translation>
 <translation id="4371533307685765155">使用 DuckDuckGo 進行搜尋</translation>
 <translation id="548478195417408221">讓私密視窗更私密</translation>
 <translation id="3294503279952534143">此私密視窗更加私密</translation>
-<translation id="6126226144537295436">with Tor connectivity</translation>
 <translation id="8541421872680304667">當造訪網站時，Tor 會先讓瀏覽路徑經過多個 Tor 伺服器，藉此隱藏您的 IP 位址。Tor 可能會降低瀏覽速度，且不適用於某些網站。</translation>
 <translation id="8897548669448660973">使用無痕視窗僅會改變 Brave 在您裝置上的動作，不會改變其他人的行為。Tor 會對造訪網站隱藏您的 IP 位址，讓網路服務供應商或雇主更難（但不是無法）看到您正在造訪的網站。您可以從選單中開啟 Tor 的無痕視窗，或使用 [[ key ]]。</translation>
 <translation id="6975708438781948564">更多關於 Brave 中的 Tor 的資訊</translation>
@@ -214,7 +206,6 @@
 <translation id="4394049700291259645">停用</translation>
 <translation id="4176463684765177261">已停用</translation>
 <translation id="8283001340969131076">抱歉，嘗試斷開 <ph name="PROVIDER"/> 帳號連線時發生錯誤。請稍後再試。</translation>
-<translation id="8845154268466251503">BAT</translation>
 <translation id="4684554059837592728">每月支付</translation>
 <translation id="2846354907189538">下一個贊助日期</translation>
 <translation id="1397381065858030856">已檢視的網站</translation>
@@ -357,11 +348,7 @@
 <translation id="5082474983463379713">請注意：</translation>
 <translation id="1430915738399379752">列印</translation>
 <translation id="2600847485413879104">獎勵 BAT</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
-<translation id="8533411848724153701">Gemini</translation>
 <translation id="6569877533335686968">維持</translation>
-<translation id="6011108706830742093">ZebPay</translation>
-<translation id="5390923430722428146">Solana</translation>
 <translation id="6354568176665589146">週期性</translation>
 <translation id="2799223571221894425">重新啟動</translation>
 <translation id="1110535155349301542">移除</translation>
@@ -406,7 +393,6 @@
 <translation id="1109729143147368573">將您的加密貨幣和其他資產，花用在全世界近五千萬的商業和自動櫃員機上。花用加密貨幣來取得加密貨幣！</translation>
 <translation id="3787061634640932557">編輯卡片</translation>
 <translation id="2070991379950719711">開始使用 Brave Rewards</translation>
-<translation id="6297791103122079275">Talk</translation>
 <translation id="5977237145327845546">與您的好友與同事開始私人視訊通話。</translation>
 <translation id="8863928195533744356">開始通話</translation>
 <translation id="3651550649176056334">關於您的資料</translation>
@@ -420,7 +406,6 @@
 <translation id="4894106830958548828">我了解</translation>
 <translation id="326118736933420687">您正在查看 WebTorrent 頁面</translation>
 <translation id="2729085694451916573"><ph name="PART_ONE"/>預留位置<ph name="PART_ONE_END"/>的測試字串。 <ph name="PART_TWO"/>深入瞭解<ph name="PART_TWO_END"/></translation>
-<translation id="7534079972563542000">Unstoppable Domains</translation>
 <translation id="4492298165410552103">在 Brave 中啟用支援 Unstoppable Domains？</translation>
 <translation id="5015092481905019948">Brave 會使用 <ph name="PROVIDER_NAME"/> 來解析 <ph name="DOMAIN_PROVIDER_NAME"/> 上的 <ph name="DOMAIN_LIST"/> 網域名稱。Brave 會隱藏您的 IP 位址。如果您啟用這項功能，<ph name="PROVIDER_NAME"/> 只會看到有人正在嘗試造訪這些網域，不會看到其他資料。請參閱 <ph name="PROVIDER_NAME"/> 的<ph name="BEGIN_PROVIDER_TOU_LINK"/>使用條款<ph name="END_PROVIDER_TOU_LINK"/>和<ph name="BEGIN_PROVIDER_PRIVACY_LINK"/>隱私權政策<ph name="END_PROVIDER_PRIVACY_LINK"/>。</translation>
 <translation id="6513892817556267573">以太坊域名服務</translation>
@@ -430,7 +415,6 @@
 <translation id="4049590838234508776">在 Brave 中啟用以太坊域名服務 (ENS) 鏈下查找支援？</translation>
 <translation id="5944991147217767764">這個 .eth 網域名稱會儲存於鏈下，由第三方閘道解析。如果您啟用 ENS 鏈下查詢功能，第三方閘道將看到您正在嘗試造訪 .eth 網域。<ph name="BEGIN_BRAVE_LEARN_MORE_LINK"/>深入瞭解<ph name="END_BRAVE_LEARN_MORE_LINK"/>。</translation>
 <translation id="4047002754575891955">繼續鏈下查找</translation>
-<translation id="531747189990625622">Solana Name Service</translation>
 <translation id="1090584614351290462">是否要在 Brave 中啟用 Solana Name Service (SNS)？</translation>
 <translation id="7769345036263036863">Brave 會使用第三方來解析 <ph name="DOMAIN_LIST"/> 網域名稱。Brave 會隱藏您的 IP 位址。如果您啟用這項功能，第三方只會看到有人正在嘗試造訪這些 <ph name="DOMAIN_LIST"/> 網域，不會看到其他資料。更多關於我們所使用的第三方及其隱私權政策，請參閱我們的<ph name="BEGIN_SNS_WIKI_LINK"/>說明頁面<ph name="END_SNS_WIKI_LINK"/>。</translation>
 <translation id="884864496166128252">使用 <ph name="PROVIDER_NAME"/> 伺服器繼續操作</translation>
@@ -567,7 +551,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>深入瞭解<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">別擔心。</translation>
 <translation id="5027616819996705541">您在瀏覽網頁時，仍能保有個人隱私！</translation>
-<translation id="1450735350187803276">迄今為止的收益</translation>
+<translation id="1450735350187803276">本月看到的廣告</translation>
 <translation id="7649070708921625228">說明</translation>
 <translation id="6042308850641462728">更多</translation>
 <translation id="6245259297588415877">創作者</translation>
@@ -774,11 +758,6 @@
 <translation id="5483736362376139517">1 年</translation>
 <translation id="6979737339423435258">不限時間</translation>
 <translation id="3188963375823360044">1 小時</translation>
-<translation id="8163269366661594721">1D</translation>
-<translation id="7640956400175663828">1W</translation>
-<translation id="9100647964747998533">1M</translation>
-<translation id="6366007539108097840">3M</translation>
-<translation id="6977728312178289892">1Y</translation>
 <translation id="6598532182053592167">新增加密幣</translation>
 <translation id="5062934803872044756"><ph name="SYMBOL"/> (位於<ph name="NETWORK"/>)</translation>
 <translation id="629730747756840877">帳戶</translation>
@@ -900,7 +879,6 @@
 <translation id="6138471905279127211">不符合密碼標準。</translation>
 <translation id="467510802200863975">密碼不符</translation>
 <translation id="5168349973342709369">輸入密碼以解鎖錢包</translation>
-<translation id="9111102763498581341">Unlock</translation>
 <translation id="5045550434625856497">密碼不正確</translation>
 <translation id="9195657745688986798">解鎖錢包</translation>
 <translation id="2274014756904854136">點兩下螢幕以繼續</translation>
@@ -961,7 +939,6 @@
 <translation id="5745936663807461565">將 <ph name="HARDWARE_DEVICE"/> 錢包直接連接到電腦。</translation>
 <translation id="4350216031085285578">解鎖裝置並選取 <ph name="BLOCKCHAIN_NETWORK"/> 應用程式。</translation>
 <translation id="6892232036314454524">在 Ledger 裝置上開啟錯誤的應用程式時，可能會發生此錯誤。</translation>
-<translation id="6598291715079540080">Trezor</translation>
 <translation id="5605670050355397069">分類賬</translation>
 <translation id="8012452656725205792">授權 Brave 存取您的 <ph name="HARDWARE_DEVICE"/> 裝置 。</translation>
 <translation id="4378551569595875038">連線中...</translation>
@@ -971,7 +948,6 @@
 <translation id="5592304751234049046">搜尋帳戶</translation>
 <translation id="3168978475376026497">HD 路徑</translation>
 <translation id="6151024411349343484">如果找不到您想要的帳戶，請嘗試切換硬碟路徑（上方）</translation>
-<translation id="2844691569989101734">Ledger Live</translation>
 <translation id="7265732100380987017">舊式 (MEW/MyCrypto)</translation>
 <translation id="4549853322523631092">未找到結果。</translation>
 <translation id="7261362517244085362">授權您的錢包</translation>
@@ -1009,15 +985,10 @@
 <translation id="2902856457593699108">顯示密鑰</translation>
 <translation id="8033497299373164724">隱藏密鑰</translation>
 <translation id="2702143907607790516">更新帳戶名稱失敗，請再試一次。</translation>
-<translation id="3318280255740629162">25%</translation>
-<translation id="2636487255623744079">50%</translation>
-<translation id="8654192805213365413">75%</translation>
-<translation id="3512100619724810532">100%</translation>
 <translation id="5398538976202345089">不支援的網路</translation>
 <translation id="1448289340149908413">以太坊</translation>
 <translation id="1530109021798294736">主網</translation>
 <translation id="1613627717923045622">測試網路</translation>
-<translation id="6742767287935968736">Sepolia</translation>
 <translation id="6749024162985917640">本地主機</translation>
 <translation id="3792938779249970121">選擇帳戶</translation>
 <translation id="6797737193502014008">搜尋帳戶</translation>
@@ -1156,13 +1127,11 @@
 <translation id="5956400126884970816">最高費用</translation>
 <translation id="2445079431396622762">最高費用</translation>
 <translation id="6152793706702141594">目前基礎費用</translation>
-<translation id="8689322170423904690">Gwei</translation>
 <translation id="8685908198496503620">設定自訂</translation>
 <translation id="7400927223938424379">設定建議</translation>
 <translation id="8179605702342645418">交易無法在網路中溢散傳遞。</translation>
 <translation id="9100765901046053179">進階設定</translation>
 <translation id="1924965034964265193">輸入自訂 Nonce 值</translation>
-<translation id="4220062530885628403">Nonce</translation>
 <translation id="2749584096020594976">如果未指定此欄位，將自動決定 nonce 值。</translation>
 <translation id="1599636444563952897">支出限制權限允許 <ph name="SITE_ORIGIN"/> 提取和支出下列限額：</translation>
 <translation id="4512871563176965522">自訂津貼</translation>
@@ -1190,7 +1159,6 @@
 <translation id="5393164213211430081">2. 複製並輸入 ETH 位址</translation>
 <translation id="8306108469060304141">複製並輸入正確的位址。您可以看到部分字元已正確轉換。</translation>
 <translation id="2378355054306959991">需要更多協助嗎？</translation>
-<translation id="862585889767884824">of</translation>
 <translation id="9106265941552476098">拒絕 <ph name="TRANSACTION_LENGTH"/> 交易</translation>
 <translation id="1118876217803190221">餘額不足</translation>
 <translation id="275990379543116961">GAS 資金不足</translation>
@@ -1244,7 +1212,6 @@
 <translation id="2962388922926051374">在 <ph name="URL"/> 上要求方法「eth_chainId」失敗</translation>
 <translation id="8325036459845654666">此網路已新增。</translation>
 <translation id="554350381160981853">僅於搭載 1.10.5 以上版本韌體的 Trezor Model One 上支援對輸入的資料進行簽署</translation>
-<translation id="1752214435563414457">Brave Swap-stakes</translation>
 <translation id="7829441065063984927">加密貨幣贈送活動為期 7 天，獎項價值約 50 萬美元。</translation>
 <translation id="8292716346768453265">現在就參加！</translation>
 <translation id="1935944189549132903">所有資產</translation>
@@ -1262,11 +1229,7 @@
 <translation id="6534275647567011533">以 Transak 購買</translation>
 <translation id="5973390321030037823">使用連結購買</translation>
 <translation id="1932640759496708012">使用 Coinbase Pay 購買</translation>
-<translation id="8725252491405767337">Ramp.Network</translation>
-<translation id="1130009472404762036">Sardine</translation>
-<translation id="503018546142690471">Transak</translation>
 <translation id="7295150312737713113">Stripe 連結</translation>
-<translation id="7191335763519723663">Coinbase Pay</translation>
 <translation id="7667423728712601865">使用 Visa 或 Mastercard 購買加密貨幣。</translation>
 <translation id="3648994606506382289">透過信用卡和銀行轉帳購買加密貨幣最簡單、快速且便宜的方法。</translation>
 <translation id="3101839349578102016">使用您的銀行帳戶即時購買。手續費較低。</translation>
@@ -1343,7 +1306,6 @@
 <translation id="4530494379350999373">來源</translation>
 <translation id="6736243959894955139">帳戶位址</translation>
 <translation id="3095940652251934233">聲明</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">版本</translation>
 <translation id="1313065465616456728">發行時間</translation>
 <translation id="7902225556763260253">失效時間</translation>
@@ -1377,7 +1339,6 @@
 <translation id="4719005063558335704">帳戶：</translation>
 <translation id="4337554812324118382">資料：</translation>
 <translation id="569870799832027680">程式 ID：</translation>
-<translation id="9071560809248786823">Lamports</translation>
 <translation id="6129953537138746214">空格</translation>
 <translation id="2333894833508885986">所有者方案</translation>
 <translation id="673881072848521017">基本</translation>
@@ -1401,7 +1362,6 @@
 <translation id="3052313599928914393">隨機授權方</translation>
 <translation id="2818177840313215015">分配帳戶</translation>
 <translation id="3332926854409491692">租用 sysvar</translation>
-<translation id="1338923714285924422">RecentBlockhashes sysvar</translation>
 <translation id="7718273517583726718">初始化鑄幣</translation>
 <translation id="1982396945501942785">初始化帳戶</translation>
 <translation id="4448996702733695148">初始化多重簽名帳戶</translation>
@@ -1465,10 +1425,6 @@
 <translation id="4204240559971494450">第九</translation>
 <translation id="1264599863456102502">第十</translation>
 <translation id="2030919906296886809">第十一</translation>
-<translation id="7097617722759601686">st</translation>
-<translation id="2781276194026093899">nd</translation>
-<translation id="7992766987062040279">rd</translation>
-<translation id="2295726992010694229">th</translation>
 <translation id="1148624853678088576">您已準備就緒！</translation>
 <translation id="1656439328205762155">您的 Brave 錢包現已完成設定且可供使用。</translation>
 <translation id="3342494025742308764">前往投資組合</translation>
@@ -1555,7 +1511,6 @@
 <translation id="7657322905916621147">復原詞句必須為 12、15、18、21 或 24 個字長度</translation>
 <translation id="5026874946691314267">不要再顯示本訊息</translation>
 <translation id="434502623875309667">地址解析需鏈下網路請求，是否繼續？</translation>
-<translation id="2779500703989728346">NFT</translation>
 <translation id="1893207255459018302">尚未有交易紀錄</translation>
 <translation id="5356382676355994980">使用 Brave 錢包進行的交易將顯示在此處。</translation>
 <translation id="3033638954295674319">擷取 NFT 詳細資料時發生錯誤，請稍後再試。</translation>
@@ -1604,7 +1559,6 @@
 <translation id="2379187373676242615">比 CoinGecko 便宜 <ph name="VALUE"/>%</translation>
 <translation id="5351867352310722022">與 CoinGecko 相差不到 <ph name="VALUE"/>%</translation>
 <translation id="7695501918490163821">比 CoinGecko 貴 <ph name="VALUE"/>%</translation>
-<translation id="6599816589121202398">API</translation>
 <translation id="7561262633951061138">最佳</translation>
 <translation id="8060029310790625334">帮助中心</translation>
 <translation id="3143110700666266545">此應用程式使用以下第三方 API：</translation>
@@ -1650,7 +1604,6 @@
 <translation id="8549067157732633185">此代幣已完成驗證</translation>
 <translation id="2130170065617939165">此代幣已通過 <ph name="NUMBER_OF_LISTS"/> 清單驗證</translation>
 <translation id="1554316484739382186">支出位址：<ph name="ADDRESS"/></translation>
-<translation id="4265415116535094892">Zebpay</translation>
 <translation id="3026353765778463291"><ph name="PROVIDER"/> 帳戶</translation>
 <translation id="5360752485622434494">存放於 <ph name="PROVIDER"/> 的 Brave Rewards BAT</translation>
 <translation id="429061011725027672">您已登出 <ph name="PROVIDER"/>。如要查看餘額，請先登入。</translation>
@@ -1698,7 +1651,6 @@
 <translation id="2454691116905703258">NFT 的代幣名稱是指特定系列或專案中非同質化代幣的特定名稱。這個名稱會區別同一系列中的 NFT。</translation>
 <translation id="3212749868469431851">NFT 符號是指用來區別 NFT 系列或專案的專屬識別碼。</translation>
 <translation id="8198838794018761504">僅供觀看</translation>
-<translation id="193368604235852218">Web3</translation>
 <translation id="3417321754118442366">找不到 DApp</translation>
 <translation id="4864082959618144988">可用錢包</translation>
 <translation id="5445224754926400848">前往 <ph name="VALUE"/></translation>
@@ -1828,7 +1780,6 @@
 <translation id="7948579849190819732">目前分頁</translation>
 <translation id="7056969230130642253">您已全部更新</translation>
 <translation id="7292242212818928219">有新的內容，要重新載入嗎？</translation>
-<translation id="3924145049010392604">Meta</translation>
 <translation id="7481312909269577407">往前</translation>
 <translation id="1272079795634619415">停止</translation>
 <translation id="302781076327338683">重新載入略過快取</translation>
@@ -2000,7 +1951,6 @@
 <translation id="1873585723672836337">永遠在所有網站使用  Speedreader</translation>
 <translation id="3138587343887871192">切換是否要在所有網站使用  Speedreader。</translation>
 <translation id="5153147025131874069">並非所有網站都提供  Speedreader 功能。</translation>
-<translation id="1013121820689882118">Speedreader</translation>
 <translation id="2104268045272817433">退出  Speedreader</translation>
 <translation id="6315170314923504164">聲音</translation>
 <translation id="864152735015641598">調整  Speedreader</translation>
@@ -2009,10 +1959,7 @@
 <translation id="5595850093882577201">褐色主題</translation>
 <translation id="1407069428457324124">深色主題</translation>
 <translation id="9050211734566144118">系統主題</translation>
-<translation id="812549962360031312">Sans</translation>
-<translation id="5016205925109358554">Serif</translation>
 <translation id="2593272815202181319">等寬</translation>
-<translation id="8960352557529001690">Dyslexic</translation>
 <translation id="8189819085033738728">縮小字體</translation>
 <translation id="1952725803106139986">放大字體</translation>
 <translation id="6338177649973309262">縮減內容欄寬度</translation>
@@ -2022,7 +1969,6 @@
 <translation id="1199355487114804640">播放/暫停</translation>
 <translation id="1689210457482459023">降低播放速度</translation>
 <translation id="5872363163901278000">提高播放速度</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8637805148029768813">摘要工具功能目前僅適用於特定文章和其他完整格式網頁。</translation>
 <translation id="1223498995510244364">摘要</translation>
 <translation id="7491773233732232424">關於 Leo</translation>
@@ -2042,7 +1988,6 @@
 <translation id="8583558415545871403">您好，我是 Leo。我是由 Brave 代理，並使用 Anthropic 建立的 Claude 3 Haiku 模型來處理對話與文字處理工作。</translation>
 <translation id="1107977270364670952">您好，我是 Leo。我是 Brave 的代理機器人，由 Anthropic 建立的模型 Claude 3.5 Sonnet 提供技術支援，可勝任對話和文字處理工作。</translation>
 <translation id="6206029817087805290"><ph name="COMPANY_NAME"/> 的 <ph name="MODEL_NAME"/></translation>
-<translation id="963346402440669081">Premium</translation>
 <translation id="6187065185557150870">聊天</translation>
 <translation id="2961040541145689181">新聊天</translation>
 <translation id="7557539689487606886">訂閱 Premium</translation>
@@ -2295,7 +2240,6 @@ Brave 的協助程式服務可過濾對您 VPN 連線執行 DNS 查詢的方式�
 
 讓我們為您連線吧！</translation>
 <translation id="1657858090675311947">不必再警告我這項風險。</translation>
-<translation id="2740531572673183784">Ok</translation>
 <translation id="7423206764347669977">變更設定</translation>
 <translation id="9061845622728745852">時區：</translation>
 <translation id="8295393906499561642">工作階段已過期</translation>
@@ -2309,6 +2253,7 @@ Brave 的協助程式服務可過濾對您 VPN 連線執行 DNS 查詢的方式�
 <translation id="8048263175525832621">Brave VPN - 已中斷連線</translation>
 <translation id="1498770726476841108">管理帳戶</translation>
 <translation id="6825718953004242472">移除圖示</translation>
+<translation id="8425213833346101688">變更</translation>
 <translation id="3287942014983548982">在此開啟</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/>，目前開啟，
 按 Tab，然後按 Enter 以切換到開啟的分頁</translation>
@@ -2316,7 +2261,4 @@ Brave 的協助程式服務可過濾對您 VPN 連線執行 DNS 查詢的方式�
 現有分頁</translation>
 <translation id="451189393813405346">詢問 Leo</translation>
 <translation id="8525248723479742219">稍後播放</translation>
-<translation id="1450735350187803276">本月看到的廣告</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">變更</translation>
 </translationbundle>

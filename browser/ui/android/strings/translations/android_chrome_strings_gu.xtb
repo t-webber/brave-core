@@ -29,7 +29,6 @@
 <translation id="1113597929977215864">સરળ દૃશ્ય બતાવો</translation>
 <translation id="1126696498560056882">આ ડિવાઇસ પરના એકાઉન્ટ મેનેજ કરો</translation>
 <translation id="1129510026454351943">વિગતો: <ph name="ERROR_DESCRIPTION"/></translation>
-<translation id="5809126106485463836">છૂપો મોડ, તમારા ડિવાઇસનો ઉપયોગ કરતા અન્ય લોકોથી તમારા બ્રાઉઝિંગને ખાનગી રાખે છે</translation>
 <translation id="1138458427267715730">સમગ્ર વેબ પર કોઈપણ સાઇટ પર કિંમતમાં ઘટાડો થાય ત્યારે અલર્ટ મેળવો</translation>
 <translation id="1142732900304639782">આ સાઇટનો અનુવાદ કરવાનું ઑફર કરશો નહીં</translation>
 <translation id="1145536944570833626">અસ્તિત્વમાંના ડેટાને ડિલીટ કરો.</translation>
@@ -154,7 +153,6 @@
 <translation id="1718835860248848330">છેલ્લા એક કલાક</translation>
 <translation id="1724977129262658800">તમારા પાસવર્ડમાં ફેરફાર કરવા માટે અનલૉક કરો</translation>
 <translation id="6493900814829428590">તમે મુલાકાત લઈ શકો છો એવી સંભાવના ધરાવતા પેજને Brave જ્યારે પહેલેથી લોડ કરે, ત્યારે તમે ઝડપથી બ્રાઉઝ અને શોધ કરી શકો છો</translation>
-<translation id="5129323533070334129">છૂપા સિવાયના મોડમાં પાસકી સાચવીએ?</translation>
 <translation id="1747593111377567311">{NUM_SITES,plural, =1{1 સાઇટ દ્વારા તાજેતરમાં અનેક નોટિફિકેશન મોકલવામાં આવ્યા હતા}one{# સાઇટ દ્વારા તાજેતરમાં અનેક નોટિફિકેશન મોકલવામાં આવ્યા હતા}other{# સાઇટ દ્વારા તાજેતરમાં અનેક નોટિફિકેશન મોકલવામાં આવ્યા હતા}}</translation>
 <translation id="1749561566933687563">તમારા બુકમાર્કને સિંક કરો</translation>
 <translation id="12433225238423439">તમારા Brave એકાઉન્ટમાં પાસવર્ડનો ઉપયોગ કરવાનું ચાલુ રાખો</translation>
@@ -217,7 +215,6 @@
 <translation id="2038563949887743358">વિનંતી ડેસ્કટૉપ સાઇટ ચાલુ કરો</translation>
 <translation id="7675869148432102528"><ph name="APP_NAME"/> નો ડેટા Braveમાં પણ છે</translation>
 <translation id="2046634576464120978">નોંધણી કરવામાં નિષ્ફળ થયા</translation>
-<translation id="7096147642287317420">છૂપા મોડમાંથી બહાર નીકળવા માટે, ટચ કરીને થોડીવાર દબાવી રાખો</translation>
 <translation id="2049574241039454490"><ph name="FILE_SIZE_OF_TOTAL"/> <ph name="SEPARATOR"/> <ph name="DESCRIPTION"/></translation>
 <translation id="2051669996101374349">જ્યારે પણ શક્ય હોય ત્યારે HTTPSનો ઉપયોગ કરો અને તેને સપોર્ટ કરતી ન હોય તેવી સાઇટને લોડ કરતા પહેલાં ચેતવણી મેળવો. તમે વિગતવાર સુરક્ષાનું સેટિંગ ચાલુ કરેલું હોવાથી તમે આ સેટિંગ બદલી શકતા નથી.</translation>
 <translation id="2056878612599315956">સાઇટ રોકવામાં આવી</translation>
@@ -383,7 +380,6 @@
 <translation id="2841216154655874070">{NUM_DAYS,plural, =1{1 દિવસ પહેલાં ચેક કર્યું}one{# દિવસ પહેલાં ચેક કર્યું}other{# દિવસ પહેલાં ચેક કર્યું}}</translation>
 <translation id="2842985007712546952">પેરન્ટ ફોલ્ડર</translation>
 <translation id="6324134303015966238">તમે જે પેજની મુલાકાત લેવાની શક્યતા વધુ હોય, Brave તેને પહેલેથી લોડ કરે છે, જેથી જ્યારે તમે તેમની મુલાકાત લો, ત્યારે તે વધુ ઝડપથી લોડ થઈ શકે</translation>
-<translation id="4362959348993021460">છૂપા મોડ પર સ્વિચ કરવા માટે, ટચ કરીને થોડીવાર દબાવી રાખો</translation>
 <translation id="2855243985454069333">સિંક કરેલા બધા ડિવાઇસમાંથી ઇતિહાસ ડિલીટ કરે છે</translation>
 <translation id="2856503607207334158">સાઇન ઇન નિષ્ફળ થયું</translation>
 <translation id="2860954141821109167">ખાતરી કરો કે આ ડિવાઇસ પર ફોન ઍપ ચાલુ કરેલી છે</translation>
@@ -748,11 +744,9 @@
 <translation id="2782276843156939908">Brave અને <ph name="CHROME_CHANNEL"/> માટે સાચવેલા પાસવર્ડની તમારી સૂચિ મર્જ કરવામાં આવી હતી. તમે હજી પણ બન્ને ઍપ પર સાચવેલા તમારા બધા પાસવર્ડ ઑટોમૅટિક રીતે ભરી શકો છો.</translation>
 <translation id="4616150815774728855"><ph name="WEBAPK_NAME"/> ખોલો</translation>
 <translation id="4619564267100705184">આ તમે જ છો તેની ચકાસણી કરો</translation>
-<translation id="2589970573128789862">Brave છૂપો મોડ</translation>
 <translation id="4634124774493850572">પાસવર્ડનો ઉપયોગ કરો</translation>
 <translation id="4640331037679501949">{NUM_PASSWORDS,plural, =1{ચેડાં કરાયેલો 1 પાસવર્ડ}one{ચેડાં કરાયેલો # પાસવર્ડ}other{ચેડાં કરાયેલા # પાસવર્ડ}}</translation>
 <translation id="4642472735733036929">કિંમત ટ્રૅક કરવાનું બંધ કર્યું</translation>
-<translation id="8915136961932734044">જ્યારે છૂપા મોડમાં હો, ત્યારે અલગ-અલગ સાઇટ પરની તમારી બ્રાઉઝિંગ પ્રવૃત્તિ જોવા માટે સાઇટ તમારી કુકીનો ઉપયોગ કરી શકશે નહીં, ઉદાહરણ તરીકે, જાહેરાતોને મનગમતી બનાવવા માટે. અમુક સાઇટ પરની સુવિધાઓમાં કદાચ ખલેલ પડી શકે છે.</translation>
 <translation id="4650364565596261010">સિસ્ટમ ડિફૉલ્ટ</translation>
 <translation id="465657074423018424">Safe Browsing તમારું છેતરામણી વેબસાઇટથી રક્ષણ કરે છે. જો તમે તેને બંધ કરો, તો બ્રાઉઝ કરતી વખતે વધુ સાવધાન રહેજો, ખાસ કરીને પાસવર્ડ દાખલ કરતા પહેલાં.</translation>
 <translation id="4662373422909645029">ઉપનામમાં સંખ્યા ન હોઈ શકે</translation>
@@ -879,7 +873,6 @@
 <translation id="5161254044473106830">શીર્ષક જરૂરી</translation>
 <translation id="5161262286013276579">પાસકી કન્ફર્મેશન શીટ ખોલેલી છે</translation>
 <translation id="5163361352003913350">હાલમાં <ph name="NAME"/>ને પસંદ કર્યા છે. એકાઉન્ટ પસંદ કરો.</translation>
-<translation id="2331163878318921124">છૂપા મોડમાંથી બહાર નીકળવા માટે, બે વાર ટૅપ કરીને દબાવી રાખો</translation>
 <translation id="5170568018924773124">ફોલ્ડરમાં બતાવો</translation>
 <translation id="5171045022955879922">URL શોધો અથવા લખો</translation>
 <translation id="5174700554036517242">ટૅબ પ્રારંભિક ઊંચાઈ પર પાછું આવી ગયું છે</translation>
@@ -917,7 +910,6 @@
 <translation id="5355191726083956201">વિગતવાર સુરક્ષા ચાલુ છે</translation>
 <translation id="4771279424883068914">તમે જે પેજ માટે પ્રતિસાદ આપી રહ્યાં છો તેનું URL Braveને મોકલવામાં આવશે અને આ સુવિધાને બહેતર બનાવવા માટે માનવો દ્વારા તેનો રિવ્યૂ કરવામાં આવી શકે છે</translation>
 <translation id="5375577065097716013">Google Lens વડે છબી શોધો <ph name="BEGIN_NEW"/>નવું<ph name="END_NEW"/></translation>
-<translation id="4300497327999623298">છૂપા મોડમાંથી સ્વિચ આઉટ કરો</translation>
 <translation id="4799771635362945886">ખાતરી કરો કે તમે હંમેશાં તમારા Brave એકાઉન્ટમાં Braveના ડેટાનો ઉપયોગ કરી શકો</translation>
 <translation id="539881862970320163">સશક્ત પાસવર્ડ સૂચવવામાં આવ્યો છે. કીબોર્ડ છુપાવેલું છે.</translation>
 <translation id="5409881200985013443"><ph name="CLIENT_NAME"/> પર <ph name="ONE_TIME_CODE"/> સબમિટ કરીએ?</translation>
@@ -1231,7 +1223,6 @@
 <translation id="6762511428368667596"><ph name="NAME"/>, <ph name="EMAIL"/>.</translation>
 <translation id="676305334223455055">તમારી રુચિઓ પર આધારિત કન્ટેન્ટ મેળવવા માટે સાઇન ઇન કરો</translation>
 <translation id="6767294960381293877">કોઈ ટૅબ સાથે શેર કરવાના ડિવાઇસની સૂચિ અડધી ઊંચાઈએ ખૂલે છે.</translation>
-<translation id="2213938739750509524">જ્યારે તમે ઍડ્રેસ બાર અથવા શોધ બૉક્સ પર ટૅપ કરો કે તેમાં ટાઇપ કરો, ત્યારે તમને તમારા ડિફૉલ્ટ શોધ એન્જિનમાંથી સૂચનો દેખાશે. આ સુવિધા છૂપા મોડમાં બંધ હોય છે.</translation>
 <translation id="8174975477247159780">Brave અને ChromeOSની વધારાની સેવાની શરતો</translation>
 <translation id="6795633245022906657">ઝડપથી નવું ટૅબ ખોલો. આ શૉર્ટકટમાં ફેરફાર કરવા માટે, સેટિંગ પર જાઓ.</translation>
 <translation id="4757665660890677272">Braveને તમારું ડિફૉલ્ટ બ્રાઉઝર બનાવો</translation>
@@ -1347,11 +1338,9 @@
 <translation id="7196215469483532480">પ્રાઇવસી સંબંધિત માર્ગદર્શિકાની સમજૂતી પૂરી ઊંચાઈ સુધી ખોલી છે</translation>
 <translation id="1014116676551114642">બાળકો માટે Braveનું કન્ટેન્ટ - બંધ છે</translation>
 <translation id="7207760545532569765"><ph name="TAB_COUNT"/> ટૅબને નવી બૅકગ્રાઉન્ડ ટૅબ તરીકે રિસ્ટોર કરો.</translation>
-<translation id="6302653771627628530">જ્યારે તમે Brave છોડશો, ત્યારે છૂપી ટૅબ લૉક થઈ જશે</translation>
 <translation id="7221869452894271364">આ પેજને ફરીથી લોડ કરો</translation>
 <translation id="8713221522704424328">Brave અને <ph name="CHROME_CHANNEL"/> માટે માત્ર આ ડિવાઇસમાં સચવાયેલા બધા પાસવર્ડ મર્જ કરવામાં આવ્યા. તમે બન્ને ઍપ પર સાચવેલા તમારા બધા પાસવર્ડ ઑટોમૅટિક રીતે ભરી શકો છો.</translation>
 <translation id="7227218174981371415">{FILE_COUNT,plural, =1{1 ડાઉનલોડ બાકી}one{# ડાઉનલોડ બાકી}other{# ડાઉનલોડ બાકી}}</translation>
-<translation id="1988906120194081364">છૂપા મોડ પર સ્વિચ કરો</translation>
 <translation id="72415438529550637">પાસવર્ડ સૂચવવાની સુવિધા બંધ છે.</translation>
 <translation id="7252076891734325316">તમારા ફોનને કમ્પ્યુટરની નજીક રાખો</translation>
 <translation id="4957342254208357193">તમારા Android ડિવાઇસમાં કદાચ આ જ સેટિંગ શામેલ હોઈ શકે. જો Braveમાં અને તમારા Android ડિવાઇસ પર જાહેરાત માપણીની સુવિધા ચાલુ કરેલી હોય, તો કંપની તમે મુલાકાત લો છો તેવી સમગ્ર વેબસાઇટ પર અને તમે ઉપયોગ કરો છો તેવી ઍપ પર જાહેરાતની અસરકારકતાની માપણી કરી શકે છે.</translation>
@@ -1423,7 +1412,6 @@
 <translation id="751961395872307827">સાઇટ સાથે કનેક્ટ કરી શકાતું નથી</translation>
 <translation id="7523960634226602883">Google Lensનો ઉપયોગ કરીને તમારા કૅમેરા વડે શોધો</translation>
 <translation id="7525248386620136756"><ph name="TAB_GROUPS_AND_TABS_PART"/> બંધ છે અને સાચવ્યું છે</translation>
-<translation id="5722020415664104421">છૂપા મોડનો ઉપયોગ કરતી વખતે બ્લૉક કરો</translation>
 <translation id="3987895309799116299">Braveનું વર્ઝન ચેક કરી શકાતું નથી</translation>
 <translation id="7557508262441527045">સાઇન આઉટ કર્યું</translation>
 <translation id="7573665567024262965">તમારી ડિફૉલ્ટ ઍપ પસંદ કરો</translation>
@@ -1451,7 +1439,6 @@
 <translation id="7655240423373329753">છેલ્લા 7 દિવસ</translation>
 <translation id="7655900163790317559">બ્લૂટૂથ ચાલુ કરી રહ્યાં છીએ…</translation>
 <translation id="7656721520530864426">કોઈ સાઇટ નથી</translation>
-<translation id="5278260521317049275">છૂપી ટૅબને લૉક કરવાનો મોડ ચાલુ કરો</translation>
 <translation id="7658239707568436148">રદ કરો</translation>
 <translation id="7663320421139257046">ચાલુ રાખવા માટે, <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/> તમારું <ph name="FIELDS_STRING"/> આ સાઇટ સાથે શેર કરશે. આ સાઇટની <ph name="BEGIN_LINK1"/>પ્રાઇવસી પૉલિસી<ph name="END_LINK1"/> જુઓ.</translation>
 <translation id="7665369617277396874">એકાઉન્ટ ઉમેરો</translation>
@@ -1617,7 +1604,6 @@
 <translation id="8378850197701296741">તમારી પાસે <ph name="FROM_ACCOUNT"/>ના બુકમાર્ક, ઇતિહાસ, અને અન્ય સેટિંગ છે.</translation>
 <translation id="8387617938027387193">આ તમે જ છો તેનો પુરાવો આપો</translation>
 <translation id="8393700583063109961">મેસેજ મોકલો</translation>
-<translation id="1393515642387718683">છૂપા મોડ પર સ્વિચ કરવા માટે, બે વાર ટૅપ કરીને દબાવી રાખો</translation>
 <translation id="8402673309244746971">અનુસરે છે ફીડ પર જાઓ</translation>
 <translation id="8413126021676339697">પૂર્ણ ઇતિહાસ બતાવો</translation>
 <translation id="5348884013239264115">જોખમકારક જણાતી હોય એવી સાઇટ, ડાઉનલોડ અને એક્સ્ટેન્શન સામે સુરક્ષિત રાખે છે. જ્યારે તમે કોઈ સાઇટની મુલાકાત લો, ત્યારે Brave પ્રાઇવસી સર્વર મારફતે Braveને તે સાઇટના URLનો વાંચવામાં મુશ્કેલ બનાવેલો ભાગ મોકલે છે, જે તમારા IP ઍડ્રેસને છુપાવે છે. જો સાઇટ પર કોઈ શંકાસ્પદ પ્રવૃત્તિ દેખાય, તો સંપૂર્ણ URLs અને પેજ કન્ટેન્ટના બિટ પણ મોકલવામાં આવે છે.</translation>
@@ -1698,7 +1684,6 @@
 <translation id="8748850008226585750">સામગ્રીઓ છુપાવેલ છે</translation>
 <translation id="8754448020583829686">લિંક વિના કૉપિ કરો</translation>
 <translation id="8756969031206844760">પાસવર્ડ અપડેટ કરીએ?</translation>
-<translation id="79269250264141507">જ્યારે તમે ઍડ્રેસ બાર અથવા શોધ બૉક્સમાં ટાઇપ કરો છો, ત્યારે બહેતર સૂચનો મેળવવા માટે Brave તમે જે ટાઇપ કરો છો તેને તમારા ડિફૉલ્ટ શોધ એન્જિનને મોકલે છે. આ સુવિધા છૂપા મોડમાં કામ કરતી નથી.</translation>
 <translation id="8766529642647037772">શું આના જેવી હાઇલાઇટ કરેલી લિંક બનાવીએ?</translation>
 <translation id="8773160212632396039">વિનંતી પર પ્રક્રિયા ચાલુ છે</translation>
 <translation id="8788265440806329501">નૅવિગેશન ઇતિહાસ બંધ છે</translation>
@@ -1726,7 +1711,6 @@
 <translation id="8863714995118816041"><ph name="SITE_NAME"/>ને ફરી પરવાનગીઓ આપવામાં આવી</translation>
 <translation id="7261356974224431851">તમારા એકાઉન્ટમાંનો Brave ડેટા</translation>
 <translation id="8888527824584402177">તમે <ph name="DAYS_INACTIVE"/> દિવસ સુધી ઉપયોગ ન કર્યો હોય તેવા ટૅબ અહીં ખસેડવામાં આવે છે<ph name="AUTODELETE_SECTION"/>. <ph name="SETTINGS_TITLE"/>માં તમે આને કોઈપણ સમયે બદલી શકો છો.</translation>
-<translation id="4325212706000356062">તમારા છૂપા ટૅબ શોધો</translation>
 <translation id="1984646864943401749">વેબ પરના નવા જોખમો શોધી કાઢવા અને દરેક વ્યક્તિની સુરક્ષિતતામાં સહાય કરવા માટે, તમે મુલાકાત લેતા અમુક પેજના URLs, સિસ્ટમની મર્યાદિત માહિતી અને પેજનું અમુક કન્ટેન્ટ Braveને મોકલે છે.</translation>
 <translation id="8909135823018751308">શેર કરો…</translation>
 <translation id="8921980840204105660">તમારા અન્ય ડિવાઇસમાંના તમારા બધા બુકમાર્ક મેળવવા માટે, સિંક કરો</translation>
@@ -1748,7 +1732,6 @@
 <translation id="8996847606757455498">કોઈ અન્ય પ્રદાતા પસંદ કરો</translation>
 <translation id="8998289560386111590">તમારા ડિવાઇસ પર ઉપલબ્ધ નથી</translation>
 <translation id="8998837250940831980">ટૅબ નાનું કરી શક્યા નથી. થોડા સમય પછી ફરી પ્રયાસ કરો.</translation>
-<translation id="2656327481457116654">Braveના છૂપા ટૅબમાં ખોલો</translation>
 <translation id="9007002441981613214">સાચવેલા પાસવર્ડ સાથેની સમસ્યા સુધારો</translation>
 <translation id="9012585441087414258">જોખમકારક જણાતી હોય એવી સાઇટ, ડાઉનલોડ અને એક્સ્ટેન્શન સામે રક્ષણ આપે છે. જો કોઈ પેજ કંઈપણ શંકાસ્પદ કરે છે, તો URL અને પેજ કન્ટેન્ટના બિટ Google Safe Browsingને મોકલવામાં આવે છે.</translation>
 <translation id="9019199799064251516">કાર પ્રોફાઇલ લૉક વિના ચાલુ રાખીએ?</translation>
@@ -1818,22 +1801,33 @@
 <translation id="981121421437150478">ઑફલાઇન</translation>
 <translation id="983192555821071799">બધા ટેબ્સ બંધ કરો</translation>
 <translation id="987264212798334818">સામાન્ય</translation>
-<translation id="3442126301004443274">તમારા ડિવાઇસમાંથી છૂપા મોડનો બ્રાઉઝિંગ ઇતિહાસ ડિલીટ કરવા માટે, તમામ છૂપા ટૅબ બંધ કરો.</translation>
 <translation id="992745192656291733"><ph name="TAB_COUNT"/> ટૅબ</translation>
 <translation id="996149300115483134">ફીડ કાર્ડ મેનૂ બંધ છે</translation>
 <translation id="5186185447130319458">ખાનગી</translation>
+<translation id="79269250264141507">જ્યારે તમે ઍડ્રેસ બાર અથવા શોધ બૉક્સમાં ટાઇપ કરો છો, ત્યારે બહેતર સૂચનો મેળવવા માટે Brave તમે જે ટાઇપ કરો છો તેને તમારા ડિફૉલ્ટ શોધ એન્જિનને મોકલે છે. આ સુવિધા છૂપા મોડમાં કામ કરતી નથી.</translation>
 <translation id="5711390076756601471">જ્યારે તમે Braveમાંથી બહાર નીકળો, ત્યારે છૂપી ટૅબ લૉક કરો</translation>
 <translation id="1014490034578104945">ખુલ્લી 'છૂપી ટૅબ' જોવા માટે, સ્ક્રીન લૉકનો ઉપયોગ કરો</translation>
+<translation id="5722020415664104421">છૂપા મોડનો ઉપયોગ કરતી વખતે બ્લૉક કરો</translation>
+<translation id="8915136961932734044">જ્યારે છૂપા મોડમાં હો, ત્યારે અલગ-અલગ સાઇટ પરની તમારી બ્રાઉઝિંગ પ્રવૃત્તિ જોવા માટે સાઇટ તમારી કુકીનો ઉપયોગ કરી શકશે નહીં, ઉદાહરણ તરીકે, જાહેરાતોને મનગમતી બનાવવા માટે. અમુક સાઇટ પરની સુવિધાઓમાં કદાચ ખલેલ પડી શકે છે.</translation>
+<translation id="2213938739750509524">જ્યારે તમે ઍડ્રેસ બાર અથવા શોધ બૉક્સ પર ટૅપ કરો કે તેમાં ટાઇપ કરો, ત્યારે તમને તમારા ડિફૉલ્ટ શોધ એન્જિનમાંથી સૂચનો દેખાશે. આ સુવિધા છૂપા મોડમાં બંધ હોય છે.</translation>
+<translation id="2589970573128789862">Brave છૂપો મોડ</translation>
+<translation id="5809126106485463836">છૂપો મોડ, તમારા ડિવાઇસનો ઉપયોગ કરતા અન્ય લોકોથી તમારા બ્રાઉઝિંગને ખાનગી રાખે છે</translation>
 <translation id="2633278372998075009">ખાનગી ટૅબ્સ</translation>
 <translation id="8810805383611013660">છૂપી ટૅબમાં ખોલો</translation>
 <translation id="3110967157686007724">ખાનગી ટૅબ</translation>
 <translation id="1961291599064731706">છૂપા મોડમાં તમે મુલાકાત લો છો એ સાઇટ સચવાતી નથી</translation>
+<translation id="3442126301004443274">તમારા ડિવાઇસમાંથી છૂપા મોડનો બ્રાઉઝિંગ ઇતિહાસ ડિલીટ કરવા માટે, તમામ છૂપા ટૅબ બંધ કરો.</translation>
 <translation id="4526803704855831732">ખાનગી ટૅબ્સ</translation>
 <translation id="5248610748197335423">બધી છૂપી ટૅબ બંધ કરો</translation>
+<translation id="2656327481457116654">Braveના છૂપા ટૅબમાં ખોલો</translation>
 <translation id="4660964651149493586">છૂપા મોડના સત્ર અનલૉક કરો</translation>
+<translation id="5278260521317049275">છૂપી ટૅબને લૉક કરવાનો મોડ ચાલુ કરો</translation>
+<translation id="6302653771627628530">જ્યારે તમે Brave છોડશો, ત્યારે છૂપી ટૅબ લૉક થઈ જશે</translation>
 <translation id="3763131702135887799">તમે જે રીતે કરો છો, તે રીતે Braveનો ઉપયોગ કરતા લોકો માટે તેને બહેતર બનાવવામાં સહાય કરો</translation>
 <translation id="4167670741834902166">નવી છૂપી ટૅબ</translation>
 <translation id="8120164982795455341">નવી છૂપી ટૅબ</translation>
+<translation id="1988906120194081364">છૂપા મોડ પર સ્વિચ કરો</translation>
+<translation id="4300497327999623298">છૂપા મોડમાંથી સ્વિચ આઉટ કરો</translation>
 <translation id="4968908871398201967">ખાનગી મોડ</translation>
 <translation id="8448127664493413656">છૂપો મોડમાં દાખલ થાઓ</translation>
 <translation id="6484416399492735324">છૂપો મોડ છોડો</translation>
@@ -1844,7 +1838,13 @@
 <translation id="40716919553748435">{TAB_COUNT,plural, =1{<ph name="TAB_COUNT_ONE"/> ટૅબ}one{<ph name="TAB_COUNT_MANY"/> ટૅબ, <ph name="TAB_COUNT_INCOGNITO"/> છૂપી}other{<ph name="TAB_COUNT_MANY"/> ટૅબ, <ph name="TAB_COUNT_INCOGNITO"/> છૂપી}}</translation>
 <translation id="1982350477927404142">{TAB_COUNT,plural, =1{<ph name="TAB_COUNT_ONE"/> છૂપું ટૅબ બંધ કરવામાં આવશે}one{<ph name="TAB_COUNT_MANY"/> છૂપું ટૅબ બંધ કરવામાં આવશે}other{<ph name="TAB_COUNT_MANY"/> છૂપા ટૅબ બંધ કરવામાં આવશે}}</translation>
 <translation id="2703361981471284696">{TAB_COUNT,plural, =1{<ph name="INCOGNITO_TAB_COUNT"/> છૂપું અને વધુ <ph name="TAB_COUNT_ONE"/> ટૅબ બંધ કરવામાં આવશે}one{<ph name="INCOGNITO_TAB_COUNT"/> છૂપું અને વધુ <ph name="TAB_COUNT_MANY"/> ટૅબ બંધ કરવામાં આવશે}other{<ph name="INCOGNITO_TAB_COUNT"/> છૂપા અને વધુ <ph name="TAB_COUNT_MANY"/> ટૅબ બંધ કરવામાં આવશે}}</translation>
+<translation id="4362959348993021460">છૂપા મોડ પર સ્વિચ કરવા માટે, ટચ કરીને થોડીવાર દબાવી રાખો</translation>
+<translation id="1393515642387718683">છૂપા મોડ પર સ્વિચ કરવા માટે, બે વાર ટૅપ કરીને દબાવી રાખો</translation>
+<translation id="7096147642287317420">છૂપા મોડમાંથી બહાર નીકળવા માટે, ટચ કરીને થોડીવાર દબાવી રાખો</translation>
+<translation id="2331163878318921124">છૂપા મોડમાંથી બહાર નીકળવા માટે, બે વાર ટૅપ કરીને દબાવી રાખો</translation>
 <translation id="3947065058794437451">છૂપી ટૅબ આ ડિવાઇસ પર ઉપલબ્ધ નથી</translation>
 <translation id="1998933850996224665">નજીકના લોકો સાથે શેર કરવા માટે, તેમને આ QR કોડ સ્કૅન કરવા દો</translation>
 <translation id="3095878721037212218">તમે મીડિયા સંબંધિત નિયંત્રણો, છૂપા મોડના સત્રો, ડાઉનલોડ અને બીજા ઘણા કાર્યો સરળતાથી મેનેજ કરી શકશો</translation>
+<translation id="5129323533070334129">છૂપા સિવાયના મોડમાં પાસકી સાચવીએ?</translation>
+<translation id="4325212706000356062">તમારા છૂપા ટૅબ શોધો</translation>
 </translationbundle>

@@ -17,10 +17,6 @@
 <translation id="8344569602005188545">horas</translation>
 <translation id="7100907433458266664">día</translation>
 <translation id="4971389353431353387">días</translation>
-<translation id="2116364690062294218">B</translation>
-<translation id="3123243061080120667">KB</translation>
-<translation id="977224059380370527">MB</translation>
-<translation id="8776285424728638733">GB</translation>
 <translation id="8427933533533814946">Foto por</translation>
 <translation id="7108338896283013870">Ocultar</translation>
 <translation id="985862351129593673">Panel personalizado</translation>
@@ -38,7 +34,6 @@
 <translation id="5313967007315987356">Agregar sitio</translation>
 <translation id="5052499409147950210">Editar sitio</translation>
 <translation id="1181037720776840403">Quitar</translation>
-<translation id="7400418766976504921">URL</translation>
 <translation id="6678563120789955720">Dirección del sitio web</translation>
 <translation id="5327248766486351172">Nombre</translation>
 <translation id="6916084277913254682">Título del sitio web</translation>
@@ -112,7 +107,6 @@
 <translation id="5190407395832551012">Para evitar el uso abusivo de Brave Rewards, pediremos de forma aleatoria a los usuarios que resuelvan un captcha. Haz clic en “Resolver” para reanudar los anuncios.</translation>
 <translation id="1693773514029371138">Resolver</translation>
 <translation id="6991128190741664836">Luego</translation>
-<translation id="8112367589167674370">Brave Talk</translation>
 <translation id="8488282162676695335">Billetera de Brave</translation>
 <translation id="8820817407110198400">Barra de favoritos</translation>
 <translation id="1644574205037202324">Historial</translation>
@@ -130,7 +124,6 @@
 <translation id="8611976753572844841">Ventana de incógnito con conectividad Tor</translation>
 <translation id="1645589858096839236">Brave no almacena la actividad de navegación de las ventanas de incógnito. Además, gracias a la conectividad Tor, a los sitios web se les complica descubrir tu verdadera dirección IP y los observadores de redes tienen más dificultades a la hora de detectar qué sitios web visitas. En cualquier caso, si tu seguridad personal depende de permanecer en el anonimato, lo mejor es que uses el navegador Tor.</translation>
 <translation id="7919374705736538787">Realice una búsqueda privada con</translation>
-<translation id="3135655280958284640">DuckDuckGo</translation>
 <translation id="218839872518145456">Para la búsqueda privada, Brave usará DuckDuckGo para realizar las búsquedas en las ventanas privadas. DuckDuckGo no registra su historial de búsqueda, por lo que le permite mantener la privacidad de sus búsquedas.</translation>
 <translation id="1925197199485958903">En las ventanas privadas con Tor, DuckDuckGo es el motor de búsqueda predeterminado. Algunos de los motores de búsqueda más conocidos son difíciles de usar con Tor. DuckDuckGo no registrará su historial de búsqueda; con Tor, ni siquiera sabrán su dirección IP.</translation>
 <translation id="4371533307685765155">Buscar con DuckDuckGo</translation>
@@ -214,7 +207,6 @@
 <translation id="4394049700291259645">Inhabilitar</translation>
 <translation id="4176463684765177261">Deshabilitado</translation>
 <translation id="8283001340969131076">Lo sentimos, hubo un error al intentar desconectar tu cuenta de <ph name="PROVIDER"/>. Inténtalo de nuevo en un momento.</translation>
-<translation id="8845154268466251503">BAT</translation>
 <translation id="4684554059837592728">Pago mensual</translation>
 <translation id="2846354907189538">Próxima fecha de contribución</translation>
 <translation id="1397381065858030856">Sitios visitados</translation>
@@ -357,11 +349,7 @@
 <translation id="5082474983463379713">Ten en cuenta:</translation>
 <translation id="1430915738399379752">Imprimir</translation>
 <translation id="2600847485413879104">BAT de recompensas</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
 <translation id="8533411848724153701">Géminis</translation>
-<translation id="6569877533335686968">Uphold</translation>
-<translation id="6011108706830742093">ZebPay</translation>
-<translation id="5390923430722428146">Solana</translation>
 <translation id="6354568176665589146">Recurrentes</translation>
 <translation id="2799223571221894425">Reiniciar</translation>
 <translation id="1110535155349301542">eliminar</translation>
@@ -375,9 +363,6 @@
 <translation id="8428213095426709021">Configuración</translation>
 <translation id="1792148354504719133">sitio</translation>
 <translation id="6432779622695508363">Dar propina como</translation>
-<translation id="2726674968268546964">tokens</translation>
-<translation id="5015443703424816075">Token</translation>
-<translation id="1634828734222219955">Total</translation>
 <translation id="3535654229833214438">Transacciones</translation>
 <translation id="2448312741937722512">Tipo</translation>
 <translation id="8772672608371898774">Publicador verificado de Brave</translation>
@@ -423,8 +408,6 @@
 <translation id="7534079972563542000">Dominios imparables</translation>
 <translation id="4492298165410552103">¿Quieres activar dominios imparables en Brave?</translation>
 <translation id="5015092481905019948">Brave comenzará a usar <ph name="PROVIDER_NAME"/> para resolver nombres de dominio<ph name="DOMAIN_LIST"/> que estén en <ph name="DOMAIN_PROVIDER_NAME"/>. Brave oculta tu dirección IP. Si activas esto, <ph name="PROVIDER_NAME"/> verá que alguien quiere visitar estos dominios, pero nada más. Consulta las<ph name="BEGIN_PROVIDER_TOU_LINK"/>condiciones de uso<ph name="END_PROVIDER_TOU_LINK"/> y la <ph name="BEGIN_PROVIDER_PRIVACY_LINK"/>política de privacidad<ph name="END_PROVIDER_PRIVACY_LINK"/> de <ph name="PROVIDER_NAME"/>.</translation>
-<translation id="6513892817556267573">Ethereum Name Service</translation>
-<translation id="2789190492285945209">Ethereum Name Service (ENS)</translation>
 <translation id="4335039108389860301">¿Quieres activar la compatibilidad de Ethereum Name Service (ENS) en Brave?</translation>
 <translation id="807404806385418949">Búsqueda de ENS (Servicios de Nombres de Ethereum) fuera de cadena</translation>
 <translation id="4049590838234508776">¿Quieres habilitar la compatibilidad con la búsqueda de ENS (Servicio de Nombres de Ethereum) fuera de cadena en Brave?</translation>
@@ -567,7 +550,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Más información<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">No te preocupes.</translation>
 <translation id="5027616819996705541">¡Puedes seguir navegando de forma privada!</translation>
-<translation id="1450735350187803276">Ganancias hasta ahora</translation>
+<translation id="1450735350187803276">Anuncios vistos este mes</translation>
 <translation id="7649070708921625228">Ayuda</translation>
 <translation id="6042308850641462728">Más</translation>
 <translation id="6245259297588415877">Creadores</translation>
@@ -630,7 +613,6 @@
 <translation id="1692293127547800972">Ha habido un problema. Vuelve a intentarlo más tarde.</translation>
 <translation id="756341217015623253">Inicia sesión o regístrate</translation>
 <translation id="2653844658857826081">NUEVO</translation>
-<translation id="1165039591588034296">Error</translation>
 <translation id="5826530373788377342">Ha alcanzado el límite máximo de dispositivos para esta cuenta de <ph name="PROVIDER"/>.</translation>
 <translation id="6700131426769360592">Se alcanzó el límite del dispositivo</translation>
 <translation id="6895088073061692390">Lamentablemente, tu perfil de Recompensas de Brave se encuentra marcado porque nuestras comprobaciones automatizadas han detectado actividad inesperada en Anuncios de Brave.</translation>
@@ -714,7 +696,7 @@
 <translation id="6369571967625114920">Brave Private Ads aún no está disponible en tu región.</translation>
 <translation id="5309155375926073606">Sí, quisiera contribuir a Búsqueda de Brave y participar en el <ph name="LINK_BEGIN"/>Web Discovery Project<ph name="LINK_END"/>.</translation>
 <translation id="7285849890826812669">Contribuye con algunos datos anónimos de búsqueda y navegación para mejorar la Búsqueda de Brave Search con Web Discovery Project. Es totalmente de código abierto.</translation>
-<translation id="4174337572777167894">Web Discovery Project</translation>
+<translation id="4174337572777167894">Proyecto de descubrimiento web</translation>
 <translation id="7090992647511817643">cuenta</translation>
 <translation id="4822132585477111396">ID de cadena</translation>
 <translation id="3269475789479462358">dominio</translation>
@@ -773,7 +755,6 @@
 <translation id="4302754476737420523">3 meses</translation>
 <translation id="5483736362376139517">1 año</translation>
 <translation id="6979737339423435258">Todos</translation>
-<translation id="3188963375823360044">1H</translation>
 <translation id="8163269366661594721">1 D</translation>
 <translation id="7640956400175663828">1S</translation>
 <translation id="9100647964747998533">1 M</translation>
@@ -862,7 +843,6 @@
 <translation id="8368540604723748428">Demasiados decimales</translation>
 <translation id="6575120282593094155">Aún no tienes una cuenta de <ph name="ACCOUNT_TYPE"/>. ¿Quieres crear unanow?</translation>
 <translation id="1426410128494586442">Sí</translation>
-<translation id="4250680216510889253">No</translation>
 <translation id="1201402288615127009">Siguiente</translation>
 <translation id="3214453326297774895">Mostrar mi frase de recuperación</translation>
 <translation id="6896758677409633944">Copiar</translation>
@@ -947,7 +927,6 @@
 <translation id="8500387257977999003">Clave privada <ph name="PROTOCOL"/></translation>
 <translation id="8275038454117074363">Importar</translation>
 <translation id="232925166623833246">Importar de una billetera física</translation>
-<translation id="4324198334837993695">Hardware</translation>
 <translation id="9079725315195697532">Pon un nombre a esta cuenta</translation>
 <translation id="1011614786846182272">Estas cuentas pueden usarse con aplicaciones descentralizadas de Web3 y mostrarse en tu portafolio. Sin embargo, no pueden restaurarse con una frase de recuperación desde la copia de seguridad de tu cuenta principal.</translation>
 <translation id="1136772623587250243">Pegar la clave privada desde el portapapeles</translation>
@@ -961,8 +940,6 @@
 <translation id="5745936663807461565">Conecte su billetera de <ph name="HARDWARE_DEVICE"/> directamente a su computadora.</translation>
 <translation id="4350216031085285578">Desbloquea tu dispositivo y selecciona la aplicación <ph name="BLOCKCHAIN_NETWORK"/>.</translation>
 <translation id="6892232036314454524">Este error tiene lugar, por ejemplo, cuando se abre una aplicación incorrecta en el dispositivo Ledger.</translation>
-<translation id="6598291715079540080">Trezor</translation>
-<translation id="5605670050355397069">Ledger</translation>
 <translation id="8012452656725205792">Otorgue acceso a Brave a su dispositivo <ph name="HARDWARE_DEVICE"/>.</translation>
 <translation id="4378551569595875038">Conectando…</translation>
 <translation id="1943188256166395881">Agregar cuentas marcadas</translation>
@@ -971,8 +948,6 @@
 <translation id="5592304751234049046">Buscar cuenta</translation>
 <translation id="3168978475376026497">Ruta HD</translation>
 <translation id="6151024411349343484">Intente cambiar la ruta de HD (arriba) si no puede encontrar la cuenta que está buscando.</translation>
-<translation id="2844691569989101734">Ledger Live</translation>
-<translation id="7265732100380987017">Legacy (MEW/MyCrypto)</translation>
 <translation id="4549853322523631092">No se encontraron resultados.</translation>
 <translation id="7261362517244085362">Autorice su billetera</translation>
 <translation id="7150150391368236519">Vincular billetera de hardware</translation>
@@ -1014,11 +989,7 @@
 <translation id="8654192805213365413">75 %</translation>
 <translation id="3512100619724810532">100 %</translation>
 <translation id="5398538976202345089">Red no compatible</translation>
-<translation id="1448289340149908413">Ethereum</translation>
-<translation id="1530109021798294736">Mainnet</translation>
 <translation id="1613627717923045622">Probar red</translation>
-<translation id="6742767287935968736">Sepolia</translation>
-<translation id="6749024162985917640">Localhost</translation>
 <translation id="3792938779249970121">Seleccionar cuenta</translation>
 <translation id="6797737193502014008">Buscar cuentas</translation>
 <translation id="3505920073976671674">Seleccionar red</translation>
@@ -1079,7 +1050,6 @@
 <translation id="3240773103344793224">Se ha solicitado el cambio de titularidad de la cuenta</translation>
 <translation id="8041423758956015568">Esta transacción reasignará la titularidad de la cuenta a un nuevo programa. Esta acción es irreversible y puede provocar la pérdida de fondos.</translation>
 <translation id="1426320910664514906">Limite de Gas</translation>
-<translation id="1229774280326250926">Gas Premium</translation>
 <translation id="148169246131967347">Tasa máxima de Gas</translation>
 <translation id="1575262454612599115"><ph name="NUMBER_OF_ACCOUNTS"/> cuentas conectadas</translation>
 <translation id="4804818685124855865">Desconectar</translation>
@@ -1097,7 +1067,6 @@
 <translation id="4612979983851181941">Usa este panel para acceder de forma segura a Web3 y a todos tus criptoactivos.</translation>
 <translation id="4460220693591349571">TIPO DE FUNCIÓN</translation>
 <translation id="838933475572692615">DATOS HEX</translation>
-<translation id="2240831799756994975">BYTES</translation>
 <translation id="6760823167126275974">Vincular biletera</translation>
 <translation id="716009557505091365">o conectar con:</translation>
 <translation id="7242985059140288348">Esta aplicación podrá:</translation>
@@ -1156,13 +1125,11 @@
 <translation id="5956400126884970816">Comisión máx.</translation>
 <translation id="2445079431396622762">Comisión máxima</translation>
 <translation id="6152793706702141594">Comisión base actual</translation>
-<translation id="8689322170423904690">Gwei</translation>
 <translation id="8685908198496503620">Usar valor personalizado</translation>
 <translation id="7400927223938424379">Usar sugerencia</translation>
 <translation id="8179605702342645418">Es posible que la transacción no se propague en la red.</translation>
 <translation id="9100765901046053179">Configuración avanzada</translation>
 <translation id="1924965034964265193">Introduce un valor nonce personalizado</translation>
-<translation id="4220062530885628403">Nonce</translation>
 <translation id="2749584096020594976">Si no se especifica este campo, el valor de nonce se determinará automáticamente.</translation>
 <translation id="1599636444563952897">El permiso de límite de gasto permite a <ph name="SITE_ORIGIN"/> retirar y gastar la siguiente cantidad:</translation>
 <translation id="4512871563176965522">Asignación personalizada</translation>
@@ -1262,11 +1229,7 @@
 <translation id="6534275647567011533">Comprar con Transak</translation>
 <translation id="5973390321030037823">Comprar con Link</translation>
 <translation id="1932640759496708012">Comprar con Coinbase Pay</translation>
-<translation id="8725252491405767337">Ramp.Network</translation>
-<translation id="1130009472404762036">Sardine</translation>
-<translation id="503018546142690471">Transak</translation>
 <translation id="7295150312737713113">Link, de Stripe</translation>
-<translation id="7191335763519723663">Coinbase Pay</translation>
 <translation id="7667423728712601865">Compra criptomonedas con Visa o Mastercard.</translation>
 <translation id="3648994606506382289">La forma más fácil, rápida y económica de comprar criptomonedas con tarjeta y transferencia bancaria.</translation>
 <translation id="3101839349578102016">Compre al instante con su cuenta bancaria. Con menos comisiones.</translation>
@@ -1343,7 +1306,6 @@
 <translation id="4530494379350999373">Origen</translation>
 <translation id="6736243959894955139">Dirección</translation>
 <translation id="3095940652251934233">Declaración</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">Versión</translation>
 <translation id="1313065465616456728">Emisión</translation>
 <translation id="7902225556763260253">Vencimiento</translation>
@@ -1377,10 +1339,8 @@
 <translation id="4719005063558335704">Cuentas:</translation>
 <translation id="4337554812324118382">Datos:</translation>
 <translation id="569870799832027680">Id. de programa:</translation>
-<translation id="9071560809248786823">Lamports</translation>
 <translation id="6129953537138746214">Brave Software Space</translation>
 <translation id="2333894833508885986">Programa de propietarios</translation>
-<translation id="673881072848521017">Base</translation>
 <translation id="6602282658898162258">Semilla</translation>
 <translation id="6985542807131223826">Autoridad</translation>
 <translation id="938125553895090449">Nueva autoridad</translation>
@@ -1555,7 +1515,6 @@
 <translation id="7657322905916621147">La frase de recuperación debe constar de 12, 15, 18, 21 o 24 palabras</translation>
 <translation id="5026874946691314267">No vuelvas a mostrar esto.</translation>
 <translation id="434502623875309667">La resolución de dirección requiere solicitudes de red fuera de cadena. ¿Proceder?</translation>
-<translation id="2779500703989728346">NFT</translation>
 <translation id="1893207255459018302">No hay un historial de transacciones</translation>
 <translation id="5356382676355994980">Las transacciones que efectúes con tu Billetera de Brave aparecerán aquí.</translation>
 <translation id="3033638954295674319">Se ha producido un error al recuperar la información del NFT. Vuelve a intentarlo más tarde.</translation>
@@ -1604,7 +1563,6 @@
 <translation id="2379187373676242615"><ph name="VALUE"/> % más barato que CoinGecko</translation>
 <translation id="5351867352310722022">En el <ph name="VALUE"/> % de CoinGecko</translation>
 <translation id="7695501918490163821"><ph name="VALUE"/> % más caro que CoinGecko</translation>
-<translation id="6599816589121202398">API</translation>
 <translation id="7561262633951061138">Lo mejor</translation>
 <translation id="8060029310790625334">Centro de ayuda</translation>
 <translation id="3143110700666266545">Esta aplicación usa las siguientes API de terceros:</translation>
@@ -1698,7 +1656,6 @@
 <translation id="2454691116905703258">El nombre de token de un NFT se refiere al nombre específico que tiene un token no fungible dentro de una colección o proyecto concreto. Gracias a este nombre es posible distinguir los distintos NFT que componen una colección.</translation>
 <translation id="3212749868469431851">El símbolo NFT hace referencia al identificador exclusivo que se utiliza para distinguir la colección o el proyecto NFT.</translation>
 <translation id="8198838794018761504">Solo seguimiento</translation>
-<translation id="193368604235852218">Web3</translation>
 <translation id="3417321754118442366">No se ha encontrado ninguna aplicación descentralizada</translation>
 <translation id="4864082959618144988">Billeteras activas</translation>
 <translation id="5445224754926400848">Visite <ph name="VALUE"/></translation>
@@ -1828,7 +1785,6 @@
 <translation id="7948579849190819732">Pestaña actual</translation>
 <translation id="7056969230130642253">¡Estás al día!</translation>
 <translation id="7292242212818928219">Hay nuevo contenido disponible. ¿Quieres actualizar?</translation>
-<translation id="3924145049010392604">Meta</translation>
 <translation id="7481312909269577407">Reenviar</translation>
 <translation id="1272079795634619415">Interrumpir</translation>
 <translation id="302781076327338683">Volver a cargar sin pasar por la caché</translation>
@@ -2000,7 +1956,6 @@
 <translation id="1873585723672836337">Usar siempre Speedreader en todos los sitios</translation>
 <translation id="3138587343887871192">Activa o desactiva Speedreader en todos los sitios web.</translation>
 <translation id="5153147025131874069">No todos los sitios ofrecen funciones de Speedreader.</translation>
-<translation id="1013121820689882118">Speedreader</translation>
 <translation id="2104268045272817433">Salir de Speedreader</translation>
 <translation id="6315170314923504164">Voz</translation>
 <translation id="864152735015641598">Ajustar Speedreader</translation>
@@ -2009,8 +1964,6 @@
 <translation id="5595850093882577201">Tema sepia</translation>
 <translation id="1407069428457324124">Tema oscuro</translation>
 <translation id="9050211734566144118">Tema de sistema</translation>
-<translation id="812549962360031312">Sans</translation>
-<translation id="5016205925109358554">Serif</translation>
 <translation id="2593272815202181319">Monoespaciada</translation>
 <translation id="8960352557529001690">Disléxico</translation>
 <translation id="8189819085033738728">Reducir el tamaño de la fuente</translation>
@@ -2022,7 +1975,6 @@
 <translation id="1199355487114804640">Reproducir/pausar</translation>
 <translation id="1689210457482459023">Reducir la velocidad de reproducción</translation>
 <translation id="5872363163901278000">Aumentar la velocidad de reproducción</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8637805148029768813">De momento, la función de resumen solo está disponible para determinados artículos y otras páginas web de formato largo.</translation>
 <translation id="1223498995510244364">Resumir</translation>
 <translation id="7491773233732232424">Acerca de Leo</translation>
@@ -2042,8 +1994,6 @@
 <translation id="8583558415545871403">Hola, me llamo Leo. Funciono mediante un proxy de Brave y con tecnología de Claude 3 Haiku, un modelo creado por Anthropic para llevar a cabo tareas conversacionales y de procesamiento de textos.</translation>
 <translation id="1107977270364670952">Hola, me llamo Leo. Funciono mediante un proxy de Brave y con tecnología de Claude 3.5 Sonnet, un modelo creado por Anthropic para llevar a cabo tareas conversacionales y de procesamiento de textos.</translation>
 <translation id="6206029817087805290"><ph name="MODEL_NAME"/> de <ph name="COMPANY_NAME"/></translation>
-<translation id="963346402440669081">Premium</translation>
-<translation id="6187065185557150870">Chat</translation>
 <translation id="2961040541145689181">Nuevo chat</translation>
 <translation id="7557539689487606886">Hazte Premium</translation>
 <translation id="1691256669639196606">Administrar la suscripción</translation>
@@ -2309,6 +2259,11 @@ Puede revertir los cambios y volver a usar WireGuard en cualquier momento en bra
 <translation id="8048263175525832621">VPN de Brave: desconectado</translation>
 <translation id="1498770726476841108">Gestionar cuenta</translation>
 <translation id="6825718953004242472">Eliminar ícono</translation>
+<translation id="6819278685469225453">Protege todas las aplicaciones y el dispositivo al completo</translation>
+<translation id="3960619311638643872">VPN de Brave</translation>
+<translation id="4295077644587784828">Más privacidad y seguridad en línea.</translation>
+<translation id="8425213833346101688">Cambiar</translation>
+<translation id="8703188411226330709">Inicia la prueba gratuita</translation>
 <translation id="3287942014983548982">Abrir aquí</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/> ya se encuentra abierto.
     Presiona la tecla Tab y, luego, Intro para abrir la pestaña.</translation>
@@ -2316,10 +2271,4 @@ Puede revertir los cambios y volver a usar WireGuard en cualquier momento en bra
     pestaña ya existente.</translation>
 <translation id="451189393813405346">Preguntar a Leo</translation>
 <translation id="8525248723479742219">Reproducir más tarde</translation>
-<translation id="1450735350187803276">Anuncios vistos este mes</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Cambiar</translation>
-<translation id="6819278685469225453">Protege todas las aplicaciones y el dispositivo al completo</translation>
-<translation id="4295077644587784828">Más privacidad y seguridad en línea.</translation>
-<translation id="8703188411226330709">Inicia la prueba gratuita</translation>
 </translationbundle>

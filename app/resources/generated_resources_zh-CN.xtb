@@ -8297,6 +8297,7 @@
 <translation id="7025082428878635038">欢迎了解全新的手势导航</translation>
 <translation id="7025190659207909717">移动数据服务管理</translation>
 <translation id="7025895441903756761">安全和隐私设置</translation>
+<translation id="1448315815373449655">{COUNT,plural, =0{在无痕式窗口中打开全部书签(&amp;I)}=1{在无痕式窗口中打开(&amp;I)}other{在无痕式窗口中打开全部（{COUNT} 个）书签(&amp;I)}}</translation>
 <translation id="7029307918966275733">未安装 Crostini。请安装 Crostini 以查看开发人员名单。</translation>
 <translation id="7029809446516969842">密码</translation>
 <translation id="7030304022046916278">会将网址发送给“安全浏览”功能进行检查</translation>
@@ -11501,10 +11502,6 @@
 <translation id="5464506165779993685">在无痕窗口中打开</translation>
 <translation id="4620367155626060530">显示书签栏(&amp;S)</translation>
 <translation id="3922078020116835067">&amp;隐藏书签栏</translation>
-<translation id="1448315815373449655">{COUNT, plural,
-          =0 {Open All in &amp;Private Window}
-          =1 {Open in &amp;Private Window}
-          other {Open All ({COUNT}) in &amp;Private Window}}</translation>
 <translation id="1985165269306590797">在隐身窗口中打开(&amp;I)</translation>
 <translation id="4680518314108745448">显示书签栏(&amp;S)</translation>
 <translation id="2203566065151196658">&amp;隐藏书签栏</translation>

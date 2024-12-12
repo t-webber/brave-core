@@ -217,6 +217,7 @@
 <translation id="4050175100176540509">Vigtige sikkerhedsforbedringer og nye funktioner er tilgængelige i den seneste version.</translation>
 <translation id="4055805654398742145">Adgangs­kode­admin­istrator</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{Din organisation lukker automatisk Brave, når den ikke bruges i 1 minut. Browserdataene slettes. Disse kan omfatte historik, autofyld og downloads.}one{Din organisation lukker automatisk Brave, når den ikke bruges i # minut. Browserdataene slettes. Disse kan omfatte historik, autofyld og downloads.}other{Din organisation lukker automatisk Brave, når den ikke bruges i # minutter. Browserdataene slettes. Disse kan omfatte historik, autofyld og downloads.}}</translation>
+<translation id="2589970573128789862">Inkognitotilstand i Brave</translation>
 <translation id="5794951150713244901">Gå til siden Om Brave</translation>
 <translation id="4148957013307229264">Installerer...</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> – Login på netværk – Brave</translation>
@@ -616,6 +617,5 @@ Tilladelser, som du allerede har givet til websider og apps kan være gældende 
 <translation id="2176087127109773485">Du kan tilpasse dine synkroniseringskæder, når du er logget ind i Brave. Dine Brave-synkroniseringskæder bruges til Brave-browseren, Play Store, Gmail og andet. Hvis du vil tilføje en konto for en anden, f.eks. et familiemedlem, skal du tilføje en ny profil til <ph name="DEVICE_TYPE"/> instead. <ph name="LINK_BEGIN"/>Learn more<ph name="LINK_END"/></translation>
 <translation id="79269250264141507">Når du skriver noget i adresselinjen eller søgefeltet, sender Brave de indtastede værdier til din primære søgemaskine for at få bedre forslag. Dette er slået fra i Privat-tilstand.</translation>
 <translation id="3739288578188828252">Når du skriver noget i adresselinjen eller søgefeltet, sender Brave de indtastede værdier til Google Drive for at modtage forslag til elementer. Dette er slået fra i Privat-tilstand.</translation>
-<translation id="2589970573128789862">Brave Private</translation>
 <translation id="5994282802285556682">Når du browser i Privat tilstand, vil Brave advare dig, før du indlæser et websted ved hjælp af en usikker forbindelse</translation>
 </translationbundle>

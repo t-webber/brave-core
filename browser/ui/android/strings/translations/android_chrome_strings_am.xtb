@@ -29,7 +29,6 @@
 <translation id="1113597929977215864">የተቃለለ እይታን አሳይ</translation>
 <translation id="1126696498560056882">በዚህ መሣሪያ ላይ ያሉ መለያዎችን ያቀናብሩ</translation>
 <translation id="1129510026454351943">ዝርዝሮች፦ <ph name="ERROR_DESCRIPTION"/></translation>
-<translation id="5809126106485463836">ማንነት የማያሳውቅ ሁነታ መሣሪያዎን ከሚጠቀሙ ሌሎች ሰዎች የአሰሳ ታሪክዎን ግላዊ አድርጎ ያቆያል</translation>
 <translation id="1138458427267715730">በመላ ድሩ በማንኛውም ጣቢያ ላይ ዋጋው ሲቀንስ ማንቂያዎችን ያግኙ</translation>
 <translation id="1142732900304639782">እነዚህን ጣቢያዎች ለትርጉም አታቅርብ</translation>
 <translation id="1145536944570833626">ነባሩን ውሂብ ይሰርዙ።</translation>
@@ -216,7 +215,6 @@
 <translation id="2038563949887743358">የዴስክቶፕ ጣቢያን ጠይቅን አብራ</translation>
 <translation id="7675869148432102528"><ph name="APP_NAME"/> እንዲሁም በBrave ውስጥ ውሂብ አለው</translation>
 <translation id="2046634576464120978">ምዝገባው አልተሳካም</translation>
-<translation id="7096147642287317420">ከማንነት የማያሳውቅ ቀይረው ለመውጣት ይንኩ እና ይያዙ</translation>
 <translation id="2049574241039454490"><ph name="FILE_SIZE_OF_TOTAL"/> <ph name="SEPARATOR"/> <ph name="DESCRIPTION"/></translation>
 <translation id="2051669996101374349">በተቻለ መጠን ኤችቲቲፒኤስ ይጠቀሙ እና እሱን የማይደግፉትን ጣቢያዎች ከመጫንዎ በፊት ማስጠንቀቂያ ያግኙ። የላቀ ጥበቃን ስላነቁ ይህን ቅንብር መለወጥ አይችሉም።</translation>
 <translation id="2056878612599315956">ጣቢያ ባለበት ቆሟል</translation>
@@ -382,7 +380,6 @@
 <translation id="2841216154655874070">{NUM_DAYS,plural, =1{ከ1 ቀን በፊት ተፈትሿል}one{ከ# ቀኖች በፊት ተፈትሿል}other{ከ# ቀኖች በፊት ተፈትሿል}}</translation>
 <translation id="2842985007712546952">ወላጅ አቃፊ</translation>
 <translation id="6324134303015966238">እርስዎ የመጎብኘት ዕድልዎ ከፍተኛ የሆኑባቸው ገፆች ሲጎበኟቸው ይበልጥ በፍጥነት እንዲጫኑ Brave በቅድሚያ ይጭናቸዋል</translation>
-<translation id="4362959348993021460">ወደ ማንነት የማያሳውቅ ለመቀየር ይንኩ እና ይያዙ</translation>
 <translation id="2855243985454069333">ታሪክን ከሁሉም ከተመሳሰሉ መሣሪያዎች ይሰርዛል</translation>
 <translation id="2856503607207334158">በመለያ መግባት ተሰናክሏል</translation>
 <translation id="2860954141821109167">በዚህ መሣሪያ ላይ የስልክ መተግበሪያ እንደነቃ ያረጋግጡ</translation>
@@ -747,6 +744,7 @@
 <translation id="2782276843156939908">ለBrave እና ለ<ph name="CHROME_CHANNEL"/> የተቀመጡ የይለፍ ቃላት ዝርዝርዎ ተዋህዷል። በሁለቱም መተግበሪያዎች ላይ ሁሉንም የተቀመጡ የይለፍ ቃላትዎ በራስ-ሰር መሙላት ይችላሉ።</translation>
 <translation id="4616150815774728855"><ph name="WEBAPK_NAME"/>ን ይክፈቱ</translation>
 <translation id="4619564267100705184">እርስዎ መሆንዎን ያረጋግጡ</translation>
+<translation id="2589970573128789862">Brave ማንነት የማያሳውቅ</translation>
 <translation id="4634124774493850572">የይለፍ ቃል ይጠቀሙ</translation>
 <translation id="4640331037679501949">{NUM_PASSWORDS,plural, =1{1 የተጠለፈ የይለፍ ቃል}one{# የተጠለፉ የይለፍ ቃላት}other{# የተጠለፉ የይለፍ ቃላት}}</translation>
 <translation id="4642472735733036929">የዋጋ ክትትል ቆሟል</translation>
@@ -876,7 +874,6 @@
 <translation id="5161254044473106830">ርዕስ ያስፈልጋል</translation>
 <translation id="5161262286013276579">የይለፍ ቁልፍ ማረጋገጫ ሉህ ተከፍቷል</translation>
 <translation id="5163361352003913350"><ph name="NAME"/> አሁን ተመርጧል። መለያ ይምረጡ።</translation>
-<translation id="2331163878318921124">ከማንነት የማያሳውቅ ቀይረው ለመውጣት ሁለት ጊዜ መታ አድርገው ይያዙ</translation>
 <translation id="5170568018924773124">በአቃፊ አሳይ</translation>
 <translation id="5171045022955879922">ይፈልጉ ወይም ዩአርኤል ይጻፉ</translation>
 <translation id="5174700554036517242">ትር ወደ መጀመሪያ ቁመት ተመልሷል</translation>
@@ -914,7 +911,6 @@
 <translation id="5355191726083956201">የተሻሻለ ጥበቃ በርቷል</translation>
 <translation id="4771279424883068914">ግብረመልስ የሚሠጡበት ገጽ ዩአርኤል ወደ Brave ይላካል፣ እና ይህንን ባህሪ ለማሻሻል በሰዎች ሊገመገም ይችላል</translation>
 <translation id="5375577065097716013">በ Brave ሌንስ <ph name="BEGIN_NEW"/>አዲስ<ph name="END_NEW"/> ምስል ይፈልጉ</translation>
-<translation id="4300497327999623298">ማንነት ከማያሳውቅ ቀይረው ይውጡ</translation>
 <translation id="4799771635362945886">በBrave መለያዎ ውስጥ በማንኛውም ጊዜ የBrave ውሂብን መጠቀም መቻልዎን ያረጋግጡ</translation>
 <translation id="539881862970320163">ጠንካራ የይለፍ ቃል ተጠቁሟል። ቁልፍ ሰሌዳ ተደብቋል።</translation>
 <translation id="5409881200985013443"><ph name="ONE_TIME_CODE"/> በ<ph name="CLIENT_NAME"/> ላይ ያስረክቡ?</translation>
@@ -1346,7 +1342,6 @@
 <translation id="7221869452894271364">ይህን ገፅ ዳግም ጫን</translation>
 <translation id="8713221522704424328">በዚህ መሣሪያ ላይ ለBrave የተቀመጡ ሁሉም የይለፍ ቃላት እና <ph name="CHROME_CHANNEL"/> ተዋህደዋል። በሁለቱም መተግበሪያዎች ላይ ሁሉንም የተቀመጡ የይለፍ ቃላትዎን በራስ-ሰር መሙላት ይችላሉ።</translation>
 <translation id="7227218174981371415">{FILE_COUNT,plural, =1{1 ውርድን በመጠባበቅ ላይ}one{# ውርዶችን በመጠባበቅ ላይ}other{# ውርዶችን በመጠባበቅ ላይ}}</translation>
-<translation id="1988906120194081364">ወደ ማንነት የማያሳውቅ ቀይር</translation>
 <translation id="72415438529550637">የይለፍ ቃል ጥቆማ ተዘግቷል።</translation>
 <translation id="7252076891734325316">ስልክዎን ከኮምፒውተሩ አጠገብ ያኑሩ</translation>
 <translation id="4957342254208357193">የእርስዎ Android መሣሪያ ተመሳሳይ ቅንብር ሊያካትት ይችላል። የማስታወቂያ ልኬት በBrave እና በእርስዎ Android መሣሪያ ውስጥ ከበራ አንድ ኩባንያ የማስታወቂያ ውጤታማነትን በመላው እርስዎ በሚጎበኟቸው ድር ጣቢያዎች እና በሚጠቀሙባቸው መተግበሪያዎች ላይ ሊለካ ይችላል።</translation>
@@ -1610,7 +1605,6 @@
 <translation id="8378850197701296741">ከ<ph name="FROM_ACCOUNT"/> የመጡ ዕልባቶች፣ ታሪክ እና ሌሎች ቅንብሮች አለዎት።</translation>
 <translation id="8387617938027387193">እርስዎን መሆንዎን ያረጋግጡ</translation>
 <translation id="8393700583063109961">መልዕክት ይላኩ</translation>
-<translation id="1393515642387718683">ወደ ማንነት የማያሳውቅ ለመቀየር ሁለት ጊዜ መታ አድርገው ይያዙ</translation>
 <translation id="8402673309244746971">ወደ በመከተል ላይ ሂድ</translation>
 <translation id="8413126021676339697">ሙሉ ታሪክ አሳይ</translation>
 <translation id="5348884013239264115">አደገኛ እንደሆኑ ከሚታወቁ ጣቢያዎች፣ ውርዶች እና ቅጥያዎች ጥበቃ ያደርጋል። ጣቢያን ጉብኝት በሚያደርጉበት ጊዜ፣ Brave የአይ ፒ አድራሻዎን በሚደብቅ የግላዊነት አገልጋይ በኩል የተደበቀውን የዩአርኤል ክፍል ወደ Brave ይልካል። ጣቢያ አጠራጣሪ ነገር ካደረገ፣ እንዲሁም የገፅ ይዘት ሙሉ ዩአርኤሎች እና ቢቶች ይላካሉ</translation>
@@ -1718,7 +1712,6 @@
 <translation id="8863714995118816041">ለ<ph name="SITE_NAME"/> ፈቃዶች እንደገና ተፈቅደዋል</translation>
 <translation id="7261356974224431851">በመለያዎ ውስጥ የBrave ውሂብ</translation>
 <translation id="8888527824584402177">ለ<ph name="DAYS_INACTIVE"/> ቀናት ያልተጠቀሙባቸው ትሮች ወደዚህ<ph name="AUTODELETE_SECTION"/> ይንቀሳቀሳሉ። ይህን በማንኛውም ጊዜ በ<ph name="SETTINGS_TITLE"/> ውስጥ መለወጥ ይችላሉ።</translation>
-<translation id="4325212706000356062">ማንነት የማያሳውቅ ትሮችዎን ይፈልጉ</translation>
 <translation id="1984646864943401749">አዲስ ስጋቶችን ለማግኘት እንዲያግዝ እና በድር ላይ ያለ ሁሉንም ሰው ለመጠበቅ የጎበኟቸው የአንዳንድ ገጾች ዩአርኤሎችን፣ የተወሰነ የስርዓት መረጃን እና አንዳንድ የገጽ ይዘትን ወደ Brave ይልካል።</translation>
 <translation id="8909135823018751308">አጋራ…</translation>
 <translation id="8921980840204105660">የእርስዎን እልባቶች ከሌሎች መሣሪያዎችዎ ለማግኘት ያስምሩ</translation>
@@ -1740,7 +1733,6 @@
 <translation id="8996847606757455498">ሌላ አቅራቢ ይምረጡ</translation>
 <translation id="8998289560386111590">መሣሪያዎ ላይ አይገኝም</translation>
 <translation id="8998837250940831980">ትርን ማሳነስ አልተቻለም። ቆይተው እንደገና ይሞክሩ።</translation>
-<translation id="2656327481457116654">ማንነት በማያሳውቅ የBrave ትር ክፈት</translation>
 <translation id="9007002441981613214">በተቀመጡ የይለፍ ቃላት ችግር ይፍቱ</translation>
 <translation id="9012585441087414258">አደገኛ እንደሆኑ ከሚታወቁ ጣቢያዎች፣ ውርዶች እና ቅጥያዎች ጥበቃ ያደርጋል። አንድ ገጽ አጠራጣሪ የሆነ ነገር ካደረገ የገፁ ይዘት ዩአርኤሎች እና ቢቶች ወደ የBrave ጥንቃቄ አሰሳ ይላካሉ።</translation>
 <translation id="9019199799064251516">ያለ መኪና የመገለጫ መቆለፊያ ይቀጥላሉ?</translation>
@@ -1810,7 +1802,6 @@
 <translation id="981121421437150478">ከመስመር ውጭ</translation>
 <translation id="983192555821071799">ሁሉንም ትሮች ይዝጉ</translation>
 <translation id="987264212798334818">አጠቃላይ</translation>
-<translation id="3442126301004443274">ማንነት የማያሳውቅ የአሰሳ ታሪክን ከመሣሪያዎ ላይ ለመሰረዝ ሁሉንም ማንነት የማያሳውቁ ትሮች ይዝጉ።</translation>
 <translation id="992745192656291733"><ph name="TAB_COUNT"/> ትሮች</translation>
 <translation id="996149300115483134">የምግብ ካርድ ምናሌ ተዘግቷል</translation>
 <translation id="5186185447130319458">ማንነት የማያሳውቅ</translation>
@@ -1820,19 +1811,23 @@
 <translation id="5722020415664104421">የግል በሚጠቀሙበት ጊዜ አግድ</translation>
 <translation id="8915136961932734044">በግል ሲሆኑ፣ ጣቢያዎች የእርስዎን የአሰሳ እንቅስቃሴ በተለያዩ ጣቢያዎች ላይ ለማየት፣ ለምሳሌ ማስታወቂያዎችን ለግል ለማበጀት ኩኪዎችዎን መጠቀም አይችሉም። በአንዳንድ ጣቢያዎች ላይ ያሉ ባህሪያት ሊሰበሩ ይችላሉ።</translation>
 <translation id="2213938739750509524">የአድራሻ አሞሌውን ወይም የፍለጋ ሳጥኑን መታ ሲያደርጉ ወይም ሲተይቡ ከነባሪ የፍለጋ ሞተርዎ ጥቆማዎችን ያያሉ። ይህ በግል ጠፍቷል።</translation>
-<translation id="2589970573128789862">Brave Private</translation>
+<translation id="5809126106485463836">ማንነት የማያሳውቅ ሁነታ መሣሪያዎን ከሚጠቀሙ ሌሎች ሰዎች የአሰሳ ታሪክዎን ግላዊ አድርጎ ያቆያል</translation>
 <translation id="2633278372998075009">ማንነት የማያሳውቁ ትሮች</translation>
 <translation id="8810805383611013660">ማንነትን በማያሳውቅ ትር ክፈት</translation>
 <translation id="3110967157686007724">ማንነት የማያሳውቅ ትር</translation>
 <translation id="1961291599064731706">የሚጎበኟቸው ጣቢያዎች Private ውስጥ አይቀመጡም።</translation>
+<translation id="3442126301004443274">ማንነት የማያሳውቅ የአሰሳ ታሪክን ከመሣሪያዎ ላይ ለመሰረዝ ሁሉንም ማንነት የማያሳውቁ ትሮች ይዝጉ።</translation>
 <translation id="4526803704855831732">የግል ትሮች</translation>
 <translation id="5248610748197335423">ሁሉንም ማንነት የማያሳውቁ ትሮችን ይዝጉ</translation>
+<translation id="2656327481457116654">ማንነት በማያሳውቅ የBrave ትር ክፈት</translation>
 <translation id="4660964651149493586">የግል ክፈት</translation>
 <translation id="5278260521317049275">የግል መቆለፊያን ያብሩ</translation>
 <translation id="6302653771627628530">Braveን ለቀው ሲወጡ የግል ትሮች ይቆለፋሉ</translation>
 <translation id="3763131702135887799">እርስዎ በሚጠቀሙበት መንገድ ለሚጠቀሙ መገለጫዎች ብሬቭ የተሻለ እንዲሆን ያግዙ</translation>
 <translation id="4167670741834902166">አዲስ የግል ትር</translation>
 <translation id="8120164982795455341">አዲስ የግል ትር</translation>
+<translation id="1988906120194081364">ወደ ማንነት የማያሳውቅ ቀይር</translation>
+<translation id="4300497327999623298">ማንነት ከማያሳውቅ ቀይረው ይውጡ</translation>
 <translation id="4968908871398201967">ማንነት የማያሳውቅ ሁነታ</translation>
 <translation id="8448127664493413656">ማንነት የማያሳውቅ ሁነታ ያስገቡ</translation>
 <translation id="6484416399492735324">ማንነት ከማያሳውቅ ሁነታ ይውጡ</translation>
@@ -1851,8 +1846,13 @@ other {<ph name="TAB_COUNT_MANY"/> የግል ታቦች ይዘጋሉ}}</translati
 <translation id="2703361981471284696">{TAB_COUNT, plural,
           =1 {<ph name="INCOGNITO_TAB_COUNT"/> የግል እና <ph name="TAB_COUNT_ONE"/> ተጨማሪ ታቦች ይዘጋሉ}
           other {<ph name="INCOGNITO_TAB_COUNT"/> የግል እና <ph name="TAB_COUNT_MANY"/> ተጨማሪ ታቦች ይዘጋሉ}}</translation>
+<translation id="4362959348993021460">ወደ ማንነት የማያሳውቅ ለመቀየር ይንኩ እና ይያዙ</translation>
+<translation id="1393515642387718683">ወደ ማንነት የማያሳውቅ ለመቀየር ሁለት ጊዜ መታ አድርገው ይያዙ</translation>
+<translation id="7096147642287317420">ከማንነት የማያሳውቅ ቀይረው ለመውጣት ይንኩ እና ይያዙ</translation>
+<translation id="2331163878318921124">ከማንነት የማያሳውቅ ቀይረው ለመውጣት ሁለት ጊዜ መታ አድርገው ይያዙ</translation>
 <translation id="3947065058794437451">የግል በዚህ መሣሪያ ላይ አይገኝም</translation>
 <translation id="1998933850996224665">በአቅራቢያ ካሉ መገለጫዎች ጋር ለመጋራት ይህንን የ QR ኮድ እንዲቃኙ ይፍቀዱላቸው</translation>
 <translation id="3095878721037212218">የሚዲያ መቆጣጠሪያዎችን፣ የግል ክፍለ ጊዜዎችን፣ ማውረዶችን እና ሌሎችንም በቀላሉ ማስተዳደር ይችላሉ</translation>
 <translation id="5129323533070334129">ከግል ውጪ የማለፊያ ቁልፍን ያስቀምጡ?</translation>
+<translation id="4325212706000356062">ማንነት የማያሳውቅ ትሮችዎን ይፈልጉ</translation>
 </translationbundle>

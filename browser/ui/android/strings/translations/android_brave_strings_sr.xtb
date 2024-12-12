@@ -295,9 +295,7 @@
 <translation id="8220228041552340594">ОКТОБАР</translation>
 <translation id="8280223431922155812">НОВЕМБАР</translation>
 <translation id="4254029385847607686">ДЕЦЕМБАР</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
 <translation id="1772301834467143364">Brave вести</translation>
-<translation id="7732576862074737148">≈ <ph name="VALUE"/> USD</translation>
 <translation id="8428213095426709021">Подешаванја</translation>
 <translation id="6020176662032623904">Верификован аутор</translation>
 <translation id="2369994359029526515">Неверификован аутор</translation>
@@ -517,7 +515,6 @@
 <translation id="6814582232712814369">Сачувано време</translation>
 <translation id="3694122362646626770">Веб локације</translation>
 <translation id="2225863440766607138">Праћенја</translation>
-<translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
 <translation id="6737820963776538947">Блокирали сте <ph name="COUNT"/> пратиоца &amp; огласа са Brave претраживачем у последња 3 сата.</translation>
 <translation id="5005713153542196658">Претражујте до 6x брже на главним сајтовима с вестима на Браве блокиранјем праћенја &amp;амп; огласа.</translation>
 <translation id="7427567994475794038">Уклјучите Извештаје о приватности да бисте видели колико је пратилаца &amp; реклама блокирано у последнја 3 сата.</translation>
@@ -616,7 +613,6 @@
 <translation id="1577948178257477049"><ph name="ACCOUNT_NAME"/> налог <ph name="ACCOUNT_NUMBER"/></translation>
 <translation id="7665369617277396874">Додајте налог</translation>
 <translation id="3448492834076427715">Ажуриранје налога</translation>
-<translation id="5532363218245261099">#<ph name="NUMBER"/> <ph name="RECOVERY_PHRASE"/></translation>
 <translation id="1537175937716697987">Приказати моју фразу за обнављање</translation>
 <translation id="5303015959766064022">Napraviću rezervnu kopiju kasnije</translation>
 <translation id="7345730059518887993">Hajde da proverimo</translation>
@@ -759,7 +755,6 @@
 <translation id="6527596624419285047">Koristite najbolji server koji je dostupan</translation>
 <translation id="6789157560111825412">Dostupni serveri</translation>
 <translation id="5823953367746119927">Region servera</translation>
-<translation id="6991535320595227154"><ph name="REGION_NAME"/> server</translation>
 <translation id="4397083831618200686">Изаберите ситуацију</translation>
 <translation id="6687228121145903051">Није могуће повезиванје на ВПН (друга грешка)</translation>
 <translation id="9184988385244077767">Нема везе са интернетом при повезиванју</translation>
@@ -837,12 +832,12 @@
 <translation id="4351811224047421378">Децимале прецизности</translation>
 <translation id="3494964159182650590">Резиме награда</translation>
 <translation id="590733288489975971">Награде од Адс</translation>
+<translation id="1450735350187803276">Огласи виђени овог месеца</translation>
 <translation id="1767561995429774671">Дајте прилог</translation>
 <translation id="7335371657242627509">Уклјучите у аутоматски допринос</translation>
 <translation id="6727102863431372879">Постави</translation>
 <translation id="3074127054582480056">Пажнја</translation>
 <translation id="2280319752798785157">Месечни допринос</translation>
-<translation id="3079421456571897484"><ph name="VALUE"/> BAT</translation>
 <translation id="1241283133946520352">Мреже</translation>
 <translation id="1062463687579789365">Прилагођаванје мреже новчаника</translation>
 <translation id="2512821599885971349">Додај мрежу</translation>

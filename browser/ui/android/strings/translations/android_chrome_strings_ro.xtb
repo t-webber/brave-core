@@ -215,7 +215,6 @@ Numai un utilizator care deține expresia ta de acces îți poate citi datele cr
 <translation id="2038563949887743358">Activează opțiunea Versiune site pentru desktop</translation>
 <translation id="7675869148432102528">Și <ph name="APP_NAME"/> are date în Brave</translation>
 <translation id="2046634576464120978">Nu s-a realizat înregistrarea</translation>
-<translation id="7096147642287317420">Atinge lung pentru a ieși din modul incognito</translation>
 <translation id="2049574241039454490"><ph name="FILE_SIZE_OF_TOTAL"/> <ph name="SEPARATOR"/> <ph name="DESCRIPTION"/></translation>
 <translation id="2051669996101374349">Folosește HTTPS ori de câte ori este posibil și primește un avertisment înainte de a încărca site-urile care nu acceptă acest protocol. Nu poți schimba această setare deoarece ai activată Protecția avansată.</translation>
 <translation id="2056878612599315956">Site-ul a fost întrerupt</translation>
@@ -381,7 +380,6 @@ Numai un utilizator care deține expresia ta de acces îți poate citi datele cr
 <translation id="2841216154655874070">{NUM_DAYS,plural, =1{A rulat acum o zi}few{A rulat acum # zile}other{A rulat acum # de zile}}</translation>
 <translation id="2842985007712546952">Dosar părinte</translation>
 <translation id="6324134303015966238">Brave preîncarcă paginile pe care este posibil să le accesezi, astfel încât să se încarce mai rapid când le accesezi</translation>
-<translation id="4362959348993021460">Atinge lung pentru a intra în modul incognito</translation>
 <translation id="2855243985454069333">Șterge istoricul de pe toate dispozitivele sincronizate</translation>
 <translation id="2856503607207334158">Nu te-ai conectat</translation>
 <translation id="2860954141821109167">Verifică dacă pe dispozitiv este activată o aplicație de telefon</translation>
@@ -746,6 +744,7 @@ Contul Brave poate să ofere alte forme ale istoricului de navigare, cum ar fi c
 <translation id="2782276843156939908">Listele de parole salvate pentru Brave și <ph name="CHROME_CHANNEL"/> au fost îmbinate. Poți în continuare să completezi automat toate parolele salvate în ambele aplicații.</translation>
 <translation id="4616150815774728855">Deschide <ph name="WEBAPK_NAME"/></translation>
 <translation id="4619564267100705184">Confirmă-ți identitatea</translation>
+<translation id="2589970573128789862">Modul incognito din Brave</translation>
 <translation id="4634124774493850572">Folosește parola</translation>
 <translation id="4640331037679501949">{NUM_PASSWORDS,plural, =1{O parolă compromisă}few{# parole compromise}other{# de parole compromise}}</translation>
 <translation id="4642472735733036929">Urmărirea prețului s-a oprit</translation>
@@ -875,7 +874,6 @@ Contul Brave poate să ofere alte forme ale istoricului de navigare, cum ar fi c
 <translation id="5161254044473106830">Titlul este obligatoriu</translation>
 <translation id="5161262286013276579">S-a deschis foaia de confirmare a cheilor de acces</translation>
 <translation id="5163361352003913350">Ai selectat: <ph name="NAME"/>. Alege un cont.</translation>
-<translation id="2331163878318921124">Atinge de două ori și ține apăsat pentru a ieși din modul Incognito</translation>
 <translation id="5170568018924773124">Afișează în dosar</translation>
 <translation id="5171045022955879922">Caută sau introdu adresa URL</translation>
 <translation id="5174700554036517242">Fila a revenit la înălțimea inițială</translation>
@@ -913,7 +911,6 @@ Contul Brave poate să ofere alte forme ale istoricului de navigare, cum ar fi c
 <translation id="5355191726083956201">Protecția îmbunătățită este activată</translation>
 <translation id="4771279424883068914">Adresa URL a paginii pentru care trimiți feedback va fi trimisă de Brave și poate fi examinată de oameni pentru a îmbunătăți această funcție</translation>
 <translation id="5375577065097716013">Caută imaginea cu Google Lens <ph name="BEGIN_NEW"/>Nou<ph name="END_NEW"/></translation>
-<translation id="4300497327999623298">Ieși din modul incognito</translation>
 <translation id="4799771635362945886">Asigură-te că poți folosi oricând datele Brave din Contul Brave</translation>
 <translation id="539881862970320163">S-a sugerat o parolă puternică. Tastatura este ascunsă.</translation>
 <translation id="5409881200985013443">Trimiți <ph name="ONE_TIME_CODE"/> la <ph name="CLIENT_NAME"/>?</translation>
@@ -1345,7 +1342,6 @@ Pentru a modifica această setare, <ph name="BEGIN_LINK"/>șterge datele Brave d
 <translation id="7221869452894271364">Reîncarcă această pagină</translation>
 <translation id="8713221522704424328">Toate parolele salvate numai pe acest dispozitiv pentru Brave și <ph name="CHROME_CHANNEL"/> au fost îmbinate. Poți în continuare să completezi automat toate parolele salvate în ambele aplicații.</translation>
 <translation id="7227218174981371415">{FILE_COUNT,plural, =1{O descărcare în așteptare}few{# descărcări în așteptare}other{# de descărcări în așteptare}}</translation>
-<translation id="1988906120194081364">Intră în modul incognito</translation>
 <translation id="72415438529550637">Sugestia de parolă se închide.</translation>
 <translation id="7252076891734325316">Apropie telefonul de computer</translation>
 <translation id="4957342254208357193">Dispozitivul tău Android poate avea o setare similară. În cazul în care cuantificarea anunțurilor este activată în Brave și pe dispozitivul Android, o companie poate măsura eficiența unui anunț pe site-urile pe care le accesezi și în aplicațiile pe care le folosești.</translation>
@@ -1609,7 +1605,6 @@ Pentru a modifica această setare, <ph name="BEGIN_LINK"/>șterge datele Brave d
 <translation id="8378850197701296741">Ai marcajele, istoricul și alte setări din <ph name="FROM_ACCOUNT"/>.</translation>
 <translation id="8387617938027387193">Confirmă-ți identitatea</translation>
 <translation id="8393700583063109961">Trimite un mesaj</translation>
-<translation id="1393515642387718683">Atinge de două ori și ține apăsat pentru a intra în modul incognito</translation>
 <translation id="8402673309244746971">Accesează Urmărești</translation>
 <translation id="8413126021676339697">Afișează întregul istoric</translation>
 <translation id="5348884013239264115">Protejează împotriva site-urilor, descărcărilor și extensiilor despre care se știe că sunt periculoase. Când accesezi un site, Brave trimite la Brave o parte obscurizată a adresei URL printr-un server pentru confidențialitate care îți ascunde adresa IP. Dacă un site are un comportament suspect, sunt trimise și adresele URL complete și fragmente din conținutul paginilor.</translation>
@@ -1717,7 +1712,6 @@ Pentru a modifica această setare, <ph name="BEGIN_LINK"/>șterge datele Brave d
 <translation id="8863714995118816041">Permisiunile au fost acordate din nou pentru <ph name="SITE_NAME"/></translation>
 <translation id="7261356974224431851">Datele Brave din cont</translation>
 <translation id="8888527824584402177">Filele pe care nu le-ai folosit de <ph name="DAYS_INACTIVE"/> zile sunt mutate aici<ph name="AUTODELETE_SECTION"/>. Poți modifica oricând opțiunea din <ph name="SETTINGS_TITLE"/>.</translation>
-<translation id="4325212706000356062">Caută în filele incognito</translation>
 <translation id="1984646864943401749">Trimite la Brave adrese URL ale unor pagini pe care le accesezi, informații despre sistem limitate și o parte din conținutul paginii pentru a identifica amenințările noi și a proteja toți utilizatorii de pe web.</translation>
 <translation id="8909135823018751308">Trimite…</translation>
 <translation id="8921980840204105660">Sincronizează pentru a accesa marcajele de pe celelalte dispozitive</translation>
@@ -1817,7 +1811,6 @@ Pentru a modifica această setare, <ph name="BEGIN_LINK"/>șterge datele Brave d
 <translation id="5722020415664104421">Blocați în timp ce utilizați modul Incognito</translation>
 <translation id="8915136961932734044">În modul incognito, site-urile nu pot folosi modulele cookie pentru a vedea activitatea dvs. de navigare de pe diferite site-uri, de exemplu, pentru a personaliza anunțurile. Este posibil ca anumite site-uri să nu funcționeze corect.</translation>
 <translation id="2213938739750509524">Când atingeți sau introduceți adresa în bara de adresa sau în caseta de căutare, veți vedea sugestiile din motorul dvs. de căutare implicit. Acesta este dezactivat în modul Privat.</translation>
-<translation id="2589970573128789862">Brave Private</translation>
 <translation id="5809126106485463836">Modul Incognito păstrează navigarea dvs. confidențială de alte persoane care utilizează dispozitivul dvs.</translation>
 <translation id="2633278372998075009">Pagini private</translation>
 <translation id="8810805383611013660">Deschideți într-o filă incognito</translation>
@@ -1833,6 +1826,8 @@ Pentru a modifica această setare, <ph name="BEGIN_LINK"/>șterge datele Brave d
 <translation id="3763131702135887799">Îmbunătățiți Brave pentru profilurile care îl utilizează la fel ca dvs.</translation>
 <translation id="4167670741834902166">Filă incognito nouă</translation>
 <translation id="8120164982795455341">Filă incognito nouă</translation>
+<translation id="1988906120194081364">Intră în modul incognito</translation>
+<translation id="4300497327999623298">Ieși din modul incognito</translation>
 <translation id="4968908871398201967">Mod privat</translation>
 <translation id="8448127664493413656">Accesați modul incognito</translation>
 <translation id="6484416399492735324">Ieșiți din modul incognito</translation>
@@ -1851,8 +1846,13 @@ Pentru a modifica această setare, <ph name="BEGIN_LINK"/>șterge datele Brave d
 <translation id="2703361981471284696">{TAB_COUNT, plural,
           =1 {<ph name="INCOGNITO_TAB_COUNT"/> filă incognito și încă <ph name="TAB_COUNT_ONE"/> alte file vor fi închise}
           other {<ph name="INCOGNITO_TAB_COUNT"/> filă încognito și încă <ph name="TAB_COUNT_MANY"/> alte file vor fi închise}}</translation>
+<translation id="4362959348993021460">Atinge lung pentru a intra în modul incognito</translation>
+<translation id="1393515642387718683">Atinge de două ori și ține apăsat pentru a intra în modul incognito</translation>
+<translation id="7096147642287317420">Atinge lung pentru a ieși din modul incognito</translation>
+<translation id="2331163878318921124">Atinge de două ori și ține apăsat pentru a ieși din modul Incognito</translation>
 <translation id="3947065058794437451">Modul incognito nu este disponibil pe acest dispozitiv</translation>
 <translation id="1998933850996224665">Pentru partajarea cu profilurile din apropiere, lăsați-i să scaneze acest cod QR</translation>
 <translation id="3095878721037212218">Veți putea gestiona cu ușurință comenzile media, sesiunile private, descărcările și altele</translation>
 <translation id="5129323533070334129">Salvați parola în afara modului Privat?</translation>
+<translation id="4325212706000356062">Caută în filele incognito</translation>
 </translationbundle>

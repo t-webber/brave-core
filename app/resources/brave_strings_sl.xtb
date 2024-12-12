@@ -219,6 +219,7 @@ Nekatere funkcije morda niso na voljo in spremembe nastavitev ne bodo shranjene.
 <translation id="4050175100176540509">V najnovejši različici so na voljo pomembne varnostne izboljšave in nove funkcije.</translation>
 <translation id="4055805654398742145">Upravitelj g&amp;esel</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{Organizacija samodejno zapre Brave, če ga ne uporabljate 1 minuto. Podatki brskanja so izbrisani. To lahko vključuje zgodovino, samodejno izpolnjevanje in prenose.}one{Organizacija samodejno zapre Brave, če ga ne uporabljate # minuto. Podatki brskanja so izbrisani. To lahko vključuje zgodovino, samodejno izpolnjevanje in prenose.}two{Organizacija samodejno zapre Brave, če ga ne uporabljate # minuti. Podatki brskanja so izbrisani. To lahko vključuje zgodovino, samodejno izpolnjevanje in prenose.}few{Organizacija samodejno zapre Brave, če ga ne uporabljate # minute. Podatki brskanja so izbrisani. To lahko vključuje zgodovino, samodejno izpolnjevanje in prenose.}other{Organizacija samodejno zapre Brave, če ga ne uporabljate # minut. Podatki brskanja so izbrisani. To lahko vključuje zgodovino, samodejno izpolnjevanje in prenose.}}</translation>
+<translation id="2589970573128789862">Anonimni način v Braveu</translation>
 <translation id="5794951150713244901">Odprite stran »O Braveu«</translation>
 <translation id="4148957013307229264">Nameščanje ...</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> – Prijava v omrežje – Brave</translation>
@@ -618,6 +619,5 @@ Za ta račun lahko veljajo dovoljenja, ki ste jih že dali spletnim mestom in ap
 <translation id="2176087127109773485">Upravljate lahko prijavljene verige za sinhronizacijo Brave. Vaše verige za sinhronizacijo Brave se uporabljajo za brskalnik Brave, Trgovino Play, Gmail in drugo. Če želite dodati račun za nekoga drugega, na primer družinskega člana, namesto tega dodajte nov profil v svoj <ph name="DEVICE_TYPE"/>. <ph name="LINK_BEGIN"/>Več o tem<ph name="LINK_END"/></translation>
 <translation id="79269250264141507">Ko v naslovno vrstico ali iskalno polje vtipkate besedilo, Brave vneseno besedilo pošlje vašemu privzetemu iskalniku, da tako dobi boljše predloge. Ta funkcija je v zasebnem načinu izključena.</translation>
 <translation id="3739288578188828252">Ko v naslovno vrstico ali iskalno polje vtipkate besedilo, Brave vneseno besedilo pošlje v Google Drive, da tako dobi boljše predloge. Ta funkcija je v zasebnem načinu izključena.</translation>
-<translation id="2589970573128789862">Brave Private</translation>
 <translation id="5994282802285556682">Ko brskate v zasebnem načinu, vas Brave opozori pred nalaganjem spletnega mesta prek nezanesljive povezave.</translation>
 </translationbundle>

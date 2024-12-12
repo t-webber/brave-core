@@ -84,7 +84,6 @@
 <translation id="1118970888826017401">تمكين الدعم لتجاوز عناوين URL لتتبع إعادة التوجيه ذات المستوى الأعلى.</translation>
 <translation id="94154759592465111">حظر النصوص</translation>
 <translation id="7714773920987474116">حظر JavaScript (قد يتسبب في تعطل بعض المواقع)</translation>
-<translation id="995782501881226248">YouTube</translation>
 <translation id="2233004324252915283">حظر المحتوى المقترح من YouTube</translation>
 <translation id="1005372663692637999">يحظر عناصر البطاقة التالية والنهائية على youtube.com.</translation>
 <translation id="5152595963250646670">حظر عناصر التشويش على YouTube</translation>
@@ -217,7 +216,6 @@
 <translation id="49147335255967913">فتح روابط YouTube في متصفح Brave</translation>
 <translation id="4150201353443180367">عرض</translation>
 <translation id="4275663329226226506">الوسائط</translation>
-<translation id="5950428831347558278">Widevine DRM</translation>
 <translation id="6716942308303275900">استخدم إدارة الحقوق الرقمية (DRM) من Widevine لعرض محتوى الوسائط المحمي في المتصفح.</translation>
 <translation id="255204363133978824">السماح بالمحتوى المحمي</translation>
 <translation id="4736073408974888559"><ph name="BEGIN_LINK"/>لمعرفة المزيد عن Widevine <ph name="END_LINK"/></translation>
@@ -296,8 +294,6 @@
 <translation id="8220228041552340594">أكتوبر/تشرين الأول</translation>
 <translation id="8280223431922155812">نوفمبر/ تشرين الثاني</translation>
 <translation id="4254029385847607686">ديسمبر/كانون الأول</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="1772301834467143364">Brave News</translation>
 <translation id="7732576862074737148">≈<ph name="VALUE"/>دولار أمريكي</translation>
 <translation id="8428213095426709021">الإعدادات</translation>
 <translation id="6020176662032623904">مُنشِئ مُصدَّق عليه</translation>
@@ -313,7 +309,7 @@
 <translation id="4157741509680155021">الأجهزة المرتبطة بسلسلة التزامن</translation>
 <translation id="279635009973773843">جارٍ تحميل الأجهزة...</translation>
 <translation id="6394333525003604181">مغادرة سلسلة المزامنة ...</translation>
-<translation id="2569646144216067185">عدد الكلمات:  <ph name="WORD_COUNT"/></translation>
+<translation id="2569646144216067185">عدد الكلمات: <ph name="WORD_COUNT"/></translation>
 <translation id="7507533586185621084">كود مزامنة خاطئ</translation>
 <translation id="8284063834901328650">كود QR للمزامنة غير صحيح</translation>
 <translation id="859506441384380749">تم إنشاء هذا الرمز بواسطة إصدار لا يتلقى تحديثات من Brave، يرجى ترقية جهازك الآخر أولاً</translation>
@@ -423,14 +419,9 @@
 <translation id="2394961582378297792">تم تسجيل الخروج</translation>
 <translation id="5308380583665731573">اتصال</translation>
 <translation id="3368922792935385530">متصل</translation>
-<translation id="6569877533335686968">Uphold</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
-<translation id="8533411848724153701">Gemini</translation>
-<translation id="6011108706830742093">ZebPay</translation>
 <translation id="1665118090708049096">الانتقال إلى <ph name="WALLET_PROVIDER"/>حسابي</translation>
 <translation id="4858636682078269312">سجّل الدخول إلى حساب <ph name="WALLET_PROVIDER"/> الخاص بك</translation>
 <translation id="8874184842967597500">غير متصل</translation>
-<translation id="2495032782748793764">Brave Default</translation>
 <translation id="9132378787893584761">شارك Brave مع أصدقائك!</translation>
 <translation id="717952606991220586">عذرًا، حدث خطأ ما. الرجاء المحاولة مرة أخرى لاحقًا.</translation>
 <translation id="987264212798334818">عام</translation>
@@ -440,7 +431,7 @@
 <translation id="4406937629441301400">اكسب رموزاً مقابل عرض هذه الصورة وردّ الصنيع إلى منشئي المحتوى. <ph name="LEARN_MORE"/></translation>
 <translation id="6632345639591919543">أنت تكسب رموزاً مقابل عرض هذه الصورة.\n<ph name="LEARN_MORE"/></translation>
 <translation id="8164992819127316581"><ph name="CURRENT_MONTH"/> ستبدأ معالجة دفع المكافآت بحلول<ph name="PAYOUT_DATE"/>.</translation>
-<translation id="33967210973550414">صرف المكافآت قيد التقدم. <ph name="CURRENT_MONTH"/>  <ph name="CHECK_STATUS"/></translation>
+<translation id="33967210973550414">صرف المكافآت قيد التقدم. <ph name="CURRENT_MONTH"/> <ph name="CHECK_STATUS"/></translation>
 <translation id="1622952853310946314">الدفع ل <ph name="CURRENT_MONTH"/> اكتملت المكافآت. <ph name="SUPPORT"/></translation>
 <translation id="7717357606512850995">تحقق من الحالة</translation>
 <translation id="3624048886326677117">حجب المتتبعات &amp; والإعلانات (شديد)</translation>
@@ -514,7 +505,6 @@
 <translation id="6814582232712814369">الوقت الذي تم توفيره</translation>
 <translation id="3694122362646626770">المواقع الإلكترونية</translation>
 <translation id="2225863440766607138">أدوات تتبع</translation>
-<translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
 <translation id="6737820963776538947">لقد قمت بحظر <ph name="COUNT"/> أدوات تتبع &amp; وإعلانات مع متصفح Brave في الساعات الثلاث الماضية.</translation>
 <translation id="5005713153542196658">تصفح بسرعة تصل إلى 6 أضعاف على المواقع الإخبارية الرئيسية في Brave عن طريق حجب أدوات التتبع &amp; والإعلانات.</translation>
 <translation id="7427567994475794038">قم بتشغيل تقارير الخصوصية لمعرفة عدد أدوات التتبع &amp; والإعلانات التي قد تم حظرها في الساعات الثلاث الماضية.</translation>
@@ -557,7 +547,7 @@
 <translation id="3286390186030710347">الشريط المنزلق</translation>
 <translation id="3115702351969988294">كم مرة تريد مشاهدة الإعلانات؟</translation>
 <translation id="2353222426385080466">كلما زادت الإعلانات الخاصة، زادت المكافآت.</translation>
-<translation id="1201128255476890443"><ph name="ADS_PER_HOUR"/>  إعلانات في الساعة</translation>
+<translation id="1201128255476890443"><ph name="ADS_PER_HOUR"/> إعلانات في الساعة</translation>
 <translation id="827315274423079662">مرحى، أنت جاهز تماماً!</translation>
 <translation id="3895246934788932488">باستخدام Brave Rewards، فأنت تحمي خصوصيتك وتساعد في جعل الويب مكاناً أفضل للجميع. وهذا الـ’s رائعاً!</translation>
 <translation id="5705882733397021510">العودة</translation>
@@ -613,7 +603,6 @@
 <translation id="1577948178257477049"><ph name="ACCOUNT_NAME"/> حساب<ph name="ACCOUNT_NUMBER"/></translation>
 <translation id="7665369617277396874">إضافة حساب</translation>
 <translation id="3448492834076427715">تحديث الحساب</translation>
-<translation id="5532363218245261099">#<ph name="NUMBER"/> <ph name="RECOVERY_PHRASE"/></translation>
 <translation id="1537175937716697987">عرض عبارة الاسترداد الخاصة بي</translation>
 <translation id="5303015959766064022">سأعد نسخة احتياطية لاحقًا</translation>
 <translation id="7345730059518887993">لنتحقق</translation>
@@ -683,7 +672,6 @@
 <translation id="1721710839767183848">بدون إعلانات على الصفحة</translation>
 <translation id="4647035642622555398">بدون انقطاعات</translation>
 <translation id="4122515759479497554">البحث عن مقطع الفيديو</translation>
-<translation id="4449475351935531438">Brave Firewall + VPN</translation>
 <translation id="719977489961414786">قم بالترقية إلى VPN لحماية اتصالك وحظر أجهزة التتبع الغازية في كل مكان.</translation>
 <translation id="8814357473522731680">مشغل بواسطة</translation>
 <translation id="5892534145504632332">حماية كل التطبيقات &amp; وجهازك بالكامل</translation>
@@ -737,20 +725,11 @@
 <translation id="5499653136178260315">نوع الاشتراك</translation>
 <translation id="4741058112780154119">نسخة من التطبيق</translation>
 <translation id="7286066816862208787">إيصال التطبيق</translation>
-<translation id="2552966063069741410">Timezone</translation>
 <translation id="4395361077929528480">نوع الشبكة</translation>
 <translation id="755448900483975096">الناقل الخلوي</translation>
 <translation id="1279441577056010362">المتابعة إلى البريد الإلكتروني</translation>
 <translation id="7125582363614011660">الدعم المُقدم بمساعدة فريق Guardian.\n\nيُرجى تحديد المعلومات التي تشعر بارتياح عند مشاركتها معنا.\n\nوكلما زادت المعلومات التي تشاركها معنا في البداية، سيسهل على فريق الدعم لدينا مساعدتك في حل مشكلتك.</translation>
 <translation id="8813171284214934811">التحديد التلقائي لمنطقة خادم VPN الأقرب إليك بناءً على منطقتك الزمنية. يوصى بهذا الخيار لزيادة سرعة الإنترنت إلى أقصى حد.</translation>
-<translation id="4636153103822002055">{CITY_COUNT, plural,
-          =1 {<ph name="CITY_COUNT_ONE"/> city - }
-          other {<ph name="CITY_COUNT_MANY"/> cities - }
-        }</translation>
-<translation id="2509734936997119836">{SERVER_COUNT, plural,
-          =1 {<ph name="SERVER_COUNT_ONE"/> server}
-          other {<ph name="SERVER_COUNT_MANY"/> servers}
-        }</translation>
 <translation id="3199127022143353223">الخوادم</translation>
 <translation id="5431902940483264007">أمثل</translation>
 <translation id="6527596624419285047">استخدام أفضل خادم متاح</translation>
@@ -834,6 +813,7 @@
 <translation id="4351811224047421378">دقة الكسور العشرية</translation>
 <translation id="3494964159182650590">ملخص المكافآت</translation>
 <translation id="590733288489975971">مكافآت من الإعلانات</translation>
+<translation id="1450735350187803276">الإعلانات التي تمت مشاهدتها هذا الشهر</translation>
 <translation id="1767561995429774671">مساهمة</translation>
 <translation id="7335371657242627509">تضمين في المساهمة التلقائية</translation>
 <translation id="6727102863431372879">تعيين</translation>
@@ -1093,7 +1073,6 @@
 <translation id="1250335737108905610">إعادة تعيين بيانات Leo وحذفها</translation>
 <translation id="6165101586663336913">ستتطلب إعادة تعيين مساعد Leo الاشتراك في استخدام Leo في المستقبل وستؤدي أيضًا إلى حذف سجل الدردشة الخاص بك. سيؤدي حذف سجل الدردشة إلى حذف جميع محادثاتك السابقة مع Leo. لا يمكن التراجع عن هذا الإجراء.</translation>
 <translation id="3692772534525889713">اربط مشترياتك من Play Store بحسابك في Brave لاستخدام Brave Leo على الأجهزة الأخرى.</translation>
-<translation id="73236265316873967">Leo Premium</translation>
 <translation id="1028627582482425924">سنة واحدة</translation>
 <translation id="2985392169397572983">أفضل قيمة</translation>
 <translation id="1166682575529520472">شهريًا</translation>

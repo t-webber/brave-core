@@ -5710,6 +5710,7 @@ Gamitin ang Ctrl + Alt + Bawasan ang Liwanag para mag-zoom out.</translation>
 <translation id="5097002363526479830">Nabigong kumonekta sa network na '<ph name="NAME"/>': <ph name="DETAILS"/></translation>
 <translation id="5097306410549350357">Matuto pa tungkol sa paggamit ng lokasyon</translation>
 <translation id="5097349930204431044">Puwedeng tukuyin ng mga site na binibisita mo kung ano ang gusto mo at pagkatapos ay magmumungkahi ito ng mga ad habang patuloy kang nagba-browse</translation>
+<translation id="5097649414558628673">Tool: <ph name="PRINT_NAME"/></translation>
 <translation id="5097874180538493929">Awtomatikong mag-click kapag huminto ang cursor</translation>
 <translation id="5098954716528935136">Sabihin sa amin kung bakit mo pa rin ida-download ang file na ito</translation>
 <translation id="5098963855433723436">Bubukas sa hiwalay na application</translation>
@@ -8943,6 +8944,7 @@ May # ka pang nakompromisong password. Inirerekomenda ng Brave Password Manager 
 <translation id="7487969577036436319">Walang naka-install na mga bahagi</translation>
 <translation id="7488682689406685343">Posibleng sinusubukan kang linlangin ng site na ito para payagan ang mga nakakasagabal na notification.</translation>
 <translation id="7489761397368794366">Tumawag mula sa iyong device</translation>
+<translation id="4536111748245793305">Tao <ph name="VALUE"/></translation>
 <translation id="7490683549040131791">Suriin ang Mga Natitirang Password</translation>
 <translation id="7491962110804786152">tab</translation>
 <translation id="7491963308094506985">{NUM_COOKIES,plural, =1{1 cookie}one{{NUM_COOKIES} cookies}other{{NUM_COOKIES} na cookies}}</translation>
@@ -10790,6 +10792,7 @@ Inaatasan ka ng <ph name="DOMAIN"/> na panatilihing nakalagay ang iyong smart ca
 <translation id="8805255531353778052">Malalaking Natipid</translation>
 <translation id="8807588541160250261">Kapag walang nakakonektang device</translation>
 <translation id="8807632654848257479">Matatag</translation>
+<translation id="8808478386290700967">Web Store</translation>
 <translation id="8808686172382650546">Pusa</translation>
 <translation id="8809147117840417135">Light teal</translation>
 <translation id="8811862054141704416">Access sa mikropono ng Crostini</translation>
@@ -11496,8 +11499,6 @@ Posibleng malapat sa account na ito ang mga pahintulot na naibigay mo na sa mga 
 <translation id="6666022817001893507">Na-cache na Subframe ng Pribadong Pagbalik/Pagsulong: <ph name="BACK_FORWARD_CACHE_INCOGNITO_PAGE_URL"/></translation>
 <translation id="3193187622878830588">Pribadong Portal: <ph name="SUBFRAME_SITE"/></translation>
 <translation id="1389212885096774902">Pribadong Fenced Frame: <ph name="FENCEDFRAME_SITE"/></translation>
-<translation id="5097649414558628673">Tool: <ph name="PRINT_NAME"/></translation>
-<translation id="8808478386290700967">Web Store</translation>
 <translation id="8261378640211443080">Hindi nakalista ang extension na ito sa <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> at maaaring naidagdag nang hindi mo nalalaman.</translation>
 <translation id="3591188117102923109">I-customize pa ang browser mo gamit ang mga extension mula sa <ph name="BEGIN_LINK1"/>Web Store<ph name="END_LINK1"/></translation>
 <translation id="7226591269860979104">Makikita mo ang mga mas lumang kulay sa Web Store</translation>
@@ -11556,7 +11557,6 @@ Posibleng malapat sa account na ito ang mga pahintulot na naibigay mo na sa mga 
     }</translation>
 <translation id="4304377874648098617">Isa itong Pribadong window</translation>
 <translation id="7171000599584840888">Magdagdag ng Profile...</translation>
-<translation id="4536111748245793305">Profile <ph name="VALUE"/></translation>
 <translation id="5828545842856466741">Magdagdag ng Profile...</translation>
 <translation id="2254158488150713536">Upang magpatuloy, i-click ang OK, tapos i-click ang Magdagdag ng Profile upang gumawa ng bagong profile para sa iyong email address.</translation>
 <translation id="1725743343613175327">Para magpatuloy, i-click ang OK, pagkatapos ay i-click ang Magdagdag ng Profile upang gumawa ng bagong profile para sa iyong <ph name="DOMAIN"/> email address.</translation>

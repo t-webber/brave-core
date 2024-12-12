@@ -6852,6 +6852,7 @@ Na tym koncie mogą obowiązywać uprawnienia przyznane stronom i aplikacjom. K
 <translation id="5972826969634861500">Uruchom <ph name="PRODUCT_NAME"/></translation>
 <translation id="5973041996755340290">Klient „<ph name="CLIENT_NAME"/>” rozpoczął debugowanie tej przeglądarki</translation>
 <translation id="5973605538625120605">Zmienianie kodu PIN</translation>
+<translation id="433830930456392967">{COUNT,plural, =0{Otwórz wszystkie w oknie &amp;incognito}=1{Otwórz w oknie &amp;incognito}few{Otwórz wszystkie ({COUNT}) w oknie &amp;incognito}many{Otwórz wszystkie ({COUNT}) w oknie &amp;incognito}other{Otwórz wszystkie ({COUNT}) w oknie &amp;incognito}}</translation>
 <translation id="5975792506968920132">Procent naładowania akumulatora</translation>
 <translation id="5976160379964388480">Pozostałe</translation>
 <translation id="5976780232488408272">Uzyskaj pomoc w pisaniu</translation>
@@ -8325,6 +8326,7 @@ Masz jeszcze # przejętego hasła. Menedżer haseł Brave zaleca, aby jak najsz
 <translation id="7053983685419859001">Blokuj</translation>
 <translation id="7055152154916055070">Zablokowano przekierowanie:</translation>
 <translation id="7055451306017383754">Nie udało się cofnąć udostępniania, ponieważ tego folderu używa aplikacja. Folder przestanie być udostępniany po zamknięciu Parallels Desktop.</translation>
+<translation id="1860933807472918250">{0,plural, =1{Incognito}few{# otwarte okna incognito}many{# otwartych okien incognito}other{# otwartego okna incognito}}</translation>
 <translation id="7056526158851679338">&amp;Sprawdź urządzenia</translation>
 <translation id="7057184853669165321">{NUM_MINS,plural, =1{Kontrola zabezpieczeń została wykonana 1 minutę temu}few{Kontrola zabezpieczeń została wykonana {NUM_MINS} minuty temu}many{Kontrola zabezpieczeń została wykonana {NUM_MINS} minut temu}other{Kontrola zabezpieczeń została wykonana {NUM_MINS} minuty temu}}</translation>
 <translation id="70577934383983846">Używaj tego hasła na wszystkich swoich urządzeniach</translation>
@@ -10750,6 +10752,7 @@ Domena <ph name="DOMAIN"/> wymaga, by karta inteligentna pozostała w gnieździ
 <translation id="8805255531353778052">Bardzo duża oszczędność</translation>
 <translation id="8807588541160250261">Gdy nie jest połączone żadne urządzenie</translation>
 <translation id="8807632654848257479">Stabilny</translation>
+<translation id="8808478386290700967">Brave Web Store</translation>
 <translation id="8808686172382650546">Kot</translation>
 <translation id="8809147117840417135">Jasny morski</translation>
 <translation id="8811862054141704416">Dostęp do mikrofonu dla Crostini</translation>
@@ -11453,7 +11456,6 @@ Na tym koncie mogą obowiązywać uprawnienia przyznane stronom i aplikacjom. K
 <translation id="3193187622878830588">Portal prywatny: <ph name="SUBFRAME_SITE"/></translation>
 <translation id="1389212885096774902">Zabezpieczenie w postaci rozdzielności ramek: <ph name="FENCEDFRAME_SITE"/></translation>
 <translation id="5097649414558628673">Narzędzie: <ph name="PRINT_NAME"/></translation>
-<translation id="8808478386290700967">Web Store</translation>
 <translation id="8261378640211443080">To rozszerzenie nie jest oferowane w <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> i mogło zostać dodane bez Twojej wiedzy.</translation>
 <translation id="3591188117102923109">Dostosuj swoją przeglądarkę dzięki rozszerzeniom ze sklepu <ph name="BEGIN_LINK1"/>Web Store<ph name="END_LINK1"/></translation>
 <translation id="7226591269860979104">W sklepie internetowym można odnaleźć starsze kolory</translation>
@@ -11485,10 +11487,6 @@ Na tym koncie mogą obowiązywać uprawnienia przyznane stronom i aplikacjom. K
 <translation id="3610571162330520499">Dotyczy to tylko okien prywatnych</translation>
 <translation id="1961291599064731706">Odwiedzane strony nie są zapisywane w trybie prywatnym</translation>
 <translation id="8904732128631177813">Aby usunąć historię przeglądania w trybie prywatnym, zamknij wszystkie prywatne karty</translation>
-<translation id="433830930456392967">{COUNT, plural,
-          =0 {Open all in &amp;Private window}
-          =1 {Open in &amp;Private window}
-          other {Open all ({COUNT}) in &amp;Private window}}</translation>
 <translation id="5464506165779993685">Otwórz w &amp; oknie prywatnym</translation>
 <translation id="4620367155626060530">&amp;Pokaż pasek zakładek</translation>
 <translation id="3922078020116835067">&amp;Ukryj pasek zakładek</translation>
@@ -11502,10 +11500,6 @@ Na tym koncie mogą obowiązywać uprawnienia przyznane stronom i aplikacjom. K
 <translation id="7206817092936005164">Otwórz wszystko w oknie w trybie prywatnym</translation>
 <translation id="1342491857153455138">Otwórz wszystkie (<ph name="URL_COUNT"/>) w prywatnym oknie</translation>
 <translation id="5556722972306334687">Otwórz okno w trybie prywatnym</translation>
-<translation id="1860933807472918250">{0, plural,
-        =1 {Private}
-        other {# open Private windows}
-      }</translation>
 <translation id="8712375231869053533">{0, plural,
       =1 {Prywatne}
       other {Prywatne (#)}

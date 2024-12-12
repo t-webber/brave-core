@@ -84,7 +84,6 @@
 <translation id="1118970888826017401">เปิดใช้การรองรับในการเลี่ยงเปลี่ยนเส้นทาง URL ติดตามระดับสูง</translation>
 <translation id="94154759592465111">สคริปต์บล็อก</translation>
 <translation id="7714773920987474116">บล็อก JavaScript (อาจทำเว็บเสียหาย)</translation>
-<translation id="995782501881226248">YouTube</translation>
 <translation id="2233004324252915283">บล็อกเนื้อหาที่แนะนำของ YouTube</translation>
 <translation id="1005372663692637999">บล็อกองค์ประกอบการ์ดถัดไปและการ์ดสิ้นสุดบน youtube.com</translation>
 <translation id="5152595963250646670">บล็อกองค์ประกอบรบกวนของ YouTube</translation>
@@ -115,7 +114,6 @@
 <translation id="9148058034647219655">ออก</translation>
 <translation id="8047754398610073499">บล็อกการแจ้งเตือนความยินยอมในการจัดเก็บคุกกี้</translation>
 <translation id="2621893359845808115">บล็อกป๊อปอัปของเว็บไซต์ที่ขอให้คุณยอมรับหรือปฏิเสธคุกกี้บนเว็บไซต์</translation>
-<translation id="7534079972563542000">Unstoppable Domains</translation>
 <translation id="6486983549008741930">การกรองเนื้อหา</translation>
 <translation id="2398817776566547893">เปิดใช้งานตัวกรองแบบกำหนดเองที่บล็อกตัวติดตามและสิ่งรบกวนที่เจาะจงภูมิภาคและภาษา</translation>
 <translation id="8578397014396032341">ตัวกรองเนื้อหา</translation>
@@ -137,8 +135,6 @@
 <translation id="5132969826889386652">บันทึกความเปลี่ยนแปลงสำเร็จแล้ว</translation>
 <translation id="4335929145384293789">เพิ่มตัวกรองแบบกำหนดเองที่คุณสร้าง บรรทัดละหนึ่งรายการ ในช่องด้านบน และตรวจสอบให้มั่นใจว่าได้ใช้ <ph name="ADBLOCK_FILTER_SYNTAX"/></translation>
 <translation id="5023212862780303376">รูปแบบ syntax สำหรับตัวกรอง Adblock</translation>
-<translation id="6513892817556267573">Ethereum Name Service</translation>
-<translation id="531747189990625622">Solana Name Service</translation>
 <translation id="3894650624018948468">วิธีแก้ไข</translation>
 <translation id="8410806609595910352">การค้นหานอกเครือข่ายบล็อกเชนของ ENS</translation>
 <translation id="2356070529366658676">ถาม</translation>
@@ -216,7 +212,6 @@
 <translation id="49147335255967913">เปิดลิงก์ YouTube ใน Brave</translation>
 <translation id="4150201353443180367">การแสดงผล</translation>
 <translation id="4275663329226226506">สื่อ</translation>
-<translation id="5950428831347558278">Widevine DRM</translation>
 <translation id="6716942308303275900">ใช้การจัดการสิทธิ์ทางดิจิทัล Widevine (DRM) เพื่อดูเนื้อหาสื่อที่มีการป้องกันในเบราว์เซอร์</translation>
 <translation id="255204363133978824">อนุญาตเนื้อหาที่มีการป้องกัน</translation>
 <translation id="4736073408974888559"><ph name="BEGIN_LINK"/>เรียนรู้เพิ่มเติมเกี่ยวกับ Widevine<ph name="END_LINK"/></translation>
@@ -250,9 +245,7 @@
 <translation id="986879628471635371">การแก้ไขปัญหาการเตรียมความพร้อม</translation>
 <translation id="5808759341041733958">เลื่อกเอนจิ้นค้นหาเริ่มต้น</translation>
 <translation id="1331593888918588693">คุณสามารถเปลี่ยนการตั้งค่าในภายหลังได้เสมอในการตั้งค่าแอป</translation>
-<translation id="5806601733251372221">Brave Shields</translation>
 <translation id="8537217141725709400">รับ <ph name="TOKEN"/></translation>
-<translation id="3333887201479867589">Brave Rewards</translation>
 <translation id="5870330605209713397">ด้วยการดูโฆษณาที่เคารพความเป็นส่วนตัวและสนับสนุนเว็บและครีเอเตอร์คนโปรดของคุณ</translation>
 <translation id="5302488867897327287">เมื่อแตะเริ่มต้นใช้ Brave Reward จะถือว่าคุณยอมรับใน</translation>
 <translation id="4281844954008187215">ข้อตกลงการใช้บริการ</translation>
@@ -270,7 +263,6 @@
 <translation id="19715420010996093">เลือกเบราว์เซอร์ Brave แล้วแตะ 'เสมอ'</translation>
 <translation id="3546439402724649282">Brave ถูกตั้งเป็นเบราว์เซอร์เริ่มต้นของคุณอยู่แล้ว</translation>
 <translation id="8389661903259423907">คุณตั้งเบราว์เซอร์เริ่มต้นไปแล้ว คุณสามารถเปลี่ยนเบราว์เซอร์เริ่มต้นได้ในการตั้งค่าแอป</translation>
-<translation id="1545749641540134597">Scan QR Code</translation>
 <translation id="5317781812114905957">คำแนะนำ</translation>
 <translation id="8515319483805157233">หากต้องการค้นหาด้วย QR Code ให้นำ QR Code มาไว้ตรงกลางกรอบ</translation>
 <translation id="2734870894159530879">ลงชื่อเข้าใช้ <ph name="WALLET_PROVIDER"/> เพื่อดูยอดคงเหลือของคุณ</translation>
@@ -295,9 +287,7 @@
 <translation id="8220228041552340594">ตุลาคม</translation>
 <translation id="8280223431922155812">พฤศจิกายน</translation>
 <translation id="4254029385847607686">ธันวาคม</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
 <translation id="1772301834467143364">ข่าว Brave</translation>
-<translation id="7732576862074737148">≈ <ph name="VALUE"/> USD</translation>
 <translation id="8428213095426709021">การตั้งค่า</translation>
 <translation id="6020176662032623904">ผู้สร้างยืนยันตัวตนแล้ว</translation>
 <translation id="2369994359029526515">ผู้สร้างยังไม่ยืนยันตัวตน</translation>
@@ -318,7 +308,6 @@
 <translation id="859506441384380749">รหัสนี้สร้างโดย Brave เวอร์ชันที่เลิกใช้แล้ว กรุณาอัปเกรดอุปกรณ์อื่นของคุณก่อน</translation>
 <translation id="3132642509209154999">รหัสนี้หมดอายุแล้ว กรุณาสร้างรหัสใหม่บนอุปกรณ์อื่นของคุณแล้วลองอีกครั้ง</translation>
 <translation id="2859229680945501779">รหัสนี้ไม่ถูกต้อง กรุณาตรวจสอบให้มั่นใจว่าคุณได้ตั้งค่าเวลาและเขตเวลาบนอุปกรณ์ของคุณถูกต้อง</translation>
-<translation id="3149880132460839085">Brave Sync</translation>
 <translation id="348794064910142198">Brave Sync ช่วยให้คุณสามารถซิงค์ข้อมูลบุ๊กมาร์กระหว่าง Brave Browsers บนอุปกรณ์ต่างๆ ของคุณได้อย่างเป็นส่วนตัว \n\nเพียงสแกนโค้ดจากเชนการซิงค์ที่คุณสร้างบนอุปกรณ์อื่น หรือเริ่มเชนการซิงค์ใหม่</translation>
 <translation id="2614069607859982576">ใช้อุปกรณ์ที่ซิงค์แล้วที่มีอยู่ เปิดการตั้งค่า Brave แล้วไปที่ การตั้งค่า&gt; ซิงค์ เลือก "เพิ่มอุปกรณ์ใหม่" แล้วสแกนรหัส QR ที่แสดงอยู่บนหน้าจอ</translation>
 <translation id="5241263629636958324">คัดลอกไปที่คลิบบอร์ดแล้ว</translation>
@@ -427,13 +416,9 @@
 <translation id="5308380583665731573">เชื่อมต่อ</translation>
 <translation id="3368922792935385530">เชื่อมต่อแล้ว</translation>
 <translation id="6569877533335686968">ส่งเสริม</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
-<translation id="8533411848724153701">Gemini</translation>
-<translation id="6011108706830742093">ZebPay</translation>
 <translation id="1665118090708049096">ไปที่บัญชี <ph name="WALLET_PROVIDER"/> ของฉัน</translation>
 <translation id="4858636682078269312">ล็อกอินเข้าสู่บัญชี <ph name="WALLET_PROVIDER"/> ของคุณ</translation>
 <translation id="8874184842967597500">ไม่ได้เชื่อมต่อ</translation>
-<translation id="2495032782748793764">Brave Default</translation>
 <translation id="9132378787893584761">แชร์ Brave กับเพื่อนของคุณ!</translation>
 <translation id="717952606991220586">อุ๊ย มีบางอย่างผิดปกติ โปรดลองใหม่ภายหลัง</translation>
 <translation id="987264212798334818">ทั่วไป</translation>
@@ -517,7 +502,6 @@
 <translation id="6814582232712814369">ประหยัดเวลา</translation>
 <translation id="3694122362646626770">เว็บไซต์</translation>
 <translation id="2225863440766607138">แอปติดตาม</translation>
-<translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
 <translation id="6737820963776538947">คุณได้บล็อก <ph name="COUNT"/> แอปติดตามและโฆษณาด้วยเบราว์เซอร์ Brave ในช่วง 3 ชั่วโมงที่ผ่านมา</translation>
 <translation id="5005713153542196658">ค้นหาเว็บสำนักข่าวใหญ่ ๆ เร็วขึ้น 6 เท่า ใน Brave โดยการบล็อกตัวติดตาม &amp; และโฆษณา</translation>
 <translation id="7427567994475794038">เปิดรายงานความเป็นส่วนตัวเพื่อดูว่ามีแอปติดตามและโฆษณาถูกบล็อกไปกี่แอปในช่วง 3 เดือนที่ผ่านมา</translation>
@@ -586,7 +570,6 @@
 <translation id="4954512758656527938">วอลเล็ต Ethereum เริ่มต้น</translation>
 <translation id="7701023802820268122">วอลเล็ต Solana เริ่มต้น</translation>
 <translation id="7701040980221191251">ไม่มี</translation>
-<translation id="8488282162676695335">Brave Wallet</translation>
 <translation id="8792121506918889955">นโยบายการจัดการ WebRTC IP</translation>
 <translation id="8798099450830957504">ค่าเริ่มต้น</translation>
 <translation id="1822560017823072927">อินเตอร์เฟซสาธารณะและส่วนตัวเริ่มต้น</translation>
@@ -631,7 +614,6 @@
 <translation id="3961126209136843111">นำเข้าวอลเล็ทที่มีอยู่</translation>
 <translation id="4811736040444856406">แสดงวลีกูคืน</translation>
 <translation id="4359319875297001084">นำเข้าจากคริปโตวอลเล็ตของ Brave ที่มีอยู่เดิมหรือไม่</translation>
-<translation id="3157931365184549694">Restore</translation>
 <translation id="5844138175312846408">มีวอลเล็ทอยู่แล้วหรือไม่</translation>
 <translation id="2502258949541727762">ก่อนที่เราจะเริ่ม</translation>
 <translation id="4303748097351941030">เครือข่ายที่รองรับ</translation>
@@ -686,7 +668,6 @@
 <translation id="1721710839767183848">ไม่มีโฆษณาบนหน้า</translation>
 <translation id="4647035642622555398">ปราศจากการรบกวน</translation>
 <translation id="4122515759479497554">ค้นหาวิดีโอ</translation>
-<translation id="4449475351935531438">Brave Firewall + VPN</translation>
 <translation id="719977489961414786">อัปเกรดเป็น VPN เพื่อปกป้องการเชื่อมต่อของคุณและบล็อกตัวติดตามที่เข้าแทรกแซงได้ทุกที่</translation>
 <translation id="8814357473522731680">สนับสนุนโดย</translation>
 <translation id="5892534145504632332">คุ้มครองทุกแอป &amp; และทุกอุปกรณ์ของคุณ</translation>
@@ -783,7 +764,6 @@
 <translation id="2186011161688824046">จำนวน + ค่าธรรมเนียม</translation>
 <translation id="1950052789869821983">ธุรกรรม</translation>
 <translation id="2304783958703511257">การตั้งค่าขั้นสูง</translation>
-<translation id="4220062530885628403">Nonce</translation>
 <translation id="1924965034964265193">ป้อนค่า Nonce ที่กำหนดเอง</translation>
 <translation id="5317780077021120954">บันทึก</translation>
 <translation id="4979796155378508955">ไม่สามารถเผยแพร่ธุรกรรมในเครือข่ายได้หากค่า Nonce ที่กำหนดเองไม่ต่อเนื่องหรือมีข้อผิดพลาดอื่นๆ</translation>
@@ -805,11 +785,7 @@
 <translation id="2911329628253651823"><ph name="ACCOUNT_NAME"/> ได้อนุมัติ <ph name="ASSET"/> - <ph name="DATE"/></translation>
 <translation id="7400134344541309180">อนุมัติ <ph name="ASSET"/> ไม่จำกัดแล้ว - <ph name="PROXY"/></translation>
 <translation id="2428770727194227378"><ph name="ACCOUNT_NAME"/> แลกเปลี่ยน - <ph name="DATE"/></translation>
-<translation id="2833661570529295305">Unapproved</translation>
-<translation id="8034530868111548216">Approved</translation>
 <translation id="6015436276085482001">ถูกปฏิเสธ</translation>
-<translation id="6666273175654835609">Submitted</translation>
-<translation id="2331676293859649642">Confirmed</translation>
 <translation id="8214232307424031138">ลงชื่อแล้ว</translation>
 <translation id="1165039591588034296">ข้อผิดพลาด</translation>
 <translation id="2561824823738097741">คุณกำลังใช้งานเว็บเบราว์เซอร์ที่เร็วที่สุดอยู่หรือเปล่า</translation>
@@ -837,12 +813,12 @@
 <translation id="4351811224047421378">ความเที่ยงตรงของทศนิยม</translation>
 <translation id="3494964159182650590">รางวัลทั้งหมด</translation>
 <translation id="590733288489975971">Rewards จาก Ads</translation>
+<translation id="1450735350187803276">โฆษณาที่เห็นในเดือนนี้</translation>
 <translation id="1767561995429774671">สนับสนุน</translation>
 <translation id="7335371657242627509">รวมไว้ในการบริจาคแบบอัตโนมัติ</translation>
 <translation id="6727102863431372879">ตั้งค่า</translation>
 <translation id="3074127054582480056">โปรดระวัง</translation>
 <translation id="2280319752798785157">การสนับสนุนรายเดือน</translation>
-<translation id="3079421456571897484"><ph name="VALUE"/> BAT</translation>
 <translation id="1241283133946520352">เครือข่าย</translation>
 <translation id="1062463687579789365">การปรับแต่งเครือข่ายกระเป๋าเงิน</translation>
 <translation id="2512821599885971349">เพิ่มเครือข่าย</translation>
@@ -874,7 +850,6 @@
 <translation id="2391762656119864333">เพิกถอน</translation>
 <translation id="3432029672560911238">บัญชีผู้ใช้</translation>
 <translation id="5753378322046059140">สลับบัญชี</translation>
-<translation id="3897092660631435901">Menu</translation>
 <translation id="42981349822642051">ขยาย</translation>
 <translation id="3586752056660754651">เซ็นชื่อ</translation>
 <translation id="3950820424414687140">ลงชื่อเข้าใช้</translation>
@@ -911,7 +886,6 @@
 <translation id="3340247553212049934">ระบุ</translation>
 <translation id="1982257600591932657">ชื่อเครือข่าย</translation>
 <translation id="5052727830821470769">URL เครือข่าย</translation>
-<translation id="4822132585477111396">Chain ID</translation>
 <translation id="7131971375297699539">สัญลักษณ์สกุลเงิน</translation>
 <translation id="7982789257301363584">เครือข่าย</translation>
 <translation id="6936860995365507185">การดำเนินการนี้จะทำให้สามารถใช้เครือข่ายนี้ได้ภายใน Brave วอลเล็ต <ph name="CLICK_START"/>เรียนรู้เพิ่มเติม<ph name="CLICK_END"/></translation>
@@ -979,7 +953,6 @@
 <translation id="3723411967118253067">ID โปรแกรม</translation>
 <translation id="4771176409524282426">สร้างบัญชี</translation>
 <translation id="1755120947324658439">โอนสิทธิ์</translation>
-<translation id="7588707273764747927">Transfer</translation>
 <translation id="5328067049293286962">สร้างบัญชีด้วย Seed</translation>
 <translation id="1512366326138054636">เพิ่มบัญชี Nonce</translation>
 <translation id="7042202638449257311">ถอนบัญชี Nonce</translation>
@@ -1031,10 +1004,8 @@
 <translation id="5802752138057422257">พบอักขระที่ไม่ใช่ ASCII!</translation>
 <translation id="442709594176931966">ดูข้อความดั้งเดิม</translation>
 <translation id="2239252396088484499">ดูข้อความแบบเข้ารหัส ASCII</translation>
-<translation id="4530494379350999373">Origin</translation>
 <translation id="6736243959894955139">แอดเดรส</translation>
 <translation id="3095940652251934233">รายการชําระ</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">รุ่น</translation>
 <translation id="1313065465616456728">ออกเมื่อ</translation>
 <translation id="7902225556763260253">เวลาหมดอายุ</translation>
@@ -1096,7 +1067,6 @@
 <translation id="1250335737108905610">รีเซ็ตและล้างข้อมูลของ Leo</translation>
 <translation id="6165101586663336913">การรีเซ็ตผู้ช่วย Leo จะทำให้คุณต้องเลือกใช้งาน Leo และจะเป็นการล้างประวัติการแชทของคุณอีกด้วย การล้างประวัติการแชทของคุณจะลบบทสนทนากับ Leo ทั้งหมดก่อนหน้านี้ การกระทำนี้ไม่สามารถถูกยกเลิกได้</translation>
 <translation id="3692772534525889713">ลิงก์การซื้อใน Play Store กับบัญชี Brave เพื่อใช้ Brave Leo บนอุปกรณ์อื่นๆ</translation>
-<translation id="73236265316873967">Leo Premium</translation>
 <translation id="1028627582482425924">หนึ่งปี</translation>
 <translation id="2985392169397572983">คุ้มค่าที่สุด</translation>
 <translation id="1166682575529520472">รายเดือน</translation>

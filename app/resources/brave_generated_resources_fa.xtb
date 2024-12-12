@@ -16,7 +16,6 @@
 <translation id="8294286161128352783">فقط در صفحه زبانه جدید</translation>
 <translation id="6406506848690869874">همگام‌سازی</translation>
 <translation id="1544192797660353713">کیف پول</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8275068909952022340">بیشتر…</translation>
 <translation id="1990886731975529483">Google Widevine را نصب و اجرا کنید</translation>
 <translation id="8926389886865778422">دوباره سؤال نشود</translation>
@@ -39,8 +38,6 @@
 <translation id="8612763432858587652">خروج از پنجره خصوصی</translation>
 <translation id="8760415064721320867">پنجره خصوصی با Tor</translation>
 <translation id="2055363275850890030">پنجره خصوصی</translation>
-<translation id="5410152065859052603">Tor</translation>
-<translation id="7897433216002294926">Tor <ph name="COUNT"/></translation>
 <translation id="1970435562892104727">این پنجره‌ای خصوصی با Tor است</translation>
 <translation id="1037341607922068025">باز کردن پنجره خصوصی با Tor</translation>
 <translation id="607982085107926247">باز کردن در Tor: <ph name="ADDRESS"/></translation>
@@ -51,7 +48,6 @@
 <translation id="4450893287417543264">دیگر نشان داده نشود</translation>
 <translation id="4595286989346610620">جزئیات را بررسی کنید</translation>
 <translation id="8324318899000695659">مسدودسازی عناصر</translation>
-<translation id="7398397225367092613">.onion</translation>
 <translation id="2269780537090240241">باز کردن با استفاده از آدرس ‎.onion: <ph name="ADDRESS"/></translation>
 <translation id="4759098689276706664">جای‌گذاری اجباری</translation>
 <translation id="1434416574322382019">Window with Tor خصوصی جدید</translation>
@@ -178,7 +174,6 @@
 <translation id="8731422418734770661">راه‌اندازی Crypto Wallets</translation>
 <translation id="8199661191594897555">راه‌اندازی «کیف پول‌های رمزگذاری‌شده» و بارگیری مجدد</translation>
 <translation id="8428213095426709021">تنظیمات</translation>
-<translation id="193368604235852218">Web3</translation>
 <translation id="4738583579791001083">دامنه‌های Web3</translation>
 <translation id="5046066249040287308">خدمات ابزار کیف پول Brave</translation>
 <translation id="4552520379838695057">متأسفیم، آن صفحه یافت نمی‌شود.</translation>
@@ -208,12 +203,10 @@
 <translation id="5268098808165185458">در حال کپی کردن متن از تصویر...</translation>
 <translation id="4046485130884276245">متن از تصویر کپی شد</translation>
 <translation id="3639779775496569782">کپی کردن متن ناموفق بود</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
 <translation id="2506438154311626334">استفاده از پروتکل WireGuard در Brave VPN</translation>
 <translation id="8519170191215826548">این تنظیم هنگام متصل بودن Brave VPN قابل تغییر نیست.</translation>
 <translation id="4235920711083356755">نمایش دکمه VPN</translation>
 <translation id="4070612712151038707">دکمه VPN را در نوار ابزار نمایش می‌دهد</translation>
-<translation id="7705524343798198388">VPN</translation>
 <translation id="8593397073757037946">تغییر وضعیت VPN</translation>
 <translation id="2345974803401546682">درباره Brave VPN</translation>
 <translation id="4378551569595875038">در حال اتصال...</translation>
@@ -242,7 +235,6 @@
 <translation id="6817415381278637662">Brave را به‌عنوان مرورگر پیش‌فرضتان تنظیم کنید تا در هر صفحه وبی که باز می‌کنید از قابلیت‌های حفاظت حریم خصوصی Brave بهره‌مند شوید.</translation>
 <translation id="7537601449003285327">پین کردن به نوار وظیفه</translation>
 <translation id="2307973900865360088">نگه داشتن در نوار ابزار</translation>
-<translation id="961012016278832836">Microsoft Edge Legacy</translation>
 <translation id="6436994631426134065">درون‌برد از <ph name="BROWSER_NAME"/></translation>
 <translation id="1386966479075994683">تب‌ها را گسترش دهید</translation>
 <translation id="480565261566115689">تب‌ها را به حداقل برسانید</translation>
@@ -476,7 +468,6 @@
 <translation id="8016266267177410919">فضای ذخیره‌سازی موقت</translation>
 <translation id="4175737294868205930">محل ذخیره‌سازی دائمی</translation>
 <translation id="1234808891666923653">کارمندان سرویس</translation>
-<translation id="3432762828853624962">Shared Workers</translation>
 <translation id="2927017729816812676">فضای حافظه پنهان</translation>
 <translation id="1389601498324964367">فضای ذخیره‌سازی با مدیریت سهمیه</translation>
 <translation id="814018970995616154">نشانی‌های وب حاوی فهرست سایت‌های ناامن ذخیره‌شده در Brave بررسی می‌کند.</translation>
@@ -488,7 +479,6 @@
 <translation id="1448289340149908413">اتریوم</translation>
 <translation id="6583467242903731748">وقتی سایتی می‌خواهد به «رابط برنامه‌نویسی کاربردی ارائه‌دهنده اتریم» دسترسی پیدا کند، سؤال شود</translation>
 <translation id="7017590444693657895">مسدود کردن دسترسی سایت‌ها به رابط برنامه‌نویسی کاربردی ارائه‌دهنده اتریم</translation>
-<translation id="5390923430722428146">Solana</translation>
 <translation id="4539536028173362640">وقتی سایتی می‌خواهد به «API ارائه‌دهنده Solana» دسترسی پیدا کند سؤال شود</translation>
 <translation id="2777102601740875941">مسدود کردن دسترسی سایت‌ها به «API ارائه‌دهنده Solana»</translation>
 <translation id="4206299587103092719">ورود به سیستم Google</translation>

@@ -17,10 +17,6 @@
 <translation id="8344569602005188545">ಗಂಟೆಗಳು</translation>
 <translation id="7100907433458266664">ದಿನ</translation>
 <translation id="4971389353431353387">ದಿನಗಳು</translation>
-<translation id="2116364690062294218">B</translation>
-<translation id="3123243061080120667">KB</translation>
-<translation id="977224059380370527">MB</translation>
-<translation id="8776285424728638733">GB</translation>
 <translation id="8427933533533814946">ಈ ಪ್ರಕಾರವಾಗಿ ಫೋಟೋ</translation>
 <translation id="7108338896283013870">ಮರೆಮಾಡಿ</translation>
 <translation id="985862351129593673">ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ ಕಸ್ಟಮೈಸ್ ಮಾಡಿ</translation>
@@ -38,7 +34,6 @@
 <translation id="5313967007315987356">ಸೈಟ್ ಸೇರಿಸಿ</translation>
 <translation id="5052499409147950210">ಸೈಟ್ ಎಡಿಟ್ ಮಾಡಿ</translation>
 <translation id="1181037720776840403">ತೆಗೆದುಹಾಕು</translation>
-<translation id="7400418766976504921">URL</translation>
 <translation id="6678563120789955720">ವೆಬ್‍ಸೈಟ್ ವಿಳಾಸ</translation>
 <translation id="5327248766486351172">ಹೆಸರು</translation>
 <translation id="6916084277913254682">ವೆಬ್‍ಸೈಟ್ ಶೀರ್ಷಿಕೆ</translation>
@@ -80,7 +75,6 @@
 <translation id="8173998484743827990">Brave ಅಂಕಿಅಂಶಗಳು</translation>
 <translation id="383680190590774040">ಗಡಿಯಾರ</translation>
 <translation id="1383876407941801731">ಹುಡುಕಾಟ</translation>
-<translation id="3333887201479867589">Brave Rewards</translation>
 <translation id="3159285901314605198">ಹಿನ್ನೆಲೆ ಚಿತ್ರ</translation>
 <translation id="385051799172605136">ಹಿಂದೆ</translation>
 <translation id="4225429340218993596">ಘನ ಬಣ್ಣಗಳು</translation>
@@ -130,7 +124,6 @@
 <translation id="8611976753572844841">Tor ಕನೆಕ್ಟಿವಿಟಿ ಹೊಂದಿರುವ ಖಾಸಗಿ ವಿಂಡೋ</translation>
 <translation id="1645589858096839236">ಖಾಸಗಿ ವಿಂಡೋಗಳಿಂದ ಬ್ರೌಸಿಂಗ್ ಚಟುವಟಿಕೆಯನ್ನು Brave ಸಂಗ್ರಹಿಸುವುದಿಲ್ಲ. Tor ಕನೆಕ್ಟಿವಿಟಿಯೊಂದಿಗೆ, ಸೈಟ್‌ಗಳಿಗೆ ನಿಮ್ಮ ನಿಜವಾದ IP ವಿಳಾಸವನ್ನು ನೋಡಲು ಮತ್ತು ನೀವು ಯಾವ ಸೈಟ್‌ಗಳಿಗೆ ಭೇಟಿ ನೀಡುತ್ತೀರಿ ಎಂಬುದನ್ನು ನೋಡಲು ನೆಟ್‌ವರ್ಕ್ ವೀಕ್ಷಕರಿಗೆ ಹೆಚ್ಚು ಕಷ್ಟವಾಗುತ್ತದೆ. ಆದಾಗ್ಯೂ, ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಸುರಕ್ಷತೆಯು ಅನಾಮಧೇಯರಾಗಿ ಉಳಿಯುವುದರ ಮೇಲೆ ಅವಲಂಬಿತವಾಗಿದ್ದರೆ, ಇದಕ್ಕೆ ಬದಲಾಗಿ Tor ಬ್ರೌಸರ್ ಅನ್ನು ಬಳಸಿ.</translation>
 <translation id="7919374705736538787">ಇದರ ಮೂಲಕ ಖಾಸಗಿಯಾಗಿ ಹುಡುಕಿ</translation>
-<translation id="3135655280958284640">DuckDuckGo</translation>
 <translation id="218839872518145456">ಖಾಸಗಿ ಹುಡುಕಾಟದ ಜೊತೆಗೆ, Brave ಖಾಸಗಿ ವಿಂಡೋಗಳಲ್ಲಿನ ಹುಡುಕಾಟಗಳಿಗಾಗಿ DuckDuckGo ಬಳಸುತ್ತದೆ. DuckDuckGo ನಿಮ್ಮ ಹುಡುಕಾಟ ಇತಿಹಾಸವನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡುವುದಿಲ್ಲ, ಹೀಗಾಗಿ ನೀವು ಖಾಸಗಿಯಾಗಿ ಹುಡುಕಾಟ ನಡೆಸಬಹುದು.</translation>
 <translation id="1925197199485958903">Tor ಜೊತೆಗೆ ಖಾಸಗಿ ವಿಂಡೋಗಳಲ್ಲಿ, DuckDuckGo ಡೀಫಾಲ್ಟ್ ಹುಡುಕಾಟ ಎಂಜಿನ್ ಆಗಿರುತ್ತದೆ. ಇತರೆ ಕೆಲವು ಜನಪ್ರಿಯ ಹುಡುಕಾಟ ಎಂಜಿನ್‌ಗಳನ್ನು Tor ಜೊತೆಗೆ ಬಳಸಲು ಸ್ವಲ್ಪ ಕಷ್ಟವಾಗುತ್ತದೆ. DuckDuckGo ನಿಮ್ಮ ಹುಡುಕಾಟ ಇತಿಹಾಸವನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡುವುದಿಲ್ಲ;Tor ಬಳಸುತ್ತಿದ್ದರೆ, ಅವರು ನಿಮ್ಮ IP ವಿಳಾಸವನ್ನು ಕೂಡ ತಿಳಿದುಕೊಳ್ಳಲಾಗುವುದಿಲ್ಲ.</translation>
 <translation id="4371533307685765155">DuckDuckGo ಮೂಲಕ ಹುಡುಕಿ</translation>
@@ -357,11 +350,8 @@
 <translation id="5082474983463379713">ದಯವಿಟ್ಟು ಗಮನಿಸಿ:</translation>
 <translation id="1430915738399379752">ಮುದ್ರಿಸು</translation>
 <translation id="2600847485413879104">ರಿವಾರ್ಡ್ಸ್ BAT</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
 <translation id="8533411848724153701">ಜೆಮಿನಿ</translation>
 <translation id="6569877533335686968">ಅಪ್‌ಹೋಲ್ಡ್</translation>
-<translation id="6011108706830742093">ZebPay</translation>
-<translation id="5390923430722428146">Solana</translation>
 <translation id="6354568176665589146">ಮರುಕಳಿಸುವಿಕೆ</translation>
 <translation id="2799223571221894425">ಮರುಪ್ರಾರಂಭಿಸು</translation>
 <translation id="1110535155349301542">ತೆಗೆದುಹಾಕು</translation>
@@ -567,7 +557,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>ಹೆಚ್ಚು ತಿಳಿಯಿರಿ<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">ಚಿಂತಿಸಬೇಡಿ.</translation>
 <translation id="5027616819996705541">ನೀವು ಇನ್ನೂ ಸಹ ಖಾಸಗಿಯಾಗಿ ಬ್ರೌಸ್ ಮಾಡಬಹುದು!</translation>
-<translation id="1450735350187803276">ಇಲ್ಲಿಯ ತನಕ ಗಳಿಕೆಗಳು</translation>
+<translation id="1450735350187803276">ಈ ತಿಂಗಳಲ್ಲಿ ನೋಡಿ ಜಾಹೀರಾತುಗಳು</translation>
 <translation id="7649070708921625228">ಸಹಾಯ</translation>
 <translation id="6042308850641462728">ಇನ್ನಷ್ಟು</translation>
 <translation id="6245259297588415877">ರಚನೆಕಾರರು</translation>
@@ -773,12 +763,6 @@
 <translation id="4302754476737420523">3 ತಿಂಗಳುಗಳು</translation>
 <translation id="5483736362376139517">1 ವರ್ಷ</translation>
 <translation id="6979737339423435258">ಎಲ್ಲ ಸಮಯ</translation>
-<translation id="3188963375823360044">1H</translation>
-<translation id="8163269366661594721">1D</translation>
-<translation id="7640956400175663828">1W</translation>
-<translation id="9100647964747998533">1M</translation>
-<translation id="6366007539108097840">3M</translation>
-<translation id="6977728312178289892">1Y</translation>
 <translation id="6598532182053592167">ಕಾಯಿನ್ ಸೇರಿಸಿ</translation>
 <translation id="5062934803872044756"><ph name="NETWORK"/>ನಲ್ಲಿ <ph name="SYMBOL"/></translation>
 <translation id="629730747756840877">ಖಾತೆ</translation>
@@ -1009,10 +993,6 @@
 <translation id="2902856457593699108">ಕೀ ತೋರಿಸಿ</translation>
 <translation id="8033497299373164724">ಕೀ ಮರೆಮಾಡಿ</translation>
 <translation id="2702143907607790516">ಖಾತೆ ಹೆಸರನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ, ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</translation>
-<translation id="3318280255740629162">25%</translation>
-<translation id="2636487255623744079">50%</translation>
-<translation id="8654192805213365413">75%</translation>
-<translation id="3512100619724810532">100%</translation>
 <translation id="5398538976202345089">ಬೆಂಬಲವಿಲ್ಲದ ನೆಟ್‌ವರ್ಕ್</translation>
 <translation id="1448289340149908413">ಈಥೆರಿಯಮ್</translation>
 <translation id="1530109021798294736">ಮೈನ್‌ನೆಟ್</translation>
@@ -1262,11 +1242,7 @@
 <translation id="6534275647567011533">Transak ಮೂಲಕ ಖರೀದಿಸಿ</translation>
 <translation id="5973390321030037823">ಲಿಂಕ್ ಮೂಲಕ ಖರೀದಿಸಿ</translation>
 <translation id="1932640759496708012">Coinbase Pay ಮೂಲಕ ಖರೀದಿಸಿ</translation>
-<translation id="8725252491405767337">Ramp.Network</translation>
-<translation id="1130009472404762036">Sardine</translation>
-<translation id="503018546142690471">Transak</translation>
 <translation id="7295150312737713113">Stripe ಮೂಲಕ ಲಿಂಕ್ ಮಾಡಿ</translation>
-<translation id="7191335763519723663">Coinbase Pay</translation>
 <translation id="7667423728712601865">Visa ಅಥವಾ Mastercard ಮೂಲಕ ಕ್ರಿಪ್ಟೋ ಖರೀದಿಸಿ.</translation>
 <translation id="3648994606506382289">ಕಾರ್ಡ್ ಮತ್ತು ಬ್ಯಾಂಕ್ ವರ್ಗಾವಣೆಗಳ ಮೂಲಕ ಕ್ರಿಪ್ಟೋ ಖರೀದಿಸುವುದಕ್ಕಾಗಿ ಸುಲಭವಾದ, ವೇಗವಾದ ಮತ್ತು ಅಗ್ಗವಾದ ವಿಧಾನ.</translation>
 <translation id="3101839349578102016">ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಖಾತೆಯೊಂದಿಗೆ ತ್ವರಿತ ಖರೀದಿ. ಕಡಿಮೆ ಶುಲ್ಕಗಳು.</translation>
@@ -1343,7 +1319,6 @@
 <translation id="4530494379350999373">ಮೂಲ</translation>
 <translation id="6736243959894955139">ವಿಳಾಸ</translation>
 <translation id="3095940652251934233">ಸ್ಟೇಟ್‌ಮೆಂಟ್</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">ಆವೃತ್ತಿ</translation>
 <translation id="1313065465616456728">ನೀಡಲಾಗಿರುವುದು</translation>
 <translation id="7902225556763260253">ಅವಧಿ ಮೀರುವ ಸಮಯ</translation>
@@ -1401,7 +1376,6 @@
 <translation id="3052313599928914393">ನಾನ್ಸ್ ಅಥಾರಿಟಿ</translation>
 <translation id="2818177840313215015">ಹಂಚಿಕೆ ಮಾಡಲಾದ ಖಾತೆ</translation>
 <translation id="3332926854409491692">ಬಾಡಿಗೆ ಸಿಸ್ವರ್</translation>
-<translation id="1338923714285924422">RecentBlockhashes sysvar</translation>
 <translation id="7718273517583726718">ಆರಂಭಿಸಿದ ಮಿಂಟ್</translation>
 <translation id="1982396945501942785">ಆರಂಭಿಸಿದ ಖಾತೆ</translation>
 <translation id="4448996702733695148">ಆರಂಭಿಸಿದ ಮಲ್ಟಿಸಿಗ್ ಖಾತೆ</translation>
@@ -1555,7 +1529,6 @@
 <translation id="7657322905916621147">ಮರುಪ್ರಾಪ್ತಿ ನುಡಿಗಟ್ಟು 12, 15, 18, 21 ಅಥವಾ 24 ಪದಗಳಷ್ಟು ಉದ್ದವಿರಬೇಕು</translation>
 <translation id="5026874946691314267">ಇದನ್ನು ಮತ್ತೆ ತೋರಿಸಬೇಡಿ</translation>
 <translation id="434502623875309667">ವಿಳಾಸ ರೆಸಲ್ಯೂಶನ್‍ಗೆ ಆಫ್‌ಚೈನ್ ನೆಟ್‌ವರ್ಕ್ ವಿನಂತಿಗಳ ಅಗತ್ಯವಿದೆ. ಮುಂದುವರೆಯುವುದೇ?</translation>
-<translation id="2779500703989728346">NFT</translation>
 <translation id="1893207255459018302">ವಹಿವಾಟು ಇತಿಹಾಸ ಇಲ್ಲ</translation>
 <translation id="5356382676355994980">ನಿಮ್ಮ Brave ವ್ಯಾಲೆಟ್ ಮೂಲಕ ಮಾಡಲಾದ ವಹಿವಾಟುಗಳು ಇಲ್ಲಿ ಗೋಚರಿಸುತ್ತವೆ.</translation>
 <translation id="3033638954295674319">NFT ವಿವರಗಳನ್ನು ಪಡೆಯುವಾಗ ಏನೋ ತಪ್ಪು ಸಂಭವಿಸಿದೆ. ದಯವಿಟ್ಟು ನಂತರ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ.</translation>
@@ -1604,7 +1577,6 @@
 <translation id="2379187373676242615">CoinGecko ಗಿಂತ <ph name="VALUE"/>% ಅಗ್ಗ</translation>
 <translation id="5351867352310722022"><ph name="VALUE"/>% CoinGecko ನೊಳಗೆ</translation>
 <translation id="7695501918490163821"><ph name="VALUE"/>% CoinGecko ಗಿಂತ ಹೆಚ್ಚು ದುಬಾರಿ</translation>
-<translation id="6599816589121202398">API</translation>
 <translation id="7561262633951061138">ಅತ್ಯುತ್ತಮ</translation>
 <translation id="8060029310790625334">ಸಹಾಯ ಕೇಂದ್ರ</translation>
 <translation id="3143110700666266545">ಈ ಆ್ಯಪ್ ಮುಂದಿನ ಮೂರನೇ-ಪಾರ್ಟಿ API ಗಳನ್ನು ಬಳಸುತ್ತದೆ:</translation>
@@ -1650,7 +1622,6 @@
 <translation id="8549067157732633185">ಈ ಟೋಕನ್ ಅನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿದೆ</translation>
 <translation id="2130170065617939165">ಈ ಟೋಕನ್ ಅನ್ನು <ph name="NUMBER_OF_LISTS"/> ಪಟ್ಟಿಗಳಲ್ಲಿ ಪರಿಶೀಲಿಸಲಾಗಿದೆ</translation>
 <translation id="1554316484739382186">ಸ್ಪೆಂಡರ್: <ph name="ADDRESS"/></translation>
-<translation id="4265415116535094892">Zebpay</translation>
 <translation id="3026353765778463291"><ph name="PROVIDER"/> ಖಾತೆ</translation>
 <translation id="5360752485622434494"><ph name="PROVIDER"/> ನಲ್ಲಿ Brave ರಿವಾರ್ಡ್ಸ್‌ನ BAT</translation>
 <translation id="429061011725027672">ನೀವು <ph name="PROVIDER"/> ನಿಂತ ಪ್ರಸ್ತುತ ಲಾಗ್ ಔಟ್ ಆಗಿದ್ದೀರಿ. ನಿಮ್ಮ ಬ್ಯಾಲೆನ್ಸ್ ವೀಕ್ಷಿಸಲು ದಯವಿಟ್ಟು ಲಾಗ್ ಇನ್ ಮಾಡಿ.</translation>
@@ -1698,7 +1669,6 @@
 <translation id="2454691116905703258">NFT ಗಾಗಿ ಟೋಕನ್ ಹೆಸರು ನಿರ್ದಿಷ್ಟ ಸಂಗ್ರಹಣೆ ಅಥವಾ ಯೋಜನೆಯಲ್ಲಿ ನಾನ್ ಫಂಗಬಲ್ ಟೋಕನ್‌ಗೆ ನೀಡಲಾದ ನಿರ್ದಿಷ್ಟ ಹೆಸರನ್ನು ಸೂಚಿಸುತ್ತದೆ. ಈ ಹೆಸರು ಒಂದೇ ಸಂಗ್ರಹದಲ್ಲಿ ಒಂದು NFT ಅನ್ನು ಇನ್ನೊಂದರಿಂದ ಪ್ರತ್ಯೇಕಿಸುತ್ತದೆ.</translation>
 <translation id="3212749868469431851">NFT ಚಿಹ್ನೆಯು NFT ಸಂಗ್ರಹಣೆ ಅಥವಾ ಯೋಜನೆಯನ್ನು ಪ್ರತ್ಯೇಕಿಸಲು ಬಳಸಲಾಗುವ ಅನನ್ಯ ಗುರುತಿಸುವಿಕೆಯನ್ನು ಸೂಚಿಸುತ್ತದೆ.</translation>
 <translation id="8198838794018761504">ವೀಕ್ಷಿಸಲು-ಮಾತ್ರ</translation>
-<translation id="193368604235852218">Web3</translation>
 <translation id="3417321754118442366">ಯಾವುದೇ DApps ಕಂಡುಬಂದಿಲ್ಲ</translation>
 <translation id="4864082959618144988">ಸಕ್ರಿಯ ವಾಲೆಟ್‌ಗಳು</translation>
 <translation id="5445224754926400848"><ph name="VALUE"/> ಗೆ ಭೇಟಿ ನೀಡಿ</translation>
@@ -1786,7 +1756,6 @@
 <translation id="2665462122884195298">ನಿಮ್ಮ ಫೀಡ್ ಖಾಲಿಯಾಗಿದೆ</translation>
 <translation id="8461269982440806387">ಪ್ರಕಾಶಕರು ಮತ್ತು ಚಾನಲ್‌ಗಳನ್ನು ನಿಮ್ಮ ಫೀಡ್‌ನಲ್ಲಿ ನೋಡಲು ಅವರನ್ನು ಫಾಲೋ ಮಾಡಿ.</translation>
 <translation id="1685574186123115251">ವಿಷಯ ಮೂಲಗಳನ್ನು ಸೇರಿಸಿ</translation>
-<translation id="939305735877869636">Brave</translation>
 <translation id="6261915643960475695">ವ್ಯವಹಾರ</translation>
 <translation id="8265589281845759879">ಕಾರುಗಳು</translation>
 <translation id="7726519849288907308">ಸೆಲೆಬ್ರಿಟಿಗಳು</translation>
@@ -1828,7 +1797,6 @@
 <translation id="7948579849190819732">ಪ್ರಸ್ತುತ ಟ್ಯಾಬ್</translation>
 <translation id="7056969230130642253">ನೀವೆಲ್ಲ ಸಿಲುಕಿಕೊಂಡಿದ್ದೀರಿ</translation>
 <translation id="7292242212818928219">ಹೊಸ ವಿಷಯ ಲಭ್ಯವಿದೆ. ಮರುಲೋಡ್ ಮಾಡುವುದೇ?</translation>
-<translation id="3924145049010392604">Meta</translation>
 <translation id="7481312909269577407">ಫಾರ್ವರ್ಡ್</translation>
 <translation id="1272079795634619415">ನಿಲ್ಲಿಸಿ</translation>
 <translation id="302781076327338683">ರೀಲೋಡ್ ಬೈಪಾಸಿಂಗ್ ಕ್ಯಾಶ್</translation>
@@ -2009,8 +1977,6 @@
 <translation id="5595850093882577201">ಸೆಪಿಯಾ ಥೀಮ್</translation>
 <translation id="1407069428457324124">ಗಾಢ ಥೀಮ್</translation>
 <translation id="9050211734566144118">ಸಿಸ್ಟಮ್ ಥೀಮ್</translation>
-<translation id="812549962360031312">Sans</translation>
-<translation id="5016205925109358554">Serif</translation>
 <translation id="2593272815202181319">ಮೊನೋಸ್ಪೇಸ್</translation>
 <translation id="8960352557529001690">ಡೈಸ್ಲೆಕ್ಸಿಕ್</translation>
 <translation id="8189819085033738728">ಫಾಂಟ್ ಗಾತ್ರ ಕಡಿಮೆಗೊಳಿಸಿ</translation>
@@ -2140,7 +2106,7 @@
 <translation id="7509914170164691086">ಶೀಲ್ಡ್ಸ್‌ ಅನ್ನು <ph name="LINK_BEFORE"/>ಇದಕ್ಕೆ<ph name="LINK_AFTER"/> ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</translation>
 <translation id="260764436039299868">ಶೀಲ್ಡ್ಸ್‌ ಅನ್ನು <ph name="LINK_BEFORE"/>ಇದಕ್ಕೆ<ph name="LINK_AFTER"/> ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</translation>
 <translation id="3907405056878805220">ಈ ಸೈಟ್ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತಿಲ್ಲ ಎಂದು ತೋರುತ್ತಿದ್ದರೆ, ಶೀಲ್ಡ್ಸ್ ಡೌನ್ ಅನ್ನು ಪ್ರಯತ್ನಿಸಿ.
-   <ph name="LINK_BEFORE"/>ಗಮನಿಸಿ: ಇದು Brave ನ ಗೌಪ್ಯತೆ ರಕ್ಷಣೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು.<ph name="LINK_AFTER"/></translation>
+  <ph name="LINK_BEFORE"/>ಗಮನಿಸಿ: ಇದು Brave ನ ಗೌಪ್ಯತೆ ರಕ್ಷಣೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು.<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">ಟ್ರ್ಯಾಕರ್‌ಗಳು, ಜಾಹೀರಾತುಗಳು ಮತ್ತು ಹೆಚ್ಚು ನಿರ್ಬಂಧಿತವಾದವುಗಳು <ph name="LINK_BEFORE"/>ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ<ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Brave ಶೀಲ್ಡ್ಸ್‌ನಿಂದ ರಕ್ಷಿತವಾಗಿಲ್ಲ <ph name="LINK_BEFORE"/>ಹೆಚ್ಚು ತಿಳಿಯಿರಿ<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">ಸುಧಾರಿತ ನಿಯಂತ್ರಣಗಳು</translation>
@@ -2309,6 +2275,7 @@
 <translation id="8048263175525832621">Brave VPN - ಸಂಪರ್ಕ ಕಡಿತಗೊಂಡಿದೆ</translation>
 <translation id="1498770726476841108">ಖಾತೆಯನ್ನು ನಿರ್ವಹಿಸಿ</translation>
 <translation id="6825718953004242472">ಐಕಾನ್ ತೆಗೆದುಹಾಕಿ</translation>
+<translation id="8425213833346101688">ಬದಲಿಸಿ</translation>
 <translation id="3287942014983548982">ಇಲ್ಲಿ ತೆರೆಯಿರಿ</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/> ಪ್ರಸ್ತುತ ತೆರೆಯಿರಿ,
     ತೆರೆದ ಟ್ಯಾಬ್‌ಗೆ ಬದಲಾಯಿಸಲು ಟ್ಯಾಬ್ ಒತ್ತಿ ನಂತರ ಎಂಟರ್ ಒತ್ತಿರಿ</translation>
@@ -2316,7 +2283,4 @@
     ಎಂಟರ್ ಒತ್ತಿರಿ</translation>
 <translation id="451189393813405346">Leo ಗೆ ಕೇಳಿ</translation>
 <translation id="8525248723479742219">ನಂತರ ಪ್ಲೇ ಮಾಡಿ</translation>
-<translation id="1450735350187803276">ಈ ತಿಂಗಳಲ್ಲಿ ನೋಡಿ ಜಾಹೀರಾತುಗಳು</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">ಬದಲಿಸಿ</translation>
 </translationbundle>

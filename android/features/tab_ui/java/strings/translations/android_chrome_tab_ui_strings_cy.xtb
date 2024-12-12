@@ -16,6 +16,7 @@ Os byddwch yn ei ddileu, bydd pawb yn colli mynediad at y grŵp tabiau "<ph name
 <translation id="1419023007528516122">Bydd hyn yn dileu'r grŵp o'ch dyfais yn barhaol</translation>
 <translation id="1486715732399361704">Gallwch ddod o hyd i'ch holl grwpiau tab yma</translation>
 <translation id="149054111719651807">{NUM_MINS,plural, =1{Crëwyd <ph name="NUM_MINS_ONE"/> funud yn ôl}zero{Crëwyd <ph name="NUM_MINS_MANY"/> munud yn ôl}two{Crëwyd <ph name="NUM_MINS_MANY"/> funud yn ôl}few{Crëwyd <ph name="NUM_MINS_MANY"/> munud yn ôl}many{Crëwyd <ph name="NUM_MINS_MANY"/> munud yn ôl}other{Crëwyd <ph name="NUM_MINS_MANY"/> munud yn ôl}}</translation>
+<translation id="3228718275011575753">Cau pob tab Anhysbys</translation>
 <translation id="1501480321619201731">Dileu grŵp</translation>
 <translation id="1555130319947370107">Glas</translation>
 <translation id="161042844686301425">Gwyrddlas</translation>
@@ -184,6 +185,7 @@ Os byddwch yn gadael, byddwch yn colli mynediad at y grŵp tabiau "<ph name="TIT
 <translation id="870736955561925754">Cau'r tab a dileu'r grŵp?</translation>
 <translation id="8714939927607906138">Pris is</translation>
 <translation id="8730621377337864115">Wedi gorffen</translation>
+<translation id="6687920250729800417">Bydd eich gweithgarwch yn y tabiau Anhysbys hyn yn cael eu tynnu o'r ddyfais hon</translation>
 <translation id="875848103419578654">{NUM_MONTHS,plural, =1{Crëwyd <ph name="NUM_MONTHS_ONE"/> mis yn ôl}zero{Crëwyd <ph name="NUM_MONTHS_MANY"/> mis yn ôl}two{Crëwyd <ph name="NUM_MONTHS_MANY"/> fis yn ôl}few{Crëwyd <ph name="NUM_MONTHS_MANY"/> mis yn ôl}many{Crëwyd <ph name="NUM_MONTHS_MANY"/> mis yn ôl}other{Crëwyd <ph name="NUM_MONTHS_MANY"/> mis yn ôl}}</translation>
 <translation id="8804742093141782941">Cadw'r grŵp</translation>
 <translation id="8820741577754260431">Gweld gostyngiadau prisiau yn eich tabiau</translation>
@@ -199,6 +201,4 @@ Os byddwch yn gadael, byddwch yn colli mynediad at y grŵp tabiau "<ph name="TIT
 <translation id="9216898458513705996">Bydd y tabiau'n aros ar agor ar y ddyfais hon ond bydd y grŵp yn cael ei ddileu o bob dyfais sydd wedi'i mewngofnodi i <ph name="USER_EMAIL"/></translation>
 <translation id="927441551066996669">{NUMBER_OF_TABS,plural, =1{Ehangu grŵp tabiau gydag <ph name="TABS_COUNT_ONE"/> tab, lliw <ph name="COLOR_NAME"/>.}zero{Ehangu grŵp tabiau gyda <ph name="TABS_COUNT_MANY"/> tab, lliw <ph name="COLOR_NAME"/>.}two{Ehangu grŵp tabiau gyda <ph name="TABS_COUNT_MANY"/> dab, lliw <ph name="COLOR_NAME"/>.}few{Ehangu grŵp tabiau gyda <ph name="TABS_COUNT_MANY"/> thab, lliw <ph name="COLOR_NAME"/>.}many{Ehangu grŵp tabiau gyda <ph name="TABS_COUNT_MANY"/> thab, lliw <ph name="COLOR_NAME"/>.}other{Ehangu grŵp tabiau gyda <ph name="TABS_COUNT_MANY"/> tab, lliw <ph name="COLOR_NAME"/>.}}</translation>
 <translation id="992256792861109788">Pinc</translation>
-<translation id="3228718275011575753">Cau pob tab Anhysbys</translation>
-<translation id="6687920250729800417">Bydd eich gweithgarwch yn y tabiau Anhysbys hyn yn cael eu tynnu o'r ddyfais hon</translation>
 </translationbundle>

@@ -744,6 +744,7 @@ Brave sync chain anda mungkin mempunyai sejarah penyemakan imbas dalam bentuk la
 <translation id="2782276843156939908">Senarai kata laluan anda yang disimpan untuk Brave dan <ph name="CHROME_CHANNEL"/> telah digabungkan. Anda masih dapat membuat autolengkap semua kata laluan anda yang disimpan pada kedua-dua apl.</translation>
 <translation id="4616150815774728855">Buka <ph name="WEBAPK_NAME"/></translation>
 <translation id="4619564267100705184">Sahkan orang itu ialah anda</translation>
+<translation id="2589970573128789862">Inkognito Brave</translation>
 <translation id="4634124774493850572">Gunakan kata laluan</translation>
 <translation id="4640331037679501949">{NUM_PASSWORDS,plural, =1{1 kata laluan yang terjejas}other{# kata laluan yang terjejas}}</translation>
 <translation id="4642472735733036929">Penjejakan harga dihentikan</translation>
@@ -1810,7 +1811,6 @@ Untuk menukar tetapan ini, <ph name="BEGIN_LINK"/>padamkan data Brave dalam akau
 <translation id="5722020415664104421">Sekat semasa dalam mod Peribadi</translation>
 <translation id="8915136961932734044">Semasa dalam mod Peribadi, tapak tidak dapat menggunakan kuki anda untuk melihat aktiviti penyemakan imbas anda merentas laman berbeza, sebagai contoh, untuk memeribadikan iklan. Ciri di sesetengah laman mungkin gagal berfungsi.</translation>
 <translation id="2213938739750509524">Apabila anda mengetik atau menaip dalam bar alamat atau kotak carian, anda dapat lihat cadangan daripada enjin carian lalai anda. Ciri ini dimatikan dalam mod Peribadi.</translation>
-<translation id="2589970573128789862">Brave Private</translation>
 <translation id="5809126106485463836">Mod peribadi memastikan aktiviti pelayaran anda dirahsiakan daripada orang lain yang menggunakan peranti anda</translation>
 <translation id="2633278372998075009">Tab sulit</translation>
 <translation id="8810805383611013660">Buka dalam tab Peribadi</translation>

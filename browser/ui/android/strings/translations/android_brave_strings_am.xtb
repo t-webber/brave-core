@@ -56,7 +56,6 @@
 <translation id="5488843227043643519">ከ Play Store ደረጃ አሰጣጥ ለቀው ይውጡ?</translation>
 <translation id="5867854497245948308">ለግብረመልስዎ እናመሰግናለን!</translation>
 <translation id="4935400164159327304">Braveን እንዴት ማሻሻል እንደምንችል ያሳውቁን።</translation>
-<translation id="1420756770787071946">Support this creator</translation>
 <translation id="8966035543003363155">የ Brave ማሳወቂያዎች ቀላል ያደርጉታል</translation>
 <translation id="7662771815233894695">ዳውንሎዶችን ያስተዳድሩ፣ ተለዋጭ ስሞችን ያግኙ፣ ሳምንታዊ የአጠቃቀም ስታቲስቲክስን ይመልከቱ እና ሌሎችም።</translation>
 <translation id="4265429476391459783">ሽልማቶችን እያገኙ ወይም የግላዊነት ሪፖርቶችን እየተቀበሉ አይደሉም</translation>
@@ -209,7 +208,6 @@
 <translation id="49147335255967913">የYouTube ማገናኛዎችን በBrave ክፈት</translation>
 <translation id="4150201353443180367">ማሳያ</translation>
 <translation id="4275663329226226506">ማህደረ መረጃ</translation>
-<translation id="5950428831347558278">Widevine DRM</translation>
 <translation id="6716942308303275900">በአሳሹ ውስጥ የተጠበቀ የሚዲያ ይዘትን ለመመልከት Widevine digital rights management (DRM)ን ይጠቀሙ።</translation>
 <translation id="255204363133978824">የተጠበቀ ይዘትን ይፍቀዱ</translation>
 <translation id="4736073408974888559"><ph name="BEGIN_LINK"/>ስለ Widevine የበለጠ ይወቁ<ph name="END_LINK"/></translation>
@@ -284,7 +282,6 @@
 <translation id="8220228041552340594">ጥቅምት</translation>
 <translation id="8280223431922155812">ህዳር</translation>
 <translation id="4254029385847607686">ዲሲምበር</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
 <translation id="1772301834467143364">የBrave ዜናዎች</translation>
 <translation id="7732576862074737148">≈ <ph name="VALUE"/> የአሜሪካን ዶላር</translation>
 <translation id="8428213095426709021">ቅንብሮች</translation>
@@ -407,9 +404,6 @@
 <translation id="5308380583665731573">አገናኝ</translation>
 <translation id="3368922792935385530">ተያይዟል</translation>
 <translation id="6569877533335686968">አቆይ</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
-<translation id="8533411848724153701">Gemini</translation>
-<translation id="6011108706830742093">ZebPay</translation>
 <translation id="1665118090708049096">ወደ መለያዬ <ph name="WALLET_PROVIDER"/> ሂድ</translation>
 <translation id="4858636682078269312">ወደ እርስዎ <ph name="WALLET_PROVIDER"/> መለያ ይግቡ</translation>
 <translation id="8874184842967597500">አልተገናኘም</translation>
@@ -494,7 +488,6 @@
 <translation id="6814582232712814369">የተቆጠበ ጊዜ</translation>
 <translation id="3694122362646626770">ድር ጣቢያዎች</translation>
 <translation id="2225863440766607138">ተከታታዮች</translation>
-<translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
 <translation id="6737820963776538947">ባለፉት 3 ሰዓታት ውስጥ <ph name="COUNT"/> trackers &amp; የተከታታዮች &amp; ማስታወቂያዎች በBrave አሳሽ አግደዋል።</translation>
 <translation id="5005713153542196658">ትራከሮችን እና ማስታወቂያዎችን በማገድ በBrave ውስጥ ባሉ ዋና ዋና የዜና ጣቢያዎች እስከ 6x በፍጥነት ያስሱ።</translation>
 <translation id="7427567994475794038">ባለፉት 3 ሰዓታት ውስጥ ስንት የተከታታዮች &amp; ማስታወቂያዎች እንደታገዱ ለማየት የግላዊነት ሪፖርቶችን ያብሩ።</translation>
@@ -642,7 +635,6 @@
 <translation id="1721710839767183848">በገጹ ላይ ምንም ማስታወቂያዎች የሉም</translation>
 <translation id="4647035642622555398">ምንም መቆራረጥ የለም</translation>
 <translation id="4122515759479497554">ቪድዮዎችን ይፈልጉ</translation>
-<translation id="4449475351935531438">Brave Firewall + VPN</translation>
 <translation id="719977489961414786">ግንኙነትዎን ለመጠበቅ እና ወራሪ መከታተያዎችን በሁሉም ቦታ ለማገድ ወደ VPN ያሻሽሉ።</translation>
 <translation id="8814357473522731680">የተጎላበተው በ</translation>
 <translation id="5892534145504632332">እያንዳንዱን መተግበሪያ እና ሙሉ መሣሪያዎን ይጠብቁ</translation>
@@ -730,7 +722,7 @@
 <translation id="4803003663447398145">ውሂብ የለም</translation>
 <translation id="1105525362447173583">Solana Dapp Sign ግብይት</translation>
 <translation id="9061799688859969073"><ph name="ACCOUNT_NAME"/> ተልኳል <ph name="CRYPTO_VALUE"/> <ph name="ASSET"/> ($<ph name="FIAT_VALUE"/>) - <ph name="DATE"/></translation>
-<translation id="1148985422232712046"><ph name="ACCOUNT_NAME"/>  <ph name="ASSET"/> #<ph name="ASSET_ID"/> - <ph name="DATE"/>ን ልኳል</translation>
+<translation id="1148985422232712046"><ph name="ACCOUNT_NAME"/> <ph name="ASSET"/> #<ph name="ASSET_ID"/> - <ph name="DATE"/>ን ልኳል</translation>
 <translation id="2911329628253651823"><ph name="ACCOUNT_NAME"/> ጸድቋል <ph name="ASSET"/> - <ph name="DATE"/></translation>
 <translation id="7400134344541309180">ያለምንም ገደብ ጸድቋል <ph name="ASSET"/> - <ph name="PROXY"/></translation>
 <translation id="2428770727194227378"><ph name="ACCOUNT_NAME"/> ልውውጥ - <ph name="DATE"/></translation>
@@ -766,12 +758,12 @@
 <translation id="4351811224047421378">የትክክለኛነት አስርዮሽ</translation>
 <translation id="3494964159182650590">የሽልማት ማጠቃለያ</translation>
 <translation id="590733288489975971">ከማስታወቂያዎች የተገኙ ሽልማቶች</translation>
+<translation id="1450735350187803276">እስካሁን የተገኘው ገቢ</translation>
 <translation id="1767561995429774671">አስተዋፅኦ</translation>
 <translation id="7335371657242627509">ራስን አስተዋጽኦ ማድረግ መጨመር</translation>
 <translation id="6727102863431372879">ያዘጋጁ</translation>
 <translation id="3074127054582480056">ያስተውሉ</translation>
 <translation id="2280319752798785157">ወርሐዊ መዋጮ</translation>
-<translation id="3079421456571897484"><ph name="VALUE"/> BAT</translation>
 <translation id="1241283133946520352">አውታረ መረቦች</translation>
 <translation id="1062463687579789365">የዋሌት ኔትዎርኮችን ማበጀት</translation>
 <translation id="2512821599885971349">አውታረ መረብ አክል</translation>
@@ -958,7 +950,6 @@
 <translation id="4530494379350999373">መነሻ</translation>
 <translation id="6736243959894955139">አድራሻ</translation>
 <translation id="3095940652251934233">መግለጫ</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">ስሪት</translation>
 <translation id="1313065465616456728">የተሰጠው በ</translation>
 <translation id="7902225556763260253">የአገልግሎት ጊዜ ማብቂያ</translation>
@@ -1007,7 +998,6 @@
 <translation id="7618347247876614969">የመፈለጊያ ሰንጠረዥ ጠቋሚ መለያ፦</translation>
 <translation id="7659483790930268440">የመፈለጊያ ሰንጠረዥ ጠቋሚ አድራሻ፦</translation>
 <translation id="5494920125229734069">ሁሉንም ይመርጣል</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8613144770663526433">በBrave Wallet ይግቡ</translation>
 <translation id="3696514931437952995">እርስዎ ወደ <ph name="ORIGIN"/>እየገቡ ነው። Brave ዋሌት የእርስዎን የዋሌት አድራሻ ከ<ph name="ORIGIN"/>ጋር ያጋራል።</translation>
 <translation id="1028781062521375153">ዝርዝሮችን ይመልከቱ</translation>
@@ -1019,7 +1009,6 @@
 <translation id="1250335737108905610">የLeo ውሂብን ዳግም ያስጀምሩ እና ያጽዱ</translation>
 <translation id="6165101586663336913">የLeo ረዳትን ዳግም ማስጀመር ለወደፊቱ Leo ለመጠቀም መርጠው እንዲገቡ ይጠይቃል እና የውይይት ታሪክዎን ያጸዳል። የውይይት ታሪክዎን ማጽዳት ከLeo ጋር ያደረጉትን ሁሉንም ንግግሮች ይሰርዛል። ይህ እርምጃ ሊቀለበስ አይችልም።</translation>
 <translation id="3692772534525889713">Brave Leoን በሌሎች መሳሪያዎች ላይ ለመጠቀም የPlay store ግዢዎን ከ Brave መለያዎ ጋር ያገናኙት።</translation>
-<translation id="73236265316873967">Leo Premium</translation>
 <translation id="1166682575529520472">በየወሩ</translation>
 <translation id="451189393813405346">Leoን ይጠይቁ</translation>
 <translation id="7322560193401221004">የፋይል መልሶ ማጫወት ቦታን ያስታውሱ</translation>

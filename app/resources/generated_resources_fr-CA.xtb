@@ -8315,6 +8315,7 @@ Vous pouvez gérer les paramètres à partir du menu de la carte ou afficher plu
 <translation id="7025082428878635038">Les gestes vous offrent une nouvelle façon de naviguer</translation>
 <translation id="7025190659207909717">Gestion des services de données mobiles</translation>
 <translation id="7025895441903756761">Sécurité et confidentialité</translation>
+<translation id="1448315815373449655">{COUNT,plural, =0{Tout ouvrir dans une fenêtre de &amp;navigation privée}=1{Ouvrir dans une fenêtre de &amp;navigation privée}one{Tout ouvrir ({COUNT}) dans une fenêtre de &amp;navigation privée}other{Tout ouvrir ({COUNT}) dans une fenêtre de &amp;navigation privée}}</translation>
 <translation id="7029307918966275733">Crostini n'est pas installé. Veuillez installer Crostini pour voir le générique.</translation>
 <translation id="7029809446516969842">Mots de passe</translation>
 <translation id="7030304022046916278">Il envoie des URL à la navigation sécurisée pour les vérifier</translation>
@@ -11518,10 +11519,6 @@ Les autorisations que vous avez déjà accordées à des sites Web et à des app
 <translation id="5464506165779993685">Ouvrir dans une &amp;fenêtre privée</translation>
 <translation id="4620367155626060530">&amp;Afficher la barre des favoris</translation>
 <translation id="3922078020116835067">&amp;Masquer les favoris</translation>
-<translation id="1448315815373449655">{COUNT, plural,
-          =0 {Open All in &amp;Private Window}
-          =1 {Open in &amp;Private Window}
-          other {Open All ({COUNT}) in &amp;Private Window}}</translation>
 <translation id="1985165269306590797">Ouvrir dans une fenêtre de &amp;navigation privée</translation>
 <translation id="4680518314108745448">&amp;Afficher la barre des favoris</translation>
 <translation id="2203566065151196658">&amp;Masquer les favoris</translation>

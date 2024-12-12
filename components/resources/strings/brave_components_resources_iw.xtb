@@ -17,10 +17,6 @@
 <translation id="8344569602005188545">שעות</translation>
 <translation id="7100907433458266664">יום</translation>
 <translation id="4971389353431353387">ימים</translation>
-<translation id="2116364690062294218">B</translation>
-<translation id="3123243061080120667">KB</translation>
-<translation id="977224059380370527">MB</translation>
-<translation id="8776285424728638733">GB</translation>
 <translation id="8427933533533814946">צילום:</translation>
 <translation id="7108338896283013870">הסתר</translation>
 <translation id="985862351129593673">התאמה אישית של לוח המחוונים</translation>
@@ -130,7 +126,6 @@
 <translation id="8611976753572844841">חלון פרטי עם קישוריות Tor</translation>
 <translation id="1645589858096839236">Brave לא מאחסן פעילות דפדפן מחלונות פרטיים. עם קישוריות Tor, זה נעשה קשה יותר לאתרים לראות את כתובת ה-IP האמיתית שלכם ולמשקיפי רשת לראות באילו אתרים ביקרתם. עם זאת, אם הבטיחות האישית שלכם תלויה באנונימיות, השתמשו בדפדפן Tor במקום.</translation>
 <translation id="7919374705736538787">חפש במצב פרטי עם</translation>
-<translation id="3135655280958284640">DuckDuckGo</translation>
 <translation id="218839872518145456">במצב חיפוש פרטי, Brave ישתמש ב-DuckDuckGo לחיפוש בחלון פרטי. DuckDuckGo אינו עוקב אחר היסטוריית החיפושים שלכם, כך שתוכלו לבצע חיפוש באופן פרטי.</translation>
 <translation id="1925197199485958903">בחלון פרטי עם Tor, ברירת המחדל למנוע החיפוש היא DuckDuckGo. קיים קושי להשתמש עם Tor בכמה ממנועי החיפוש הפופולריים האחרים. DuckDuckGo לא ’ עוקב אחר היסטוריית החיפושים שלכם. עם Tor הם אפילו ’ לא יודעים את כתובת ה-IP שלכם.</translation>
 <translation id="4371533307685765155">חפש באמצעות DuckDuckGo</translation>
@@ -214,7 +209,6 @@
 <translation id="4394049700291259645">השבת</translation>
 <translation id="4176463684765177261">מושבת</translation>
 <translation id="8283001340969131076">סליחה, אירעה שגיאה בעת הניסיון לנתק את חשבון <ph name="PROVIDER"/> שלך. אנא נסה שוב בעוד זמן מה.</translation>
-<translation id="8845154268466251503">BAT</translation>
 <translation id="4684554059837592728">תשלום חודשי</translation>
 <translation id="2846354907189538">תאריך התרומה הבאה</translation>
 <translation id="1397381065858030856">אתרים שנצפו</translation>
@@ -358,10 +352,6 @@
 <translation id="1430915738399379752">הדפס</translation>
 <translation id="2600847485413879104">פרסי BAT</translation>
 <translation id="3439853736976204026">ארנק bitFlyer</translation>
-<translation id="8533411848724153701">Gemini</translation>
-<translation id="6569877533335686968">Uphold</translation>
-<translation id="6011108706830742093">ZebPay</translation>
-<translation id="5390923430722428146">Solana</translation>
 <translation id="6354568176665589146">חוזרים</translation>
 <translation id="2799223571221894425">הפעל מחדש</translation>
 <translation id="1110535155349301542">הסר</translation>
@@ -433,7 +423,6 @@
 לפרטים נוספים
 <ph name="END_BRAVE_LEARN_MORE_LINK"/></translation>
 <translation id="4047002754575891955">המשך בחיפוש אופ-צ'יין</translation>
-<translation id="531747189990625622">Solana Name Service</translation>
 <translation id="1090584614351290462">האם לאפשר תמיכה של Solana Name Service (SNS) ב-Brave?</translation>
 <translation id="7769345036263036863">Brave ישתמש בצד שלישי כדי לפתור את שמות הדומיינים <ph name="DOMAIN_LIST"/>. Brave מסתיר את כתובת ה-IP שלך. אם תאפשר זאת, הצד השלישי יראה שמישהו מנסה לבקר בדומיינים אלה <ph name="DOMAIN_LIST"/> אך לא יראה אף פרט אחר. למידע נוסף על גורמי הצד השלישי שאיתם אנו עובדים ועל מדיניות הפרטיות שלהם, יש לעיין <ph name="BEGIN_SNS_WIKI_LINK"/>בדף העזרה<ph name="END_SNS_WIKI_LINK"/> שלנו.</translation>
 <translation id="884864496166128252">המשך באמצעות השרת <ph name="PROVIDER_NAME"/></translation>
@@ -573,7 +562,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>לפרטים נוספים<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">אל דאגה.</translation>
 <translation id="5027616819996705541">אתם עדיין יכולים לגלוש בפרטיות!</translation>
-<translation id="1450735350187803276">רווחים עד כה</translation>
+<translation id="1450735350187803276">מודעות שנצפו החודש</translation>
 <translation id="7649070708921625228">עזרה</translation>
 <translation id="6042308850641462728">עוד</translation>
 <translation id="6245259297588415877">יוצרים</translation>
@@ -769,7 +758,6 @@
 <translation id="8767749833522980474">קריפטו</translation>
 <translation id="6122742277607781713">תיק השקעות</translation>
 <translation id="7020503656406658141">מחירים</translation>
-<translation id="3586775666459823714">NFTs</translation>
 <translation id="1987317783729300807">חשבונות</translation>
 <translation id="3567988240819868195">שוק</translation>
 <translation id="2449682593754783720">שעה 1</translation>
@@ -779,11 +767,9 @@
 <translation id="4302754476737420523">3 חודשים</translation>
 <translation id="5483736362376139517">שנה 1</translation>
 <translation id="6979737339423435258">משחר ההיסטוריה</translation>
-<translation id="3188963375823360044">1H</translation>
 <translation id="8163269366661594721">יום אחד</translation>
 <translation id="7640956400175663828">שבוע אחד</translation>
 <translation id="9100647964747998533">חודש אחד</translation>
-<translation id="6366007539108097840">3M</translation>
 <translation id="6977728312178289892">שנה אחת</translation>
 <translation id="6598532182053592167">הוסף מטבע</translation>
 <translation id="5062934803872044756"><ph name="SYMBOL"/> עַל <ph name="NETWORK"/></translation>
@@ -793,7 +779,6 @@
 <translation id="2267753748892043616">הוסף חשבון</translation>
 <translation id="5061574358754621254">נתוני המחירים מופעלים על ידי CoinGecko</translation>
 <translation id="223536150967420869">קנייה</translation>
-<translation id="538450413584738399">Swap</translation>
 <translation id="6810855196544084176">גשר</translation>
 <translation id="3488255243387417752">מכירה</translation>
 <translation id="5223034545851554347">אין לך מספיק <ph name="TOKEN_SYMBOL"/> בחשבון</translation>
@@ -967,7 +952,6 @@
 <translation id="5745936663807461565">חבר<ph name="HARDWARE_DEVICE"/> את הארנק שלך ישירות למחשב שלך.</translation>
 <translation id="4350216031085285578">פתחו את מכשירכם ובחרו ביישום <ph name="BLOCKCHAIN_NETWORK"/>.</translation>
 <translation id="6892232036314454524">שגיאה זו עשויה להתרחש בעת פתיחת אפלקציה שגויה במכשיר ה-Ledger.</translation>
-<translation id="6598291715079540080">Trezor</translation>
 <translation id="5605670050355397069">ספר חשבונות ראשי</translation>
 <translation id="8012452656725205792">הענק גישה Brave לשלך<ph name="HARDWARE_DEVICE"/> התקן.</translation>
 <translation id="4378551569595875038">מתחבר...</translation>
@@ -1015,15 +999,9 @@
 <translation id="2902856457593699108">הצג מפתח</translation>
 <translation id="8033497299373164724">הסתר מפתח</translation>
 <translation id="2702143907607790516">עדכון שם החשבון נכשל. נסה שוב.</translation>
-<translation id="3318280255740629162">25%</translation>
-<translation id="2636487255623744079">50%</translation>
-<translation id="8654192805213365413">75%</translation>
-<translation id="3512100619724810532">100%</translation>
 <translation id="5398538976202345089">רשת לא נתמכת</translation>
 <translation id="1448289340149908413">אתריום</translation>
-<translation id="1530109021798294736">Mainnet</translation>
 <translation id="1613627717923045622">בדיקת רשת</translation>
-<translation id="6742767287935968736">Sepolia</translation>
 <translation id="6749024162985917640">מארח מקומי</translation>
 <translation id="3792938779249970121">בחר חשבון</translation>
 <translation id="6797737193502014008">חפש חשבונות</translation>
@@ -1162,7 +1140,6 @@
 <translation id="5956400126884970816">עמלה מקסימלית</translation>
 <translation id="2445079431396622762">עמלה מקסימלית</translation>
 <translation id="6152793706702141594">דמי בסיס עכשויים</translation>
-<translation id="8689322170423904690">Gwei</translation>
 <translation id="8685908198496503620">הגדר בהתאמה אישית</translation>
 <translation id="7400927223938424379">הגדר כפי שהוצע</translation>
 <translation id="8179605702342645418">לא ניתן להפיץ את העסקה ברשת.</translation>
@@ -1206,7 +1183,6 @@
 <translation id="471055802670233033">אתם משלמים</translation>
 <translation id="7916618590403748182">אתם תקבלו</translation>
 <translation id="8328657208304368165">אישור הזמנה</translation>
-<translation id="8220255674527598378">Solana Swap</translation>
 <translation id="5071303414930953888">חשבון <ph name="ACCOUNT_NUMBER"/></translation>
 <translation id="2330177808960134000">תחילה יש לבטל את נעילת הארנק</translation>
 <translation id="7930338223819368854"><ph name="ADDRESS"/> אינה כתובת חוקית</translation>
@@ -1268,11 +1244,7 @@
 <translation id="6534275647567011533">רכישה עם Transak</translation>
 <translation id="5973390321030037823">רכישה עם Link</translation>
 <translation id="1932640759496708012">קנה עם Coinbase Pay</translation>
-<translation id="8725252491405767337">Ramp.Network</translation>
-<translation id="1130009472404762036">Sardine</translation>
-<translation id="503018546142690471">Transak</translation>
 <translation id="7295150312737713113">Link מאת Stripe</translation>
-<translation id="7191335763519723663">Coinbase Pay</translation>
 <translation id="7667423728712601865">רכשו קריפטו באמצעות ויזה או מאסטרקארד.</translation>
 <translation id="3648994606506382289">הדרך הקלה, המהירה והזולה ביותר לקנות קריפטו באמצעות כרטיס והעברות בנקאיות.</translation>
 <translation id="3101839349578102016">קנייה מיידית עם חשבון הבנק שלך. עמלות נמוכות יותר.</translation>
@@ -1353,7 +1325,6 @@
 <translation id="4530494379350999373">מקור</translation>
 <translation id="6736243959894955139">כתובת</translation>
 <translation id="3095940652251934233">הַצהָרָה</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">גרסה</translation>
 <translation id="1313065465616456728">הונפק ב</translation>
 <translation id="7902225556763260253">תאריך תפוגה</translation>
@@ -1387,7 +1358,6 @@
 <translation id="4719005063558335704">חשבונות:</translation>
 <translation id="4337554812324118382">נתונים:</translation>
 <translation id="569870799832027680">זיהוי תוכנית:</translation>
-<translation id="9071560809248786823">Lamports</translation>
 <translation id="6129953537138746214">רווח</translation>
 <translation id="2333894833508885986">בעל התוכנית</translation>
 <translation id="673881072848521017">בסיס</translation>
@@ -1411,7 +1381,6 @@
 <translation id="3052313599928914393">רשות nonce</translation>
 <translation id="2818177840313215015">חשבון מוקצה</translation>
 <translation id="3332926854409491692">השכרת sysvar</translation>
-<translation id="1338923714285924422">RecentBlockhashes sysvar</translation>
 <translation id="7718273517583726718">אתחול הטבעה</translation>
 <translation id="1982396945501942785">חשבון שאותחל</translation>
 <translation id="4448996702733695148">חשבון Multisig שאותחל</translation>
@@ -1565,7 +1534,6 @@
 <translation id="7657322905916621147">משפט השחזור חייב להיות באורך 12, 15, 18, 21 או 24 מילים</translation>
 <translation id="5026874946691314267">אל תציג זאת שוב</translation>
 <translation id="434502623875309667">פתרון כתובות דורש בקשות רשת אופ-צ'יין. להמשיך?</translation>
-<translation id="2779500703989728346">NFT</translation>
 <translation id="1893207255459018302">אין היסטוריית עסקאות</translation>
 <translation id="5356382676355994980">עסקאות שבוצעו עם ארנק Brave שלך יופיעו כאן.</translation>
 <translation id="3033638954295674319">משהו השתבש בעת שליפת פרטי NFT. נסו שוב מאוחר יותר.</translation>
@@ -1618,7 +1586,6 @@
 CoinGecko</translation>
 <translation id="7695501918490163821"><ph name="VALUE"/> יקר 
 יותר מ-CoinGecko</translation>
-<translation id="6599816589121202398">API</translation>
 <translation id="7561262633951061138">הטוב ביותר</translation>
 <translation id="8060029310790625334">מרכז תמיכה</translation>
 <translation id="3143110700666266545">אפליקציה זו משתמשת בממשקי ה-API של צד שלישי הבאים:</translation>
@@ -1712,7 +1679,6 @@ CoinGecko</translation>
 <translation id="2454691116905703258">שם האסימון עבור NFT מתייחס לשם הספציפי שניתן לאסימון שאינו בר החלפה בקולקציה או בפרויקט מסוימים. שם זה מבדיל בין NFT אחד לאחר בתוך אותה קולקציה.</translation>
 <translation id="3212749868469431851">סמל ה-NFT מתייחס למזהה הייחודי המשמש כדי להבדיל בין קולקציית או פרויקט ה-NFT.</translation>
 <translation id="8198838794018761504">לצפייה בלבד</translation>
-<translation id="193368604235852218">Web3</translation>
 <translation id="3417321754118442366">לא נמצאו DApps</translation>
 <translation id="4864082959618144988">ארנקים פעילים</translation>
 <translation id="5445224754926400848">בקרו ב-<ph name="VALUE"/></translation>
@@ -1771,7 +1737,6 @@ CoinGecko</translation>
 <translation id="4045404575593562245">אירועי שליטת Tor</translation>
 <translation id="216855356675970168">גרסת Tor</translation>
 <translation id="2976625104959685176">מזהה תהליך Tor</translation>
-<translation id="6951743416068151209">Tor Proxy URI</translation>
 <translation id="1671503397662036257">סטטוס חיבור Tor</translation>
 <translation id="6024292492796847324">התקדמות אתחול Tor</translation>
 <translation id="8300751939969131609">הפעל Brave News, ולא תפספס אף סיפור לעולם</translation>
@@ -1783,7 +1748,6 @@ CoinGecko</translation>
 <translation id="1498364270401875204">ערוצים</translation>
 <translation id="6401776069326703655">צפייה בהכל</translation>
 <translation id="8032569120109842252">במעקב</translation>
-<translation id="3790976909891317760">{FEED_COUNT, plural, =1 {# source} אחר {# sources} }</translation>
 <translation id="6143382357119101833">קבל עדכונים מ-<ph name="URL"/></translation>
 <translation id="4515121482885046194">לא נמצאו עדכונים ב-<ph name="URL"/></translation>
 <translation id="8535964427132833909">אין כאן כלום :'(</translation>
@@ -1839,7 +1803,6 @@ CoinGecko</translation>
 <translation id="7948579849190819732">הכרטיסייה הנוכחית</translation>
 <translation id="7056969230130642253">אתם מאד עסוקים</translation>
 <translation id="7292242212818928219">תוכן חדש זמין. לטעון מחדש?</translation>
-<translation id="3924145049010392604">Meta</translation>
 <translation id="7481312909269577407">קדימה</translation>
 <translation id="1272079795634619415">הפסק</translation>
 <translation id="302781076327338683">טען מחדש את הcache העוקף</translation>
@@ -2011,17 +1974,13 @@ CoinGecko</translation>
 <translation id="1873585723672836337">השתמש תמיד ב-Speedreader עבור כל האתרים</translation>
 <translation id="3138587343887871192">החלף כדי להפעיל/לכבות את Speedreader עבור כל אתרי האינטרנט.</translation>
 <translation id="5153147025131874069">לא כל האתרים מספקים יכולות Speedreader.</translation>
-<translation id="1013121820689882118">Speedreader</translation>
 <translation id="2104268045272817433">צא מ-Speedreader</translation>
 <translation id="6315170314923504164">קול</translation>
-<translation id="864152735015641598">Tune Speedreader</translation>
 <translation id="251940709686581010">הגדרות מראה</translation>
 <translation id="4809927044794281115">נושא בהיר</translation>
 <translation id="5595850093882577201">נושא Sepia</translation>
 <translation id="1407069428457324124">נושא כהה</translation>
 <translation id="9050211734566144118">נושא מערכת</translation>
-<translation id="812549962360031312">Sans</translation>
-<translation id="5016205925109358554">Serif</translation>
 <translation id="2593272815202181319">רוחב אחיד</translation>
 <translation id="8960352557529001690">דיסלקטי</translation>
 <translation id="8189819085033738728">הקטן את גודל הגופן</translation>
@@ -2033,7 +1992,6 @@ CoinGecko</translation>
 <translation id="1199355487114804640">נגן/השהה</translation>
 <translation id="1689210457482459023">הפחת את מהירות ההשמעה</translation>
 <translation id="5872363163901278000">הגבר את מהירות ההשמעה</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8637805148029768813">תכונת הסיכום זמינה כרגע רק עבור מאמרים נבחרים ודפי אינטרנט ארוכים אחרים.</translation>
 <translation id="1223498995510244364">סכם</translation>
 <translation id="7491773233732232424">על ליאו</translation>
@@ -2231,7 +2189,6 @@ CoinGecko</translation>
 <translation id="7818938154803162778">בטח, אעזור</translation>
 <translation id="958268166261124668">Brave Firewall + VPN: מחובר</translation>
 <translation id="6021669293402055982">Brave Firewall + VPN: לא מחובר</translation>
-<translation id="3541307549916475335">Brave VPN Panel UI</translation>
 <translation id="7143207342074048698">מתחבר</translation>
 <translation id="1202549130170287307">מתנתק</translation>
 <translation id="2325196879156848326">ההתחברות נכשלה</translation>
@@ -2321,6 +2278,7 @@ Brave יש שירות עוזר שמגן עליך מפני חשיפה זו על �
 <translation id="8048263175525832621">Brave VPN: מנותק</translation>
 <translation id="1498770726476841108">נהל חשבון</translation>
 <translation id="6825718953004242472">הסר סמל</translation>
+<translation id="8425213833346101688">שינוי</translation>
 <translation id="3287942014983548982">פתח כאן</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/>, פתוח כרגע,
 הקש על Tab ואז על Enter כדי לעבור ללשונית הפתוחה</translation>
@@ -2328,7 +2286,4 @@ Brave יש שירות עוזר שמגן עליך מפני חשיפה זו על �
 הכרטיסייה הקיימת</translation>
 <translation id="451189393813405346">תשאל את ליאו</translation>
 <translation id="8525248723479742219">נגן מאוחר יותר</translation>
-<translation id="1450735350187803276">מודעות שנצפו החודש</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">שינוי</translation>
 </translationbundle>

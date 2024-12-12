@@ -8326,6 +8326,7 @@ Det finns # utsatta lösenord till. Du rekommenderas av Brave Lösenordshanterin
 <translation id="7025082428878635038">Vi presenterar ett nytt sätt att navigera med rörelser</translation>
 <translation id="7025190659207909717">Hantering av mobil datatjänst</translation>
 <translation id="7025895441903756761">Säkerhet och integritet</translation>
+<translation id="1448315815373449655">{COUNT,plural, =0{Öppna alla i ett &amp;inkognitofönster}=1{Öppna i &amp;inkognitofönster}other{Öppna alla ({COUNT}) i ett &amp;inkognitofönster}}</translation>
 <translation id="7029307918966275733">Crostini har inte installerats. Installera Crostini för att visa upphovspersoner.</translation>
 <translation id="7029809446516969842">Lösenord</translation>
 <translation id="7030304022046916278">Webbadresser skickas till Säker webbsökning för kontroll</translation>
@@ -10785,6 +10786,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="8805255531353778052">Stora besparingar</translation>
 <translation id="8807588541160250261">När inga enheter är anslutna</translation>
 <translation id="8807632654848257479">Stabil</translation>
+<translation id="8808478386290700967">Web Store</translation>
 <translation id="8808686172382650546">Katt</translation>
 <translation id="8809147117840417135">Ljust blågrön</translation>
 <translation id="8811862054141704416">Mikrofonåtkomst i Crostini</translation>
@@ -11491,7 +11493,6 @@ Behörigheter som du redan har gett webbplatser och appar kan gälla för det h�
 <translation id="3193187622878830588">Inkognitoportal: <ph name="SUBFRAME_SITE"/></translation>
 <translation id="1389212885096774902">Privat inhägnad ram: <ph name="FENCEDFRAME_SITE"/></translation>
 <translation id="5097649414558628673">Verktyg: <ph name="PRINT_NAME"/></translation>
-<translation id="8808478386290700967">Web Store</translation>
 <translation id="8261378640211443080">Det här tillägget finns inte i <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> och kan ha lagts till utan att du vet om det.</translation>
 <translation id="3591188117102923109">Anpassa din webbläsare ännu mer med tillägg från <ph name="BEGIN_LINK1"/>Web Store<ph name="END_LINK1"/></translation>
 <translation id="7226591269860979104">Du hittar äldre färger i webbutiken</translation>
@@ -11530,10 +11531,6 @@ Behörigheter som du redan har gett webbplatser och appar kan gälla för det h�
 <translation id="5464506165779993685">Öppna i inkognitofönster</translation>
 <translation id="4620367155626060530">&amp;Visa bokmärkesfältet</translation>
 <translation id="3922078020116835067">&amp;Dölj bokmärken</translation>
-<translation id="1448315815373449655">{COUNT, plural,
-          =0 {Open All in &amp;Private Window}
-          =1 {Open in &amp;Private Window}
-          other {Open All ({COUNT}) in &amp;Private Window}}</translation>
 <translation id="1985165269306590797">Öppna i &amp;privat fönster</translation>
 <translation id="4680518314108745448">&amp;Visa bokmärkesfältet</translation>
 <translation id="2203566065151196658">&amp;Dölj bokmärken</translation>
@@ -11586,7 +11583,7 @@ Behörigheter som du redan har gett webbplatser och appar kan gälla för det h�
 <translation id="6710473112951410470">Endast nuvarande inkognitosession</translation>
 <translation id="8148807910118761153">Den här anpassade inställningen tas bort när du stänger alla inkognitofönster</translation>
 <translation id="5079334477644844710">Privat läge håller <ph name="BEGIN_LINK"/>din surfning privat från andra<ph name="END_LINK"/> som använder enheten</translation>
-<translation id="2099871685186351093">Dela filer med profiler omkring dig.  <ph name="LINK_BEGIN"/>Learn more<ph name="LINK_END"/></translation>
+<translation id="2099871685186351093">Dela filer med profiler omkring dig. <ph name="LINK_BEGIN"/>Learn more<ph name="LINK_END"/></translation>
 <translation id="3860292630623580294">(Privat)</translation>
 <translation id="4949006391524401372">Det här tillägget har inaktiverats av företagspolicyn eftersom det inte längre är tillgängligt i webbutiken.</translation>
 <translation id="5899585985956756612">Tillåt i inkognitoläge</translation>

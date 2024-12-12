@@ -84,7 +84,6 @@
 <translation id="1118970888826017401">ಪ್ರಮುಖ-ಮಟ್ಟದ ಮರುನಿರ್ದೇಶನ ಟ್ರ್ಯಾಕಿಂಗ್ URL ಗಳನ್ನು ಬೈಪಾಸ್ ಮಾಡುವುದಕ್ಕಾಗಿ ಬೆಂಬಲವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ.</translation>
 <translation id="94154759592465111">ಸ್ಕ್ರಿಪ್ಟ್‌ಗಳನ್ನು ನಿರ್ಬಂಧಿಸಿ</translation>
 <translation id="7714773920987474116">JavaScript ನಿರ್ಬಂಧಿಸುತ್ತದೆ (ಸೈಟ್‌ಗಳು ಕಾರ್ಯನಿರ್ವಹಿಸದಂತೆ ಮಾಡಬಹುದು)</translation>
-<translation id="995782501881226248">YouTube</translation>
 <translation id="2233004324252915283">YouTube ಶಿಫಾರಸು ಮಾಡಲಾದ ಕಂಟೆಂಟ್ ನಿರ್ಬಂಧಿಸಿ</translation>
 <translation id="1005372663692637999">youtube.com ನಲ್ಲಿ ಮುಂಬರುವ ಮುಂದಿನ ಮತ್ತು ಮುಕ್ತಾಯದ ಕಾರ್ಡ್ ಎಲಿಮೆಂಟ್‌ಗಳನ್ನು ನಿರ್ಬಂಧಿಸುತ್ತದೆ.</translation>
 <translation id="5152595963250646670">YouTube ಗೆ ಅಡಚಣೆ ಉಂಟುಮಾಡುವ ಎಲಿಮೆಂಟ್‌ಗಳನ್ನು ನಿರ್ಬಂಧಿಸಿ</translation>
@@ -216,7 +215,6 @@
 <translation id="49147335255967913">Brave ನಲ್ಲಿ YouTube ಲಿಂಕ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ</translation>
 <translation id="4150201353443180367">ಡಿಸ್‌ಪ್ಲೇ</translation>
 <translation id="4275663329226226506">ಮಾದ್ಯಮ</translation>
-<translation id="5950428831347558278">Widevine DRM</translation>
 <translation id="6716942308303275900">ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಸಂರಕ್ಷಿತ ಮಾಧ್ಯಮ ವಿಷಯವನ್ನು ವೀಕ್ಷಿಸಲು Widevine ಡಿಜಿಟಲ್ ಹಕ್ಕುಗಳ ನಿರ್ವಹಣೆ (DRM) ಅನ್ನು ಬಳಸಿ.</translation>
 <translation id="255204363133978824">ಸಂರಕ್ಷಿತ ವಿಷಯವನ್ನು ಅನುಮತಿಸಿ</translation>
 <translation id="4736073408974888559"><ph name="BEGIN_LINK"/>Widevine ಕುರಿತು ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ<ph name="END_LINK"/></translation>
@@ -252,7 +250,6 @@
 <translation id="1331593888918588693">ನೀವು ನಂತರದಲ್ಲಿ ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ನಿಮ್ಮ ಆದ್ಯತೆಯನ್ನು ಯಾವಾಗಲೂ ಬದಲಿಸಬಹುದು.</translation>
 <translation id="5806601733251372221">ಬ್ರೇವ್‌ ಶೀಲ್ಡ್ಸ್‌</translation>
 <translation id="8537217141725709400"><ph name="TOKEN"/>ಗಳನ್ನು ಸಂಪಾದಿಸಿ</translation>
-<translation id="3333887201479867589">Brave Rewards</translation>
 <translation id="5870330605209713397">ಗೌಪ್ಯತೆ-ಗೌರವಿಸುವ ಜಾಹೀರಾತುಗಳನ್ನು ನೋಡುವ ಮೂಲಕ ಮತ್ತು ಡೀಫಾಲ್ಟ್ ಆಗಿ ನಿಮ್ಮ ಮೆಚ್ಚಿನ ಸೈಟ್‌ಗಳು ಮತ್ತು ರಚನೆಕಾರರನ್ನು ಬೆಂಬಲಿಸಿ.</translation>
 <translation id="5302488867897327287">Brave ಪುರಸ್ಕಾರಗಳನ್ನು ಬಳಸುವುದನ್ನು ಆರಂಭಿಸಿ ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡುವ ಮೂಲಕ, ನೀವು ಇದಕ್ಕೆ ಒಪ್ಪುತ್ತೀರಿ</translation>
 <translation id="4281844954008187215">ಸೇವೆಯ ನಿಯಮಗಳು</translation>
@@ -295,9 +292,7 @@
 <translation id="8220228041552340594">ಅಕ್ಟೋಬರ್‌</translation>
 <translation id="8280223431922155812">ನವೆಂಬರ್‌</translation>
 <translation id="4254029385847607686">ಡಿಸೆಂಬರ್‌</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
 <translation id="1772301834467143364">Brave ಸುದ್ದಿ</translation>
-<translation id="7732576862074737148">≈ <ph name="VALUE"/> USD</translation>
 <translation id="8428213095426709021">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</translation>
 <translation id="6020176662032623904">ಪರಿಶೀಲಿಸಲ್ಪಟ್ಟ ರಚನೆಕಾರ</translation>
 <translation id="2369994359029526515">ಪರಿಶೀಲಿಸದೇ ಇರುವ ರಚನೆಕಾರ</translation>
@@ -427,9 +422,7 @@
 <translation id="5308380583665731573">ಸಂಪರ್ಕಿಸು</translation>
 <translation id="3368922792935385530">ಸಂಪರ್ಕಿಸಲಾಗಿದೆ</translation>
 <translation id="6569877533335686968">ಅಪ್‌ಹೋಲ್ಡ್</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
 <translation id="8533411848724153701">ಜೆಮಿನಿ</translation>
-<translation id="6011108706830742093">ZebPay</translation>
 <translation id="1665118090708049096">ನನ್ನ <ph name="WALLET_PROVIDER"/> ಖಾತೆಗೆ ಹೋಗಿ</translation>
 <translation id="4858636682078269312">ನಿಮ್ಮ <ph name="WALLET_PROVIDER"/> ಖಾತೆಗೆ ಹೋಗಿ</translation>
 <translation id="8874184842967597500">ಸಂಪರ್ಕಗೊಳಿಸಿಲ್ಲ</translation>
@@ -517,7 +510,6 @@
 <translation id="6814582232712814369">ಉಳಿಸಲಾದ ಸಮಯ</translation>
 <translation id="3694122362646626770">ವೆಬ್‌ಸೈಟ್‌ಗಳು</translation>
 <translation id="2225863440766607138">ಟ್ರ್ಯಾಕರ್‌ಗಳು</translation>
-<translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
 <translation id="6737820963776538947">ನೀವು ಕಳೆದ 3 ಗಂಟೆಗಳಲ್ಲಿ Brave ಬ್ರೌಸರ್ ಜೊತೆಗೆ <ph name="COUNT"/> ಟ್ರ್ಯಾಕರ್‌ಗಳು ಮತ್ತು ಜಾಹೀರಾತುಗಳನ್ನು ನಿರ್ಬಂಧಿಸಿದ್ದೀರಿ.</translation>
 <translation id="5005713153542196658">ಟ್ರ್ಯಾಕರ್ಗಳು &amp; ಜಾಹೀರಾತುಗಳನ್ನು ನಿರ್ಬಂಧಿಸುವ ಮೂಲಕ Brave ನಲ್ಲಿ ಪ್ರಮುಖ ಸುದ್ದಿ ಸೈಟ್ಗಳಲ್ಲಿ 6x ವೇಗವಾಗಿ ಬ್ರೌಸ್ ಮಾಡಿ.</translation>
 <translation id="7427567994475794038">ಕಳೆದ 3 ಗಂಟೆಗಳಲ್ಲಿ ಎಷ್ಟು ಟ್ರ್ಯಾಕರ್‌ಗಳು ಮತ್ತು ಜಾಹೀರಾತುಗಳನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ ಎಂಬುದನ್ನು ನೋಡಲು ಗೌಪ್ಯತೆ ವರದಿಗಳನ್ನು ಆನ್ ಮಾಡಿ.</translation>
@@ -586,7 +578,7 @@
 <translation id="4954512758656527938">ಡೀಫಾಲ್ಟ್ ಈಥೇರಿಯಮ್ ವ್ಯಾಲೆಟ್</translation>
 <translation id="7701023802820268122">ಡೀಫಾಲ್ಟ್ ಸೊಲಾನಾ ವ್ಯಾಲೆಟ್</translation>
 <translation id="7701040980221191251">ಯಾವುದೂ ಇಲ್ಲ</translation>
-<translation id="8488282162676695335">Brave Wallet</translation>
+<translation id="8488282162676695335">Brave ವ್ಯಾಲೆಟ್</translation>
 <translation id="8792121506918889955">WebRTC IP ನಿರ್ವಹಣೆ ನೀತಿ</translation>
 <translation id="8798099450830957504">ಡಿಫಾಲ್ಟ್</translation>
 <translation id="1822560017823072927">ಡೀಫಾಲ್ಟ್ ಸಾರ್ವಜನಿಕ ಮತ್ತು ಖಾಸಗಿ ಇಂಟರ್ಫೇಸ್‌ಗಳು</translation>
@@ -616,7 +608,6 @@
 <translation id="1577948178257477049"><ph name="ACCOUNT_NAME"/> ಖಾತೆ <ph name="ACCOUNT_NUMBER"/></translation>
 <translation id="7665369617277396874">ಖಾತೆಯನ್ನು ಸೇರಿಸು</translation>
 <translation id="3448492834076427715">ಖಾತೆಯನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಿ</translation>
-<translation id="5532363218245261099">#<ph name="NUMBER"/> <ph name="RECOVERY_PHRASE"/></translation>
 <translation id="1537175937716697987">ನನ್ನ ರಿಕವರಿ ಫ್ರೇಸ್ ನೋಡಿ</translation>
 <translation id="5303015959766064022">ನಾನು ನಂತರ ಬ್ಯಾಕಪ್ ಮಾಡುತ್ತೇನೆ</translation>
 <translation id="7345730059518887993">ಪರಿಶೀಲಿಸೋಣ</translation>
@@ -837,12 +828,12 @@
 <translation id="4351811224047421378">ನಿಖರತೆಯ ದಶಮಾಂಶಗಳು</translation>
 <translation id="3494964159182650590">ಪುರಸ್ಕಾರಗಳ ಸಾರಾಂಶ</translation>
 <translation id="590733288489975971">ಜಾಹೀರಾತುಗಳಿಂದ ರಿವಾರ್ಡ್‌ಗಳು</translation>
+<translation id="1450735350187803276">ಈ ತಿಂಗಳಲ್ಲಿ ನೋಡಿ ಜಾಹೀರಾತುಗಳು</translation>
 <translation id="1767561995429774671">ಕೊಡುಗೆ ನೀಡಿ</translation>
 <translation id="7335371657242627509">ಸ್ವಯಂ-ಕೊಡುಗೆಯಲ್ಲಿ ಸೇರಿ</translation>
 <translation id="6727102863431372879">ಹೊಂದಿಸಿ</translation>
 <translation id="3074127054582480056">ಗಮನ</translation>
 <translation id="2280319752798785157">ಮಾಸಿಕ ಕೊಡುಗೆ</translation>
-<translation id="3079421456571897484"><ph name="VALUE"/> BAT</translation>
 <translation id="1241283133946520352">ನೆಟ್‌ವರ್ಕ್‌ಗಳು</translation>
 <translation id="1062463687579789365">ವ್ಯಾಲೆಟ್ ನೆಟ್‌ವರ್ಕ್‌ಗಳ ಕಸ್ಟಮೈಸೇಶನ್</translation>
 <translation id="2512821599885971349">ನೆಟ್‌ವರ್ಕ್ ಸೇರಿಸಿ</translation>
@@ -1034,7 +1025,6 @@
 <translation id="4530494379350999373">ಮೂಲ</translation>
 <translation id="6736243959894955139">ವಿಳಾಸ</translation>
 <translation id="3095940652251934233">ಸ್ಟೇಟ್‌ಮೆಂಟ್</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">ಆವೃತ್ತಿ</translation>
 <translation id="1313065465616456728">ನೀಡಲಾಗಿರುವುದು</translation>
 <translation id="7902225556763260253">ಅವಧಿ ಮೀರುವ ಸಮಯ</translation>

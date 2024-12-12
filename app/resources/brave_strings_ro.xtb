@@ -217,6 +217,7 @@
 <translation id="4050175100176540509">În cea mai recentă versiune sunt disponibile îmbunătățiri de securitate și funcții noi importante.</translation>
 <translation id="4055805654398742145">M&amp;anager de parole</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{Organizația ta închide automat Brave dacă nu este folosit timp de un minut. Datele de navigare sunt șterse. Aici pot fi incluse istoricul, completările automate și descărcările.}few{Organizația ta închide automat Brave dacă nu este folosit timp de # minute. Datele de navigare sunt șterse. Aici pot fi incluse istoricul, completările automate și descărcările.}other{Organizația ta închide automat Brave dacă nu este folosit timp de # de minute. Datele de navigare sunt șterse. Aici pot fi incluse istoricul, completările automate și descărcările.}}</translation>
+<translation id="2589970573128789862">Modul incognito din Brave</translation>
 <translation id="5794951150713244901">Accesează pagina Despre Brave</translation>
 <translation id="4148957013307229264">Se instalează...</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> – conectare la rețea – Brave</translation>
@@ -616,6 +617,5 @@ Permisiunile pe care le-ați acordat deja site-urilor web și aplicațiilor se p
 <translation id="2176087127109773485">Puteți gestiona lanțurile de sincronizare conectate Brave. Acestea se utilizează pentru browser-ul Brave, Play Store, Gmail și altele. Dacă doriți să adăugați un cont pentru o altă persoană, precum un membru al familiei, adăugați un nou profil în <ph name="DEVICE_TYPE"/>. <ph name="LINK_BEGIN"/>Aflați mai multe<ph name="LINK_END"/></translation>
 <translation id="79269250264141507">Când tastați în bara de adrese sau în caseta de căutare, Brave trimite ceea ce tastați către motorul de căutare implicit pentru a obține sugestii mai bune. Acest lucru este dezactivat în privat.</translation>
 <translation id="3739288578188828252">Atunci când tastați în bara de adrese sau în caseta de căutare, Brave trimite ceea ce tastați către Google Drive pentru a obține sugestii de elemente. Acest lucru este dezactivat în privat.</translation>
-<translation id="2589970573128789862">Brave Private</translation>
 <translation id="5994282802285556682">Când răsfoiți în modul Privat, Brave vă va avertiza înainte de a încărca un site care folosește o conexiune nesecurizată.</translation>
 </translationbundle>

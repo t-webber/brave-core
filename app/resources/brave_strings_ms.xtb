@@ -217,6 +217,7 @@ peranti Bluetooth. <ph name="IDS_SERIAL_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH_LINK"
 <translation id="4050175100176540509">Peningkatan keselamatan penting dan ciri baharu tersedia dalam versi terkini.</translation>
 <translation id="4055805654398742145">Password Manager</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{Organisasi anda akan menutup Brave secara automatik apabila Brave tidak digunakan selama 1 minit. Data semakan imbas dipadamkan. Pemadaman ini termasuk sejarah, autolengkap dan muat turun.}other{Organisasi anda akan menutup Brave secara automatik apabila Brave tidak digunakan selama # minit. Data semakan imbas dipadamkan. Pemadaman ini termasuk sejarah, autolengkap dan muat turun.}}</translation>
+<translation id="2589970573128789862">Inkognito Brave</translation>
 <translation id="5794951150713244901">Akses halaman Perihal Brave</translation>
 <translation id="4148957013307229264">Memasang...</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> - Log Masuk Rangkaian - Brave</translation>
@@ -605,7 +606,7 @@ Keizinan yang telah anda berikan kepada laman web dan apl mungkin digunakan pada
 <translation id="6184592406110188164">Sambungan ini melanggar dasar Gedung Web dan mungkin tidak selamat. Alih keluar daripada Brave supaya ia tidak lagi boleh melihat dan mengubah data anda pada laman yang anda lawati termasuk maklumat peribadi anda.</translation>
 <translation id="1299765473362724475">Amaran: Brave tidak dapat menghalang sambungan daripada merakamkan sejarah penyemakan imbas anda. Untuk melumpuhkan sambungan ini dalam mod Peribadi, nyahpilih pilihan ini.</translation>
 <translation id="1448049584457347995">Untuk menjadikan Brave lebih selamat, kami melumpuhkan beberapa sambungan yang tidak disenaraikan dalam <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> dan mungkin telah ditambahkan tanpa pengetahuan anda.</translation>
-<translation id="8848045066928358658">Untuk menjadikan Brave lebih selamat, kami melumpuhkan sambungan berikut yang tidak disenaraikan dalam  <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> dan mungkin telah ditambahkan tanpa pengetahuan anda.</translation>
+<translation id="8848045066928358658">Untuk menjadikan Brave lebih selamat, kami melumpuhkan sambungan berikut yang tidak disenaraikan dalam <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> dan mungkin telah ditambahkan tanpa pengetahuan anda.</translation>
 <translation id="669092380621816981">Data semakan imbas orang ini akan dipadamkan daripada peranti ini. Untuk memulihkan data itu, log masuk ke Brave sebagai <ph name="USER_EMAIL"/>.</translation>
 <translation id="4624945300945265642">Buka pautan dalam tetingkap inko&amp;gnito Brave</translation>
 <translation id="6554952862405000915">Buka Pautan dalam Tetingkap Inko&amp;gnito Brave</translation>
@@ -616,6 +617,5 @@ Keizinan yang telah anda berikan kepada laman web dan apl mungkin digunakan pada
 <translation id="2176087127109773485">Anda boleh menguruskan rantaian penyegerakan Brave yang anda daftar masuk. Rantaian penyegerakan Brave anda digunakan untuk pelayar Brave, Play Store, Gmail dan banyak lagi. Sekiranya anda ingin menambah akaun untuk orang lain, seperti ahli keluarga, tambahkan profil baharu ke <ph name="DEVICE_TYPE"/> anda. <ph name="LINK_BEGIN"/>Ketahui lebih lanjut<ph name="LINK_END"/></translation>
 <translation id="79269250264141507">Apabila anda menaipkan maklumat ke dalam bar alamat atau kotak carian, Brave menghantar maklumat yang anda taipkan kepada enjin carian lalai anda untuk mendapatkan cadangan lebih baik. Ciri ini dimatikan dalam penyemak imbas Peribadi.</translation>
 <translation id="3739288578188828252">Apabila anda menaipkan maklumat ke dalam bar alamat atau kotak carian, Brave menghantar maklumat yang anda taipkan kepada Google Drive untuk mendapatkan cadangan item. Ciri ini dimatikan dalam penyemak imbas Peribadi.</translation>
-<translation id="2589970573128789862">Brave Private</translation>
 <translation id="5994282802285556682">Apabila menyemak imbas dalam mod Peribadi, Brave akan memberikan amaran kepada anda sebelum memuatkan sesuatu laman menggunakan sambungan yang tidak selamat</translation>
 </translationbundle>

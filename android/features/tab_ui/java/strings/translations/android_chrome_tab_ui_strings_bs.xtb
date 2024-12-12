@@ -16,6 +16,7 @@ Ako je izbrišete, svi će odmah izgubiti pristup grupi kartica "<ph name="TITLE
 <translation id="1419023007528516122">Ovo će trajno izbrisati grupu s uređaja</translation>
 <translation id="1486715732399361704">Ovdje možete pronaći sve grupe kartica</translation>
 <translation id="149054111719651807">{NUM_MINS,plural, =1{Kreirano je prije <ph name="NUM_MINS_ONE"/> minute}one{Kreirano je prije <ph name="NUM_MINS_MANY"/> minute}few{Kreirano je prije <ph name="NUM_MINS_MANY"/> minute}other{Kreirano je prije <ph name="NUM_MINS_MANY"/> minuta}}</translation>
+<translation id="3228718275011575753">Zatvoriti sve anonimne kartice?</translation>
 <translation id="1501480321619201731">Izbriši grupu</translation>
 <translation id="1555130319947370107">Plava</translation>
 <translation id="161042844686301425">Cijan</translation>
@@ -184,6 +185,7 @@ Ako je napustite, odmah ćete izgubiti pristup grupi kartica "<ph name="TITLE_OF
 <translation id="870736955561925754">Zatvoriti karticu i izbrisati grupu?</translation>
 <translation id="8714939927607906138">Niža cijena</translation>
 <translation id="8730621377337864115">Gotovo</translation>
+<translation id="6687920250729800417">Vaša aktivnost na ovim anonimnim karticama će se ukloniti s ovog uređaja</translation>
 <translation id="875848103419578654">{NUM_MONTHS,plural, =1{Kreirano je prije <ph name="NUM_MONTHS_ONE"/> mjeseca}one{Kreirano je prije <ph name="NUM_MONTHS_MANY"/> mjeseca}few{Kreirano je prije <ph name="NUM_MONTHS_MANY"/> mjeseca}other{Kreirano je prije <ph name="NUM_MONTHS_MANY"/> mjeseci}}</translation>
 <translation id="8804742093141782941">Zadrži grupu</translation>
 <translation id="8820741577754260431">Vidite pad cijena na svojim karticama</translation>
@@ -199,6 +201,4 @@ Ako je napustite, odmah ćete izgubiti pristup grupi kartica "<ph name="TITLE_OF
 <translation id="9216898458513705996">Kartice će ostati otvorene na uređaju, ali će se grupa izbrisati sa svih uređaja na kojima ste prijavljeni na <ph name="USER_EMAIL"/></translation>
 <translation id="927441551066996669">{NUMBER_OF_TABS,plural, =1{Proširivanje grupe kartica s <ph name="TABS_COUNT_ONE"/> karticom, boja <ph name="COLOR_NAME"/>.}one{Proširivanje grupe kartica s <ph name="TABS_COUNT_MANY"/> karticom, boja <ph name="COLOR_NAME"/>.}few{Proširivanje grupe kartica s <ph name="TABS_COUNT_MANY"/> kartice, boja <ph name="COLOR_NAME"/>.}other{Proširivanje grupe kartica s <ph name="TABS_COUNT_MANY"/> kartica, boja <ph name="COLOR_NAME"/>.}}</translation>
 <translation id="992256792861109788">Ružičasta</translation>
-<translation id="3228718275011575753">Zatvoriti sve anonimne kartice?</translation>
-<translation id="6687920250729800417">Vaša aktivnost na ovim anonimnim karticama će se ukloniti s ovog uređaja</translation>
 </translationbundle>

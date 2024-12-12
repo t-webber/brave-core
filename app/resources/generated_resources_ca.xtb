@@ -6051,6 +6051,7 @@ Fes servir Ctrl+Alt+disminueix la brillantor per reduir.</translation>
 <translation id="5368246151595623328">S'ha desat "<ph name="NETWORK_NAME"/>" del dispositiu <ph name="DEVICE_NAME"/></translation>
 <translation id="5368441245151140827">Aquesta extensió no pot llegir ni canviar la informació d'un lloc web ni executar-se en segon pla</translation>
 <translation id="5368720394188453070">El telèfon està bloquejat. Desbloquegeu-lo per accedir-hi.</translation>
+<translation id="8712375231869053533">{0,plural, =1{Incògnit}other{Incògnit (#)}}</translation>
 <translation id="5369491905435686894">Activa l'acceleració del ratolí</translation>
 <translation id="5369694795837229225">Configura un entorn de desenvolupament de Linux</translation>
 <translation id="5370819323174483825">&amp;Tornar a carregar</translation>
@@ -7895,6 +7896,7 @@ Tens # contrasenyes més en perill. El gestor de contrasenyes de Brave recomana 
 <translation id="6749077623962119521">Vols restablir els permisos?</translation>
 <translation id="6749473226660745022">Fotos</translation>
 <translation id="6750757184909117990">Desactiva les funcions per a mòbils</translation>
+<translation id="6827869674836193263"><ph name="WINDOW_TITLE"/> (Incògnit)</translation>
 <translation id="6754918760968695779">Inserció ràpida</translation>
 <translation id="6756157672127672536">L'aplicació Fitxers permet accedir ràpidament als fitxers desats a Google Drive, a l'emmagatzematge extern o al dispositiu Chrome OS.</translation>
 <translation id="6756643207511618722">Motors de parla</translation>
@@ -8307,6 +8309,7 @@ Tens # contrasenyes més en perill. El gestor de contrasenyes de Brave recomana 
 <translation id="7025082428878635038">Presentem una nova manera de navegar amb gestos</translation>
 <translation id="7025190659207909717">Gestió de serveis de dades mòbils</translation>
 <translation id="7025895441903756761">Seguretat i privadesa</translation>
+<translation id="1448315815373449655">{COUNT,plural, =0{Obre-les totes en una finestra d'&amp;incògnit}=1{Obre en una finestra d'&amp;incògnit}other{Obre-les totes ({COUNT}) en una finestra d'&amp;incògnit}}</translation>
 <translation id="7029307918966275733">Crostini no està instal·lat. Instal·la'l per veure els crèdits.</translation>
 <translation id="7029809446516969842">Contrasenyes</translation>
 <translation id="7030304022046916278">Envia els URL a Navegació segura perquè els comprovi</translation>
@@ -8340,6 +8343,7 @@ Tens # contrasenyes més en perill. El gestor de contrasenyes de Brave recomana 
 <translation id="7053983685419859001">Bloqueja</translation>
 <translation id="7055152154916055070">S'ha bloquejat la redirecció:</translation>
 <translation id="7055451306017383754">No s'ha pogut deixar de compartir aquesta carpeta perquè una aplicació l'està utilitzant. Es deixarà de compartir la propera vegada que Parallels Desktop s'apagui.</translation>
+<translation id="1860933807472918250">{0,plural, =1{Incògnit}other{# finestres d'incògnit obertes}}</translation>
 <translation id="7056526158851679338">&amp;Inspecciona els dispositius</translation>
 <translation id="7057184853669165321">{NUM_MINS,plural, =1{S'ha executat una comprovació de seguretat fa 1 minut}other{S'ha executat una comprovació de seguretat fa {NUM_MINS} minuts}}</translation>
 <translation id="70577934383983846">Utilitza aquesta contrasenya en tots els teus dispositius</translation>
@@ -11464,7 +11468,7 @@ Obtén informació sobre les dades que Brave recull i sobre el motiu pel qual ho
 <translation id="4132775938064605501">Vols sortir igualment del mode d'incògnit?</translation>
 <translation id="871606814707918245">La majoria d'usuaris bloquegen les notificacions d'aquest lloc web</translation>
 <translation id="8749961973669074620">La majoria dels perfils bloquegen la ubicació exacta per compartir en aquest lloc web</translation>
-<translation id="5053701565089446556">Extensió d'incògnit:  <ph name="EXTENSION_NAME"/></translation>
+<translation id="5053701565089446556">Extensió d'incògnit: <ph name="EXTENSION_NAME"/></translation>
 <translation id="611296870688433505">Aplicació d'incògnit: <ph name="APP_NAME"/></translation>
 <translation id="9048137919253433011">Pestanya d'incògnit: <ph name="TAB_NAME"/></translation>
 <translation id="5932571686022524861">Pàgina de retrocés/avançament d'incògnit a la memòria cau: <ph name="BACK_FORWARD_CACHE_INCOGNITO_PAGE_URL"/></translation>
@@ -11477,7 +11481,6 @@ Obtén informació sobre les dades que Brave recull i sobre el motiu pel qual ho
 <translation id="8261378640211443080">Aquesta extensió no apareix a <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> i és possible que s'hagi afegit sense que ho sapigues.</translation>
 <translation id="3591188117102923109">Personalitzeu encara més el navegador amb extensions de la <ph name="BEGIN_LINK1"/>Botiga Web<ph name="END_LINK1"/></translation>
 <translation id="7226591269860979104">Trobaràs els colors més antics a la Botiga Web</translation>
-<translation id="6827869674836193263"><ph name="WINDOW_TITLE"/> (Private)</translation>
 <translation id="263189163883089157">Pots navegar en privat utilitzant una finestra d'incògnit</translation>
 <translation id="5263632074804780211">Utilitza el web sense guardar l'historial de navegació amb una finestra d'incògnit</translation>
 <translation id="1989101205350450024">Estàs fent servir un ordinador compartit? Intenta obrir una finestra d'incògnit.</translation>
@@ -11512,24 +11515,12 @@ Obtén informació sobre les dades que Brave recull i sobre el motiu pel qual ho
 <translation id="5464506165779993685">Obre en una &amp;finestra d'incògnit</translation>
 <translation id="4620367155626060530">&amp;Mostra les adreces d'interès</translation>
 <translation id="3922078020116835067">Amagar les adreces d'interès</translation>
-<translation id="1448315815373449655">{COUNT, plural,
-          =0 {Open All in &amp;Private Window}
-          =1 {Open in &amp;Private Window}
-          other {Open All ({COUNT}) in &amp;Private Window}}</translation>
 <translation id="1985165269306590797">Obre en una &amp;finestra d'incògnit</translation>
 <translation id="4680518314108745448">&amp;Mostra les adreces d'interès</translation>
 <translation id="2203566065151196658">&amp;Amaga les adreces d'interès</translation>
 <translation id="7206817092936005164">Obre-ho tot en una finestra d'incògnit</translation>
 <translation id="1342491857153455138">Obre-ho tot (<ph name="URL_COUNT"/>) a la finestra d'incògnit</translation>
 <translation id="5556722972306334687">Obre en una finestra d'incògnit</translation>
-<translation id="1860933807472918250">{0, plural,
-        =1 {Private}
-        other {# open Private windows}
-      }</translation>
-<translation id="8712375231869053533">{0, plural,
-      =1 {Private}
-      other {Private (#)}
-    }</translation>
 <translation id="4304377874648098617">Estàs en mode d'incògnit</translation>
 <translation id="7171000599584840888">Afegeix un perfil...</translation>
 <translation id="4536111748245793305">Perfil <ph name="VALUE"/></translation>
@@ -11540,7 +11531,7 @@ Obtén informació sobre les dades que Brave recull i sobre el motiu pel qual ho
 <translation id="7253003527666031200">Cerca més eines d'accessibilitat a la Botiga Web</translation>
 <translation id="154633726381112301">Podeu limitar l'accés a determinats usuaris. Això elimina l'opció "Afegeix un perfil" a la pantalla d'inici de sessió. També podeu eliminar els usuaris actuals.</translation>
 <translation id="8273477935094091719">El vostre <ph name="DEVICE_TYPE"/> utilitza un sensor integrat per detectar perfils davant del dispositiu. Totes les dades es processen al dispositiu immediatament i després s'eliminen. Les dades del sensor no s'envien mai al Brave.<ph name="LINK_BEGIN"/>Saber-ne més<ph name="LINK_END"/></translation>
-<translation id="3096545662097412065">Feu que sigui més complicat que els perfils que tenen accés al vostre trànsit web vegin els llocs web que visiteu.  <ph name="PRODUCT_NAME"/> utilitza una connexió segura per cercar l'adreça IP dels llocs web al DNS (Domain Name System).</translation>
+<translation id="3096545662097412065">Feu que sigui més complicat que els perfils que tenen accés al vostre trànsit web vegin els llocs web que visiteu. <ph name="PRODUCT_NAME"/> utilitza una connexió segura per cercar l'adreça IP dels llocs web al DNS (Domain Name System).</translation>
 <translation id="3189599032195207275">Feu que sigui més complicat que els perfils que tenen accés al vostre trànsit web vegin els llocs web que visiteu. <ph name="PRODUCT_NAME"/> utilitza una connexió segura per cercar l'adreça IP dels llocs web al DNS (Domain Name System). Les connexions segures no s'utilitzen per a alguns dominis configurats pel vostre administrador.</translation>
 <translation id="5832813618714645810">Perfils</translation>
 <translation id="3216703137209942563">{COUNT, plural,

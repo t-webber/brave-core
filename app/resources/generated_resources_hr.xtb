@@ -8928,6 +8928,7 @@ Imate još # ugroženih zaporki. Brave upravitelj zaporki preporučuje da odmah 
 <translation id="7487969577036436319">Nema instaliranih komponenti</translation>
 <translation id="7488682689406685343">Ova vas web-lokacija možda pokušava prevariti kako biste dopustili ometajuće obavijesti.</translation>
 <translation id="7489761397368794366">Nazovi sa svojeg uređaja</translation>
+<translation id="4536111748245793305">Osoba <ph name="VALUE"/></translation>
 <translation id="7490683549040131791">Provjeri preostale zaporke</translation>
 <translation id="7491962110804786152">kart</translation>
 <translation id="7491963308094506985">{NUM_COOKIES,plural, =1{Jedan kolačić}one{{NUM_COOKIES} kolačić}few{{NUM_COOKIES} kolačića}other{{NUM_COOKIES} kolačića}}</translation>
@@ -11541,7 +11542,6 @@ Dopuštenja koja ste već dali web-lokacijama i aplikacijama mogu se primijeniti
     }</translation>
 <translation id="4304377874648098617">Ovo je Privatni prozor</translation>
 <translation id="7171000599584840888">Dodaj profil...</translation>
-<translation id="4536111748245793305">Profile <ph name="VALUE"/></translation>
 <translation id="5828545842856466741">Dodaj profil...</translation>
 <translation id="2254158488150713536">Za nastavak kliknite U radu, a zatim kliknite Dodaj profil da biste izradili novi profil za svoju e-adresu.</translation>
 <translation id="1725743343613175327">Za nastavak kliknite U redu, a zatim kliknite Dodaj profil da biste izradili novi profil za svoju <ph name="DOMAIN"/> e-adresu.</translation>

@@ -17,10 +17,6 @@
 <translation id="8344569602005188545">ঘন্টাগুলি</translation>
 <translation id="7100907433458266664">দিন</translation>
 <translation id="4971389353431353387">দিনগুলি</translation>
-<translation id="2116364690062294218">B</translation>
-<translation id="3123243061080120667">KB</translation>
-<translation id="977224059380370527">MB</translation>
-<translation id="8776285424728638733">GB</translation>
 <translation id="8427933533533814946">এর তোলা ফটো</translation>
 <translation id="7108338896283013870">লুকান</translation>
 <translation id="985862351129593673">ড্যাশবোর্ড কাস্টমাইজ করুন</translation>
@@ -38,7 +34,6 @@
 <translation id="5313967007315987356">সাইট যোগ করুন</translation>
 <translation id="5052499409147950210">সাইট সম্পাদনা করুন</translation>
 <translation id="1181037720776840403">সরান</translation>
-<translation id="7400418766976504921">URL</translation>
 <translation id="6678563120789955720">ওয়েবসাইট ঠিকানা</translation>
 <translation id="5327248766486351172">নাম</translation>
 <translation id="6916084277913254682">ওয়েবসাইটের শিরোনাম</translation>
@@ -112,7 +107,6 @@
 <translation id="5190407395832551012">দেখে মনে হচ্ছে Brave Rewards-এর ওয়ালেট অন্য $provider$ অ্যাকাউন্ট দিয়ে ইতিমধ্যে যাচাই করা হয়েছে। বিজ্ঞাপন আবার শুরু করতে “সমাধান করুন”-এ ক্লিক করুন।</translation>
 <translation id="1693773514029371138">সমাধান করুন</translation>
 <translation id="6991128190741664836">পরবর্তীতে</translation>
-<translation id="8112367589167674370">Brave Talk</translation>
 <translation id="8488282162676695335">Brave ওয়ালেট</translation>
 <translation id="8820817407110198400">বুকমার্কগুলি</translation>
 <translation id="1644574205037202324">ইতিহাস</translation>
@@ -130,7 +124,6 @@
 <translation id="8611976753572844841">Tor সংযোগ সহ প্রাইভেট উইন্ডো</translation>
 <translation id="1645589858096839236">Brave প্রাইভেট উইন্ডোতে ব্রাউজিং কার্যকলাপ সংরক্ষণ করে না। Tor সংযোগের মাধ্যমে ব্যক্তিগত উইন্ডো সাইটগুলির জন্য আপনার আসল IP ঠিকানা দেখা এবং নেটওয়ার্ক পর্যবেক্ষকদের জন্য আপনি কোন সাইটগুলি দেখেন তা দেখা আরও কঠিন হয়ে যায়। তবে, যদি আপনার সুরক্ষা নিজের পরিচয় গোপনার রাখার উপর নির্ভর করে, Tor ব্রাউজার ব্যবহার করুন।</translation>
 <translation id="7919374705736538787">এর সাথে ব্যক্তিগতভাবে সন্ধান করুন</translation>
-<translation id="3135655280958284640">DuckDuckGo</translation>
 <translation id="218839872518145456">ব্যক্তিগত সন্ধানের সাথে, Brave ব্যক্তিগত উইন্ডোগুলিতে থাকা সন্ধানের জন্য DuckDuckGo ব্যবহার করবে না। DuckDuckGo আপনার সন্ধানের ইতিহাস ট্র্যাক করেনা, তাই আপনি ব্যক্তিগতভাবে সন্ধান করতে পারবেন।</translation>
 <translation id="1925197199485958903">Tor এর সাথে ব্যক্তিগত উইন্ডোতে, DuckDuckGo হল ডিফল্ট সন্ধান ইঞ্জিন। অন্য কিছু জনপ্রিয় সন্ধান ইঞ্জিন Tor এর সাথে ব্যবহার করার পক্ষে আরও কঠিন হয়। এমনকি আপনার IP ঠিকানা জানা থাকলেও DuckDuckGo আপনার সন্ধানের ইতিহাস ট্র্যাক করেনা।</translation>
 <translation id="4371533307685765155">DuckDuckGo এর সাথে সন্ধান করুন</translation>
@@ -214,7 +207,6 @@
 <translation id="4394049700291259645">অক্ষম</translation>
 <translation id="4176463684765177261">অক্ষম</translation>
 <translation id="8283001340969131076">দুঃখিত, আপনার <ph name="PROVIDER"/> অ্যাকাউন্টটি সংযোগ বিচ্ছিন্ন করার সময় একটি ত্রুটি হয়েছে। অনুগ্রহ করে একটু পরে আবার চেষ্টা করুন।</translation>
-<translation id="8845154268466251503">BAT</translation>
 <translation id="4684554059837592728">মাসিক অর্থপ্রদান</translation>
 <translation id="2846354907189538">পরের অবদানের তারিখ</translation>
 <translation id="1397381065858030856">দেখা সাইটগুলি</translation>
@@ -357,11 +349,7 @@
 <translation id="5082474983463379713">অনুগ্রহ করে লক্ষ্য করুন:</translation>
 <translation id="1430915738399379752">প্রিন্ট</translation>
 <translation id="2600847485413879104">রিওয়ার্ডগুলির BAT</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
-<translation id="8533411848724153701">Gemini</translation>
 <translation id="6569877533335686968">অনুমোদন করুন</translation>
-<translation id="6011108706830742093">ZebPay</translation>
-<translation id="5390923430722428146">Solana</translation>
 <translation id="6354568176665589146">পুনরাবৃত্তি</translation>
 <translation id="2799223571221894425">পুনঃশুরু</translation>
 <translation id="1110535155349301542">অপসারণ করুন</translation>
@@ -423,14 +411,12 @@
 <translation id="7534079972563542000">অপ্রতিরোধ্য ডোমেইনসমূহ</translation>
 <translation id="4492298165410552103">Brave-এ অপ্রতিরোধ্য ডোমেইনগুলোর সহায়তা সক্রিয় করুন?</translation>
 <translation id="5015092481905019948">Brave <ph name="DOMAIN_PROVIDER_NAME"/>-এ থাকা <ph name="DOMAIN_LIST"/> ডোমেনের নাম সমাধান করতে <ph name="PROVIDER_NAME"/> ব্যবহার করবে। Brave আপনার IP অ্যাড্রেস লুকিয়ে ফেলে। আপনি এটি সক্ষম করলে, <ph name="PROVIDER_NAME"/> দেখতে পাবেন যে কেউ এইসব ডোমেইন দেখার চেষ্টা করছে কিন্তু অন্য কিছু নয়। <ph name="PROVIDER_NAME"/>-এর <ph name="BEGIN_PROVIDER_TOU_LINK"/>ব্যবহারের শর্তাবলী<ph name="END_PROVIDER_TOU_LINK"/> এবং <ph name="BEGIN_PROVIDER_PRIVACY_LINK"/>গোপনীয়তা নীতি<ph name="END_PROVIDER_PRIVACY_LINK"/>দেখুন।</translation>
-<translation id="6513892817556267573">Ethereum Name Service</translation>
 <translation id="2789190492285945209">Ethereum নেম পরিষেবা (ENS)</translation>
 <translation id="4335039108389860301">Brave-এ Ethereum Name Service (ENS)-এর সহায়তা সক্রিয় করবেন?</translation>
 <translation id="807404806385418949">Ethereum নেম সার্ভিস অফচেইন লুকআপ</translation>
 <translation id="4049590838234508776">Brave-এ Ethereum নেম সার্ভিস (ENS)-এর অফচেইন লুকআপ চালু করবেন?</translation>
 <translation id="5944991147217767764">এই .eth ডোমেন নাম অফচেইনে সংরক্ষণ করা হয় এবং তৃতীয় পক্ষের গেটওয়ে দিয়ে সমাধান করা হবে। আপনি যদি ENS অফচেইন লুকআপ চালু করেন, তৃতীয় পক্ষের গেটওয়ে বুঝতে পারবে যে আপনি .eth ডোমেনে যাওয়ার চেষ্টা করছেন। <ph name="BEGIN_BRAVE_LEARN_MORE_LINK"/>আরও জানুন<ph name="END_BRAVE_LEARN_MORE_LINK"/>।</translation>
 <translation id="4047002754575891955">অফচেইন লুকআপের সাথে এগিয়ে যান</translation>
-<translation id="531747189990625622">Solana Name Service</translation>
 <translation id="1090584614351290462">Brave-এ Solana Name Service (SNS)-এর সহায়তা সক্রিয় করবেন?</translation>
 <translation id="7769345036263036863">Brave <ph name="DOMAIN_LIST"/> -এর ডোমেনের নামের সমাধান করতে থার্ড পার্টি ব্যবহার করবে। Brave আপনার IP অ্যাড্রেস লুকিয়ে ফেলে। আপনি এটি সক্ষম করলে, থার্ড পার্টি দেখতে পাবে যে কেউ এইসব <ph name="DOMAIN_LIST"/> ডোমেইন দেখার চেষ্টা করছে কিন্তু অন্য কিছু পাবে না। আমরা কোন থার্ড পার্টি ব্যবহার করি এবং তাদের গোপনীয়তা নীতিগুলি সম্পর্কে আরও তথ্যের জন্য, অনুগ্রহ করে আমাদের <ph name="BEGIN_SNS_WIKI_LINK"/>সহায়তা পৃষ্ঠা<ph name="END_SNS_WIKI_LINK"/> দেখুন।</translation>
 <translation id="884864496166128252"><ph name="PROVIDER_NAME"/> সার্ভার ব্যবহার করে এগিয়ে যান</translation>
@@ -454,7 +440,6 @@
 <translation id="4087894168792701548">সাধারণভাবে এগিয়ে যান</translation>
 <translation id="5874287397425241890">আপনি অফ-দ্য-রেকর্ড মোডে এই ওয়েবসাইটটি ব্রাউজ করছেন।</translation>
 <translation id="1036348656032585052">বন্ধ করুন</translation>
-<translation id="572392919096807438">Remember my decision</translation>
 <translation id="7978789143098237970">আমি যতক্ষুন না এই সাইটটি বন্ধ করি</translation>
 <translation id="3523195733429162409">24 ঘণ্টার জন্য</translation>
 <translation id="2373264732659722940">1 সপ্তাহের জন্য</translation>
@@ -567,7 +552,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>আরও জানুন<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">চিন্তা করবেন না।</translation>
 <translation id="5027616819996705541">আপনি এখনও ব্যক্তিগতভাবে ব্রাউজ করতে পারবেন!</translation>
-<translation id="1450735350187803276">এখনও অবধি উপার্জন</translation>
+<translation id="1450735350187803276">এই মাসে দেখা বিজ্ঞাপনগুলি</translation>
 <translation id="7649070708921625228">সহায়তা</translation>
 <translation id="6042308850641462728">আরও</translation>
 <translation id="6245259297588415877">নির্মাতা</translation>
@@ -773,11 +758,8 @@
 <translation id="4302754476737420523">3 মাস</translation>
 <translation id="5483736362376139517">1 বছর</translation>
 <translation id="6979737339423435258">শুরু থেকে</translation>
-<translation id="3188963375823360044">1H</translation>
-<translation id="8163269366661594721">1D</translation>
 <translation id="7640956400175663828">1সপ্তাহ</translation>
 <translation id="9100647964747998533">1মাস</translation>
-<translation id="6366007539108097840">3M</translation>
 <translation id="6977728312178289892">1বছর</translation>
 <translation id="6598532182053592167">কয়েন যোগ করুন</translation>
 <translation id="5062934803872044756"><ph name="NETWORK"/>-এ <ph name="SYMBOL"/></translation>
@@ -1009,10 +991,6 @@
 <translation id="2902856457593699108">চাবি দেখান</translation>
 <translation id="8033497299373164724">চাবি লুকান</translation>
 <translation id="2702143907607790516">অ্যাকাউন্টের নাম আপডেট করতে ব্যর্থ হয়েছে, অনুগ্রহ করে আবার চেষ্টা করুন।</translation>
-<translation id="3318280255740629162">25%</translation>
-<translation id="2636487255623744079">50%</translation>
-<translation id="8654192805213365413">75%</translation>
-<translation id="3512100619724810532">100%</translation>
 <translation id="5398538976202345089">অসমর্থিত নেটওয়ার্ক</translation>
 <translation id="1448289340149908413">ইথেরিয়াম</translation>
 <translation id="1530109021798294736">মেইননেট</translation>
@@ -1262,11 +1240,7 @@
 <translation id="6534275647567011533">Transak-এর মাধ্যমে কিনুন</translation>
 <translation id="5973390321030037823">লিঙ্ক দিয়ে কিনুন</translation>
 <translation id="1932640759496708012">Coinbase Pay দিয়ে পেমেন্ট করুন</translation>
-<translation id="8725252491405767337">Ramp.Network</translation>
-<translation id="1130009472404762036">Sardine</translation>
-<translation id="503018546142690471">Transak</translation>
 <translation id="7295150312737713113">Stripe দিয়ে লিঙ্ক করুন</translation>
-<translation id="7191335763519723663">Coinbase Pay</translation>
 <translation id="7667423728712601865">Visa বা Mastercard দিয়ে ক্রিপ্টো কিনুন।</translation>
 <translation id="3648994606506382289">কার্ড এবং ব্যাঙ্ক ট্রান্সফারগুলির মাধ্যমে ক্রিপ্টো কেনার সহজতম, দ্রুততম এবং সবচেয়ে সস্তা উপায়।</translation>
 <translation id="3101839349578102016">আপনার ব্যাঙ্ক একাউন্ট দিয়ে তাৎক্ষণিক কিনুন। কম ফি।</translation>
@@ -1343,7 +1317,6 @@
 <translation id="4530494379350999373">উৎস</translation>
 <translation id="6736243959894955139">ঠিকানা</translation>
 <translation id="3095940652251934233">স্টেটমেন্ট</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">সংস্করণ</translation>
 <translation id="1313065465616456728">ইস্যু করার সময়</translation>
 <translation id="7902225556763260253">মেয়াদ শেষ হওয়ার সময়</translation>
@@ -1555,7 +1528,6 @@
 <translation id="7657322905916621147">রিকভারি বাক্যাংশটি 12, 15, 18, 21, বা 24 শব্দের হতে হবে</translation>
 <translation id="5026874946691314267">এটি আবার দেখাবেন না</translation>
 <translation id="434502623875309667">ঠিকানা রেজোলিউশনের অফচেইন নেটওয়ার্কের অনুরোধ প্রয়োজন। এগিয়ে যাবেন?</translation>
-<translation id="2779500703989728346">NFT</translation>
 <translation id="1893207255459018302">কোনো লেনদেনের ইতিহাস নেই</translation>
 <translation id="5356382676355994980">আপনার Brave ওয়ালেট দিয়ে করা লেনদেন এখানে দেখানো হবে।</translation>
 <translation id="3033638954295674319">NFT-র বিশদ বিবরণ আনার সময়ে কোনো কিছু ভুল হয়েছে। অনুগ্রহ করে পরে আবার চেষ্টা করুন।</translation>
@@ -1604,7 +1576,6 @@
 <translation id="2379187373676242615">CoinGecko-এর চেয়ে <ph name="VALUE"/>% সস্তা</translation>
 <translation id="5351867352310722022"><ph name="VALUE"/>% CoinGecko-এর মধ্যে</translation>
 <translation id="7695501918490163821">CoinGecko-এর চেয়ে <ph name="VALUE"/>% এর বেশি ব্যয়বহুল</translation>
-<translation id="6599816589121202398">API</translation>
 <translation id="7561262633951061138">সেরা</translation>
 <translation id="8060029310790625334">সহায়তা কেন্দ্র</translation>
 <translation id="3143110700666266545">এই অ্যাপ নিম্নোক্ত তৃতীয় পক্ষের APIs ব্যবহার করে:</translation>
@@ -1650,7 +1621,6 @@
 <translation id="8549067157732633185">এই টোকেনটি ভেরিফাই করা হয়েছে</translation>
 <translation id="2130170065617939165">এই টোকেনটি <ph name="NUMBER_OF_LISTS"/>টি লিস্টে ভেরিফাই করা হয়েছে</translation>
 <translation id="1554316484739382186">স্পেন্ডার: <ph name="ADDRESS"/></translation>
-<translation id="4265415116535094892">Zebpay</translation>
 <translation id="3026353765778463291"><ph name="PROVIDER"/> অ্যাকাউন্ট</translation>
 <translation id="5360752485622434494"><ph name="PROVIDER"/>-এ Brave পুরস্কার BAT</translation>
 <translation id="429061011725027672">আপনি বর্তমানে <ph name="PROVIDER"/> থেকে লগ আউট করেছেন। আপনার ব্যালেন্স দেখতে অনুগ্রহ করে লগ ইন করুন।</translation>
@@ -1698,7 +1668,6 @@
 <translation id="2454691116905703258">একটি NFT-এর টোকেন নাম একটি নির্দিষ্ট সংগ্রহ বা প্রকল্পের মধ্যে একটি পরম্পর সম্পর্কযুক্ত নয় এমন টোকেনকে দেওয়া নির্দিষ্ট নামকে বোঝায়। এই নামটি একই সংগ্রহের মধ্যে একটি NFT-কে অন্যটির থেকে আলাদা করে।</translation>
 <translation id="3212749868469431851">NFT প্রতীকটি NFT সংগ্রহ বা প্রকল্পকে আলাদা করতে ব্যবহৃত অনন্য শনাক্তকারীকে বোঝায়।</translation>
 <translation id="8198838794018761504">শুধুমাত্র দেখার যোগ্য</translation>
-<translation id="193368604235852218">Web3</translation>
 <translation id="3417321754118442366">কোনো DApps খুঁজে পাওয়া যায়নি</translation>
 <translation id="4864082959618144988">ওয়ালেটগুলি সক্রিয় করুন</translation>
 <translation id="5445224754926400848"><ph name="VALUE"/> দেখুন</translation>
@@ -1828,7 +1797,6 @@
 <translation id="7948579849190819732">বর্তমান ট্যাব</translation>
 <translation id="7056969230130642253">আপনি সব পড়েছেন</translation>
 <translation id="7292242212818928219">নতুন কন্টেন্ট উপলভ্য আছে। আবার লোড করতে চান?</translation>
-<translation id="3924145049010392604">Meta</translation>
 <translation id="7481312909269577407">ফরওয়ার্ড</translation>
 <translation id="1272079795634619415">বন্ধ</translation>
 <translation id="302781076327338683">ক্যাশে বাইপাস করে পুনরায় লোড করুন</translation>
@@ -2010,7 +1978,6 @@
 <translation id="1407069428457324124">ডার্ক থিম</translation>
 <translation id="9050211734566144118">সিস্টেম থিম</translation>
 <translation id="812549962360031312">সানস্</translation>
-<translation id="5016205925109358554">Serif</translation>
 <translation id="2593272815202181319">মোনোস্পেস</translation>
 <translation id="8960352557529001690">ডিসলেক্সিক</translation>
 <translation id="8189819085033738728">ফন্ট সাইজ কমান</translation>
@@ -2140,7 +2107,7 @@
 <translation id="7509914170164691086"><ph name="LINK_AFTER"/>-এর জন্য <ph name="LINK_BEFORE"/>-এ শিল্ড চালু করা হয়েছে</translation>
 <translation id="260764436039299868"><ph name="LINK_AFTER"/>-এর জন্য <ph name="LINK_BEFORE"/>-এ শিল্ড বন্ধ করা হয়েছে</translation>
 <translation id="3907405056878805220">যদি এই সাইটটি অসুবিধা মনে হয়, শিল্ডস ডাউন করে দেখুন।
-    <ph name="LINK_BEFORE"/>দ্রষ্টব্য: এটি Brave-এর গোপনীয় সুরক্ষা হ্রাস করতে পারে।<ph name="LINK_AFTER"/></translation>
+   <ph name="LINK_BEFORE"/>দ্রষ্টব্য: এটি Brave-এর গোপনীয় সুরক্ষা হ্রাস করতে পারে।<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">ট্র্যাকার, বিজ্ঞাপন এবং আরও অনেক কিছু ব্লক করা হয়েছে, <ph name="LINK_BEFORE"/>আরও জানুন<ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Brave শিল্ড দিয়ে সুরক্ষিত নয়, <ph name="LINK_BEFORE"/>আরও জানুন<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">উন্নত ধরনের নিয়ন্ত্রণসমূহ</translation>
@@ -2309,6 +2276,7 @@ Brave এর একটি সহায়ক পরিষেবা রয়েছে 
 <translation id="8048263175525832621">Brave VPN - বিছিন্ন করা হয়েছে</translation>
 <translation id="1498770726476841108">অ্যাকাউন্ট নিয়ন্ত্রন করুন</translation>
 <translation id="6825718953004242472">আইকন অপসারণ করুন</translation>
+<translation id="8425213833346101688">পরিবর্তন</translation>
 <translation id="3287942014983548982">এখানে খুলুন</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/> বুকমার্ক,
     বর্তমানে খোলা আছে, খোলা ট্যাবে সুইচ করতে ট্যাবের পরে এন্টার টিপুন</translation>
@@ -2316,7 +2284,4 @@ Brave এর একটি সহায়ক পরিষেবা রয়েছে 
     জন্য এন্টার টিপুন</translation>
 <translation id="451189393813405346">Leo-কে জিজ্ঞাসা করুন</translation>
 <translation id="8525248723479742219">পরে প্লে করুন</translation>
-<translation id="1450735350187803276">এই মাসে দেখা বিজ্ঞাপনগুলি</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">পরিবর্তন</translation>
 </translationbundle>

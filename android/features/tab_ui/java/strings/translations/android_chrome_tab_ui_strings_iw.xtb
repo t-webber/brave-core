@@ -16,6 +16,7 @@
 <translation id="1419023007528516122">הקבוצה תימחק לתמיד מהמכשיר שלך</translation>
 <translation id="1486715732399361704">כל קבוצות הכרטיסיות שלך מופיעות כאן</translation>
 <translation id="149054111719651807">{NUM_MINS,plural, =1{נוצרה לפני דקה (<ph name="NUM_MINS_ONE"/>)}one{נוצרה לפני <ph name="NUM_MINS_MANY"/> דקות}two{נוצרה לפני <ph name="NUM_MINS_MANY"/> דקות}other{נוצרה לפני <ph name="NUM_MINS_MANY"/> דקות}}</translation>
+<translation id="3228718275011575753">לסגור את כל הכרטיסיות הפרטיות?</translation>
 <translation id="1501480321619201731">מחיקת קבוצה</translation>
 <translation id="1555130319947370107">כחול</translation>
 <translation id="161042844686301425">ציאן</translation>
@@ -27,6 +28,7 @@
 <translation id="1869137256605757565">{TABS_COUNT,plural, =1{כרטיסייה אחת (<ph name="TABS_COUNT_ONE"/>)}one{<ph name="TABS_COUNT_MANY"/> כרטיסיות}two{<ph name="TABS_COUNT_MANY"/> כרטיסיות}other{<ph name="TABS_COUNT_MANY"/> כרטיסיות}}</translation>
 <translation id="2050597508048557928">{TABS_COUNT,plural, =1{הוספת הכרטיסייה (<ph name="TABS_COUNT_ONE"/>) שנבחרה לסימניות}one{הוספת <ph name="TABS_COUNT_MANY"/> הכרטיסיות שנבחרו לסימניות}two{הוספת <ph name="TABS_COUNT_MANY"/> הכרטיסיות שנבחרו לסימניות}other{הוספת <ph name="TABS_COUNT_MANY"/> הכרטיסיות שנבחרו לסימניות}}</translation>
 <translation id="2118649612461486615">פרטי החנות</translation>
+<translation id="6086127758480584723">{INCOGNITO_TABS_COUNT,plural, =1{אפשר לפתוח מחדש את הכרטיסיות והקבוצות שסגרת בקטע 'כרטיסיות אחרונות' ובקטע 'קבוצות של כרטיסיות'. הכרטיסייה הפרטית לא תהיה זמינה.}one{אפשר לפתוח מחדש את הכרטיסיות והקבוצות שסגרת בקטע 'כרטיסיות אחרונות' ובקטע 'קבוצות של כרטיסיות'. ‫# הכרטיסיות הפרטיות לא יהיו זמינות.}two{אפשר לפתוח מחדש את הכרטיסיות והקבוצות שסגרת בקטע 'כרטיסיות אחרונות' ובקטע 'קבוצות של כרטיסיות'. ‫# הכרטיסיות הפרטיות לא יהיו זמינות.}other{אפשר לפתוח מחדש את הכרטיסיות והקבוצות שסגרת בקטע 'כרטיסיות אחרונות' ובקטע 'קבוצות של כרטיסיות'. ‫# הכרטיסיות הפרטיות לא יהיו זמינות.}}</translation>
 <translation id="2162620598375156287">עכשיו במחיר <ph name="CURRENT_PRICE"/> ב-<ph name="SOURCE_WEBSITE"/></translation>
 <translation id="22623456902492423">{TABS_COUNT,plural, =1{הסרת הכרטיסייה מהקבוצה}one{הסרת הכרטיסיות מהקבוצה}two{הסרת הכרטיסיות מהקבוצה}other{הסרת הכרטיסיות מהקבוצה}}</translation>
 <translation id="2271452184061378400">קבוצות הכרטיסיות שלך נשמרות כאן</translation>
@@ -183,6 +185,7 @@
 <translation id="870736955561925754">לסגור את הכרטיסייה ולמחוק את הקבוצה?</translation>
 <translation id="8714939927607906138">מחיר נמוך יותר</translation>
 <translation id="8730621377337864115">בוצע</translation>
+<translation id="6687920250729800417">הפעילות שלך בכרטיסיות הפרטיות האלה תוסר מהמכשיר הזה</translation>
 <translation id="875848103419578654">{NUM_MONTHS,plural, =1{נוצרה לפני חודש (<ph name="NUM_MONTHS_ONE"/>)}one{נוצרה לפני <ph name="NUM_MONTHS_MANY"/> חודשים}two{נוצרה לפני חודשיים (<ph name="NUM_MONTHS_MANY"/>)}other{נוצרה לפני <ph name="NUM_MONTHS_MANY"/> חודשים}}</translation>
 <translation id="8804742093141782941">שמירת הקבוצה</translation>
 <translation id="8820741577754260431">הצגת הנחות בכרטיסיות</translation>
@@ -198,9 +201,4 @@
 <translation id="9216898458513705996">הכרטיסיות יישארו פתוחות במכשיר הזה, אבל הקבוצה תימחק מכל המכשירים שמחוברים לחשבון <ph name="USER_EMAIL"/></translation>
 <translation id="927441551066996669">{NUMBER_OF_TABS,plural, =1{הרחבה של קבוצת הכרטיסיות שמכילה כרטיסייה אחת (<ph name="TABS_COUNT_ONE"/>), בצבע <ph name="COLOR_NAME"/>.}one{הרחבה של קבוצת הכרטיסיות שמכילה <ph name="TABS_COUNT_MANY"/> כרטיסיות, בצבע <ph name="COLOR_NAME"/>.}two{הרחבה של קבוצת הכרטיסיות שמכילה <ph name="TABS_COUNT_MANY"/> כרטיסיות, בצבע <ph name="COLOR_NAME"/>.}other{הרחבה של קבוצת הכרטיסיות שמכילה <ph name="TABS_COUNT_MANY"/> כרטיסיות, בצבע <ph name="COLOR_NAME"/>.}}</translation>
 <translation id="992256792861109788">ורוד</translation>
-<translation id="3228718275011575753">לסגור את כל הכרטיסיות הפרטיות?</translation>
-<translation id="6687920250729800417">הפעילות שלך בכרטיסיות הפרטיות האלה תוסר מהמכשיר הזה</translation>
-<translation id="6086127758480584723">{INCOGNITO_TABS_COUNT, plural,
-        =1 {ניתן לפתוח מחדש את הכרטיסיות והקבוצות הסגורות שלך מן החלק כרטיסיות אחרונות ומן החלק קבוצות כרטיסיות. הכרטיסייה הפרטית שלך לא תהיה זמינה.}
-        other {ניתן לפתוח מחדש את הכרטיסיות והקבוצות הסגורות שלך מקטע הכרטיסיות האחרונות ומקטע קבוצות הכרטיסיות. # הכרטיסיות הפרטיות שלך לא יהיו זמינות.}}</translation>
 </translationbundle>

@@ -219,6 +219,7 @@
 <translation id="4050175100176540509">አስፈላጊ የደህንነት ማሻሻያዎች እና አዲስ ባህሪያት በቅርብ ጊዜው ስሪቱ ላይ ይገኛሉ።</translation>
 <translation id="4055805654398742145">የይለፍ ቃል አስተዳዳሪ</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{ድርጅትዎ Brave ለ1 ደቂቃ ጥቅም ላይ ሳይውል ሲቀር በራስ ሰር ይዘጋዋል። የአሰሳ ውሂብ ተሰርዟል። ይህ ታሪክን፣ ራስ-ሙላን እና ውርዶችን ሊያካትት ይችላል።}one{ድርጅትዎ Brave ለ# ደቂቃ ጥቅም ላይ ሳይውል ሲቀር በራስ ሰር ይዘጋዋል። የአሰሳ ውሂብ ተሰርዟል። ይህ ታሪክን፣ ራስ-ሙላን እና ውርዶችን ሊያካትት ይችላል።}other{ድርጅትዎ Brave ለ# ደቂቃዎች ጥቅም ላይ ሳይውል ሲቀር በራስ ሰር ይዘጋዋል። የአሰሳ ውሂብ ተሰርዟል። ይህ ታሪክን፣ ራስ-ሙላን እና ውርዶችን ሊያካትት ይችላል።}}</translation>
+<translation id="2589970573128789862">Brave ማንነት የማያሳውቅ</translation>
 <translation id="5794951150713244901">ወደ ስለBrave ገጽ ይሂዱ</translation>
 <translation id="4148957013307229264">በመጫን ላይ...</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> - በአውታረ መረብ ወደ መለያ መግባት - Brave</translation>
@@ -618,6 +619,5 @@ Brave ቅንብሮችዎን ማስመለስ አልቻለም።</translation>
 <translation id="2176087127109773485">በመለያ የገቡ Brave የማመሳሰል ሰንሰለቶችን ማቀናበር ይችላሉ። የእርስዎ Brave የማመሳሰል ሰንሰለቶች ለBrave አሳሽ ፣ ለ Play መደብር ፣ ለጂሜይል እና ለሌሎችም ያገለግላሉ። ለሌላ ሰው መለያ ማከል ከፈለጉ ፣ እንደ የቤተሰብ አባል ፣ አዲስ መገለጫ ወደ እርስዎ ያክሉ <ph name="DEVICE_TYPE"/> instead. <ph name="LINK_BEGIN"/>Learn more<ph name="LINK_END"/></translation>
 <translation id="79269250264141507">በአድራሻ አሞሌው ወይም የፍለጋ ሳጥን ላይ ሲተይቡ፣ Brave የተሻሉ ጥቆማዎችን ለማግኘት በእርስዎ ነባሪ የፍለጋ ሞተር የተየቡትን ይልካል። ይህ በግላዊነት ውስጥ ይጠፋል።</translation>
 <translation id="3739288578188828252">በአድራሻ አሊሌው ወይም የፍለጋ ሳጥን ላይ ሲተይቡ፣ Brave የተሻሉ ጥቆማዎችን ለማግኘት በGoogle Drive የተየቡትን ይልካል። ይህ በግላዊነት ውስጥ ይጠፋል።</translation>
-<translation id="2589970573128789862">Brave Private</translation>
 <translation id="5994282802285556682">በግል ሁነታ ውስጥ ሲያስሱ Brave ደህንነቱ ያልተጠበቀ ግንኙነት በመጠቀም ጣቢያ ከመጫንዎ በፊት ያስጠነቅቀዎታል</translation>
 </translationbundle>

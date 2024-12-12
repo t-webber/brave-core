@@ -729,6 +729,7 @@ Din Brave-konto kan have andre former for browserhistorik, f.eks. søgninger og 
 <translation id="452750746583162491">Gennemgå dine synkroniserede data</translation>
 <translation id="4532845899244822526">Vælg mappe</translation>
 <translation id="4543131175509360848">Feltet "Ingen tilgængelige adgangsnøgler"</translation>
+<translation id="40716919553748435">{TAB_COUNT,plural, =1{<ph name="TAB_COUNT_ONE"/> fane}one{<ph name="TAB_COUNT_MANY"/> fane og <ph name="TAB_COUNT_INCOGNITO"/> inkognitofane}other{<ph name="TAB_COUNT_MANY"/> faner og <ph name="TAB_COUNT_INCOGNITO"/> inkognitofaner}}</translation>
 <translation id="4558311620361989323">Genveje på websider</translation>
 <translation id="4561730552726921821">Tilmeldingen blev fuldført</translation>
 <translation id="4565377596337484307">Skjul adgangskode</translation>
@@ -744,6 +745,7 @@ Din Brave-konto kan have andre former for browserhistorik, f.eks. søgninger og 
 <translation id="2782276843156939908">Dine lister over gemte adgangskoder til Brave og <ph name="CHROME_CHANNEL"/> blev flettet. Du kan stadig udfylde alle dine gemte adgangskoder automatisk i begge apps.</translation>
 <translation id="4616150815774728855">Åbn <ph name="WEBAPK_NAME"/></translation>
 <translation id="4619564267100705184">Verificer din identitet</translation>
+<translation id="2589970573128789862">Inkognitotilstand i Brave</translation>
 <translation id="4634124774493850572">Brug adgangskode</translation>
 <translation id="4640331037679501949">{NUM_PASSWORDS,plural, =1{1 kompromitteret adgangskode}one{# kompromitteret adgangskode}other{# kompromitterede adgangskoder}}</translation>
 <translation id="4642472735733036929">Prissporing er stoppet</translation>
@@ -1810,7 +1812,6 @@ Du kan ændre denne indstilling ved at <ph name="BEGIN_LINK"/>slette Brave-datae
 <translation id="5722020415664104421">Blokér i privat tilstand</translation>
 <translation id="8915136961932734044">I privat tilstand kan websider ikke bruge dine cookies til at se din browseraktivitet på andre websider, for eksempel for at finde personligt tilpassede annoncer. Funktioner på nogle websider kan påvirkes.</translation>
 <translation id="2213938739750509524">Når du klikker eller skriver i adressefeltet eller søgefeltet, bliver du præsenteret for anbefalinger fra din standard søgemaskine. Det er slået fra i privat tilstand.</translation>
-<translation id="2589970573128789862">Brave Private</translation>
 <translation id="5809126106485463836">Privat tilstand holder din browsing privat fra andre, der bruger din enhed</translation>
 <translation id="2633278372998075009">Private faner</translation>
 <translation id="8810805383611013660">Åbn i Privat fane</translation>
@@ -1837,9 +1838,6 @@ Du kan ændre denne indstilling ved at <ph name="BEGIN_LINK"/>slette Brave-datae
 <translation id="5048396920203761159">{TAB_COUNT, plural,
           =1 {<ph name="TAB_COUNT_ONE"/> privat faneblad}
           other {<ph name="TAB_COUNT_NORMAL"/> private faneblade}}</translation>
-<translation id="40716919553748435">{TAB_COUNT, plural,
-          =1 {<ph name="TAB_COUNT_ONE"/> tab}
-          other {<ph name="TAB_COUNT_MANY"/> tabs, <ph name="TAB_COUNT_INCOGNITO"/> private}}</translation>
 <translation id="1982350477927404142">{TAB_COUNT, plural,
           =1 {<ph name="TAB_COUNT_ONE"/> privat faneblad bliver lukket}
           other {<ph name="TAB_COUNT_MANY"/> private faneblade bliver lukket}}</translation>

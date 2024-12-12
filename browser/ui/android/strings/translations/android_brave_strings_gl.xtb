@@ -84,7 +84,6 @@
 <translation id="1118970888826017401">Activar a compatibilidade coa excepción de redirección de máximo nivel das URL de seguimento</translation>
 <translation id="94154759592465111">Bloquear guións</translation>
 <translation id="7714773920987474116">Bloquea JavaScript (pode que os sitios non funcionen)</translation>
-<translation id="995782501881226248">YouTube</translation>
 <translation id="2233004324252915283">Bloquear contido recomendado de YouTube</translation>
 <translation id="1005372663692637999">Bloquea os elementos da tarxeta final e A continuación en youtube.com.</translation>
 <translation id="5152595963250646670">Bloquear elementos de distracción de YouTube</translation>
@@ -115,7 +114,6 @@
 <translation id="9148058034647219655">Saír</translation>
 <translation id="8047754398610073499">Bloquear avisos de aceptación de cookies</translation>
 <translation id="2621893359845808115">Bloquea as ventás emerxentes dos sitios web que che solicitan aceptar/rexeitar cookies no seu sitio</translation>
-<translation id="7534079972563542000">Unstoppable Domains</translation>
 <translation id="6486983549008741930">Filtrado de contido</translation>
 <translation id="2398817776566547893">Activar filtros personalizados que bloqueen rastrexadores rexionais e específicos do idioma, así como outro tipo de molestias</translation>
 <translation id="8578397014396032341">Filtros de contido</translation>
@@ -137,7 +135,6 @@
 <translation id="5132969826889386652">Os cambios gardáronse correctamente</translation>
 <translation id="4335929145384293789">Engade os filtros personalizados que creaches, un por liña, no campo anterior. Asegúrese de usar <ph name="ADBLOCK_FILTER_SYNTAX"/>.</translation>
 <translation id="5023212862780303376">Sintaxe de filtro de Adblock</translation>
-<translation id="6513892817556267573">Ethereum Name Service</translation>
 <translation id="531747189990625622">Servizo de nomes de Solana</translation>
 <translation id="3894650624018948468">Resolver o método</translation>
 <translation id="8410806609595910352">Busca de ENS fóra da cadea</translation>
@@ -242,7 +239,7 @@
 <translation id="3545804467215833536">Preme para ver Escudos de Brave</translation>
 <translation id="1724327820822194498">Mira todos os elementos non desexados que Brave bloqueou en cada páxina con Escudos.</translation>
 <translation id="5386259141409498372"><ph name="BIG_TECH"/> e <ph name="TRACKER"/> anuncios e rastreadores máis bloqueados</translation>
-<translation id="7256200875155794202"><ph name="BIG_TECH"/>  e outros anuncios e rastreadores bloqueados</translation>
+<translation id="7256200875155794202"><ph name="BIG_TECH"/> e outros anuncios e rastreadores bloqueados</translation>
 <translation id="3092683655478890840"><ph name="TRACKER_COUNT"/> anuncios e rastreadores bloqueados</translation>
 <translation id="8281886186245836920">Omitir</translation>
 <translation id="1377600615067678409">Saltar por agora</translation>
@@ -412,12 +409,10 @@ Seguro que queres facelo?</translation>
 <translation id="2975780980638932742">Chegaron os anuncios a Brave!</translation>
 <translation id="7541582550122501404">Pendente de contribuír</translation>
 <translation id="8520059774736886747">O creador <ph name="PUBLISHER_NAME"/> foi verificado recentemente</translation>
-<translation id="1486343603936278248">token</translation>
 <translation id="7781069478569868053">Nova lapela</translation>
 <translation id="3171669670217312786">Imaxes de fondo</translation>
 <translation id="8522669544471808198">Amosar as imaxes en segundo plano</translation>
 <translation id="3870475560794762985">Ensinar imaxes patrocinadas</translation>
-<translation id="8793108040181436796">Widgets</translation>
 <translation id="8643377320501056697">Ensinar os sitios máis importantes</translation>
 <translation id="7275773481201277457">Ensinar os estados de Brave</translation>
 <translation id="8297488609722895137">Foto pertencente a <ph name="PHOTO_BY"/></translation>
@@ -427,9 +422,6 @@ Seguro que queres facelo?</translation>
 <translation id="5308380583665731573">Conectar</translation>
 <translation id="3368922792935385530">Conectada</translation>
 <translation id="6569877533335686968">Defensa</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
-<translation id="8533411848724153701">Gemini</translation>
-<translation id="6011108706830742093">ZebPay</translation>
 <translation id="1665118090708049096">Ir á miña conta de <ph name="WALLET_PROVIDER"/></translation>
 <translation id="4858636682078269312">Inicia sesión na túa conta de <ph name="WALLET_PROVIDER"/></translation>
 <translation id="8874184842967597500">Non conectada</translation>
@@ -517,7 +509,6 @@ Seguro que queres facelo?</translation>
 <translation id="6814582232712814369">Tempo aforrado</translation>
 <translation id="3694122362646626770">Sitios web</translation>
 <translation id="2225863440766607138">Rastreadores</translation>
-<translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
 <translation id="6737820963776538947">Bloqueaches <ph name="COUNT"/> rastreadores e anuncios co navegador de Brave durante as últimas 3 horas.</translation>
 <translation id="5005713153542196658">Navega ata 6 veces máis rápido nos principais sitios de noticias en Brave bloqueando rastreadores e anuncios.</translation>
 <translation id="7427567994475794038">Activa os informes de privacidade para ver cantos rastreadores e anuncios se bloquearon durante as últimas 3 horas.</translation>
@@ -594,7 +585,6 @@ Seguro que queres facelo?</translation>
 <translation id="1689062823386843231">Desactivar UDP non proxied</translation>
 <translation id="6915830896450988084">Enviar con <ph name="CUSTODIAN"/></translation>
 <translation id="1483493594462132177">Enviar</translation>
-<translation id="538450413584738399">Swap</translation>
 <translation id="4556086616242530072">Navegador nativo.\nCustodia propia.\nE multicadea.</translation>
 <translation id="7909462264772842773">Toma o control da túas criptomoedas e NFT. A Carteira de Brave admite Ethereum, cadeas EVM, Solana, Filecoin e moito máis</translation>
 <translation id="165255193061631296">Necesitas unha carteira nova?</translation>
@@ -616,7 +606,6 @@ Seguro que queres facelo?</translation>
 <translation id="1577948178257477049">Conta <ph name="ACCOUNT_NAME"/><ph name="ACCOUNT_NUMBER"/></translation>
 <translation id="7665369617277396874">Engadir conta</translation>
 <translation id="3448492834076427715">Actualizar conta</translation>
-<translation id="5532363218245261099">#<ph name="NUMBER"/> <ph name="RECOVERY_PHRASE"/></translation>
 <translation id="1537175937716697987">Ver a miña frase de recuperación</translation>
 <translation id="5303015959766064022">Vou facer unha copia de seguranza máis tarde</translation>
 <translation id="7345730059518887993">Comprobémolo</translation>
@@ -778,12 +767,10 @@ Se non aceptas esta solicitude, a VPN non se volverá conectar e a conexión a I
 <translation id="6452181791372256707">Rexeitar</translation>
 <translation id="8030852056903932865">Aprobar</translation>
 <translation id="1597199892790541240">Taxa do gas</translation>
-<translation id="1634828734222219955">Total</translation>
 <translation id="7995708795274219641">Cantidade + Gas</translation>
 <translation id="2186011161688824046">Cantidade + tarifa</translation>
 <translation id="1950052789869821983">Transacción</translation>
 <translation id="2304783958703511257">Configuración avanzada</translation>
-<translation id="4220062530885628403">Nonce</translation>
 <translation id="1924965034964265193">Introduza un valor de nonce personalizado</translation>
 <translation id="5317780077021120954">Gardar</translation>
 <translation id="4979796155378508955">É posible que a transacción non se propague á rede se o valor de nonce personalizado non é secuencial ou contén outros erros.</translation>
@@ -837,6 +824,7 @@ Se non aceptas esta solicitude, a VPN non se volverá conectar e a conexión a I
 <translation id="4351811224047421378">Decimais de precisión</translation>
 <translation id="3494964159182650590">Resumo de recompensas</translation>
 <translation id="590733288489975971">Recompensas de Brave Ads</translation>
+<translation id="1450735350187803276">Anuncios vistos este mes</translation>
 <translation id="1767561995429774671">Contribuír</translation>
 <translation id="7335371657242627509">Incluído na Conctribución automática</translation>
 <translation id="6727102863431372879">Configurar</translation>
@@ -1034,7 +1022,6 @@ Se non aceptas esta solicitude, a VPN non se volverá conectar e a conexión a I
 <translation id="4530494379350999373">Orixe</translation>
 <translation id="6736243959894955139">Enderezo</translation>
 <translation id="3095940652251934233">Declaración</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">Versión</translation>
 <translation id="1313065465616456728">Emitido ás</translation>
 <translation id="7902225556763260253">Hora de vencemento</translation>
@@ -1084,7 +1071,6 @@ Se non aceptas esta solicitude, a VPN non se volverá conectar e a conexión a I
 <translation id="7618347247876614969">Conta de táboa de busca de enderezos:</translation>
 <translation id="7659483790930268440">Índice de táboa de busca de enderezos:</translation>
 <translation id="5494920125229734069">Seleccionar todo</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8613144770663526433">Inicie sesión con Carteira de Brave</translation>
 <translation id="3696514931437952995">Está iniciando sesión en <ph name="ORIGIN"/>. Carteira de Brave compartirá o enderezo da súa carteira con <ph name="ORIGIN"/>.</translation>
 <translation id="1028781062521375153">Ver detalles</translation>
@@ -1096,7 +1082,6 @@ Se non aceptas esta solicitude, a VPN non se volverá conectar e a conexión a I
 <translation id="1250335737108905610">Restablecer e borrar os datos de Leo</translation>
 <translation id="6165101586663336913">Para restablecer o asistente Leo, deberás optar por utilizar Leo no futuro, e isto borrará o teu historial de chats. Ao borrar o teu historial de chats, eliminaranse todas as túas conversas anteriores con Leo. Esta acción non se pode desfacer.</translation>
 <translation id="3692772534525889713">Vincula a túa compra de Play Store á túa conta de Brave para usar Brave Leo noutros dispositivos.</translation>
-<translation id="73236265316873967">Leo Premium</translation>
 <translation id="1028627582482425924">Un ano</translation>
 <translation id="2985392169397572983">MELLOR PREZO</translation>
 <translation id="1166682575529520472">Mensualmente</translation>
@@ -1201,7 +1186,6 @@ Se non aceptas esta solicitude, a VPN non se volverá conectar e a conexión a I
 <translation id="5557821203571216370">apartamento</translation>
 <translation id="8051552210542030943">código pin</translation>
 <translation id="5233247193491045452">código postal</translation>
-<translation id="3300502432153878901">zip</translation>
 <translation id="4130750466177569591">Acepto</translation>
 <translation id="3251885322612056119">Termos de servizo actualizados</translation>
 <translation id="4049035689681585146">Actualizamos os Termos servizo de Brave Rewards. Fixemos estas actualizacións para aclarar os nosos termos e asegurarnos de que  inclúen novas funcións. Se continúas usando Brave Rewards, aceptas os Termos de servizo actualizados. Se non os aceptas, podes <ph name="RESET_START"/>restablecer<ph name="RESET_END"/> Brave Rewards, o cal deshabilitará a función.</translation>

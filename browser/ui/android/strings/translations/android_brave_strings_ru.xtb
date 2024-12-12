@@ -84,7 +84,6 @@
 <translation id="1118970888826017401">Включить поддержку обхода URL-адресов отслеживания верхнего уровня.</translation>
 <translation id="94154759592465111">Блокировать скрипты</translation>
 <translation id="7714773920987474116">Блокировать JavaScript (сайты могут работать некорректно)</translation>
-<translation id="995782501881226248">YouTube</translation>
 <translation id="2233004324252915283">Блокировать рекомендации YouTube</translation>
 <translation id="1005372663692637999">Блокировать конечные заставки и предложения следующего видео на сервисе YouTube.</translation>
 <translation id="5152595963250646670">Блокировать не обязательные элементы YouTube</translation>
@@ -115,7 +114,6 @@
 <translation id="9148058034647219655">Выход</translation>
 <translation id="8047754398610073499">Блокировка уведомлений о согласии на использование файлов cookie</translation>
 <translation id="2621893359845808115">Блокирует всплывающие окна с запросом на принятие/отклонение файлов cookie на сайтах</translation>
-<translation id="7534079972563542000">Unstoppable Domains</translation>
 <translation id="6486983549008741930">Фильтры контента</translation>
 <translation id="2398817776566547893">Настройте фильтры, чтобы блокировать навязчивую рекламу, а также трекеры, отслеживающие пользователей по региону и языку.</translation>
 <translation id="8578397014396032341">Фильтры контента</translation>
@@ -138,7 +136,6 @@
 <translation id="4335929145384293789">В поле выше добавьте по одному в каждой строке созданные вами пользовательские фильтры. Обязательно используйте <ph name="ADBLOCK_FILTER_SYNTAX"/>.</translation>
 <translation id="5023212862780303376">Синтаксис фильтров Adblock</translation>
 <translation id="6513892817556267573">Служба имен Ethereum</translation>
-<translation id="531747189990625622">Solana Name Service</translation>
 <translation id="3894650624018948468">Способ разрешения</translation>
 <translation id="8410806609595910352">Офчейн-поиск в ENS</translation>
 <translation id="2356070529366658676">Спрашивать</translation>
@@ -216,7 +213,6 @@
 <translation id="49147335255967913">Открывать ссылки YouTube в Brave</translation>
 <translation id="4150201353443180367">Экран</translation>
 <translation id="4275663329226226506">Медиа</translation>
-<translation id="5950428831347558278">Widevine DRM</translation>
 <translation id="6716942308303275900">Использовать систему управления цифровыми правами (DRM) Widevine для просмотра защищенного контента в браузере.</translation>
 <translation id="255204363133978824">Разрешите воспроизводить защищенный контент</translation>
 <translation id="4736073408974888559"><ph name="BEGIN_LINK"/>Подробнее о Widevine…<ph name="END_LINK"/></translation>
@@ -252,7 +248,7 @@
 <translation id="1331593888918588693">Вы всегда сможете изменить свои предпочтения позже в настройках приложения.</translation>
 <translation id="5806601733251372221">Защита Brave</translation>
 <translation id="8537217141725709400">Заработать <ph name="TOKEN"/>s</translation>
-<translation id="3333887201479867589">Brave Rewards</translation>
+<translation id="3333887201479867589">Вознаграждения Brave</translation>
 <translation id="5870330605209713397">посредством просмотра рекламы, соответствующей принципам уважения конфиденциальности, и поддержки ваших любимых сайтов и авторов по умолчанию.</translation>
 <translation id="5302488867897327287">Кликнув на Начать использовать Brave Rewards, вы соглашаетесь с</translation>
 <translation id="4281844954008187215">Условия использования</translation>
@@ -270,7 +266,6 @@
 <translation id="19715420010996093">Выберите Brave Browser в списке и нажмите 'Всегда'</translation>
 <translation id="3546439402724649282">Brave уже установлен в качестве браузера по умолчанию.</translation>
 <translation id="8389661903259423907">Вы уже установили браузер по умолчанию. Вы можете изменить браузер по умолчанию в настройках вашего приложения.</translation>
-<translation id="1545749641540134597">Scan QR Code</translation>
 <translation id="5317781812114905957">Инструкции</translation>
 <translation id="8515319483805157233">Чтобы выполнить поиск по QR-коду, поместите его в центр кадра.</translation>
 <translation id="2734870894159530879">Чтобы проверить баланс, войдите в аккаунт <ph name="WALLET_PROVIDER"/></translation>
@@ -282,7 +277,6 @@
 <translation id="745974920645827035">Независимый поиск с более высокой защитой конфиденциальности</translation>
 <translation id="2773167297815493692">Brave Поиск не отслеживает ваши действия.</translation>
 <translation id="5240031343741051161">Попробовать Brave Поиск</translation>
-<translation id="5234764350956374838">Dismiss</translation>
 <translation id="6639570430554986719">ЯНВАРЬ</translation>
 <translation id="1807352595146144483">ФЕВРАЛЬ</translation>
 <translation id="2021828608097804771">МАРТ</translation>
@@ -295,7 +289,6 @@
 <translation id="8220228041552340594">ОКТЯБРЬ</translation>
 <translation id="8280223431922155812">НОЯБРЬ</translation>
 <translation id="4254029385847607686">ДЕКАБРЬ</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
 <translation id="1772301834467143364">Brave Новости</translation>
 <translation id="7732576862074737148">Приблизительно <ph name="VALUE"/> долл. США</translation>
 <translation id="8428213095426709021">Настройки</translation>
@@ -318,7 +311,6 @@
 <translation id="859506441384380749">Код был сгенерирован в устаревшей версии Brave. Обновите браузер на другом устройстве.</translation>
 <translation id="3132642509209154999">Этот код устарел. Сгенерируйте его на втором устройстве еще раз и повторите попытку.</translation>
 <translation id="2859229680945501779">Невозможно применить код. Проверьте, правильно ли указаны время и часовой пояс на вашем устройстве.</translation>
-<translation id="3149880132460839085">Brave Sync</translation>
 <translation id="348794064910142198">С помощью Brave Синхронизации можно приватно синхронизировать закладки браузера Brave на устройствах.\n\nДля этого отсканируйте код из цепи синхронизации с другого устройства или создайте ее на одном из устройств.</translation>
 <translation id="2614069607859982576">Используя существующее синхронизированное устройство, откройте Настройки Brave и перейдите в Настройка и синхронизация. Выберите Добавить новое устройство и сосканируйте отображаемый на экране QR-код.</translation>
 <translation id="5241263629636958324">Скопировано в буфер обмена</translation>
@@ -424,12 +416,9 @@
 <translation id="2898634658146274982">Открывать внешние ссылки в Brave</translation>
 <translation id="5616508928556767259">Ссылки из других приложений будут открываться в Brave. Примечание: Brave должен быть назначен браузером по умолчанию.</translation>
 <translation id="2394961582378297792">Вы вышли</translation>
-<translation id="5308380583665731573">Connect</translation>
+<translation id="5308380583665731573">Подключиться</translation>
 <translation id="3368922792935385530">Подключено</translation>
 <translation id="6569877533335686968">Поддержать</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
-<translation id="8533411848724153701">Gemini</translation>
-<translation id="6011108706830742093">ZebPay</translation>
 <translation id="1665118090708049096">Перейти в аккаунт <ph name="WALLET_PROVIDER"/></translation>
 <translation id="4858636682078269312">Войти в аккаунт <ph name="WALLET_PROVIDER"/></translation>
 <translation id="8874184842967597500">Не подключено</translation>
@@ -437,7 +426,6 @@
 <translation id="9132378787893584761">Поделись Brave с друзьями!</translation>
 <translation id="717952606991220586">Ой, что-то не так. Пожалуйста, повторите попытку позже.</translation>
 <translation id="987264212798334818">Общие</translation>
-<translation id="1116694919640316211">About</translation>
 <translation id="7961015016161918242">Никогда</translation>
 <translation id="1275213816424141989">Может быть, позже</translation>
 <translation id="4406937629441301400">Зарабатывайте жетоны за просмотр этого изображения и платите их создателям. <ph name="LEARN_MORE"/></translation>
@@ -517,7 +505,6 @@
 <translation id="6814582232712814369">сэкономлено времени</translation>
 <translation id="3694122362646626770">Веб-сайты</translation>
 <translation id="2225863440766607138">Трекеры</translation>
-<translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
 <translation id="6737820963776538947">Вы заблокировали <ph name="COUNT"/> трекеров и рекламных объявлений с браузером Brave за последние 3 часа.</translation>
 <translation id="5005713153542196658">Основные новостные сайты загружаются в Brave в 6 раз быстрее благодаря блокировке трекеров и рекламы.</translation>
 <translation id="7427567994475794038">Включите отчеты о конфиденциальности, чтобы узнать, сколько трекеров и рекламы было заблокировано за последние 3 часа.</translation>
@@ -651,7 +638,6 @@
 <translation id="574392208103952083">Пароль средней сложности</translation>
 <translation id="6697810017029555732">Пароли совпадают</translation>
 <translation id="5981303441790732480">Импортируйте его.</translation>
-<translation id="9111102763498581341">Unlock</translation>
 <translation id="6657585470893396449">Пароль</translation>
 <translation id="7553242001898162573">Введите пароль</translation>
 <translation id="5619264711680220002">Разблокировка по биометрии</translation>
@@ -810,7 +796,6 @@
 <translation id="6015436276085482001">Отклонена</translation>
 <translation id="6666273175654835609">Отправлена</translation>
 <translation id="2331676293859649642">Подтверждена</translation>
-<translation id="8214232307424031138">Signed</translation>
 <translation id="1165039591588034296">Ошибка</translation>
 <translation id="2561824823738097741">Используете самый быстрый браузер?</translation>
 <translation id="2065971949051836200">Загружайте страницы на телефоне в 3 раза быстрее. Используйте браузер Brave для любых целей.</translation>
@@ -837,6 +822,7 @@
 <translation id="4351811224047421378">Количество знаков после запятой</translation>
 <translation id="3494964159182650590">Суммарное вознаграждение</translation>
 <translation id="590733288489975971">Вознаграждения за рекламу</translation>
+<translation id="1450735350187803276">Объявлений, просмотренных в этом месяце</translation>
 <translation id="1767561995429774671">Сделать пожертвование</translation>
 <translation id="7335371657242627509">Включить в автоматический вклад</translation>
 <translation id="6727102863431372879">Установить</translation>
@@ -874,14 +860,13 @@
 <translation id="2391762656119864333">Отменить</translation>
 <translation id="3432029672560911238">Аккаунт пользователя</translation>
 <translation id="5753378322046059140">Сменить аккаунт</translation>
-<translation id="3897092660631435901">Menu</translation>
 <translation id="42981349822642051">Развернуть</translation>
 <translation id="3586752056660754651">Подпись</translation>
 <translation id="3950820424414687140">Вход</translation>
 <translation id="6592721981110586529">Подключение к Brave Кошельку</translation>
 <translation id="329813193938846695">Выберите аккаунт(-ы)</translation>
 <translation id="291375746846291973">Подключайте аккаунты только к сайтам, которым доверяете.</translation>
-<translation id="385051799172605136">Back</translation>
+<translation id="385051799172605136">Назад</translation>
 <translation id="1060221736464994328">Разрешить этому сайту переключить сеть?</translation>
 <translation id="2478788592457735063">Это действие поменяет сеть на предыдущую.</translation>
 <translation id="8756686998207163764">Поменять сеть</translation>
@@ -911,7 +896,6 @@
 <translation id="3340247553212049934">Предоставить</translation>
 <translation id="1982257600591932657">Название сети</translation>
 <translation id="5052727830821470769">URL сети</translation>
-<translation id="4822132585477111396">Chain ID</translation>
 <translation id="7131971375297699539">Символ валюты</translation>
 <translation id="7982789257301363584">Сеть</translation>
 <translation id="6936860995365507185">Эта сеть будет использоваться для Brave Кошелька. <ph name="CLICK_START"/>Подробнее<ph name="CLICK_END"/>…</translation>
@@ -979,7 +963,6 @@
 <translation id="3723411967118253067">Идентификатор программы</translation>
 <translation id="4771176409524282426">Создать аккаунт</translation>
 <translation id="1755120947324658439">Назначить</translation>
-<translation id="7588707273764747927">Transfer</translation>
 <translation id="5328067049293286962">Создать аккаунт с seed-фразой</translation>
 <translation id="1512366326138054636">Аккаунт для изменения одноразового числа</translation>
 <translation id="7042202638449257311">Вывести средства с аккаунта со счетчиком транзакций</translation>
@@ -1032,9 +1015,7 @@
 <translation id="442709594176931966">Посмотреть исходное сообщение</translation>
 <translation id="2239252396088484499">Посмотреть сообщение в кодировке ASCII</translation>
 <translation id="4530494379350999373">Происхождение</translation>
-<translation id="6736243959894955139">Address</translation>
 <translation id="3095940652251934233">Команда</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">Версия</translation>
 <translation id="1313065465616456728">Дата получения</translation>
 <translation id="7902225556763260253">Срок действия</translation>
@@ -1084,7 +1065,6 @@
 <translation id="7618347247876614969">Аккаунт в таблице для поиска адреса:</translation>
 <translation id="7659483790930268440">Аккаунт в таблице для поиска индекса:</translation>
 <translation id="5494920125229734069">Выделить все</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8613144770663526433">Войдите с помощью Brave Кошелька</translation>
 <translation id="3696514931437952995">Выполняется вход в аккаунт <ph name="ORIGIN"/>. Сайту <ph name="ORIGIN"/> будет предоставлен адрес вашего Brave Кошелька.</translation>
 <translation id="1028781062521375153">Подробнее</translation>
@@ -1150,7 +1130,6 @@
 <translation id="3803384303807438047">Удалить офлайн-данные объекта</translation>
 <translation id="4195643157523330669">Открыть в новой вкладке</translation>
 <translation id="4243710787042215766">Открыть в приватной вкладке</translation>
-<translation id="8261506727792406068">Delete</translation>
 <translation id="377872456482681602">Сначала выберите объекты</translation>
 <translation id="286472539388773794">Укажите действительное название плейлиста</translation>
 <translation id="2824489375399072491">Поделиться:</translation>

@@ -84,7 +84,6 @@
 <translation id="1118970888826017401">Активувати підтримку обходу переспрямування на верхньому рівні для URL-адрес зі стеженням.</translation>
 <translation id="94154759592465111">Блокувати скрипти</translation>
 <translation id="7714773920987474116">Блокування JavaScript (може порушити роботу вебсайтів)</translation>
-<translation id="995782501881226248">YouTube</translation>
 <translation id="2233004324252915283">Блокувати рекомендований контент YouTube</translation>
 <translation id="1005372663692637999">Блокування елементів наступної та кінцевої карток на youtube.com.</translation>
 <translation id="5152595963250646670">Блокувати надокучливі елементи YouTube</translation>
@@ -115,7 +114,6 @@
 <translation id="9148058034647219655">Вийти</translation>
 <translation id="8047754398610073499">Блокувати сповіщення щодо файлів cookie</translation>
 <translation id="2621893359845808115">Блокування спливних сповіщень із запитами про використання файлів cookie на вебсайтах</translation>
-<translation id="7534079972563542000">Unstoppable Domains</translation>
 <translation id="6486983549008741930">Фільтрування контенту</translation>
 <translation id="2398817776566547893">Увімкніть користувацькі фільтри, які блокують стеження й надокучливі елементи для певного регіону чи мови</translation>
 <translation id="8578397014396032341">Фільтри контенту</translation>
@@ -137,8 +135,6 @@
 <translation id="5132969826889386652">Зміни збережено</translation>
 <translation id="4335929145384293789">Додайте створені користувацькі фільтри (один на рядок) у полі вище. Використовуйте <ph name="ADBLOCK_FILTER_SYNTAX"/>.</translation>
 <translation id="5023212862780303376">синтаксис фільтра Adblock</translation>
-<translation id="6513892817556267573">Ethereum Name Service</translation>
-<translation id="531747189990625622">Solana Name Service</translation>
 <translation id="3894650624018948468">Метод розв’язання</translation>
 <translation id="8410806609595910352">Пошук за межами мережі ENS</translation>
 <translation id="2356070529366658676">Запитати</translation>
@@ -216,7 +212,6 @@
 <translation id="49147335255967913">Відкривати посилання YouTube у Brave</translation>
 <translation id="4150201353443180367">Екран</translation>
 <translation id="4275663329226226506">Медіа</translation>
-<translation id="5950428831347558278">Widevine DRM</translation>
 <translation id="6716942308303275900">Використовувати компонент керування цифровими правами (DRM) Widevine для перегляду захищеного медіаконтенту в браузері.</translation>
 <translation id="255204363133978824">Дозволити захищений контент</translation>
 <translation id="4736073408974888559"><ph name="BEGIN_LINK"/>Докладніше про Widevine<ph name="END_LINK"/></translation>
@@ -295,7 +290,6 @@
 <translation id="8220228041552340594">ЖОВТЕНЬ</translation>
 <translation id="8280223431922155812">ЛИСТОПАД</translation>
 <translation id="4254029385847607686">ГРУДЕНЬ</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
 <translation id="1772301834467143364">Новини Brave</translation>
 <translation id="7732576862074737148">≈ <ph name="VALUE"/> дол. США</translation>
 <translation id="8428213095426709021">Налаштування</translation>
@@ -427,9 +421,6 @@
 <translation id="5308380583665731573">Під’єднатися</translation>
 <translation id="3368922792935385530">Підключено</translation>
 <translation id="6569877533335686968">Підтвердити</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
-<translation id="8533411848724153701">Gemini</translation>
-<translation id="6011108706830742093">ZebPay</translation>
 <translation id="1665118090708049096">Перейти до облікового запису <ph name="WALLET_PROVIDER"/></translation>
 <translation id="4858636682078269312">Увійдіть до облікового запису <ph name="WALLET_PROVIDER"/></translation>
 <translation id="8874184842967597500">Не під’єднано</translation>
@@ -517,7 +508,6 @@
 <translation id="6814582232712814369">Зекономлений час</translation>
 <translation id="3694122362646626770">Вебсайти</translation>
 <translation id="2225863440766607138">Стеження</translation>
-<translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
 <translation id="6737820963776538947">За останні 3 години з браузером Brave ви заблокували <ph name="COUNT"/> вистежувачів та рекламних оголошень.</translation>
 <translation id="5005713153542196658">Основні сайти новин завантажуються з Brave у 6 разів швидше завдяки блокуванню стеження і реклами.</translation>
 <translation id="7427567994475794038">Увімкніть звіти щодо приватності, щоб побачити, скільки вистежувачів та рекламних оголошень було заблоковано за останні 3 години.</translation>
@@ -837,12 +827,12 @@
 <translation id="4351811224047421378">Знаків після коми</translation>
 <translation id="3494964159182650590">Підсумок винагород</translation>
 <translation id="590733288489975971">Винагороди від рекламних оголошень</translation>
+<translation id="1450735350187803276">Реклама, переглянута цього місяця</translation>
 <translation id="1767561995429774671">Зробити внесок</translation>
 <translation id="7335371657242627509">Додати в автовнесок</translation>
 <translation id="6727102863431372879">Установити</translation>
 <translation id="3074127054582480056">Увага!</translation>
 <translation id="2280319752798785157">Щомісячний внесок</translation>
-<translation id="3079421456571897484"><ph name="VALUE"/> BAT</translation>
 <translation id="1241283133946520352">Мережі</translation>
 <translation id="1062463687579789365">Налаштування мереж гаманця</translation>
 <translation id="2512821599885971349">Додати мережу</translation>
@@ -969,12 +959,9 @@
 <translation id="1148624853678088576">Усе готово!</translation>
 <translation id="4131445988101719379">Ваш гаманець Brave готовий до використання</translation>
 <translation id="6252742184395380448">Програма налаштувань</translation>
-<translation id="5358970666412490132">Stake Program</translation>
 <translation id="346636227344244984">Програма для голосувань</translation>
 <translation id="3538368258493053874">Завантажник BPF</translation>
-<translation id="2334098351242742927">Ed25519 Program</translation>
 <translation id="6421371987002247943">Програма токенів</translation>
-<translation id="8780753288764281797">Secp256k1 Program</translation>
 <translation id="8504640708321980506">Дані</translation>
 <translation id="3723411967118253067">ID програми</translation>
 <translation id="4771176409524282426">Створити обліковий запис</translation>
@@ -1034,7 +1021,6 @@
 <translation id="4530494379350999373">Походження</translation>
 <translation id="6736243959894955139">Адреса</translation>
 <translation id="3095940652251934233">Виписка</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">Версія</translation>
 <translation id="1313065465616456728">Видано:</translation>
 <translation id="7902225556763260253">Закінчення терміну дії</translation>
@@ -1084,7 +1070,6 @@
 <translation id="7618347247876614969">Обліковий запис таблиці пошуку адрес:</translation>
 <translation id="7659483790930268440">Індекс таблиці пошуку адрес:</translation>
 <translation id="5494920125229734069">Вибрати все</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8613144770663526433">Увійти до гаманця Brave</translation>
 <translation id="3696514931437952995">Ви входите до <ph name="ORIGIN"/>. Гаманець Brave передасть вашу адресу гаманця в <ph name="ORIGIN"/>.</translation>
 <translation id="1028781062521375153">Переглянути інформацію</translation>
@@ -1096,7 +1081,6 @@
 <translation id="1250335737108905610">Скидання й очищення даних Leo</translation>
 <translation id="6165101586663336913">Скинувши параметри помічника Leo, вам потрібно буде ще раз погодитися з умовами використання Leo в майбутньому. Історію також буде очищено. Очищення історії чату призведе до видалення попередніх розмов із Leo. Цю дію неможливо скасувати.</translation>
 <translation id="3692772534525889713">Зв’яжіть покупку в Play Store з вашим обліковим записом Brave, щоб користуватися Brave Leo і на інших пристроях.</translation>
-<translation id="73236265316873967">Leo Premium</translation>
 <translation id="1028627582482425924">Річна</translation>
 <translation id="2985392169397572983">НАЙКРАЩЕ ЗНАЧЕННЯ</translation>
 <translation id="1166682575529520472">Щомісяця</translation>

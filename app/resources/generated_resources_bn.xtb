@@ -6069,6 +6069,7 @@
 <translation id="5368246151595623328"><ph name="DEVICE_NAME"/>-এ সেভ করা '<ph name="NETWORK_NAME"/>'</translation>
 <translation id="5368441245151140827">এই এক্সটেনশন সাইটের তথ্য পড়তে ও পরিবর্তন করতে অথবা ব্যাকগ্রাউন্ডে চলতে পারবে না</translation>
 <translation id="5368720394188453070">আপনার ফোন লক করা আছে৷ লিখতে আনলক করুন৷</translation>
+<translation id="8712375231869053533">{0,plural, =1{ছদ্মবেশী মোড}one{ছদ্মবেশী মোড (#)}other{ছদ্মবেশী মোড (#)}}</translation>
 <translation id="5369491905435686894">মাউস অ্যাক্সিলারেশন বিকল্পটি চালু করুন</translation>
 <translation id="5369694795837229225">Linux ডেভেলপ করার বিকল্প সেট আপ করুন</translation>
 <translation id="5370819323174483825">&amp;পুনরায় লোড করুন</translation>
@@ -7918,6 +7919,7 @@
 <translation id="6749077623962119521">অনুমতি রিসেট করবেন?</translation>
 <translation id="6749473226660745022">ফটো</translation>
 <translation id="6750757184909117990">মোবাইল নেটওয়ার্ক বন্ধ করুন</translation>
+<translation id="6827869674836193263"><ph name="WINDOW_TITLE"/>(ছদ্মবেশী)</translation>
 <translation id="6754918760968695779">কুইক ইনসার্ট</translation>
 <translation id="6756157672127672536">Google Drive, এক্সটার্নাল স্টোরেজ অথবা আপনার ChromeOS ডিভাইসে আপনি যে ফাইলগুলি সেভ করেছেন ফাইল অ্যাপ সেগুলিতে দ্রুত অ্যাক্সেস প্রদান করে।</translation>
 <translation id="6756643207511618722">স্পিচ ইঞ্জিন</translation>
@@ -11499,7 +11501,6 @@
 <translation id="8261378640211443080">এই এক্সটেনশনটি <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/>-এ তালিকাভুক্ত নেই এবং হয়ত আপনাকে না জানিয়ে যোগ করা হয়েছে৷</translation>
 <translation id="3591188117102923109"><ph name="BEGIN_LINK1"/>ওয়েব স্টোর<ph name="END_LINK1"/> থেকে এক্সটেনশন দিয়ে আপনার ব্রাউজার আরও কাস্টমাইজ করুন</translation>
 <translation id="7226591269860979104">আপনি ওয়েব স্টোরে পুরানো রঙ খুঁজে পেতে পারেন</translation>
-<translation id="6827869674836193263"><ph name="WINDOW_TITLE"/> (Private)</translation>
 <translation id="263189163883089157">আপনি একটি ছদ্মবেশী উইন্ডো ব্যবহার করে ছদ্মবেশী ভাবে ব্রাউজ করতে পারবেন</translation>
 <translation id="5263632074804780211">একটি ছদ্মবেশী উইন্ডো দিয়ে আপনার ব্রাউজিংয়ের ইতিহাস সংরক্ষণ না করে ওয়েবটি ব্যবহার করুন</translation>
 <translation id="1989101205350450024">একটি শেয়ার করা কম্পিউটার ব্যবহার করছেন? একটি ছদ্মবেশী উইন্ডো খোলার চেষ্টা করুন।</translation>
@@ -11548,10 +11549,6 @@
         =1 {ব্যক্তিগত}
         other {# ব্যক্তিগত উইন্ডোগুলি খুলুন}
       }</translation>
-<translation id="8712375231869053533">{0, plural,
-      =1 {Private}
-      other {Private (#)}
-    }</translation>
 <translation id="4304377874648098617">এটি একটি ছদ্মবেশী উইন্ডো</translation>
 <translation id="7171000599584840888">প্রোফাইল যোগ করুন...</translation>
 <translation id="4536111748245793305">প্রোফাইলের <ph name="VALUE"/></translation>

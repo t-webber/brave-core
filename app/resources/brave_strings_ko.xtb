@@ -218,6 +218,7 @@
 <translation id="4050175100176540509">최신 버전에는 중요한 보안 개선사항 및 새로운 기능이 포함되어 있습니다.</translation>
 <translation id="4055805654398742145">비밀번호 관리자(&amp;A)</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{Brave을 1분 동안 사용하지 않으면 조직에서 자동으로 종료합니다. 인터넷 사용 기록이 삭제됩니다. 여기에는 방문 기록, 자동 완성, 다운로드가 포함될 수 있습니다.}other{Brave을 #분 동안 사용하지 않으면 조직에서 자동으로 종료합니다. 인터넷 사용 기록이 삭제됩니다. 여기에는 방문 기록, 자동 완성, 다운로드가 포함될 수 있습니다.}}</translation>
+<translation id="2589970573128789862">Brave 시크릿 모드</translation>
 <translation id="5794951150713244901">Brave 정보 페이지로 이동</translation>
 <translation id="4148957013307229264">설치 중...</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> - 네트워크 로그인 - Brave</translation>
@@ -617,6 +618,5 @@ Brave에서 설정을 복구할 수 없습니다.</translation>
 <translation id="2176087127109773485">귀하의 로그인된 Brave 동기화 체인을 관리할 수 있습니다. Brave 동기화 체인은 Brave 브라우저, Play 스토어, Gmail 등에 사용됩니다. 가족 구성원 등 다른 사람을 위한 계정을 추가하려면 <ph name="DEVICE_TYPE"/>에 새 프로필을 추가하세요. <ph name="LINK_BEGIN"/>자세히 알아보기<ph name="LINK_END"/></translation>
 <translation id="79269250264141507">주소창이나 검색창에 입력하면 입력하신 내용을 Brave가 기본 검색 엔진으로 보내 추천 결과를 개선합니다. 비공개 모드에서는 꺼집니다.</translation>
 <translation id="3739288578188828252">주소창이나 검색창에 입력하면 입력하신 내용을 Brave가 Google 드라이브로 보내 항목 추천 결과를 개선합니다. 비공개 모드에서는 꺼집니다.</translation>
-<translation id="2589970573128789862">Brave Private</translation>
 <translation id="5994282802285556682">비공개 모드로 탐색 중에 비보안 연결을 사용하는 사이트에 진입하면 로드 전에 Brave가 경고합니다.</translation>
 </translationbundle>

@@ -16,6 +16,7 @@ If you delete it, everyone will immediately lose access to the '<ph name="TITLE_
 <translation id="1419023007528516122">This will permanently delete the group from your device</translation>
 <translation id="1486715732399361704">You can find all your tab groups here</translation>
 <translation id="149054111719651807">{NUM_MINS,plural, =1{Created <ph name="NUM_MINS_ONE"/> minute ago}other{Created <ph name="NUM_MINS_MANY"/> minutes ago}}</translation>
+<translation id="3228718275011575753">Close all Incognito tabs?</translation>
 <translation id="1501480321619201731">Delete group</translation>
 <translation id="1555130319947370107">Blue</translation>
 <translation id="161042844686301425">Cyan</translation>
@@ -27,6 +28,7 @@ If you delete it, everyone will immediately lose access to the '<ph name="TITLE_
 <translation id="1869137256605757565">{TABS_COUNT,plural, =1{<ph name="TABS_COUNT_ONE"/> tab}other{<ph name="TABS_COUNT_MANY"/> tabs}}</translation>
 <translation id="2050597508048557928">{TABS_COUNT,plural, =1{Bookmark <ph name="TABS_COUNT_ONE"/> selected tab}other{Bookmark <ph name="TABS_COUNT_MANY"/> selected tabs}}</translation>
 <translation id="2118649612461486615">Shop info</translation>
+<translation id="6086127758480584723">{INCOGNITO_TABS_COUNT,plural, =1{Your closed tabs and groups can be reopened from the Recent tabs section and the Tab groups section. Your Incognito tab won't be available.}other{Your closed tabs and groups can be reopened from the Recent tabs section and the Tab groups section. Your # Incognito tabs won't be available.}}</translation>
 <translation id="2162620598375156287">Now <ph name="CURRENT_PRICE"/> on <ph name="SOURCE_WEBSITE"/></translation>
 <translation id="22623456902492423">{TABS_COUNT,plural, =1{Ungroup tab}other{Ungroup tabs}}</translation>
 <translation id="2271452184061378400">Your tab groups are saved here</translation>
@@ -183,6 +185,7 @@ If you leave, you will immediately lose access to the '<ph name="TITLE_OF_GROUP"
 <translation id="870736955561925754">Close tab and delete group?</translation>
 <translation id="8714939927607906138">Lower price</translation>
 <translation id="8730621377337864115">Done</translation>
+<translation id="6687920250729800417">Your activity in these Incognito tabs will be removed from this device</translation>
 <translation id="875848103419578654">{NUM_MONTHS,plural, =1{Created <ph name="NUM_MONTHS_ONE"/> month ago}other{Created <ph name="NUM_MONTHS_MANY"/> months ago}}</translation>
 <translation id="8804742093141782941">Keep group</translation>
 <translation id="8820741577754260431">See price drops on your tabs</translation>
@@ -198,9 +201,4 @@ If you leave, you will immediately lose access to the '<ph name="TITLE_OF_GROUP"
 <translation id="9216898458513705996">The tabs will remain open on this device but the group will be deleted from all devices signed in to <ph name="USER_EMAIL"/></translation>
 <translation id="927441551066996669">{NUMBER_OF_TABS,plural, =1{Expand tab group with <ph name="TABS_COUNT_ONE"/> tab, colour <ph name="COLOR_NAME"/>.}other{Expand tab group with <ph name="TABS_COUNT_MANY"/> tabs, colour <ph name="COLOR_NAME"/>.}}</translation>
 <translation id="992256792861109788">Pink</translation>
-<translation id="3228718275011575753">Close all Private tabs?</translation>
-<translation id="6687920250729800417">Your activity in these Private tabs will be removed from this device</translation>
-<translation id="6086127758480584723">{INCOGNITO_TABS_COUNT, plural,
-        =1 {Your closed tabs and groups can be reopened from the Recent tabs section and the Tab groups section. Your Private tab won't be available.}
-        other {Your closed tabs and groups can be reopened from the Recent tabs section and the Tab groups section. Your # Private tabs won't be available.}}</translation>
 </translationbundle>

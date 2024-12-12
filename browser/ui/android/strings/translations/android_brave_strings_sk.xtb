@@ -84,7 +84,6 @@
 <translation id="1118970888826017401">Povoliť najvyššiu úroveň podpory obchádzania sledovacích adries URL.</translation>
 <translation id="94154759592465111">Blokovať skripty</translation>
 <translation id="7714773920987474116">Zablokovať JavaScript (môže prerušiť webové stránky)</translation>
-<translation id="995782501881226248">YouTube</translation>
 <translation id="2233004324252915283">Blokovať odporúčaný obsah YouTube</translation>
 <translation id="1005372663692637999">Blokuje prvky Ďalšia udalosť a Koncová karta na youtube.com.</translation>
 <translation id="5152595963250646670">Blokovať rušivé prvky YouTube</translation>
@@ -216,7 +215,6 @@
 <translation id="49147335255967913">Otvoriť odkazy na YouTube v prehliadači Brave</translation>
 <translation id="4150201353443180367">Displej</translation>
 <translation id="4275663329226226506">Médiá</translation>
-<translation id="5950428831347558278">Widevine DRM</translation>
 <translation id="6716942308303275900">Na zobrazenie chráneného mediálneho obsahu v prehliadači použite správu digitálnych práv Widevine (DRM).</translation>
 <translation id="255204363133978824">Povoliť chránený obsah</translation>
 <translation id="4736073408974888559"><ph name="BEGIN_LINK"/>Získajte viac informácií o Widevine<ph name="END_LINK"/></translation>
@@ -290,14 +288,8 @@
 <translation id="8737090912129856089">MÁJ</translation>
 <translation id="6832612641867423485">JÚN</translation>
 <translation id="8442574087856349697">JÚL</translation>
-<translation id="1202041222842415454">AUGUST</translation>
-<translation id="7317265217038113435">SEPTEMBER</translation>
 <translation id="8220228041552340594">OKTÓBER</translation>
-<translation id="8280223431922155812">NOVEMBER</translation>
-<translation id="4254029385847607686">DECEMBER</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
 <translation id="1772301834467143364">Novinky Brave</translation>
-<translation id="7732576862074737148">≈ <ph name="VALUE"/> USD</translation>
 <translation id="8428213095426709021">Nastavení</translation>
 <translation id="6020176662032623904">Overený tvorca</translation>
 <translation id="2369994359029526515">Neoverený tvorca</translation>
@@ -412,7 +404,6 @@ Naozaj chcete pokračovať?</translation>
 <translation id="2975780980638932742">Brave reklamy sú k dispozícii!</translation>
 <translation id="7541582550122501404">Čakajúci príspevok</translation>
 <translation id="8520059774736886747">Tvorca <ph name="PUBLISHER_NAME"/> bol nedávno verifikovaný</translation>
-<translation id="1486343603936278248">token</translation>
 <translation id="7781069478569868053">Stránka novej karty</translation>
 <translation id="3171669670217312786">Obrázky na pozadí</translation>
 <translation id="8522669544471808198">Zobraziť obrázky na pozadí</translation>
@@ -427,9 +418,6 @@ Naozaj chcete pokračovať?</translation>
 <translation id="5308380583665731573">Pripojenie</translation>
 <translation id="3368922792935385530">Pripojené</translation>
 <translation id="6569877533335686968">Podporovať</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
-<translation id="8533411848724153701">Gemini</translation>
-<translation id="6011108706830742093">ZebPay</translation>
 <translation id="1665118090708049096">Prejsť na môj účet <ph name="WALLET_PROVIDER"/></translation>
 <translation id="4858636682078269312">Prihláste sa do svojho účtu <ph name="WALLET_PROVIDER"/></translation>
 <translation id="8874184842967597500">Nepripojené</translation>
@@ -440,7 +428,7 @@ Naozaj chcete pokračovať?</translation>
 <translation id="1116694919640316211">Informácie</translation>
 <translation id="7961015016161918242">Nikdy</translation>
 <translation id="1275213816424141989">Možno neskôr</translation>
-<translation id="4406937629441301400">Získanie tokenov za prezeranie tohto obrázka a ich vyplatenie tvorcom.  <ph name="LEARN_MORE"/></translation>
+<translation id="4406937629441301400">Získanie tokenov za prezeranie tohto obrázka a ich vyplatenie tvorcom. <ph name="LEARN_MORE"/></translation>
 <translation id="6632345639591919543">Získavate tokeny za prezeranie tohto obrázka.\n<ph name="LEARN_MORE"/></translation>
 <translation id="8164992819127316581">Výplata odmien <ph name="CURRENT_MONTH"/> sa začne spracovávať do <ph name="PAYOUT_DATE"/>.</translation>
 <translation id="33967210973550414">Výplata odmien <ph name="CURRENT_MONTH"/> práve prebieha. <ph name="CHECK_STATUS"/></translation>
@@ -517,7 +505,6 @@ Naozaj chcete pokračovať?</translation>
 <translation id="6814582232712814369">Ušetrený čas</translation>
 <translation id="3694122362646626770">Webové stránky</translation>
 <translation id="2225863440766607138">Sledovače</translation>
-<translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
 <translation id="6737820963776538947">Za posledné 3 hodiny ste pomocou prehliadača Brave zablokovali <ph name="COUNT"/> trackers &amp; reklám.</translation>
 <translation id="5005713153542196658">Hlavné spravodajské stránky si v Brave blokovaním sledovacích zariadení &amp; reklám prehliadajte až 6x rýchlejšie.</translation>
 <translation id="7427567994475794038">Zapnite si Hlásenia o súkromí a zistite, koľko sledovačov a reklám bolo za posledné 3 hodiny zablokovaných.</translation>
@@ -594,7 +581,6 @@ Naozaj chcete pokračovať?</translation>
 <translation id="1689062823386843231">Deaktivovať nezastupované UDP</translation>
 <translation id="6915830896450988084">Odoslať pomocou <ph name="CUSTODIAN"/></translation>
 <translation id="1483493594462132177">Odeslat</translation>
-<translation id="538450413584738399">Swap</translation>
 <translation id="4556086616242530072">Vlastný prehliadač.\nVlastná úschova.\nA viacreťazcový.</translation>
 <translation id="7909462264772842773">Prevezmite kontrolu nad svojimi kryptomenami a NFT. Brave Wallet podporuje Ethereum, reťazce EVM, Solana, Filecoin a ďalšie.</translation>
 <translation id="165255193061631296">Potrebujete novú peňaženku?</translation>
@@ -668,7 +654,6 @@ Naozaj chcete pokračovať?</translation>
 <translation id="8041423758956015568">Touto transakciou sa vlastníctvo účtu opätovne pridelí novému programu. Táto akcia je nezvratná a môže viesť k strate finančných prostriedkov.</translation>
 <translation id="6062431965141524986">Sekundárny účet možno vytvoriť importovaním vášho súkromného kľúča.</translation>
 <translation id="3952797765659730604">Zadajte, vložte alebo naimportujte súbor s reťazcom súkromného kľúča alebo JSON.</translation>
-<translation id="569068482611873351">Import...</translation>
 <translation id="4522570452068850558">Detaily</translation>
 <translation id="3784455785234192852">Uzamknúť</translation>
 <translation id="4412698727486357573">Centrum pomoci</translation>
@@ -686,7 +671,6 @@ Naozaj chcete pokračovať?</translation>
 <translation id="1721710839767183848">Žiadne reklamy na stránke</translation>
 <translation id="4647035642622555398">Žiadne prerušenia</translation>
 <translation id="4122515759479497554">Vyhľadať videá</translation>
-<translation id="4449475351935531438">Brave Firewall + VPN</translation>
 <translation id="719977489961414786">Prejdite na VPN a ochráňte tak svoje pripojenie a blokujte invazívne sledovacie programy odvšadiaľ.</translation>
 <translation id="8814357473522731680">Používa technológiu</translation>
 <translation id="5892534145504632332">Ochráňte každú aplikáciu &amp; celé vaše zariadenie</translation>
@@ -731,7 +715,6 @@ Ak túto žiadosť neprijmete, VPN sa znova nepripojí a vaše pripojenie na int
 <translation id="7805768142964895445">Stav</translation>
 <translation id="5747552184818312860">Koniec platnosti</translation>
 <translation id="1656814355341174523">Spravovať predplatné</translation>
-<translation id="1919008675977575793">Server</translation>
 <translation id="5646376287012673985">Poloha</translation>
 <translation id="8375573361134671513">Obnoviť konfiguráciu</translation>
 <translation id="850405162932416400">Podpora VPN</translation>
@@ -783,7 +766,6 @@ Ak túto žiadosť neprijmete, VPN sa znova nepripojí a vaše pripojenie na int
 <translation id="2186011161688824046">Čiastka + poplatok</translation>
 <translation id="1950052789869821983">Transakcia</translation>
 <translation id="2304783958703511257">Rozšírené nastavenia</translation>
-<translation id="4220062530885628403">Nonce</translation>
 <translation id="1924965034964265193">Zadajte vlastnú hodnotu nonce</translation>
 <translation id="5317780077021120954">Uložiť</translation>
 <translation id="4979796155378508955">Transakcia sa nemusí šíriť do siete, ak vlastná hodnota nonce nie je sekvenčná alebo obsahuje iné chyby.</translation>
@@ -837,12 +819,12 @@ Ak túto žiadosť neprijmete, VPN sa znova nepripojí a vaše pripojenie na int
 <translation id="4351811224047421378">Počet desatinných miest presnosti</translation>
 <translation id="3494964159182650590">Súhrn odmien</translation>
 <translation id="590733288489975971">Odmeny za reklamy</translation>
+<translation id="1450735350187803276">Reklamy zobrazené tento mesiac</translation>
 <translation id="1767561995429774671">Prispieť</translation>
 <translation id="7335371657242627509">Zapojte do automatického prispievania</translation>
 <translation id="6727102863431372879">Nastaviť</translation>
 <translation id="3074127054582480056">Pozornosť</translation>
 <translation id="2280319752798785157">Mesačný príspevok</translation>
-<translation id="3079421456571897484"><ph name="VALUE"/> BAT</translation>
 <translation id="1241283133946520352">Sítě</translation>
 <translation id="1062463687579789365">Prispôsobenie sietí peňaženiek</translation>
 <translation id="2512821599885971349">Pridať sieť</translation>
@@ -874,7 +856,6 @@ Ak túto žiadosť neprijmete, VPN sa znova nepripojí a vaše pripojenie na int
 <translation id="2391762656119864333">Odvolať</translation>
 <translation id="3432029672560911238">Účet používateľa</translation>
 <translation id="5753378322046059140">Prepnúť účet</translation>
-<translation id="3897092660631435901">Menu</translation>
 <translation id="42981349822642051">Rozšíriť</translation>
 <translation id="3586752056660754651">Podepsat</translation>
 <translation id="3950820424414687140">Prihlásiť sa</translation>
@@ -1034,7 +1015,6 @@ Ak túto žiadosť neprijmete, VPN sa znova nepripojí a vaše pripojenie na int
 <translation id="4530494379350999373">Pôvod</translation>
 <translation id="6736243959894955139">Adresa</translation>
 <translation id="3095940652251934233">Výpis</translation>
-<translation id="308268297242056490">URI</translation>
 <translation id="3798449238516105146">Verzia</translation>
 <translation id="1313065465616456728">Vydané o</translation>
 <translation id="7902225556763260253">Čas vypršania platnosti</translation>
@@ -1084,7 +1064,6 @@ Ak túto žiadosť neprijmete, VPN sa znova nepripojí a vaše pripojenie na int
 <translation id="7618347247876614969">Účet vyhľadávacej tabuľky adries:</translation>
 <translation id="7659483790930268440">Index vyhľadávacej tabuľky adries:</translation>
 <translation id="5494920125229734069">Vybrať všetko</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8613144770663526433">Prihláste sa pomocou peňaženky Brave</translation>
 <translation id="3696514931437952995">Prihlasujete sa do <ph name="ORIGIN"/>. Peňaženka Brave bude zdieľať adresu vašej peňaženky s <ph name="ORIGIN"/>.</translation>
 <translation id="1028781062521375153">Zobraziť podrobnosti</translation>
@@ -1096,7 +1075,6 @@ Ak túto žiadosť neprijmete, VPN sa znova nepripojí a vaše pripojenie na int
 <translation id="1250335737108905610">Resetovať a vymazať údaje asistenta Leo</translation>
 <translation id="6165101586663336913">Reštart asistenta Leo bude vyžadovať, aby ste sa v budúcnosti prihlásili na používanie Leo a tiež vymaže vašu históriu chatu. Vymazaním histórie chatu sa vymažú všetky vaše predchádzajúce konverzácie s asistentom Leo. Túto akciu nie je možné vrátiť späť.</translation>
 <translation id="3692772534525889713">Prepojte nákup v Obchode Play so svojím účtom Brave a používajte Brave Leo na iných zariadeniach.</translation>
-<translation id="73236265316873967">Leo Premium</translation>
 <translation id="1028627582482425924">Jeden rok</translation>
 <translation id="2985392169397572983">NAJLEPŠIA HODNOTA</translation>
 <translation id="1166682575529520472">Mesačne</translation>

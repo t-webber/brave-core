@@ -211,6 +211,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="1357195169723583938">Who has used the device recently and when</translation>
 <translation id="1358187717814494928">Create sheet</translation>
 <translation id="1359836962251219822">Kitchen and Dining</translation>
+<translation id="5497977785983089120">Open a new incognito window to browse privately</translation>
 <translation id="1361528602584216624">Limit per Pix R$ <ph name="TRANSACTION_LIMIT"/></translation>
 <translation id="1363015776076529485">Payment methods available to be selected for proceeding with the payment opened at full height.</translation>
 <translation id="1363028406613469049">Track</translation>
@@ -423,6 +424,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="1727613060316725209">Certificate is valid</translation>
 <translation id="1728677426644403582">You're viewing the source of a web page</translation>
 <translation id="173080396488393970">This type of card isn’t supported</translation>
+<translation id="317153861231603077">Ask in-person instead</translation>
 <translation id="1733064249834771892">fonts</translation>
 <translation id="1733631169686303142">Audio Equipment</translation>
 <translation id="1733762317901693627">Even sites that are normally safe are sometimes compromised by attackers. Only visit <ph name="BEGIN_LINK"/>this unsafe site<ph name="END_LINK"/> if you're sure you understand the risks.</translation>
@@ -759,6 +761,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="2340263603246777781"><ph name="ORIGIN"/> wants to pair</translation>
 <translation id="2346319942568447007">Image that you copied</translation>
 <translation id="2348509731468399833">Price tracking stopped.</translation>
+<translation id="2129555469258123376">Open Incognito tab button, activate to open a new Incognito tab to browse privately</translation>
 <translation id="2350796302381711542">Allow <ph name="HANDLER_HOSTNAME"/> to open all <ph name="PROTOCOL"/> links instead of <ph name="REPLACED_HANDLER_TITLE"/>?</translation>
 <translation id="2353297238722298836">Camera and microphone allowed</translation>
 <translation id="2354001756790975382">Other bookmarks</translation>
@@ -861,10 +864,12 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="2530042584066815841">Mouse lock and use</translation>
 <translation id="2533649878691950253">This site was blocked from knowing your precise location because you usually don't allow this</translation>
 <translation id="253493526287553278">See promo code details</translation>
+<translation id="40442660395682483">Open a new incognito tab to browse privately</translation>
 <translation id="2535659140340599600">{COUNT,plural, =1{and 1 more}other{and # more}}</translation>
 <translation id="2536110899380797252">Add Address</translation>
 <translation id="3140033400151786080">Others who use this device won’t see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Brave. Downloads and bookmarks will be saved.</translation>
 <translation id="2539524384386349900">Detect</translation>
+<translation id="375424491626359494">Pages that you view in Incognito tabs won’t stick around in your browser’s history, cookie store or search history after you’ve closed all of your Incognito tabs. Any files that you download or bookmarks that you create will be kept.</translation>
 <translation id="2542106216580219892">Surfing</translation>
 <translation id="2544546346215446551">Your administrator restarted your device</translation>
 <translation id="2544644783021658368">Single document</translation>
@@ -1007,6 +1012,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="2859806420264540918">This site shows intrusive or misleading ads.</translation>
 <translation id="28618371182701850">Electric and Plug-In Vehicles</translation>
 <translation id="28761159517501904">Films</translation>
+<translation id="6934396344327597525">Leaving Incognito mode to pay via an external application. Continue?</translation>
 <translation id="1117301625415017890"><ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT"/>; press tab and then Enter to manage your Safe Browsing and more in Brave settings</translation>
 <translation id="2878197950673342043">Poster fold</translation>
 <translation id="2878424575911748999">A1</translation>
@@ -1053,6 +1059,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="2948083400971632585">You can disable any proxies configured for a connection from the settings page.</translation>
 <translation id="3955566820843143766">Ignored because the machine is not enrolled with Brave Browser Cloud Management.</translation>
 <translation id="2951588413176968965">My mailbox</translation>
+<translation id="4920329334239571966">Close all incognito windows</translation>
 <translation id="2952904171810469095">A2 x 5</translation>
 <translation id="2954624054936281172">Saved payment methods table</translation>
 <translation id="295526156371527179">Warning: This policy was not merged as a dictionary as specified by policy because it is not a dictionary.</translation>
@@ -1211,6 +1218,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="323107829343500871">Enter the CVC for <ph name="CREDIT_CARD"/></translation>
 <translation id="3234666976984236645">Always detect important content on this site</translation>
 <translation id="3236212803136366317">Card benefits</translation>
+<translation id="2977472760057091832">Open link in incognito window</translation>
 <translation id="3240683217920639535"><ph name="MANAGE_CHROME_THEMES_FOCUSED_FRIENDLY_MATCH_TEXT"/>; press tab and then Enter to customise the look of your browser</translation>
 <translation id="3240791268468473923">Secure payment credential no matching credential sheet is opened</translation>
 <translation id="324180406144491771">'<ph name="HOST_NAME"/>' links are blocked</translation>
@@ -1342,6 +1350,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="346601286295919445">Chemistry</translation>
 <translation id="3467081767799433066">With ad measurement, limited types of data are shared between sites to measure the performance of their ads, such as whether you made a purchase after visiting a site.</translation>
 <translation id="3468054117417088249"><ph name="TAB_SWITCH_SUFFIX"/>, currently open, press Tab then Enter to switch to the open tab</translation>
+<translation id="710569555563138608"><ph name="CLOSE_INCOGNITO_WINDOWS_FOCUSED_FRIENDLY_MATCH_TEXT"/>; press tab and then Enter to close all incognito windows that are currently open</translation>
 <translation id="3807334561457710885">Customise fonts in Brave button, activate to customise font sizes and typefaces in Brave</translation>
 <translation id="3478033058537426179">By group</translation>
 <translation id="3479552764303398839">Not now</translation>
@@ -1988,6 +1997,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="468314109939257734">View your virtual card number</translation>
 <translation id="4686942373615810936">Created just now</translation>
 <translation id="4687718960473379118">Site-suggested ads</translation>
+<translation id="556965402266718712">Close Incognito windows button, activate to close all Incognito windows that are currently open</translation>
 <translation id="4691093235373904540">Roofing</translation>
 <translation id="4692623383562244444">Search engines</translation>
 <translation id="4698692901173737941">Combat Sports</translation>
@@ -2433,6 +2443,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="5512812358367123529">Office Furniture</translation>
 <translation id="5513528801833998679">Use device sign-in</translation>
 <translation id="5515388687005870733">55 mm x 85 mm</translation>
+<translation id="7244699920401708198">Most sites can’t use third-party cookies to track you as you browse and sites can’t use third-party cookies in Incognito mode.</translation>
 <translation id="5519516356611866228">With your changes</translation>
 <translation id="5519696598216267194">Paper (prepunched)</translation>
 <translation id="5521782189689806907">Cabinetry</translation>
@@ -2466,6 +2477,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="5560088892362098740">Expiry Date</translation>
 <translation id="55635442646131152">Document outline</translation>
 <translation id="1702142849385752335">To use your location, give Brave access in <ph name="LINK"/>.</translation>
+<translation id="5395368798429603306">Open incognito tab</translation>
 <translation id="5565735124758917034">Active</translation>
 <translation id="5569030697349375295">Accounting and Financial Software</translation>
 <translation id="5570825185877910964">Protect account</translation>
@@ -3318,6 +3330,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="7130775116821607281">Blocked upload</translation>
 <translation id="7132939140423847331">Your admin has prohibited this data from being copied.</translation>
 <translation id="7135130955892390533">Show status</translation>
+<translation id="356726776930413501">Learn more about Incognito</translation>
 <translation id="7138472120740807366">Delivery method</translation>
 <translation id="7138678301420049075">Other</translation>
 <translation id="7139892792842608322">Primary tray</translation>
@@ -3340,6 +3353,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="7175401108899573750">{SHIPPING_OPTIONS,plural, =0{<ph name="SHIPPING_OPTION_PREVIEW"/>}=1{<ph name="SHIPPING_OPTION_PREVIEW"/> and <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/> more}other{<ph name="SHIPPING_OPTION_PREVIEW"/> and <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/> more}}</translation>
 <translation id="7179323680825933600">Save and fill payment methods</translation>
 <translation id="7180611975245234373">Refresh</translation>
+<translation id="5549245478906381817">Open incognito window</translation>
 <translation id="7182878459783632708">No policies set</translation>
 <translation id="7184379626380324540">Home Furnishings</translation>
 <translation id="7186833457841277072">Envelope (inkjet)</translation>
@@ -3354,6 +3368,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="7195432682252510959">Use this code at checkout. Valid until <ph name="DATE"/>.</translation>
 <translation id="7195852673246414183">After you turn on this setting, come back to this tab to start writing</translation>
 <translation id="7199278868241956094">Oficio</translation>
+<translation id="7627159832789643445"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT"/>, press Tab, then Enter to open a new incognito tab to browse privately</translation>
 <translation id="2540471381262404386">Set Brave as the system's default browser</translation>
 <translation id="7210863904660874423"><ph name="HOST_NAME"/> doesn't adhere to security standards.</translation>
 <translation id="7210993021468939304">Linux activity within the container, and can install and run Linux apps within the container</translation>
@@ -3364,6 +3379,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="7220786058474068424">Processing</translation>
 <translation id="7221855153210829124">Show notifications</translation>
 <translation id="7221857374443660083">Your bank wants to make sure it's you</translation>
+<translation id="8326104954595890674">New Incognito tab</translation>
 <translation id="7227293336683593977">Price history</translation>
 <translation id="7232352818707016189">More actions for Compare table</translation>
 <translation id="7233592378249864828">Print confirmation sheet</translation>
@@ -3425,6 +3441,7 @@ Additional details:
 <translation id="7356678400607112844">Last visited</translation>
 <translation id="7359588939039777303">Ads blocked.</translation>
 <translation id="7308957539693927108">When Brave finds available discounts, they will show during checkout</translation>
+<translation id="8794378783472961468">However, you aren’t invisible. Going Incognito doesn’t hide your browsing from your employer, your Internet service provider, or the websites that you visit.</translation>
 <translation id="5417725730200908216"><ph name="MANAGE_ADDRESSES_FOCUSED_FRIENDLY_MATCH_TEXT"/>, press Tab then Enter to add and manage addresses in Brave settings</translation>
 <translation id="7365849542400970216">Know your device use?</translation>
 <translation id="736592699917579616">Food</translation>
@@ -3619,6 +3636,7 @@ Additional details:
 <translation id="7661591871037163355">Your comparison table is full. Remove columns to add new ones.</translation>
 <translation id="7662298039739062396">Setting controlled by an extension</translation>
 <translation id="7663736086183791259">Certificate <ph name="CERTIFICATE_VALIDITY"/></translation>
+<translation id="1090109565956608696">Not allowed in Incognito</translation>
 <translation id="7667346355482952095">Returned policy token is empty or doesn't match current token</translation>
 <translation id="7668654391829183341">Unknown device</translation>
 <translation id="7669320311687290322"><ph name="ITEM_LABEL"/>, <ph name="ITEM_POSITION"/> of <ph name="ITEMS_TOTAL"/>.</translation>
@@ -3775,6 +3793,7 @@ Additional details:
 <translation id="7952327717479677595">Manage search engines button, activate to manage your default search engine and site search</translation>
 <translation id="7953236668995583915">Reload this page to apply your updated settings on this site</translation>
 <translation id="7953569069500808819">Edge stitch top</translation>
+<translation id="8108906085747235166">Ask in person</translation>
 <translation id="7956713633345437162">Mobile bookmarks</translation>
 <translation id="7961015016161918242">Never</translation>
 <translation id="7962467575542381659">Platform machine</translation>
@@ -3923,6 +3942,7 @@ Additional details:
 <translation id="8232343881378637145">Platform temperature</translation>
 <translation id="8233773197406738106">Preparing file</translation>
 <translation id="8238188918340945316">28 x 40 in</translation>
+<translation id="6957624206566198865">Open page in a new Incognito tab</translation>
 <translation id="8241707690549784388">The page that you're looking for used information that you entered. Returning to that page might cause any action that you took to be repeated. Do you want to continue?</translation>
 <translation id="8241712895048303527">Block on this site</translation>
 <translation id="8242426110754782860">Proceed</translation>
@@ -4197,6 +4217,7 @@ Additional details:
 <translation id="2184048523283917559">You can block topics that you don’t want to be shared with sites. Brave also auto-deletes your topics that are older than four weeks. Learn more</translation>
 <translation id="8734529307927223492">Your <ph name="DEVICE_TYPE"/> is managed by <ph name="MANAGER"/></translation>
 <translation id="8736059027199600831">30 in x 40 in</translation>
+<translation id="1819281525814582516"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT"/>, press tab, then enter to open a new incognito window to browse privately</translation>
 <translation id="8737685506611670901">Open <ph name="PROTOCOL"/> links instead of <ph name="REPLACED_HANDLER_TITLE"/></translation>
 <translation id="6326805297893828864">To establish a secure connection, your clock needs to be set correctly. This is because the certificates that websites use to identify themselves are only valid for specific periods of time. Since your device's clock is incorrect, Brave cannot verify these certificates.</translation>
 <translation id="8740359287975076522"><ph name="HOST_NAME"/>’s &lt;abbr id="dnsDefinition"&gt;DNS address&lt;/abbr&gt; could not be found. Diagnosing the problem.</translation>
@@ -4211,6 +4232,7 @@ Additional details:
 <translation id="8759274551635299824">This card has expired</translation>
 <translation id="87601671197631245">This site uses an outdated security configuration, which may expose your information (for example, passwords, messages or credit cards) when it is sent to this site.</translation>
 <translation id="8763927697961133303">USB device</translation>
+<translation id="7736544743887840328">Close all incognito windows that are currently open</translation>
 <translation id="8766943070169463815">Secure payment credential authentication sheet is opened</translation>
 <translation id="8767765348545497220">Close help bubble</translation>
 <translation id="7113746389006214608">Create presentation button, activate to quickly create a new Brave presentation in Slides</translation>
@@ -4243,6 +4265,7 @@ Additional details:
 <translation id="8830320733681313421">Hagaki Postcard</translation>
 <translation id="8830565333350631528">View files in <ph name="CLOUD_PROVIDER"/></translation>
 <translation id="8833007469711500369">Washers and Dryers</translation>
+<translation id="8169715168668926832">You are seeing this warning because this site does not support HTTPS and you are in Incognito mode. <ph name="BEGIN_LEARN_MORE_LINK"/>Learn more about this warning<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="8837398923270275776">TV sci-fi and fantasy shows</translation>
 <translation id="883848425547221593">Other Bookmarks</translation>
 <translation id="8842351563145134519">Payment methods available to be filled on touch opened at half height.</translation>
@@ -4516,28 +4539,9 @@ Additional details:
 <translation id="896703648578722320">When extensions are added to Brave, relevant data about these extensions is sent to third parties for analysis and may be visible to your administrator. The data includes information about the extensions such as its name, install time, source of install as well as activity associated with these extensions (like changing tabs, contacting websites or accessing cookies). This data is collected for extensions installed from the Web Store as well as off-store extensions.</translation>
 <translation id="4075123085690634698">Open page in a new private window (⇧⌘N)</translation>
 <translation id="2388886110302389394">Open page in a new private window (Ctrl-Shift-N)</translation>
-<translation id="6957624206566198865">Open page in a new Private tab</translation>
-<translation id="8326104954595890674">New Private Tab</translation>
-<translation id="356726776930413501">Learn more about Private</translation>
 <translation id="6417973700199526943">You've gone Private</translation>
-<translation id="375424491626359494">Pages you view in Private tabs won’t stick around in your browser’s history, cookie store, or search history after you’ve closed all of your Private tabs. Any files you download or bookmarks you create will be kept.</translation>
-<translation id="8794378783472961468">However, you aren’t invisible. Going Private doesn’t hide your browsing from your employer, your internet service provider, or the websites you visit.</translation>
-<translation id="5549245478906381817">Open Private window</translation>
-<translation id="5497977785983089120">Open a new Private window to browse privately</translation>
-<translation id="1819281525814582516"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT"/>, press Tab then Enter to open a new Private window to browse privately</translation>
 <translation id="6702454076107580912">Open Private window button, activate to open a new Private window to browse privately</translation>
-<translation id="4920329334239571966">Close all Private windows</translation>
-<translation id="7736544743887840328">Close all Private windows that are currently open</translation>
-<translation id="710569555563138608"><ph name="CLOSE_INCOGNITO_WINDOWS_FOCUSED_FRIENDLY_MATCH_TEXT"/>, Press tab then Enter to close all Private windows that are currently open</translation>
-<translation id="556965402266718712">Close Private windows button, activate to close all Private windows that are currently open</translation>
-<translation id="5395368798429603306">Open Private tab</translation>
-<translation id="40442660395682483">Open a new Private tab to browse privately</translation>
-<translation id="7627159832789643445"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT"/>, press Tab then Enter to open a new Private tab to browse privately</translation>
-<translation id="2129555469258123376">Open Private tab button, activate to open a new Private tab to browse privately</translation>
 <translation id="1536541482996273580">Open private tab</translation>
-<translation id="1090109565956608696">Not allowed in Private</translation>
-<translation id="6934396344327597525">Leaving Private mode to pay via an external application. Continue?</translation>
-<translation id="7244699920401708198">Most sites can’t use third-party cookies to track you as you browse, and sites can’t use third-party cookies in Private mode.</translation>
 <translation id="1426112902089905810">&lt;h4&gt;Step 1: Sign in to the portal&lt;/h4&gt;
     &lt;p&gt;Wi-Fi networks at places such as cafés or airports need you to sign in. To see the sign-in page, visit a page that uses &lt;code&gt;http://&lt;/code&gt;.&lt;/p&gt;
     &lt;ol&gt;
@@ -4555,8 +4559,4 @@ Additional details:
     &lt;p&gt;Remember to turn your antivirus program back on when you've finished.&lt;/p&gt;
     &lt;h4&gt;Step 5: Get extra help&lt;/h4&gt;
     &lt;p&gt;If you still see the error, contact the website owner.&lt;/p&gt;</translation>
-<translation id="8169715168668926832">You are seeing this warning because this site does not support HTTPS and you are in Private mode. <ph name="BEGIN_LEARN_MORE_LINK"/>Learn more about this warning<ph name="END_LEARN_MORE_LINK"/></translation>
-<translation id="8108906085747235166">Ask in profile</translation>
-<translation id="317153861231603077">Ask in profile instead</translation>
-<translation id="2977472760057091832">Open Link in Private Window</translation>
 </translationbundle>

@@ -84,7 +84,6 @@
 <translation id="1118970888826017401">Активирайте поддръжка за заобикаляне на URL адреси за проследяване с пренасочване от най-високо ниво.</translation>
 <translation id="94154759592465111">Блокиране на скриптове</translation>
 <translation id="7714773920987474116">Блокира JavaScript (може да попречи на работата на сайтовете)</translation>
-<translation id="995782501881226248">YouTube</translation>
 <translation id="2233004324252915283">Блокиране на препоръчано съдържание в YouTube</translation>
 <translation id="1005372663692637999">Блокира елементите за следваща и крайна карта в youtube.com.</translation>
 <translation id="5152595963250646670">Блокиране на разсейващите елементи в YouTube</translation>
@@ -115,7 +114,6 @@
 <translation id="9148058034647219655">Изход</translation>
 <translation id="8047754398610073499">Блокиране на съобщения за съгласие за бисквитки</translation>
 <translation id="2621893359845808115">Блокира изскачащи прозорци на уебсайтове, които Ви молят да приемете/откажете бисквитки за техния сайт</translation>
-<translation id="7534079972563542000">Unstoppable Domains</translation>
 <translation id="6486983549008741930">Филтриране на съдържанието</translation>
 <translation id="2398817776566547893">Активирайте потребителски филтри, които блокират регионални и специфични за даден език проследяващи и дразнещи елементи.</translation>
 <translation id="8578397014396032341">Филтри за съдържание</translation>
@@ -137,8 +135,6 @@
 <translation id="5132969826889386652">Промените са запазени успешно</translation>
 <translation id="4335929145384293789">Добавете създадени от вас персонализирани филтри, по един на ред, в полето по-горе. Не забравяйте да използвате <ph name="ADBLOCK_FILTER_SYNTAX"/>.</translation>
 <translation id="5023212862780303376">Синтаксис на филтъра на Adblock</translation>
-<translation id="6513892817556267573">Ethereum Name Service</translation>
-<translation id="531747189990625622">Solana Name Service</translation>
 <translation id="3894650624018948468">Метод на разрешаване</translation>
 <translation id="8410806609595910352">ENS търсене извън веригата</translation>
 <translation id="2356070529366658676">Попитайте ме</translation>
@@ -216,7 +212,6 @@
 <translation id="49147335255967913">Отваряне на връзки към YouTube в Brave</translation>
 <translation id="4150201353443180367">Екран</translation>
 <translation id="4275663329226226506">Медия</translation>
-<translation id="5950428831347558278">Widevine DRM</translation>
 <translation id="6716942308303275900">Използвайте Widevine Управление на цифрови права (DRM), за да преглеждате защитено медийно съдържание в браузъра.</translation>
 <translation id="255204363133978824">Разрешете защитено съдържание</translation>
 <translation id="4736073408974888559"><ph name="BEGIN_LINK"/>Научете повече за Widevine<ph name="END_LINK"/></translation>
@@ -295,9 +290,7 @@
 <translation id="8220228041552340594">ОКТОМВРИ</translation>
 <translation id="8280223431922155812">НОЕМВРИ</translation>
 <translation id="4254029385847607686">ДЕКЕМВРИ</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
 <translation id="1772301834467143364">Brave новини</translation>
-<translation id="7732576862074737148">≈ <ph name="VALUE"/> USD</translation>
 <translation id="8428213095426709021">Настройки</translation>
 <translation id="6020176662032623904">Потвърден създател</translation>
 <translation id="2369994359029526515">Непотвърден създател</translation>
@@ -361,7 +354,6 @@
 <translation id="8185825081026121627">Спечелете Основен Жетон за внимание за гледане рекламите на Brave награди, които съхраняват поверителността.</translation>
 <translation id="5321518976657560663">Грешка при нулиране</translation>
 <translation id="4114170343590425996">Възникна грешка при нулирането на Brave награди. Стартирайте отново Brave и опитайте отново.</translation>
-<translation id="6417420737057016607">Brave Ads</translation>
 <translation id="5611966874859284786">Показвайте реклами с известия, когато Brave не се използва</translation>
 <translation id="6606319453795180219">Това ще изтрие вашите Brave награди и ще нулира всичките ви данни за Brave награди</translation>
 <translation id="5717636703619499822"><ph name="BEGIN_LINK1"/>Нулиране на данните за Brave Rewards…<ph name="END_LINK1"/></translation>
@@ -427,9 +419,6 @@
 <translation id="5308380583665731573">Свързване</translation>
 <translation id="3368922792935385530">Установена е връзка</translation>
 <translation id="6569877533335686968">Одобрявам</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
-<translation id="8533411848724153701">Gemini</translation>
-<translation id="6011108706830742093">ZebPay</translation>
 <translation id="1665118090708049096">Към моя акаунт в <ph name="WALLET_PROVIDER"/></translation>
 <translation id="4858636682078269312">Влезте във вашия акаунт в <ph name="WALLET_PROVIDER"/></translation>
 <translation id="8874184842967597500">Няма връзка</translation>
@@ -517,7 +506,6 @@
 <translation id="6814582232712814369">Спестено време</translation>
 <translation id="3694122362646626770">Уебсайтове</translation>
 <translation id="2225863440766607138">Проследяващи елементи</translation>
-<translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
 <translation id="6737820963776538947">Блокирали сте <ph name="COUNT"/> проследяващи елементи и реклами с браузъра Brave през последните 3 часа.</translation>
 <translation id="5005713153542196658">Сърфирайте до 6 пъти по-бързо в основните новинарски сайтове с Brave, като блокирате тракерите и рекламите.</translation>
 <translation id="7427567994475794038">Включете отчетите за поверителност, за да видите колко проследяващи елементи и реклами са блокирани през последните 3 часа.</translation>
@@ -783,7 +771,6 @@
 <translation id="2186011161688824046">Сума + такса</translation>
 <translation id="1950052789869821983">Трансакция</translation>
 <translation id="2304783958703511257">Разширени настройки</translation>
-<translation id="4220062530885628403">Nonce</translation>
 <translation id="1924965034964265193">Въведете персонализирана стойност на еднократно използвания числов параметър</translation>
 <translation id="5317780077021120954">Запазване</translation>
 <translation id="4979796155378508955">Транзакцията може да не бъде разпространена в мрежата, ако персонализираната стойност на еднократно използвания числов параметър е непоследователна или има други грешки.</translation>
@@ -837,12 +824,12 @@
 <translation id="4351811224047421378">Точност до десетични знаци</translation>
 <translation id="3494964159182650590">Резюме на наградите</translation>
 <translation id="590733288489975971">Награди от реклами</translation>
+<translation id="1450735350187803276">Реклами, видени този месец</translation>
 <translation id="1767561995429774671">Принос</translation>
 <translation id="7335371657242627509">Включено в автоматичния принос</translation>
 <translation id="6727102863431372879">Настройване</translation>
 <translation id="3074127054582480056">Внимание</translation>
 <translation id="2280319752798785157">Месечен принос</translation>
-<translation id="3079421456571897484"><ph name="VALUE"/> BAT</translation>
 <translation id="1241283133946520352">Mрежи</translation>
 <translation id="1062463687579789365">Персонализиране на мрежите на портфейла</translation>
 <translation id="2512821599885971349">Добавяне на мрежа</translation>
@@ -1084,7 +1071,6 @@
 <translation id="7618347247876614969">Профил с таблица за търсене на адреси:</translation>
 <translation id="7659483790930268440">Индекс с таблица за търсене на адреси:</translation>
 <translation id="5494920125229734069">Избиране на всички</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8613144770663526433">Влизане с Портфейл в Brave</translation>
 <translation id="3696514931437952995">Влизате в <ph name="ORIGIN"/>. Портфейлът в Brave ще сподели адреса на вашия портфейл с <ph name="ORIGIN"/>.</translation>
 <translation id="1028781062521375153">Вижте подробности</translation>
@@ -1096,7 +1082,6 @@
 <translation id="1250335737108905610">Нулиране и изчистване на данните на Leo</translation>
 <translation id="6165101586663336913">Нулирането на асистента Leo ще изисква от вас да се включите, за да използвате Leo в бъдеще и също така ще изчисти историята на чата ви. Изчистването на историята на чата ви ще изтрие всички ваши предишни разговори с Leo. Това действие не може да бъде отменено.</translation>
 <translation id="3692772534525889713">Свържете покупката си от Play Store с вашия акаунт в Brave, за да използвате Brave Leo на други устройства.</translation>
-<translation id="73236265316873967">Leo Premium</translation>
 <translation id="1028627582482425924">Една година</translation>
 <translation id="2985392169397572983">НАЙ-ДОБРА СТОЙНОСТ</translation>
 <translation id="1166682575529520472">Месечен</translation>

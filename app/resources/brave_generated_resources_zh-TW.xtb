@@ -1,7 +1,6 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="zh-TW">
-<translation id="3333887201479867589">Brave Rewards</translation>
 <translation id="7561196759112975576">總是</translation>
 <translation id="7961015016161918242">一律不要</translation>
 <translation id="8507663778530179003">顯示所有書籤按鈕</translation>
@@ -16,7 +15,6 @@
 <translation id="8294286161128352783">僅在新索引標籤頁面</translation>
 <translation id="6406506848690869874">同步</translation>
 <translation id="1544192797660353713">錢包</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8275068909952022340">其他…</translation>
 <translation id="1990886731975529483">安裝並執行 Google Widevine</translation>
 <translation id="8926389886865778422">不再詢問這個問題</translation>
@@ -40,8 +38,6 @@
 <translation id="8612763432858587652">離開私人視窗</translation>
 <translation id="8760415064721320867">使用 Tor 的隱私視窗</translation>
 <translation id="2055363275850890030">隱私視窗</translation>
-<translation id="5410152065859052603">Tor</translation>
-<translation id="7897433216002294926">Tor <ph name="COUNT"/></translation>
 <translation id="1970435562892104727">這是 Tor 的私人視窗</translation>
 <translation id="1037341607922068025">用 Tor 開啟私人視窗</translation>
 <translation id="607982085107926247">在 Tor 中開啟：<ph name="ADDRESS"/></translation>
@@ -52,7 +48,6 @@
 <translation id="4450893287417543264">不要再顯示</translation>
 <translation id="4595286989346610620">查看詳情</translation>
 <translation id="8324318899000695659">封鎖元素</translation>
-<translation id="7398397225367092613">.onion</translation>
 <translation id="2269780537090240241">使用 .onion 位址開啟： <ph name="ADDRESS"/></translation>
 <translation id="4759098689276706664">強制貼上</translation>
 <translation id="1434416574322382019">以 Tor 開啟新私有窗口</translation>
@@ -71,7 +66,6 @@
 <translation id="7595540212376041331">隱藏 Brave 錢包圖示</translation>
 <translation id="3893997535859323951">隱藏 Leo AI 圖示</translation>
 <translation id="6208515240323786457">隱藏 Leo AI 圖示</translation>
-<translation id="2361906291514218784">Leo AI</translation>
 <translation id="4928988318462976765">網路擴充功能商店</translation>
 <translation id="9181207987584064303">在「網路擴充功能商店」檢視</translation>
 <translation id="3161744659507801211">警告：Brave 無法防止擴充功能記錄您的瀏覽歷程記錄。</translation>
@@ -179,7 +173,6 @@
 <translation id="8731422418734770661">設定加密錢包</translation>
 <translation id="8199661191594897555">啟動加密錢包並重新載入</translation>
 <translation id="8428213095426709021">設定</translation>
-<translation id="193368604235852218">Web3</translation>
 <translation id="4738583579791001083">Web3 網域</translation>
 <translation id="5046066249040287308">Brave 錢包公用程式服務</translation>
 <translation id="4552520379838695057">抱歉，頁面遺失。</translation>
@@ -209,12 +202,10 @@
 <translation id="5268098808165185458">正在從圖片複製文字…</translation>
 <translation id="4046485130884276245">已從圖片複製文字</translation>
 <translation id="3639779775496569782">複製文字失敗</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
 <translation id="2506438154311626334">在 Brave VPN 中使用 WireGuard 協定</translation>
 <translation id="8519170191215826548">連線至 Brave VPN 時無法變更此設定。</translation>
 <translation id="4235920711083356755">顯示 VPN 按鈕</translation>
 <translation id="4070612712151038707">在工具列中顯示 VPN 按鈕</translation>
-<translation id="7705524343798198388">VPN</translation>
 <translation id="8593397073757037946">切換 VPN</translation>
 <translation id="2345974803401546682">關於 Brave VPN</translation>
 <translation id="4378551569595875038">連線中...</translation>
@@ -362,7 +353,6 @@
 <translation id="7158817046543187970">書籤在所有頁面上都為隱藏</translation>
 <translation id="3416468988018290825">一律顯示完整 URL</translation>
 <translation id="5529693968082667490">顯示分頁搜尋按鈕</translation>
-<translation id="1013121820689882118">Speedreader</translation>
 <translation id="2025435450953474282">文章會自動以閱讀器模式載入，節省您的時間</translation>
 <translation id="7984721311211272523">在分頁喇叭圖示中停用靜音功能</translation>
 <translation id="832432428796481785">顯示側邊欄按鈕</translation>
@@ -377,7 +367,6 @@
 <translation id="7461924472993315131">固定</translation>
 <translation id="735832369569964359">點選大頭針並在接下來出現的 Windows 通知中確認</translation>
 <translation id="7506648566440714944">Brave 已固定</translation>
-<translation id="239275665037555969">Dock</translation>
 <translation id="4057614912106618659">Brave 已位於 Dock 中</translation>
 <translation id="3195845168740336657">Shields 設定</translation>
 <translation id="754769152790647708">Shields 狀態</translation>
@@ -476,8 +465,6 @@
 <translation id="6032912588568283682">檔案系統</translation>
 <translation id="8016266267177410919">暫時儲存空間</translation>
 <translation id="4175737294868205930">永久儲存空間</translation>
-<translation id="1234808891666923653">Service Workers</translation>
-<translation id="3432762828853624962">Shared Workers</translation>
 <translation id="2927017729816812676">快取儲存空間</translation>
 <translation id="1389601498324964367">配額管理儲存空間</translation>
 <translation id="814018970995616154">以 Brave 中儲存的不安全網站清單檢查 URL。</translation>
@@ -489,7 +476,6 @@
 <translation id="1448289340149908413">以太坊</translation>
 <translation id="6583467242903731748">網站希望存取以太坊提供者 API 時詢問我</translation>
 <translation id="7017590444693657895">禁止網站存取以太坊提供者 API</translation>
-<translation id="5390923430722428146">Solana</translation>
 <translation id="4539536028173362640">網站希望存取 Solana 提供者 API 時詢問我</translation>
 <translation id="2777102601740875941">禁止網站存取 Solana 提供者 API</translation>
 <translation id="4206299587103092719">Google 登入</translation>

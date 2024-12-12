@@ -8309,6 +8309,7 @@ Hai altre # password compromesse. Gestore delle password di Brave consiglia di c
 <translation id="7025082428878635038">Scopri un nuovo modo per navigare tramite gesti</translation>
 <translation id="7025190659207909717">Gestione del servizio dati mobile</translation>
 <translation id="7025895441903756761">Sicurezza e privacy</translation>
+<translation id="1448315815373449655">{COUNT,plural, =0{Apri tutti nella finestra di navigazione in &amp;incognito}=1{Apri nella finestra di navigazione in &amp;incognito}other{Apri tutti ({COUNT}) nella finestra di navigazione in &amp;incognito}}</translation>
 <translation id="7029307918966275733">Crostini non è installato. Per visualizzare i crediti, installa Crostini.</translation>
 <translation id="7029809446516969842">Password</translation>
 <translation id="7030304022046916278">Invia gli URL a Navigazione sicura per controllarli</translation>
@@ -10768,6 +10769,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="8805255531353778052">Enormi risparmi</translation>
 <translation id="8807588541160250261">Quando non ci sono dispositivi connessi</translation>
 <translation id="8807632654848257479">Stabile</translation>
+<translation id="8808478386290700967">Web Store</translation>
 <translation id="8808686172382650546">Gatto</translation>
 <translation id="8809147117840417135">Verde acqua</translation>
 <translation id="8811862054141704416">Accesso al microfono su Crostini</translation>
@@ -11474,7 +11476,6 @@ A questo account potrebbero essere applicate le autorizzazioni già concesse a s
 <translation id="3193187622878830588">Portale in modalità di navigazione in incognito: <ph name="SUBFRAME_SITE"/></translation>
 <translation id="1389212885096774902">Fenced frame privato: <ph name="FENCEDFRAME_SITE"/></translation>
 <translation id="5097649414558628673">Strumento: <ph name="PRINT_NAME"/></translation>
-<translation id="8808478386290700967">Web Store</translation>
 <translation id="8261378640211443080">Questa estensione non è elencata nel <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> e potrebbe essere stata aggiunta a tua insaputa.</translation>
 <translation id="3591188117102923109">Personalizza ancora di più il tuo browser con le estensioni del <ph name="BEGIN_LINK1"/>Web Store<ph name="END_LINK1"/></translation>
 <translation id="7226591269860979104">Puoi trovare i colori precedenti nel Web Store</translation>
@@ -11513,10 +11514,6 @@ A questo account potrebbero essere applicate le autorizzazioni già concesse a s
 <translation id="5464506165779993685">Apri in una &amp;Finestra privata</translation>
 <translation id="4620367155626060530">&amp;Mostra barra dei Preferiti</translation>
 <translation id="3922078020116835067">Nascondi i preferiti</translation>
-<translation id="1448315815373449655">{COUNT, plural,
-          =0 {Open All in &amp;Private Window}
-          =1 {Open in &amp;Private Window}
-          other {Open All ({COUNT}) in &amp;Private Window}}</translation>
 <translation id="1985165269306590797">Apri in una &amp;Finestra Privata</translation>
 <translation id="4680518314108745448">&amp;Mostra barra dei Preferiti</translation>
 <translation id="2203566065151196658">&amp;Nascondi i preferiti</translation>

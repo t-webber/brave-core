@@ -8330,6 +8330,7 @@
 <translation id="7025082428878635038">דרכים חדשות לנווט באמצעות תנועות</translation>
 <translation id="7025190659207909717">ניהול שירות של נתונים סלולריים</translation>
 <translation id="7025895441903756761">אבטחה ופרטיות</translation>
+<translation id="1448315815373449655">{COUNT,plural, =0{פתיחת כול הכתובות בחלון &amp;אנונימי}=1{פתיחה בחלון &amp;אנונימי}one{פתיחת כול הכתובות ({COUNT}) בחלון &amp;אנונימי}two{פתיחת כול הכתובות ({COUNT}) בחלון &amp;אנונימי}other{פתיחת כול הכתובות ({COUNT}) בחלון &amp;אנונימי}}</translation>
 <translation id="7029307918966275733">‏Crostini לא מותקן. יש להתקין את Crostini כדי להציג קרדיטים.</translation>
 <translation id="7029809446516969842">סיסמאות</translation>
 <translation id="7030304022046916278">‏שליחת כתובות URL לבדיקה על ידי 'גלישה בטוחה'</translation>
@@ -9711,6 +9712,7 @@
 <translation id="8032569120109842252">במעקב</translation>
 <translation id="8033827949643255796">מסומן</translation>
 <translation id="8033958968890501070">הזמן שהוקצב תם</translation>
+<translation id="5932571686022524861">הדף האנונימי השמור במטמון לדף הקודם/הבא: <ph name="BACK_FORWARD_CACHE_INCOGNITO_PAGE_URL"/></translation>
 <translation id="8036193484521570992">עזרה בשיפור של המילוי האוטומטי</translation>
 <translation id="8036504271468642248">המשפט הקודם</translation>
 <translation id="8037117027592400564">קריאת כל הטקסט הנאמר באמצעות דיבור מסונתז</translation>
@@ -11492,7 +11494,6 @@
 <translation id="5053701565089446556">תוסף של גלישה פרטית: <ph name="EXTENSION_NAME"/></translation>
 <translation id="611296870688433505">יישום גלישה בסתר: <ph name="APP_NAME"/></translation>
 <translation id="9048137919253433011">כרטיסיית גלישה בסתר: <ph name="TAB_NAME"/></translation>
-<translation id="5932571686022524861">Private Back/Forward Cached Page: <ph name="BACK_FORWARD_CACHE_INCOGNITO_PAGE_URL"/></translation>
 <translation id="1799432502220762862">תת-מסגרת לגלישה בסתר: <ph name="SUBFRAME_SITE"/></translation>
 <translation id="6666022817001893507">תת-מסגרת מאוחסן במטמון פרטי של חזרה/הבא: <ph name="BACK_FORWARD_CACHE_INCOGNITO_PAGE_URL"/></translation>
 <translation id="3193187622878830588">פורטל אנונימי: <ph name="SUBFRAME_SITE"/></translation>
@@ -11534,10 +11535,6 @@
 <translation id="5464506165779993685">פתח בחלון &amp;גלישה בסתר</translation>
 <translation id="4620367155626060530">&amp;הצג את סרגל הסימניות</translation>
 <translation id="3922078020116835067">&amp;הסתר סימניות</translation>
-<translation id="1448315815373449655">{COUNT, plural,
-          =0 {Open All in &amp;Private Window}
-          =1 {Open in &amp;Private Window}
-          other {Open All ({COUNT}) in &amp;Private Window}}</translation>
 <translation id="1985165269306590797">פתח בחלון &amp;גלישה בסתר</translation>
 <translation id="4680518314108745448">&amp;הצג את סרגל הסימניות</translation>
 <translation id="2203566065151196658">&amp;הסתר סימניות</translation>

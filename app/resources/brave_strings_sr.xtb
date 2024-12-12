@@ -219,6 +219,7 @@
 <translation id="4050175100176540509">Важна безбедносна побољшања и нове функције су доступни у најновијој верзији.</translation>
 <translation id="4055805654398742145">Менаџер лозинки</translation>
 <translation id="6217792792122501564">{COUNT,plural, =1{Организација аутоматски затвара Brave када се не користи 1 минут. Подаци прегледања се бришу. То може да обухвата историју, аутоматско попуњавање и преузимања.}one{Организација аутоматски затвара Brave када се не користи # минут. Подаци прегледања се бришу. То може да обухвата историју, аутоматско попуњавање и преузимања.}few{Организација аутоматски затвара Brave када се не користи # минута. Подаци прегледања се бришу. То може да обухвата историју, аутоматско попуњавање и преузимања.}other{Организација аутоматски затвара Brave када се не користи # минута. Подаци прегледања се бришу. То може да обухвата историју, аутоматско попуњавање и преузимања.}}</translation>
+<translation id="2589970573128789862">Brave без архивирања</translation>
 <translation id="5794951150713244901">Идите на страницу О Brave-у</translation>
 <translation id="4148957013307229264">Инсталирање...</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> – пријављивање на мрежу – Brave</translation>
@@ -618,6 +619,5 @@ Ovlašćenja koja ste već dali veb-sajtovima i aplikacijama mogu se primeniti n
 <translation id="2176087127109773485">Možete upravljati svojim prijavljenim Brave lancima sinhronizacije. Vaši Brave lanci sinhronizacije koriste se za Brave pretraživač, Play Store, Gmail itd. Ako želite da dodate nalog za nekog drugog, kao što je član porodice, dodajte nov profil na svoj <ph name="DEVICE_TYPE"/> umesto toga. <ph name="LINK_BEGIN"/>Saznajte više<ph name="LINK_END"/></translation>
 <translation id="79269250264141507">Kada kucate u polje za adresu ili u okvir za preetragu, Brave šalje ono što unosite vašem podrazumevanom pretraživaču da bi se dobili bolji predlozi. To se isključuje u delu privatno.</translation>
 <translation id="3739288578188828252">Kada kucate u polje za adresu ili okvir za pretragu, Brave šalje ono što unosite na Google Drive da bi se dobili predlozi o artiklu. To se isključuje u delu privatno.</translation>
-<translation id="2589970573128789862">Brave Private</translation>
 <translation id="5994282802285556682">Kada pretražujete u privatnom režimu, Brave će vas upozoriti pre nego što učitate stranicu koristeći nebezbednu vezu</translation>
 </translationbundle>

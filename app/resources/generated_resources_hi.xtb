@@ -6066,6 +6066,7 @@
 <translation id="5368246151595623328"><ph name="DEVICE_NAME"/> से मिले '<ph name="NETWORK_NAME"/>' को सेव कर लिया गया है</translation>
 <translation id="5368441245151140827">यह एक्सटेंशन, साइट की जानकारी को पढ़ नहीं सकता और न ही उसमें बदलाव कर सकता है. इसके अलावा, यह बैकग्राउंड में चल नहीं सकता</translation>
 <translation id="5368720394188453070">आपका फ़ोन लॉक हो गया है. प्रवेश करने के लिए उसे अनलॉक करें.</translation>
+<translation id="8712375231869053533">{0,plural, =1{गुप्त}one{गुप्त (#)}other{गुप्त (#)}}</translation>
 <translation id="5369491905435686894">माउस की रफ़्तार बढ़ाने की सुविधा चालू करें</translation>
 <translation id="5369694795837229225">Linux डेवलपमेंट एनवायरमेंट सेट अप करें</translation>
 <translation id="5370819323174483825">&amp;पुन: लोड करें</translation>
@@ -8326,6 +8327,7 @@
 <translation id="7025082428878635038">पेश है हाथ के जेस्चर (हाव-भाव) की मदद से नेविगेट करने का नया तरीका</translation>
 <translation id="7025190659207909717">मोबाइल डेटा सेवा प्रबंधन</translation>
 <translation id="7025895441903756761">सुरक्षा और निजता</translation>
+<translation id="1448315815373449655">{COUNT,plural, =0{सभी यूआरएल को &amp;गुप्त विंडो में खोलें}=1{यूआरएल को &amp;गुप्त विंडो में खोलें}one{दिया गया ({COUNT}) यूआरएल &amp;गुप्त विंडो में खोलें}other{सभी ({COUNT}) यूआरएल को &amp;गुप्त विंडो में खोलें}}</translation>
 <translation id="7029307918966275733">Crostini इंस्टॉल नहीं है. क्रेडिट देखने के लिए कृपया Crostini इंस्टॉल करें.</translation>
 <translation id="7029809446516969842">पासवर्ड</translation>
 <translation id="7030304022046916278">सुरक्षित ब्राउज़िंग की सेवा को यूआरएल भेजे जाते हैं, ताकि उनकी जांच की जा सके</translation>
@@ -8359,6 +8361,7 @@
 <translation id="7053983685419859001">ब्लॉक करें</translation>
 <translation id="7055152154916055070">रीडायरेक्ट ब्लॉक किया गया:</translation>
 <translation id="7055451306017383754">शेयर करना बंद नहीं किया जा सका, क्योंकि एक ऐप्लिकेशन इस फ़ोल्डर का इस्तेमाल कर रहा है. जब Parallels Desktop अगली बार बंद होगा, तब इस फ़ोल्डर को शेयर करना बंद कर दिया जाएगा.</translation>
+<translation id="1860933807472918250">{0,plural, =1{गुप्त विंडो}one{# गुप्त विंडो को खोलें}other{# गुप्त विंडो खोलें}}</translation>
 <translation id="7056526158851679338">&amp;उपकरणों की जाँच करें</translation>
 <translation id="7057184853669165321">{NUM_MINS,plural, =1{सुरक्षा जांच 1 मिनट पहले की गई है}one{सुरक्षा जांच {NUM_MINS} मिनट पहले की गई है}other{सुरक्षा जांच {NUM_MINS} मिनट पहले की गई है}}</translation>
 <translation id="70577934383983846">अपने सभी डिवाइसों पर यह पासवर्ड इस्तेमाल करें</translation>
@@ -11526,24 +11529,12 @@
 <translation id="5464506165779993685">प्राइवेट &amp;विंडो में खोलें</translation>
 <translation id="4620367155626060530">बुकमार्क बार &amp;दिखाएं</translation>
 <translation id="3922078020116835067">बुकमार्क छिपाएँ</translation>
-<translation id="1448315815373449655">{COUNT, plural,
-          =0 {Open All in &amp;Private Window}
-          =1 {Open in &amp;Private Window}
-          other {Open All ({COUNT}) in &amp;Private Window}}</translation>
 <translation id="1985165269306590797">प्राइवेट &amp;विंडो में खोलें</translation>
 <translation id="4680518314108745448">बुकमार्क बार &amp;दिखाएं</translation>
 <translation id="2203566065151196658">बुकमार्क छिपाएँ</translation>
 <translation id="7206817092936005164">सभी प्राइवेट विंडो में खोलें</translation>
 <translation id="1342491857153455138">सभी (<ph name="URL_COUNT"/>) को  निजी विंडो में खोलें</translation>
 <translation id="5556722972306334687">प्राइवेट विंडो में खोलें</translation>
-<translation id="1860933807472918250">{0, plural,
-        =1 {Private}
-        other {# open Private windows}
-      }</translation>
-<translation id="8712375231869053533">{0, plural,
-      =1 {Private}
-      other {Private (#)}
-    }</translation>
 <translation id="4304377874648098617">यह एक प्राइवेट विंडो है</translation>
 <translation id="7171000599584840888">प्रोफ़ाइल जोड़ें ...</translation>
 <translation id="4536111748245793305">प्रोफ़ाइल <ph name="VALUE"/></translation>

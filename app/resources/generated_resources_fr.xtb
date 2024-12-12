@@ -10773,6 +10773,7 @@ Conservez votre fichier de clé en lieu sûr. Vous en aurez besoin lors de la cr
 <translation id="8805255531353778052">Économies considérables</translation>
 <translation id="8807588541160250261">Lorsqu'il n'y a aucun appareil connecté</translation>
 <translation id="8807632654848257479">Stable</translation>
+<translation id="8808478386290700967">Web Store</translation>
 <translation id="8808686172382650546">Chat</translation>
 <translation id="8809147117840417135">Turquoise clair</translation>
 <translation id="8811862054141704416">Accès au micro sur Crostini</translation>
@@ -11479,7 +11480,6 @@ Les autorisations que vous avez déjà accordées aux sites Web et aux applis pe
 <translation id="3193187622878830588">Portail de navigation privée : <ph name="SUBFRAME_SITE"/></translation>
 <translation id="1389212885096774902">Cadre cloisonné de navigation privée : <ph name="FENCEDFRAME_SITE"/></translation>
 <translation id="5097649414558628673">Outil : <ph name="PRINT_NAME"/></translation>
-<translation id="8808478386290700967">Web Store</translation>
 <translation id="8261378640211443080">Cette extension n'est pas répertoriée sur le <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> et a pu être ajoutée à votre insu.</translation>
 <translation id="3591188117102923109">Allez plus loin dans la personnalisation de votre navigateur avec les extensions du <ph name="BEGIN_LINK1"/>Web Store<ph name="END_LINK1"/></translation>
 <translation id="7226591269860979104">Vous pouvez trouver des couleurs plus anciennes dans le Web Store</translation>

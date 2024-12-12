@@ -6055,6 +6055,7 @@ Ak chcete zobrazenie oddialiť, stlačte Ctrl + Alt + zníženie jasu.</translat
 <translation id="5368246151595623328">Sieť <ph name="NETWORK_NAME"/> bola uložená v zariadení <ph name="DEVICE_NAME"/></translation>
 <translation id="5368441245151140827">Toto rozšírenie nemôže čítať a meniť informácie o webe ani byť spustené na pozadí</translation>
 <translation id="5368720394188453070">Telefón je uzamknutý. Ak chcete pokračovať, odomknite ho.</translation>
+<translation id="8712375231869053533">{0,plural, =1{Inkognito}few{Incognito (#)}many{Incognito (#)}other{Incognito (#)}}</translation>
 <translation id="5369491905435686894">Povoliť zrýchlenie myši</translation>
 <translation id="5369694795837229225">Nastaviť vývojové prostredie systému Linux</translation>
 <translation id="5370819323174483825">&amp;Obnoviť</translation>
@@ -11536,10 +11537,6 @@ Na tento účet sa môžu vzťahovať povolenia, ktoré ste už udelili webom a�
         =1 {Súkromné}
         other {# otvoriť v súkromných oknách}
       }</translation>
-<translation id="8712375231869053533">{0, plural,
-      =1 {Private}
-      other {Private (#)}
-    }</translation>
 <translation id="4304377874648098617">Ste v režime inkognito</translation>
 <translation id="7171000599584840888">Pridať profil...</translation>
 <translation id="4536111748245793305">Profil <ph name="VALUE"/></translation>

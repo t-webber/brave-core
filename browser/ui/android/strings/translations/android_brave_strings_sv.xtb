@@ -84,7 +84,6 @@
 <translation id="1118970888826017401">Aktivera stöd för att kringgå spårningsadresser för omdirigering på toppnivå.</translation>
 <translation id="94154759592465111">Blockera script</translation>
 <translation id="7714773920987474116">Blockerar JavaScript (kan få webbplatser att krascha)</translation>
-<translation id="995782501881226248">YouTube</translation>
 <translation id="2233004324252915283">Blockera rekommenderat innehåll på YouTube</translation>
 <translation id="1005372663692637999">Blockerar nästa och slutkortselementen på youtube.com.</translation>
 <translation id="5152595963250646670">Blockera distraherande element på YouTube</translation>
@@ -100,7 +99,6 @@
 <translation id="2709516037105925701">Autofyll</translation>
 <translation id="8617525558807213034">Autofyll i privata flikar</translation>
 <translation id="8685431198160039193">Sparad information kan fyllas i automatiskt i privata flikar</translation>
-<translation id="6583902294974160967">Support</translation>
 <translation id="1799030480311994998">Funktioner</translation>
 <translation id="2005732746077850308">Brave Shields och sekretess</translation>
 <translation id="4692623383562244444">Sökmotorer</translation>
@@ -137,8 +135,6 @@
 <translation id="5132969826889386652">Ändringarna har sparats</translation>
 <translation id="4335929145384293789">Lägg till anpassade filter som du har skapat, ett per rad, i fältet ovan. Se till att du använder <ph name="ADBLOCK_FILTER_SYNTAX"/>.</translation>
 <translation id="5023212862780303376">Syntax för Adblock-filter</translation>
-<translation id="6513892817556267573">Ethereum Name Service</translation>
-<translation id="531747189990625622">Solana Name Service</translation>
 <translation id="3894650624018948468">Lösningsmetod</translation>
 <translation id="8410806609595910352">ENS-sökning utanför kedja</translation>
 <translation id="2356070529366658676">Fråga</translation>
@@ -215,8 +211,6 @@
 <translation id="8308305244351876417">Tillåter att ljud spelas upp när du växlar till en annan flik i Brave, en annan app eller enhetens skärm är avstängd.</translation>
 <translation id="49147335255967913">Öppna YouTube-länkar i Brave</translation>
 <translation id="4150201353443180367">Skärm</translation>
-<translation id="4275663329226226506">Media</translation>
-<translation id="5950428831347558278">Widevine DRM</translation>
 <translation id="6716942308303275900">Använd Widevine digital rights management (DRM) för att se skyddat medieinnehåll i webbläsaren.</translation>
 <translation id="255204363133978824">Tillåt skyddat innehåll</translation>
 <translation id="4736073408974888559"><ph name="BEGIN_LINK"/>Läs mer om Widevine<ph name="END_LINK"/></translation>
@@ -250,9 +244,7 @@
 <translation id="986879628471635371">Felsökning onboarding</translation>
 <translation id="5808759341041733958">Välj ordinarie sökmotor</translation>
 <translation id="1331593888918588693">Du kan alltid ändra dina inställningar senare i appen.</translation>
-<translation id="5806601733251372221">Brave Shields</translation>
 <translation id="8537217141725709400">Tjäna <ph name="TOKEN"/>s</translation>
-<translation id="3333887201479867589">Brave Rewards</translation>
 <translation id="5870330605209713397">Genom att titta på annonser som värnar din integritet och stödja dina favoritsajter och -skapare.</translation>
 <translation id="5302488867897327287">Genom att trycka på Börja använda Brave Rewards godkänner du</translation>
 <translation id="4281844954008187215">Användarvillkor</translation>
@@ -286,18 +278,11 @@
 <translation id="6639570430554986719">JANUARI</translation>
 <translation id="1807352595146144483">FEBRUARI</translation>
 <translation id="2021828608097804771">MARS</translation>
-<translation id="1112527417301376065">APRIL</translation>
 <translation id="8737090912129856089">MAJ</translation>
 <translation id="6832612641867423485">JUNI</translation>
 <translation id="8442574087856349697">JULI</translation>
 <translation id="1202041222842415454">AUGUSTI</translation>
-<translation id="7317265217038113435">SEPTEMBER</translation>
 <translation id="8220228041552340594">OKTOBER</translation>
-<translation id="8280223431922155812">NOVEMBER</translation>
-<translation id="4254029385847607686">DECEMBER</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="1772301834467143364">Brave News</translation>
-<translation id="7732576862074737148">≈ <ph name="VALUE"/> USD</translation>
 <translation id="8428213095426709021">Inställningar</translation>
 <translation id="6020176662032623904">Verifierad skapare</translation>
 <translation id="2369994359029526515">Overifierad skapare</translation>
@@ -318,7 +303,6 @@
 <translation id="859506441384380749">Den här koden genererades av en Brave-version som är för gammal, uppgradera enheten först</translation>
 <translation id="3132642509209154999">Den här koden har upphört att gälla. Generera en ny på din andra enhet och försök igen.</translation>
 <translation id="2859229680945501779">Den här koden är ogiltig. Kontrollera att tid och tidszon är korrekt inställda på din enhet.</translation>
-<translation id="3149880132460839085">Brave Sync</translation>
 <translation id="348794064910142198">Med Brave Synk kan du synkronisera bokmärken data privat mellan dina Brave-webbläsare på dina olika enheter.\n\nSkanna bara koden från din synkroniseringskedja som du skapat på en annan enhet. Eller starta en ny synkroniseringskedja.</translation>
 <translation id="2614069607859982576">Med en befintligt synkroniserad enhet öppnar du Brave-inställningar och navigerar till inställningar &gt; synkronisering. Välj "Lägg till ny enhet" och skanna QR-koden som visas på skärmen.</translation>
 <translation id="5241263629636958324">Kopierat till urklipp</translation>
@@ -426,10 +410,6 @@ Dubbelkolla att dessa kodord genererades av en enhet som du äger.
 <translation id="2394961582378297792">Utloggad</translation>
 <translation id="5308380583665731573">Anslut</translation>
 <translation id="3368922792935385530">Ansluten</translation>
-<translation id="6569877533335686968">Uphold</translation>
-<translation id="3439853736976204026">bitFlyer</translation>
-<translation id="8533411848724153701">Gemini</translation>
-<translation id="6011108706830742093">ZebPay</translation>
 <translation id="1665118090708049096">Gå till mitt <ph name="WALLET_PROVIDER"/>-konto</translation>
 <translation id="4858636682078269312">Logga in på ditt <ph name="WALLET_PROVIDER"/>-konto</translation>
 <translation id="8874184842967597500">Inte ansluten</translation>
@@ -516,8 +496,6 @@ Dubbelkolla att dessa kodord genererades av en enhet som du äger.
 <translation id="3180928261057583677">Data sparade (<ph name="DATA_SAVED"/>)</translation>
 <translation id="6814582232712814369">Sparad tid</translation>
 <translation id="3694122362646626770">Webbplatser</translation>
-<translation id="2225863440766607138">Trackers</translation>
-<translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
 <translation id="6737820963776538947">Du blockerade <ph name="COUNT"/> trackers och annonser med Brave webbläsare under de senaste 3 timmarna.</translation>
 <translation id="5005713153542196658">Surfa upp till 6x snabbare på stora nyhetssidor i Brave genom att blockera spårare och annonser.</translation>
 <translation id="7427567994475794038">Aktivera integritetsrapporter för att se hur många trackers och annonser som har blockerats under de senaste 3 timmarna.</translation>
@@ -586,7 +564,6 @@ Dubbelkolla att dessa kodord genererades av en enhet som du äger.
 <translation id="4954512758656527938">Standardplånbok för Ethereum</translation>
 <translation id="7701023802820268122">Standardplånbok för Solana</translation>
 <translation id="7701040980221191251">Inget</translation>
-<translation id="8488282162676695335">Brave Wallet</translation>
 <translation id="8792121506918889955">WebRTC IP-hanteringspolicy</translation>
 <translation id="8798099450830957504">Standard</translation>
 <translation id="1822560017823072927">Offentliga och privata standardgränssnitt</translation>
@@ -594,7 +571,6 @@ Dubbelkolla att dessa kodord genererades av en enhet som du äger.
 <translation id="1689062823386843231">Inaktivera icke-proxad UDP</translation>
 <translation id="6915830896450988084">Skicka med <ph name="CUSTODIAN"/></translation>
 <translation id="1483493594462132177">Skicka</translation>
-<translation id="538450413584738399">Swap</translation>
 <translation id="4556086616242530072">Inbyggd webbläsare.\nSjälvförvaring.\nOch flera kedjor.</translation>
 <translation id="7909462264772842773">Ta kontroll över din krypto och NFT:er. Brave Wallet stöder Ethereum, EVM-kedjor, Solana, Filecoin med flera.</translation>
 <translation id="165255193061631296">Behöver du en ny plånbok?</translation>
@@ -648,8 +624,6 @@ Dubbelkolla att dessa kodord genererades av en enhet som du äger.
 <translation id="5098216864434824711">Lösenord matchar inte.</translation>
 <translation id="4917385247580444890">Stark</translation>
 <translation id="8297006494302853456">Svag</translation>
-<translation id="574392208103952083">Medium</translation>
-<translation id="6697810017029555732">Match!</translation>
 <translation id="5981303441790732480">Importera din befintliga plånbok</translation>
 <translation id="9111102763498581341">Lås upp</translation>
 <translation id="6657585470893396449">Lösenord</translation>
@@ -686,7 +660,6 @@ Dubbelkolla att dessa kodord genererades av en enhet som du äger.
 <translation id="1721710839767183848">Inga annonser på sidan</translation>
 <translation id="4647035642622555398">Inga avbrott</translation>
 <translation id="4122515759479497554">Sök efter videor</translation>
-<translation id="4449475351935531438">Brave Firewall + VPN</translation>
 <translation id="719977489961414786">Uppgradera till en VPN för att skydda din anslutning och blockera invasiva spårare överallt.</translation>
 <translation id="8814357473522731680">Drivs av</translation>
 <translation id="5892534145504632332">Skydda alla appar och hela din enhet</translation>
@@ -728,13 +701,10 @@ Om du inte accepterar denna begäran kommer VPN inte att ansluta igen och din in
 <translation id="3428909627460825679">Det gick inte att skapa en VPN-profil. Vänligen försök igen.</translation>
 <translation id="1264320790738638119">Din prenumeration har gått ut. Du kan när som helst prenumerera igen.</translation>
 <translation id="8681480718817027245">Prenumeration</translation>
-<translation id="7805768142964895445">Status</translation>
 <translation id="5747552184818312860">Upphör att gälla</translation>
 <translation id="1656814355341174523">Hantera prenumeration</translation>
-<translation id="1919008675977575793">Server</translation>
 <translation id="5646376287012673985">Plats</translation>
 <translation id="8375573361134671513">Återställ konfiguration</translation>
-<translation id="850405162932416400">VPN Support</translation>
 <translation id="6772117549627334582">Det gick inte att hämta serverplatsen. Vänligen försök igen senare.</translation>
 <translation id="5863914199331127413">VPN Värdnamn</translation>
 <translation id="5499653136178260315">Typ av prenumeration</translation>
@@ -742,7 +712,6 @@ Om du inte accepterar denna begäran kommer VPN inte att ansluta igen och din in
 <translation id="7286066816862208787">App kvitto</translation>
 <translation id="2552966063069741410">Tidszon</translation>
 <translation id="4395361077929528480">Nätverkstyp</translation>
-<translation id="755448900483975096">Cellular Carrier</translation>
 <translation id="1279441577056010362">Fortsätt till e-post</translation>
 <translation id="7125582363614011660">Support med hjälp av Guardian-teamet.\n\nVälj den information som du vill dela med dig av till oss.\n\nJu mer information du delar med dig av till oss, desto lättare blir det för vår supportpersonal att hjälpa dig att lösa ditt problem.</translation>
 <translation id="8813171284214934811">Välj automatiskt den VPN-serverregion som är närmast dig baserat på din tidszon. Det här alternativet rekommenderas för att maximera internethastigheten.</translation>
@@ -755,11 +724,9 @@ Om du inte accepterar denna begäran kommer VPN inte att ansluta igen och din in
           other {<ph name="SERVER_COUNT_MANY"/> servrar}
         }</translation>
 <translation id="3199127022143353223">Servrar</translation>
-<translation id="5431902940483264007">Optimal</translation>
 <translation id="6527596624419285047">Använd den bästa tillgängliga servern</translation>
 <translation id="6789157560111825412">Tillgängliga servrar</translation>
 <translation id="5823953367746119927">Serverregion</translation>
-<translation id="6991535320595227154"><ph name="REGION_NAME"/> server</translation>
 <translation id="4397083831618200686">Välj problem</translation>
 <translation id="6687228121145903051">Kan inte ansluta till VPN (annat fel)</translation>
 <translation id="9184988385244077767">Inget internet när det är anslutet</translation>
@@ -778,12 +745,10 @@ Om du inte accepterar denna begäran kommer VPN inte att ansluta igen och din in
 <translation id="6452181791372256707">Avvisa</translation>
 <translation id="8030852056903932865">Godkänn</translation>
 <translation id="1597199892790541240">Gasavgift</translation>
-<translation id="1634828734222219955">Total</translation>
 <translation id="7995708795274219641">Belopp + bränsle</translation>
 <translation id="2186011161688824046">Belopp + avgift</translation>
 <translation id="1950052789869821983">Transaktion</translation>
 <translation id="2304783958703511257">Avancerade inställningar</translation>
-<translation id="4220062530885628403">Nonce</translation>
 <translation id="1924965034964265193">Ange anpassat nonce-värde</translation>
 <translation id="5317780077021120954">Spara</translation>
 <translation id="4979796155378508955">Transaktionen får inte spridas i nätverket om det anpassade nonce-värdet inte är sekventiellt eller har andra fel.</translation>
@@ -837,12 +802,12 @@ Om du inte accepterar denna begäran kommer VPN inte att ansluta igen och din in
 <translation id="4351811224047421378">Precisionsdecimaler</translation>
 <translation id="3494964159182650590">Sammanfattning av Rewards</translation>
 <translation id="590733288489975971">Belöningar från Ads</translation>
+<translation id="1450735350187803276">Annonser visade denna månad</translation>
 <translation id="1767561995429774671">Bidra</translation>
 <translation id="7335371657242627509">Inkludera i Donera automatiskt</translation>
 <translation id="6727102863431372879">Ange</translation>
 <translation id="3074127054582480056">Viktigt</translation>
 <translation id="2280319752798785157">Månatligt bidrag</translation>
-<translation id="3079421456571897484"><ph name="VALUE"/> BAT</translation>
 <translation id="1241283133946520352">Nätverk</translation>
 <translation id="1062463687579789365">Anpassning av plånboksnätverk</translation>
 <translation id="2512821599885971349">Lägg till nätverk</translation>
@@ -911,7 +876,6 @@ Om du inte accepterar denna begäran kommer VPN inte att ansluta igen och din in
 <translation id="3340247553212049934">Förse</translation>
 <translation id="1982257600591932657">Nätverksnamn</translation>
 <translation id="5052727830821470769">Nätverk URL</translation>
-<translation id="4822132585477111396">Chain ID</translation>
 <translation id="7131971375297699539">Valutasymbol</translation>
 <translation id="7982789257301363584">Nätverk</translation>
 <translation id="6936860995365507185">Det här låter nätverket användas med Brave-plånboken. <ph name="CLICK_START"/>Läs mer<ph name="CLICK_END"/>.</translation>
@@ -975,7 +939,6 @@ Om du inte accepterar denna begäran kommer VPN inte att ansluta igen och din in
 <translation id="2334098351242742927">Ed25519-program</translation>
 <translation id="6421371987002247943">Tokenprogram</translation>
 <translation id="8780753288764281797">Secp256k1-program</translation>
-<translation id="8504640708321980506">Data</translation>
 <translation id="3723411967118253067">Program-id</translation>
 <translation id="4771176409524282426">Skapa konto</translation>
 <translation id="1755120947324658439">Tilldela</translation>
@@ -1034,8 +997,6 @@ Om du inte accepterar denna begäran kommer VPN inte att ansluta igen och din in
 <translation id="4530494379350999373">Ursprung</translation>
 <translation id="6736243959894955139">Adress</translation>
 <translation id="3095940652251934233">Kontoutdrag</translation>
-<translation id="308268297242056490">URI</translation>
-<translation id="3798449238516105146">Version</translation>
 <translation id="1313065465616456728">Utfärdat</translation>
 <translation id="7902225556763260253">Utgångstid</translation>
 <translation id="1908159733454294871">Säkerhetsrisk identifierad</translation>
@@ -1084,7 +1045,6 @@ Om du inte accepterar denna begäran kommer VPN inte att ansluta igen och din in
 <translation id="7618347247876614969">Konto för adressökningstabell:</translation>
 <translation id="7659483790930268440">Index för adressökningstabell:</translation>
 <translation id="5494920125229734069">Markera alla</translation>
-<translation id="6129027151000961048">Leo</translation>
 <translation id="8613144770663526433">Logga in med Brave Wallet</translation>
 <translation id="3696514931437952995">Du loggar in på <ph name="ORIGIN"/>. Brave wallet kommer att dela din plånboksadress med <ph name="ORIGIN"/>.</translation>
 <translation id="1028781062521375153">Visa information</translation>
@@ -1096,7 +1056,6 @@ Om du inte accepterar denna begäran kommer VPN inte att ansluta igen och din in
 <translation id="1250335737108905610">Återställ och rensa Leo-data</translation>
 <translation id="6165101586663336913">För att återställa Leo-assistenten måste du välja att använda Leo i framtiden och det kommer också att rensa din chatthistorik. När din chatthistorik rensas raderas alla dina tidigare konversationer med Leo. Det går inte att ångra den här åtgärden.</translation>
 <translation id="3692772534525889713">Länka Play Butik-köp till ditt Brave-konto för att använda Brave Leo på andra enheter.</translation>
-<translation id="73236265316873967">Leo Premium</translation>
 <translation id="1028627582482425924">Ett år</translation>
 <translation id="2985392169397572983">BÄSTA VÄRDE</translation>
 <translation id="1166682575529520472">Månatligen</translation>
@@ -1180,7 +1139,6 @@ Om du inte accepterar denna begäran kommer VPN inte att ansluta igen och din in
 <translation id="5680678411439841197">ort</translation>
 <translation id="8185518433273977704">ort</translation>
 <translation id="4528386452965343421">ort</translation>
-<translation id="1589122976691792535">region</translation>
 <translation id="2221292964468054123">delstat</translation>
 <translation id="3801482889636327368">organisation</translation>
 <translation id="1425162721525518064">företag</translation>
@@ -1189,7 +1147,6 @@ Om du inte accepterar denna begäran kommer VPN inte att ansluta igen och din in
 <translation id="6848689413353508904">behållare</translation>
 <translation id="1496514951988037011">användarnamn</translation>
 <translation id="6155129418108337061">inloggning</translation>
-<translation id="4038523199754403233">id</translation>
 <translation id="901834265349196618">e-post</translation>
 <translation id="3488199663160411179">namn</translation>
 <translation id="793994607260936590">först</translation>

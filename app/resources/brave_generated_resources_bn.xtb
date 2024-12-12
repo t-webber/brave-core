@@ -52,7 +52,6 @@
 <translation id="4450893287417543264">আবার দেখাবেন না</translation>
 <translation id="4595286989346610620">বিস্তারিত চেক করুন</translation>
 <translation id="8324318899000695659">উপাদানগুলি ব্লক করুন</translation>
-<translation id="7398397225367092613">.onion</translation>
 <translation id="2269780537090240241">.onion ঠিকানা ব্যবহার করে খুলুন: <ph name="ADDRESS"/></translation>
 <translation id="4759098689276706664">জোর করে পেস্ট করুন</translation>
 <translation id="1434416574322382019">Tor এর সাথে নতুন ব্যক্তিগত উইন্ডো</translation>
@@ -71,7 +70,6 @@
 <translation id="7595540212376041331">Brave ওয়ালেট আইকন লুকান</translation>
 <translation id="3893997535859323951">Leo AI আইকন লুকান</translation>
 <translation id="6208515240323786457">Leo AI আইকন লুকান</translation>
-<translation id="2361906291514218784">Leo AI</translation>
 <translation id="4928988318462976765">ওয়েব এক্সটেনশন স্টোর</translation>
 <translation id="9181207987584064303">ওয়েব এক্সটেনশন স্টোরে দেখুন</translation>
 <translation id="3161744659507801211">সতর্কতা: Brave আপনার ব্রাউজিং ইতিহাস রেকর্ডিং থেকে এক্সটেনশনগুলিকে আটকাতে পারে না।</translation>
@@ -114,7 +112,7 @@
 <translation id="2370739752330685659">সম্ভবত পরে</translation>
 <translation id="5100490448228945668">Brave অনুসন্ধান রূপান্তর বাতিল করুন, এই পরামর্শটি সরাতে এন্টার টিপুন</translation>
 <translation id="6213208892248046484">Brave অনুসন্ধানে স্যুইচ করুন</translation>
-<translation id="9194637241566114638">বেনামী ব্যবহারের ডেটা পাঠিয়ে <ph name="SEARCH_NAME"/> উন্নত করতে সহায়তা করুন।  <ph name="MORE_INFO"/></translation>
+<translation id="9194637241566114638">বেনামী ব্যবহারের ডেটা পাঠিয়ে <ph name="SEARCH_NAME"/> উন্নত করতে সহায়তা করুন। <ph name="MORE_INFO"/></translation>
 <translation id="7404610376221341525">Brave সার্চ</translation>
 <translation id="8184318863960255706">আরও তথ্য</translation>
 <translation id="780301667611848630">না থাক</translation>
@@ -145,7 +143,6 @@
 <translation id="1181037720776840403">সরান</translation>
 <translation id="7513769021866698486">আইটেম এডিট করুন</translation>
 <translation id="4002066346123236978">শিরোনাম</translation>
-<translation id="7400418766976504921">URL</translation>
 <translation id="5877900074358050101">সাইডবার আইটেম শিরোনাম</translation>
 <translation id="1613695740874407223">সাইডবার আইটেম url</translation>
 <translation id="4877147287319222750">সাইডবারে যোগ করুন</translation>
@@ -179,7 +176,6 @@
 <translation id="8731422418734770661">ক্রিপ্টো ওয়ালেট সেট আপ করুন</translation>
 <translation id="8199661191594897555">ক্রিপ্টো ওয়ালেটগুলি শুরু করুন এবং আবার লোড করুন</translation>
 <translation id="8428213095426709021">সেটিংস</translation>
-<translation id="193368604235852218">Web3</translation>
 <translation id="4738583579791001083">Web3 ডোমেইন</translation>
 <translation id="5046066249040287308">Brave ওয়ালেট ইউটিলিটি পরিষেবা</translation>
 <translation id="4552520379838695057">দুঃখিত, ঐ পৃষ্ঠাটি পাওয়া যাচ্ছে না।</translation>
@@ -209,12 +205,10 @@
 <translation id="5268098808165185458">ছবি থেকে টেক্সট কপি করা হচ্ছে...</translation>
 <translation id="4046485130884276245">ছবি থেকে টেক্সট কপি করা হয়েছে</translation>
 <translation id="3639779775496569782">টেক্সট কপি করা যায়নি</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
 <translation id="2506438154311626334">Brave VPN-এ WireGuard প্রোটোকল ব্যবহার করুন</translation>
 <translation id="8519170191215826548">Brave VPN সংযুক্ত থাকা অবস্থায় এই সেটিং পরিবর্তন করা যাবে না৷</translation>
 <translation id="4235920711083356755">VPN বোতাম দেখান</translation>
 <translation id="4070612712151038707">টুলবারে VPN বোতামটি দেখায়</translation>
-<translation id="7705524343798198388">VPN</translation>
 <translation id="8593397073757037946">VPN টগল করুন</translation>
 <translation id="2345974803401546682">Brave VPN সম্পর্কে</translation>
 <translation id="4378551569595875038">সংযুক্ত হচ্ছে...</translation>
@@ -489,7 +483,6 @@
 <translation id="1448289340149908413">ইথেরিয়াম</translation>
 <translation id="6583467242903731748">একটি সাইট ইথেরিয়াম সরবরাহকারী API অ্যাক্সেস করতে চাইলে তা জিজ্ঞেস করে</translation>
 <translation id="7017590444693657895">ইথেরিয়াম সরবরাহকারী API অ্যাক্সেস করা থেকে সাইটগুলিকে ব্লক করুন</translation>
-<translation id="5390923430722428146">Solana</translation>
 <translation id="4539536028173362640">যখন কোনও সাইট Solana প্রদানকারী API অ্যাক্সেস করতে চায় সে বিষয়ে জিজ্ঞাসা করুন</translation>
 <translation id="2777102601740875941">যখন কোনও সাইট Solana প্রদানকারী API অ্যাক্সেস করতে তাদের ব্লক করুন</translation>
 <translation id="4206299587103092719">Google সাইন-ইন</translation>
