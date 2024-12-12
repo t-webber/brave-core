@@ -473,7 +473,7 @@
 <translation id="4806029412510565611">Jeg har forstået, at min nuværende Brave Rewards-profil og Brave Rewards-data vil blive slettet fra min enhed, og jeg har læst den <ph name="LINK_BEGIN"/>understøttende artikel om at nulstille<ph name="LINK_END"/>.</translation>
 <translation id="7717357606512850995">Kontrollér status</translation>
 <translation id="6473937687348632190">Udbetalingen af dine <ph name="MONTH"/>-belønninger er afsluttet.</translation>
-<translation id="1711367267038576241">Udbetalingen af dine <ph name="MONTH"/>-belønninger bliver behandlet fra  <ph name="DATE"/>.</translation>
+<translation id="1711367267038576241">Udbetalingen af dine <ph name="MONTH"/>-belønninger bliver behandlet fra <ph name="DATE"/>.</translation>
 <translation id="8193714877171133821">Udbetalingen af dine <ph name="MONTH"/>-belønninger er under behandling.</translation>
 <translation id="6583902294974160967">Support</translation>
 <translation id="3825131544027418568"><ph name="BEGIN_BOLD"/>Log ind i <ph name="PROVIDER"/><ph name="END_BOLD"/> for at se din saldo</translation>
@@ -570,7 +570,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Læs mere<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Bare rolig.</translation>
 <translation id="5027616819996705541">Du kan stadig surfe helt privat!</translation>
-<translation id="1450735350187803276">Indtjening indtil videre</translation>
+<translation id="1450735350187803276">Annoncer set denne måned</translation>
 <translation id="7649070708921625228">Hjælp</translation>
 <translation id="6042308850641462728">Mere</translation>
 <translation id="6245259297588415877">Skabere</translation>
@@ -647,7 +647,7 @@
 <translation id="3080649636035373911">Land matcher ikke</translation>
 <translation id="5260522591743022748">Hmm, det ser ud til, at din Brave Belønninger allerede er bekræftet med en anden <ph name="PROVIDER"/> konto. Bekræft venligst med din tidligere konto.</translation>
 <translation id="6408621361472415607">En anden konto</translation>
-<translation id="5225019866741699134">Det ser ud til, at det i øjeblikket ikke er muligt at forbinde  <ph name="PROVIDER"/> til Brave Rewards. Prøv igen senere.</translation>
+<translation id="5225019866741699134">Det ser ud til, at det i øjeblikket ikke er muligt at forbinde <ph name="PROVIDER"/> til Brave Rewards. Prøv igen senere.</translation>
 <translation id="6105073131081187815">Du kan se <ph name="BEGIN_LINK"/>tjenestens status her<ph name="END_LINK"/>.</translation>
 <translation id="3969419585013689529">Det er i øjeblikket ikke muligt at oprette forbindelse til den valgte custodian</translation>
 <translation id="1024520300696337331">Din <ph name="PROVIDER"/>-konto kan ikke tilknyttes din Brave Belønninger-profil lige nu. Din <ph name="PROVIDER"/>-konto er registreret i et land, der ikke i øjeblikket understøtter tilknytning til Brave Belønninger.</translation>
@@ -2312,6 +2312,8 @@ Lad os få dig tilknyttet!</translation>
 <translation id="8048263175525832621">Brave VPN  Frakoblet</translation>
 <translation id="1498770726476841108">Administrér konto</translation>
 <translation id="6825718953004242472">Fjern ikon</translation>
+<translation id="3960619311638643872">Brave VPN</translation>
+<translation id="8425213833346101688">Skift</translation>
 <translation id="3287942014983548982">Åbn her</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/> er åben i øjeblikket.
     Tryk på Fane og derefter Enter for at skifte til den åbne fane</translation>
@@ -2319,7 +2321,4 @@ Lad os få dig tilknyttet!</translation>
     nuværende fane</translation>
 <translation id="451189393813405346">Spørg Leo</translation>
 <translation id="8525248723479742219">Afspil senere</translation>
-<translation id="1450735350187803276">Annoncer set denne måned</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Skift</translation>
 </translationbundle>

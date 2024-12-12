@@ -313,7 +313,7 @@
 <translation id="4157741509680155021">الأجهزة المرتبطة بسلسلة التزامن</translation>
 <translation id="279635009973773843">جارٍ تحميل الأجهزة...</translation>
 <translation id="6394333525003604181">مغادرة سلسلة المزامنة ...</translation>
-<translation id="2569646144216067185">عدد الكلمات:  <ph name="WORD_COUNT"/></translation>
+<translation id="2569646144216067185">عدد الكلمات: <ph name="WORD_COUNT"/></translation>
 <translation id="7507533586185621084">كود مزامنة خاطئ</translation>
 <translation id="8284063834901328650">كود QR للمزامنة غير صحيح</translation>
 <translation id="859506441384380749">تم إنشاء هذا الرمز بواسطة إصدار لا يتلقى تحديثات من Brave، يرجى ترقية جهازك الآخر أولاً</translation>
@@ -440,7 +440,7 @@
 <translation id="4406937629441301400">اكسب رموزاً مقابل عرض هذه الصورة وردّ الصنيع إلى منشئي المحتوى. <ph name="LEARN_MORE"/></translation>
 <translation id="6632345639591919543">أنت تكسب رموزاً مقابل عرض هذه الصورة.\n<ph name="LEARN_MORE"/></translation>
 <translation id="8164992819127316581"><ph name="CURRENT_MONTH"/> ستبدأ معالجة دفع المكافآت بحلول<ph name="PAYOUT_DATE"/>.</translation>
-<translation id="33967210973550414">صرف المكافآت قيد التقدم. <ph name="CURRENT_MONTH"/>  <ph name="CHECK_STATUS"/></translation>
+<translation id="33967210973550414">صرف المكافآت قيد التقدم. <ph name="CURRENT_MONTH"/> <ph name="CHECK_STATUS"/></translation>
 <translation id="1622952853310946314">الدفع ل <ph name="CURRENT_MONTH"/> اكتملت المكافآت. <ph name="SUPPORT"/></translation>
 <translation id="7717357606512850995">تحقق من الحالة</translation>
 <translation id="3624048886326677117">حجب المتتبعات &amp; والإعلانات (شديد)</translation>
@@ -557,7 +557,7 @@
 <translation id="3286390186030710347">الشريط المنزلق</translation>
 <translation id="3115702351969988294">كم مرة تريد مشاهدة الإعلانات؟</translation>
 <translation id="2353222426385080466">كلما زادت الإعلانات الخاصة، زادت المكافآت.</translation>
-<translation id="1201128255476890443"><ph name="ADS_PER_HOUR"/>  إعلانات في الساعة</translation>
+<translation id="1201128255476890443"><ph name="ADS_PER_HOUR"/> إعلانات في الساعة</translation>
 <translation id="827315274423079662">مرحى، أنت جاهز تماماً!</translation>
 <translation id="3895246934788932488">باستخدام Brave Rewards، فأنت تحمي خصوصيتك وتساعد في جعل الويب مكاناً أفضل للجميع. وهذا الـ’s رائعاً!</translation>
 <translation id="5705882733397021510">العودة</translation>
@@ -834,6 +834,7 @@
 <translation id="4351811224047421378">دقة الكسور العشرية</translation>
 <translation id="3494964159182650590">ملخص المكافآت</translation>
 <translation id="590733288489975971">مكافآت من الإعلانات</translation>
+<translation id="1450735350187803276">الإعلانات التي تمت مشاهدتها هذا الشهر</translation>
 <translation id="1767561995429774671">مساهمة</translation>
 <translation id="7335371657242627509">تضمين في المساهمة التلقائية</translation>
 <translation id="6727102863431372879">تعيين</translation>

@@ -422,7 +422,7 @@
 <translation id="2729085694451916573">Cadeia de teste para <ph name="PART_ONE"/>marcadores de posição<ph name="PART_ONE_END"/>. <ph name="PART_TWO"/>Saiba mais<ph name="PART_TWO_END"/></translation>
 <translation id="7534079972563542000">Domínios Imparáveis</translation>
 <translation id="4492298165410552103">Habilitar suporte de Domínios Imparáveis no Brave?</translation>
-<translation id="5015092481905019948">O Brave usará <ph name="PROVIDER_NAME"/> para resolver <ph name="DOMAIN_LIST"/> nomes de domínios que estão em <ph name="DOMAIN_PROVIDER_NAME"/>. Brave esconde seu endereço IP. Se você habilitar isso, <ph name="PROVIDER_NAME"/> verá que alguém está tentando visitar esses domínios, mas apenas isso. Consulte os termos de uso de <ph name="PROVIDER_NAME"/>  <ph name="BEGIN_PROVIDER_TOU_LINK"/><ph name="END_PROVIDER_TOU_LINK"/> e sua <ph name="BEGIN_PROVIDER_PRIVACY_LINK"/>política de privacidade<ph name="END_PROVIDER_PRIVACY_LINK"/>.</translation>
+<translation id="5015092481905019948">O Brave usará <ph name="PROVIDER_NAME"/> para resolver <ph name="DOMAIN_LIST"/> nomes de domínios que estão em <ph name="DOMAIN_PROVIDER_NAME"/>. Brave esconde seu endereço IP. Se você habilitar isso, <ph name="PROVIDER_NAME"/> verá que alguém está tentando visitar esses domínios, mas apenas isso. Consulte os termos de uso de <ph name="PROVIDER_NAME"/> <ph name="BEGIN_PROVIDER_TOU_LINK"/><ph name="END_PROVIDER_TOU_LINK"/> e sua <ph name="BEGIN_PROVIDER_PRIVACY_LINK"/>política de privacidade<ph name="END_PROVIDER_PRIVACY_LINK"/>.</translation>
 <translation id="6513892817556267573">Serviço de Nome Ethereum</translation>
 <translation id="2789190492285945209">Serviço de Nome Ethereum (ENS)</translation>
 <translation id="4335039108389860301">Habilitar suporte do Serviço de Nome Ethereum (ENS) no Brave?</translation>
@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Saiba mais<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Não se preocupe.</translation>
 <translation id="5027616819996705541">Você ainda pode navegar de modo privado!</translation>
-<translation id="1450735350187803276">Ganhos até agora</translation>
+<translation id="1450735350187803276">Anúncios vistos neste mês</translation>
 <translation id="7649070708921625228">Ajuda</translation>
 <translation id="6042308850641462728">Mais</translation>
 <translation id="6245259297588415877">Criadores</translation>
@@ -2140,7 +2140,7 @@
 <translation id="7509914170164691086">Proteções ATIVADAS <ph name="LINK_BEFORE"/>para<ph name="LINK_AFTER"/></translation>
 <translation id="260764436039299868">As Proteções estão DESATIVADAS <ph name="LINK_BEFORE"/>para<ph name="LINK_AFTER"/></translation>
 <translation id="3907405056878805220">Se este site parece não estar funcionando corretamente, tente desativar as Proteções.
-    <ph name="LINK_BEFORE"/>Observação: isso poderá reduzir as proteções de privacidade do Brave.<ph name="LINK_AFTER"/></translation>
+   <ph name="LINK_BEFORE"/>Observação: isso poderá reduzir as proteções de privacidade do Brave.<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">Rastreadores, anúncios e outros conteúdos bloqueados <ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Não protegido pelas Proteções do Brave <ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">Controles avançados</translation>
@@ -2299,7 +2299,7 @@ Vamos conectar você!</translation>
 <translation id="7423206764347669977">Alterar as configurações</translation>
 <translation id="9061845622728745852">Fuso horário:</translation>
 <translation id="8295393906499561642">Sessão expirada</translation>
-<translation id="3312623558576021182">Faça login em sua  <ph name="BRAVE_ACCOUNT_BEGIN"/>conta Brave<ph name="BRAVE_ACCOUNT_END"/> para atualizar sua sessão VPN.</translation>
+<translation id="3312623558576021182">Faça login em sua <ph name="BRAVE_ACCOUNT_BEGIN"/>conta Brave<ph name="BRAVE_ACCOUNT_END"/> para atualizar sua sessão VPN.</translation>
 <translation id="7861195049821776142">Brave VPN: desconectando</translation>
 <translation id="2061807837510296780">Brave VPN: conectando</translation>
 <translation id="1313124107969703758">Brave VPN: erro</translation>
@@ -2309,6 +2309,11 @@ Vamos conectar você!</translation>
 <translation id="8048263175525832621">Brave VPN: desconectado</translation>
 <translation id="1498770726476841108">Gerenciar conta</translation>
 <translation id="6825718953004242472">Remover ícone</translation>
+<translation id="6819278685469225453">Proteja todos os aplicativos e todo o seu dispositivo</translation>
+<translation id="3960619311638643872">Brave VPN</translation>
+<translation id="4295077644587784828">Privacidade e segurança extra on-line.</translation>
+<translation id="8425213833346101688">Alterar</translation>
+<translation id="8703188411226330709">Iniciar teste gratuito</translation>
 <translation id="3287942014983548982">Abrir aqui</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/>, aberto no momento,
     pressione Tab e depois Enter para mudar para a guia aberta</translation>
@@ -2316,10 +2321,4 @@ Vamos conectar você!</translation>
     guia existente</translation>
 <translation id="451189393813405346">Perguntar ao Leo</translation>
 <translation id="8525248723479742219">Reproduzir mais tarde</translation>
-<translation id="1450735350187803276">Anúncios vistos neste mês</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Alterar</translation>
-<translation id="6819278685469225453">Proteja todos os aplicativos e todo o seu dispositivo</translation>
-<translation id="4295077644587784828">Privacidade e segurança extra on-line.</translation>
-<translation id="8703188411226330709">Iniciar teste gratuito</translation>
 </translationbundle>

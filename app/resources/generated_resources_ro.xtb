@@ -4159,7 +4159,6 @@ Aici pot fi incluse informații despre software-ul instalat, fișiere, browser �
 <translation id="3948116654032448504">&amp;Caută imaginea cu <ph name="SEARCH_ENGINE"/></translation>
 <translation id="3948334586359655083">Această filă redă conținut audio</translation>
 <translation id="3948507072814225786"><ph name="ORIGIN"/> poate edita fișierele din următoarele dosare</translation>
-<translation id="8749961973669074620">Majoritatea utilizatorilor blochează afișarea locației exacte pentru acest site</translation>
 <translation id="394984172568887996">Importate din IE</translation>
 <translation id="3949999964543783947"><ph name="IDS_DOWNLOAD_BUBBLE_SUBPAGE_SUMMARY_WARNING_SAFE_BROWSING_SETTING_LINK"/> pentru descărcarea mai sigură a fișierelor</translation>
 <translation id="3950820424414687140">Conectează-te</translation>
@@ -9186,7 +9185,6 @@ Mai ai # de parole compromise. Managerul de parole Brave recomandă să verifici
 <translation id="1800308196794859773">Trimite-ți vocea la Brave pentru a permite dictarea în orice câmp de text.</translation>
 <translation id="7678588695732963732">Resetezi toate permisiunile pentru dispozitivul USB?</translation>
 <translation id="7679171213002716280">Sunt disponibile <ph name="PRINTER_COUNT"/> imprimante gestionate.</translation>
-<translation id="3189599032195207275">Împiedică persoanele care au acces la traficul tău de internet să vadă ce site-uri accesezi. <ph name="PRODUCT_NAME"/> folosește o conexiune securizată pentru a căuta adresa IP a unui site în DNS (Sistemul denumirilor de domenii). Conexiunile securizate nu sunt folosite pentru anumite domenii configurate de administrator.</translation>
 <translation id="7680416688940118410">Calibrarea ecranului tactil</translation>
 <translation id="7681095912841365527">Site-ul poate folosi Bluetooth</translation>
 <translation id="7681597159868843240">Site-urile folosesc de obicei senzorii de mișcare ai dispozitivului pentru funcții cum ar fi realitatea virtuală sau monitorizarea activității de fitness</translation>
@@ -11471,6 +11469,7 @@ Permisiunile pe care le-ai acordat deja site-urilor și aplicațiilor se pot apl
 <translation id="6216189820029634282">Ieșiți oricum din modul incognito?</translation>
 <translation id="4132775938064605501">Ieșiți oricum din modul incognito?</translation>
 <translation id="871606814707918245">Majoritatea utilizatorilor blochează notificările de la acest site</translation>
+<translation id="8749961973669074620">Majoritatea utilizatorilor blochează afișarea locației exacte pentru acest site</translation>
 <translation id="5053701565089446556">Extensie Privată: <ph name="EXTENSION_NAME"/></translation>
 <translation id="611296870688433505">Aplicație Privată: <ph name="APP_NAME"/></translation>
 <translation id="9048137919253433011">Tab Privat: <ph name="TAB_NAME"/></translation>
@@ -11548,6 +11547,7 @@ Permisiunile pe care le-ai acordat deja site-urilor și aplicațiilor se pot apl
 <translation id="154633726381112301">Puteți limita autentificarea anumitor utilizatori. Astfel, eliminați opțiunea „Adăugați profil" de pe ecranul de autentificare. Puteți de asemenea elimina utilizatori actuali</translation>
 <translation id="8273477935094091719">Dispozitivul dvs. <ph name="DEVICE_TYPE"/> utilizează un senzor încorporat pentru a detecta profilurile din fața sa. Toate datele sunt procesate instantaneu pe dispozitiv, după care sunt șterse. Datele preluate de senzori nu sunt niciodată transmise la Brave. <ph name="LINK_BEGIN"/>Aflați mai multe<ph name="LINK_END"/></translation>
 <translation id="3096545662097412065">Faceți ca profilurile care au acces la traficul dvs. de internet să poată vedea mai greu site-urile pe care le accesați. <ph name="PRODUCT_NAME"/> utilizează o conexiune securizată pentru a căuta o adresă IP a unui site în DNS (Sistem de nume de domeniu).</translation>
+<translation id="3189599032195207275">Împiedică persoanele care au acces la traficul tău de internet să vadă ce site-uri accesezi. <ph name="PRODUCT_NAME"/> folosește o conexiune securizată pentru a căuta adresa IP a unui site în DNS (Sistemul denumirilor de domenii). Conexiunile securizate nu sunt folosite pentru anumite domenii configurate de administrator.</translation>
 <translation id="5832813618714645810">Profiluri</translation>
 <translation id="3216703137209942563">{COUNT, plural,
       =1 {Fereastra privată nu se va deschide după relansare}
@@ -11585,7 +11585,7 @@ Permisiunile pe care le-ai acordat deja site-urilor și aplicațiilor se pot apl
 <translation id="9133877508558459162">Activat • Această extensie încalcă politica Magazinului web</translation>
 <translation id="7970407206985139925">{NUM_EXTENSIONS, plural,
       =1 {Eliminați-o sau înlocuiți-o cu extensii similare din <ph name="BEGIN_LINK"/> Magazinul Web <ph name="END_LINK"/>.}
-      other {Eliminați-le sau înlocuiți-le cu extensii similare din <ph name="BEGIN_LINK"/>  Magazinul Web <ph name="END_LINK"/>}
+      other {Eliminați-le sau înlocuiți-le cu extensii similare din <ph name="BEGIN_LINK"/> Magazinul Web <ph name="END_LINK"/>}
     }</translation>
 <translation id="3760153688434998813">Eliminați-o sau înlocuiți-o cu extensii similare din <ph name="BEGIN_LINK"/> Magazinul Web <ph name="END_LINK"/></translation>
 <translation id="659039914757960684">Configurați partajarea în apropiere și realizați schimburi de fișiere cu profilurile din jurul dvs.</translation>

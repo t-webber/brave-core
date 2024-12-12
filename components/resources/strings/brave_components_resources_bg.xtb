@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Научете повече<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Не се тревожете.</translation>
 <translation id="5027616819996705541">Все още можете да сърфирате частно</translation>
-<translation id="1450735350187803276">Печалба до момента</translation>
+<translation id="1450735350187803276">Реклами, видени този месец</translation>
 <translation id="7649070708921625228">Помощ</translation>
 <translation id="6042308850641462728">Още</translation>
 <translation id="6245259297588415877">Създатели</translation>
@@ -2309,6 +2309,8 @@ Brave има помощна услуга, която Ви защитава от 
 <translation id="8048263175525832621">Brave VPN – прекъсната връзка</translation>
 <translation id="1498770726476841108">Управление на акаунта</translation>
 <translation id="6825718953004242472">Премахване на иконата</translation>
+<translation id="3960619311638643872">Brave VPN</translation>
+<translation id="8425213833346101688">Промяна</translation>
 <translation id="3287942014983548982">Отваряне тук</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/>, е отворено понастоящем,
   натиснете Раздел и след това Enter, за да превключите към отворения раздел</translation>
@@ -2316,7 +2318,4 @@ Brave има помощна услуга, която Ви защитава от 
 съществуващия раздел</translation>
 <translation id="451189393813405346">Попитайте Leo</translation>
 <translation id="8525248723479742219">Възпроизвеждане по-късно</translation>
-<translation id="1450735350187803276">Реклами, видени този месец</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Промяна</translation>
 </translationbundle>

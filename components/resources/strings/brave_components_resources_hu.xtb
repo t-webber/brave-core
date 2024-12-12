@@ -564,7 +564,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>További információk<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Aggodalomra semmi ok!</translation>
 <translation id="5027616819996705541">Továbbra is privátban böngészhet!</translation>
-<translation id="1450735350187803276">Eddigi jövedelem</translation>
+<translation id="1450735350187803276">Ebben a hónapban megtekintett hirdetések</translation>
 <translation id="7649070708921625228">Súgó</translation>
 <translation id="6042308850641462728">További</translation>
 <translation id="6245259297588415877">Alkotók</translation>
@@ -2137,7 +2137,7 @@
 <translation id="7509914170164691086">Pajzsok ENGEDÉLYEZVE <ph name="LINK_BEFORE"/> a(z) <ph name="LINK_AFTER"/> webhelyen</translation>
 <translation id="260764436039299868">Pajzsok KIKAPCSOLVA <ph name="LINK_BEFORE"/> a(z) <ph name="LINK_AFTER"/> webhelyen</translation>
 <translation id="3907405056878805220">Ha a webhely látszólag helytelenül működik, próbálja kikapcsolni a pajzsokat.
-    <ph name="LINK_BEFORE"/>Megjegyzés: ez korlátozhatja a Brave adatvédelmi mechanizmusait.<ph name="LINK_AFTER"/></translation>
+   <ph name="LINK_BEFORE"/>Megjegyzés: ez korlátozhatja a Brave adatvédelmi mechanizmusait.<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">Nyomkövetők, hirdetések és még több blokkolva <ph name="LINK_BEFORE"/>További információ<ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Nincs felállítva a Brave pajzsok általi védelem<ph name="LINK_BEFORE"/>További információ<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">Speciális vezérlők</translation>
@@ -2306,6 +2306,8 @@ Hozzuk létre kapcsolatát!</translation>
 <translation id="8048263175525832621">Brave VPN – nincs csatlakoztatva</translation>
 <translation id="1498770726476841108">Fiók kezelése</translation>
 <translation id="6825718953004242472">Ikon eltávolítása</translation>
+<translation id="3960619311638643872">Brave VPN</translation>
+<translation id="8425213833346101688">Módosítás</translation>
 <translation id="3287942014983548982">Megnyitás itt</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/>, jelenleg megnyitva,
 a Tab, majd az Enter billentyű megnyomásával a megnyitott lapra válthat</translation>
@@ -2313,7 +2315,4 @@ a Tab, majd az Enter billentyű megnyomásával a megnyitott lapra válthat</tra
 a meglévő lapra való váltás helyett</translation>
 <translation id="451189393813405346">A Leo megkérdezése</translation>
 <translation id="8525248723479742219">Lejátszás később</translation>
-<translation id="1450735350187803276">Ebben a hónapban megtekintett hirdetések</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Módosítás</translation>
 </translationbundle>

@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Läs mer<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Oroa dig inte.</translation>
 <translation id="5027616819996705541">Du kan fortfarande surfa privat.</translation>
-<translation id="1450735350187803276">Intäkter hittills</translation>
+<translation id="1450735350187803276">Annonser visade denna månad</translation>
 <translation id="7649070708921625228">Hjälp</translation>
 <translation id="6042308850641462728">Mer</translation>
 <translation id="6245259297588415877">Kreatörer</translation>
@@ -1764,7 +1764,7 @@
 <translation id="7758665172236842395">Följ dina favoritkällor i ett enda flöde. Öppna bara en flik i Brave, bläddra ner och … voila!</translation>
 <translation id="2376542729617592331">Brave News stöds av annonser med helt privata och anonymiserade annonser. <ph name="LINK_START"/>Läs mer.<ph name="LINK_END"/>.</translation>
 <translation id="1765217911817124376">Aktivera Brave News</translation>
-<translation id="6265592479622441247">Tillbaka till  <ph name="BEGIN_BOLD"/>Översikten<ph name="END_BOLD"/></translation>
+<translation id="6265592479622441247">Tillbaka till <ph name="BEGIN_BOLD"/>Översikten<ph name="END_BOLD"/></translation>
 <translation id="8981973962043893066">Sök efter webbplats, ämne eller RSS-feed</translation>
 <translation id="1498364270401875204">Kanaler</translation>
 <translation id="6401776069326703655">Visa alla</translation>
@@ -2309,13 +2309,12 @@ Dags att ansluta dig!</translation>
 <translation id="8048263175525832621">Brave VPN – frånkopplad</translation>
 <translation id="1498770726476841108">Hantera konto</translation>
 <translation id="6825718953004242472">Ta bort ikon</translation>
+<translation id="3960619311638643872">Brave VPN</translation>
+<translation id="8425213833346101688">Ändra</translation>
 <translation id="3287942014983548982">Öppna här</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/>, är för närvarande öppen,
 tryck på Tab och sedan på Retur för att växla till den öppna fliken</translation>
 <translation id="1538335063514960365">Öppna här-knapp. tryck på Retur för att öppna den här webbadressen på den aktuella fliken, i stället för att växla till den befintliga fliken</translation>
 <translation id="451189393813405346">Fråga Leo</translation>
 <translation id="8525248723479742219">Spela upp senare</translation>
-<translation id="1450735350187803276">Annonser visade denna månad</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Ändra</translation>
 </translationbundle>

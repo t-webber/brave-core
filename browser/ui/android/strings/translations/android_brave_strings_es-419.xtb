@@ -374,7 +374,7 @@
 <translation id="1008186147501209563">Exportar favoritos</translation>
 <translation id="6680516947641001448">Seleccionar un archivo para importar marcadores</translation>
 <translation id="2353910600995338714">Exportación correcta</translation>
-<translation id="229319993704311844">Se han exportado los marcadores a  <ph name="EXPORT_FILE_PATH"/></translation>
+<translation id="229319993704311844">Se han exportado los marcadores a <ph name="EXPORT_FILE_PATH"/></translation>
 <translation id="8050098462121217351">Error en la exportación</translation>
 <translation id="1166543535974380311">Error al exportar los marcadores. Vuelve a intentarlo.</translation>
 <translation id="6154243540085290880">Importación correcta</translation>
@@ -613,7 +613,7 @@ Verifique que ha sido un dispositivo suyo el que ha generado estas palabras clav
 <translation id="3726490322412361740">Introduce la contraseña</translation>
 <translation id="1566412704591731844">Creando su billetera…</translation>
 <translation id="7779823116893018906">El proceso puede tardar unos segundos…</translation>
-<translation id="1577948178257477049">Cuenta de <ph name="ACCOUNT_NAME"/>  <ph name="ACCOUNT_NUMBER"/></translation>
+<translation id="1577948178257477049">Cuenta de <ph name="ACCOUNT_NAME"/> <ph name="ACCOUNT_NUMBER"/></translation>
 <translation id="7665369617277396874">Agregar cuenta</translation>
 <translation id="3448492834076427715">Actualizar cuenta</translation>
 <translation id="5532363218245261099">N.º <ph name="NUMBER"/> <ph name="RECOVERY_PHRASE"/></translation>
@@ -837,6 +837,7 @@ Si no acepta esta solicitud, la VPN no se volverá a conectar y su conexión a I
 <translation id="4351811224047421378">Decimales de precisión</translation>
 <translation id="3494964159182650590">Resumen de recompensas</translation>
 <translation id="590733288489975971">Recompensas de anuncios</translation>
+<translation id="1450735350187803276">Anuncios vistos este mes</translation>
 <translation id="1767561995429774671">Contribuir</translation>
 <translation id="7335371657242627509">Incluir en Autocontribuir</translation>
 <translation id="6727102863431372879">Configurar</translation>

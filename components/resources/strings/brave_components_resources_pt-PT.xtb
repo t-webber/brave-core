@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Obter mais informações<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Não se preocupe.</translation>
 <translation id="5027616819996705541">Continua a poder navegar de forma privada!</translation>
-<translation id="1450735350187803276">Lucro até agora</translation>
+<translation id="1450735350187803276">Anúncios vistos este mês</translation>
 <translation id="7649070708921625228">Ajuda</translation>
 <translation id="6042308850641462728">Mais</translation>
 <translation id="6245259297588415877">Criadores</translation>
@@ -1285,7 +1285,7 @@
 <translation id="886032538431162695">Ordenar ativos</translation>
 <translation id="6080181976198929758">Ordenar por valor ou nome de autorização</translation>
 <translation id="2563815561570398537">Ocultar saldos pequenos</translation>
-<translation id="5841592226472736796">Ativos com um valor inferior a  <ph name="FIAT_VALUE"/></translation>
+<translation id="5841592226472736796">Ativos com um valor inferior a <ph name="FIAT_VALUE"/></translation>
 <translation id="2580006529299724767">Selecionar contas</translation>
 <translation id="3163217874378427909">Selecionar redes</translation>
 <translation id="5494920125229734069">Selecionar tudo</translation>
@@ -1979,8 +1979,8 @@
 <translation id="4138119885026877702">Repor tudo</translation>
 <translation id="8247915960543694908">Crie um atalho. Pressione as teclas com que quer criar o atalho.</translation>
 <translation id="1344005710343072293">Esta combinação é usada para <ph name="COMMAND"/>. Guardar irá substituir esse atalho.</translation>
-<translation id="831931573200952705">Esta combinação está a ser utilizada para  <ph name="COMMAND"/> e não pode ser modificada.</translation>
-<translation id="3537006124004887164">Esta combinação está a ser utilizada para  <ph name="COMMAND"/> e não pode ser modificada. Experimente modificá-la através de "Atalhos de aplicações" nas Definições de sistema.</translation>
+<translation id="831931573200952705">Esta combinação está a ser utilizada para <ph name="COMMAND"/> e não pode ser modificada.</translation>
+<translation id="3537006124004887164">Esta combinação está a ser utilizada para <ph name="COMMAND"/> e não pode ser modificada. Experimente modificá-la através de "Atalhos de aplicações" nas Definições de sistema.</translation>
 <translation id="8536713137312218707">Comandos rápidos</translation>
 <translation id="712598284361781729">Nova vista dividida</translation>
 <translation id="1130188644637295274">Abrir em vista dividida</translation>
@@ -2140,7 +2140,7 @@
 <translation id="7509914170164691086">Proteções <ph name="LINK_BEFORE"/>ATIVADAS<ph name="LINK_AFTER"/> para</translation>
 <translation id="260764436039299868">Proteções <ph name="LINK_BEFORE"/>DESATIVADAS<ph name="LINK_AFTER"/> para</translation>
 <translation id="3907405056878805220">Se este site não funcionar corretamente, experimente desativar as Proteções.
-    <ph name="LINK_BEFORE"/>Nota: pode reduzir as proteções de privacidade do Brave.<ph name="LINK_AFTER"/></translation>
+   <ph name="LINK_BEFORE"/>Nota: pode reduzir as proteções de privacidade do Brave.<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">Rastreadores, anúncios, e muito mais bloqueados <ph name="LINK_BEFORE"/>Saber mais<ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Sem Proteções Brave <ph name="LINK_BEFORE"/>Saber mais<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">Controlos avançados</translation>
@@ -2309,6 +2309,8 @@ Vamos navegar!</translation>
 <translation id="8048263175525832621">VPN Brave – desligada</translation>
 <translation id="1498770726476841108">Gerir conta</translation>
 <translation id="6825718953004242472">Remover ícone</translation>
+<translation id="3960619311638643872">VPN Brave</translation>
+<translation id="8425213833346101688">Alterar</translation>
 <translation id="3287942014983548982">Abrir aqui</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/>, atualmente aberto,
     prima Tab e, em seguida, prima Enter para mudar para o separador aberto</translation>
@@ -2316,7 +2318,4 @@ Vamos navegar!</translation>
     separador existente</translation>
 <translation id="451189393813405346">Perguntar ao Leo</translation>
 <translation id="8525248723479742219">Reproduzir mais tarde</translation>
-<translation id="1450735350187803276">Anúncios vistos este mês</translation>
-<translation id="3960619311638643872">VPN Brave</translation>
-<translation id="8425213833346101688">Alterar</translation>
 </translationbundle>

@@ -645,7 +645,7 @@ je v teku.
 <translation id="4204268048253692928">Omrežja lahko kadar koli dodate v Nastavitve.</translation>
 <translation id="2523174693142405417">Išči v omrežjih</translation>
 <translation id="1164748583090434571">Prikaži testna omrežja</translation>
-<translation id="935220650946301698">Nadaljuj z <ph name="NUMBER"/>   omrežji</translation>
+<translation id="935220650946301698">Nadaljuj z <ph name="NUMBER"/>  omrežji</translation>
 <translation id="4052668782430384783">Beseda št. <ph name="NUMBER"/></translation>
 <translation id="8248460961680233459">Ustvarjanje gesla</translation>
 <translation id="2789310860394340571">To geslo boste uporabili za dostop do denarnice.</translation>
@@ -844,6 +844,7 @@ je v teku.
 <translation id="4351811224047421378">Decimalke natančnosti</translation>
 <translation id="3494964159182650590">Povzetek nagrad</translation>
 <translation id="590733288489975971">Nagrade z oglaševanjem</translation>
+<translation id="1450735350187803276">Oglasi, ogledani ta mesec</translation>
 <translation id="1767561995429774671">Doniraj</translation>
 <translation id="7335371657242627509">Vključi v samodejno doniranje</translation>
 <translation id="6727102863431372879">Nastavi</translation>

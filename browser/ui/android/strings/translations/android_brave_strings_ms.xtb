@@ -606,14 +606,14 @@ Anda pasti anda ingin melakukan tindakan ini?</translation>
 <translation id="5333225216561354793">Kami memerlukan anda mengakui item berikut</translation>
 <translation id="6937275455070754004">Pilih rantaian blok yang hendak digunakan dalam dompet anda.</translation>
 <translation id="1645800479814134195">Saya faham ini ialah dompet penjagaan sendiri, dan saya seorang sahaja yang bertanggungjawab ke atas sebarang dana, aset atau akaun yang berkaitan, dan untuk mengambil tindakan yang sewajarnya untuk menjamin, melindungi dan membuat sandaran dompet saya. Saya faham bahawa Brave tidak boleh mengakses dompet saya atau membalikkan transaksi bagi pihak saya, dan frasa pemulihan saya ialah SATU-SATUNYA cara untuk mendapatkan semula akses sekiranya kata laluan hilang, peranti dicuri atau keadaan yang serupa.</translation>
-<translation id="4565891212173086999">Saya telah membaca dan bersetuju dengan  <ph name="CLICK_START"/>Terma Penggunaan<ph name="CLICK_END"/>.</translation>
+<translation id="4565891212173086999">Saya telah membaca dan bersetuju dengan <ph name="CLICK_START"/>Terma Penggunaan<ph name="CLICK_END"/>.</translation>
 <translation id="3259102562570606417">Simpan frasa pemulihan anda</translation>
 <translation id="4339981001593889376">Frasa pemulihan anda ialah kunci untuk mengakses dompet anda jika anda terlupa kata laluan anda atau kehilangan peranti anda.</translation>
 <translation id="426648489149930289">Simpan di tempat selamat yang tidak dapat diakses oleh orang lain dan elakkan berkongsi frasa pemulihan itu dengan sesiapa sahaja.</translation>
 <translation id="3726490322412361740">Masukkan Kata Laluan</translation>
 <translation id="1566412704591731844">Mencipta dompet anda…</translation>
 <translation id="7779823116893018906">Mungkin mengambil masa beberapa saat…</translation>
-<translation id="1577948178257477049">Akaun <ph name="ACCOUNT_NAME"/>  <ph name="ACCOUNT_NUMBER"/></translation>
+<translation id="1577948178257477049">Akaun <ph name="ACCOUNT_NAME"/> <ph name="ACCOUNT_NUMBER"/></translation>
 <translation id="7665369617277396874">Tambah akaun</translation>
 <translation id="3448492834076427715">Kemas kini akaun</translation>
 <translation id="5532363218245261099">#<ph name="NUMBER"/> <ph name="RECOVERY_PHRASE"/></translation>
@@ -837,6 +837,7 @@ Jika anda tidak menerima permintaan ini, VPN tidak akan bersambung semula dan sa
 <translation id="4351811224047421378">Titik perpuluhan tepat</translation>
 <translation id="3494964159182650590">Ringkasan Ganjaran</translation>
 <translation id="590733288489975971">Ganjaran dari Iklan</translation>
+<translation id="1450735350187803276">Iklan dilihat bulan ini</translation>
 <translation id="1767561995429774671">Beri Sumbangan</translation>
 <translation id="7335371657242627509">Termasuk dalam Auto-Sumbangan</translation>
 <translation id="6727102863431372879">Tetapkan</translation>

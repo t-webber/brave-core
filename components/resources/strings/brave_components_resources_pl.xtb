@@ -147,7 +147,7 @@
 <translation id="8813986611396294203">Sieć Tor działa obecnie nieco wolniej</translation>
 <translation id="2795840524629682765">Połączenie z Tor nie powiodło się</translation>
 <translation id="1149108864689950951">Tor łączy się... [[percentage]]%</translation>
-<translation id="3651192084771403430">Masz problemy z połączeniem? Spróbuj <ph name="BEGIN_LINK"/>wyłączyć<ph name="END_LINK"/>  prywatne okno w Tor i ponownie je włączyć w ustawieniach.</translation>
+<translation id="3651192084771403430">Masz problemy z połączeniem? Spróbuj <ph name="BEGIN_LINK"/>wyłączyć<ph name="END_LINK"/> prywatne okno w Tor i ponownie je włączyć w ustawieniach.</translation>
 <translation id="8834376622642889380"><ph name="BEGIN_LINK"/>Otwórz Ustawienia Brave<ph name="END_LINK"/>, zamknij prywatne okno w Tor, a następnie otwórz je ponownie.</translation>
 <translation id="1576202729986800142"><ph name="BEGIN_BOLD"/>Nadal masz problemy?<ph name="END_BOLD"/> Spróbuj użyć <ph name="BEGIN_BRIDGES_LINK"/>mostów<ph name="END_BRIDGES_LINK"/> lub <ph name="BEGIN_SUPPORT_LINK"/>skontaktuj się z pomocą techniczną<ph name="END_SUPPORT_LINK"/>.</translation>
 <translation id="8388043004918289671">Skontaktuj się z pomocą techniczną.</translation>
@@ -569,7 +569,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Dowiedz się więcej<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Nie martw się.</translation>
 <translation id="5027616819996705541">Wciąż możesz przeglądać bez obaw o naruszenie prywatności!</translation>
-<translation id="1450735350187803276">Dochody dotychczas</translation>
+<translation id="1450735350187803276">Reklamy wyświetlone w tym miesiącu</translation>
 <translation id="7649070708921625228">Pomoc</translation>
 <translation id="6042308850641462728">Więcej</translation>
 <translation id="6245259297588415877">Twórcy</translation>
@@ -857,7 +857,7 @@
 <translation id="4500473291496079954">Traci ważność</translation>
 <translation id="2236833281018938257">Adres portfela lub adres URL</translation>
 <translation id="928500657730628112">Adres portfela</translation>
-<translation id="6812967455478797345">Przeglądarka Brave korzysta z <ph name="LINK_BEFORE"/> <ph name="SWAP_PROVIDER"/><ph name="LINK_AFTER"/>  jako agregatora DEX.</translation>
+<translation id="6812967455478797345">Przeglądarka Brave korzysta z <ph name="LINK_BEFORE"/> <ph name="SWAP_PROVIDER"/><ph name="LINK_AFTER"/> jako agregatora DEX.</translation>
 <translation id="151946611346774041">0x przetworzy adres Ethereum i adres IP, aby zrealizować transakcję (z uwzględnieniem odbioru ofert). 0x będzie korzystać z tych danych WYŁĄCZNIE do celów przetwarzania transakcji.</translation>
 <translation id="7465227658364622464">Jupiter przetworzy adres Solana i adres IP w celu realizacji transakcji (w tym uzyskania wycen). Jupiter wykorzysta te dane WYŁĄCZNIE do celów przetwarzania transakcji.</translation>
 <translation id="712738518060477110">Wycena uwzględnia <ph name="SWAP_FEE_PERCENTAGE"/> opłatę Brave.</translation>
@@ -2144,7 +2144,7 @@
 <translation id="7509914170164691086">Tarcze są WŁĄCZONE <ph name="LINK_BEFORE"/> dla <ph name="LINK_AFTER"/></translation>
 <translation id="260764436039299868">Tarcze są WYŁĄCZONE <ph name="LINK_BEFORE"/> dla <ph name="LINK_AFTER"/></translation>
 <translation id="3907405056878805220">Jeśli ta strona nie działa, wyłącz Tarczę.
-    <ph name="LINK_BEFORE"/>Uwaga: to może zmniejszyć ochronę prywatności zapewnianą przez Brave.<ph name="LINK_AFTER"/></translation>
+   <ph name="LINK_BEFORE"/>Uwaga: to może zmniejszyć ochronę prywatności zapewnianą przez Brave.<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">Zablokowane skrypty śledzące, reklamy i inne <ph name="LINK_BEFORE"/>Dowiedz się więcej<ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Nie jest chronione przez Tarcze Brave <ph name="LINK_BEFORE"/>Dowiedz się więcej<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">Zaawansowane sterowanie</translation>
@@ -2312,6 +2312,8 @@ Zaraz Cię połączymy!</translation>
 <translation id="8048263175525832621">VPN Brave – rozłączono</translation>
 <translation id="1498770726476841108">Zarządzaj kontem</translation>
 <translation id="6825718953004242472">Usuń ikonę</translation>
+<translation id="3960619311638643872">Brave VPN</translation>
+<translation id="8425213833346101688">Zmień</translation>
 <translation id="3287942014983548982">Otwórz tutaj</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/>, obecnie otwarta.
     Naciśnij klawisz Tab, apotem Enter, by przełączyć się na otwartą kartę.</translation>
@@ -2319,7 +2321,4 @@ Zaraz Cię połączymy!</translation>
     istniejącej karty.</translation>
 <translation id="451189393813405346">Zapytaj Leo</translation>
 <translation id="8525248723479742219">Odtwórz później</translation>
-<translation id="1450735350187803276">Reklamy wyświetlone w tym miesiącu</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Zmień</translation>
 </translationbundle>

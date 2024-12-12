@@ -422,7 +422,7 @@
 <translation id="2729085694451916573">Testovací řetězec pro <ph name="PART_ONE"/>zástupné znaky<ph name="PART_ONE_END"/>. <ph name="PART_TWO"/>Zjistit více<ph name="PART_TWO_END"/></translation>
 <translation id="7534079972563542000">Unstoppable Domains</translation>
 <translation id="4492298165410552103">Chcete povolit podporu služby Unstoppable Domains v prohlížeči Brave?</translation>
-<translation id="5015092481905019948">Brave bude používat<ph name="PROVIDER_NAME"/> k vyřešení názvů domén <ph name="DOMAIN_LIST"/>, které jsou na  <ph name="DOMAIN_PROVIDER_NAME"/>. Brave skryje vaši IP adresu. Pokud tohle povolíte,<ph name="PROVIDER_NAME"/> uvidí, že se někdo pokouší navštívit tyto domény, ale nic jiného. Viz <ph name="BEGIN_PROVIDER_TOU_LINK"/> podmínky použití<ph name="END_PROVIDER_TOU_LINK"/> a <ph name="BEGIN_PROVIDER_PRIVACY_LINK"/>zásady ochrany osobních údajů<ph name="END_PROVIDER_PRIVACY_LINK"/> <ph name="PROVIDER_NAME"/>.</translation>
+<translation id="5015092481905019948">Brave bude používat<ph name="PROVIDER_NAME"/> k vyřešení názvů domén <ph name="DOMAIN_LIST"/>, které jsou na <ph name="DOMAIN_PROVIDER_NAME"/>. Brave skryje vaši IP adresu. Pokud tohle povolíte,<ph name="PROVIDER_NAME"/> uvidí, že se někdo pokouší navštívit tyto domény, ale nic jiného. Viz <ph name="BEGIN_PROVIDER_TOU_LINK"/> podmínky použití<ph name="END_PROVIDER_TOU_LINK"/> a <ph name="BEGIN_PROVIDER_PRIVACY_LINK"/>zásady ochrany osobních údajů<ph name="END_PROVIDER_PRIVACY_LINK"/> <ph name="PROVIDER_NAME"/>.</translation>
 <translation id="6513892817556267573">Služba Ethereum Name Service</translation>
 <translation id="2789190492285945209">Služba Ethereum Name Service (ENS)</translation>
 <translation id="4335039108389860301">Chcete v prohlížeči Brave povolit podporu služby ENS (Ethereum Name Service)?</translation>
@@ -432,7 +432,7 @@
 <translation id="4047002754575891955">Pokračujte ve vyhledávání mimo řetězec</translation>
 <translation id="531747189990625622">Služba Solana Name Service</translation>
 <translation id="1090584614351290462">Chcete v prohlížeči Brave povolit podporu služby Solana Name Service (SNS)?</translation>
-<translation id="7769345036263036863">Brave bude používat třetí stranu k vyřešení názvů domén. <ph name="DOMAIN_LIST"/>. Brave skryje vaši IP adresu. Pokud tohle povolíte, třetí strana uvidí, že se někdo snaží navštívit tyto domény  <ph name="DOMAIN_LIST"/>, ale nic jiného. Další informace o tom, které třetí strany používáme, a jejich zásady ochrany osobních údajů naleznete v naší  <ph name="BEGIN_SNS_WIKI_LINK"/>stránce nápovědy<ph name="END_SNS_WIKI_LINK"/>.</translation>
+<translation id="7769345036263036863">Brave bude používat třetí stranu k vyřešení názvů domén. <ph name="DOMAIN_LIST"/>. Brave skryje vaši IP adresu. Pokud tohle povolíte, třetí strana uvidí, že se někdo snaží navštívit tyto domény <ph name="DOMAIN_LIST"/>, ale nic jiného. Další informace o tom, které třetí strany používáme, a jejich zásady ochrany osobních údajů naleznete v naší <ph name="BEGIN_SNS_WIKI_LINK"/>stránce nápovědy<ph name="END_SNS_WIKI_LINK"/>.</translation>
 <translation id="884864496166128252">Pokračujte v používaní serveru <ph name="PROVIDER_NAME"/></translation>
 <translation id="4388873516324656141">Pokračovat s použitím serveru SNS</translation>
 <translation id="2356070529366658676">Zeptat se</translation>
@@ -568,7 +568,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Zjistit více<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Žádné strachy.</translation>
 <translation id="5027616819996705541">Můžete stále procházet internet s ochranou soukromí!</translation>
-<translation id="1450735350187803276">Dosavadní výdělek</translation>
+<translation id="1450735350187803276">Reklamy zobrazené tento měsíc</translation>
 <translation id="7649070708921625228">Nápověda</translation>
 <translation id="6042308850641462728">Více</translation>
 <translation id="6245259297588415877">Autoři</translation>
@@ -648,7 +648,7 @@
 <translation id="5225019866741699134">Vypadá to, že připojení <ph name="PROVIDER"/> k Brave Rewards je dočasně nedostupné. Zkuste to později.</translation>
 <translation id="6105073131081187815">Stav služby si můžete zobrazit <ph name="BEGIN_LINK"/>zde<ph name="END_LINK"/>.</translation>
 <translation id="3969419585013689529">Připojování k vybranému správci je dočasně nedostupné</translation>
-<translation id="1024520300696337331">Váš účet <ph name="PROVIDER"/> nemůže být v tuto chvíli připojen k vašemu profilu Brave Rewards. Váš účet <ph name="PROVIDER"/>  je registrován v zemi, která aktuálně nepodporuje připojení k Brave Rewards.</translation>
+<translation id="1024520300696337331">Váš účet <ph name="PROVIDER"/> nemůže být v tuto chvíli připojen k vašemu profilu Brave Rewards. Váš účet <ph name="PROVIDER"/> je registrován v zemi, která aktuálně nepodporuje připojení k Brave Rewards.</translation>
 <translation id="619384413404021992">Zobrazit <ph name="LINK_BEGIN"/>aktuální seznam podporovaných regionů a zjistit další informace<ph name="END_LINK"/> o připojení svěřeneckého účtu k Brave Rewards.</translation>
 <translation id="7933193151688235283">Region aktuálně není podporován</translation>
 <translation id="5376524136040178759">Podle společnosti Uphold se v současné době na váš účet vztahují určitá omezení. Přihlaste se ke svému účtu Uphold a zkontrolujte, zda nepřišla nějaká upozornění nebo požadavky ohledně účtu, které je třeba splnit, a poté to zkuste znovu. Je například možné, že budete muset společnosti Uphold poskytnout další informace.</translation>
@@ -2143,7 +2143,7 @@ other {# zdrojů}
 <translation id="7509914170164691086">Štíty <ph name="LINK_BEFORE"/>pro<ph name="LINK_AFTER"/> jsou ZAPNUTY</translation>
 <translation id="260764436039299868">Štíty <ph name="LINK_BEFORE"/>pro<ph name="LINK_AFTER"/> jsou VYPNUTÉ</translation>
 <translation id="3907405056878805220">Pokud se stránka nezobrazuje správně, zkuste štíty vypnout.
-    <ph name="LINK_BEFORE"/>Poznámka: může dojít k omezení ochrany soukromí Brave.<ph name="LINK_AFTER"/></translation>
+   <ph name="LINK_BEFORE"/>Poznámka: může dojít k omezení ochrany soukromí Brave.<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">Počet zablokovaných sledovačů, reklam, atd. <ph name="LINK_BEFORE"/>Další informace<ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Ochrana štíty Brave není zapnuta <ph name="LINK_BEFORE"/>Zjistit více<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">Pokročilé nastavení</translation>
@@ -2313,6 +2313,8 @@ Pojďme vás připojit!</translation>
 <translation id="8048263175525832621">Brave VPN - Odpojeno</translation>
 <translation id="1498770726476841108">Spravovat účet</translation>
 <translation id="6825718953004242472">Odebrat ikonu</translation>
+<translation id="3960619311638643872">VPN síť Brave</translation>
+<translation id="8425213833346101688">Změnit</translation>
 <translation id="3287942014983548982">Otevřít zde</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/>, aktuálně otevřené,
     stiskněte tabulátor a potom Enter k přepnutí na otevřenou kartu</translation>
@@ -2320,7 +2322,4 @@ Pojďme vás připojit!</translation>
     stávající karty</translation>
 <translation id="451189393813405346">Zeptat se Lea</translation>
 <translation id="8525248723479742219">Přehrát později</translation>
-<translation id="1450735350187803276">Reklamy zobrazené tento měsíc</translation>
-<translation id="3960619311638643872">VPN síť Brave</translation>
-<translation id="8425213833346101688">Změnit</translation>
 </translationbundle>

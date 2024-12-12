@@ -837,6 +837,7 @@ Se você não aceitar essa solicitação, a VPN não se reconectará, e sua cone
 <translation id="4351811224047421378">Decimais de precisão</translation>
 <translation id="3494964159182650590">Resumo das Recompensas</translation>
 <translation id="590733288489975971">Recompensas do Ads</translation>
+<translation id="1450735350187803276">Anúncios vistos neste mês</translation>
 <translation id="1767561995429774671">Contribua</translation>
 <translation id="7335371657242627509">Incluir na contribuição automática</translation>
 <translation id="6727102863431372879">Definir</translation>
@@ -1086,7 +1087,7 @@ Se você não aceitar essa solicitação, a VPN não se reconectará, e sua cone
 <translation id="5494920125229734069">Selecionar tudo</translation>
 <translation id="6129027151000961048">Leo</translation>
 <translation id="8613144770663526433">Iniciar sessão com a Carteira Brave</translation>
-<translation id="3696514931437952995">Você iniciou sessão em  <ph name="ORIGIN"/>. A carteira Brave compartilhará o endereço da sua carteira com  <ph name="ORIGIN"/>.</translation>
+<translation id="3696514931437952995">Você iniciou sessão em <ph name="ORIGIN"/>. A carteira Brave compartilhará o endereço da sua carteira com <ph name="ORIGIN"/>.</translation>
 <translation id="1028781062521375153">Ver detalhes</translation>
 <translation id="6759710362319508545">Recursos</translation>
 <translation id="2471230424465522689">Não antes de</translation>

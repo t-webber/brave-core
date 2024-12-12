@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Matuto pa<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Huwag mag-alala.</translation>
 <translation id="5027616819996705541">Puwede ka pa ring mag-browse nang pribado!</translation>
-<translation id="1450735350187803276">Kita sa ngayon</translation>
+<translation id="1450735350187803276">Mga ad na nakita ngayong buwan</translation>
 <translation id="7649070708921625228">Tulong</translation>
 <translation id="6042308850641462728">Higit pa</translation>
 <translation id="6245259297588415877">Mga creator</translation>
@@ -2140,7 +2140,7 @@
 <translation id="7509914170164691086">NAKA-ON ang Shields <ph name="LINK_BEFORE"/>para sa<ph name="LINK_AFTER"/></translation>
 <translation id="260764436039299868">NAKA-OFF ang Shields <ph name="LINK_BEFORE"/>nang<ph name="LINK_AFTER"/></translation>
 <translation id="3907405056878805220">Kung mukhang sira ang site na ito, subukan ang naka-off na Shields.
-    <ph name="LINK_BEFORE"/>Tandaan: posibleng mabawasan nito ang mga proteksyon sa privacy ng Brave.<ph name="LINK_AFTER"/></translation>
+   <ph name="LINK_BEFORE"/>Tandaan: posibleng mabawasan nito ang mga proteksyon sa privacy ng Brave.<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">Na-block ang mga tracker, ad, at higit pa <ph name="LINK_BEFORE"/>Matuto pa<ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Hindi pinoprotektahan ng Brave Shields <ph name="LINK_BEFORE"/>Matuto pa<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">Advanced controls</translation>
@@ -2309,6 +2309,8 @@ Ikonekta ka natin!</translation>
 <translation id="8048263175525832621">Brave VPN - Nadiskonekta</translation>
 <translation id="1498770726476841108">Pamahalaan ang Account</translation>
 <translation id="6825718953004242472">Alisin ang icon</translation>
+<translation id="3960619311638643872">Brave VPN</translation>
+<translation id="8425213833346101688">Baguhin</translation>
 <translation id="3287942014983548982">Buksan dito</translation>
 <translation id="8234327602319965815">Kasalukuyang bukas ang <ph name="OPEN_HERE_SUFFIX"/>,
     pindutin ang Tab pagkatapos ang Enter para magpalit sa bukas na tab</translation>
@@ -2316,7 +2318,4 @@ Ikonekta ka natin!</translation>
    umiiral na tab</translation>
 <translation id="451189393813405346">Tanungin si Leo</translation>
 <translation id="8525248723479742219">I-play sa Ibang Pagkakataon</translation>
-<translation id="1450735350187803276">Mga ad na nakita ngayong buwan</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Baguhin</translation>
 </translationbundle>

@@ -11464,7 +11464,7 @@ Obtén informació sobre les dades que Brave recull i sobre el motiu pel qual ho
 <translation id="4132775938064605501">Vols sortir igualment del mode d'incògnit?</translation>
 <translation id="871606814707918245">La majoria d'usuaris bloquegen les notificacions d'aquest lloc web</translation>
 <translation id="8749961973669074620">La majoria dels perfils bloquegen la ubicació exacta per compartir en aquest lloc web</translation>
-<translation id="5053701565089446556">Extensió d'incògnit:  <ph name="EXTENSION_NAME"/></translation>
+<translation id="5053701565089446556">Extensió d'incògnit: <ph name="EXTENSION_NAME"/></translation>
 <translation id="611296870688433505">Aplicació d'incògnit: <ph name="APP_NAME"/></translation>
 <translation id="9048137919253433011">Pestanya d'incògnit: <ph name="TAB_NAME"/></translation>
 <translation id="5932571686022524861">Pàgina de retrocés/avançament d'incògnit a la memòria cau: <ph name="BACK_FORWARD_CACHE_INCOGNITO_PAGE_URL"/></translation>
@@ -11540,7 +11540,7 @@ Obtén informació sobre les dades que Brave recull i sobre el motiu pel qual ho
 <translation id="7253003527666031200">Cerca més eines d'accessibilitat a la Botiga Web</translation>
 <translation id="154633726381112301">Podeu limitar l'accés a determinats usuaris. Això elimina l'opció "Afegeix un perfil" a la pantalla d'inici de sessió. També podeu eliminar els usuaris actuals.</translation>
 <translation id="8273477935094091719">El vostre <ph name="DEVICE_TYPE"/> utilitza un sensor integrat per detectar perfils davant del dispositiu. Totes les dades es processen al dispositiu immediatament i després s'eliminen. Les dades del sensor no s'envien mai al Brave.<ph name="LINK_BEGIN"/>Saber-ne més<ph name="LINK_END"/></translation>
-<translation id="3096545662097412065">Feu que sigui més complicat que els perfils que tenen accés al vostre trànsit web vegin els llocs web que visiteu.  <ph name="PRODUCT_NAME"/> utilitza una connexió segura per cercar l'adreça IP dels llocs web al DNS (Domain Name System).</translation>
+<translation id="3096545662097412065">Feu que sigui més complicat que els perfils que tenen accés al vostre trànsit web vegin els llocs web que visiteu. <ph name="PRODUCT_NAME"/> utilitza una connexió segura per cercar l'adreça IP dels llocs web al DNS (Domain Name System).</translation>
 <translation id="3189599032195207275">Feu que sigui més complicat que els perfils que tenen accés al vostre trànsit web vegin els llocs web que visiteu. <ph name="PRODUCT_NAME"/> utilitza una connexió segura per cercar l'adreça IP dels llocs web al DNS (Domain Name System). Les connexions segures no s'utilitzen per a alguns dominis configurats pel vostre administrador.</translation>
 <translation id="5832813618714645810">Perfils</translation>
 <translation id="3216703137209942563">{COUNT, plural,

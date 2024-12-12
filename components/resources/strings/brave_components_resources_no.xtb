@@ -568,7 +568,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Finn ut mer<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Men ta det med ro.</translation>
 <translation id="5027616819996705541">Du kan fortsatt surfe privat på nettet!</translation>
-<translation id="1450735350187803276">Inntjening hittil</translation>
+<translation id="1450735350187803276">Annonser sett denne måneden</translation>
 <translation id="7649070708921625228">Hjelp</translation>
 <translation id="6042308850641462728">Mer</translation>
 <translation id="6245259297588415877">Oppfinnere</translation>
@@ -2141,7 +2141,7 @@
 <translation id="7509914170164691086">Skjoldene er OPPE <ph name="LINK_BEFORE"/>for<ph name="LINK_AFTER"/></translation>
 <translation id="260764436039299868">Skjoldene er NEDE <ph name="LINK_BEFORE"/>for<ph name="LINK_AFTER"/></translation>
 <translation id="3907405056878805220">Hvis det virker som at dette nettstedet har feil, kan du prøve å senke skjoldene.
-    <ph name="LINK_BEFORE"/>Merk: dette kan redusere Braves personvernbeskyttelse.<ph name="LINK_AFTER"/></translation>
+   <ph name="LINK_BEFORE"/>Merk: dette kan redusere Braves personvernbeskyttelse.<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">Sporinger, reklamer og annet blokkert <ph name="LINK_BEFORE"/>Les mer<ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Ikke beskyttet av Brave Shields <ph name="LINK_BEFORE"/>Finn ut mer<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">Avanserte kontroller</translation>
@@ -2310,6 +2310,8 @@ La oss koble deg til!</translation>
 <translation id="8048263175525832621">Brave VPN: Frakoblet</translation>
 <translation id="1498770726476841108">Administrer konto</translation>
 <translation id="6825718953004242472">Fjern ikon</translation>
+<translation id="3960619311638643872">Brave VPN</translation>
+<translation id="8425213833346101688">Endre</translation>
 <translation id="3287942014983548982">Åpne her</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/> er åpen.
 Trykk på Tab, og deretter på Enter for å bytte til den åpne fanen.</translation>
@@ -2317,7 +2319,4 @@ Trykk på Tab, og deretter på Enter for å bytte til den åpne fanen.</translat
 eksisterende fanen</translation>
 <translation id="451189393813405346">Spør Leo</translation>
 <translation id="8525248723479742219">Spill senere</translation>
-<translation id="1450735350187803276">Annonser sett denne måneden</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Endre</translation>
 </translationbundle>

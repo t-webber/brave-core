@@ -443,7 +443,7 @@ Anda yakin ingin melakukan hal ini?</translation>
 <translation id="4406937629441301400">Dapatkan token dengan melihat gambar ini dan berikan kebaikan pada kreator. <ph name="LEARN_MORE"/></translation>
 <translation id="6632345639591919543">Anda memperoleh token karena melihat gambar ini.\n<ph name="LEARN_MORE"/></translation>
 <translation id="8164992819127316581">Pembayaran imbalan <ph name="CURRENT_MONTH"/> akan mulai diproses sebelum <ph name="PAYOUT_DATE"/>.</translation>
-<translation id="33967210973550414">Pembayaran imbalan  <ph name="CURRENT_MONTH"/> sedang diproses. <ph name="CHECK_STATUS"/></translation>
+<translation id="33967210973550414">Pembayaran imbalan <ph name="CURRENT_MONTH"/> sedang diproses. <ph name="CHECK_STATUS"/></translation>
 <translation id="1622952853310946314">Pembayaran imbalan <ph name="CURRENT_MONTH"/> telah selesai. <ph name="SUPPORT"/></translation>
 <translation id="7717357606512850995">Periksa status</translation>
 <translation id="3624048886326677117">Memblokir pelacak &amp; iklan (Agresif)</translation>
@@ -837,6 +837,7 @@ Jika Anda tidak menerima permintaan ini, VPN tidak akan tersambung kembali dan s
 <translation id="4351811224047421378">Desimal presisi</translation>
 <translation id="3494964159182650590">Ringkasan Rewards</translation>
 <translation id="590733288489975971">Imbalan dari Ads</translation>
+<translation id="1450735350187803276">Iklan yang dilihat bulan ini</translation>
 <translation id="1767561995429774671">Kontribusi</translation>
 <translation id="7335371657242627509">Sertakan di Konribusi Otomatis</translation>
 <translation id="6727102863431372879">Set</translation>

@@ -312,7 +312,7 @@
 <translation id="4157741509680155021">सिंक चेन पर डिवाइस</translation>
 <translation id="279635009973773843">डिवाइस लोड हो रही हैं...</translation>
 <translation id="6394333525003604181">सिंक चेन छोड़ना...</translation>
-<translation id="2569646144216067185">शब्द गणना:  <ph name="WORD_COUNT"/></translation>
+<translation id="2569646144216067185">शब्द गणना: <ph name="WORD_COUNT"/></translation>
 <translation id="7507533586185621084">गलत सिंक कोड</translation>
 <translation id="8284063834901328650">गलत सिंक QR कोड</translation>
 <translation id="859506441384380749">यह कोड Brave के पुराने पिछड़े संस्करण से जेनरेट किया गया था, कृपया पहले अपने अन्य डिवाइस को अपग्रेड करें</translation>
@@ -836,6 +836,7 @@
 <translation id="4351811224047421378">डेसिमल ऑफ़ प्रिसिशन</translation>
 <translation id="3494964159182650590">रिवॉर्ड के बारे में जानकारी</translation>
 <translation id="590733288489975971">विज्ञापनों से रिवॉर्ड</translation>
+<translation id="1450735350187803276">इस महीने देखे गए विज्ञापन</translation>
 <translation id="1767561995429774671">सहयोग करें</translation>
 <translation id="7335371657242627509">ऑटो-योगदान में शामिल करें</translation>
 <translation id="6727102863431372879">सेट</translation>

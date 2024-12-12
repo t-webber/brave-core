@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>深入瞭解<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">別擔心。</translation>
 <translation id="5027616819996705541">您在瀏覽網頁時，仍能保有個人隱私！</translation>
-<translation id="1450735350187803276">迄今為止的收益</translation>
+<translation id="1450735350187803276">本月看到的廣告</translation>
 <translation id="7649070708921625228">說明</translation>
 <translation id="6042308850641462728">更多</translation>
 <translation id="6245259297588415877">創作者</translation>
@@ -2309,6 +2309,8 @@ Brave 的協助程式服務可過濾對您 VPN 連線執行 DNS 查詢的方式�
 <translation id="8048263175525832621">Brave VPN - 已中斷連線</translation>
 <translation id="1498770726476841108">管理帳戶</translation>
 <translation id="6825718953004242472">移除圖示</translation>
+<translation id="3960619311638643872">Brave VPN</translation>
+<translation id="8425213833346101688">變更</translation>
 <translation id="3287942014983548982">在此開啟</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/>，目前開啟，
 按 Tab，然後按 Enter 以切換到開啟的分頁</translation>
@@ -2316,7 +2318,4 @@ Brave 的協助程式服務可過濾對您 VPN 連線執行 DNS 查詢的方式�
 現有分頁</translation>
 <translation id="451189393813405346">詢問 Leo</translation>
 <translation id="8525248723479742219">稍後播放</translation>
-<translation id="1450735350187803276">本月看到的廣告</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">變更</translation>
 </translationbundle>

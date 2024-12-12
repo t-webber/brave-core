@@ -442,9 +442,9 @@ Je, una uhakika unataka kufanya hili?</translation>
 <translation id="1275213816424141989">Labda Baadaye</translation>
 <translation id="4406937629441301400">Pata tokeni kwa kutazama picha hii na uilipe kwa waundaji. <ph name="LEARN_MORE"/></translation>
 <translation id="6632345639591919543">Pata tokeni kwa kutazama picha hii na uilipe kwa waundaji.\n<ph name="LEARN_MORE"/></translation>
-<translation id="8164992819127316581">Malipo ya zawadi za  <ph name="CURRENT_MONTH"/> yataanza kuchakatwa kufikia <ph name="PAYOUT_DATE"/>.</translation>
-<translation id="33967210973550414">Malipo ya zawadi za  <ph name="CURRENT_MONTH"/> yanaendelea. <ph name="CHECK_STATUS"/>.</translation>
-<translation id="1622952853310946314">Malipo ya zawadi za  <ph name="CURRENT_MONTH"/> yamekamilika. <ph name="SUPPORT"/>.</translation>
+<translation id="8164992819127316581">Malipo ya zawadi za <ph name="CURRENT_MONTH"/> yataanza kuchakatwa kufikia <ph name="PAYOUT_DATE"/>.</translation>
+<translation id="33967210973550414">Malipo ya zawadi za <ph name="CURRENT_MONTH"/> yanaendelea. <ph name="CHECK_STATUS"/>.</translation>
+<translation id="1622952853310946314">Malipo ya zawadi za <ph name="CURRENT_MONTH"/> yamekamilika. <ph name="SUPPORT"/>.</translation>
 <translation id="7717357606512850995">Angalia hali</translation>
 <translation id="3624048886326677117">Zuia vifuatiliaji na matangazo (Hima)</translation>
 <translation id="7151914815476509258">Zuia vifuatiliaji na matangazo (Wastani)</translation>
@@ -837,6 +837,7 @@ Usipolikubali ombi hili, VPN haitaunganisha tena na muunganisho wako wa intaneti
 <translation id="4351811224047421378">Desimali za usahihi</translation>
 <translation id="3494964159182650590">Muhtasari wa Zawadi</translation>
 <translation id="590733288489975971">Zawadi kutoka kwenye Matangazo</translation>
+<translation id="1450735350187803276">Matangazo yaliyoonekana mwezi huu</translation>
 <translation id="1767561995429774671">Changia</translation>
 <translation id="7335371657242627509">Jumuisha kwenye Auto-Contribute</translation>
 <translation id="6727102863431372879">Weka</translation>

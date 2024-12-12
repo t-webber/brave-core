@@ -423,7 +423,7 @@
 <ph name="PART_TWO_END"/></translation>
 <translation id="7534079972563542000">Unstoppable Domains</translation>
 <translation id="4492298165410552103">Activar a compatibilidade de Unstoppable Domains en Brave?</translation>
-<translation id="5015092481905019948">Brave usará <ph name="PROVIDER_NAME"/> para resolver nomes de dominio<ph name="DOMAIN_LIST"/> en <ph name="DOMAIN_PROVIDER_NAME"/>. Brave oculta o teu enderezo IP. Se activas esta opción, <ph name="PROVIDER_NAME"/> verá que alguén tenta visitar este dominio, pero nada máis. Consulta as  <ph name="BEGIN_PROVIDER_TOU_LINK"/>condicións de servizo<ph name="END_PROVIDER_TOU_LINK"/> e a <ph name="BEGIN_PROVIDER_PRIVACY_LINK"/>política de privacidade<ph name="END_PROVIDER_PRIVACY_LINK"/> de<ph name="DOMAIN_PROVIDER_NAME"/>.</translation>
+<translation id="5015092481905019948">Brave usará <ph name="PROVIDER_NAME"/> para resolver nomes de dominio<ph name="DOMAIN_LIST"/> en <ph name="DOMAIN_PROVIDER_NAME"/>. Brave oculta o teu enderezo IP. Se activas esta opción, <ph name="PROVIDER_NAME"/> verá que alguén tenta visitar este dominio, pero nada máis. Consulta as <ph name="BEGIN_PROVIDER_TOU_LINK"/>condicións de servizo<ph name="END_PROVIDER_TOU_LINK"/> e a <ph name="BEGIN_PROVIDER_PRIVACY_LINK"/>política de privacidade<ph name="END_PROVIDER_PRIVACY_LINK"/> de<ph name="DOMAIN_PROVIDER_NAME"/>.</translation>
 <translation id="6513892817556267573">Ethereum Name Service</translation>
 <translation id="2789190492285945209">Servizo de nomes de Ethereum (ENS)</translation>
 <translation id="4335039108389860301">Activar a asistencia de Ethereum Name Service (ENS) en Brave?</translation>
@@ -568,7 +568,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Máis información<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Non te preocupes.</translation>
 <translation id="5027616819996705541">Podes seguir navegando de forma privada!</translation>
-<translation id="1450735350187803276">Ingresos ata o momento</translation>
+<translation id="1450735350187803276">Anuncios vistos este mes</translation>
 <translation id="7649070708921625228">Axuda</translation>
 <translation id="6042308850641462728">Máis</translation>
 <translation id="6245259297588415877">Creadores</translation>
@@ -1257,7 +1257,7 @@
 <translation id="5133421763709317473">Non se atopou ningún activo que coincida coa busca nin co filtro</translation>
 <translation id="6423985584914773314">Non é un enderezo FIL válido</translation>
 <translation id="5522073372365069684">Comprar con Ramp</translation>
-<translation id="6153197326949684688">Vende con  <ph name="OFFRAMP_PROVIDER"/></translation>
+<translation id="6153197326949684688">Vende con <ph name="OFFRAMP_PROVIDER"/></translation>
 <translation id="7902920577183739843">Comprar con Sardine</translation>
 <translation id="3301984548406568819">Os datos financeiros e de transaccións serán procesados polos nosos socios de onramp. Brave non compila nin dispón de acceso a eses datos.</translation>
 <translation id="6534275647567011533">Comprar con Transak</translation>
@@ -1818,7 +1818,7 @@
 <translation id="3553513561058684206">Para ti</translation>
 <translation id="2217013723701900638">Editores</translation>
 <translation id="5138227688689900538">Mostrar menos</translation>
-<translation id="1041218419402648959">Ocultar contido de  <ph name="PUBLISHER_NAME"/></translation>
+<translation id="1041218419402648959">Ocultar contido de <ph name="PUBLISHER_NAME"/></translation>
 <translation id="3992393738853907417">Quizais che guste tamén</translation>
 <translation id="7801706796402209986">Este feed está baleiro</translation>
 <translation id="5385187102307010596">Parece que non hai artigos neste feed neste momento. Tenta volver máis tarde ou actualizar o feed.</translation>
@@ -2141,7 +2141,7 @@
 <translation id="7509914170164691086">Os escudos están activos <ph name="LINK_BEFORE"/>para<ph name="LINK_AFTER"/></translation>
 <translation id="260764436039299868">Os escudos están desactivados <ph name="LINK_BEFORE"/>para<ph name="LINK_AFTER"/></translation>
 <translation id="3907405056878805220">Se o sitio non funciona, proba a desactivar Escudos.
-    <ph name="LINK_BEFORE"/>Nota: Isto pode reducir a protección da privacidade de Brave.<ph name="LINK_AFTER"/></translation>
+   <ph name="LINK_BEFORE"/>Nota: Isto pode reducir a protección da privacidade de Brave.<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">Bloqueáronse rastreadores e anuncios, entre outras cousas <ph name="LINK_BEFORE"/>Máis información<ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Sen a protección de Escudos de Brave <ph name="LINK_BEFORE"/>Máis información<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">Controis avanzados</translation>
@@ -2309,6 +2309,8 @@ Non perdas a conexión!</translation>
 <translation id="8048263175525832621">VPN de Brave: desconectada</translation>
 <translation id="1498770726476841108">Xestionar conta</translation>
 <translation id="6825718953004242472">Eliminar icona</translation>
+<translation id="3960619311638643872">VPN de Brave</translation>
+<translation id="8425213833346101688">Cambiar</translation>
 <translation id="3287942014983548982">Abrir aquí</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/>, actualmente aberto,
     prema Tab e, a continuación, Intro para cambiar ao separador aberto</translation>
@@ -2316,7 +2318,4 @@ Non perdas a conexión!</translation>
     separador existente</translation>
 <translation id="451189393813405346">Preguntar a Leo</translation>
 <translation id="8525248723479742219">Reproducir máis tarde</translation>
-<translation id="1450735350187803276">Anuncios vistos este mes</translation>
-<translation id="3960619311638643872">VPN de Brave</translation>
-<translation id="8425213833346101688">Cambiar</translation>
 </translationbundle>

@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Μάθετε περισσότερα<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Μην ανησυχείτε.</translation>
 <translation id="5027616819996705541">Μπορείτε ακόμα να περιηγηθείτε ιδιωτικά!</translation>
-<translation id="1450735350187803276">Κέρδη έως τώρα</translation>
+<translation id="1450735350187803276">Διαφημίσεις που είδατε αυτόν τον μήνα</translation>
 <translation id="7649070708921625228">Βοήθεια</translation>
 <translation id="6042308850641462728">Περισσότερα</translation>
 <translation id="6245259297588415877">Δημιουργοί</translation>
@@ -2140,7 +2140,7 @@
 <translation id="7509914170164691086">Οι Ασπίδες είναι ΕΝΕΡΓΟΠΟΙΗΜΕΝΕΣ <ph name="LINK_BEFORE"/>για<ph name="LINK_AFTER"/></translation>
 <translation id="260764436039299868">Οι Ασπίδες είναι ΑΠΕΝΕΡΓΟΠΟΙΗΜΕΝΕΣ <ph name="LINK_BEFORE"/>για<ph name="LINK_AFTER"/></translation>
 <translation id="3907405056878805220">Εάν αυτός ο ιστότοπος φαίνεται κατεστραμμένος, δοκιμάστε τις Ασπίδες down.
-    <ph name="LINK_BEFORE"/>Σημείωση: αυτό μπορεί να μειώσει την προστασία απορρήτου του Brave.<ph name="LINK_AFTER"/></translation>
+   <ph name="LINK_BEFORE"/>Σημείωση: αυτό μπορεί να μειώσει την προστασία απορρήτου του Brave.<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">Ιχνηλάτες, διαφημίσεις και άλλα αποκλείστηκαν <ph name="LINK_BEFORE"/>Μάθετε περισσότερα<ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Δεν προστατεύεται από Ασπίδες Brave <ph name="LINK_BEFORE"/>Μάθετε περισσότερα<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">Ρυθμίσεις για προχωρημένους</translation>
@@ -2308,6 +2308,8 @@
 <translation id="8048263175525832621">Brave VPN - Αποσυνδέθηκε</translation>
 <translation id="1498770726476841108">Διαχείριση λογαριασμού</translation>
 <translation id="6825718953004242472">Κατάργηση εικονιδίου</translation>
+<translation id="3960619311638643872">VPN Brave</translation>
+<translation id="8425213833346101688">Αλλαγή</translation>
 <translation id="3287942014983548982">Άνοιγμα εδώ</translation>
 <translation id="8234327602319965815">Το <ph name="OPEN_HERE_SUFFIX"/> είναι ανοιχτό τη δεδομένη στιγμή,
     πατήστε Tab και έπειτα Enter για εναλλαγή στην ανοιχτή καρτέλα</translation>
@@ -2315,7 +2317,4 @@
     υπάρχουσα καρτέλα</translation>
 <translation id="451189393813405346">Ρωτήστε το Leo</translation>
 <translation id="8525248723479742219">Αναπαραγωγή αργότερα</translation>
-<translation id="1450735350187803276">Διαφημίσεις που είδατε αυτόν τον μήνα</translation>
-<translation id="3960619311638643872">VPN Brave</translation>
-<translation id="8425213833346101688">Αλλαγή</translation>
 </translationbundle>

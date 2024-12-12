@@ -679,7 +679,6 @@ Segur que vols continuar?</translation>
 <translation id="4862812525895306758">Esborra la informació de les transaccions i de nonce</translation>
 <translation id="5693968582510626466">Esborrar les transaccions pot ser útil per als desenvolupadors o quan s'esborra l'estat en un servidor local</translation>
 <translation id="5421107279168565467">Segur que vols restablir la informació de les transaccions i de nonce? Aquesta opció l'utilitzen principalment els desenvolupadors que executen un servidor de proves local. Escriu "<ph name="CONFIRMATION_PHRASE"/>" per confirmar-ho.</translation>
-<translation id="930472263779999522">{MINUTS, plural, =1 {# minut} other {# minuts}}</translation>
 <translation id="8146860193318415026">Transmet vídeos. Sense anuncis.</translation>
 <translation id="6311019535466417620">No hi ha anuncis abans del vídeo</translation>
 <translation id="4274652342814424451">No hi ha anuncis durant el vídeo</translation>
@@ -837,6 +836,7 @@ Si no acceptes la sol·licitud, la VPN no es tornarà a connectar i la teva conn
 <translation id="4351811224047421378">Decimals de precisió</translation>
 <translation id="3494964159182650590">Resum de recompenses</translation>
 <translation id="590733288489975971">Recompenses d'anuncis</translation>
+<translation id="1450735350187803276">Anuncis vistos aquest mes</translation>
 <translation id="1767561995429774671">Contribueix</translation>
 <translation id="7335371657242627509">Inclou a l'autocontribució</translation>
 <translation id="6727102863431372879">Configura...</translation>

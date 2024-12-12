@@ -543,7 +543,7 @@ Biztosan végrehajtja a műveletet?</translation>
 <translation id="2956070106555335453">Összefoglalás</translation>
 <translation id="7465614181960492526">Szerezzen tokeneket és adjon vissza</translation>
 <translation id="2731539192954672606">Szerezzen tokeneket adatvédelmet tiszteletben tartó hirdetések nézésével, és támogassa automatikusan kedvenc oldalait és tartalomkészítőit.</translation>
-<translation id="631124996535890460">A folytatással elfogadja a  <ph name="TERMS_OF_SERVICE"/> és az <ph name="PRIVACY_POLICY"/>.</translation>
+<translation id="631124996535890460">A folytatással elfogadja a <ph name="TERMS_OF_SERVICE"/> és az <ph name="PRIVACY_POLICY"/>.</translation>
 <translation id="8804164990146287819">Adatvédelmi szabályzat</translation>
 <translation id="8363792084628930008">A jutalmak engedélyezésével elfogadja a következőket: <ph name="TERMS_OF_SERVICE"/> és <ph name="PRIVACY_POLICY"/>.</translation>
 <translation id="185034574799484512">Tegyünk egy gyors bemutatót</translation>
@@ -837,6 +837,7 @@ other {<ph name="CITY_COUNT_MANY"/> város - }
 <translation id="4351811224047421378">A pontosság tizedesjegyei</translation>
 <translation id="3494964159182650590">Jutalmak összefoglalója</translation>
 <translation id="590733288489975971">Jutalmak az Ads révén</translation>
+<translation id="1450735350187803276">Ebben a hónapban megtekintett hirdetések</translation>
 <translation id="1767561995429774671">Hozzájárulás</translation>
 <translation id="7335371657242627509">Automatikus Hozzájárulással</translation>
 <translation id="6727102863431372879">Beállítás</translation>

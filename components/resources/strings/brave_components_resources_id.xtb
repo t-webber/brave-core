@@ -473,7 +473,7 @@
 <translation id="4806029412510565611">Saya memahami bahwa profil Imbalan Brave dan data Imbalan Brave saya saat ini akan dihapus dari perangkat saya, dan saya telah membaca <ph name="LINK_BEGIN"/>artikel pendukung tentang pengaturan ulang<ph name="LINK_END"/>.</translation>
 <translation id="7717357606512850995">Periksa status</translation>
 <translation id="6473937687348632190">Pembayaran untuk imbalan bulan <ph name="MONTH"/> telah diselesaikan.</translation>
-<translation id="1711367267038576241">Pembayaran untuk imbalan bulan <ph name="MONTH"/> akan mulai diproses sebelum  <ph name="DATE"/>.</translation>
+<translation id="1711367267038576241">Pembayaran untuk imbalan bulan <ph name="MONTH"/> akan mulai diproses sebelum <ph name="DATE"/>.</translation>
 <translation id="8193714877171133821">Pembayaran untuk bulan <ph name="MONTH"/> sedang berlangsung.</translation>
 <translation id="6583902294974160967">Dukungan</translation>
 <translation id="3825131544027418568"><ph name="BEGIN_BOLD"/>Masuk ke <ph name="PROVIDER"/><ph name="END_BOLD"/> untuk melihat saldo Anda</translation>
@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Pelajari lebih lanjut<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Jangan khawatir.</translation>
 <translation id="5027616819996705541">Anda masih dapat menjelajah secara privat!</translation>
-<translation id="1450735350187803276">Pendapatan sejauh ini</translation>
+<translation id="1450735350187803276">Iklan yang dilihat bulan ini</translation>
 <translation id="7649070708921625228">Bantuan</translation>
 <translation id="6042308850641462728">Lebih lanjut</translation>
 <translation id="6245259297588415877">Kreator</translation>
@@ -2309,6 +2309,11 @@ Mari kita buat Anda terhubung!</translation>
 <translation id="8048263175525832621">VPN Brave - Terputus</translation>
 <translation id="1498770726476841108">Kelola Akun</translation>
 <translation id="6825718953004242472">Hapus ikon</translation>
+<translation id="6819278685469225453">Lindungi setiap aplikasi &amp; seluruh perangkat Anda</translation>
+<translation id="3960619311638643872">VPN Brave</translation>
+<translation id="4295077644587784828">Privasi &amp; keamanan ekstra saat daring.</translation>
+<translation id="8425213833346101688">Ubah</translation>
+<translation id="8703188411226330709">Mulai uji coba gratis</translation>
 <translation id="3287942014983548982">Buka di sini</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/>, saat ini terbuka,
     tekan Tab, kemudian Enter untuk beralih ke tab yang terbuka</translation>
@@ -2316,10 +2321,4 @@ Mari kita buat Anda terhubung!</translation>
     tab yang sudah ada</translation>
 <translation id="451189393813405346">Tanyakan pada Leo</translation>
 <translation id="8525248723479742219">Putar Nanti</translation>
-<translation id="1450735350187803276">Iklan yang dilihat bulan ini</translation>
-<translation id="3960619311638643872">VPN Brave</translation>
-<translation id="8425213833346101688">Ubah</translation>
-<translation id="6819278685469225453">Lindungi setiap aplikasi &amp; seluruh perangkat Anda</translation>
-<translation id="4295077644587784828">Privasi &amp; keamanan ekstra saat daring.</translation>
-<translation id="8703188411226330709">Mulai uji coba gratis</translation>
 </translationbundle>

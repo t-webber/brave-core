@@ -16,7 +16,6 @@
 <translation id="1419023007528516122">यामुळे तुमच्या डिव्हाइसमधून गट कायमचा हटवला जाईल</translation>
 <translation id="1486715732399361704">तुम्हाला तुमचे सर्व टॅब गट इथे सापडू शकतात</translation>
 <translation id="149054111719651807">{NUM_MINS,plural, =1{<ph name="NUM_MINS_ONE"/> मिनिटापूर्वी तयार केला आहे}other{<ph name="NUM_MINS_MANY"/> मिनिटांपूर्वी तयार केला आहे}}</translation>
-<translation id="3228718275011575753">सर्व गुप्त टॅब बंद करायचे आहेत का?</translation>
 <translation id="1501480321619201731">गट हटवा</translation>
 <translation id="1555130319947370107">निळा</translation>
 <translation id="161042844686301425">निळसर</translation>
@@ -28,7 +27,6 @@
 <translation id="1869137256605757565">{TABS_COUNT,plural, =1{<ph name="TABS_COUNT_ONE"/> टॅब}other{<ph name="TABS_COUNT_MANY"/> टॅब}}</translation>
 <translation id="2050597508048557928">{TABS_COUNT,plural, =1{निवडलेला <ph name="TABS_COUNT_ONE"/> टॅब बुकमार्क करा}other{निवडलेले <ph name="TABS_COUNT_MANY"/> टॅब बुकमार्क करा}}</translation>
 <translation id="2118649612461486615">स्टोअरची माहिती</translation>
-<translation id="6086127758480584723">{INCOGNITO_TABS_COUNT,plural, =1{तुमचे बंद केलेले टॅब आणि गट हे अलीकडील टॅब या विभागामधून व टॅब गट या विभागामधून पुन्हा उघडले जाऊ शकतात. तुमचा गुप्त टॅब उपलब्ध नसेल.}other{तुमचे बंद केलेले टॅब आणि गट हे अलीकडील टॅब या विभागामधून व टॅब गट या विभागामधून पुन्हा उघडले जाऊ शकतात. तुमचे # गुप्त टॅब उपलब्ध नसतील.}}</translation>
 <translation id="2162620598375156287">आता <ph name="SOURCE_WEBSITE"/> वर <ph name="CURRENT_PRICE"/> मध्ये आहे</translation>
 <translation id="22623456902492423">{TABS_COUNT,plural, =1{टॅब गटामधून काढून टाका}other{टॅब गटामधून काढून टाका}}</translation>
 <translation id="2271452184061378400">तुमचे टॅब गट इथे सेव्ह केलेले आहेत</translation>
@@ -185,7 +183,6 @@
 <translation id="870736955561925754">टॅब बंद करून गट हटवायचा आहे का?</translation>
 <translation id="8714939927607906138">आणखी कमी किंमत</translation>
 <translation id="8730621377337864115">पूर्ण झाले</translation>
-<translation id="6687920250729800417">या गुप्त टॅबमधील तुमची अ‍ॅक्टिव्हिटी या डिव्हाइसवरून काढून टाकली जाईल</translation>
 <translation id="875848103419578654">{NUM_MONTHS,plural, =1{<ph name="NUM_MONTHS_ONE"/> महिन्यापूर्वी तयार केला आहे}other{<ph name="NUM_MONTHS_MANY"/> महिन्यांपूर्वी तयार केला आहे}}</translation>
 <translation id="8804742093141782941">गट कायम ठेवा</translation>
 <translation id="8820741577754260431">तुमच्या टॅबवर कमी झालेली किंमत पहा</translation>
@@ -201,4 +198,7 @@
 <translation id="9216898458513705996">टॅब या डिव्हाइसवर खुले राहतील, पण गट हा <ph name="USER_EMAIL"/> मध्ये साइन इन केलेल्या सर्व डिव्हाइसवरून हटवला जाईल</translation>
 <translation id="927441551066996669">{NUMBER_OF_TABS,plural, =1{टॅब गटाचा <ph name="TABS_COUNT_ONE"/> टॅब, <ph name="COLOR_NAME"/> रंग वापरून विस्तार करा.}other{टॅब गटाचा <ph name="TABS_COUNT_MANY"/> टॅब, <ph name="COLOR_NAME"/> रंग वापरून विस्तार करा.}}</translation>
 <translation id="992256792861109788">गुलाबी</translation>
+<translation id="3228718275011575753">सर्व गुप्त टॅब बंद करायचे आहेत का?</translation>
+<translation id="6687920250729800417">या गुप्त टॅबमधील तुमची अ‍ॅक्टिव्हिटी या डिव्हाइसवरून काढून टाकली जाईल</translation>
+<translation id="6086127758480584723">{INCOGNITO_TABS_COUNT,plural, =1{तुमचे बंद केलेले टॅब आणि गट हे अलीकडील टॅब या विभागामधून व टॅब गट या विभागामधून पुन्हा उघडले जाऊ शकतात. तुमचा गुप्त टॅब उपलब्ध नसेल.}other{तुमचे बंद केलेले टॅब आणि गट हे अलीकडील टॅब या विभागामधून व टॅब गट या विभागामधून पुन्हा उघडले जाऊ शकतात. तुमचे # गुप्त टॅब उपलब्ध नसतील.}}</translation>
 </translationbundle>

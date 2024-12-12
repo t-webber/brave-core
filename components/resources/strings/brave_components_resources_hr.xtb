@@ -569,7 +569,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Doznajte više<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Ne brinite.</translation>
 <translation id="5027616819996705541">I dalje možete privatno pregledavati!</translation>
-<translation id="1450735350187803276">Dosadašnja zarada</translation>
+<translation id="1450735350187803276">Oglasi viđeni ovaj mjesec</translation>
 <translation id="7649070708921625228">Pomoć</translation>
 <translation id="6042308850641462728">Više</translation>
 <translation id="6245259297588415877">Stvaratelji</translation>
@@ -650,7 +650,7 @@
 <translation id="6105073131081187815">Ovdje <ph name="END_LINK"/> možete vidjeti status usluge <ph name="BEGIN_LINK"/>.</translation>
 <translation id="3969419585013689529">Povezivanje s odabranim skrbnikom privremeno nije dostupno</translation>
 <translation id="1024520300696337331">Vaš račun <ph name="PROVIDER"/> sada ne može biti povezan s vašim profilom Nagrade Brave. Vaš je račun <ph name="PROVIDER"/> registriran u zemlji u kojoj povezivanje s uslugom Nagrade Brave trenutačno nije podržano.</translation>
-<translation id="619384413404021992">Pogledajte listu trenutačno podržanih regija <ph name="LINK_BEGIN"/> i saznajte više  <ph name="END_LINK"/> o povezivanju skrbničkih računa s uslugom Nagrade Brave.</translation>
+<translation id="619384413404021992">Pogledajte listu trenutačno podržanih regija <ph name="LINK_BEGIN"/> i saznajte više <ph name="END_LINK"/> o povezivanju skrbničkih računa s uslugom Nagrade Brave.</translation>
 <translation id="7933193151688235283">Regija trenutačno nije podržana</translation>
 <translation id="5376524136040178759">Prema banci Uphold trenutačno postoje određena ograničenja na vašem računu Uphold. Prijavite se u svoj račun Uphold i provjerite ima li bilo kojih obavijesti ili preostalih zahtjeva za račun koje je potrebno ispuniti, a zatim pokušajte ponovno. Na primjer, možda ćete morati poslati više informacija banci Uphold.</translation>
 <translation id="6349168810769273818">Ograničena funkcija računa Uphold</translation>
@@ -2311,6 +2311,8 @@ Povežimo vas!</translation>
 <translation id="8048263175525832621">Mreža VPN preglednika Brave – nepovezana</translation>
 <translation id="1498770726476841108">Upravljaj računom</translation>
 <translation id="6825718953004242472">Ukloni ikonu</translation>
+<translation id="3960619311638643872">VPN preglednika Brave</translation>
+<translation id="8425213833346101688">Promijeni</translation>
 <translation id="3287942014983548982">Otvori ovdje</translation>
 <translation id="8234327602319965815">Trenutačno je otvoreno <ph name="OPEN_HERE_SUFFIX"/>,
     pritisnite Karticu, a zatim Enter za prebacivanje na otvorenu karticu</translation>
@@ -2318,7 +2320,4 @@ Povežimo vas!</translation>
     postojeću karticu</translation>
 <translation id="451189393813405346">Pitaj pomoćnika Leo</translation>
 <translation id="8525248723479742219">Reproducirajte kasnije</translation>
-<translation id="1450735350187803276">Oglasi viđeni ovaj mjesec</translation>
-<translation id="3960619311638643872">VPN preglednika Brave</translation>
-<translation id="8425213833346101688">Promijeni</translation>
 </translationbundle>

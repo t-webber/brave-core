@@ -115,7 +115,7 @@ Veya şu adresten daha sonra değiştirin: <ph name="SETTINGS_EXTENIONS_LINK"/>.
 <translation id="2370739752330685659">Belki daha sonra</translation>
 <translation id="5100490448228945668">Brave arama dönüşümünü kapatın, bu öneriyi kaldırmak için Enter'a basın</translation>
 <translation id="6213208892248046484">Brave Arama'ya geçin</translation>
-<translation id="9194637241566114638">Anonim kullanım verilerini göndererek <ph name="SEARCH_NAME"/> özelliğini gelişmemize yardımcı olun.  <ph name="MORE_INFO"/></translation>
+<translation id="9194637241566114638">Anonim kullanım verilerini göndererek <ph name="SEARCH_NAME"/> özelliğini gelişmemize yardımcı olun. <ph name="MORE_INFO"/></translation>
 <translation id="7404610376221341525">Brave Arama</translation>
 <translation id="8184318863960255706">Daha fazla bilgi</translation>
 <translation id="780301667611848630">Hayır, teşekkürler</translation>
@@ -189,7 +189,7 @@ Veya şu adresten daha sonra değiştirin: <ph name="SETTINGS_EXTENIONS_LINK"/>.
 <translation id="8010675257566903381">Wayback Machine bu sitenin kayıtlı bir versiyonunu bulamadı.</translation>
 <translation id="1207694258341311738">Kayıtlı versiyonu kontrol et</translation>
 <translation id="191143826155037518">Brave'i <ph name="BEGIN_LINK_MPL"/>Mozilla Kamu Lisansı 2.0<ph name="END_LINK_MPL"/> (MPL) altında ve <ph name="BEGIN_LINK_OSS"/>açık kaynak yazılım<ph name="END_LINK_OSS"/> dahil çeşitli diğer lisanslar altında kullanabilirsiniz.
-        <ph name="BEGIN_LINK_SOURCE_CODE"/>Bu kopyayı oluşturmak için kullanılan kaynak kodunu <ph name="END_LINK_SOURCE_CODE"/> <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS"/>indirmek ve inşa etmek için talimatları<ph name="END_LINK_BUILD_INSTRUCTIONS"/> okuyabilirsiniz.</translation>
+       <ph name="BEGIN_LINK_SOURCE_CODE"/>Bu kopyayı oluşturmak için kullanılan kaynak kodunu <ph name="END_LINK_SOURCE_CODE"/> <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS"/>indirmek ve inşa etmek için talimatları<ph name="END_LINK_BUILD_INSTRUCTIONS"/> okuyabilirsiniz.</translation>
 <translation id="4474155171896946103">Tüm sekmelere yer işareti koy...</translation>
 <translation id="3987546108749866209">Dikey sekmeleri kullan</translation>
 <translation id="1904394285866191268">{NUM_TABS,plural, =1{Sekmenin sesini kapat}other{Sekmelerin sesini kapat}}</translation>

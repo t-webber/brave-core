@@ -2380,7 +2380,6 @@ Je kunt instellingen beheren via het kaartmenu of meer opties bekijken in het ge
 <translation id="2666247341166669829">Batterijniveau links: <ph name="PERCENTAGE"/>%.</translation>
 <translation id="2667144577800272420">Andere apps zijn ingesteld om dezelfde links te openen als <ph name="APP_NAME"/>. Hiermee zet je uit dat <ph name="APP_NAME_2"/> en <ph name="APP_NAME_3"/> ondersteunde links openen.</translation>
 <translation id="2667463864537187133">Spellingcontrole beheren</translation>
-<translation id="3760153688434998813">Verwijder de extensie of vervang deze door een vergelijkbare extensie uit de <ph name="BEGIN_LINK"/>Brave Web Store<ph name="END_LINK"/></translation>
 <translation id="2669241540496514785">Kan <ph name="APP_NAME"/> niet openen</translation>
 <translation id="2669454659051515572">Iedereen die dit apparaat gebruikt, kan gedownloade bestanden zien</translation>
 <translation id="351520635355732555"><ph name="APP_NAME"/> deelt een Brave-tabblad.</translation>
@@ -2524,7 +2523,6 @@ Je kunt instellingen beheren via het kaartmenu of meer opties bekijken in het ge
 <translation id="276582196519778359">Voer je pincode voor ouderlijk toezicht in</translation>
 <translation id="2766006623206032690">Pla&amp;kken en gaan</translation>
 <translation id="2766161002040448006">Aan een ouder vragen</translation>
-<translation id="1313972218645777584">Nieuwe tabbladgroepen die je maakt automatisch vastzetten op de bookmarkbalk</translation>
 <translation id="2767077837043621282">Kan je Chromebook niet updaten. Probeer het later opnieuw.</translation>
 <translation id="2767127727915954024"><ph name="ORIGIN"/> kan <ph name="FILENAME"/> bewerken totdat je alle tabbladen voor deze site sluit</translation>
 <translation id="2769174155451290427">Geüploade afbeelding</translation>
@@ -3130,7 +3128,6 @@ Je kunt instellingen op deze kaart altijd beheren of meer opties bekijken in het
 <translation id="3226487301970807183">Links uitgelijnd zijvenster schakelen</translation>
 <translation id="322708765617468434">Na het instellen kun je altijd iemand anders aan het apparaat toevoegen. Ze kunnen ieder hun functionaliteit personaliseren en gegevens privé houden.</translation>
 <translation id="3227137524299004712">Microfoon</translation>
-<translation id="7970407206985139925">{NUM_EXTENSIONS,plural, =1{Verwijder de extensie of vervang deze door een vergelijkbare extensie uit de <ph name="BEGIN_LINK"/>Brave Web Store<ph name="END_LINK"/>.}other{Verwijder de extensies of vervang ze door vergelijkbare extensies uit de <ph name="BEGIN_LINK"/>Brave Web Store<ph name="END_LINK"/>}}</translation>
 <translation id="3230539834943294477">Help-artikelen bekijken of support voor apparaten vinden</translation>
 <translation id="3232168089952388105">Informatie over je apparaat delen?</translation>
 <translation id="3232368113895801406">Op basis van je beveiligingsvoorkeuren kunnen geïsoleerde apps niet worden geïnstalleerd. <ph name="CHANGE_PREFERENCE"/></translation>
@@ -4160,7 +4157,6 @@ Dit kan informatie zijn over de geïnstalleerde software, bestanden, je browser 
 <translation id="3948116654032448504">&amp;Afbeelding zoeken in <ph name="SEARCH_ENGINE"/></translation>
 <translation id="3948334586359655083">Dit tabblad speelt audio af</translation>
 <translation id="3948507072814225786"><ph name="ORIGIN"/> kan bestanden bewerken in de volgende mappen</translation>
-<translation id="8749961973669074620">De meeste mensen blokkeren het delen van de exacte locatie voor deze site</translation>
 <translation id="394984172568887996">Geïmporteerd uit Internet Explorer</translation>
 <translation id="3949999964543783947"><ph name="IDS_DOWNLOAD_BUBBLE_SUBPAGE_SUMMARY_WARNING_SAFE_BROWSING_SETTING_LINK"/> om het downloaden van bestanden veiliger te maken</translation>
 <translation id="3950820424414687140">Inloggen</translation>
@@ -9180,7 +9176,6 @@ Je kunt instellingen beheren via het kaartmenu of meer opties bekijken in het ge
 <translation id="1800308196794859773">Verzend je stem naar Brave zodat je kunt dicteren in tekstvelden.</translation>
 <translation id="7678588695732963732">Rechten voor alle USB-apparaten resetten?</translation>
 <translation id="7679171213002716280">Er zijn <ph name="PRINTER_COUNT"/> beheerde printers.</translation>
-<translation id="3189599032195207275">Maak het moeilijker voor mensen met toegang tot je internetverkeer om te zien welke sites je bezoekt. <ph name="PRODUCT_NAME"/> gebruikt een beveiligde verbinding om het IP-adres van een site op te zoeken in het DNS (Domain Name System). Beveiligde verbindingen worden niet gebruikt voor bepaalde domeinen die door je beheerder zijn ingesteld.</translation>
 <translation id="7680416688940118410">Kalibratie touchscreen</translation>
 <translation id="7681095912841365527">Site kan Bluetooth gebruiken</translation>
 <translation id="7681597159868843240">Sites gebruiken de bewegingssensoren van je apparaat meestal voor functies zoals virtual reality of fitnesstracking</translation>
@@ -11464,6 +11459,7 @@ Zichtbaar als <ph name="DEVICE_TYPE"/>…</translation>
 <translation id="6216189820029634282">Privémodus toch afsluiten?</translation>
 <translation id="4132775938064605501">Privémodus toch afsluiten?</translation>
 <translation id="871606814707918245">De meeste mensen blokkeren meldingen van deze site</translation>
+<translation id="8749961973669074620">De meeste mensen blokkeren het delen van de exacte locatie voor deze site</translation>
 <translation id="5053701565089446556">Privé-extensie: <ph name="EXTENSION_NAME"/></translation>
 <translation id="611296870688433505">Privé-app: <ph name="APP_NAME"/></translation>
 <translation id="9048137919253433011">Privétabblad: <ph name="TAB_NAME"/></translation>
@@ -11541,6 +11537,7 @@ Zichtbaar als <ph name="DEVICE_TYPE"/>…</translation>
 <translation id="154633726381112301">U kunt het aanmelden beperken voor bepaalde gebruikers. De optie 'Profiel toevoegen' wordt dan niet meer weergegeven op het aanmeldscherm. U kunt de huidige gebruikers ook verwijderen.</translation>
 <translation id="8273477935094091719">Uw <ph name="DEVICE_TYPE"/> gebruikt een ingebouwde sensor om profielen aan de voorkant van uw apparaat te herkennen. Alle gegevens worden onmiddellijk op uw apparaat verwerkt en daarna verwijderd. Sensorgegevens worden nooit naar Brave verzonden. <ph name="LINK_BEGIN"/>Meer informatie<ph name="LINK_END"/></translation>
 <translation id="3096545662097412065">Maak het voor profielen met toegang tot uw internetverkeer moeilijker om te zien welke websites u bezoekt. <ph name="PRODUCT_NAME"/> gebruikt een beveiligde verbinding om een IP-adres van een website op te zoeken in het DNS (Domain Name System).</translation>
+<translation id="3189599032195207275">Maak het moeilijker voor mensen met toegang tot je internetverkeer om te zien welke sites je bezoekt. <ph name="PRODUCT_NAME"/> gebruikt een beveiligde verbinding om het IP-adres van een site op te zoeken in het DNS (Domain Name System). Beveiligde verbindingen worden niet gebruikt voor bepaalde domeinen die door je beheerder zijn ingesteld.</translation>
 <translation id="5832813618714645810">Profielen</translation>
 <translation id="3216703137209942563">{COUNT, plural,
       =1 {Uw privévenster kan niet worden geopend nadat u opnieuw opstart}
@@ -11548,6 +11545,7 @@ Zichtbaar als <ph name="DEVICE_TYPE"/>…</translation>
 <translation id="5840822070878669614">Open Webwinkel</translation>
 <translation id="383007806262310953">Bladwijzerbalk weergeven</translation>
 <translation id="1375809909601272984">Tabbladgroepen weergeven in bladwijzers</translation>
+<translation id="1313972218645777584">Nieuwe tabbladgroepen die je maakt automatisch vastzetten op de bookmarkbalk</translation>
 <translation id="8419047244705220515">Sites die u bezoekt kunnen verifiëren dat u een echt profiel hebt en geen bot bent</translation>
 <translation id="8603229095987793389">Als u blijft browsen, kunnen sites bij Brave controleren en bij een eerder bezochte website verifiëren dat u waarschijnlijk een echt profiel hebt.</translation>
 <translation id="1261003378239130478">Browsen gaat sneller omdat sites u minder snel zullen vragen om te verifiëren of u een echt profiel hebt</translation>
@@ -11575,6 +11573,8 @@ Zichtbaar als <ph name="DEVICE_TYPE"/>…</translation>
 <translation id="5716623990809228300">Ontdek meer extensies en thema's in de <ph name="BEGIN_LINK"/>Web Store<ph name="END_LINK"/></translation>
 <translation id="7301533237762923855">Uit • Deze extensie schendt het beleid van de Web Store.</translation>
 <translation id="9133877508558459162">Aan • Deze extensie schendt het beleid van de Web Store.</translation>
+<translation id="7970407206985139925">{NUM_EXTENSIONS,plural, =1{Verwijder de extensie of vervang deze door een vergelijkbare extensie uit de <ph name="BEGIN_LINK"/>Brave Web Store<ph name="END_LINK"/>.}other{Verwijder de extensies of vervang ze door vergelijkbare extensies uit de <ph name="BEGIN_LINK"/>Brave Web Store<ph name="END_LINK"/>}}</translation>
+<translation id="3760153688434998813">Verwijder de extensie of vervang deze door een vergelijkbare extensie uit de <ph name="BEGIN_LINK"/>Brave Web Store<ph name="END_LINK"/></translation>
 <translation id="659039914757960684">Stel delen met mensen in de buurt in om bestanden uit te wisselen met profielen die bij je in de buurt zijn.</translation>
 <translation id="1117409600372678978">Stel <ph name="FEATURE_NAME"/> in om bestanden met profielen van personen in uw omgeving te ontvangen en verzenden</translation>
 <translation id="3080637320062973622">Maak jezelf zichtbaar om bestanden uit te wisselen met profielen in de buurt</translation>

@@ -16,6 +16,7 @@
 <translation id="1419023007528516122">Гэта дзеянне незваротна выдаліць групу з вашай прылады</translation>
 <translation id="1486715732399361704">Тут знаходзяцца ўсе вашы групы ўкладак</translation>
 <translation id="149054111719651807">{NUM_MINS,plural, =1{Створана <ph name="NUM_MINS_ONE"/> хвіліну таму}one{Створана <ph name="NUM_MINS_MANY"/> хвіліну таму}few{Створана <ph name="NUM_MINS_MANY"/> хвіліны таму}many{Створана <ph name="NUM_MINS_MANY"/> хвілін таму}other{Створана <ph name="NUM_MINS_MANY"/> хвіліны таму}}</translation>
+<translation id="3228718275011575753">Закрыць усе ўкладкі ў рэжыме інкогніта?</translation>
 <translation id="1501480321619201731">Выдаліць групу</translation>
 <translation id="1555130319947370107">Сіні</translation>
 <translation id="161042844686301425">Блакітны</translation>
@@ -184,6 +185,7 @@
 <translation id="870736955561925754">Закрыць укладку і выдаліць групу?</translation>
 <translation id="8714939927607906138">Цана знізілася</translation>
 <translation id="8730621377337864115">Гатова</translation>
+<translation id="6687920250729800417">Звесткі пра вашы дзеянні на гэтых укладках у рэжыме інкогніта будуць выдалены з прылады</translation>
 <translation id="875848103419578654">{NUM_MONTHS,plural, =1{Створана <ph name="NUM_MONTHS_ONE"/> месяц таму}one{Створана <ph name="NUM_MONTHS_MANY"/> месяц таму}few{Створана <ph name="NUM_MONTHS_MANY"/> месяцы таму}many{Створана <ph name="NUM_MONTHS_MANY"/> месяцаў таму}other{Створана <ph name="NUM_MONTHS_MANY"/> месяца таму}}</translation>
 <translation id="8804742093141782941">Захаваць групу</translation>
 <translation id="8820741577754260431">Паказваць інфармацыю пра зніжэнне цэн на ўкладках</translation>
@@ -199,6 +201,4 @@
 <translation id="9216898458513705996">Укладкі застануцца адкрытымі на гэтай прыладзе, але група будзе выдалена з усіх прылад, на якіх выкананы ўваход ва ўліковы запіс <ph name="USER_EMAIL"/></translation>
 <translation id="927441551066996669">{NUMBER_OF_TABS,plural, =1{Разгарнуць групу ўкладак з <ph name="TABS_COUNT_ONE"/> укладкай, колер: <ph name="COLOR_NAME"/>.}one{Разгарнуць групу ўкладак з <ph name="TABS_COUNT_MANY"/> укладкай, колер: <ph name="COLOR_NAME"/>.}few{Разгарнуць групу ўкладак з <ph name="TABS_COUNT_MANY"/> укладкамі, колер: <ph name="COLOR_NAME"/>.}many{Разгарнуць групу ўкладак з <ph name="TABS_COUNT_MANY"/> укладкамі, колер: <ph name="COLOR_NAME"/>.}other{Разгарнуць групу ўкладак з <ph name="TABS_COUNT_MANY"/> укладкі, колер: <ph name="COLOR_NAME"/>.}}</translation>
 <translation id="992256792861109788">Ружовы</translation>
-<translation id="3228718275011575753">Закрыць усе ўкладкі ў рэжыме інкогніта?</translation>
-<translation id="6687920250729800417">Звесткі пра вашы дзеянні на гэтых укладках у рэжыме інкогніта будуць выдалены з прылады</translation>
 </translationbundle>

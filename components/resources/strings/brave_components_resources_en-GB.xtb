@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Learn more<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Don’t worry.</translation>
 <translation id="5027616819996705541">You can still browse privately!</translation>
-<translation id="1450735350187803276">Earnings so far</translation>
+<translation id="1450735350187803276">Ads seen this month</translation>
 <translation id="7649070708921625228">Help</translation>
 <translation id="6042308850641462728">More</translation>
 <translation id="6245259297588415877">Creators</translation>
@@ -2140,7 +2140,7 @@
 <translation id="7509914170164691086">Shields are UP <ph name="LINK_BEFORE"/>for<ph name="LINK_AFTER"/></translation>
 <translation id="260764436039299868">Shields are DOWN <ph name="LINK_BEFORE"/>for<ph name="LINK_AFTER"/></translation>
 <translation id="3907405056878805220">If this site seems broken, try Shields down.
-    <ph name="LINK_BEFORE"/>Note: this may reduce Brave's privacy protections.<ph name="LINK_AFTER"/></translation>
+   <ph name="LINK_BEFORE"/>Note: this may reduce Brave's privacy protections.<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">Trackers, ads and more blocked <ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Not protected by Brave Shields <ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">Advanced controls</translation>
@@ -2309,6 +2309,8 @@ Let's get you connected!</translation>
 <translation id="8048263175525832621">Brave VPN – disconnected</translation>
 <translation id="1498770726476841108">Manage account</translation>
 <translation id="6825718953004242472">Remove icon</translation>
+<translation id="3960619311638643872">Brave VPN</translation>
+<translation id="8425213833346101688">Change</translation>
 <translation id="3287942014983548982">Open here</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/>, currently open,
     press Tab then Enter to switch to the open tab</translation>
@@ -2316,7 +2318,4 @@ Let's get you connected!</translation>
     existing tab</translation>
 <translation id="451189393813405346">Ask Leo</translation>
 <translation id="8525248723479742219">Play later</translation>
-<translation id="1450735350187803276">Ads seen this month</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Change</translation>
 </translationbundle>

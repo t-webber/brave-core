@@ -545,7 +545,7 @@ Haluatko varmasti tehdä tämän?</translation>
 <translation id="2731539192954672606">Ansaitse maksutunnuksia katsomalla tietosuojaasi kunnioittavia mainoksia sekä tukemalla suosikkisivustojasi ja -kehittäjiäsi automaattisesti.</translation>
 <translation id="631124996535890460">Jatkamalla ilmaiset hyväksyväsi <ph name="TERMS_OF_SERVICE"/> sekä <ph name="PRIVACY_POLICY"/>.</translation>
 <translation id="8804164990146287819">Tietosuojakäytäntö</translation>
-<translation id="8363792084628930008">Ottamalla palkinnot käyttöön, hyväksyt käyttöehdot  <ph name="TERMS_OF_SERVICE"/> ja tietosuojakäytännön <ph name="PRIVACY_POLICY"/>.</translation>
+<translation id="8363792084628930008">Ottamalla palkinnot käyttöön, hyväksyt käyttöehdot <ph name="TERMS_OF_SERVICE"/> ja tietosuojakäytännön <ph name="PRIVACY_POLICY"/>.</translation>
 <translation id="185034574799484512">Käydäänpä pikakierroksella</translation>
 <translation id="7930505144430343145">Tervetuloa Brave-palkintoihin!</translation>
 <translation id="3477340970981564961">Braven yksityismainokset palkitsevat sinut maksutunnuksilla, joiden avulla voit tukea sisällönkehittäjiä perinteisistä mainoksista poiketen, sillä henkilökohtaiset tietosi pidetään yksityisenä.</translation>
@@ -837,6 +837,7 @@ Jos et hyväksy tätä pyyntöä, yhteyttä VPN:ään ei muodosta uudelleen ja I
 <translation id="4351811224047421378">Desimaalitarkkuus</translation>
 <translation id="3494964159182650590">Palkkioiden yhteenveto</translation>
 <translation id="590733288489975971">Palkinnot Ads-mainoksista</translation>
+<translation id="1450735350187803276">Tässä kuussa nähdyt mainokset</translation>
 <translation id="1767561995429774671">Lahjoita</translation>
 <translation id="7335371657242627509">Sisällytä automaattiseen lahjoitukseen</translation>
 <translation id="6727102863431372879">Aseta</translation>

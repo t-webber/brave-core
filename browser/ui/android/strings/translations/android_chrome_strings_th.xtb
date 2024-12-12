@@ -1845,7 +1845,7 @@
           other {<ph name="TAB_COUNT_MANY"/> แท็บส่วนตัวจะถูกปิด}}</translation>
 <translation id="2703361981471284696">{TAB_COUNT, plural,
           =1 {แท็บส่วนตัว <ph name="INCOGNITO_TAB_COUNT"/> แท็บและแท็บเพิ่มเติม <ph name="TAB_COUNT_ONE"/> แท็บจะถูกปิด}
-          other {แท็บส่วนตัว <ph name="INCOGNITO_TAB_COUNT"/> แท็บและแท็บเพิ่มเติม <ph name="TAB_COUNT_MANY"/>  แท็บจะถูกปิด}}</translation>
+          other {แท็บส่วนตัว <ph name="INCOGNITO_TAB_COUNT"/> แท็บและแท็บเพิ่มเติม <ph name="TAB_COUNT_MANY"/> แท็บจะถูกปิด}}</translation>
 <translation id="4362959348993021460">แตะค้างไว้เพื่อสลับไปเป็นโหมดส่วนตัว</translation>
 <translation id="1393515642387718683">แตะสองครั้งและกดค้างไว้เพื่อสลับไปเป็นโหมดส่วนตัว</translation>
 <translation id="7096147642287317420">แตะค้างไว้เพื่อออกจากโหมดส่วนตัว</translation>

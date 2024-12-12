@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>ಹೆಚ್ಚು ತಿಳಿಯಿರಿ<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">ಚಿಂತಿಸಬೇಡಿ.</translation>
 <translation id="5027616819996705541">ನೀವು ಇನ್ನೂ ಸಹ ಖಾಸಗಿಯಾಗಿ ಬ್ರೌಸ್ ಮಾಡಬಹುದು!</translation>
-<translation id="1450735350187803276">ಇಲ್ಲಿಯ ತನಕ ಗಳಿಕೆಗಳು</translation>
+<translation id="1450735350187803276">ಈ ತಿಂಗಳಲ್ಲಿ ನೋಡಿ ಜಾಹೀರಾತುಗಳು</translation>
 <translation id="7649070708921625228">ಸಹಾಯ</translation>
 <translation id="6042308850641462728">ಇನ್ನಷ್ಟು</translation>
 <translation id="6245259297588415877">ರಚನೆಕಾರರು</translation>
@@ -2140,7 +2140,7 @@
 <translation id="7509914170164691086">ಶೀಲ್ಡ್ಸ್‌ ಅನ್ನು <ph name="LINK_BEFORE"/>ಇದಕ್ಕೆ<ph name="LINK_AFTER"/> ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</translation>
 <translation id="260764436039299868">ಶೀಲ್ಡ್ಸ್‌ ಅನ್ನು <ph name="LINK_BEFORE"/>ಇದಕ್ಕೆ<ph name="LINK_AFTER"/> ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</translation>
 <translation id="3907405056878805220">ಈ ಸೈಟ್ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತಿಲ್ಲ ಎಂದು ತೋರುತ್ತಿದ್ದರೆ, ಶೀಲ್ಡ್ಸ್ ಡೌನ್ ಅನ್ನು ಪ್ರಯತ್ನಿಸಿ.
-   <ph name="LINK_BEFORE"/>ಗಮನಿಸಿ: ಇದು Brave ನ ಗೌಪ್ಯತೆ ರಕ್ಷಣೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು.<ph name="LINK_AFTER"/></translation>
+  <ph name="LINK_BEFORE"/>ಗಮನಿಸಿ: ಇದು Brave ನ ಗೌಪ್ಯತೆ ರಕ್ಷಣೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು.<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">ಟ್ರ್ಯಾಕರ್‌ಗಳು, ಜಾಹೀರಾತುಗಳು ಮತ್ತು ಹೆಚ್ಚು ನಿರ್ಬಂಧಿತವಾದವುಗಳು <ph name="LINK_BEFORE"/>ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ<ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Brave ಶೀಲ್ಡ್ಸ್‌ನಿಂದ ರಕ್ಷಿತವಾಗಿಲ್ಲ <ph name="LINK_BEFORE"/>ಹೆಚ್ಚು ತಿಳಿಯಿರಿ<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">ಸುಧಾರಿತ ನಿಯಂತ್ರಣಗಳು</translation>
@@ -2309,6 +2309,8 @@
 <translation id="8048263175525832621">Brave VPN - ಸಂಪರ್ಕ ಕಡಿತಗೊಂಡಿದೆ</translation>
 <translation id="1498770726476841108">ಖಾತೆಯನ್ನು ನಿರ್ವಹಿಸಿ</translation>
 <translation id="6825718953004242472">ಐಕಾನ್ ತೆಗೆದುಹಾಕಿ</translation>
+<translation id="3960619311638643872">Brave VPN</translation>
+<translation id="8425213833346101688">ಬದಲಿಸಿ</translation>
 <translation id="3287942014983548982">ಇಲ್ಲಿ ತೆರೆಯಿರಿ</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/> ಪ್ರಸ್ತುತ ತೆರೆಯಿರಿ,
     ತೆರೆದ ಟ್ಯಾಬ್‌ಗೆ ಬದಲಾಯಿಸಲು ಟ್ಯಾಬ್ ಒತ್ತಿ ನಂತರ ಎಂಟರ್ ಒತ್ತಿರಿ</translation>
@@ -2316,7 +2318,4 @@
     ಎಂಟರ್ ಒತ್ತಿರಿ</translation>
 <translation id="451189393813405346">Leo ಗೆ ಕೇಳಿ</translation>
 <translation id="8525248723479742219">ನಂತರ ಪ್ಲೇ ಮಾಡಿ</translation>
-<translation id="1450735350187803276">ಈ ತಿಂಗಳಲ್ಲಿ ನೋಡಿ ಜಾಹೀರಾತುಗಳು</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">ಬದಲಿಸಿ</translation>
 </translationbundle>

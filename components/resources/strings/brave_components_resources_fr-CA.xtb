@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>En savoir plus<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">N'ayez crainte.</translation>
 <translation id="5027616819996705541">Vous pouvez toujours naviguer de manière anonyme !</translation>
-<translation id="1450735350187803276">Gains jusqu'à présent</translation>
+<translation id="1450735350187803276">Publicités vues ce mois</translation>
 <translation id="7649070708921625228">Aide</translation>
 <translation id="6042308850641462728">Plus</translation>
 <translation id="6245259297588415877">Créateurs</translation>
@@ -2140,7 +2140,7 @@
 <translation id="7509914170164691086">Boucliers activés <ph name="LINK_BEFORE"/>pour<ph name="LINK_AFTER"/></translation>
 <translation id="260764436039299868">Boucliers désactivés <ph name="LINK_BEFORE"/>pour<ph name="LINK_AFTER"/></translation>
 <translation id="3907405056878805220">Si ce site ne fonctionne pas correctement, essayez de désactiver les boucliers. 
-    <ph name="LINK_BEFORE"/>Remarque : cette action risque de limiter les protections de confidentialité de Brave.<ph name="LINK_AFTER"/></translation>
+   <ph name="LINK_BEFORE"/>Remarque : cette action risque de limiter les protections de confidentialité de Brave.<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">Traqueurs, annonces et autres contenus bloqués <ph name="LINK_BEFORE"/>En savoir plus<ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Non protégé par les boucliers Brave <ph name="LINK_BEFORE"/>En savoir plus<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">Contrôles avancés</translation>
@@ -2309,6 +2309,8 @@ Connectez-vous!</translation>
 <translation id="8048263175525832621">VPN Brave : déconnecté</translation>
 <translation id="1498770726476841108">Gérer le compte</translation>
 <translation id="6825718953004242472">Supprimer l'icône</translation>
+<translation id="3960619311638643872">Brave VPN</translation>
+<translation id="8425213833346101688">Modifier</translation>
 <translation id="3287942014983548982">Ouvrir ici</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/>, actuellement ouvert,
     appuyez sur la touche Tab, puis sur la touche Entrée pour passer à l'onglet ouvert</translation>
@@ -2316,7 +2318,4 @@ Connectez-vous!</translation>
     l'onglet existant</translation>
 <translation id="451189393813405346">Demander à Leo</translation>
 <translation id="8525248723479742219">Lire plus tard</translation>
-<translation id="1450735350187803276">Publicités vues ce mois</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Modifier</translation>
 </translationbundle>

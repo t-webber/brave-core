@@ -837,6 +837,7 @@
 <translation id="4351811224047421378">精确小数点</translation>
 <translation id="3494964159182650590">奖励摘要</translation>
 <translation id="590733288489975971">广告奖励</translation>
+<translation id="1450735350187803276">本月看到的广告</translation>
 <translation id="1767561995429774671">贡献</translation>
 <translation id="7335371657242627509">包含在自动贡献中</translation>
 <translation id="6727102863431372879">设定</translation>
@@ -957,7 +958,7 @@
 <translation id="168154537623654021">正在更新 VPN 配置文件...</translation>
 <translation id="4784306439879850873">请注意，Brave 无法验证您签名后会发生什么。签名可以授权他人进行账户的几乎任何操作，包括（但不限于）将您的账户和加密资产的完全控制权交给提出此请求的网站。因此只有在您确定要执行此操作并信任提出请求的网站时才能签名。</translation>
 <translation id="3474375934783434676">签名风险自担</translation>
-<translation id="7134370164002095282"><ph name="CURRENT"/> 个交易（共  <ph name="SIZE"/> 个交易)</translation>
+<translation id="7134370164002095282"><ph name="CURRENT"/> 个交易（共 <ph name="SIZE"/> 个交易)</translation>
 <translation id="756701799684433105">核准交易</translation>
 <translation id="6450792191436242818">系统程序</translation>
 <translation id="5318067544026930166">通过生物识别身份验证解锁 Brave 钱包</translation>

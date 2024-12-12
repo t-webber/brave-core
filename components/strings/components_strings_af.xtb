@@ -423,7 +423,6 @@ Dit sal andersins deur jou privaatheidinstellings geblokkeer word. Dit sal die i
 <translation id="1727613060316725209">Sertifikaat is geldig</translation>
 <translation id="1728677426644403582">Jy bekyk tans die bron van 'n webbladsy</translation>
 <translation id="173080396488393970">Hierdie tipe kaart word nie gesteun nie</translation>
-<translation id="317153861231603077">Vra eerder persoonlik</translation>
 <translation id="1733064249834771892">lettertipes</translation>
 <translation id="1733631169686303142">Oudiotoerusting</translation>
 <translation id="1733762317901693627">Selfs werwe wat normaalweg veilig is, word soms deur aanvallers gekompromitteer. Besoek slegs <ph name="BEGIN_LINK"/>hierdie onveilige werf<ph name="END_LINK"/> as jy seker is jy verstaan die risiko’s.</translation>
@@ -744,7 +743,6 @@ Dit sal andersins deur jou privaatheidinstellings geblokkeer word. Dit sal die i
 <translation id="2296244067976588032">Toegangsleutel • iCloud Keychain</translation>
 <translation id="2300306941146563769">Nie opgelaai nie</translation>
 <translation id="2301098101308036335">Watter webwerwe word besoek en wanneer.</translation>
-<translation id="6702454076107580912">Knoppie om Incognito-venster oop te maak; aktiveer om ’n nuwe Incognito-venster oop te maak om privaat te blaai</translation>
 <translation id="2306124309679506798">Laat ’n omvattende ervaring toe?</translation>
 <translation id="2312234273148520048">Speserye en souse</translation>
 <translation id="2316087952091171402">Minder as <ph name="UPPER_ESTIMATE"/>. Sommige werwe sal dalk met jou volgende besoek stadiger laai.</translation>
@@ -761,7 +759,6 @@ Dit sal andersins deur jou privaatheidinstellings geblokkeer word. Dit sal die i
 <translation id="2340263603246777781"><ph name="ORIGIN"/> wil saambind</translation>
 <translation id="2346319942568447007">Prent wat jy gekopieer het</translation>
 <translation id="2348509731468399833">Prysnasporing is gestop.</translation>
-<translation id="2129555469258123376">Knoppie om Incognito-oortjie oop te maak; aktiveer om ’n nuwe Incognito-oortjie oop te maak om privaat te blaai</translation>
 <translation id="2350796302381711542">Laat <ph name="HANDLER_HOSTNAME"/> toe om alle <ph name="PROTOCOL"/>-skakels oop te maak eerder as <ph name="REPLACED_HANDLER_TITLE"/>?</translation>
 <translation id="2353297238722298836">Kamera en mikrofoon word toegelaat</translation>
 <translation id="2354001756790975382">Ander boekmerke</translation>
@@ -1214,7 +1211,6 @@ Dit sal andersins deur jou privaatheidinstellings geblokkeer word. Dit sal die i
 <translation id="323107829343500871">Voer die CVC vir <ph name="CREDIT_CARD"/> in</translation>
 <translation id="3234666976984236645">Bespeur altyd belangrike inhoud op hierdie werf</translation>
 <translation id="3236212803136366317">Kaartvoordele</translation>
-<translation id="2977472760057091832">Maak skakel in Incognito-venster oop</translation>
 <translation id="3240683217920639535"><ph name="MANAGE_CHROME_THEMES_FOCUSED_FRIENDLY_MATCH_TEXT"/>; druk Tab en dan Enter om die voorkoms van jou blaaier te pasmaak</translation>
 <translation id="3240791268468473923">Blad vir geen passende eiebewys vir veilige betalingeiebewys is oopgemaak</translation>
 <translation id="324180406144491771">“<ph name="HOST_NAME"/>”-skakels word geblokkeer</translation>
@@ -1792,7 +1788,6 @@ Dit sal andersins deur jou privaatheidinstellings geblokkeer word. Dit sal die i
 <translation id="4269264543938335308">Swemdrag</translation>
 <translation id="4269599248168651462">Die bedienersertifikaat is aan ’n nie-unieke naam uitgereik.</translation>
 <translation id="4270541775497538019">Stapelaar 6</translation>
-<translation id="896703648578722320">Wanneer uitbreidings by Brave gevoeg word, word relevante data oor hierdie uitbreidings na derde partye vir ontleding gestuur, en kan dit vir jou admin sigbaar wees. Die data sluit inligting oor die uitbreidings in, soos naam, installeertyd, bron van installasie asook aktiwiteit in verband met hierdie uitbreidings (soos oortjies wat verander word, webwerwe wat gekontak word of toegang wat tot webkoekies verkry word). Hierdie data word ingesamel vanaf die Brave Webwinkel- en buitewinkeluitbreidings.</translation>
 <translation id="4275830172053184480">Herbegin jou toestel</translation>
 <translation id="4276974990916607331">Nee, dankie</translation>
 <translation id="4277028893293644418">Stel wagwoord terug</translation>
@@ -1993,7 +1988,6 @@ Dit sal andersins deur jou privaatheidinstellings geblokkeer word. Dit sal die i
 <translation id="468314109939257734">Bekyk jou virtuele kaart se nommer</translation>
 <translation id="4686942373615810936">Pas geskep</translation>
 <translation id="4687718960473379118">Werfvoorgestelde advertensies</translation>
-<translation id="556965402266718712">Knoppie om Incognito-vensters toe te maak; aktiveer om alle Incognito-vensters wat tans oop is, toe te maak</translation>
 <translation id="4691093235373904540">Dakwerk</translation>
 <translation id="4692623383562244444">Soekenjins</translation>
 <translation id="4698692901173737941">Gevegsport</translation>
@@ -2439,7 +2433,6 @@ Dit sal andersins deur jou privaatheidinstellings geblokkeer word. Dit sal die i
 <translation id="5512812358367123529">Kantoormeubels</translation>
 <translation id="5513528801833998679">Gebruik toestelaanmelding</translation>
 <translation id="5515388687005870733">55x85 mm</translation>
-<translation id="7244699920401708198">Die meeste werwe kan nie derdepartywebkoekies gebruik om jou na te spoor terwyl jy blaai nie en werwe kan nie derdepartywebkoekies in Incognitomodus gebruik nie.</translation>
 <translation id="5519516356611866228">Met jou veranderinge</translation>
 <translation id="5519696598216267194">Papier (vooraf gepons)</translation>
 <translation id="5521782189689806907">Kaste</translation>
@@ -3325,7 +3318,6 @@ Dit sal andersins deur jou privaatheidinstellings geblokkeer word. Dit sal die i
 <translation id="7130775116821607281">Oplaai is geblokkeer</translation>
 <translation id="7132939140423847331">Jou admin het verbied dat hierdie data gekopieer word.</translation>
 <translation id="7135130955892390533">Wys status</translation>
-<translation id="356726776930413501">Kom meer te wete oor Incognito</translation>
 <translation id="7138472120740807366">Afleweringmetode</translation>
 <translation id="7138678301420049075">Ander</translation>
 <translation id="7139892792842608322">Primêre laai</translation>
@@ -4250,7 +4242,6 @@ Bykomende besonderhede:
 <translation id="8830320733681313421">Hagaki-poskaart</translation>
 <translation id="8830565333350631528">Bekyk lêers in <ph name="CLOUD_PROVIDER"/></translation>
 <translation id="8833007469711500369">Wasmasjiene en droërs</translation>
-<translation id="8169715168668926832">Jy sien hierdie waarskuwing omdat hierdie werf nie HTTPS steun nie en jy in Incognitomodus is. <ph name="BEGIN_LEARN_MORE_LINK"/>Kry meer inligting oor hierdie waarskuwing<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="8837398923270275776">Wetenskapsfiksie -en fantasie-programme vir TV</translation>
 <translation id="883848425547221593">Ander boekmerke</translation>
 <translation id="8842351563145134519">Betaalmetodes wat beskikbaar is om met aanraking in te vul, is teen halwe hoogte oopgemaak.</translation>
@@ -4521,25 +4512,31 @@ Bykomende besonderhede:
 <translation id="997986563973421916">Van Google Pay af</translation>
 <translation id="8820817407110198400">Boekmerke</translation>
 <translation id="8362995731815961365">Die persoon wat hierdie rekenaar opgestel het, het besluit om hierdie werf te blokkeer.</translation>
+<translation id="896703648578722320">Wanneer uitbreidings by Brave gevoeg word, word relevante data oor hierdie uitbreidings na derde partye vir ontleding gestuur, en kan dit vir jou admin sigbaar wees. Die data sluit inligting oor die uitbreidings in, soos naam, installeertyd, bron van installasie asook aktiwiteit in verband met hierdie uitbreidings (soos oortjies wat verander word, webwerwe wat gekontak word of toegang wat tot webkoekies verkry word). Hierdie data word ingesamel vanaf die Brave Webwinkel- en buitewinkeluitbreidings.</translation>
 <translation id="4075123085690634698">Maak bladsy in 'n nuwe incognitovenster oop (⇧⌘N)</translation>
 <translation id="2388886110302389394">Maak bladsy in 'n nuwe incognitovenster oop (Ctrl-Shift-N)</translation>
 <translation id="6957624206566198865">Maak bladsy in nuwe incognito-oortjie oop</translation>
 <translation id="8326104954595890674">Nuwe incognito-oortjie</translation>
+<translation id="356726776930413501">Kom meer te wete oor Incognito</translation>
 <translation id="6417973700199526943">Jy is nou Incognito</translation>
 <translation id="375424491626359494">Bladsye wat jy in Incognito-oortjies bekyk, sal nie in jou blaaier se geskiedenis, webkoekiestoor of soekgeskiedenis bly nadat jy al jou Incognito-oortjies toegemaak het nie. Enige lêers wat jy aflaai of boekmerke wat jy skep, sal gehou word.</translation>
 <translation id="8794378783472961468">Jy is egter nie onsigbaar nie. As jy Incognito is, versteek dit nie jou blaaihandelinge vir jou werkgewer, jou internetdiensverskaffer of die webwerwe wat jy besoek nie.</translation>
 <translation id="5549245478906381817">Maak incognitovenster oop</translation>
 <translation id="5497977785983089120">Maak 'n nuwe incognitovenster oop om privaat te blaai</translation>
 <translation id="1819281525814582516"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT"/>, druk Tab en dan Enter om 'n nuwe incognitovenster oop te maak om privaat te blaai</translation>
+<translation id="6702454076107580912">Knoppie om Incognito-venster oop te maak; aktiveer om ’n nuwe Incognito-venster oop te maak om privaat te blaai</translation>
 <translation id="4920329334239571966">Maak alle Incognito-vensters toe</translation>
 <translation id="7736544743887840328">Maak alle Incognito-vensters wat tans oop is, toe</translation>
 <translation id="710569555563138608"><ph name="CLOSE_INCOGNITO_WINDOWS_FOCUSED_FRIENDLY_MATCH_TEXT"/>; druk Tab en dan Enter om alle Incognito-vensters wat tans oop is, toe te maak</translation>
+<translation id="556965402266718712">Knoppie om Incognito-vensters toe te maak; aktiveer om alle Incognito-vensters wat tans oop is, toe te maak</translation>
 <translation id="5395368798429603306">Maak Incognito-oortjie oop</translation>
 <translation id="40442660395682483">Maak 'n nuwe Incognito-oortjie oop om privaat te blaai</translation>
 <translation id="7627159832789643445"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT"/>, druk Tab en dan Enter om 'n nuwe Incognito-oortjie oop te maak om privaat te blaai</translation>
+<translation id="2129555469258123376">Knoppie om Incognito-oortjie oop te maak; aktiveer om ’n nuwe Incognito-oortjie oop te maak om privaat te blaai</translation>
 <translation id="1536541482996273580">Maak Incognito-oortjie oop</translation>
 <translation id="1090109565956608696">Nie in Incognito toegelaat nie</translation>
 <translation id="6934396344327597525">Verlaat tans Incognitomodus om deur 'n eksterne program te betaal. Gaan voort?</translation>
+<translation id="7244699920401708198">Die meeste werwe kan nie derdepartywebkoekies gebruik om jou na te spoor terwyl jy blaai nie en werwe kan nie derdepartywebkoekies in Incognitomodus gebruik nie.</translation>
 <translation id="1426112902089905810">&lt;h4&gt;Stap 1: Meld by die portaal aan&lt;/h4&gt;
     &lt;p&gt;Wi-Fi-netwerke in plekke soos kafees of lughawens vereis dat jy aanmeld. Om die aanmeldbladsy te sien, besoek 'n bladsy wat &lt;code&gt;http://&lt;/code&gt; gebruik.&lt;/p&gt;
     &lt;ol&gt;
@@ -4557,5 +4554,8 @@ Bykomende besonderhede:
     &lt;p&gt;Onthou om jou antivirusprogram weer aan te skakel wanneer jy klaar is.&lt;/p&gt;
     &lt;h4&gt;Stap 5: Kry bykomende hulp&lt;/h4&gt;
     &lt;p&gt;Kontak die webwerfeienaar as jy steeds die fout sien.&lt;/p&gt;</translation>
+<translation id="8169715168668926832">Jy sien hierdie waarskuwing omdat hierdie werf nie HTTPS steun nie en jy in Incognitomodus is. <ph name="BEGIN_LEARN_MORE_LINK"/>Kry meer inligting oor hierdie waarskuwing<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="8108906085747235166">Vra persoonlik</translation>
+<translation id="317153861231603077">Vra eerder persoonlik</translation>
+<translation id="2977472760057091832">Maak skakel in Incognito-venster oop</translation>
 </translationbundle>

@@ -1836,13 +1836,13 @@ Aby zmienić to ustawienie, <ph name="BEGIN_LINK"/>wyczyść dane Brave na swoim
 <translation id="2280910239864711607">Otwórz nową kartę w trybie prywatnym</translation>
 <translation id="5048396920203761159">{TAB_COUNT, plural,
           =1 {<ph name="TAB_COUNT_ONE"/> prywatna karta}
-          other {<ph name="TAB_COUNT_NORMAL"/> Prywatne karty: %1$s}}</translation>
+          other {<ph name="TAB_COUNT_NORMAL"/> Prywatne karty: [%1$s]}}</translation>
 <translation id="40716919553748435">{TAB_COUNT, plural,
           =1 {<ph name="TAB_COUNT_ONE"/> karta}
-          other {<ph name="TAB_COUNT_MANY"/> karty:%2$s, <ph name="TAB_COUNT_INCOGNITO"/> prywatna}}</translation>
+          other {<ph name="TAB_COUNT_MANY"/> karty:[%2$s], <ph name="TAB_COUNT_INCOGNITO"/> prywatna}}</translation>
 <translation id="1982350477927404142">{TAB_COUNT, plural,
           =1 {<ph name="TAB_COUNT_ONE"/> prywatna karta zostanie zamknięta}
-          other {<ph name="TAB_COUNT_MANY"/> Nastąpi zamknięcie %1$s prywatnych kart}}</translation>
+          other {<ph name="TAB_COUNT_MANY"/> Nastąpi zamknięcie [%1$s] prywatnych kart}}</translation>
 <translation id="2703361981471284696">{TAB_COUNT, plural,
           =1 {<ph name="INCOGNITO_TAB_COUNT"/> prywatnej i <ph name="TAB_COUNT_ONE"/> innej karty}
           other {<ph name="INCOGNITO_TAB_COUNT"/> prywatnej i <ph name="TAB_COUNT_MANY"/> innych kart}}</translation>

@@ -562,7 +562,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/> Aflați mai multe <ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Nu vă faceți griji.</translation>
 <translation id="5027616819996705541">Puteți naviga în continuare în mod privat!</translation>
-<translation id="1450735350187803276">Câștiguri până la data curentă</translation>
+<translation id="1450735350187803276">Reclame văzute luna aceasta</translation>
 <translation id="7649070708921625228">Ajutor</translation>
 <translation id="6042308850641462728">Mai multe</translation>
 <translation id="6245259297588415877">Creatori</translation>
@@ -620,7 +620,7 @@
 <translation id="7329170127335794328">Momentan indisponibil în regiunea dvs.</translation>
 <translation id="966956302643313970">Pentru a începe să câștigați recompensele Basic Attention Token (BAT), conectați un cont. BAT pe care îl câștigați va fi transferat automat în contul dvs. în fiecare lună.</translation>
 <translation id="4009439571146350519">Sau despre portofelul compatibil cu Solana</translation>
-<translation id="333231090524745752"><ph name="TOS_LINK_BEGIN"/>Condiții de utilizare<ph name="TOS_LINK_END"/> și  <ph name="PP_LINK_BEGIN"/>Politica de confidențialitate<ph name="PP_LINK_END"/>.</translation>
+<translation id="333231090524745752"><ph name="TOS_LINK_BEGIN"/>Condiții de utilizare<ph name="TOS_LINK_END"/> și <ph name="PP_LINK_BEGIN"/>Politica de confidențialitate<ph name="PP_LINK_END"/>.</translation>
 <translation id="1692293127547800972">A apărut o eroare. Încercați din nou</translation>
 <translation id="756341217015623253">Autentificați-vă sau înscrieți-vă</translation>
 <translation id="2653844658857826081">NOU</translation>
@@ -1999,7 +1999,7 @@ other {# surse}
 <translation id="7509914170164691086">Scuturile sunt ACTIVE <ph name="LINK_BEFORE"/>pentru<ph name="LINK_AFTER"/></translation>
 <translation id="260764436039299868">Scuturile sunt INACTIVE <ph name="LINK_BEFORE"/>pentru<ph name="LINK_AFTER"/></translation>
 <translation id="3907405056878805220">În cazul în care acest site pare corupt, încercați Shields jos.
-    <ph name="LINK_BEFORE"/>Notă: acest lucru poate reduce protecțiile de confidențialitate Brave.<ph name="LINK_AFTER"/></translation>
+   <ph name="LINK_BEFORE"/>Notă: acest lucru poate reduce protecțiile de confidențialitate Brave.<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">Următori, reclame și multe altele blocate <ph name="LINK_BEFORE"/> Aflați mai multe <ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Fără protecția Brave Shields <ph name="LINK_BEFORE"/>Aflați mai multe<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">Controale avansate</translation>
@@ -2141,6 +2141,8 @@ Permiteți-ne să vă conectăm!</translation>
 <translation id="8048263175525832621">Brave VPN - Deconectat</translation>
 <translation id="1498770726476841108">Gestionați contu</translation>
 <translation id="6825718953004242472">Eliminați contul</translation>
+<translation id="3960619311638643872">VPN Brave</translation>
+<translation id="8425213833346101688">Modificați</translation>
 <translation id="3287942014983548982">Deschideți aici</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/>, momentan deschis,
  apăsați tasta Tab, apoi Enter pentru a comuta la fila deschisă</translation>
@@ -2148,7 +2150,4 @@ Permiteți-ne să vă conectăm!</translation>
  fila existentă</translation>
 <translation id="451189393813405346">Întrebați-l pe Leo</translation>
 <translation id="8525248723479742219">Redați mai târziu</translation>
-<translation id="1450735350187803276">Reclame văzute luna aceasta</translation>
-<translation id="3960619311638643872">VPN Brave</translation>
-<translation id="8425213833346101688">Modificați</translation>
 </translationbundle>

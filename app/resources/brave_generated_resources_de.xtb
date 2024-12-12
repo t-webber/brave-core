@@ -188,7 +188,7 @@ Oder später ändern unter <ph name="SETTINGS_EXTENIONS_LINK"/>.</translation>
 <translation id="8010675257566903381">Die Wayback Machine konnte keine gespeicherte Version dieser Seite finden.</translation>
 <translation id="1207694258341311738">Gespeicherte Version überprüfen</translation>
 <translation id="191143826155037518">Brave wird Ihnen unter der <ph name="BEGIN_LINK_MPL"/>Mozilla Public License 2.0<ph name="END_LINK_MPL"/> (MPL) und verwendet weitere <ph name="BEGIN_LINK_OSS"/>Open Source Software<ph name="END_LINK_OSS"/> die unter verschiedenen anderen Lizenzen veröffentlicht wurden.
-        Lesen Sie die <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS"/>Anleitung<ph name="END_LINK_BUILD_INSTRUCTIONS"/>, wie man das Brave-Projekt herunterlädt und selbst aus dem  <ph name="BEGIN_LINK_SOURCE_CODE"/>Quellcode<ph name="END_LINK_SOURCE_CODE"/> zu erstellen.</translation>
+        Lesen Sie die <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS"/>Anleitung<ph name="END_LINK_BUILD_INSTRUCTIONS"/>, wie man das Brave-Projekt herunterlädt und selbst aus dem <ph name="BEGIN_LINK_SOURCE_CODE"/>Quellcode<ph name="END_LINK_SOURCE_CODE"/> zu erstellen.</translation>
 <translation id="4474155171896946103">Alle Tabs als Lesezeichen speichern...</translation>
 <translation id="3987546108749866209">Vertikale Tabs verwenden</translation>
 <translation id="1904394285866191268">{NUM_TABS,plural, =1{Tab stummschalten}other{Tabs stummschalten}}</translation>

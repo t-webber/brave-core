@@ -568,7 +568,7 @@ other {Este mes has visitado # creadores apoyados por Recompensas de Brave}
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Más información<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">No te preocupes.</translation>
 <translation id="5027616819996705541">¡Puedes seguir navegando de forma privada!</translation>
-<translation id="1450735350187803276">Ganancias hasta ahora</translation>
+<translation id="1450735350187803276">Anuncios vistos este mes</translation>
 <translation id="7649070708921625228">Ayuda</translation>
 <translation id="6042308850641462728">Más</translation>
 <translation id="6245259297588415877">Creadores</translation>
@@ -2027,7 +2027,7 @@ other {Este mes has visitado # creadores apoyados por Recompensas de Brave}
 <translation id="8637805148029768813">De momento, la función de resumen solo está disponible para determinados artículos y otras páginas web de formato largo.</translation>
 <translation id="1223498995510244364">Resumir</translation>
 <translation id="7491773233732232424">Acerca de Leo</translation>
-<translation id="5208096220706490232">Brave Leo es un asistente privado con IA que mejora tu experiencia en internet. Puedes usarlo gratis con acceso limitado. Brave Leo Premium ofrece más modelos, límites más altos y permite que los suscriptores tengan acceso en primicia a nuevas funcionalidades. El modelo predeterminado para todos los usuarios es Mixtral8x7B. Consulta más detalles en la  <ph name="LINK_BEFORE"/>wiki de Brave<ph name="LINK_AFTER"/>.</translation>
+<translation id="5208096220706490232">Brave Leo es un asistente privado con IA que mejora tu experiencia en internet. Puedes usarlo gratis con acceso limitado. Brave Leo Premium ofrece más modelos, límites más altos y permite que los suscriptores tengan acceso en primicia a nuevas funcionalidades. El modelo predeterminado para todos los usuarios es Mixtral8x7B. Consulta más detalles en la <ph name="LINK_BEFORE"/>wiki de Brave<ph name="LINK_AFTER"/>.</translation>
 <translation id="7189603330209995455">Por defecto, cuando haces una pregunta, Leo Brave puede acceder y usar el contenido de la página web que estás viendo o cualquier texto que resaltes en una página para darte una respuesta. La exactitud de las respuestas no está garantizada, y puede incluir información imprecisa, engañosa o falsa. Leo utiliza datos de la búsqueda de Brave para mejorar la calidad de las respuestas. No envíes información confidencial ni privada, y sé prudente con las respuestas sobre salud, finanzas, seguridad personal o temas similares. Puedes cambiar las preferencias de Leo en cualquier momento desde Ajustes &gt; Leo.</translation>
 <translation id="3038772045018370764">Leo no recopila identificadores que puedan estar vinculados contigo; por ejemplo, tu dirección IP. No se utiliza ningún dato para entrenar los modelos de IA, y estos tampoco guardan ningún dato personal (excepto Anthropic, que almacena los datos durante 30 días antes de eliminarlos). Consulta más detalles en la <ph name="LINK_BEFORE"/>política de privacidad<ph name="LINK_AFTER"/>.</translation>
 <translation id="7839853125981164613">Introduce una consulta aquí</translation>
@@ -2141,7 +2141,7 @@ other {Este mes has visitado # creadores apoyados por Recompensas de Brave}
 <translation id="7509914170164691086">Las protecciones están ACTIVADAS <ph name="LINK_BEFORE"/>durante<ph name="LINK_AFTER"/></translation>
 <translation id="260764436039299868">Las protecciones están DESACTIVADAS <ph name="LINK_BEFORE"/>durante<ph name="LINK_AFTER"/></translation>
 <translation id="3907405056878805220">Si el sitio no funciona, prueba a desactivar Protecciones. 
-    <ph name="LINK_BEFORE"/>Nota: esto puede reducir la protección de la privacidad de Brave.<ph name="LINK_AFTER"/></translation>
+   <ph name="LINK_BEFORE"/>Nota: esto puede reducir la protección de la privacidad de Brave.<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">Se han bloqueado rastreadores y anuncios, entre otras cosas <ph name="LINK_BEFORE"/>Más información<ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Sin la protección de Protecciones de Brave <ph name="LINK_BEFORE"/>Más información<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">Controles avanzados</translation>
@@ -2310,6 +2310,8 @@ Puede revertir los cambios y volver a usar WireGuard en cualquier momento en bra
 <translation id="8048263175525832621">VPN de Brave: desconectado</translation>
 <translation id="1498770726476841108">Gestionar cuenta</translation>
 <translation id="6825718953004242472">Eliminar icono</translation>
+<translation id="3960619311638643872">VPN de Brave</translation>
+<translation id="8425213833346101688">Cambiar</translation>
 <translation id="3287942014983548982">Abrir aquí</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/> ya se encuentra abierto.
     Pulsa el tabulador y, luego, Intro para abrir la pestaña.</translation>
@@ -2317,7 +2319,4 @@ Puede revertir los cambios y volver a usar WireGuard en cualquier momento en bra
     pestaña ya existente.</translation>
 <translation id="451189393813405346">Preguntar a Leo</translation>
 <translation id="8525248723479742219">Reproducir más tarde</translation>
-<translation id="1450735350187803276">Anuncios vistos este mes</translation>
-<translation id="3960619311638643872">VPN de Brave</translation>
-<translation id="8425213833346101688">Cambiar</translation>
 </translationbundle>

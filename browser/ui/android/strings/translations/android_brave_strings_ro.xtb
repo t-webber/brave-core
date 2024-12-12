@@ -666,7 +666,6 @@ Sigur doriți să faceți acest lucru?</translation>
 <translation id="4862812525895306758">Ștergeți informațiile referitoare la tranzacții și nonce</translation>
 <translation id="5693968582510626466">Ștergerea tranzacțiilor poate fi utilă pentru dezvoltatori sau în cazul golirii informațiilor pe un server local</translation>
 <translation id="5421107279168565467">Sigur doriți să resetați toate tranzacțiile din portofel și informația nonce? Această opțiune este utilizată în principal de dezvoltatori care rulează un server de test local. Tastați „<ph name="CONFIRMATION_PHRASE"/>” pentru a confirma.</translation>
-<translation id="930472263779999522">{MINUTE, plural, =1 {# minut} other {# minute}}</translation>
 <translation id="8146860193318415026">Vizionați videoclipuri fără reclame.</translation>
 <translation id="6311019535466417620">Fără reclame înainte de videoclip</translation>
 <translation id="4274652342814424451">Fără reclame în timpul videoclipului</translation>
@@ -804,6 +803,7 @@ Dacă nu acceptați această solicitare, nu se va realiza reconectarea la VPN, i
 <translation id="4351811224047421378">Zecimale de precizie</translation>
 <translation id="3494964159182650590">Rezumat recompense</translation>
 <translation id="590733288489975971">Recompense din reclame</translation>
+<translation id="1450735350187803276">Reclame văzute luna aceasta</translation>
 <translation id="1767561995429774671">Contribuie</translation>
 <translation id="7335371657242627509">Include în contribuția automată</translation>
 <translation id="6727102863431372879">Setați</translation>

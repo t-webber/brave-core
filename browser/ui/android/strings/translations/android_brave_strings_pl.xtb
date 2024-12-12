@@ -442,7 +442,7 @@ Czy na pewno chcesz to zrobić?</translation>
 <translation id="1275213816424141989">Może później</translation>
 <translation id="4406937629441301400">Zyskaj tokeny za obejrzenie tego obrazu i przekaż dalej twórcom. <ph name="LEARN_MORE"/></translation>
 <translation id="6632345639591919543">Zyskujesz tokeny za oglądanie tego obrazu.\n<ph name="LEARN_MORE"/></translation>
-<translation id="8164992819127316581">Przetwarzanie wypłaty nagród za miesiąc  <ph name="CURRENT_MONTH"/> rozpocznie się do <ph name="PAYOUT_DATE"/>.</translation>
+<translation id="8164992819127316581">Przetwarzanie wypłaty nagród za miesiąc <ph name="CURRENT_MONTH"/> rozpocznie się do <ph name="PAYOUT_DATE"/>.</translation>
 <translation id="33967210973550414">Przetwarzanie wypłaty nagród za miesiąc <ph name="CURRENT_MONTH"/> w toku. <ph name="CHECK_STATUS"/></translation>
 <translation id="1622952853310946314">Przetwarzanie wypłaty nagród za miesiąc <ph name="CURRENT_MONTH"/> zostało zakończone. <ph name="SUPPORT"/></translation>
 <translation id="7717357606512850995">Sprawdź status</translation>
@@ -838,6 +838,7 @@ Jeżeli nie zaakceptujesz tego żądania, połączenie z VPN nie zostanie ponown
 <translation id="4351811224047421378">Dokładność liczb po przecinku</translation>
 <translation id="3494964159182650590">Podsumowanie nagród</translation>
 <translation id="590733288489975971">Nagrody z reklam</translation>
+<translation id="1450735350187803276">Reklamy wyświetlone w tym miesiącu</translation>
 <translation id="1767561995429774671">Wspieraj</translation>
 <translation id="7335371657242627509">Włącz automatyczną dotację</translation>
 <translation id="6727102863431372879">Ustal</translation>

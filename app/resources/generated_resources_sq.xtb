@@ -77,6 +77,7 @@
 <translation id="1048286738600630630">Ekranet</translation>
 <translation id="1048986595386481879">Caktuar në mënyrë dinamike</translation>
 <translation id="1049324577536766607">{COUNT,plural, =1{Po merr <ph name="ATTACHMENTS"/> nga <ph name="DEVICE_NAME"/>}other{Po merr <ph name="ATTACHMENTS"/> nga <ph name="DEVICE_NAME"/>}}</translation>
+<translation id="5186185447130319458">I fshehtë</translation>
 <translation id="1049795001945932310">&amp;Cilësimet e gjuhës</translation>
 <translation id="1050693411695664090">E dobët</translation>
 <translation id="1053898984916097744">Nis diçka të re ose merr ndihmë gjatë rrjedhës.</translation>
@@ -856,6 +857,7 @@ Lejet që u ke dhënë tashmë sajteve të uebit dhe aplikacioneve mund të zbat
 <translation id="8275260485701169654">Informacionet e sistemit të Brave</translation>
 <translation id="1603411913360944381">Harroje <ph name="DEVICE_NAME"/></translation>
 <translation id="1603879843804174953">Shtypje e gjatë</translation>
+<translation id="3860292630623580294">(I fshehtë)</translation>
 <translation id="1604432177629086300">Nuk mund të printohej. Kontrollo printerin dhe provo përsëri.</translation>
 <translation id="1604567162047669454">Dallo semantikën e strukturës vizuale</translation>
 <translation id="1604774728851271529">Ke nevojë për një lidhje me rrjetin për të përmirësuar Linux. Lidhu me rrjetin dhe provo përsëri.</translation>
@@ -968,6 +970,7 @@ Lejet që u ke dhënë tashmë sajteve të uebit dhe aplikacioneve mund të zbat
 <translation id="1668979692599483141">Mëso për sugjerimet</translation>
 <translation id="1670399744444387456">Themeloret</translation>
 <translation id="1673137583248014546"><ph name="URL"/> dëshiron të shohë markën dhe modelin e çelësit tënd të sigurisë</translation>
+<translation id="1342491857153455138">Hapi të gjitha (<ph name="URL_COUNT"/>) në dritare "të fshehtë"</translation>
 <translation id="1677306805708094828">Nuk mund të shtohet kjo <ph name="EXTENSION_TYPE_PARAMETER"/></translation>
 <translation id="1677472565718498478">Koha e mbetur <ph name="TIME"/></translation>
 <translation id="1678849866171627536">Skanimi dështoi. Ky skedar mund të jetë një virus ose softuer keqdashës.</translation>
@@ -976,6 +979,7 @@ Lejet që u ke dhënë tashmë sajteve të uebit dhe aplikacioneve mund të zbat
 <translation id="167983332380191032">Shërbimi i menaxhimit dërgoi një gabim të protokollit HTTP.</translation>
 <translation id="167997285881077031">Cilësimet e zërit për tekstin në ligjërim</translation>
 <translation id="1680849702532889074">Ndodhi një gabim gjatë instalimit të aplikacionit tënd në Linux.</translation>
+<translation id="1676595396635191120">Dritare e re "e fshehtë"</translation>
 <translation id="1682696837763999627">Kursori i madh i miut</translation>
 <translation id="1682867089915960590">Të aktivizohet shfletimi me kursorin e tekstit?</translation>
 <translation id="1686550358074589746">Aktivizo shkrimin me rrëshqitje</translation>
@@ -1111,6 +1115,7 @@ Lejet që u ke dhënë tashmë sajteve të uebit dhe aplikacioneve mund të zbat
 <translation id="1780152987505130652">Mbyll grupin</translation>
 <translation id="1780273119488802839">Po importon faqeshënuesit...</translation>
 <translation id="1780572199786401845">Raporto si fyese/të pasigurt.</translation>
+<translation id="659039914757960684">Konfiguro Nearby Share për të marrë dhe dërguar skedarë me njerëzit rreth teje</translation>
 <translation id="1781291988450150470">Kodi PIN aktual</translation>
 <translation id="1781502536226964113">Hap faqen "Skedë e re"</translation>
 <translation id="1781553166608855614">Gjuha e folur</translation>
@@ -1169,6 +1174,7 @@ Lejet që u ke dhënë tashmë sajteve të uebit dhe aplikacioneve mund të zbat
 <translation id="1817871734039893258">Rikuperimi i skedarëve i Microsoft</translation>
 <translation id="1818913467757368489">Ngarkimi i evidencës në vazhdim.</translation>
 <translation id="1819377896744763509">Konfigurimi mund të zgjasë pak më gjatë...</translation>
+<translation id="7206817092936005164">Hapi të gjitha në dritare "të fshehtë"</translation>
 <translation id="1819721979226826163">Trokit te Njoftimet e aplikacioneve &gt; Shërbimet e Google Play.</translation>
 <translation id="3707821975049107110">Je tashmë një përdorues i Brave? Identifikohu</translation>
 <translation id="1822517323280215012">Gri</translation>
@@ -1515,6 +1521,7 @@ Cilësimet e kësaj llogarie mund t'i menaxhosh duke instaluar aplikacionin Fami
 <translation id="2059913712424898428">Brezi orar</translation>
 <translation id="2060375639911876205">Hiq profilin e kartës eSIM</translation>
 <translation id="2061366302742593739">Nuk ka asgjë për të shfaqur</translation>
+<translation id="5263632074804780211">Përdor uebin pa ruajtur historikun tënd të shfletimit me një dritare "të fshehtë"</translation>
 <translation id="206308717637808771">Fshiji të dhënat kur mbyll të gjitha dritaret. Të dhënat trajtohen njëlloj si sajti që po shikon</translation>
 <translation id="4782664866169793230">Brave po kontrollohet nga një softuer testues i automatizuar.</translation>
 <translation id="2067591192939433190">Nga "<ph name="VENDOR_NAME"/>"</translation>
@@ -1679,6 +1686,7 @@ Cilësimet e kësaj llogarie mund t'i menaxhosh duke instaluar aplikacionin Fami
 <translation id="217576141146192373">Printeri nuk mund të shtohet. Kontrollo konfigurimin e printerit dhe provo përsëri.</translation>
 <translation id="2175927920773552910">Kodi QR</translation>
 <translation id="217631816678106981">Mos e ngjit</translation>
+<translation id="9048137919253433011">Skedë "e fshehtë": <ph name="TAB_NAME"/></translation>
 <translation id="2178056538281447670">Microsoft 365</translation>
 <translation id="2178545675770638239">Zgjidh fjalëkalimin</translation>
 <translation id="2178585470774851578">Po aktivizon veçoritë e korrigjimit në pajisjet Brave OS Flex që do të konfigurojnë sshd daemon dhe do të aktivizojnë ndezjen nga njësitë USB.</translation>
@@ -1780,6 +1788,7 @@ Cilësimet e kësaj llogarie mund t'i menaxhosh duke instaluar aplikacionin Fami
 <translation id="2250624716625396929">Kjo skedë po përdor kamerën dhe mikrofonin tënd</translation>
 <translation id="2251218783371366160">Hap me shikuesin e sistemit</translation>
 <translation id="225163402930830576">Rifresko rrjetet</translation>
+<translation id="5760418762676108038">Dritare e re "e fshehtë"</translation>
 <translation id="2252017960592955005">Mbrojtja e shikimit (beta)</translation>
 <translation id="2253318212986772520">Skedari PPD për <ph name="PRINTER_NAME"/> nuk mund të merret.</translation>
 <translation id="2253797136365098595">Mëso më shumë rreth kërkimeve te historiku</translation>
@@ -1909,6 +1918,7 @@ Për ndihmë lidhur me zgjidhjen e problemeve të transmetimit, drejtohu te <ph 
 <translation id="2327492829706409234">Aktivizo aplikacionin</translation>
 <translation id="2327920026543055248">Fut karakterin <ph name="CHARACTER"/> nga <ph name="TOTAL"/></translation>
 <translation id="2328561734797404498">Rinise pajisjen tënde për të përdorur <ph name="APP_NAME"/>.</translation>
+<translation id="6304377454418270508">Kur je në modalitetin "I fshehtë", sajtet mund të përdorin kuki vetëm për të parë aktivitetin tënd të shfletimit në sajtin e tyre. Kukit fshihen në fund të sesionit të fshehtë.</translation>
 <translation id="2329597144923131178">Identifikohu për të marrë faqeshënuesit, historikun, fjalëkalimet dhe cilësime të tjera në të gjitha pajisjet e tua.</translation>
 <translation id="2332115969598251205">Pajisjet e ruajtura te <ph name="PRIMARY_EMAIL"/> nuk mund të ngarkohen. Kontrollo lidhjen e internetit dhe provo përsëri.</translation>
 <translation id="2332131598580221120">Shiko në dyqan</translation>
@@ -2407,6 +2417,7 @@ Për ndihmë lidhur me zgjidhjen e problemeve të transmetimit, drejtohu te <ph 
 <translation id="2681124317993121768">Profilet e vizitorëve nuk mbështeten</translation>
 <translation id="2682498795777673382">Përditësim nga prindi</translation>
 <translation id="2683638487103917598">Dosja u sistemua</translation>
+<translation id="2254158488150713536">Për të vazhduar, kliko te "Në rregull" dhe më pas kliko te "Shto person" për të krijuar një profil të ri për adresën tënde të email-it.</translation>
 <translation id="2685193395980129388">Lejohet - <ph name="PERMISSION_DETAILS"/></translation>
 <translation id="2687407218262674387">Kushtet e shërbimit të Brave</translation>
 <translation id="2688196195245426394">Gabim gjatë regjistrimit të pajisjes në server: <ph name="CLIENT_ERROR"/>.</translation>
@@ -2643,6 +2654,7 @@ Për ndihmë lidhur me zgjidhjen e problemeve të transmetimit, drejtohu te <ph 
 <translation id="2844169650293029770">Pajisja USB-C (porta e përparme, majtas)</translation>
 <translation id="2844809857160214557">Shiko dhe menaxho printimet</translation>
 <translation id="5955675310630864290">Më shumë veprime për "Kalendarin e Brave"</translation>
+<translation id="5094764494104066239">Shfaq gjithmonë shiritin e faqeshënuesve</translation>
 <translation id="284581348330507117">Krijo fjalëkalime unike</translation>
 <translation id="284884486564166077">Kërko për çdo imazh me "Lenten"</translation>
 <translation id="2849035674501872372">Shiko</translation>
@@ -2712,6 +2724,7 @@ Për ndihmë lidhur me zgjidhjen e problemeve të transmetimit, drejtohu te <ph 
 <translation id="2893701697603065178">Mjedisi i zhvillimit të menaxhuar</translation>
 <translation id="2894757982205307093">Skedë e re në grup</translation>
 <translation id="289695669188700754">ID-ja e çelësit: <ph name="KEY_ID"/></translation>
+<translation id="8148807910118761153">Ky cilësim i parazgjedhur do të hiqet kur të mbyllësh të gjitha dritaret "e fshehta"</translation>
 <translation id="2897878306272793870">Je i sigurt se dëshiron të hapësh <ph name="TAB_COUNT"/> skeda?</translation>
 <translation id="2900247416110050639">"Dokumentet e Brave", "Fletët" dhe "Diapozitivat" kërkojnë që skedarët të ruhen në "Diskun e Brave". Skedarët lokalë do të zhvendosen dhe skedarët nga vendndodhjet e tjera do të kopjohen. Skedarët e tu mund të gjenden në dosjen e "Diskut të Brave" në aplikacionin "Skedarët".</translation>
 <translation id="290105521672621980">Skedari përdor funksione që nuk mbështeten</translation>
@@ -3377,6 +3390,7 @@ Për ndihmë lidhur me zgjidhjen e problemeve të transmetimit, drejtohu te <ph 
 <translation id="3405763860805964263">...</translation>
 <translation id="3406290648907941085">Lejohen të përdorin të dhënat dhe pajisjet e realitetit virtual</translation>
 <translation id="3406396172897554194">Kërko sipas gjuhës ose emrit të hyrjes</translation>
+<translation id="4620367155626060530">&amp;Shfaq shiritin e faqeshënuesve</translation>
 <translation id="1081508498128395141">Ngarkohen paraprakisht më shumë faqe. Faqet mund të ngarkohen paraprakisht nëpërmjet serverëve të Brave kur kërkohen nga sajte të tjera.</translation>
 <translation id="3407967630066378878">Për të konfiguruar gjurmën e gishtit, vëre fëmijën tënd të prekë sensorin e gjurmës së gishtit në anën e majtë të kësaj pajisjeje <ph name="DEVICE_TYPE"/>. Të dhënat e gjurmës së gishtit të fëmijës tënd ruhen në mënyrë të sigurt dhe nuk largohen kurrë nga kjo pajisje <ph name="DEVICE_TYPE"/>.</translation>
 <translation id="3408555740610481810">Kamera dhe mikrofoni në përdorim</translation>
@@ -3599,6 +3613,7 @@ Për ndihmë lidhur me zgjidhjen e problemeve të transmetimit, drejtohu te <ph 
 <translation id="3566325075220776093">Nga kjo pajisje</translation>
 <translation id="3566721612727112615">Nuk u shtuan sajte</translation>
 <translation id="3567168891086460374">Ruaje në një mënyrë tjetër</translation>
+<translation id="3080637320062973622">Për të marrë dhe pranuar skedarë nga njerëzit përreth teje, bëhu i dukshëm</translation>
 <translation id="356738834800832239">Fjalëkalimi yt u ruajt</translation>
 <translation id="3568431410312984116">Lejo hapjen automatike të "Më ndihmo të shkruaj"</translation>
 <translation id="3569382839528428029">Dëshiron që <ph name="APP_NAME"/> të ndajë ekranin tënd?</translation>
@@ -3635,6 +3650,7 @@ Për ndihmë lidhur me zgjidhjen e problemeve të transmetimit, drejtohu te <ph 
 <translation id="3593152357631900254">Aktivizo modalitetin Fuzzy-Pinyin</translation>
 <translation id="3593965109698325041">Kufizimet e emrit të certifikatës</translation>
 <translation id="3596012367874587041">Cilësimet e aplikacionit</translation>
+<translation id="8648684608605749476">Blloko kukit e palëve të treta në modalitetin "I fshehtë"</translation>
 <translation id="3599221874935822507">I ngritur</translation>
 <translation id="3600051066689725006">Informacionet e kërkesës së uebit</translation>
 <translation id="3600956933576601730">Duhet të rishikosh dhe të pranosh kushtet për të përdorur këto veçori</translation>
@@ -3682,6 +3698,7 @@ Për ndihmë lidhur me zgjidhjen e problemeve të transmetimit, drejtohu te <ph 
 <translation id="3625481642044239431">Është zgjedhur një skedar i pavlefshëm. Provo përsëri.</translation>
 <translation id="3626296069957678981">Për të karikuar këtë Chromebook, përdor një bateri të përputhshme Dell.</translation>
 <translation id="3627320433825461852">Mbetet më pak se 1 minutë</translation>
+<translation id="658539216370629794">Hape lidhjen në një dritare të fshe&amp;hur</translation>
 <translation id="3627671146180677314">Koha e rinovimit të certifikatës së Netscape</translation>
 <translation id="3628275722731025472">Çaktivizo Bluetooth-in</translation>
 <translation id="3629630597033136279">Joaktive • Kjo shtesë nuk i ka publikuar praktikat e privatësisë, si p.sh. se si i mbledh dhe i përdor të dhënat</translation>
@@ -3893,6 +3910,7 @@ Për ndihmë lidhur me zgjidhjen e problemeve të transmetimit, drejtohu te <ph 
 <translation id="2624625863458105774">Për të fshirë të dhënat e shfletimit nga të gjitha pajisjet e tua të sinkronizuara dhe nga "Llogaria jote e Brave", <ph name="BEGIN_LINK"/>fut frazën e kalimit<ph name="END_LINK"/>.</translation>
 <translation id="3759933321830434300">Blloko pjesët e faqeve të uebit</translation>
 <translation id="3760460896538743390">Inspekto &amp;faqen e sfondit</translation>
+<translation id="1985165269306590797">Hape në &amp;dritare "të fshehtë"</translation>
 <translation id="3761556954875533505">Do ta lejosh sajtin të modifikojë skedarët?</translation>
 <translation id="3761560059647741692">Peizazh</translation>
 <translation id="3761733456040768239">Veprime të tjera për <ph name="CARD_DESCRIPTION"/>, kodi CVC u ruajt</translation>
@@ -3918,6 +3936,7 @@ Për ndihmë lidhur me zgjidhjen e problemeve të transmetimit, drejtohu te <ph 
 <translation id="3775432569830822555">Certifikata e serverit SSL</translation>
 <translation id="3775705724665058594">Dërgo te pajisjet e tua</translation>
 <translation id="3776508619697147021">Sajtet mund të kërkojnë të shkarkojnë automatikisht shumë skedarë</translation>
+<translation id="6945695820322143954">Kjo shtesë shkel politikën e Dyqanit të uebit të Brave.</translation>
 <translation id="3777483481409781352">Pajisja celulare nuk mund të aktivizohej</translation>
 <translation id="3777796259512476958">Të nxjerr nga shumica e sajteve</translation>
 <translation id="3778208826288864398">Çelësi i sigurisë është i kyçur sepse është futur shumë herë kod PIN i gabuar. Do të duhet të rivendosësh çelësin e sigurisë.</translation>
@@ -4032,6 +4051,7 @@ Kjo mund të përfshijë informacione për softuerët e instaluar, skedarët, sh
 <translation id="3844888638014364087">Emoji u fut</translation>
 <translation id="3846116211488856547">Merr vegla për zhvillimin e faqeve të internetit, aplikacioneve për Android dhe shumë të tjera. Instalimi i Linux do të shkarkojë <ph name="DOWNLOAD_SIZE"/> të dhëna.</translation>
 <translation id="3847319713229060696">Ndihmo në përmirësimin e sigurisë për të gjithë</translation>
+<translation id="5464506165779993685">Hape në &amp;dritare "të fshehtë"</translation>
 <translation id="3850172593216628215">Përditësimet e sigurisë kanë përfunduar. Kurse 50 $ ose më shumë në një pajisje të re Chromebook.</translation>
 <translation id="385051799172605136">Prapa</translation>
 <translation id="3851428669031642514">Ngarko skriptet e pasigurta</translation>
@@ -4213,6 +4233,7 @@ Kjo mund të përfshijë informacione për softuerët e instaluar, skedarët, sh
 <translation id="3975565978598857337">Kontaktimi me serverin për zonën e verifikimit dështoi</translation>
 <translation id="3976108569178263973">Nuk u gjetën printerë.</translation>
 <translation id="397703832102027365">Po përfundon...</translation>
+<translation id="3293179957233653243">Veçoritë në disa sajte mund të mos funksionojnë në modalitetin "I fshehtë"</translation>
 <translation id="3977886311744775419">Përditësimet automatike nuk përditësohen në këtë lloj rrjeti, por mund të kontrollosh për përditësime manualisht.</translation>
 <translation id="3978325380690188371">Tastet e përhershme nuk ofrohen kur ChromeVox është aktiv</translation>
 <translation id="3979395879372752341">U shtua shtesa e re (<ph name="EXTENSION_NAME"/>)</translation>
@@ -4519,6 +4540,7 @@ Kjo mund të përfshijë informacione për softuerët e instaluar, skedarët, sh
 <translation id="4210048056321123003">Pajisja virtuale po shkarkohet</translation>
 <translation id="4210380525132844778">Arsyeja: <ph name="RULE"/> u gjet në listën"<ph name="LIST_NAME"/>".</translation>
 <translation id="4211362364312260125">Identifiko pikën kryesore të referimit në faqet e uebit për teknologjinë ndihmëse</translation>
+<translation id="4680518314108745448">Shfaq shiritin e faqeshënuesve</translation>
 <translation id="4211904048067111541">Ndalo përdorimin me aplikacione për Android</translation>
 <translation id="42126664696688958">Eksporto</translation>
 <translation id="42137655013211669">Qasja te ky burim është e ndaluar nga serveri.</translation>
@@ -4640,6 +4662,7 @@ Kjo mund të përfshijë informacione për softuerët e instaluar, skedarët, sh
 <translation id="4297219207642690536">Rinis dhe rivendos</translation>
 <translation id="4297813521149011456">Rrotullimi i ekranit</translation>
 <translation id="4298660926525614540">Emrat e hapësirës ruajtëse të heqshme</translation>
+<translation id="5786139852593193364">Dritare e re "e &amp;fshehtë"</translation>
 <translation id="4300272766492248925">Hap aplikacionin</translation>
 <translation id="4301671483919369635">Kjo faqe lejohet të modifikojë skedarët</translation>
 <translation id="5105741679146933998">{COUNT,plural, =1{# kontakt nuk ofrohet. Për të përdorur "<ph name="FEATURE_NAME"/>" me të, shto te kontaktet e tua adresën e email-it të lidhur me "Llogarinë e tij të Brave".}other{# kontakte nuk ofrohen. Për të përdorur "<ph name="FEATURE_NAME"/>" me to, shto te kontaktet e tua adresën e email-it të lidhur me "Llogaritë e tyre të Brave".}}</translation>
@@ -4803,6 +4826,7 @@ Kjo mund të përfshijë informacione për softuerët e instaluar, skedarët, sh
 <translation id="44137799675104237">Dëgjo tekstin me zë natyral</translation>
 <translation id="441418754432585599"><ph name="MODIFIER_ONE"/> + <ph name="MODIFIER_TWO"/> + <ph name="KEY"/></translation>
 <translation id="44141919652824029">Të lejohet që "<ph name="APP_NAME"/>" të marrë listën e pajisjeve të tua USB të lidhura?</translation>
+<translation id="7973394300052703468">Dritare e re "e fshehtë"</translation>
 <translation id="4414242853388122273">Gabim gjatë heqjes së <ph name="VM_NAME"/>. Provo përsëri.</translation>
 <translation id="4415213869328311284">Je gati për të filluar përdorimin e pajisjes sate <ph name="DEVICE_TYPE"/>.</translation>
 <translation id="5749788945734786627">Menaxho "Llogarinë tënde të Brave"</translation>
@@ -5102,6 +5126,7 @@ Kjo mund të përfshijë informacione për softuerët e instaluar, skedarët, sh
 <translation id="4642587497923912728">Steam për Chromebook (Beta) është i disponueshëm vetëm për llogarinë që është identifikuar e para në këtë Chromebook.</translation>
 <translation id="4643612240819915418">&amp;Hap videon në skedë të re</translation>
 <translation id="4643833688073835173">Chromebook-u yt përdor një sensor të integruar për të zbuluar personat përpara pajisjes sate. Të gjitha të dhënat përpunohen në pajisjen tënde menjëherë dhe më pas fshihen. Të dhënat e sensorit nuk i dërgohen asnjëherë Brave.</translation>
+<translation id="5899585985956756612">Lejo në modalitetin "e fshehtë"</translation>
 <translation id="4645322559577140968">{GROUP_COUNT,plural, =1{Të fshihet grupi i skedave?}other{Të fshihen grupet e skedave?}}</translation>
 <translation id="4645575059429386691">Menaxhohet nga prindi yt</translation>
 <translation id="4645676300727003670">&amp;Mbaje</translation>
@@ -5365,6 +5390,7 @@ Përdor Ctrl + Alt + "Ul ndriçimin" për ta zvogëluar.</translation>
 <translation id="4838907349371614303">Fjalëkalimi u përditësua</translation>
 <translation id="4839303808932127586">Rua&amp;je videon si...</translation>
 <translation id="4839910546484524995">Kontrollo pajisjen tënde</translation>
+<translation id="4132775938064605501">Të mbyllet gjithsesi modaliteti "i fshehtë"?</translation>
 <translation id="4841475798258477260">Kjo pajisje mund të lidhet vetëm me një rrjet specifik celular. <ph name="BEGIN_LINK_LEARN_MORE"/>Mëso më shumë<ph name="END_LINK_LEARN_MORE"/></translation>
 <translation id="4841741146571978176">Një makinë e kërkuar virtuale nuk ekziston. Provo të konfigurosh <ph name="VM_TYPE"/> për të vazhduar</translation>
 <translation id="4842976633412754305">Kjo faqe po përpiqet të ngarkojë skripte nga burime të paverifikuara.</translation>
@@ -5410,6 +5436,7 @@ Përdor Ctrl + Alt + "Ul ndriçimin" për ta zvogëluar.</translation>
 <translation id="4869170227080975044">Të lexojë informacionet e rrjetit të ChromeOS</translation>
 <translation id="4870724079713069532">Mund të hapësh dhe të modifikosh skedarët e mbështetur me këtë aplikacion nga "Eksploruesi i skedarëve" ose aplikacione të tjera. Për të kontrolluar se cilët skedarë hapin këtë aplikacion si parazgjedhje, shko te <ph name="BEGIN_LINK"/>Cilësimet e Windows<ph name="END_LINK"/>.</translation>
 <translation id="4870995365819149457">Disa lidhje të mbështetura do të vazhdojnë të hapen në <ph name="APP_NAME"/>, <ph name="APP_NAME_2"/>, <ph name="APP_NAME_3"/> dhe 1 aplikacion tjetër.</translation>
+<translation id="8839398440242019256">Nuk është nga "Dyqani i uebit i Brave"</translation>
 <translation id="4871322859485617074">Kodi PIN përmban karaktere të pavlefshme</translation>
 <translation id="4871370605780490696">Shto faqeshënues</translation>
 <translation id="4871568871368204250">Çaktivizo sinkronizimin</translation>
@@ -5544,6 +5571,7 @@ Përdor Ctrl + Alt + "Ul ndriçimin" për ta zvogëluar.</translation>
 <translation id="4964455510556214366">Sistemimi</translation>
 <translation id="4964544790384916627">Poziciono dritaren</translation>
 <translation id="4965808351167763748">Je i sigurt që dëshiron ta konfigurosh këtë pajisje për të ekzekutuar Hangouts Meet?</translation>
+<translation id="4304377874648098617">Je në modalitetin "e fshehtë"</translation>
 <translation id="4967227914555989138">Shto një shënim</translation>
 <translation id="4967360192915400530">Shkarko skedarin e rrezikshëm</translation>
 <translation id="496742804571665842">Çaktivizo profilet e kartës eSIM</translation>
@@ -5704,6 +5732,7 @@ Përdor Ctrl + Alt + "Ul ndriçimin" për ta zvogëluar.</translation>
 <translation id="5090981554736747495">Jepu leje aplikacioneve të Linux që të kenë qasje në pajisjet USB.</translation>
 <translation id="5091636240353511739">Shfaq kodin PIN</translation>
 <translation id="5093477827231450397">Lista e sajteve që ke bllokuar që nuk dëshiron që të sugjerojnë reklama për sajtet e tjera</translation>
+<translation id="6666022817001893507">Nënkorniza e memories specifike të faqes së plotë "të fshehtë": <ph name="BACK_FORWARD_CACHE_INCOGNITO_PAGE_URL"/></translation>
 <translation id="5094176498302660097">Mund të hapësh dhe të modifikosh skedarët e mbështetur me këtë aplikacion nga aplikacioni "Skedarët" ose aplikacione të tjera. Për të kontrolluar se cilët skedarë hapin këtë aplikacion si parazgjedhje, <ph name="BEGIN_LINK"/>mëso se si të caktosh aplikacionet e parazgjedhura në pajisjen tënde<ph name="END_LINK"/>.</translation>
 <translation id="5094721898978802975">Komuniko me aplikacionet origjinale bashkëpunuese</translation>
 <translation id="5095252080770652994">Progresi</translation>
@@ -5713,6 +5742,7 @@ Përdor Ctrl + Alt + "Ul ndriçimin" për ta zvogëluar.</translation>
 <translation id="5097002363526479830">Dështoi lidhja me rrjetin "<ph name="NAME"/>": <ph name="DETAILS"/></translation>
 <translation id="5097306410549350357">Mëso më shumë rreth përdorimit të vendndodhjes</translation>
 <translation id="5097349930204431044">Sajtet që viziton mund të përcaktojnë se çfarë të pëlqen dhe më pas të sugjerojnë reklama ndërkohë që ti vazhdon të shfletosh</translation>
+<translation id="5097649414558628673">Vegla: <ph name="PRINT_NAME"/></translation>
 <translation id="5097874180538493929">Kliko automatikisht kur të ndalojë kursori</translation>
 <translation id="5098954716528935136">Na trego se pse po e shkarkon këtë skedar gjithsesi</translation>
 <translation id="5098963855433723436">Hapet në një aplikacion të veçantë</translation>
@@ -5729,6 +5759,7 @@ Përdor Ctrl + Alt + "Ul ndriçimin" për ta zvogëluar.</translation>
 <translation id="5109044022078737958">Mia</translation>
 <translation id="5109816792918100764">Hiq <ph name="LANGUAGE_NAME"/></translation>
 <translation id="5111326646107464148">Hape grupin në një dritare të re</translation>
+<translation id="2579188629646253712">Dil nga modaliteti i fshehtë</translation>
 <translation id="5111692334209731439">&amp;Menaxheri i faqeshënuesve</translation>
 <translation id="5111794652433847656">Nuk ka asnjë çelës kalimi për <ph name="APP_NAME"/> në këtë pajisje</translation>
 <translation id="5112577000029535889">&amp;Mjetet e zhvilluesit</translation>
@@ -5847,6 +5878,7 @@ Përdor Ctrl + Alt + "Ul ndriçimin" për ta zvogëluar.</translation>
 <translation id="5193485690196207310">{COUNT,plural, =1{1 çelës kalimi}other{{COUNT} çelësa kalimi}}</translation>
 <translation id="5193978546360574373">Kjo do të heqë qasjen te "Disku i Brave" në këtë Chromebook, duke përfshirë qasjen te çdo skedar që është bërë i disponueshëm offline</translation>
 <translation id="5193988420012215838">Kopjuar te kujtesa e fragmenteve</translation>
+<translation id="3610571162330520499">Kjo prek vetëm dritaret e fshehta</translation>
 <translation id="5195074424945754995">URL-të që përputhen me këto rregulla nuk do të aktivizojnë një çelës shfletuesi dhe mund të hapen në <ph name="BROWSER_NAME"/> ose <ph name="ALTERNATIVE_BROWSER_NAME"/>.</translation>
 <translation id="5195863934285556588"><ph name="BEGIN_PARAGRAPH1"/>Shërbimi i vendndodhjes i Brave përdor burime të tilla si Wi-Fi, rrjetet celulare dhe sensorët për të ndihmuar në përllogaritjen e vendndodhjes së kësaj pajisjeje.<ph name="END_PARAGRAPH1"/>
     <ph name="BEGIN_PARAGRAPH2"/>Mund ta çaktivizosh vendndodhjen e Android në këtë pajisje në çdo kohë duke shkuar te "Cilësimet" &gt; "Aplikacionet" &gt; "Dyqani i Brave Play" &gt; "Menaxho preferencat e android" &gt; "Siguria dhe vendndodhja" &gt; "Vendndodhja". Mund të çaktivizosh gjithashtu përdorimin e Wi-Fi, rrjeteve celulare dhe sensorëve për vendndodhjen e Android duke çaktivizuar "Saktësinë e vendndodhjes të Brave" në të njëjtën meny.<ph name="END_PARAGRAPH2"/></translation>
@@ -5982,6 +6014,7 @@ Përdor Ctrl + Alt + "Ul ndriçimin" për ta zvogëluar.</translation>
 <translation id="5293170712604732402">Rivendos cilësimet në parazgjedhjet e tyre fillestare</translation>
 <translation id="5731649986150437468">Nëse një sajt përpiqet të vjedhë fjalëkalimin tënd ose kur shkarkon një skedar të dëmshëm, Brave mund t'i dërgojë gjithashtu URL-të, duke përfshirë pjesë të përmbajtjes së faqeve, te Brave.</translation>
 <translation id="5294097441441645251">Duhet të fillojë me një shkronjë të vogël ose vizë poshtë</translation>
+<translation id="8273477935094091719"><ph name="DEVICE_TYPE"/> përdor një sensor të integruar për të zbuluar personat përpara pajisjes sate. Të gjitha të dhënat përpunohen në pajisjen tënde menjëherë dhe më pas fshihen. Të dhënat e sensorit nuk i dërgohen asnjëherë Brave. <ph name="LINK_BEGIN"/>Mëso më shumë<ph name="LINK_END"/></translation>
 <translation id="5295188371713072404">Shtesat mund të kërkojnë qasje në këtë sajt</translation>
 <translation id="5295349205180144885">Emri i grupit të skedave: <ph name="NAME"/></translation>
 <translation id="5296350763804564124">Dëgjo komentet me zë që të mund ta përdorësh pajisjen pa shikuar në ekran. Komentet në breil ofrohen me një pajisje të lidhur.</translation>
@@ -6039,6 +6072,7 @@ Përdor Ctrl + Alt + "Ul ndriçimin" për ta zvogëluar.</translation>
 <translation id="5337207153202941678">Çaktivizo theksimin</translation>
 <translation id="5337771866151525739">U instalua nga një palë e tretë.</translation>
 <translation id="5337926771328966926">Emri i pajisjes aktuale është <ph name="DEVICE_NAME"/></translation>
+<translation id="263189163883089157">Mund të shfletosh në mënyrë private duke përdorur një dritare "të fshehtë"</translation>
 <translation id="5338503421962489998">Hapësira ruajtëse lokale</translation>
 <translation id="5340787663756381836">&amp;Gjej dhe modifiko</translation>
 <translation id="5341793073192892252">Kukit e mëposhtme u bllokuan (kukit e palëve të treta po bllokohen pa përjashtim)</translation>
@@ -6071,6 +6105,7 @@ Përdor Ctrl + Alt + "Ul ndriçimin" për ta zvogëluar.</translation>
 <translation id="5368246151595623328">"<ph name="NETWORK_NAME"/>" u ruajt nga <ph name="DEVICE_NAME"/></translation>
 <translation id="5368441245151140827">Kjo shtesë nuk mund të lexojë dhe të ndryshojë informacionet e sajtit apo të ekzekutohet në sfond</translation>
 <translation id="5368720394188453070">Telefoni yt është i kyçur. Shkyçe për t'u futur.</translation>
+<translation id="8712375231869053533">{0,plural, =1{E fshehtë}other{Të fshehta (#)}}</translation>
 <translation id="5369491905435686894">Aktivizo përshpejtimin e miut</translation>
 <translation id="5369694795837229225">Konfiguro mjedisin e zhvillimit të Linux</translation>
 <translation id="5370819323174483825">&amp;Ringarko</translation>
@@ -6356,6 +6391,7 @@ Lejet që u ke dhënë sajteve të uebit dhe aplikacioneve mund të zbatohen pë
 <translation id="5572166921642484567">Zgjidh një modalitet të skemës së ngjyrës</translation>
 <translation id="5572252023412311448">Shfaq detajet e sajtit për <ph name="SITE_GROUP"/></translation>
 <translation id="557506220935336383">Shiko lejet e shtesave për sajtet e tjera</translation>
+<translation id="5053701565089446556">Shtesë e fshehtë: <ph name="EXTENSION_NAME"/></translation>
 <translation id="5575528586625653441">Kishte një problem me kërkesën për regjistrimin e demonstrimit.</translation>
 <translation id="557722062034137776">Rivendosja e pajisjes nuk do të ndikojë në llogaritë e tua të Brave dhe të dhënat e sinkronizuara te këto llogari. Sidoqoftë, të gjithë skedarët e ruajtur lokalisht në pajisjen tënde do të fshihen.</translation>
 <translation id="5578059481725149024">Identifikimi automatik</translation>
@@ -6448,6 +6484,7 @@ Lejet që u ke dhënë sajteve të uebit dhe aplikacioneve mund të zbatohen pë
 <translation id="5637476008227280525">Aktivizo të dhënat celulare</translation>
 <translation id="5638170200695981015">Zgjidh "Hape në modifikuesin bazë" për të përdorur opsionet e kufizuara të shikimit dhe modifikimit.</translation>
 <translation id="563821631542362636">Lejo sajtin të ruajë të dhëna</translation>
+<translation id="38046578254905003">Gjej shtesa dhe tema në <ph name="BEGIN_LINK"/>Dyqanin e uebit të Brave<ph name="END_LINK"/></translation>
 <translation id="5639549361331209298">Ringarkoje këtë faqe, mbaj shtypur për të parë më shumë opsione</translation>
 <translation id="5640133431808313291">Menaxho çelësat e sigurisë</translation>
 <translation id="8241685692197561941">Ky fjalëkalim ruhet vetëm në këtë pajisje. Për ta përdorur atë në pajisje të tjera, <ph name="BEGIN_LINK"/>ruaje në "Llogarinë tënde të Brave"<ph name="END_LINK"/>.</translation>
@@ -6551,6 +6588,7 @@ Lejet që u ke dhënë sajteve të uebit dhe aplikacioneve mund të zbatohen pë
 <translation id="5722086096420375088">E gjelbër dhe e bardhë</translation>
 <translation id="572328651809341494">Skedat e fundit</translation>
 <translation id="5723508132121499792">Nuk ka aplikacione sfondi në punë</translation>
+<translation id="6105125042109106861">Kukit e palëve të treta janë bllokuar në modalitetin "i fshehtë"</translation>
 <translation id="5725112283692663422">Dërgo komente për "Krijo temë me IA"</translation>
 <translation id="5727728807527375859">Shtesat, aplikacionet dhe temat mund ta dëmtojnë kompjuterin tënd. Je i sigurt se dëshiron të vazhdosh?</translation>
 <translation id="2628630689312565278">Shërbimet e lidhura të Brave</translation>
@@ -6642,6 +6680,7 @@ Lejet që u ke dhënë sajteve të uebit dhe aplikacioneve mund të zbatohen pë
 <translation id="5794414402486823030">Gjithmonë hape me shikuesin e sistemit</translation>
 <translation id="5794700615121138172">Skedarët e ndarë të Linux</translation>
 <translation id="7397305826909094212">Dil nga të gjitha aplikacionet e Brave</translation>
+<translation id="7035919852657206332">Skedë &amp;e re "e fshehtë"</translation>
 <translation id="5797934230382081317">Mëso se si të fillosh në &lt;a target='_blank' href='<ph name="LINK_ANDROID"/>'&gt;Android&lt;/a&gt; dhe &lt;a target='_blank' href='<ph name="LINK_IOS"/>'&gt;iOS&lt;/a&gt;</translation>
 <translation id="5798079537501238810">Sajtet mund të instalojnë përpunuesit e pagesave</translation>
 <translation id="5798086737841799234">Fut kodin e konfirmimit</translation>
@@ -6844,6 +6883,7 @@ Lejet që u ke dhënë sajteve të uebit dhe aplikacioneve mund të zbatohen pë
 <translation id="5939719276406088041">Shkurtorja nuk mund të krijohet</translation>
 <translation id="5939723110967488589">Zgjidh se çfarë butonash shfaqen në shiritin e veglave</translation>
 <translation id="594048410531370124">Tast i panjohur. Shtyp një tast çfarëdo për të <ph name="RESPONSE"/>.</translation>
+<translation id="5828545842856466741">Shto person...</translation>
 <translation id="5941343993301164315">Identifikohu në <ph name="TOKEN_NAME"/>.</translation>
 <translation id="5941711191222866238">Minimizo</translation>
 <translation id="594221546068848596">Kërko në faqe me "<ph name="VISUAL_SEARCH_PROVIDER"/>"</translation>
@@ -6894,6 +6934,7 @@ Lejet që u ke dhënë sajteve të uebit dhe aplikacioneve mund të zbatohen pë
 <translation id="5972826969634861500">Nis <ph name="PRODUCT_NAME"/></translation>
 <translation id="5973041996755340290">"<ph name="CLIENT_NAME"/>" filloi korrigjimin e këtij shfletuesi</translation>
 <translation id="5973605538625120605">Ndrysho një PIN</translation>
+<translation id="433830930456392967">{COUNT,plural, =0{Hapi të gjitha në &amp;dritare "të fshehtë"}=1{Hape në &amp;dritare "të fshehtë"}other{Hapi të gjitha ({COUNT}) në &amp;dritare "të fshehtë"}}</translation>
 <translation id="5975792506968920132">Përqindja e ngarkimit të baterisë</translation>
 <translation id="5976160379964388480">Të tjera</translation>
 <translation id="5976780232488408272">Merr ndihmë për të shkuarit</translation>
@@ -7134,6 +7175,7 @@ Lejet që u ke dhënë sajteve të uebit dhe aplikacioneve mund të zbatohen pë
 <translation id="6155141482566063812">Skeda në sfond po ndan ekranin tënd</translation>
 <translation id="6155885807222400044">AES-128</translation>
 <translation id="6155997322654401708">Krijo çelës kalimi</translation>
+<translation id="383007806262310953">Shfaq shiritin e faqeshënuesve</translation>
 <translation id="6156863943908443225">Memoria specifike e skriptit</translation>
 <translation id="6156944117133588106">Shfaq butonat e navigimit në modalitetin e tabletit</translation>
 <translation id="615930144153753547">Sajtet mund të shfaqin imazhet</translation>
@@ -7501,6 +7543,7 @@ Lejet që u ke dhënë sajteve të uebit dhe aplikacioneve mund të zbatohen pë
 <translation id="6434690603850475457">Po, mbaji veçmas (rekomandohet)</translation>
 <translation id="6434755719322447931">Kaotike</translation>
 <translation id="6435339218366409950">Zgjidh gjuhën në të cilën do të përkthesh titrat</translation>
+<translation id="6436164536244065364">Shikoje në dyqanin e uebit</translation>
 <translation id="6436778875248895551">Shtesa "<ph name="EXTENSION_NAME"/>" u bllokua nga administratori yt</translation>
 <translation id="6438234780621650381">Rivendosi cilësimet</translation>
 <translation id="6438475350605608554">Po i importon tashmë fjalëkalimet në një skedë tjetër</translation>
@@ -7737,6 +7780,7 @@ Ke edhe # fjalëkalime të tjera të komprometuara. "Menaxheri i fjalëkalimeve 
 <translation id="6607890859198268021"><ph name="USER_EMAIL"/> po menaxhohet tashmë nga <ph name="DOMAIN"/>. Për t'i përdorur kontrollet prindërore me një "Llogari tjetër të Brave", dil pas konfigurimit dhe më pas zgjidh "Shto një person" në ekranin e identifikimit.</translation>
 <translation id="6608166463665411119">Rivendos kartën eSIM</translation>
 <translation id="6608773371844092260">Për të konfiguruar gjurmën e gishtit, vëre fëmijën tënd të prekë sensorin e gjurmës së gishtit në anën e djathtë të kësaj pajisjeje <ph name="DEVICE_TYPE"/>. Të dhënat e gjurmës së gishtit të fëmijës tënd ruhen në mënyrë të sigurt dhe nuk largohen kurrë nga kjo pajisje <ph name="DEVICE_TYPE"/>.</translation>
+<translation id="5298187053819934487">Të dhënat e identifikimit do të ruhen në këtë pajisje pasi të dalësh nga modaliteti "I fshehtë". Do të mund të identifikohesh në këtë faqe interneti me pajisjen tënde përsëri.</translation>
 <translation id="6610002944194042868">Opsionet e "Përkthe"</translation>
 <translation id="6610064275805055636">Menaxho aplikacionet e izoluara të uebit</translation>
 <translation id="6611972847767394631">Gjej skedat e tua këtu</translation>
@@ -7924,6 +7968,7 @@ Ke edhe # fjalëkalime të tjera të komprometuara. "Menaxheri i fjalëkalimeve 
 <translation id="6749077623962119521">Të rivendosen lejet?</translation>
 <translation id="6749473226660745022">Fotografitë</translation>
 <translation id="6750757184909117990">Çaktivizo "Rrjetin celular"</translation>
+<translation id="6827869674836193263"><ph name="WINDOW_TITLE"/> (e fshehtë)</translation>
 <translation id="6754918760968695779">Fut shpejt</translation>
 <translation id="6756157672127672536">Aplikacioni "Skedarët" siguron qasje të shpejtë te skedarët që ke ruajtur në "Diskun e Brave", në hapësirën ruajtëse të jashtme ose në pajisjen tënde me ChromeOS.</translation>
 <translation id="6756643207511618722">Motorët e ligjërimit</translation>
@@ -8014,6 +8059,7 @@ Ke edhe # fjalëkalime të tjera të komprometuara. "Menaxheri i fjalëkalimeve 
 <translation id="6808039367995747522">Për të vazhduar, fut dhe prek çelësin tënd të sigurisë</translation>
 <translation id="6808166974213191158">Shkruesi i imazheve të sistemit të Brave OS Flex</translation>
 <translation id="6808193438228982088">Dhelpër</translation>
+<translation id="5556722972306334687">Hape në dritare "të fshehtë"</translation>
 <translation id="6809656734323672573">Nëse je dakord, "Asistenti i Brave" do të presë në modalitetin e gatishmërisë për të zbuluar “Ok Brave” dhe mund të dallojë që je ti duke folur me Voice Match.
     <ph name="BR"/>
     Voice Match lejon që "Asistenti" yt të të identifikojë dhe të të dallojë nga të tjerët. "Asistenti" merr klipe të zërit tënd për të krijuar një model unik zëri, i cili ruhet vetëm në pajisjen ose pajisjet e tua. Modeli i zërit tënd do të dërgohet përkohësisht te Brave për të identifikuar zërin tënd.
@@ -8264,6 +8310,7 @@ Ke edhe # fjalëkalime të tjera të komprometuara. "Menaxheri i fjalëkalimeve 
 <translation id="6979440798594660689">Heshtje (e parazgjedhur)</translation>
 <translation id="6979737339423435258">Gjatë të gjithë kohës</translation>
 <translation id="6980402667292348590">tasti Insert</translation>
+<translation id="1507871044612694155">Për të shfletuar në mënyrë private, kliko te menyja e ikonës me pika për të hapur një dritare "të fshehtë"</translation>
 <translation id="6981982820502123353">Qasja</translation>
 <translation id="6983507711977005608">Shkëput rrjetin e "Ndarjes së internetit në çast"</translation>
 <translation id="6983783921975806247">OID e regjistruar</translation>
@@ -8335,6 +8382,7 @@ Ke edhe # fjalëkalime të tjera të komprometuara. "Menaxheri i fjalëkalimeve 
 <translation id="7025082428878635038">Prezantimi i një mënyre të re për të naviguar me gjeste</translation>
 <translation id="7025190659207909717">Menaxhimi i shërbimit të të dhënave celulare</translation>
 <translation id="7025895441903756761">Siguria dhe privatësia</translation>
+<translation id="1448315815373449655">{COUNT,plural, =0{Hapi të gjitha në &amp;dritare "të fshehtë"}=1{Hape në &amp;dritare "të fshehtë"}other{Hapi të gjitha ({COUNT}) në &amp;dritare "të fshehtë"}}</translation>
 <translation id="7029307918966275733">Crostini nuk është instaluar. Instalo Crostini për të parë kreditet.</translation>
 <translation id="7029809446516969842">Fjalëkalimet</translation>
 <translation id="7030304022046916278">I dërgon URL-të te "Shfletimi i sigurt" për t'i kontrolluar</translation>
@@ -8368,6 +8416,7 @@ Ke edhe # fjalëkalime të tjera të komprometuara. "Menaxheri i fjalëkalimeve 
 <translation id="7053983685419859001">Bllokoje</translation>
 <translation id="7055152154916055070">Ridrejtimi u bllokua:</translation>
 <translation id="7055451306017383754">Ndarja nuk mund të anulohej sepse kjo dosje po përdoret nga një aplikacion. Ndarja e dosjes do të anulohet kur Parallels Desktop të ndalojë punën më pas.</translation>
+<translation id="1860933807472918250">{0,plural, =1{E fshehtë}other{# dritare të hapura "të fshehta"}}</translation>
 <translation id="7056526158851679338">&amp;Inspekto pajisjet</translation>
 <translation id="7057184853669165321">{NUM_MINS,plural, =1{Kontrolli i sigurisë u ekzekutua 1 minutë më parë}other{Kontrolli i sigurisë u ekzekutua {NUM_MINS} minuta më parë}}</translation>
 <translation id="70577934383983846">Përdore këtë fjalëkalim në të gjitha pajisjet e tua</translation>
@@ -8511,6 +8560,7 @@ Ke edhe # fjalëkalime të tjera të komprometuara. "Menaxheri i fjalëkalimeve 
 <translation id="7168109975831002660">Madhësia minimale e shkrimit</translation>
 <translation id="7169122689956315694">Aktivizo njoftimet kur pajisjet janë në afërsi</translation>
 <translation id="7170236477717446850">Fotografia e profilit</translation>
+<translation id="7171000599584840888">Shto profil...</translation>
 <translation id="7171259390164035663">Mos u regjistro</translation>
 <translation id="7172470549472604877">{NUM_TABS,plural, =1{Shto një skedë te grupi i ri}other{Shto skeda te grupi i ri}}</translation>
 <translation id="7173114856073700355">Hap cilësimet</translation>
@@ -8788,6 +8838,7 @@ Ke edhe # fjalëkalime të tjera të komprometuara. "Menaxheri i fjalëkalimeve 
 <translation id="737728204345822099">Një regjistrim i vizitës sate në këtë sajt mund të ruhet në çelësin tënd të sigurisë.</translation>
 <translation id="7377451353532943397">Vazhdo të bllokosh qasjen te sensorët</translation>
 <translation id="7377481913241237033">Lidhu me një kod</translation>
+<translation id="5840822070878669614">Hap "Dyqanin e uebit të Brave"</translation>
 <translation id="7380272457268061606">Të çaktivizohet rikuperimi i të dhënave lokale?</translation>
 <translation id="7380459290951585794">Sigurohu që telefoni yt të jetë në afërsi, i shkyçur dhe ta ketë të aktivizuar Bluetooth-in dhe Wi-Fi</translation>
 <translation id="7380622428988553498">Emri i pajisjes përmban karaktere të pavlefshme</translation>
@@ -8832,6 +8883,7 @@ Ke edhe # fjalëkalime të tjera të komprometuara. "Menaxheri i fjalëkalimeve 
 <translation id="740624631517654988">Dritarja kërcyese është e bllokuar</translation>
 <translation id="7406912950279255498">Modaliteti i anasjelljes së ngjyrës</translation>
 <translation id="7407430846095439694">Importo dhe lidh</translation>
+<translation id="871606814707918245">Shumica e personave i bllokojnë njoftimet nga ky sajt</translation>
 <translation id="7408080603962564527">Kjo do të jetë e dukshme për të tjerët</translation>
 <translation id="740810853557944681">Shto një server printimi</translation>
 <translation id="7409549334477097887">Tepër i madh</translation>
@@ -8951,6 +9003,7 @@ Ke edhe # fjalëkalime të tjera të komprometuara. "Menaxheri i fjalëkalimeve 
 <translation id="7487969577036436319">Nuk është instaluar asnjë komponent</translation>
 <translation id="7488682689406685343">Ky sajt mund të jetë duke u përpjekur të të mashtrojë që të lejosh njoftime të bezdisshme.</translation>
 <translation id="7489761397368794366">Telefono nga pajisja jote</translation>
+<translation id="4536111748245793305">Personi <ph name="VALUE"/></translation>
 <translation id="7490683549040131791">Kontrollo fjalëkalimet e mbetura</translation>
 <translation id="7491962110804786152">tab</translation>
 <translation id="7491963308094506985">{NUM_COOKIES,plural, =1{1 kuki}other{{NUM_COOKIES} kuki}}</translation>
@@ -8988,6 +9041,7 @@ Ke edhe # fjalëkalime të tjera të komprometuara. "Menaxheri i fjalëkalimeve 
 <translation id="7516981202574715431"><ph name="APP_NAME"/> është vendosur në pauzë</translation>
 <translation id="385431757934284424">Anëtari i familjes nuk mund t'i marrë fjalëkalimet në këtë moment. Kërkoji që të përditësojë Brave dhe sinkronizo fjalëkalimet e atij anëtari.</translation>
 <translation id="7518079994230200553">Ky opsion nuk ofrohet për momentin.</translation>
+<translation id="3193187622878830588">Portal i fshehtë: <ph name="SUBFRAME_SITE"/></translation>
 <translation id="752098910262610337">Shfaq shkurtoret</translation>
 <translation id="7521430434164837205">Skedarët Microsoft 365</translation>
 <translation id="7522255036471229694">Thuaj "Ok Brave"</translation>
@@ -9168,6 +9222,7 @@ Ke edhe # fjalëkalime të tjera të komprometuara. "Menaxheri i fjalëkalimeve 
 <translation id="2895428495278639694"><ph name="BEGIN_LINK_GOOGLE"/>Forma të tjera aktiviteti<ph name="END_LINK_GOOGLE"/> mund të ruhen në "Llogarinë tënde të Brave" kur je i identifikuar. Mund t'i fshish ato në çdo kohë.</translation>
 <translation id="7658239707568436148">Anulo</translation>
 <translation id="1977468983804224763">Disa fjalëkalime janë ruajtur vetëm në këtë pajisje. Për t'i përdorur në pajisjet e tua të tjera, ruaji në "Llogarinë tënde të Brave", <ph name="USER_EMAIL"/></translation>
+<translation id="6216189820029634282">Të dilet gjithsesi nga modaliteti "i fshehtë"?</translation>
 <translation id="7659336857671800422">Shiko udhëzuesin e privatësisë</translation>
 <translation id="7659584679870740384">Nuk je i autorizuar ta përdorësh këtë pajisje. Kontakto me administratorin për të marrë leje për identifikim.</translation>
 <translation id="7660116474961254898">Ndiq udhëzimet në telefonin tënd</translation>
@@ -9213,6 +9268,7 @@ Ke edhe # fjalëkalime të tjera të komprometuara. "Menaxheri i fjalëkalimeve 
 <translation id="7680416688940118410">Kalibrimi i ekranit me prekje</translation>
 <translation id="7681095912841365527">Sajti mund të përdorë Bluetooth-in</translation>
 <translation id="7681597159868843240">Sajtet përdorin zakonisht sensorët e lëvizjes të pajisjes për veçoritë si realiteti virtual ose monitorimi i fitnesit</translation>
+<translation id="1725743343613175327">Për të vazhduar, kliko te "Në rregull" dhe më pas kliko te "Shto person" për të krijuar një profil të ri për adresën tënd të email-it të <ph name="DOMAIN"/>.</translation>
 <translation id="7683834360226457448">Veglat e ekranit për personat me vështirësi shikimi</translation>
 <translation id="7684212569183643648">Instaluar nga administratori yt</translation>
 <translation id="7684559058815332124">Vizito faqen e identifikimit të portalit mbyllës</translation>
@@ -9526,6 +9582,7 @@ Shtyp një çelës ose tast të caktuar për të hequr detyrën.</translation>
 <translation id="7908378463497120834">Na vjen keq, të paktën një pjesë në pajisjen e hapësirës ruajtëse të jashtme  nuk mund të montohej.</translation>
 <translation id="7908835530772972485">Fshiji të dhënat kur mbyll të gjitha dritaret</translation>
 <translation id="7909324225945368569">Riemërto profilin tënd</translation>
+<translation id="6395403722585816044">Shkarko në modalitetin "i fshehtë"</translation>
 <translation id="7909986151924474987">Mund të mos jesh në gjendje ta riinstalosh këtë profil</translation>
 <translation id="7910725946105920830">Përdor "Llogarinë tënde personale të Brave"</translation>
 <translation id="7910768399700579500">&amp;Dosje e re</translation>
@@ -9610,6 +9667,7 @@ Shtyp një çelës ose tast të caktuar për të hequr detyrën.</translation>
 <translation id="7958157896921135832">Rrit madhësinë e fontit</translation>
 <translation id="7958828865373988933">Nëse dëshiron të krijosh një çelës kalimi për <ph name="APP_NAME"/> në një çelës sigurie USB, fute dhe preke atë tani</translation>
 <translation id="7959074893852789871">Skedari përmbante shumë certifikata, disa prej të cilave nuk u importuan:</translation>
+<translation id="8929921524852843330">Skedë &amp;e re "e fshehtë"</translation>
 <translation id="7960540720012720106">Hap përmbledhjen e dritareve</translation>
 <translation id="7961015016161918242">Asnjëherë</translation>
 <translation id="7963001036288347286">Përshpejtimi i bllokut të prekjes</translation>
@@ -9718,6 +9776,7 @@ Mbaje skedarin e çelësit tënd në një vend të sigurt. Do të të duhet për
 <translation id="8032569120109842252">Po ndjek</translation>
 <translation id="8033827949643255796">u zgjodh</translation>
 <translation id="8033958968890501070">Skadimi</translation>
+<translation id="5932571686022524861">Faqja e memories specifike të faqes së plotë "të fshehtë": <ph name="BACK_FORWARD_CACHE_INCOGNITO_PAGE_URL"/></translation>
 <translation id="8036193484521570992">Ndihmo në përmirësimin e "Plotësimit automatik"</translation>
 <translation id="8036504271468642248">Fjalia e mëparshme</translation>
 <translation id="8037117027592400564">Lexo të gjithë tekstin e folur duke përdorur ligjërimin e sintetizuar</translation>
@@ -10035,12 +10094,14 @@ Mbaje skedarin e çelësit tënd në një vend të sigurt. Do të të duhet për
 <translation id="8259048637628995340">Lidh telefonin tënd Android për një përvojë pa ndërprerje</translation>
 <translation id="8260177673299865994">Përmirëso mbrojtjen e shkarkimit</translation>
 <translation id="8260864402787962391">Miu</translation>
+<translation id="8261378640211443080">Kjo shtesë nuk është e listuar në <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> dhe mund të jetë shtuar pa dijeninë tënde.</translation>
 <translation id="8261506727792406068">Fshi</translation>
 <translation id="8261625296061301062">Softueri i skanerit u instalua</translation>
 <translation id="8263228331881858381">Çelësi i kalimit u ruajt</translation>
 <translation id="8263336784344783289">Emërtoje këtë grup</translation>
 <translation id="8264024885325823677">Ky cilësim menaxhohet nga administratori yt.</translation>
 <translation id="826511437356419340">Hyre në modalitetin e përmbledhjes së dritares. Rrëshqit shpejt për të naviguar ose shtyp Tab nëse po përdor një tastierë.</translation>
+<translation id="3216703137209942563">{COUNT,plural, =1{Dritarja jote "e fshehtë" nuk do të hapet pasi ta nisësh sërish}other{{COUNT} dritaret e tua "të fshehta" nuk do të rihapen pasi ta nisësh sërish.}}</translation>
 <translation id="8266947622852630193">Të gjitha metodat e hyrjes</translation>
 <translation id="8267539814046467575">Shto printer</translation>
 <translation id="8267961145111171918"><ph name="BEGIN_PARAGRAPH1"/>Ky është informacion i përgjithshëm për këtë pajisje dhe se si e përdor (si p.sh. niveli i baterisë, aktiviteti i sistemit dhe i aplikacioneve dhe gabimet). Të dhënat do të përdoren për të përmirësuar Android, ndërsa disa informacione të grumbulluara do të ndihmojnë gjithashtu aplikacionet dhe partnerët e Brave, si p.sh. zhvilluesit e Android, për të përmirësuar aplikacionet dhe produktet e tyre.<ph name="END_PARAGRAPH1"/>
@@ -10443,6 +10504,7 @@ Mbaje skedarin e çelësit tënd në një vend të sigurt. Do të të duhet për
 <translation id="8551588720239073785">Cilësimet e datës dhe orës</translation>
 <translation id="8551647092888540776"><ph name="FILE_NAMES"/> nuk mund të hapet kur je offline</translation>
 <translation id="8552102814346875916">Ruaj te lista "Mbaji gjithmonë aktive këto sajte"</translation>
+<translation id="3707212204259470604">Menaxho kontaktet e tjera</translation>
 <translation id="8554899698005018844">Nuk ka gjuhë</translation>
 <translation id="8555444629041783356">Programi automatik i perëndimit të diellit</translation>
 <translation id="855604308879080518">Lejo që aplikacionet për Android të kenë qasje në pajisjet USB në këtë Chromebook. Do të kërkohet leje sa herë që lidh një pajisje USB. Aplikacionet individuale për Android do të kërkojnë leje shtesë.</translation>
@@ -10512,6 +10574,7 @@ Mbaje skedarin e çelësit tënd në një vend të sigurt. Do të të duhet për
 <translation id="8613504115484579584">Metodat e identifikimit</translation>
 <translation id="8613645710357126807">Nuk lejohet përdorimi i shtesave</translation>
 <translation id="8613786722548417558"><ph name="FILE_NAME"/> është shumë i madh për kontroll sigurie. Mund të hapësh skedarë deri në 50 MB.</translation>
+<translation id="611296870688433505">Aplikacioni "i fshehur": <ph name="APP_NAME"/></translation>
 <translation id="8616441548384109662">Shtoje <ph name="CONTACT_NAME"/> te kontaktet e tua</translation>
 <translation id="8617601976406256334">Të fshihen të dhënat dhe lejet e sajtit për <ph name="SITE_NAME"/>?</translation>
 <translation id="8617748779076050570">ID-ja e lidhjes së sigurt: <ph name="CONNECTION_ID"/></translation>
@@ -10579,9 +10642,11 @@ Mbaje skedarin e çelësit tënd në një vend të sigurt. Do të të duhet për
 <translation id="865936634714975126">Shto një parametër të kërkesës në URL për të zgjedhur llojet pas ngarkimit të faqes. Shembull: chrome://device-log/?types=Bluetooth,USB</translation>
 <translation id="8659608856364348875">Kontaktet e "<ph name="FEATURE_NAME"/>"</translation>
 <translation id="8659609431223166673">Dritarja u zhvendos poshtë</translation>
+<translation id="1432267168815937878">Hape lidhjen në një dritare të fshe&amp;htë</translation>
 <translation id="8662474268934425487">Identifikohu në <ph name="SITE_ETLD_PLUS_ONE"/></translation>
 <translation id="8662671328352114214">Bashkohu në rrjetin <ph name="TYPE"/></translation>
 <translation id="8662733268723715832">Kjo po zgjat më shumë nga sa pritej. Mund ta kapërcesh ose të presësh derisa të kryhet.</translation>
+<translation id="5832813618714645810">Kontaktet</translation>
 <translation id="8662911384982557515">Ndrysho faqen tënde bazë te: <ph name="HOME_PAGE"/></translation>
 <translation id="8662978096466608964">Brave nuk mund të vendosë imazhin e sfondit.</translation>
 <translation id="8663099077749055505">Blloko gjithmonë shkarkimet e shumta automatike në <ph name="HOST"/></translation>
@@ -10800,6 +10865,7 @@ Mbaje skedarin e çelësit tënd në një vend të sigurt. Do të të duhet për
 <translation id="1261003378239130478">Shfletimi është më i shpejtë pasi një sajt ka më pak gjasa që të të kërkojë të verifikosh që je një person real</translation>
 <translation id="8807588541160250261">Kur nuk është lidhur asnjë pajisje</translation>
 <translation id="8807632654848257479">I qëndrueshëm</translation>
+<translation id="8808478386290700967">Dyqani i uebit</translation>
 <translation id="8808686172382650546">Macja</translation>
 <translation id="8809147117840417135">Gurkali e çelur</translation>
 <translation id="8811862054141704416">Qasja te mikrofoni i Crostini</translation>
@@ -10879,6 +10945,7 @@ Mbaje skedarin e çelësit tënd në një vend të sigurt. Do të të duhet për
 <translation id="8864055848767439877">Po ndahet <ph name="TAB_NAME"/> te <ph name="APP_NAME"/></translation>
 <translation id="8864104359314908853">Fjalëkalimi yt u ruajt</translation>
 <translation id="8864458770072227512"><ph name="EMAIL"/> u hoq nga kjo pajisje</translation>
+<translation id="1989101205350450024">Po përdor një kompjuter të ndarë? Provo të hapësh një dritare "të fshehtë".</translation>
 <translation id="8867102760244540173">Kërko skedat...</translation>
 <translation id="8867228703146808825">Kopjo detajet e ndërtimit në kujtesën e fragmenteve</translation>
 <translation id="8868333925931032127">Po niset modaliteti i demonstrimit</translation>
@@ -10950,6 +11017,7 @@ Mbaje skedarin e çelësit tënd në një vend të sigurt. Do të të duhet për
 <translation id="4805806622840861220">Rinis Brave</translation>
 <translation id="8915307125957890427">Kliko me butonin djathtas në një skedë, zgjidh "Shto skedën te grupi" dhe më pas zgjidh "Grup i ri"</translation>
 <translation id="8915370057835397490">Po ngarkon sugjerimin</translation>
+<translation id="1799432502220762862">Nënkorniza "e fshehtë": <ph name="SUBFRAME_SITE"/></translation>
 <translation id="8917490105272468696">Po, jam dakord</translation>
 <translation id="8918637186205009138"><ph name="DEVICE_TYPE"/> që ka <ph name="GIVEN_NAME"/></translation>
 <translation id="8918900204934259333">Aplikacioni po instalohet...</translation>
@@ -10963,6 +11031,7 @@ Mbaje skedarin e çelësit tënd në një vend të sigurt. Do të të duhet për
 <translation id="8926389886865778422">Mos pyet përsëri</translation>
 <translation id="892706138619340876">Disa cilësime u rivendosën</translation>
 <translation id="8927438609932588163">Lejo që sajtet të ruajnë të dhëna në pajisjen tënde</translation>
+<translation id="6710473112951410470">Vetëm sesioni aktual "i fshehtë"</translation>
 <translation id="8929738682246584251">Zmadhuesi aktiv/joaktiv</translation>
 <translation id="8930622219860340959">Wireless</translation>
 <translation id="8930925309304109522">Për ta instaluar këtë gjuhë, pastro hapësirën në pajisjen tënde</translation>
@@ -11194,6 +11263,7 @@ Lejet që u ke dhënë sajteve të uebit dhe aplikacioneve mund të zbatohen pë
 <translation id="9079267182985899251">Ky opsion nuk do të mbështetet së shpejti. Për të prezantuar një skedë, përdor <ph name="GOOGLE_MEET"/>.</translation>
 <translation id="9080175821499742274">"Kursyesi i memories" liron memorien nga skedat joaktive që të mund të përdoret nga skedat aktive dhe aplikacionet e tjera.</translation>
 <translation id="2512721839479084080">përllogarit interesat e tu - Brave mund të përllogarisë interesat e tu</translation>
+<translation id="1961291599064731706">Sajtet që viziton nuk ruhen në modalitetin "e fshehtë"</translation>
 <translation id="9082750838489080452">Aplikacioni: <ph name="APP_NAME"/></translation>
 <translation id="9084064520949870008">Hape si dritare</translation>
 <translation id="9085256200913095638">Dupliko skedën e zgjedhur</translation>
@@ -11214,6 +11284,7 @@ Lejet që u ke dhënë sajteve të uebit dhe aplikacioneve mund të zbatohen pë
 <translation id="9094742965093882613">Zvogëlo madhësinë e fontit</translation>
 <translation id="9094781502270610394">Evidencat shtesë të platformës ChromeOS</translation>
 <translation id="9094859731829297286">E konfirmon që dëshiron të rezervosh një disk me madhësi fikse për Linux?</translation>
+<translation id="1001131747196960052">Mbyll dritaret e fshehta</translation>
 <translation id="9095819602391364796">Mos lejo që sajtet të kontrollojnë dhe të riprogramojnë pajisjet e tua MIDI</translation>
 <translation id="9096053102600371572">Lëvizja e kontrolluar <ph name="LINK_BEGIN"/>Mëso më shumë<ph name="LINK_END"/></translation>
 <translation id="9096776523567481218">nuk është instaluar në nivel lokal</translation>
@@ -11490,81 +11561,4 @@ Lejet që u ke dhënë sajteve të uebit dhe aplikacioneve mund të zbatohen pë
 <translation id="997143476478634194">Sajtet e ndjekin automatikisht këtë cilësim kur i viziton ato. Sajtet zakonisht dërgojnë njoftime për të të njoftuar rreth lajmeve më të fundit ose mesazheve të bisedës.</translation>
 <translation id="3285581355655524751">Aktivizo <ph name="LINK1_BEGIN"/>Sinkronizimin e Brave<ph name="LINK1_END"/> për të përdorur "Sinkronizimin e Wi-Fi". <ph name="LINK2_BEGIN"/>Mëso më shumë<ph name="LINK2_END"/></translation>
 <translation id="998747458861718449">I&amp;nspekto</translation>
-<translation id="658539216370629794">Hape lidhjen në dritare &amp;private</translation>
-<translation id="1432267168815937878">Hape Lidhjen në Dritare &amp;Private</translation>
-<translation id="7035919852657206332">Skedë &amp;e re "e fshehtë"</translation>
-<translation id="5786139852593193364">Dritare e re "e &amp;fshehtë"</translation>
-<translation id="8929921524852843330">Skedë &amp;e re "e fshehtë"</translation>
-<translation id="7973394300052703468">Dritare e Re &amp;Private</translation>
-<translation id="6395403722585816044">Shkarko në modalitetin "i fshehtë"</translation>
-<translation id="6216189820029634282">Të dilet gjithsesi nga modaliteti "i fshehtë"?</translation>
-<translation id="4132775938064605501">Të mbyllet gjithsesi modaliteti "i fshehtë"?</translation>
-<translation id="871606814707918245">Shumica e personave i bllokojnë njoftimet nga ky sajt</translation>
-<translation id="5053701565089446556">Shtesë e fshehtë: <ph name="EXTENSION_NAME"/></translation>
-<translation id="611296870688433505">Aplikacioni "i fshehur": <ph name="APP_NAME"/></translation>
-<translation id="9048137919253433011">Skedë "e fshehtë": <ph name="TAB_NAME"/></translation>
-<translation id="5932571686022524861">Faqja e memories specifike të faqes së plotë "të fshehtë": <ph name="BACK_FORWARD_CACHE_INCOGNITO_PAGE_URL"/></translation>
-<translation id="1799432502220762862">Nënkorniza "e fshehtë": <ph name="SUBFRAME_SITE"/></translation>
-<translation id="6666022817001893507">Nënkorniza e memories specifike të faqes së plotë "të fshehtë": <ph name="BACK_FORWARD_CACHE_INCOGNITO_PAGE_URL"/></translation>
-<translation id="3193187622878830588">Portal i fshehtë: <ph name="SUBFRAME_SITE"/></translation>
-<translation id="5097649414558628673">Vegla: <ph name="PRINT_NAME"/></translation>
-<translation id="8808478386290700967">Dyqani i uebit i Brave</translation>
-<translation id="8261378640211443080">Kjo shtesë nuk është e listuar në <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> dhe mund të jetë shtuar pa dijeninë tënde.</translation>
-<translation id="6827869674836193263"><ph name="WINDOW_TITLE"/> (e fshehtë)</translation>
-<translation id="263189163883089157">Mund të shfletosh në mënyrë private duke përdorur një dritare "të fshehtë"</translation>
-<translation id="5263632074804780211">Përdor uebin pa ruajtur historikun tënd të shfletimit me një dritare "të fshehtë"</translation>
-<translation id="1989101205350450024">Po përdor një kompjuter të ndarë? Provo të hapësh një dritare "të fshehtë".</translation>
-<translation id="1507871044612694155">Për të shfletuar në mënyrë private, kliko te menyja e ikonës me pika për të hapur një dritare "të fshehtë"</translation>
-<translation id="8839398440242019256">Nuk është nga "Dyqani i uebit i Brave"</translation>
-<translation id="6945695820322143954">Kjo shtesë shkel politikën e Dyqanit të uebit të Brave.</translation>
-<translation id="1676595396635191120">Dritare e re "e fshehtë"</translation>
-<translation id="5094764494104066239">Shfaq gjithmonë shiritin e faqeshënuesve</translation>
-<translation id="5760418762676108038">Dritare e re "e fshehtë"</translation>
-<translation id="5298187053819934487">Të dhënat e identifikimit do të ruhen në këtë pajisje pasi të dalësh nga modaliteti "I fshehtë". Do të mund të identifikohesh në këtë faqe interneti me pajisjen tënde përsëri.</translation>
-<translation id="5186185447130319458">I fshehtë</translation>
-<translation id="2579188629646253712">Dil nga modaliteti i fshehtë</translation>
-<translation id="1001131747196960052">Mbyll dritaret e fshehta</translation>
-<translation id="3610571162330520499">Kjo prek vetëm dritaret e fshehta</translation>
-<translation id="1961291599064731706">Sajtet që viziton nuk ruhen në modalitetin "e fshehtë"</translation>
-<translation id="433830930456392967">{COUNT,plural, =0{Hapi të gjitha në &amp;dritare "të fshehtë"}=1{Hape në &amp;dritare "të fshehtë"}other{Hapi të gjitha ({COUNT}) në &amp;dritare "të fshehtë"}}</translation>
-<translation id="5464506165779993685">Hape në &amp;dritare "të fshehtë"</translation>
-<translation id="4620367155626060530">&amp;Shfaq faqerojtës</translation>
-<translation id="1448315815373449655">{COUNT,plural, =0{Hapi të gjitha në &amp;dritare "të fshehtë"}=1{Hape në &amp;dritare "të fshehtë"}other{Hapi të gjitha ({COUNT}) në &amp;dritare "të fshehtë"}}</translation>
-<translation id="1985165269306590797">Hape në &amp;Dritare Private</translation>
-<translation id="4680518314108745448">&amp;Shfaq Faqerojtës</translation>
-<translation id="7206817092936005164">Hapi të gjitha në dritare "të fshehtë"</translation>
-<translation id="1342491857153455138">Hapi të gjitha (<ph name="URL_COUNT"/>) në dritare "të fshehtë"</translation>
-<translation id="5556722972306334687">Hape në dritare "të fshehtë"</translation>
-<translation id="1860933807472918250">{0,plural, =1{E fshehtë}other{# dritare të hapura "të fshehta"}}</translation>
-<translation id="8712375231869053533">{0, plural,
-      =1 {Private}
-      other {Private (#)}
-    }</translation>
-<translation id="4304377874648098617">Je në modalitetin "e fshehtë"</translation>
-<translation id="7171000599584840888">Shtoni Profil…</translation>
-<translation id="4536111748245793305">Profil <ph name="VALUE"/></translation>
-<translation id="5828545842856466741">Shtoni profil…</translation>
-<translation id="2254158488150713536">Që të vazhdohet, klikoni OK, mandej klikoni mbi “Shtoni Profil” që të krijohet një profil i ri për adresën tuaj email.</translation>
-<translation id="1725743343613175327">Që të vazhdohet, klikoni OK, mandej klikoni mbi “Shtoni Profil” që të krijohet një profil i ri për adresën tuaj email <ph name="DOMAIN"/>.</translation>
-<translation id="3707212204259470604">Menaxho kontaktet e tjera</translation>
-<translation id="8273477935094091719"><ph name="DEVICE_TYPE"/> përdor një sensor të integruar për të zbuluar personat përpara pajisjes sate. Të gjitha të dhënat përpunohen në pajisjen tënde menjëherë dhe më pas fshihen. Të dhënat e sensorit nuk i dërgohen asnjëherë Brave. <ph name="LINK_BEGIN"/>Mëso më shumë<ph name="LINK_END"/></translation>
-<translation id="5832813618714645810">Profile</translation>
-<translation id="3216703137209942563">{COUNT,plural, =1{Dritarja jote "e fshehtë" nuk do të hapet pasi ta nisësh sërish}other{{COUNT} dritaret e tua "të fshehta" nuk do të rihapen pasi ta nisësh sërish.}}</translation>
-<translation id="5840822070878669614">Hap "Dyqanin e uebit të Brave"</translation>
-<translation id="383007806262310953">Shfaq faqerojtës</translation>
-<translation id="8648684608605749476">Blloko kukit e palëve të treta në modalitetin "I fshehtë"</translation>
-<translation id="3293179957233653243">Veçoritë në disa sajte mund të mos funksionojnë në modalitetin "I fshehtë"</translation>
-<translation id="6304377454418270508">Kur je në modalitetin "I fshehtë", sajtet mund të përdorin kuki vetëm për të parë aktivitetin tënd të shfletimit në sajtin e tyre. Kukit fshihen në fund të sesionit të fshehtë.</translation>
-<translation id="6105125042109106861">Kukit e palëve të treta janë bllokuar në modalitetin "i fshehtë"</translation>
-<translation id="6710473112951410470">Vetëm sesioni aktual "i fshehtë"</translation>
-<translation id="8148807910118761153">Ky cilësim i parazgjedhur do të hiqet kur të mbyllësh të gjitha dritaret "e fshehta"</translation>
-<translation id="2099871685186351093">Ndaj skedarë me personat rreth teje. <ph name="LINK_BEGIN"/>Mëso më shumë<ph name="LINK_END"/></translation>
-<translation id="3860292630623580294">(I fshehtë)</translation>
-<translation id="5899585985956756612">Lejo në modalitetin "e fshehtë"</translation>
-<translation id="6436164536244065364">Shikoje në dyqanin e uebit</translation>
-<translation id="38046578254905003">Gjej shtesa dhe tema në <ph name="BEGIN_LINK"/>Dyqanin e uebit të Brave<ph name="END_LINK"/></translation>
-<translation id="659039914757960684">Konfiguro Nearby Share për të marrë dhe dërguar skedarë me njerëzit rreth teje</translation>
-<translation id="3080637320062973622">Për të marrë dhe pranuar skedarë nga njerëzit përreth teje, bëhu i dukshëm</translation>
-<translation id="4167670741834902166">Skedë e re "e fshehtë"</translation>
-<translation id="6464648082977038075">Mbyll skedat "e fshehta"</translation>
 </translationbundle>

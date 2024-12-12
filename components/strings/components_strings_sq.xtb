@@ -211,6 +211,7 @@ Ndryshe kjo do të bllokohet nga cilësimet e tua të privatësisë. Kjo do ta l
 <translation id="1357195169723583938">Kush e ka përdorur pajisjen së fundi dhe kur</translation>
 <translation id="1358187717814494928">Krijo fletë</translation>
 <translation id="1359836962251219822">Kuzhinë dhe ngrënie</translation>
+<translation id="5497977785983089120">Hap një dritare të re të fshehtë për të shfletuar në mënyrë private</translation>
 <translation id="1361528602584216624">Kufiri për Pix: <ph name="TRANSACTION_LIMIT"/> BRL</translation>
 <translation id="1363015776076529485">Mënyrat e pagesës të disponueshme për t'u zgjedhur për të vazhduar me pagesën janë hapur në lartësi të plotë.</translation>
 <translation id="1363028406613469049">Pjesa muzikore</translation>
@@ -864,10 +865,12 @@ Ndryshe kjo do të bllokohet nga cilësimet e tua të privatësisë. Kjo do ta l
 <translation id="2530042584066815841">Kyçja dhe përdorimi i miut</translation>
 <translation id="2533649878691950253">Ky sajt u bllokua nga zbulimi i vendndodhjes sate të saktë pasi ti zakonisht nuk e lejon këtë</translation>
 <translation id="253493526287553278">Shiko detajet e kodit promocional</translation>
+<translation id="40442660395682483">Hap një skedë të re "të fshehtë" për të shfletuar në mënyrë private</translation>
 <translation id="2535659140340599600">{COUNT,plural, =1{dhe 1 tjetër}other{dhe # të tjera}}</translation>
 <translation id="2536110899380797252">Shto adresë</translation>
 <translation id="3140033400151786080">Të tjerët që e përdorin këtë pajisje nuk do të shikojnë aktivitetin tënd, kështu që mund të shfletosh në mënyrë më private. Kjo nuk do të ndryshojë mënyrën se si mblidhen të dhënat nga uebsajtet që viziton ti dhe shërbimet që përdorin ato, duke përfshirë Brave. Shkarkimet dhe faqeshënuesit do të ruhen.</translation>
 <translation id="2539524384386349900">Zbulo</translation>
+<translation id="375424491626359494">Faqet që shikon në skedat "e fshehta" nuk do të ruhen në historikun e shfletuesit tënd, vendin e ruajtjes të kukive apo historikun e kërkimeve pasi ke mbyllur të gjitha skedat e tua "të fshehta". Çdo skedar që shkarkon apo faqeshënues që krijon do të mbahet.</translation>
 <translation id="2542106216580219892">Sërfi</translation>
 <translation id="2544546346215446551">Administratori yt rinisi pajisjen tënde</translation>
 <translation id="2544644783021658368">Një dokument i vetëm</translation>
@@ -1010,6 +1013,7 @@ Ndryshe kjo do të bllokohet nga cilësimet e tua të privatësisë. Kjo do ta l
 <translation id="2859806420264540918">Ky sajt shfaq reklama ndërhyrëse ose mashtruese.</translation>
 <translation id="28618371182701850">Automjete elektrike dhe hibride me spinë</translation>
 <translation id="28761159517501904">Filmat</translation>
+<translation id="6934396344327597525">Po del nga modaliteti "i fshehtë" për të paguar nëpërmjet një aplikacioni të jashtëm. Të vazhdohet?</translation>
 <translation id="1117301625415017890"><ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Shtyp "Tab" dhe më pas "Enter" për të menaxhuar "Shfletimin e sigurt" dhe më shumë te cilësimet e Brave</translation>
 <translation id="2878197950673342043">Palosje posteri</translation>
 <translation id="2878424575911748999">A1</translation>
@@ -1056,6 +1060,7 @@ Ndryshe kjo do të bllokohet nga cilësimet e tua të privatësisë. Kjo do ta l
 <translation id="2948083400971632585">Mund të çaktivizosh çdo përfaqësues të konfiguruar për një lidhje nga faqja e cilësimeve.</translation>
 <translation id="3955566820843143766">Shpërfillur sepse pajisja nuk është regjistruar me Brave Browser Cloud Management.</translation>
 <translation id="2951588413176968965">Kutia ime postare</translation>
+<translation id="4920329334239571966">Mbylli të gjitha dritaret "e fshehta"</translation>
 <translation id="2952904171810469095">A2x5</translation>
 <translation id="2954624054936281172">Tabela e mënyrave të ruajtura të pagesës</translation>
 <translation id="295526156371527179">Paralajmërim: Kjo politikë nuk është bashkuar si fjalor siç specifikohet nga politika sepse nuk është fjalor.</translation>
@@ -1075,6 +1080,7 @@ Ndryshe kjo do të bllokohet nga cilësimet e tua të privatësisë. Kjo do ta l
 <translation id="2978824962390592855">Opera</translation>
 <translation id="2979424420072875974">Burime për shkrimtarë</translation>
 <translation id="6172169316494799304">CVC-ja e kësaj karte do të enkriptohet dhe do të ruhet në "Llogarinë tënde të Brave" për përfundim më të shpejtë të blerjes</translation>
+<translation id="1536541482996273580">Hap skedën "e fshehtë"</translation>
 <translation id="2985398929374701810">Fut një adresë të vlefshme</translation>
 <translation id="2987034854559945715">Nuk ka asnjë veçori që përputhet</translation>
 <translation id="714850411804317247">Brave e kufizon sasinë e informacioneve që mund të përdorin sajtet për të të gjurmuar kur ti shfleton. Mund t'i ndryshosh cilësimet e tua për të zgjedhur nivelin tënd të mbrojtjes.</translation>
@@ -1346,6 +1352,7 @@ Ndryshe kjo do të bllokohet nga cilësimet e tua të privatësisë. Kjo do ta l
 <translation id="346601286295919445">Kimia</translation>
 <translation id="3467081767799433066">Me matjen e reklamave, lloje të kufizuara të të dhënave ndahen mes sajteve për të matur performancën e reklamave të tyre, si p.sh. nëse ke bërë një blerje pas vizitës në një sajt.</translation>
 <translation id="3468054117417088249"><ph name="TAB_SWITCH_SUFFIX"/> - aktualisht e hapur. Shtyp "Tab" dhe më pas "Enter" për të kaluar te skeda e hapur</translation>
+<translation id="710569555563138608"><ph name="CLOSE_INCOGNITO_WINDOWS_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Shtyp "Tab" dhe më pas "Enter" për të mbyllur të gjitha dritaret "e fshehta" që janë aktualisht të hapura</translation>
 <translation id="3807334561457710885">Butoni "Personalizo fontet në Brave". Aktivizoje për të personalizuar madhësitë e fonteve dhe llojin e karaktereve në Brave</translation>
 <translation id="3478033058537426179">Sipas grupit</translation>
 <translation id="3479552764303398839">Jo tani</translation>
@@ -1475,6 +1482,7 @@ Ndryshe kjo do të bllokohet nga cilësimet e tua të privatësisë. Kjo do ta l
 <translation id="3676592649209844519">ID-ja e pajisjes:</translation>
 <translation id="3677008721441257057">Mos dëshiron të thuash &lt;a href="#" id="dont-proceed-link"&gt;<ph name="DOMAIN"/>&lt;/a&gt;?</translation>
 <translation id="3678029195006412963">Kërkesa nuk mund të nënshkruhej</translation>
+<translation id="2388886110302389394">Hape faqen në një dritare të re "të fshehtë" (Ctrl-Shift-N)</translation>
 <translation id="3678914302246317895">Fut kodin e verifikimit <ph name="OTP_LENGTH"/>-shifror</translation>
 <translation id="3681007416295224113">Informacioni i certifikatës</translation>
 <translation id="2659564324969662497">Brave mban shënim temat e interesit bazuar në historikun më të fundit të shfletimit.</translation>
@@ -1765,6 +1773,23 @@ Ndryshe kjo do të bllokohet nga cilësimet e tua të privatësisë. Kjo do ta l
 <translation id="4214357935346142455">profili i ekranit të identifikimit</translation>
 <translation id="4219596572397833317">Shiko historikun e çmimit dhe më shumë për të të ndihmuar të kryesh blerje më të zgjuara.</translation>
 <translation id="4220128509585149162">Ndërprerjet aksidentale</translation>
+<translation id="1426112902089905810">&lt;h4&gt;Hapi 1: Identifikohu në portal&lt;/h4&gt;
+    &lt;p&gt;Rrjetet Wi-Fi në vende të tilla si kafenetë apo aeroportet kërkojnë që të identifikohesh. Për të parë faqen e identifikimit, vizito një faqe që përdor &lt;code&gt;http://&lt;/code&gt;.&lt;/p&gt;
+    &lt;ol&gt;
+    &lt;li&gt;Shko te një uebsajt që fillon me &lt;code&gt;http://&lt;/code&gt;, si &lt;a href="http://example.com" target="_blank"&gt;http://example.com&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;Në faqen e identifikimit që hapet, identifikohu për të përdorur internetin.&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;h4&gt;Hapi 2: Hap faqen në modalitetin "e fshehtë" (vetëm kompjuter)&lt;/h4&gt;
+    &lt;p&gt;Hap faqen që po viziton në një dritare "të fshehtë".&lt;/p&gt;
+    &lt;p&gt;Nëse faqja hapet, një shtesë e Brave nuk po funksionon siç duhet. Për të rregulluar gabimin, çaktivizo shtesën.&lt;/p&gt;
+    &lt;h4&gt;Hapi 3: Përditëso sistemin operativ&lt;/h4&gt;
+    &lt;p&gt;Sigurohu që pajisja jote të jetë e përditësuar.&lt;/p&gt;
+    &lt;h4&gt;Hapi 4: Çaktivizo përkohësisht antivirusin&lt;/h4&gt;
+    &lt;p&gt;Do të shohësh këtë gabim nëse ke softuer antivirusi që ofron "Mbrojtje HTTPS" ose "Skanim HTTPS". Antivirusi nuk lejon që Brave të ofrojë siguri.&lt;/p&gt;
+    &lt;p&gt;Për të rregulluar problemin, çaktivizo softuerin e antivirusit. Nëse faqja funksionon pasi çaktivizohet softueri, çaktivizo këtë softuer kur përdor sajte të sigurta.&lt;/p&gt;
+    &lt;p&gt;Mos harro të aktivizosh sërish programin e antivirusit kur të mbarosh.&lt;/p&gt;
+    &lt;h4&gt;Hapi 5: Merr më shumë ndihmë&lt;/h4&gt;
+    &lt;p&gt;Nëse ende e sheh gabimin, kontakto me zotëruesin e uebsajtit.&lt;/p&gt;</translation>
 <translation id="4223404254440398437">Mikrofoni nuk lejohet</translation>
 <translation id="4226937834893929579"><ph name="BEGIN_LINK"/>Provo të ekzekutosh diagnostikimin e rrjetit<ph name="END_LINK"/>.</translation>
 <translation id="422722221769396062">Shërbime dorëzimi nga restorante</translation>
@@ -2025,6 +2050,7 @@ Ndryshe kjo do të bllokohet nga cilësimet e tua të privatësisë. Kjo do ta l
 <translation id="4744514002166662487">Krijo prezantim</translation>
 <translation id="4744603770635761495">Shtegu i ekzekutueshëm</translation>
 <translation id="4744816391336495134">Mund të përdorësh gjurmën e gishtit për të verifikuar që je ti sa herë që përdor një fjalëkalim të ruajtur</translation>
+<translation id="6417973700199526943">Ke kaluar në modalitetin "e fshehtë"</translation>
 <translation id="4750394297954878236">Sugjerime</translation>
 <translation id="4750671009706599284">këtë telefon</translation>
 <translation id="4750917950439032686">Informacionet e tua (p.sh. fjalëkalimet ose numrat e kartave të kreditit) janë private kur dërgohen në këtë sajt.</translation>
@@ -2256,6 +2282,7 @@ Ndryshe kjo do të bllokohet nga cilësimet e tua të privatësisë. Kjo do ta l
 <translation id="5148889558173091794">Organizata jote e ka bllokuar <ph name="BEGIN_BOLD"/><ph name="DOMAIN"/><ph name="END_BOLD"/> sepse ai shkel një politikë. <ph name="BEGIN_LEARN_MORE_LINK"/>Mëso më shumë për këtë paralajmërim<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="5157504274688344097">Tregtarë dhe supermarkete masive</translation>
 <translation id="5158275234811857234">Kapak</translation>
+<translation id="4075123085690634698">Hape faqen në një dritare të re "të fshehtë" (⇧⌘N)</translation>
 <translation id="5161334686036120870">Subjekti:</translation>
 <translation id="5161506081086828129">Stivuesi 9</translation>
 <translation id="5164798890604758545">Është futur tekst</translation>
@@ -2473,6 +2500,7 @@ Ndryshe kjo do të bllokohet nga cilësimet e tua të privatësisë. Kjo do ta l
 <translation id="5560088892362098740">Data e skadimit</translation>
 <translation id="55635442646131152">Konturi i dokumentit</translation>
 <translation id="1702142849385752335">Për të përdorur vendndodhjen, jepi qasje Brave te <ph name="LINK"/>.</translation>
+<translation id="5395368798429603306">Hap skedën "e fshehtë"</translation>
 <translation id="5565735124758917034">Aktiv</translation>
 <translation id="5569030697349375295">Softuerë për kontabilitetin dhe financën</translation>
 <translation id="5570825185877910964">Mbroje llogarinë</translation>
@@ -3346,6 +3374,7 @@ Ndryshe kjo do të bllokohet nga cilësimet e tua të privatësisë. Kjo do ta l
 <translation id="7175401108899573750">{SHIPPING_OPTIONS,plural, =0{<ph name="SHIPPING_OPTION_PREVIEW"/>}=1{<ph name="SHIPPING_OPTION_PREVIEW"/> dhe <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/> tjetër}other{<ph name="SHIPPING_OPTION_PREVIEW"/> dhe <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/> të tjera}}</translation>
 <translation id="7179323680825933600">Ruaj dhe plotëso mënyrat e pagesës</translation>
 <translation id="7180611975245234373">Rifresko</translation>
+<translation id="5549245478906381817">Hap dritaren e fshehtë</translation>
 <translation id="7182878459783632708">Nuk është caktuar asnjë politikë</translation>
 <translation id="7184379626380324540">Mobilie shtëpie</translation>
 <translation id="7186833457841277072">Zarf (inkjet)</translation>
@@ -3360,6 +3389,7 @@ Ndryshe kjo do të bllokohet nga cilësimet e tua të privatësisë. Kjo do ta l
 <translation id="7195432682252510959">Përdor këtë kod në përfundim të blerjes. I vlefshëm deri më <ph name="DATE"/>.</translation>
 <translation id="7195852673246414183">Pasi të aktivizosh këtë cilësim, kthehu përsëri te kjo skedë për të filluar të shkruash</translation>
 <translation id="7199278868241956094">Oficio</translation>
+<translation id="7627159832789643445"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT"/>, shtyp tastin Tab dhe më pas tastin Enter për të hapur një dritare të re "të fshehtë" për të shfletuar në mënyrë private</translation>
 <translation id="2540471381262404386">Cakto Brave si shfletuesin e parazgjedhur të sistemit</translation>
 <translation id="7210863904660874423"><ph name="HOST_NAME"/> nuk i respekton standardet e sigurisë.</translation>
 <translation id="7210993021468939304">Aktiviteti i Linux brenda kontejnerit dhe mund të instalojë dhe të ekzekutojë aplikacione të Linux brenda kontejnerit</translation>
@@ -3370,6 +3400,7 @@ Ndryshe kjo do të bllokohet nga cilësimet e tua të privatësisë. Kjo do ta l
 <translation id="7220786058474068424">Po përpunohet</translation>
 <translation id="7221855153210829124">Shfaq njoftimet</translation>
 <translation id="7221857374443660083">Banka jote dëshiron të sigurohet që je ti</translation>
+<translation id="8326104954595890674">Skedë e re "e fshehtë"</translation>
 <translation id="7227293336683593977">Historiku i çmimeve</translation>
 <translation id="7232352818707016189">Më shumë veprime për "Krahaso tavolinën"</translation>
 <translation id="7233592378249864828">Printo fletën e konfirmimit</translation>
@@ -3431,6 +3462,7 @@ Detaje shtesë:
 <translation id="7356678400607112844">Vizita e fundit</translation>
 <translation id="7359588939039777303">Reklamat janë të bllokuara.</translation>
 <translation id="7308957539693927108">Kur Brave gjen zbritjet që ofrohen, ato do të shfaqen gjatë përfundimit të blerjes</translation>
+<translation id="8794378783472961468">Sidoqoftë, ti nuk je i padukshëm. Kalimi në modalitetin "e fshehtë" nuk e fsheh shfletimin tënd nga punëdhënësi yt, ofruesi i shërbimit të internetit apo uebsajtet që viziton.</translation>
 <translation id="5417725730200908216"><ph name="MANAGE_ADDRESSES_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Shtyp "Tab" dhe më pas "Enter" për të shtuar dhe menaxhuar adresat te cilësimet e Brave</translation>
 <translation id="7365849542400970216">Të dinë përdorimin e pajisjes sate?</translation>
 <translation id="736592699917579616">Ushqime</translation>
@@ -3625,6 +3657,7 @@ Detaje shtesë:
 <translation id="7661591871037163355">Tabela e krahasimit është plot. Hiq kolona për të shtuar të reja.</translation>
 <translation id="7662298039739062396">Cilësim i kontrolluar nga një shtesë</translation>
 <translation id="7663736086183791259">Certifikata <ph name="CERTIFICATE_VALIDITY"/></translation>
+<translation id="1090109565956608696">Nuk lejohet në "I fshehtë"</translation>
 <translation id="7667346355482952095">Shenja e kthyer e politikës është bosh ose nuk përputhet me shenjën aktuale</translation>
 <translation id="7668654391829183341">Pajisje e panjohur</translation>
 <translation id="7669320311687290322"><ph name="ITEM_LABEL"/>, <ph name="ITEM_POSITION"/> nga <ph name="ITEMS_TOTAL"/>.</translation>
@@ -3781,6 +3814,7 @@ Detaje shtesë:
 <translation id="7952327717479677595">Butoni "Menaxho motorët e kërkimit". Aktivizoje për të menaxhuar motorin e parazgjedhur të kërkimit dhe kërkimin në sajte</translation>
 <translation id="7953236668995583915">Ringarko këtë faqe për të zbatuar cilësimet e përditësuara në këtë sajt</translation>
 <translation id="7953569069500808819">Qepje anësore lart</translation>
+<translation id="8108906085747235166">Kërkoja personalisht</translation>
 <translation id="7956713633345437162">Faqeshënuesit celularë</translation>
 <translation id="7961015016161918242">Asnjëherë</translation>
 <translation id="7962467575542381659">Makineria e platformës</translation>
@@ -3929,6 +3963,7 @@ Detaje shtesë:
 <translation id="8232343881378637145">Temperatura e platformës</translation>
 <translation id="8233773197406738106">Po përgatit skedarin</translation>
 <translation id="8238188918340945316">28 x 40 inç</translation>
+<translation id="6957624206566198865">Hape faqen në një skedë të re "të fshehtë"</translation>
 <translation id="8241707690549784388">Faqja që po kërkon i përdori informacionet që fute. Kthimi tek ajo faqe mund të bëjë që çdo veprim që bëre të përsëritet përsëri. Dëshiron që të vazhdosh?</translation>
 <translation id="8241712895048303527">Blloko në këtë sajt</translation>
 <translation id="8242426110754782860">Vazhdo</translation>
@@ -4203,6 +4238,7 @@ Detaje shtesë:
 <translation id="2184048523283917559">Mund t'i bllokosh temat që nuk dëshiron të ndahen me sajtet. Brave gjithashtu i fshin automatikisht temat më të vjetra se 4 javë. Mëso më shumë</translation>
 <translation id="8734529307927223492">Pajisja jote <ph name="DEVICE_TYPE"/> menaxhohet nga <ph name="MANAGER"/></translation>
 <translation id="8736059027199600831">30 x 40 inç</translation>
+<translation id="1819281525814582516"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT"/>, shtyp "Tab", më pas "Enter" për të hapur një dritare të re "të fshehtë" për të shfletuar në mënyrë private</translation>
 <translation id="8737685506611670901">Hap lidhjet e <ph name="PROTOCOL"/> në vend të <ph name="REPLACED_HANDLER_TITLE"/></translation>
 <translation id="6326805297893828864">Për të krijuar një lidhje të sigurt, ora duhet të vendoset në mënyrë të saktë. Kjo ndodh sepse certifikatat që përdorin sajtet e internetit për t'u identifikuar janë të vlefshme vetëm për periudha specifike kohore. Meqenëse ora e pajisjes është e pasaktë, Brave nuk mund t'i verifikojë këto certifikata.</translation>
 <translation id="8740359287975076522">&lt;abbr id="dnsDefinition"&gt;Adresa DNS&lt;/abbr&gt; e <ph name="HOST_NAME"/> nuk mund të gjendej. Problemi po diagnostikohet.</translation>
@@ -4217,6 +4253,7 @@ Detaje shtesë:
 <translation id="8759274551635299824">Kjo kartë ka skaduar</translation>
 <translation id="87601671197631245">Ky sajt përdor një konfigurim të vjetruar të sigurisë, i cili mund t'i ekspozojë informacionet e tua (p.sh. fjalëkalimet, mesazhet ose kartat e kreditit) kur dërgohen te ky sajt.</translation>
 <translation id="8763927697961133303">Pajisja USB</translation>
+<translation id="7736544743887840328">Mbylli të gjitha dritaret "e fshehta" që janë aktualisht të hapura</translation>
 <translation id="8766943070169463815">Fleta e vërtetimit të sigurt të kredencialeve të pagesës është e hapur</translation>
 <translation id="8767765348545497220">Mbyll flluskën e ndihmës</translation>
 <translation id="7113746389006214608">Butoni "Krijo prezantim". Aktivizoje për të krijuar me shpejtësi një prezantim të ri të Brave te "Diapozitivat"</translation>
@@ -4245,6 +4282,7 @@ Detaje shtesë:
 <translation id="8814547618907885931">Shiko të gjitha tabelat e krahasimit</translation>
 <translation id="8814707942599948500">Zarf C8</translation>
 <translation id="7674607358106534914"><ph name="UPDATE_CHROME_FOCUSED_FRIENDLY_MATCH_TEXT"/>, shtyp "Tab", më pas "Enter" për të përditësuar Brave nga cilësimet e tua të Brave</translation>
+<translation id="8820817407110198400">Faqeshënuesit</translation>
 <translation id="882338992931677877">Foleja manuale</translation>
 <translation id="8830320733681313421">Hagaki (kartolinë)</translation>
 <translation id="8830565333350631528">Shiko skedarët te "<ph name="CLOUD_PROVIDER"/>"</translation>
@@ -4518,43 +4556,4 @@ Detaje shtesë:
 <translation id="995755448277384931">Shto numrin IBAN</translation>
 <translation id="995782501881226248">YouTube</translation>
 <translation id="997986563973421916">Nga Google Pay</translation>
-<translation id="8820817407110198400">Faqerojtës</translation>
-<translation id="8362995731815961365">Profili që ka ngritur këtë kompjuter ka zgjedhur ta bllokojë këtë faqe interneti.</translation>
-<translation id="4075123085690634698">Hap faqen në një dritare të re Private (⇧⌘N)</translation>
-<translation id="2388886110302389394">Hap faqen në një dritare të re Private (Ctrl-Shift-N)</translation>
-<translation id="6957624206566198865">Hap faqen në një skedë të re Private</translation>
-<translation id="8326104954595890674">Skedë e re "e fshehtë"</translation>
-<translation id="6417973700199526943">Ke kaluar në modalitetin "e fshehtë"</translation>
-<translation id="375424491626359494">Faqet që shikon në skedat "e fshehta" nuk do të ruhen në historikun e shfletuesit tënd, vendin e ruajtjes të kukive apo historikun e kërkimeve pasi ke mbyllur të gjitha skedat e tua "të fshehta". Çdo skedar që shkarkon apo faqeshënues që krijon do të mbahet.</translation>
-<translation id="8794378783472961468">Sidoqoftë, ti nuk je i padukshëm. Kalimi në modalitetin "e fshehtë" nuk e fsheh shfletimin tënd nga punëdhënësi yt, ofruesi i shërbimit të internetit apo sajtet e uebit që viziton.</translation>
-<translation id="5549245478906381817">Hap dritaren e fshehtë</translation>
-<translation id="5497977785983089120">Hap një dritare të re të fshehtë për të shfletuar në mënyrë private</translation>
-<translation id="1819281525814582516"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT"/>, shtyp "Tab", më pas "Enter" për të hapur një dritare të re "të fshehtë" për të shfletuar në mënyrë private</translation>
-<translation id="4920329334239571966">Mbylli të gjitha dritaret "e fshehta"</translation>
-<translation id="7736544743887840328">Mbylli të gjitha dritaret "e fshehta" që janë aktualisht të hapura</translation>
-<translation id="710569555563138608"><ph name="CLOSE_INCOGNITO_WINDOWS_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Shtyp "Tab" dhe më pas "Enter" për të mbyllur të gjitha dritaret "e fshehta" që janë aktualisht të hapura</translation>
-<translation id="5395368798429603306">Hap skedën "e fshehtë"</translation>
-<translation id="40442660395682483">Hap një skedë të re "të fshehtë" për të shfletuar në mënyrë private</translation>
-<translation id="7627159832789643445"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT"/>, shtyp tastin Tab dhe më pas tastin Enter për të hapur një dritare të re "të fshehtë" për të shfletuar në mënyrë private</translation>
-<translation id="1536541482996273580">Hap skedën "e fshehtë"</translation>
-<translation id="1090109565956608696">Nuk lejohet në "I fshehtë"</translation>
-<translation id="6934396344327597525">Po del nga modaliteti "i fshehtë" për të paguar nëpërmjet një aplikacioni të jashtëm. Të vazhdohet?</translation>
-<translation id="1426112902089905810">&lt;h4&gt;Hapi 1: Identifikohu në portal&lt;/h4&gt;
-    &lt;p&gt;Rrjetet Wi-Fi në vende të tilla si kafenetë apo aeroportet kërkojnë që të identifikohesh. Për të parë faqen e identifikimit, vizito një faqe që përdor &lt;code&gt;http://&lt;/code&gt;.&lt;/p&gt;
-    &lt;ol&gt;
-    &lt;li&gt;Shko te një sajt uebi që fillon me &lt;code&gt;http://&lt;/code&gt;, si &lt;a href="http://example.com" target="_blank" rel="noopener noreferrer"&gt;http://example.com&lt;/a&gt;.&lt;/li&gt;
-    &lt;li&gt;Në faqen e identifikimit që hapet, identifikohu për të përdorur internetin.&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;h4&gt;Hapi 2: Hap faqen në modalitetin "e fshehtë" (vetëm kompjuter)&lt;/h4&gt;
-    &lt;p&gt;Hap faqen që po viziton në një dritare "të fshehtë".&lt;/p&gt;
-    &lt;p&gt;Nëse faqja hapet, një shtesë e Brave nuk po funksionon siç duhet. Për të rregulluar gabimin, çaktivizo shtesën.&lt;/p&gt;
-    &lt;h4&gt;Hapi 3: Përditëso sistemin operativ&lt;/h4&gt;
-    &lt;p&gt;Sigurohu që pajisja jote të jetë e përditësuar.&lt;/p&gt;
-    &lt;h4&gt;Hapi 4: Çaktivizo përkohësisht antivirusin&lt;/h4&gt;
-    &lt;p&gt;Do të shohësh këtë gabim nëse ke softuer antivirusi që ofron "Mbrojtje HTTPS" ose "Skanim HTTPS". Antivirusi nuk lejon që Brave të ofrojë siguri.&lt;/p&gt;
-    &lt;p&gt;Për të rregulluar problemin, çaktivizo softuerin e antivirusit. Nëse faqja funksionon pasi çaktivizohet softueri, çaktivizo këtë softuer kur përdor sajte të sigurta.&lt;/p&gt;
-    &lt;p&gt;Mos harro të aktivizosh sërish programin e antivirusit kur të mbarosh.&lt;/p&gt;
-    &lt;h4&gt;Hapi 5: Merr më shumë ndihmë&lt;/h4&gt;
-    &lt;p&gt;Nëse ende e sheh gabimin, kontakto me zotëruesin e sajtit të uebit.&lt;/p&gt;</translation>
-<translation id="8108906085747235166">Kërkoja personalisht</translation>
 </translationbundle>

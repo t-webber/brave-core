@@ -570,7 +570,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>詳細はこちら<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">心配はいりません。</translation>
 <translation id="5027616819996705541">引き続きプライベートな閲覧を行うことができます。</translation>
-<translation id="1450735350187803276">これまでの収益</translation>
+<translation id="1450735350187803276">今月見た広告</translation>
 <translation id="7649070708921625228">ヘルプ</translation>
 <translation id="6042308850641462728">もっと見る</translation>
 <translation id="6245259297588415877">クリエーター</translation>
@@ -2312,6 +2312,11 @@ brave://settings/systemにアクセスして、いつでもWireGuard に戻す�
 <translation id="8048263175525832621">Brave VPN - 切断済み</translation>
 <translation id="1498770726476841108">アカウントを管理</translation>
 <translation id="6825718953004242472">アイコンを削除</translation>
+<translation id="6819278685469225453">すべてのアプリとデバイス全体を保護</translation>
+<translation id="3960619311638643872">Brave VPN</translation>
+<translation id="4295077644587784828">高度なプライバシーとオンラインセキュリティ。</translation>
+<translation id="8425213833346101688">変更</translation>
+<translation id="8703188411226330709">無料トライアルを開始</translation>
 <translation id="3287942014983548982">このタブで開く</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/>が現在開いています。
 Tab + Enterキーの順に操作して開いているタブを切り替えます</translation>
@@ -2319,10 +2324,4 @@ Tab + Enterキーの順に操作して開いているタブを切り替えます
 現在のタブで開きます</translation>
 <translation id="451189393813405346">Leoに聞く</translation>
 <translation id="8525248723479742219">後で再生する</translation>
-<translation id="1450735350187803276">今月見た広告</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">変更</translation>
-<translation id="6819278685469225453">すべてのアプリとデバイス全体を保護</translation>
-<translation id="4295077644587784828">高度なプライバシーとオンラインセキュリティ。</translation>
-<translation id="8703188411226330709">無料トライアルを開始</translation>
 </translationbundle>

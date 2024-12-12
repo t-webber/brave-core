@@ -479,7 +479,7 @@
 <translation id="3825131544027418568"><ph name="BEGIN_BOLD"/>Anmelden, um <ph name="PROVIDER"/><ph name="END_BOLD"/> Ihren Kontostand zu sehen</translation>
 <translation id="2659764755126740206">Wechseln zu meinem <ph name="PROVIDER"/> Konto</translation>
 <translation id="2394961582378297792">Abgemeldet</translation>
-<translation id="7934950257968365573">Beim  <ph name="PROVIDER"/>-Konto anmelden</translation>
+<translation id="7934950257968365573">Beim <ph name="PROVIDER"/>-Konto anmelden</translation>
 <translation id="8631427463833030968">Anzeigen verwalten</translation>
 <translation id="590733288489975971">Belohnungen aus Ads</translation>
 <translation id="5308380583665731573">Verbinden</translation>
@@ -548,7 +548,7 @@
 <translation id="5425006356459378415">Brave-Belohnungen nicht verfügbar</translation>
 <translation id="909076461795862330">Beim Versuch, Brave-Belohnungen einzurichten, ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.</translation>
 <translation id="3180990265682133881">Beim Versuch, Ihr Land festzulegen, ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.</translation>
-<translation id="5931798071481566121">Neuregistrierungen für Brave-Belohnungen sind derzeit in Ihrer Region deaktiviert. Sie können es jedoch zu einem späteren Zeitpunkt erneut versuchen.  <ph name="LINK_BEGIN"/>Mehr erfahren<ph name="LINK_END"/></translation>
+<translation id="5931798071481566121">Neuregistrierungen für Brave-Belohnungen sind derzeit in Ihrer Region deaktiviert. Sie können es jedoch zu einem späteren Zeitpunkt erneut versuchen. <ph name="LINK_BEGIN"/>Mehr erfahren<ph name="LINK_END"/></translation>
 <translation id="6439128034594289376">Hurra, Sie sind startklar!</translation>
 <translation id="6136350726756049410">Jetzt können Sie für das Ansehen von Anzeigen belohnt werden. Noch dazu helfen Sie, das Web zu einem besseren Ort für alle zu machen. Und das ist spitze!</translation>
 <translation id="5547108999862247665">Wie funktioniert Brave Rewards?</translation>
@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Mehr erfahren<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Keine Sorge.</translation>
 <translation id="5027616819996705541">Sie können trotzdem privat surfen!</translation>
-<translation id="1450735350187803276">Bisherige Einnahmen</translation>
+<translation id="1450735350187803276">Anzeigen, die diesen Monat gesehen wurden</translation>
 <translation id="7649070708921625228">Hilfe</translation>
 <translation id="6042308850641462728">Mehr</translation>
 <translation id="6245259297588415877">Ersteller</translation>
@@ -2305,6 +2305,11 @@ Lassen Sie uns gemeinsam eine Verbindung herstellen!</translation>
 <translation id="8048263175525832621">Brave VPN – Verbindung unterbrochen</translation>
 <translation id="1498770726476841108">Konto verwalten</translation>
 <translation id="6825718953004242472">Symbol entfernen</translation>
+<translation id="6819278685469225453">Schützen Sie jede App und Ihr gesamtes Gerät</translation>
+<translation id="3960619311638643872">Brave VPN</translation>
+<translation id="4295077644587784828">Mehr Privatsphäre und Sicherheit online.</translation>
+<translation id="8425213833346101688">Ändern</translation>
+<translation id="8703188411226330709">Kostenlos testen</translation>
 <translation id="3287942014983548982">Hier öffnen</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/>, momentan offen,
     drücken Sie die Tabulatortaste und dann Eingabe, um zum offenen Tab zu wechseln</translation>
@@ -2312,10 +2317,4 @@ Lassen Sie uns gemeinsam eine Verbindung herstellen!</translation>
     und nicht zum bestehenden Tab zu wechseln.</translation>
 <translation id="451189393813405346">Leo fragen</translation>
 <translation id="8525248723479742219">Später abspielen</translation>
-<translation id="1450735350187803276">Anzeigen, die diesen Monat gesehen wurden</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Ändern</translation>
-<translation id="6819278685469225453">Schützen Sie jede App und Ihr gesamtes Gerät</translation>
-<translation id="4295077644587784828">Mehr Privatsphäre und Sicherheit online.</translation>
-<translation id="8703188411226330709">Kostenlos testen</translation>
 </translationbundle>

@@ -573,7 +573,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>לפרטים נוספים<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">אל דאגה.</translation>
 <translation id="5027616819996705541">אתם עדיין יכולים לגלוש בפרטיות!</translation>
-<translation id="1450735350187803276">רווחים עד כה</translation>
+<translation id="1450735350187803276">מודעות שנצפו החודש</translation>
 <translation id="7649070708921625228">עזרה</translation>
 <translation id="6042308850641462728">עוד</translation>
 <translation id="6245259297588415877">יוצרים</translation>
@@ -1783,7 +1783,6 @@ CoinGecko</translation>
 <translation id="1498364270401875204">ערוצים</translation>
 <translation id="6401776069326703655">צפייה בהכל</translation>
 <translation id="8032569120109842252">במעקב</translation>
-<translation id="3790976909891317760">{FEED_COUNT, plural, =1 {# source} אחר {# sources} }</translation>
 <translation id="6143382357119101833">קבל עדכונים מ-<ph name="URL"/></translation>
 <translation id="4515121482885046194">לא נמצאו עדכונים ב-<ph name="URL"/></translation>
 <translation id="8535964427132833909">אין כאן כלום :'(</translation>
@@ -2321,6 +2320,8 @@ Brave יש שירות עוזר שמגן עליך מפני חשיפה זו על �
 <translation id="8048263175525832621">Brave VPN: מנותק</translation>
 <translation id="1498770726476841108">נהל חשבון</translation>
 <translation id="6825718953004242472">הסר סמל</translation>
+<translation id="3960619311638643872">Brave VPN</translation>
+<translation id="8425213833346101688">שינוי</translation>
 <translation id="3287942014983548982">פתח כאן</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/>, פתוח כרגע,
 הקש על Tab ואז על Enter כדי לעבור ללשונית הפתוחה</translation>
@@ -2328,7 +2329,4 @@ Brave יש שירות עוזר שמגן עליך מפני חשיפה זו על �
 הכרטיסייה הקיימת</translation>
 <translation id="451189393813405346">תשאל את ליאו</translation>
 <translation id="8525248723479742219">נגן מאוחר יותר</translation>
-<translation id="1450735350187803276">מודעות שנצפו החודש</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">שינוי</translation>
 </translationbundle>

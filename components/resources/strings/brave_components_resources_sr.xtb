@@ -568,7 +568,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Saznajte više<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Ne brinite.</translation>
 <translation id="5027616819996705541">Još uvek možete da privatno pregledate!</translation>
-<translation id="1450735350187803276">Zarade do sada</translation>
+<translation id="1450735350187803276">Огласи виђени овог месеца</translation>
 <translation id="7649070708921625228">Помоћ</translation>
 <translation id="6042308850641462728">Više</translation>
 <translation id="6245259297588415877">Креатори</translation>
@@ -2143,7 +2143,7 @@
 <translation id="7509914170164691086">Štitovi su PODIGNUTI <ph name="LINK_BEFORE"/>za<ph name="LINK_AFTER"/></translation>
 <translation id="260764436039299868">Štitovi su SPUŠTENI <ph name="LINK_BEFORE"/>za<ph name="LINK_AFTER"/></translation>
 <translation id="3907405056878805220">Ako vam se čini da je ovaj sajt pokvaren, pokušajte da spustite štitove.
-    <ph name="LINK_BEFORE"/>Napomena: na taj način se mogu smanjiti Brave zaštite privatnosti.<ph name="LINK_AFTER"/></translation>
+   <ph name="LINK_BEFORE"/>Napomena: na taj način se mogu smanjiti Brave zaštite privatnosti.<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">Tragači, oglasi i ostalo blokirani <ph name="LINK_BEFORE"/>Saznajte više<ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Nije zaštićeno pomoću Brave štitova <ph name="LINK_BEFORE"/>Saznajte više<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">Napredne kontrole</translation>
@@ -2312,6 +2312,8 @@ Međutim, primetili smo da ova pomoćna usluga ne radi - a ne želimo da ostenet
 <translation id="8048263175525832621">Brave VPN - isključen</translation>
 <translation id="1498770726476841108">Upravljanje nalogom</translation>
 <translation id="6825718953004242472">Ukloni ikonu</translation>
+<translation id="3960619311638643872">Brave VPN</translation>
+<translation id="8425213833346101688">Промени</translation>
 <translation id="3287942014983548982">Otvori ovde</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/>, trenutno otvoren,
     pritisnite Tab a zatim Enter da se prebacite na otvorenu karticu</translation>
@@ -2319,7 +2321,4 @@ Međutim, primetili smo da ova pomoćna usluga ne radi - a ne želimo da ostenet
     postojeću karticu</translation>
 <translation id="451189393813405346">Pitajte Lea</translation>
 <translation id="8525248723479742219">Reprodukuj kasnije</translation>
-<translation id="1450735350187803276">Огласи виђени овог месеца</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Промени</translation>
 </translationbundle>

@@ -568,7 +568,7 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Més informació<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">No et preocupis.</translation>
 <translation id="5027616819996705541">Encara pots navegar d'incògnit!</translation>
-<translation id="1450735350187803276">Guanys fins ara</translation>
+<translation id="1450735350187803276">Anuncis vistos aquest mes</translation>
 <translation id="7649070708921625228">Ajuda</translation>
 <translation id="6042308850641462728">Més</translation>
 <translation id="6245259297588415877">Creadors</translation>
@@ -1165,7 +1165,7 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="1924965034964265193">Introdueix un valor de nonce personalitzat</translation>
 <translation id="4220062530885628403">Nonce</translation>
 <translation id="2749584096020594976">El valor del nonce es determinarà automàticament si no s'especifica aquest camp.</translation>
-<translation id="1599636444563952897">El permís del límit per gastar permet a <ph name="SITE_ORIGIN"/>  retirar i gastar fins a la següent quantitat:</translation>
+<translation id="1599636444563952897">El permís del límit per gastar permet a <ph name="SITE_ORIGIN"/> retirar i gastar fins a la següent quantitat:</translation>
 <translation id="4512871563176965522">Prestació habitual</translation>
 <translation id="749944179568745958">No és una adreça ETH vàlida</translation>
 <translation id="2832270987629018596">No és una adreça de SOL vàlida</translation>
@@ -2309,6 +2309,8 @@ Connecteu-vos-hi ara mateix!</translation>
 <translation id="8048263175525832621">VPN de Brave - Desconnectada</translation>
 <translation id="1498770726476841108">Gestiona el compte</translation>
 <translation id="6825718953004242472">Treu la icona</translation>
+<translation id="3960619311638643872">VPN de Brave</translation>
+<translation id="8425213833346101688">Canvia</translation>
 <translation id="3287942014983548982">Obre-ho aquí</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/>, oberta actualment,
     prem Pestanya i, tot seguit, Retorn per canviar a la pestanya oberta</translation>
@@ -2316,7 +2318,4 @@ Connecteu-vos-hi ara mateix!</translation>
     pestanya existent</translation>
 <translation id="451189393813405346">Pregunta-ho a Leo</translation>
 <translation id="8525248723479742219">Reprodueix-ho més tard</translation>
-<translation id="1450735350187803276">Anuncis vistos aquest mes</translation>
-<translation id="3960619311638643872">VPN de Brave</translation>
-<translation id="8425213833346101688">Canvia</translation>
 </translationbundle>

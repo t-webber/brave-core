@@ -440,7 +440,7 @@ Naozaj chcete pokračovať?</translation>
 <translation id="1116694919640316211">Informácie</translation>
 <translation id="7961015016161918242">Nikdy</translation>
 <translation id="1275213816424141989">Možno neskôr</translation>
-<translation id="4406937629441301400">Získanie tokenov za prezeranie tohto obrázka a ich vyplatenie tvorcom.  <ph name="LEARN_MORE"/></translation>
+<translation id="4406937629441301400">Získanie tokenov za prezeranie tohto obrázka a ich vyplatenie tvorcom. <ph name="LEARN_MORE"/></translation>
 <translation id="6632345639591919543">Získavate tokeny za prezeranie tohto obrázka.\n<ph name="LEARN_MORE"/></translation>
 <translation id="8164992819127316581">Výplata odmien <ph name="CURRENT_MONTH"/> sa začne spracovávať do <ph name="PAYOUT_DATE"/>.</translation>
 <translation id="33967210973550414">Výplata odmien <ph name="CURRENT_MONTH"/> práve prebieha. <ph name="CHECK_STATUS"/></translation>
@@ -837,6 +837,7 @@ Ak túto žiadosť neprijmete, VPN sa znova nepripojí a vaše pripojenie na int
 <translation id="4351811224047421378">Počet desatinných miest presnosti</translation>
 <translation id="3494964159182650590">Súhrn odmien</translation>
 <translation id="590733288489975971">Odmeny za reklamy</translation>
+<translation id="1450735350187803276">Reklamy zobrazené tento mesiac</translation>
 <translation id="1767561995429774671">Prispieť</translation>
 <translation id="7335371657242627509">Zapojte do automatického prispievania</translation>
 <translation id="6727102863431372879">Nastaviť</translation>

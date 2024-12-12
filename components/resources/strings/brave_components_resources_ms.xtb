@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Ketahui lebih lanjut<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Jangan bimbang.</translation>
 <translation id="5027616819996705541">Anda masih boleh menyemak imbas secara peribadi!</translation>
-<translation id="1450735350187803276">Pendapatan setakat ini</translation>
+<translation id="1450735350187803276">Iklan dilihat bulan ini</translation>
 <translation id="7649070708921625228">Bantuan</translation>
 <translation id="6042308850641462728">Lagi</translation>
 <translation id="6245259297588415877">Pencipta</translation>
@@ -2309,6 +2309,8 @@ Mari sambungkan anda!</translation>
 <translation id="8048263175525832621">VPN Brave - Tidak bersambung</translation>
 <translation id="1498770726476841108">Urus Akaun</translation>
 <translation id="6825718953004242472">Alih keluar ikon</translation>
+<translation id="3960619311638643872">VPN Brave</translation>
+<translation id="8425213833346101688">Tukar</translation>
 <translation id="3287942014983548982">Buka di sini</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/>, sedang dibuka,
     tekan Tab kemudian Enter untuk bertalih kepada buka tab</translation>
@@ -2316,7 +2318,4 @@ Mari sambungkan anda!</translation>
     tab sedia ada</translation>
 <translation id="451189393813405346">Tanya Leo</translation>
 <translation id="8525248723479742219">Main Kemudian</translation>
-<translation id="1450735350187803276">Iklan dilihat bulan ini</translation>
-<translation id="3960619311638643872">VPN Brave</translation>
-<translation id="8425213833346101688">Tukar</translation>
 </translationbundle>
