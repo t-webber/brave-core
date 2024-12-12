@@ -88,8 +88,7 @@ void AdBlockComponentFiltersProvider::UnregisterComponent() {
 }
 
 void AdBlockComponentFiltersProvider::OnComponentReady(
-    scoped_refptr<brave_component_updater::ComponentContentsAccessor>
-        accessor) {
+    scoped_refptr<component_updater::ComponentContentsAccessor> accessor) {
   if (component_accessor_) {
     base::ThreadPool::PostTask(
         FROM_HERE, {base::TaskPriority::BEST_EFFORT, base::MayBlock()},
@@ -127,7 +126,7 @@ void AdBlockComponentFiltersProvider::LoadFilterSet(
   base::ThreadPool::PostTaskAndReplyWithResult(
       FROM_HERE, {base::MayBlock()},
       base::BindOnce(
-          &brave_component_updater::ComponentContentsAccessor::GetFileAsBytes,
+          &component_updater::ComponentContentsAccessor::GetFileAsBytes,
           base::RetainedRef(component_accessor_),
           base::FilePath::FromASCII(kListFile)),
       base::BindOnce(&OnReadDATFileData, std::move(cb), permission_mask_));
