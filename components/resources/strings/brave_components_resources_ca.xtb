@@ -568,7 +568,7 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Més informació<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">No et preocupis.</translation>
 <translation id="5027616819996705541">Encara pots navegar d'incògnit!</translation>
-<translation id="1886682615222609631">Guanys fins ara</translation>
+<translation id="1450735350187803276">Guanys fins ara</translation>
 <translation id="7649070708921625228">Ajuda</translation>
 <translation id="6042308850641462728">Més</translation>
 <translation id="6245259297588415877">Creadors</translation>
@@ -622,40 +622,40 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="6834831484510296932">Autocustòdia</translation>
 <translation id="4208917415153655958">L'autocustòdia et dona el control exclusiu del teu BAT, juntament amb la responsabilitat total de la seva seguretat.</translation>
 <translation id="9118326146754987354">Amb autocustòdia, els guanys de BAT es pagaran com SPL-BAT a la xarxa Solana.</translation>
-<translation id="6751803821780922506">Trieu on us agradaria rebre els BAT</translation>
+<translation id="6751803821780922506">Tria on t'agradaria rebre els BAT</translation>
 <translation id="3162035476318501831">Saber-ne més sobre les regions i l'assistència.</translation>
-<translation id="7329170127335794328">Actualment no està disponible en la teva regió</translation>
-<translation id="966956302643313970">Per començar a guanyar les recompenses de Basic Attention Token (BAT), connecteu-hi un compte. Els BAT que guanyeu es transferiran automàticament al vostre compte tots els mesos.</translation>
+<translation id="7329170127335794328">Actualment no està disponible a la teva regió</translation>
+<translation id="966956302643313970">Per començar a guanyar les recompenses de Basic Attention Token (BAT), connecta-hi un compte. Els BAT que guanyis es transferiran automàticament al teucompte tots els mesos.</translation>
 <translation id="4009439571146350519">O d'alguna altra cartera compatible amb Solana</translation>
-<translation id="333231090524745752"><ph name="TOS_LINK_BEGIN"/>Condicions d'ís<ph name="TOS_LINK_END"/> i <ph name="PP_LINK_BEGIN"/>Política de privacitat<ph name="PP_LINK_END"/>.</translation>
+<translation id="333231090524745752"><ph name="TOS_LINK_BEGIN"/>Condicions d'ús<ph name="TOS_LINK_END"/> i <ph name="PP_LINK_BEGIN"/>Política de privacitat<ph name="PP_LINK_END"/>.</translation>
 <translation id="1692293127547800972">Alguna cosa no ha anat bé. Torna-ho a provar.</translation>
 <translation id="756341217015623253">Inicia sessió o registra't</translation>
 <translation id="2653844658857826081">NOU</translation>
 <translation id="1165039591588034296">Error</translation>
 <translation id="5826530373788377342">Has assolit el límit màxim d'aparells per a aquest compte <ph name="PROVIDER"/>.</translation>
 <translation id="6700131426769360592">S'ha assolit el límit d'aparells</translation>
-<translation id="6895088073061692390">Malauradament, el vostre perfil de Premis de Brave s'ha marcat perquè hem trobat activitat inesperada als anuncis de Brave en fer les comprovacions automatitzades.</translation>
-<translation id="4229056297802204697">Mentre el vostre perfil estigui marcat, pot ser que continueu veient anuncis, però no podreu rebre pagaments. Tampoc podreu connectar un compte privat als Premis de Brave.</translation>
-<translation id="5124846913141379164">És possible que el vostre perfil s'hagi marcat per error i no cal que feu res ara mateix. És possible que la marca del perfil desapareixi en el futur.</translation>
-<translation id="280350148043792509"><ph name="BEGIN_LINK"/>Obteniu més detalls sobre el procés del Brave per marcar els perfils de Recompenses.<ph name="END_LINK"/></translation>
+<translation id="6895088073061692390">Malauradament, el teu perfil de Recompenses de Brave s'ha marcat perquè hem trobat activitat inesperada als Anuncis de Brave en fer les comprovacions automatitzades.</translation>
+<translation id="4229056297802204697">Mentre el teu perfil estigui marcat, pot ser que continuïs veient anuncis, però no podràs rebre pagaments. Tampoc podràs connectar un compte privat a les Recompenses de Brave.</translation>
+<translation id="5124846913141379164">És possible que el teu perfil s'hagi marcat per error i no cal que facis res ara mateix. És possible que la marca del perfil desaparegui en el futur.</translation>
+<translation id="280350148043792509"><ph name="BEGIN_LINK"/>Obtingues més informació sobre el procés de Brave per marcar els perfils de Recompenses.<ph name="END_LINK"/></translation>
 <translation id="4699218748197721830">El perfil de Recompenses de Brave està marcat</translation>
 <translation id="2607420597216860026">Torna a provar-ho després de completar la verificació d'ID a <ph name="PROVIDER"/>.</translation>
 <translation id="5037332159336402972">Necessites un compte verificat per iniciar la sessió</translation>
-<translation id="1859789048900659918">Mmm, sembla que el país de Brave Rewards no coincideix amb el país del compte de<ph name="PROVIDER"/> que estàs intentant connectar</translation>
+<translation id="1859789048900659918">Mmm, sembla que el país de Recompenses de Brave no coincideix amb el país del compte d'<ph name="PROVIDER"/> que estàs intentant connectar.</translation>
 <translation id="3080649636035373911">No coincideix el país</translation>
 <translation id="5260522591743022748">Mmm, sembla que el teu compte de Recompenses de Brave ja s'ha verificat amb un altre compte d'<ph name="PROVIDER"/>. Prova de verificar-lo novament utilizant el teu compte anterior.</translation>
 <translation id="6408621361472415607">Compte diferent</translation>
-<translation id="5225019866741699134">Sembla que connectar-se <ph name="PROVIDER"/> als Premis de Brave no està disponible temporalment. Torneu-ho a provar més tard.</translation>
-<translation id="6105073131081187815">Podeu veure <ph name="BEGIN_LINK"/>l'estat del servei aquí<ph name="END_LINK"/>.</translation>
+<translation id="5225019866741699134">Sembla que connectar <ph name="PROVIDER"/> a les Recompenses de Brave no està disponible temporalment. Torna-ho a provar més tard.</translation>
+<translation id="6105073131081187815">Pots veure l'estat del servei <ph name="BEGIN_LINK"/> aquí <ph name="END_LINK"/>.</translation>
 <translation id="3969419585013689529">No està disponible temporalment la connexió amb el custodi seleccionat</translation>
 <translation id="1024520300696337331">El teu compte d'<ph name="PROVIDER"/> no es pot connectar al teu perfil de reenviament de la clau en aquest moment. El teu compte <ph name="PROVIDER"/> està registrat en un país que no s'admet per connectar-se a Recompenses de Brave.</translation>
-<translation id="619384413404021992">Consulta la llista actual de <ph name="LINK_BEGIN"/>de regions admeses i obtingues més informació<ph name="END_LINK"/>sobre com connectar un compte de custòdia a Recompenses de Brave.</translation>
+<translation id="619384413404021992">Consulta la llista actual de <ph name="LINK_BEGIN"/> de regions admeses i obtingues més informació <ph name="END_LINK"/> sobre com connectar un compte de custòdia a Recompenses de Brave.</translation>
 <translation id="7933193151688235283">Actualment, no és compatible amb aquesta regió</translation>
 <translation id="5376524136040178759">Segons Uphold, actualment hi ha algunes limitacions en el teu compte d'Uphold. Accedeix al teu compte d'Uphold, comprova si hi ha alguna notificació o requisits del compte que falti completar i torna-ho a provar. Per exemple, potser has d'introduir més informació a Uphold.</translation>
 <translation id="6349168810769273818">Funcionalitat limitada del compte d'Uphold</translation>
 <translation id="1279668677171152085">Hi ha hagut un problema en validar la sol·licitud per connectar el compte de Recompenses de Brave al teu compte <ph name="PROVIDER"/>. Pots <ph name="BEGIN_LINK"/>posar-te en contacte amb l'equip de suport<ph name="END_LINK"/> per obtenir més ajuda.</translation>
 <translation id="8761736799800527591">La sol·licitud no s'ha pogut validar</translation>
-<translation id="8285276813470932793">No hem pogut completar la vostra sol·licitud. Torneu-ho a provar i <ph name="LINK_BEGIN"/>poseu-vos en contacte amb el servei d'assistència<ph name="LINK_END"/> si no s'ha solucionat el problema.</translation>
+<translation id="8285276813470932793">No hem pogut completar la teva sol·licitud. Torna-ho a provar i <ph name="LINK_BEGIN"/> posa't en contacte amb el servei d'assistència <ph name="LINK_END"/> si no s'ha solucionat el problema.</translation>
 <translation id="135956957367307069">La teva petició encara s'està processant, si us plau, espera.</translation>
 <translation id="9033500121333471466">Marca com a inapropiat</translation>
 <translation id="4477865412359526485">En aquest moment no hi ha historial d'Anuncis de Brave.</translation>
@@ -673,7 +673,7 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="4284417062730522399">Has rebut <ph name="NUM"/> anuncis aquest mes</translation>
 <translation id="7697696066810593560">Fins ara, aquest mes has guanyat <ph name="NUM"/></translation>
 <translation id="6733193230212030816">Es calcula que guanyaràs entre: <ph name="RANGE"/></translation>
-<translation id="7924320838799747606">El vostre balanç</translation>
+<translation id="7924320838799747606">El teu balanç</translation>
 <translation id="8714473477079007268">Cartera <ph name="PROVIDER"/></translation>
 <translation id="3175337080016717494">Compte de pagament</translation>
 <translation id="453760933181416879">Anar al meu compte</translation>
@@ -2049,7 +2049,7 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="1691256669639196606">Gestiona la subscripció</translation>
 <translation id="2304783958703511257">Configuració avançada</translation>
 <translation id="3037594989275592390">Models de llenguatge</translation>
-<translation id="5543505256451301851">Prova 7 dies gratis</translation>
+<translation id="5543505256451301851">Prova 7 dies gratuïts</translation>
 <translation id="849535826888024304">S'ha arribat al límit de la taxa de resposta</translation>
 <translation id="2252128900328632803">Has arribat al límit de la tarifa per Leo. Desbloqueja una taxa de resposta més alta subscrivint-te a Premium, o torna-ho a provar més tard.</translation>
 <translation id="4173478269537830374">Explora els diferents models d'IA</translation>
@@ -2076,7 +2076,7 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="7355096922131918313">Proporciona els teus suggeriments aquí</translation>
 <translation id="3027575440738035995">Leo Premium proporciona accés a un conjunt ampliat de models de llenguatge per a unes respostes amb encara més matisos. <ph name="LINK_BEFORE"/>Més informació<ph name="LINK_AFTER"/></translation>
 <translation id="7488762544858401571">Editat</translation>
-<translation id="1406205536570262057">Editar la resposta</translation>
+<translation id="1406205536570262057">Edita la resposta</translation>
 <translation id="2399439821649319175">No és útil</translation>
 <translation id="2976167228906046828">És incorrecte</translation>
 <translation id="1183055847065865059">És perillós/nociu</translation>
@@ -2217,8 +2217,8 @@ other {Escuts de Brave ha bloquejat {BLOCKED_COUNT} rastrejadors a <ph name="SIT
 <translation id="6821108091726602352">Ajuda'ns a arreglar el web participant en el Web Discovery Project de Brave. Si comparteixes senyals de cerca completament anònims, pots ajudar Brave a fer créixer l'índex de cerca.</translation>
 <translation id="6764845498618413165">Més informació.</translation>
 <translation id="7818938154803162778">És clar que ajudaré</translation>
-<translation id="7821773512278295352">Tallafoc + VPN de Brave: connectat</translation>
-<translation id="6019088868713395120">Tallafoc + VPN de Brave: desconnectat</translation>
+<translation id="958268166261124668">Tallafoc + VPN de Brave: connectat</translation>
+<translation id="6021669293402055982">Tallafoc + VPN de Brave: desconnectat</translation>
 <translation id="3541307549916475335">IU del tauler de la VPN de Brave</translation>
 <translation id="7143207342074048698">S'està connectant</translation>
 <translation id="1202549130170287307">Desconnectant</translation>
@@ -2230,7 +2230,6 @@ other {Escuts de Brave ha bloquejat {BLOCKED_COUNT} rastrejadors a <ph name="SIT
 <translation id="3357036723290257445">Ja has comprat la VPN de Brave?</translation>
 <translation id="8814357473522731680">Impulsat per</translation>
 <translation id="8652175077544655965">Tanca la configuració</translation>
-<translation id="3099126540952997993">Tallafoc + VPN</translation>
 <translation id="5908163815855240493">Ves a la pàgina principal</translation>
 <translation id="7805768142964895445">Estat</translation>
 <translation id="5747552184818312860">Data de caducitat</translation>
@@ -2301,9 +2300,7 @@ Connecteu-vos-hi ara mateix!</translation>
 <translation id="9061845622728745852">Fus horari</translation>
 <translation id="8295393906499561642">La sessió ha caducat</translation>
 <translation id="3312623558576021182">Inicia sessió al teu <ph name="BRAVE_ACCOUNT_BEGIN"/>compte de Brave<ph name="BRAVE_ACCOUNT_END"/> per actualitzar la sessió VPN.</translation>
-<translation id="6021669293402055982">VPN de Brave: desconnectada</translation>
 <translation id="7861195049821776142">VPN de Brave: desconnectant-se</translation>
-<translation id="958268166261124668">VPN de Brave: connectada</translation>
 <translation id="2061807837510296780">VPN de Brave: connectant-se</translation>
 <translation id="1313124107969703758">VPN de Brave: error</translation>
 <translation id="8273420301954598554">Estat: connectat</translation>
@@ -2319,7 +2316,4 @@ Connecteu-vos-hi ara mateix!</translation>
     pestanya existent</translation>
 <translation id="451189393813405346">Pregunta-ho a Leo</translation>
 <translation id="8525248723479742219">Reprodueix-ho més tard</translation>
-<translation id="1450735350187803276">Anuncis vistos aquest mes</translation>
-<translation id="3960619311638643872">VPN de Brave</translation>
-<translation id="8425213833346101688">Canvia</translation>
 </translationbundle>

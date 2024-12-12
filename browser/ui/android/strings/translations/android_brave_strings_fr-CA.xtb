@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="fr-CA">
-<translation id="8631427463833030968">Gérer les publicités</translation>
 <translation id="7630214457764713113">Copier le lien propre</translation>
-<translation id="885805571521218129">Ceci reflète votre plage de revenus estimée pour les publicités Brave ce mois-ci.</translation>
 <translation id="3478449063771497234">Les notifications sont désactivées</translation>
 <translation id="2862978891748913252">Sélectionnez votre pays</translation>
 <translation id="3970520675790340955">Sélectionnez votre pays pour que nous puissions vous afficher les bonnes options et publicités pour votre région.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Bienvenue dans Brave</translation>
 <translation id="4117451092682672487">Protégez votre vie privée en toute facilité.</translation>
 <translation id="7909375417585209817">En définissant Brave comme navigateur par défaut, chaque lien s'ouvrira avec les protections de confidentialité de Brave.</translation>
-<translation id="3737878115109582442">Ajouter le gadget logiciel de recherche</translation>
-<translation id="6199413390010319240">Gardez Brave à portée de main pour explorer le Web plus rapidement.</translation>
-<translation id="4338600611020922010">Ajouter à l'écran d'accueil</translation>
 <translation id="7370959926683925817">Bloquez les publicités. Économisez des données. Chaque jour.</translation>
 <translation id="7281027579943912834">Avec Brave comme valeur par défaut, chaque lien sur lequel vous appuyez bénéficie de la protection de blocage des publicités de Brave. Chaque page, chaque vidéo, chaque diffusion.</translation>
 <translation id="5148943178722443958">Aidez-nous à améliorer Brave.</translation>
@@ -842,7 +837,6 @@ Si vous n'acceptez pas cette demande, le VPN ne se reconnectera pas et votre con
 <translation id="4351811224047421378">Décimales de précision</translation>
 <translation id="3494964159182650590">Résumé des récompenses</translation>
 <translation id="590733288489975971">Rewards d'Ads</translation>
-<translation id="1886682615222609631">Gains jusqu'à présent</translation>
 <translation id="1767561995429774671">Contribuer</translation>
 <translation id="7335371657242627509">Inclure dans l'auto-contribution</translation>
 <translation id="6727102863431372879">Définir</translation>
@@ -1228,5 +1222,4 @@ Si vous n'acceptez pas cette demande, le VPN ne se reconnectera pas et votre con
 <translation id="2728518864712716830">La mise à jour a été téléchargée.</translation>
 <translation id="8403338849301491865">La liste des filtres a bien été mise à jour</translation>
 <translation id="4650851936784160359">La liste des filtres n'a pas pu être mise à jour. Veuillez réessayer.</translation>
-<translation id="1450735350187803276">Publicités vues ce mois</translation>
 </translationbundle>

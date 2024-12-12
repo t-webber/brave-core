@@ -570,7 +570,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>詳細はこちら<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">心配はいりません。</translation>
 <translation id="5027616819996705541">引き続きプライベートな閲覧を行うことができます。</translation>
-<translation id="1886682615222609631">これまでの収益</translation>
+<translation id="1450735350187803276">これまでの収益</translation>
 <translation id="7649070708921625228">ヘルプ</translation>
 <translation id="6042308850641462728">もっと見る</translation>
 <translation id="6245259297588415877">クリエーター</translation>
@@ -2220,8 +2220,8 @@
 <translation id="6821108091726602352">BraveのWeb Discovery Projectに参加し、Webの修復にご協力ください。完全に匿名化されたサーチ・シグナルのシェアにより、Braveの検索インデックスの改善をサポートすることができます。</translation>
 <translation id="6764845498618413165">詳細はこちら</translation>
 <translation id="7818938154803162778">はい、協力します</translation>
-<translation id="7821773512278295352">Braveファイアウォール + VPN: 接続済み</translation>
-<translation id="6019088868713395120">Braveファイアウォール + VPN: 切断</translation>
+<translation id="958268166261124668">Braveファイアウォール + VPN: 接続済み</translation>
+<translation id="6021669293402055982">Braveファイアウォール + VPN: 切断</translation>
 <translation id="3541307549916475335">Brave VPNパネルUI</translation>
 <translation id="7143207342074048698">接続中</translation>
 <translation id="1202549130170287307">切断しています</translation>
@@ -2233,7 +2233,6 @@
 <translation id="3357036723290257445">Brave VPNを購入済みですか？</translation>
 <translation id="8814357473522731680">提供元</translation>
 <translation id="8652175077544655965">設定を閉じる</translation>
-<translation id="3099126540952997993">Firewall + VPN</translation>
 <translation id="5908163815855240493">メインページを開く</translation>
 <translation id="7805768142964895445">ステータス</translation>
 <translation id="5747552184818312860">有効期限</translation>
@@ -2304,9 +2303,7 @@ brave://settings/systemにアクセスして、いつでもWireGuard に戻す�
 <translation id="9061845622728745852">タイムゾーン:</translation>
 <translation id="8295393906499561642">セッションの期限が切れました</translation>
 <translation id="3312623558576021182"><ph name="BRAVE_ACCOUNT_BEGIN"/>Braveアカウント<ph name="BRAVE_ACCOUNT_END"/>にログインし、VPNセッションを更新してください。</translation>
-<translation id="6021669293402055982">Brave VPN: 切断</translation>
 <translation id="7861195049821776142">Brave VPN: 切断中</translation>
-<translation id="958268166261124668">Brave VPN: 接続済み</translation>
 <translation id="2061807837510296780">Brave VPN: 接続中</translation>
 <translation id="1313124107969703758">Brave VPN: エラー</translation>
 <translation id="8273420301954598554">ステータス: 接続済み</translation>
@@ -2322,10 +2319,4 @@ Tab + Enterキーの順に操作して開いているタブを切り替えます
 現在のタブで開きます</translation>
 <translation id="451189393813405346">Leoに聞く</translation>
 <translation id="8525248723479742219">後で再生する</translation>
-<translation id="1450735350187803276">今月見た広告</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">変更</translation>
-<translation id="6819278685469225453">すべてのアプリとデバイス全体を保護</translation>
-<translation id="4295077644587784828">高度なプライバシーとオンラインセキュリティ。</translation>
-<translation id="8703188411226330709">無料トライアルを開始</translation>
 </translationbundle>

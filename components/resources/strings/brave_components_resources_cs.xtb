@@ -568,7 +568,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Zjistit více<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Žádné strachy.</translation>
 <translation id="5027616819996705541">Můžete stále procházet internet s ochranou soukromí!</translation>
-<translation id="1886682615222609631">Dosavadní výdělek</translation>
+<translation id="1450735350187803276">Dosavadní výdělek</translation>
 <translation id="7649070708921625228">Nápověda</translation>
 <translation id="6042308850641462728">Více</translation>
 <translation id="6245259297588415877">Autoři</translation>
@@ -2221,8 +2221,8 @@ other {# zdrojů}
 <translation id="6821108091726602352">Pomozte nám opravit web účastí v projektu Web Discovery společnosti Brave. Sdílením zcela anonymních vyhledávacích signálů můžete Brave pomoci rozšířit index vyhledávání.</translation>
 <translation id="6764845498618413165">Zjistit více.</translation>
 <translation id="7818938154803162778">Jistě, pomohu vám</translation>
-<translation id="7821773512278295352">Brave Firewall + VPN: Připojeno</translation>
-<translation id="6019088868713395120">Brave Firewall + VPN: Odpojeno</translation>
+<translation id="958268166261124668">Brave Firewall + VPN: Připojeno</translation>
+<translation id="6021669293402055982">Brave Firewall + VPN: Odpojeno</translation>
 <translation id="3541307549916475335">Uživatelské rozhraní panelu Brave VPN</translation>
 <translation id="7143207342074048698">Připojování</translation>
 <translation id="1202549130170287307">Odpojování</translation>
@@ -2234,7 +2234,6 @@ other {# zdrojů}
 <translation id="3357036723290257445">Již jste zakoupili Brave VPN?</translation>
 <translation id="8814357473522731680">Provoz zajišťuje</translation>
 <translation id="8652175077544655965">Zavřít nastavení</translation>
-<translation id="3099126540952997993">Firewall + VPN</translation>
 <translation id="5908163815855240493">Přejít na hlavní stránku</translation>
 <translation id="7805768142964895445">Status</translation>
 <translation id="5747552184818312860">Konec platnosti</translation>
@@ -2305,9 +2304,7 @@ Pojďme vás připojit!</translation>
 <translation id="9061845622728745852">Časové pásmo:</translation>
 <translation id="8295393906499561642">Relace vypršela.</translation>
 <translation id="3312623558576021182">Abyste obnovili svou relaci VPN, přihlaste se do svého <ph name="BRAVE_ACCOUNT_BEGIN"/>účtu Brave<ph name="BRAVE_ACCOUNT_END"/>.</translation>
-<translation id="6021669293402055982">Brave VPN: Odpojeno</translation>
 <translation id="7861195049821776142">Brave VPN: Odpojování</translation>
-<translation id="958268166261124668">Brave VPN: Připojeno</translation>
 <translation id="2061807837510296780">Brave VPN: Připojování</translation>
 <translation id="1313124107969703758">Brave VPN: Chyba</translation>
 <translation id="8273420301954598554">Stav: Připojeno</translation>
@@ -2323,7 +2320,4 @@ Pojďme vás připojit!</translation>
     stávající karty</translation>
 <translation id="451189393813405346">Zeptat se Lea</translation>
 <translation id="8525248723479742219">Přehrát později</translation>
-<translation id="1450735350187803276">Reklamy zobrazené tento měsíc</translation>
-<translation id="3960619311638643872">VPN síť Brave</translation>
-<translation id="8425213833346101688">Změnit</translation>
 </translationbundle>

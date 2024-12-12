@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="en-GB">
-<translation id="8631427463833030968">Manage ads</translation>
 <translation id="7630214457764713113">Copy clean link</translation>
-<translation id="885805571521218129">This reflects your estimated earnings range for Brave Ads this month.</translation>
 <translation id="3478449063771497234">Notifications are disabled</translation>
 <translation id="2862978891748913252">Select your country</translation>
 <translation id="3970520675790340955">Select your country so we can show you the right options and ads for your region.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Welcome to Brave</translation>
 <translation id="4117451092682672487">Privacy. Made simple.</translation>
 <translation id="7909375417585209817">With Brave as default, every link you tap opens with Brave's privacy protections.</translation>
-<translation id="3737878115109582442">Add the search widget</translation>
-<translation id="6199413390010319240">Have Brave at your fingertips to explore the web faster.</translation>
-<translation id="4338600611020922010">Add to home screen</translation>
 <translation id="7370959926683925817">Block ads. Save data. Every single day.</translation>
 <translation id="7281027579943912834">With Brave as default, every link you tap gets Brave's ad-block protection. Every page, video, and stream.</translation>
 <translation id="5148943178722443958">Help make Brave better.</translation>
@@ -842,7 +837,6 @@ If you don't accept this request, VPN will not reconnect and your Internet conne
 <translation id="4351811224047421378">Decimals of precision</translation>
 <translation id="3494964159182650590">Rewards Summary</translation>
 <translation id="590733288489975971">Rewards from Ads</translation>
-<translation id="1886682615222609631">Earnings so far</translation>
 <translation id="1767561995429774671">Contribute</translation>
 <translation id="7335371657242627509">Include in Auto-Contribute</translation>
 <translation id="6727102863431372879">Set</translation>
@@ -1228,5 +1222,4 @@ If you don't accept this request, VPN will not reconnect and your Internet conne
 <translation id="2728518864712716830">Update is downloaded.</translation>
 <translation id="8403338849301491865">Filter list is updated successfully</translation>
 <translation id="4650851936784160359">Filter list could not be updated. Please try again</translation>
-<translation id="1450735350187803276">Ads seen this month</translation>
 </translationbundle>

@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="tr">
-<translation id="8631427463833030968">Reklamları yönet</translation>
 <translation id="7630214457764713113">Temiz bağlantıyı kopyala</translation>
-<translation id="885805571521218129">Bu, bu ay Brave Ads için tahmini kazanç aralığınızı yansıtır.</translation>
 <translation id="3478449063771497234">Bildirimler devre dışı bırakıldı</translation>
 <translation id="2862978891748913252">Ülkenizi seçin</translation>
 <translation id="3970520675790340955">Size bölgeniz için doğru seçenekleri ve reklamları gösterebilmemiz için ülkenizi seçin.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Brave'e Hoş Geldiniz</translation>
 <translation id="4117451092682672487">Gizlilik Basit Hale Geldi.</translation>
 <translation id="7909375417585209817">Brave'i varsayılan olarak ayarladıktan sonra, dokunduğunuz her bağlantı Brave’in gizlilik korumalarıyla açılır.</translation>
-<translation id="3737878115109582442">Arama öğesini ekleyin</translation>
-<translation id="6199413390010319240">Web'de daha hızlı gezinmek için Brave parmaklarınızın ucunda.</translation>
-<translation id="4338600611020922010">Ana ekrana ekle</translation>
 <translation id="7370959926683925817">Reklamları engelleyin. Verileri kaydedin. Her gün.</translation>
 <translation id="7281027579943912834">Varsayılan olarak Brave'i seçtiğiniz zaman, tıkladığınız her bağlantı Brave'in reklam engelleme korumasına sahip olur. Her sayfa, video ve akış.</translation>
 <translation id="5148943178722443958">Brave'i daha iyi hale getirmeye yardım edin.</translation>
@@ -843,7 +838,6 @@ Bu talebi kabul etmezseniz VPN yeniden bağlanmaz ve internet bağlantınız gü
 <translation id="4351811224047421378">Ondalık basamak sayısı</translation>
 <translation id="3494964159182650590">Ödüller Özeti</translation>
 <translation id="590733288489975971">Ads Ödülleri</translation>
-<translation id="1886682615222609631">Şimdiye kadarki kazançlar</translation>
 <translation id="1767561995429774671">Bağış yap</translation>
 <translation id="7335371657242627509">Otomatik Katkıya Dahil Et</translation>
 <translation id="6727102863431372879">Ayarla</translation>
@@ -1229,5 +1223,4 @@ Bu talebi kabul etmezseniz VPN yeniden bağlanmaz ve internet bağlantınız gü
 <translation id="2728518864712716830">Güncelleme indirildi.</translation>
 <translation id="8403338849301491865">Filtre listesi başarıyla güncellendi</translation>
 <translation id="4650851936784160359">Filtre listesi güncellenemedi. Lütfen tekrar deneyin</translation>
-<translation id="1450735350187803276">Bu ay görülen reklamlar</translation>
 </translationbundle>

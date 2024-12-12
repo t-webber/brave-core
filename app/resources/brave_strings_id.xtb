@@ -534,7 +534,7 @@ Brave tidak dapat memulihkan setelan Anda.</translation>
 <translation id="1327729221471951979">Brave merekomendasikan agar Anda menghapusnya. <ph name="BEGIN_LINK"/>Pelajari lebih lanjut ekstensi yang didukung<ph name="END_LINK"/></translation>
 <translation id="8577108764439626300">Ekstensi ini dibatalkan publikasinya oleh developer, dan mungkin tidak aman. Hapus dari Brave agar ekstensi ini tidak dapat lagi melihat dan mengubah data Anda di situs yang Anda kunjungi, termasuk info pribadi Anda.</translation>
 <translation id="5337999052834672687">{0,plural, =1{Luncurkan ulang Brave dalam 1 hari}other{Luncurkan ulang Brave dalam # hari}}</translation>
-<translation id="8438543370129609977">Saat Anda menggunakan Penelusuran Gambar, judul, URL, dan konten halaman, termasuk PDF, akan dikirim ke server. <ph name="LEARN_MORE"/></translation>
+<translation id="8438543370129609977">Saat Anda menggunakan Penelusuran Gambar, judul halaman, URL, dan konten halaman, termasuk PDF, akan dikirim ke server. <ph name="LEARN_MORE"/></translation>
 <translation id="6914496861676471566">Arsip pemasang rusak atau tidak valid. Download Brave lagi.</translation>
 <translation id="4378573854226202617">Brave memerlukan Windows 10 atau lebih tinggi.</translation>
 <translation id="6431861494713261006">Opsional: Bantu tingkatkan fitur dan performa ChromeOS dengan mengirimkan data penggunaan dan diagnostik secara otomatis ke Brave.</translation>

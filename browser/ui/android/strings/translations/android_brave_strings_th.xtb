@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="th">
-<translation id="8631427463833030968">จัดการโฆษณา</translation>
 <translation id="7630214457764713113">คัดลอกลิงก์เท่านั้น</translation>
-<translation id="885805571521218129">สิ่งนี้แสดงถึงช่วงรายได้โดยประมาณของคุณสำหรับ Brave Ads ในเดือนนี้</translation>
 <translation id="3478449063771497234">ระบบจะปิดใช้การแจ้งเตือน</translation>
 <translation id="2862978891748913252">เลือกประเทศของคุณ</translation>
 <translation id="3970520675790340955">เลือกประเทศของคุณ เพื่อให้เราสามารถแสดงตัวเลือกและโฆษณาที่เหมาะสมสำหรับภูมิภาคของคุณ</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">ยินดีต้อนรับสู่ Brave</translation>
 <translation id="4117451092682672487">ปกป้องความเป็นส่วนตัวง่ายๆ</translation>
 <translation id="7909375417585209817">เมื่อ Brave เป็นค่าเริ่มต้น ทุกลิงก์ที่คุณคลิกจะเปิดด้วยการป้องกันความเป็นส่วนตัวของ Brave</translation>
-<translation id="3737878115109582442">เพิ่มวิดเจ็ตการค้นหา</translation>
-<translation id="6199413390010319240">ให้ Brave อยู่ใกล้เพียงปลายนิ้วเพื่อท่องเว็บได้อย่างรวดเร็วกว่าเดิม</translation>
-<translation id="4338600611020922010">เพิ่มลงในหน้าจอหลัก</translation>
 <translation id="7370959926683925817">บล็อกโฆษณาและบันทึกข้อมูลทุกวัน</translation>
 <translation id="7281027579943912834">ด้วยการตั้ง Brave เป็นค่าเริ่มต้น ทุกลิงก์ที่คุณคลิกจะได้รับการป้องกันด้วย ad-block ของ Brave ในทุกหน้าเพจ วิดีโอ และสตรีม</translation>
 <translation id="5148943178722443958">ช่วยปรับปรุง Brave ให้ดีขึ้น</translation>
@@ -842,7 +837,6 @@
 <translation id="4351811224047421378">ความเที่ยงตรงของทศนิยม</translation>
 <translation id="3494964159182650590">รางวัลทั้งหมด</translation>
 <translation id="590733288489975971">Rewards จาก Ads</translation>
-<translation id="1886682615222609631">รายได้จนถึงปัจจุบัน</translation>
 <translation id="1767561995429774671">สนับสนุน</translation>
 <translation id="7335371657242627509">รวมไว้ในการบริจาคแบบอัตโนมัติ</translation>
 <translation id="6727102863431372879">ตั้งค่า</translation>
@@ -1228,5 +1222,4 @@
 <translation id="2728518864712716830">ดาวน์โหลดการอัปเดตแล้ว</translation>
 <translation id="8403338849301491865">อัปเดตรายการตัวกรองเรียบร้อยแล้ว</translation>
 <translation id="4650851936784160359">ไม่สามารถอัปเดตรายการตัวกรองได้ โปรดลองอีกครั้ง</translation>
-<translation id="1450735350187803276">โฆษณาที่เห็นในเดือนนี้</translation>
 </translationbundle>

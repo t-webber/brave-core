@@ -675,7 +675,7 @@
 <translation id="4269820728363426813">複製連結網址</translation>
 <translation id="4270730597186910506">追蹤或取消追蹤商品。</translation>
 <translation id="4277529130885813215">改用其他裝置</translation>
-<translation id="6553929648301062677">貴機構 (<ph name="MANAGED_DOMAIN"/>) 會管理你登入的帳戶和 Brave 的使用方式。系統管理員可以設定或限制特定功能。</translation>
+<translation id="6553929648301062677">貴機構 (<ph name="MANAGED_DOMAIN"/>) 會管理你登入的帳戶和 Brave 的使用方式。管理員可以設定或限制特定功能。</translation>
 <translation id="4285846616383034558">Cookie、快取和其他網站資料</translation>
 <translation id="4291407919474070700"><ph name="BEGIN_LINK"/>在 Android 設定中開啟螢幕鎖定功能<ph name="END_LINK"/></translation>
 <translation id="4298388696830689168">連結的網站</translation>
@@ -1017,7 +1017,7 @@
 <translation id="5869522115854928033">已儲存的密碼</translation>
 <translation id="5604589745019948682">如要追蹤網站，只要前往該網站並開啟 Brave 選單，然後輕觸 [追蹤] 即可。</translation>
 <translation id="5879072387416556377">取得更佳建議</translation>
-<translation id="5883855034004058011">生物特徵辨識失敗次數過多，鎖定裝置再解鎖即可重試。</translation>
+<translation id="5883855034004058011">生物辨識失敗次數過多，鎖定裝置再解鎖即可重試。</translation>
 <translation id="2496394743292988533">通知 <ph name="SEPARATOR"/> 這是危險網站，因此 Brave 已移除這些權限</translation>
 <translation id="5895834791314695851">這部裝置上的部分密碼不久後將無法存取。如要繼續使用密碼，請更新 Google Play 服務。<ph name="BEGIN_LINK"/>瞭解詳情<ph name="END_LINK"/></translation>
 <translation id="5899667542927581604">說明沒有密碼金鑰的底部功能表已關閉</translation>
@@ -1189,7 +1189,7 @@
 <translation id="6627583120233659107">編輯資料夾</translation>
 <translation id="6636623428211296678">探索下方更多設定或立即結束審查作業</translation>
 <translation id="2259649928554669581">如需更多有關隱私權、安全性和資料收集的設定，請參閱<ph name="BEGIN_LINK1"/>同步處理<ph name="END_LINK1"/>和 <ph name="BEGIN_LINK2"/>Brave 服務<ph name="END_LINK2"/></translation>
-<translation id="7939692063031538305">為協助改善應用程式，Brave 會將使用情形和當機資料傳送給 Brave。<ph name="BEGIN_UMA_LINK"/>管理設定<ph name="END_UMA_LINK"/></translation>
+<translation id="7939692063031538305">為協助改良應用程式，Brave 會將使用情形和當機資料傳送給 Brave。<ph name="BEGIN_UMA_LINK"/>管理設定<ph name="END_UMA_LINK"/></translation>
 <translation id="6640207029842583248">一律封鎖</translation>
 <translation id="6641780377503683465">移除<ph name="INTEREST"/></translation>
 <translation id="6645629752388991326">透過使用這部裝置做為安全金鑰，控制可以登入的裝置。</translation>

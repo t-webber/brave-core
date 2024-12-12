@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="zh-TW">
-<translation id="8631427463833030968">管理廣告</translation>
 <translation id="7630214457764713113">複製潔淨連結</translation>
-<translation id="885805571521218129">此範圍反映了您本月 Brave Ads 的預計收入。</translation>
 <translation id="3478449063771497234">通知已停用</translation>
 <translation id="2862978891748913252">選擇您的國家/地區</translation>
 <translation id="3970520675790340955">選擇您的國家/地區，我們將向您展示合適的選項和廣告。</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">歡迎使用 Brave</translation>
 <translation id="4117451092682672487">輕鬆捍衛個人隱私。</translation>
 <translation id="7909375417585209817">只要將 Brave 設為預設瀏覽器，您輕觸的每個連結都會在 Brave 的隱私保護功能下開啟。</translation>
-<translation id="3737878115109582442">新增搜尋小工具</translation>
-<translation id="6199413390010319240">隨時使用 Brave，輕鬆加速您的網路探索。</translation>
-<translation id="4338600611020922010">新增至主畫面</translation>
 <translation id="7370959926683925817">封鎖廣告，節省數據，全年無休。</translation>
 <translation id="7281027579943912834">將 Brave 設為預設瀏覽器，您點按的每個連結都會受到 Brave 的廣告封鎖保護。所有頁面、影片和串流都能受益。</translation>
 <translation id="5148943178722443958">協助提升 Brave 品質。</translation>
@@ -842,7 +837,6 @@
 <translation id="4351811224047421378">小數點精度</translation>
 <translation id="3494964159182650590">獎勵摘要</translation>
 <translation id="590733288489975971">廣告獎勵</translation>
-<translation id="1886682615222609631">迄今為止的收益</translation>
 <translation id="1767561995429774671">捐獻</translation>
 <translation id="7335371657242627509">加入自動贊助</translation>
 <translation id="6727102863431372879">設定</translation>
@@ -1228,5 +1222,4 @@
 <translation id="2728518864712716830">已下載更新。</translation>
 <translation id="8403338849301491865">已成功更新篩選清單</translation>
 <translation id="4650851936784160359">無法更新篩選清單。請再試一次</translation>
-<translation id="1450735350187803276">本月看到的廣告</translation>
 </translationbundle>

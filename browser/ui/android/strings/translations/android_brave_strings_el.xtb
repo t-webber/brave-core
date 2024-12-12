@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="el">
-<translation id="8631427463833030968">Διαχείριση διαφημίσεων</translation>
 <translation id="7630214457764713113">Αντιγραφή καθαρού συνδέσμου</translation>
-<translation id="885805571521218129">Αυτό είναι το εκτιμώμενο εύρος κέρδους για τις διαφημίσεις Brave αυτόν τον μήνα.</translation>
 <translation id="3478449063771497234">Οι ειδοποιήσεις είναι απενεργοποιημένες</translation>
 <translation id="2862978891748913252">Επιλέξτε τη χώρα σας</translation>
 <translation id="3970520675790340955">Επιλέξτε τη χώρα σας, για να σας δείξουμε τις σωστές επιλογές και διαφημίσεις για την περιοχή σας.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Καλώς ήλθατε στο Brave</translation>
 <translation id="4117451092682672487">Ιδιωτικό απόρρητο. Με απλό τρόπο.</translation>
 <translation id="7909375417585209817">Με το Brave ως προεπιλογή, κάθε σύνδεσμος που πατάτε ανοίγει με την προστασία απορρήτου του Brave.</translation>
-<translation id="3737878115109582442">Προσθέστε το στοιχείο αναζήτησης</translation>
-<translation id="6199413390010319240">Με το Brave εξερευνείτε το web πιο γρήγορα.</translation>
-<translation id="4338600611020922010">Προσθήκη στην αρχική οθόνη</translation>
 <translation id="7370959926683925817">Αποκλεισμός διαφημίσεων. Αποθήκευση δεδομένων. Κάθε μέρα.</translation>
 <translation id="7281027579943912834">Με το Brave ως προεπιλογή, κάθε σύνδεσμος που πατάτε λαμβάνει την προστασία αποκλεισμού διαφημίσεων του Brave. Κάθε σελίδα, βίντεο και ροή.</translation>
 <translation id="5148943178722443958">Βοηθήστε μας να κάνουμε το Brave καλύτερο.</translation>
@@ -842,7 +837,6 @@
 <translation id="4351811224047421378">Δεκαδικά ψηφία ακριβείας</translation>
 <translation id="3494964159182650590">Σύνοψη Ανταμοιβών</translation>
 <translation id="590733288489975971">Ανταμοιβές από Διαφημίσεις</translation>
-<translation id="1886682615222609631">Κέρδη έως τώρα</translation>
 <translation id="1767561995429774671">Συνεισφορά</translation>
 <translation id="7335371657242627509">Συμπερίληψη στην Αυτόματη συνεισφορά</translation>
 <translation id="6727102863431372879">Ρύθμιση</translation>
@@ -1228,5 +1222,4 @@
 <translation id="2728518864712716830">Έγινε λήψη της ενημέρωσης.</translation>
 <translation id="8403338849301491865">Η λίστα φίλτρων ενημερώθηκε με επιτυχία</translation>
 <translation id="4650851936784160359">Δεν ήταν δυνατή η ενημέρωση της λίστας φίλτρων. Προσπαθήστε ξανά</translation>
-<translation id="1450735350187803276">Διαφημίσεις που είδατε αυτόν τον μήνα</translation>
 </translationbundle>

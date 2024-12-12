@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="ar">
-<translation id="8631427463833030968">إدارة الإعلانات</translation>
 <translation id="7630214457764713113">نسخ الرابط الكامل</translation>
-<translation id="885805571521218129">يعكس هذا نطاق أرباحك المقدرة لإعلانات موقع Brave لهذا الشهر.</translation>
 <translation id="3478449063771497234">تم تعطيل الإشعارات</translation>
 <translation id="2862978891748913252">حدّد بلدك</translation>
 <translation id="3970520675790340955">اختر بلدك حتى نتمكن من عرض الخيارات والإعلانات المناسبة لمنطقتك.</translation>
@@ -234,9 +232,6 @@
 <translation id="7207456302801184289">‏مرحبًا بك في Brave</translation>
 <translation id="4117451092682672487">الخصوصية. أصبحت أبسط.</translation>
 <translation id="7909375417585209817">باستخدام Brave كافتراضي، يفتح كل رابط تنقر عليه بحماية خصوصية Brave.</translation>
-<translation id="3737878115109582442">أضِف ميزة البحث في واجهة المستخدم</translation>
-<translation id="6199413390010319240">اجعل Brave في متناول يدك لتستكشف الويب بسرعة أكبر.</translation>
-<translation id="4338600611020922010">أضِف إلى الشاشة الرئيسية</translation>
 <translation id="7370959926683925817">حظر الإعلانات. حفظ البيانات. كل يوم.</translation>
 <translation id="7281027579943912834">باستخدام Brave كافتراضي، يحصل كل رابط تنقر عليه على حماية حظر الإعلانات من Brave. وكذلك كل صفحة وفيديو وبث.</translation>
 <translation id="5148943178722443958">ساعد في تحسين Brave.</translation>
@@ -839,7 +834,6 @@
 <translation id="4351811224047421378">دقة الكسور العشرية</translation>
 <translation id="3494964159182650590">ملخص المكافآت</translation>
 <translation id="590733288489975971">مكافآت من الإعلانات</translation>
-<translation id="1886682615222609631">الأرباح حتى الآن</translation>
 <translation id="1767561995429774671">مساهمة</translation>
 <translation id="7335371657242627509">تضمين في المساهمة التلقائية</translation>
 <translation id="6727102863431372879">تعيين</translation>
@@ -1225,5 +1219,4 @@
 <translation id="2728518864712716830">تم تنزيل التحديث.</translation>
 <translation id="8403338849301491865">تم تحديث قائمة التصفية بنجاح</translation>
 <translation id="4650851936784160359">يتعذر تحديث قائمة التصفية. يُرجى المحاولة مجددًا</translation>
-<translation id="1450735350187803276">الإعلانات التي تمت مشاهدتها هذا الشهر</translation>
 </translationbundle>

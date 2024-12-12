@@ -3064,7 +3064,7 @@
 <translation id="6671169470640320959">Зајмови за куповину аутомобила</translation>
 <translation id="6677351035258626477">Брза храна</translation>
 <translation id="7207774923603194735">{FINANCIAL_ACCOUNT,plural, =1{Када купујете у Brave-у, погледајте <ph name="FINANCIAL_ACCOUNT_TYPES"/> као опцију}one{Када купујете у Brave-у, погледајте <ph name="FINANCIAL_ACCOUNT_TYPES"/> као опције}few{Када купујете у Brave-у, погледајте <ph name="FINANCIAL_ACCOUNT_TYPES"/> као опције}other{Када купујете у Brave-у, погледајте <ph name="FINANCIAL_ACCOUNT_TYPES"/> као опције}}</translation>
-<translation id="7691784300114873847">Brave прегледач покушава да унесе лозинку на <ph name="APP_NAME"/>.</translation>
+<translation id="7691784300114873847">Brave прегледач покушава да унесе лозинку у <ph name="APP_NAME"/>.</translation>
 <translation id="6681790815630918386">CVC је сачуван</translation>
 <translation id="6683022854667115063">Слушалице</translation>
 <translation id="6687230248707087982">Коверта (обична)</translation>

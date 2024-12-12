@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="hi">
-<translation id="8631427463833030968">विज्ञापन मैनेज करें</translation>
 <translation id="7630214457764713113">क्लीन लिंक को कॉपी करें</translation>
-<translation id="885805571521218129">यह इस महीने Brave Ads के लिए आपकी अनुमानित कमाई की सीमा को दर्शाता है.</translation>
 <translation id="3478449063771497234">नोटिफ़िकेशन अक्षम किए गए हैं</translation>
 <translation id="2862978891748913252">अपना देश चुनें</translation>
 <translation id="3970520675790340955">अपना देश चुनें ताकि हम आपके क्षेत्र के हिसाब से आपको सही विकल्प और विज्ञापन दिखा सकें.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Brave में आपका स्वागत है</translation>
 <translation id="4117451092682672487">प्राइवेसी. आसान हो गई है.</translation>
 <translation id="7909375417585209817">जब Brave डिफ़ॉल्ट के तौर पर सेट होता है, तो आप जिस भी लिंक को खोलते हैं, वह Brave की प्राइवेसी सुरक्षा की सुविधा के साथ खुलता है.</translation>
-<translation id="3737878115109582442">सर्च विजेट जोड़ें</translation>
-<translation id="6199413390010319240">वेब को तेज़ी से एक्सप्लोर करने के लिए Brave ब्राउज़र का इस्तेमाल करें.</translation>
-<translation id="4338600611020922010">होम स्क्रीन में जोड़ें</translation>
 <translation id="7370959926683925817">विज्ञापनों को ब्लॉक करें. डेटा बचाएँ. हर एक दिन.</translation>
 <translation id="7281027579943912834">जब Brave डिफ़ॉल्ट के तौर पर सेट होता है, आप जिस भी लिंक पर टैप करते हैं वह Brave के विज्ञापन-ब्लॉक से सुरक्षित होता है, हर पेज, वीडियो और स्ट्रीम.</translation>
 <translation id="5148943178722443958">Brave को बेहतर बनाने में मदद करें.</translation>
@@ -841,7 +836,6 @@
 <translation id="4351811224047421378">डेसिमल ऑफ़ प्रिसिशन</translation>
 <translation id="3494964159182650590">रिवॉर्ड के बारे में जानकारी</translation>
 <translation id="590733288489975971">विज्ञापनों से रिवॉर्ड</translation>
-<translation id="1886682615222609631">अब तक की कमाई</translation>
 <translation id="1767561995429774671">सहयोग करें</translation>
 <translation id="7335371657242627509">ऑटो-योगदान में शामिल करें</translation>
 <translation id="6727102863431372879">सेट</translation>
@@ -1228,5 +1222,4 @@
 <translation id="2728518864712716830">अपडेट डाउनलोड हो गया है.</translation>
 <translation id="8403338849301491865">फ़िल्टर लिस्ट अपडेट की गई</translation>
 <translation id="4650851936784160359">फ़िल्टर लिस्ट अपडेट नहीं की जा सकी. कृपया दोबारा कोशिश करें.</translation>
-<translation id="1450735350187803276">इस महीने देखे गए विज्ञापन</translation>
 </translationbundle>

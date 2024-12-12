@@ -562,7 +562,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/> Aflați mai multe <ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Nu vă faceți griji.</translation>
 <translation id="5027616819996705541">Puteți naviga în continuare în mod privat!</translation>
-<translation id="1886682615222609631">Câștiguri până la data curentă</translation>
+<translation id="1450735350187803276">Câștiguri până la data curentă</translation>
 <translation id="7649070708921625228">Ajutor</translation>
 <translation id="6042308850641462728">Mai multe</translation>
 <translation id="6245259297588415877">Creatori</translation>
@@ -1611,6 +1611,12 @@
 <translation id="1472675084647422956">Arată mai multe</translation>
 <translation id="4522570452068850558">Detalii</translation>
 <translation id="7144878232160441200">Reîncearcă</translation>
+<translation id="3435015606307655951">Transfer sigur</translation>
+<translation id="8043066678623588950">Forwardează FIL</translation>
+<translation id="8703556909820882288">Transfer NFT comprimat</translation>
+<translation id="2713141960460256091">Semnează și trimite tranzacție DApp</translation>
+<translation id="6387730345715997739">Semnează tranzacție DApp</translation>
+<translation id="4150336849480030462">Transfer SPL token cu creare cont token asociat</translation>
 <translation id="3155170474926428993">Lansatorul Tor</translation>
 <translation id="3745016858329272300">Informații generale</translation>
 <translation id="4045404575593562245">Evenimente control Tor</translation>
@@ -1942,6 +1948,7 @@ other {# surse}
 <translation id="7494736170250048402">Trimiteți-i un mesaj lui Leo</translation>
 <translation id="8712637175834984815">Am înțeles</translation>
 <translation id="1093419424466417703">Această pagină este prea lungă pentru Leo. E posibil să lipsească context din conversație. Leo a putut citi <ph name="PERCENTAGE"/> din conținutul paginii.</translation>
+<translation id="5140068729857132378">Se caută părțile relevante ale paginii web...</translation>
 <translation id="4370698775470316661">Această conversație este prea lungă și nu mai poate continua. Ar putea exista alte modele disponibile cu care Leo poate menține acuratețea pentru conversații mai lungi.</translation>
 <translation id="5719170755629028558">Se îmbunătățește răspunsul dvs. cu Brave Search...</translation>
 <translation id="5794962229997281366">Se caută un răspuns îmbunătățit pentru <ph name="SEARCH_TERMS"/>.</translation>
@@ -2065,15 +2072,14 @@ other {# surse}
 <translation id="6821108091726602352">Ajutați-ne să remediem web-ul prin participarea la Web Discovery Project creat de Brave. Prin partajarea semnalelor de căutare complet anonime, puteți ajuta Brave să își crească indexul de căutare.</translation>
 <translation id="6764845498618413165">Aflați mai multe.</translation>
 <translation id="7818938154803162778">Sigur, voi ajuta</translation>
-<translation id="7821773512278295352">Firewall Brave + VPN: Conectate</translation>
-<translation id="6019088868713395120">Firewall Brave + VPN: deconectate</translation>
+<translation id="958268166261124668">Firewall Brave + VPN: Conectate</translation>
+<translation id="6021669293402055982">Firewall Brave + VPN: deconectate</translation>
 <translation id="3541307549916475335">Interfață de utilizator a panoului VPN Brave</translation>
 <translation id="7143207342074048698">Se conectează</translation>
 <translation id="2325196879156848326">Eroare de conexiune</translation>
 <translation id="745054660363064771">Nu este posibilă conectarea la server</translation>
 <translation id="3936826714240735937">Selectați un alt server</translation>
 <translation id="8814357473522731680">Oferit de</translation>
-<translation id="3099126540952997993">Firewall + VPN</translation>
 <translation id="7805768142964895445">Stare</translation>
 <translation id="5747552184818312860">Expiră</translation>
 <translation id="8421945428836418371">Reconectați-vă în mod automat</translation>
@@ -2126,9 +2132,7 @@ Permiteți-ne să vă conectăm!</translation>
 <translation id="9061845622728745852">Fus orar:</translation>
 <translation id="8295393906499561642">Sesiune expirată</translation>
 <translation id="3312623558576021182">Conectați-vă la <ph name="BRAVE_ACCOUNT_BEGIN"/>contul Brave<ph name="BRAVE_ACCOUNT_END"/> pentru a reîmprospăta sesiunea VPN.</translation>
-<translation id="6021669293402055982">Brave VPN: Deconectat</translation>
 <translation id="7861195049821776142">Brave VPN: Se deconectează</translation>
-<translation id="958268166261124668">Brave VPN: Conectat</translation>
 <translation id="2061807837510296780">Brave VPN: Se conectează</translation>
 <translation id="1313124107969703758">Brave VPN: Eroare</translation>
 <translation id="8273420301954598554">Stare: Conectat</translation>
@@ -2144,7 +2148,4 @@ Permiteți-ne să vă conectăm!</translation>
  fila existentă</translation>
 <translation id="451189393813405346">Întrebați-l pe Leo</translation>
 <translation id="8525248723479742219">Redați mai târziu</translation>
-<translation id="1450735350187803276">Reclame văzute luna aceasta</translation>
-<translation id="3960619311638643872">VPN Brave</translation>
-<translation id="8425213833346101688">Modificați</translation>
 </translationbundle>

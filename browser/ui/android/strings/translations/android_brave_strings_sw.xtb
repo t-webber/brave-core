@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="sw">
-<translation id="8631427463833030968">Dhibiti matangazo</translation>
 <translation id="7630214457764713113">Nakili kiungo safi</translation>
-<translation id="885805571521218129">Hii inaonyesha makadirio ya mapato yako kutokana na Matangazo kwenye Brave mwezi huu.</translation>
 <translation id="3478449063771497234">Taarifa zimelemazwa</translation>
 <translation id="2862978891748913252">Chagua nchi yako</translation>
 <translation id="3970520675790340955">Chagua nchi yako ili tuweze kukuonyesha chaguo na matangazo yanayofaa kwa eneo lako.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Karibu kwenye Brave</translation>
 <translation id="4117451092682672487">Faragha. Imerahisishwa.</translation>
 <translation id="7909375417585209817">Ukiwa na Brave kama chaguo-msingi, kila kiungo unachogusa hufunguka kikiwa na ulinzi wa faragha wa Brave.</translation>
-<translation id="3737878115109582442">Ongeza wijeti ya utafutaji</translation>
-<translation id="6199413390010319240">Kuwa na Brave kiganjani mwako ili uvinjari wavuti haraka zaidi.</translation>
-<translation id="4338600611020922010">Ongeza kwenye skrini ya kwanza</translation>
 <translation id="7370959926683925817">Zuia matangazo. Hifadhi data. Kila siku.</translation>
 <translation id="7281027579943912834">Ukiwa na Brave kama chaguomsingi, kila kiungo unachogusa hupata ulinzi wa kuzuia matangazo wa Brave. Kila ukurasa, video, na utiririshaji.</translation>
 <translation id="5148943178722443958">Saidia kuboresha Brave.</translation>
@@ -842,7 +837,6 @@ Usipolikubali ombi hili, VPN haitaunganisha tena na muunganisho wako wa intaneti
 <translation id="4351811224047421378">Desimali za usahihi</translation>
 <translation id="3494964159182650590">Muhtasari wa Zawadi</translation>
 <translation id="590733288489975971">Zawadi kutoka kwenye Matangazo</translation>
-<translation id="1886682615222609631">Mapato kufikia sasa</translation>
 <translation id="1767561995429774671">Changia</translation>
 <translation id="7335371657242627509">Jumuisha kwenye Auto-Contribute</translation>
 <translation id="6727102863431372879">Weka</translation>
@@ -1228,5 +1222,4 @@ Usipolikubali ombi hili, VPN haitaunganisha tena na muunganisho wako wa intaneti
 <translation id="2728518864712716830">Sasisho limepakuliwa.</translation>
 <translation id="8403338849301491865">Orodha ya vichujio imesasishwa kwa mafanikio</translation>
 <translation id="4650851936784160359">Orodha ya vichujio haikuweza kusasishwa. Tafadhali jaribu tena</translation>
-<translation id="1450735350187803276">Matangazo yaliyoonekana mwezi huu</translation>
 </translationbundle>

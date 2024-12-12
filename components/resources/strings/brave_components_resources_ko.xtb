@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>자세히 알아보기<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">걱정하지 마세요.</translation>
 <translation id="5027616819996705541">프라이버시 보호 브라우징은 문제 없이 이용 가능합니다!</translation>
-<translation id="1886682615222609631">지금까지의 수익</translation>
+<translation id="1450735350187803276">지금까지의 수익</translation>
 <translation id="7649070708921625228">도움말</translation>
 <translation id="6042308850641462728">더보기</translation>
 <translation id="6245259297588415877">제작자</translation>
@@ -2217,8 +2217,8 @@
 <translation id="6821108091726602352">Brave의 Web Discovery Project에 참여하여 웹 개선에 도움을 주세요. 완전히 익명화된 검색 신호를 공유하는 방법으로 Brave의 검색 색인 확보에 기여하실 수 있습니다.</translation>
 <translation id="6764845498618413165">자세히 알아보기</translation>
 <translation id="7818938154803162778">좋아요, 도울게요</translation>
-<translation id="7821773512278295352">Brave Firewall + VPN: 연결됨</translation>
-<translation id="6019088868713395120">Brave Firewall + VPN: 연결 해제됨</translation>
+<translation id="958268166261124668">Brave Firewall + VPN: 연결됨</translation>
+<translation id="6021669293402055982">Brave Firewall + VPN: 연결 해제됨</translation>
 <translation id="3541307549916475335">Brave VPN 패널 UI</translation>
 <translation id="7143207342074048698">연결 중</translation>
 <translation id="1202549130170287307">연결 해제 중</translation>
@@ -2230,7 +2230,6 @@
 <translation id="3357036723290257445">Brave VPN을 이미 구매하셨습니까?</translation>
 <translation id="8814357473522731680">제공 -</translation>
 <translation id="8652175077544655965">설정 닫기</translation>
-<translation id="3099126540952997993">방화벽 + VPN</translation>
 <translation id="5908163815855240493">메인으로 이동</translation>
 <translation id="7805768142964895445">상태</translation>
 <translation id="5747552184818312860">만료</translation>
@@ -2301,9 +2300,7 @@ Brave에는 VPN 연결에서 DNS 쿼리가 생성되는 방식을 필터링하�
 <translation id="9061845622728745852">시간대:</translation>
 <translation id="8295393906499561642">세션 만료됨</translation>
 <translation id="3312623558576021182"><ph name="BRAVE_ACCOUNT_BEGIN"/>Brave 계정<ph name="BRAVE_ACCOUNT_END"/>에 로그인하고 VPN 연결을 새로 고치세요.</translation>
-<translation id="6021669293402055982">Brave VPN: 연결 해제됨</translation>
 <translation id="7861195049821776142">Brave VPN: 연결 해제 중</translation>
-<translation id="958268166261124668">Brave VPN: 연결됨</translation>
 <translation id="2061807837510296780">Brave VPN: 연결 중</translation>
 <translation id="1313124107969703758">Brave VPN: 오류</translation>
 <translation id="8273420301954598554">상태: 연결됨</translation>
@@ -2319,10 +2316,4 @@ Brave에는 VPN 연결에서 DNS 쿼리가 생성되는 방식을 필터링하�
     탭에서 열기</translation>
 <translation id="451189393813405346">레오에게 묻기</translation>
 <translation id="8525248723479742219">나중에 재생</translation>
-<translation id="1450735350187803276">이번 달에 본 광고</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">변경</translation>
-<translation id="6819278685469225453">모든 앱 및 모든 기기 보호</translation>
-<translation id="4295077644587784828">더욱 든든한 온라인 프라이버시 및 보안.</translation>
-<translation id="8703188411226330709">무료 평가판 시작</translation>
 </translationbundle>

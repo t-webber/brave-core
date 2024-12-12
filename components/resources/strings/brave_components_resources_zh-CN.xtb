@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>了解更多<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">别担心。</translation>
 <translation id="5027616819996705541">您仍然可以私下浏览！</translation>
-<translation id="1886682615222609631">截止目前的收益</translation>
+<translation id="1450735350187803276">截止目前的收益</translation>
 <translation id="7649070708921625228">帮助</translation>
 <translation id="6042308850641462728">更多</translation>
 <translation id="6245259297588415877">创作者</translation>
@@ -2217,8 +2217,8 @@ other {# 个来源}
 <translation id="6821108091726602352">藉由参与 Brave 的 Web 探索项目。协助我们修复 Web。只要分享完全匿名的搜索信号，您就可以協助 Brave 充实搜索索引。</translation>
 <translation id="6764845498618413165">了解更多。</translation>
 <translation id="7818938154803162778">没问题，我愿意协助</translation>
-<translation id="7821773512278295352">Brave 防火墙 + VPN：已连接</translation>
-<translation id="6019088868713395120">Brave 防火墙 + VPN：已断开连接</translation>
+<translation id="958268166261124668">Brave 防火墙 + VPN：已连接</translation>
+<translation id="6021669293402055982">Brave 防火墙 + VPN：已断开连接</translation>
 <translation id="3541307549916475335">Brave VPN 面板 UI</translation>
 <translation id="7143207342074048698">正在连接</translation>
 <translation id="1202549130170287307">正在断开连接</translation>
@@ -2230,7 +2230,6 @@ other {# 个来源}
 <translation id="3357036723290257445">已经购买 Brave VPN?</translation>
 <translation id="8814357473522731680">技术支持：</translation>
 <translation id="8652175077544655965">关闭设置</translation>
-<translation id="3099126540952997993">防火墙+虚拟专用网</translation>
 <translation id="5908163815855240493">转到主界面</translation>
 <translation id="7805768142964895445">状态</translation>
 <translation id="5747552184818312860">到期时间</translation>
@@ -2301,9 +2300,7 @@ Brave 有一个帮助服务，通过过滤在 VPN 连接上进行 DNS 查询的�
 <translation id="9061845622728745852">时区：</translation>
 <translation id="8295393906499561642">会话已过期</translation>
 <translation id="3312623558576021182">请登录您的<ph name="BRAVE_ACCOUNT_BEGIN"/> Brave 帐号<ph name="BRAVE_ACCOUNT_END"/>刷新您的 VPN 会话。</translation>
-<translation id="6021669293402055982">Brave VPN：已断开连接</translation>
 <translation id="7861195049821776142">Brave VPN：正在断开连接</translation>
-<translation id="958268166261124668">Brave VPN：已连接</translation>
 <translation id="2061807837510296780">Brave VPN：正在连接</translation>
 <translation id="1313124107969703758">Brave VPN：错误</translation>
 <translation id="8273420301954598554">状态：已连接</translation>
@@ -2318,7 +2315,4 @@ Brave 有一个帮助服务，通过过滤在 VPN 连接上进行 DNS 查询的�
 现有标签页</translation>
 <translation id="451189393813405346">询问 Leo</translation>
 <translation id="8525248723479742219">稍后播放</translation>
-<translation id="1450735350187803276">本月看到的广告</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">更改</translation>
 </translationbundle>

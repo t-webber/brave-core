@@ -639,7 +639,7 @@
 <translation id="2130699163006053678">A3x7</translation>
 <translation id="2132825047782982803">Варианты расположены в случайном порядке. Вы в любой момент можете изменить выбор.</translation>
 <translation id="2137891579555018930">Ожидание разрешения…</translation>
-<translation id="213826338245044447">Закладки на мобильном</translation>
+<translation id="213826338245044447">Мобильные закладки</translation>
 <translation id="2141000681034340397">Изменить введенные данные</translation>
 <translation id="2144171668675205303">Нет активных тем</translation>
 <translation id="2145193671493396738">Экономические новости</translation>
@@ -738,7 +738,7 @@
 <translation id="2288422996159078444">Все ваши действия в Интернете (текст, который вы набираете, страницы, которые просматриваете, и т. д.) отслеживаются, а контент сайтов может изменяться без вашего ведома.</translation>
 <translation id="2289385804009217824">Подрезание</translation>
 <translation id="2292556288342944218">Доступ в Интернет закрыт</translation>
-<translation id="2293443924986248631">Когда эта настройка включена, сайты не могут использовать файлы cookie, которые отслеживают ваши действия в Интернете. Из-за этого некоторые функции на сайтах могут работать некорректно.</translation>
+<translation id="2293443924986248631">Когда эта настройка включена, сайты не могут использовать файлы cookie, которые отслеживают ваши действия в интернете. Из-за этого некоторые функции на сайтах могут работать некорректно.</translation>
 <translation id="2295831393422400053">Включите параметр "Улучшить функции поиска и просмотра страниц", чтобы использовать генератор текстов</translation>
 <translation id="2296244067976588032">Ключ доступа • Связка ключей iCloud</translation>
 <translation id="2300306941146563769">Не загружен</translation>
@@ -927,7 +927,7 @@
 <translation id="2674170444375937751">Удалить эти страницы из истории посещений?</translation>
 <translation id="2674524144218093528">Малярные и отделочные работы</translation>
 <translation id="2674804415323431591">Скрыть подсказки</translation>
-<translation id="2677748264148917807">Закрыть</translation>
+<translation id="2677748264148917807">Выйти</translation>
 <translation id="2683195745483370038">Другие результаты</translation>
 <translation id="2686919536310834199">Оставить отзыв о генераторе текстов</translation>
 <translation id="2687555958734450033">Оптимальный вариант</translation>
@@ -1731,7 +1731,7 @@
 <translation id="6923879007831202776">Теперь Brave будет заполнять платежные данные только после подтверждения личности. Чтобы изменить это, перейдите в <ph name="IDS_AUTOFILL_MANDATORY_REAUTH_CONFIRMATION_SETTINGS_LINK"/>.</translation>
 <translation id="4159784952369912983">Фиолетовый</translation>
 <translation id="4165422751765527461">Откроется статья Справочного центра в новой вкладке</translation>
-<translation id="4165986682804962316">Настройки сайта</translation>
+<translation id="4165986682804962316">Настройки сайтов</translation>
 <translation id="4169535189173047238">Запретить</translation>
 <translation id="4171400957073367226">Подтверждающая подпись недействительна</translation>
 <translation id="4171489848299289778"><ph name="RESULT_MODIFIED_DATE"/> – <ph name="RESULT_OWNER"/> – <ph name="RESULT_PRODUCT_SOURCE"/></translation>
@@ -2614,7 +2614,7 @@
 <translation id="5866257070973731571">Добавьте номер телефона</translation>
 <translation id="5866898949289125849">Вы просматриваете страницу инструментов разработчика</translation>
 <translation id="5869405914158311789">Не удается получить доступ к сайту</translation>
-<translation id="5869522115854928033">Сайты с сохраненными паролями</translation>
+<translation id="5869522115854928033">Сохраненные пароли</translation>
 <translation id="5872692522325383488">Код IBAN сохранен</translation>
 <translation id="5873297634595728366">Дизельные автомобили</translation>
 <translation id="5877359070305966420">Кадровые ресурсы</translation>
@@ -3774,7 +3774,7 @@
 <translation id="7952327717479677595">Кнопка "Управление поисковыми системами". Нажмите ее, чтобы настроить поисковую систему по умолчанию и поиск по сайту.</translation>
 <translation id="7953236668995583915">Чтобы обновленные настройки вступили в силу для этого сайта, перезагрузите страницу.</translation>
 <translation id="7953569069500808819">Скобы по верхнему краю</translation>
-<translation id="7956713633345437162">Моб. закладки</translation>
+<translation id="7956713633345437162">Мобильные закладки</translation>
 <translation id="7961015016161918242">Нет</translation>
 <translation id="7962467575542381659">Устройство платформы</translation>
 <translation id="7966803981046576691">Тип аккаунта, в котором выполняется задание</translation>
@@ -4042,7 +4042,7 @@
 <translation id="8428213095426709021">Настройки</translation>
 <translation id="8428634594422941299">ОК</translation>
 <translation id="5808418475906247813"><ph name="MANAGE_COOKIES_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Нажмите Tab, а затем – Ввод, чтобы задать параметры файлов cookie в настройках Brave.</translation>
-<translation id="8433057134996913067">На большинстве сайтов будет выполнен выход из аккаунта.</translation>
+<translation id="8433057134996913067">На большинстве сайтов будет выполнен выход из аккаунта</translation>
 <translation id="8434840396568290395">Домашние животные</translation>
 <translation id="8436623588884785770">Добавить правило</translation>
 <translation id="8437238597147034694">&amp;Отменить перемещение</translation>
@@ -4309,7 +4309,7 @@
 <translation id="8968766641738584599">Сохранить карту</translation>
 <translation id="8970887620466824814">Произошла ошибка</translation>
 <translation id="8971063699422889582">Сертификат сервера устарел.</translation>
-<translation id="8975012916872825179">В том числе телефонные номера, адреса электронной почты и адреса доставки.</translation>
+<translation id="8975012916872825179">В том числе телефонные номера, адреса электронной почты и адреса доставки</translation>
 <translation id="8975263830901772334">Названия файлов, выведенных на печать.</translation>
 <translation id="8982884016487650216">Загрузка PDF завершена.</translation>
 <translation id="8983369100812962543">Теперь можно изменить размер приложения.</translation>

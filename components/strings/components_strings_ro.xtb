@@ -211,7 +211,7 @@
 <translation id="1357195169723583938">Cine a folosit dispozitivul recent și când</translation>
 <translation id="1358187717814494928">Creează o foaie</translation>
 <translation id="1359836962251219822">Bucătărie și masă</translation>
-<translation id="1361528602584216624">Limită per Pix: <ph name="TRANSACTION_LIMIT"/> BRL</translation>
+<translation id="1361528602584216624">Limită per Pix: <ph name="TRANSACTION_LIMIT"/> R$</translation>
 <translation id="1363015776076529485">Metodele de plată disponibile pentru a fi selectate pentru a continua plata, deschise la înălțimea completă.</translation>
 <translation id="1363028406613469049">Melodia</translation>
 <translation id="1364822246244961190">Politica este blocată, iar valoarea sa va fi ignorată.</translation>
@@ -3395,7 +3395,7 @@ Detalii suplimentare:
 <translation id="7275808129217605899">Alimentație sănătoasă</translation>
 <translation id="2837210582972105306"><ph name="CHANGE_GOOGLE_PASSWORD_FOCUSED_FRIENDLY_MATCH_TEXT"/>, apasă pe Tab, apoi pe Enter pentru a schimba parola Contului Brave</translation>
 <translation id="7292031607255951991">Numele destinatarului</translation>
-<translation id="7298195798382681320">Recomandate</translation>
+<translation id="7298195798382681320">Recomandat</translation>
 <translation id="7299471494012161875">dispozitivele periferice de afișare conectate;</translation>
 <translation id="7300012071106347854">Albastru cobalt</translation>
 <translation id="7304030187361489308">Înaltă</translation>

@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Matuto pa<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Huwag mag-alala.</translation>
 <translation id="5027616819996705541">Puwede ka pa ring mag-browse nang pribado!</translation>
-<translation id="1886682615222609631">Kita sa ngayon</translation>
+<translation id="1450735350187803276">Kita sa ngayon</translation>
 <translation id="7649070708921625228">Tulong</translation>
 <translation id="6042308850641462728">Higit pa</translation>
 <translation id="6245259297588415877">Mga creator</translation>
@@ -2217,8 +2217,8 @@
 <translation id="6821108091726602352">Tulungan kaming ayusin ang web sa pamamagitan ng paglahok sa Web Discovery Project ng Brave. Sa pamamagitan ng pagbabahagi ng ganap na walang pagkakakilanlang mga search signal, puwede mong tulungan ang Brave na palaguin ang search index.</translation>
 <translation id="6764845498618413165">Matuto Pa.</translation>
 <translation id="7818938154803162778">Oo, tutulong ako</translation>
-<translation id="7821773512278295352">Brave Firewall + VPN: Nakakonekta</translation>
-<translation id="6019088868713395120">Brave Firewall + VPN: Na-disconnect</translation>
+<translation id="958268166261124668">Brave Firewall + VPN: Nakakonekta</translation>
+<translation id="6021669293402055982">Brave Firewall + VPN: Na-disconnect</translation>
 <translation id="3541307549916475335">Brave VPN Panel UI</translation>
 <translation id="7143207342074048698">Kumokonekta</translation>
 <translation id="1202549130170287307">Pagdidiskonekta</translation>
@@ -2230,7 +2230,6 @@
 <translation id="3357036723290257445">Nakabili na ba ng Brave VPN?</translation>
 <translation id="8814357473522731680">Pinapagana ng</translation>
 <translation id="8652175077544655965">Isara ang mga setting</translation>
-<translation id="3099126540952997993">Firewall + VPN</translation>
 <translation id="5908163815855240493">Pumunta sa main page</translation>
 <translation id="7805768142964895445">Status</translation>
 <translation id="5747552184818312860">Mag-e-expire sa</translation>
@@ -2301,9 +2300,7 @@ Ikonekta ka natin!</translation>
 <translation id="9061845622728745852">Timezone:</translation>
 <translation id="8295393906499561642">Nag-expire ang session</translation>
 <translation id="3312623558576021182">Mag-log in sa iyong <ph name="BRAVE_ACCOUNT_BEGIN"/>Brave Account<ph name="BRAVE_ACCOUNT_END"/> para i-refresh ang iyong VPN session.</translation>
-<translation id="6021669293402055982">Brave VPN: Nakadiskonekta</translation>
 <translation id="7861195049821776142">Brave VPN: Dinidiskonekta</translation>
-<translation id="958268166261124668">Brave VPN: Nakakonekta</translation>
 <translation id="2061807837510296780">Brave VPN: Ikinokonekta</translation>
 <translation id="1313124107969703758">Brave VPN: Error</translation>
 <translation id="8273420301954598554">Status: Nakakonekta</translation>
@@ -2319,7 +2316,4 @@ Ikonekta ka natin!</translation>
    umiiral na tab</translation>
 <translation id="451189393813405346">Tanungin si Leo</translation>
 <translation id="8525248723479742219">I-play sa Ibang Pagkakataon</translation>
-<translation id="1450735350187803276">Mga ad na nakita ngayong buwan</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Baguhin</translation>
 </translationbundle>

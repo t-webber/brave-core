@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Läs mer<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Oroa dig inte.</translation>
 <translation id="5027616819996705541">Du kan fortfarande surfa privat.</translation>
-<translation id="1886682615222609631">Intäkter hittills</translation>
+<translation id="1450735350187803276">Intäkter hittills</translation>
 <translation id="7649070708921625228">Hjälp</translation>
 <translation id="6042308850641462728">Mer</translation>
 <translation id="6245259297588415877">Kreatörer</translation>
@@ -2217,8 +2217,8 @@
 <translation id="6821108091726602352">Hjälp oss att fixa webben genom att delta i Braves Web Discovery Project. Genom att dela helt anonyma söksignaler kan du hjälpa Brave att utöka sökindexet.</translation>
 <translation id="6764845498618413165">Läs mer.</translation>
 <translation id="7818938154803162778">Ok, jag hjälper till.</translation>
-<translation id="7821773512278295352">Brave Firewall + VPN: Ansluten</translation>
-<translation id="6019088868713395120">Brave Firewall + VPN: Frånkopplad</translation>
+<translation id="958268166261124668">Brave Firewall + VPN: Ansluten</translation>
+<translation id="6021669293402055982">Brave Firewall + VPN: Frånkopplad</translation>
 <translation id="3541307549916475335">Användargränssnitt för Brave VPN-panel</translation>
 <translation id="7143207342074048698">Ansluter</translation>
 <translation id="1202549130170287307">Kopplar från</translation>
@@ -2230,7 +2230,6 @@
 <translation id="3357036723290257445">Har du redan köpt Brave VPN?</translation>
 <translation id="8814357473522731680">Drivs av</translation>
 <translation id="8652175077544655965">Stäng inställningar</translation>
-<translation id="3099126540952997993">Brandvägg + VPN</translation>
 <translation id="5908163815855240493">Gå till startsidan</translation>
 <translation id="7805768142964895445">Status</translation>
 <translation id="5747552184818312860">Upphör att gälla</translation>
@@ -2301,9 +2300,7 @@ Dags att ansluta dig!</translation>
 <translation id="9061845622728745852">Tidszon:</translation>
 <translation id="8295393906499561642">Sessionen har upphört</translation>
 <translation id="3312623558576021182">Logga in till ditt <ph name="BRAVE_ACCOUNT_BEGIN"/>Brave-konto<ph name="BRAVE_ACCOUNT_END"/> för att uppdatera VPN-sessionen.</translation>
-<translation id="6021669293402055982">Brave VPN: Frånkopplad</translation>
 <translation id="7861195049821776142">Brave VPN: Kopplar från</translation>
-<translation id="958268166261124668">Brave VPN: Ansluten</translation>
 <translation id="2061807837510296780">Brave VPN: Ansluter</translation>
 <translation id="1313124107969703758">Brave VPN: Fel</translation>
 <translation id="8273420301954598554">Status: Ansluten</translation>
@@ -2318,7 +2315,4 @@ tryck på Tab och sedan på Retur för att växla till den öppna fliken</transl
 <translation id="1538335063514960365">Öppna här-knapp. tryck på Retur för att öppna den här webbadressen på den aktuella fliken, i stället för att växla till den befintliga fliken</translation>
 <translation id="451189393813405346">Fråga Leo</translation>
 <translation id="8525248723479742219">Spela upp senare</translation>
-<translation id="1450735350187803276">Annonser visade denna månad</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Ändra</translation>
 </translationbundle>

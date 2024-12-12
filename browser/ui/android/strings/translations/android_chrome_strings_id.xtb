@@ -320,7 +320,7 @@ Hanya orang yang memiliki frasa sandi Anda yang dapat membaca data terenkripsi A
 <translation id="254973855621628293">Sandi disimpan ke perangkat ini</translation>
 <translation id="2560519950693256002">Sandi yang disimpan ke <ph name="USERNAME"/> baru saja diperiksa</translation>
 <translation id="2567385386134582609">GAMBAR</translation>
-<translation id="5079947353572974060">Menawarkan pengiriman halaman dalam bahasa lain ke Brave Terjemahan</translation>
+<translation id="5079947353572974060">Tawarkan untuk mengirimkan halaman dalam bahasa lain ke Brave Terjemahan</translation>
 <translation id="2571834852878229351">Buat sandi saya sendiri</translation>
 <translation id="7242554556818074465">Untuk melihat tab Brave Anda dari perangkat lain, login ke semua perangkat Anda</translation>
 <translation id="8661556138616664061">Konten oleh Brave untuk anak-anak</translation>
@@ -332,7 +332,7 @@ Hanya orang yang memiliki frasa sandi Anda yang dapat membaca data terenkripsi A
 <translation id="260403163289591229">Mengikuti</translation>
 <translation id="2604446170045642109">Anda dapat menonaktifkan tema gelap untuk situs di setelan.</translation>
 <translation id="2607441479295509868">Logout. Login kembali untuk menggunakan bookmark, sandi, dan lainnya di akun Anda.</translation>
-<translation id="2612676031748830579">Nomor kartu kredit</translation>
+<translation id="2612676031748830579">Nomor kartu</translation>
 <translation id="2620314865574742210"><ph name="NAME"/> mengundang Anda untuk mengakses item yang dibagikan.</translation>
 <translation id="2625189173221582860">Sandi disalin</translation>
 <translation id="2630630219780173487">Anda dapat mencegah situs ini agar tidak mengirim notifikasi pada masa mendatang.</translation>
@@ -360,7 +360,7 @@ Hanya orang yang memiliki frasa sandi Anda yang dapat membaca data terenkripsi A
 <translation id="2723001399770238859">audio</translation>
 <translation id="2742373789128106053"><ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/> tidak tersedia untuk saat ini.</translation>
 <translation id="2760805590727089264">BB/TT</translation>
-<translation id="2760989362628427051">Mengaktifkan tema gelap ketika tema gelap perangkat atau Penghemat Baterai aktif</translation>
+<translation id="2760989362628427051">Aktifkan tema gelap ketika tema gelap perangkat atau Penghemat Baterai aktif</translation>
 <translation id="2762000892062317888">baru saja</translation>
 <translation id="276969039800130567">Login sebagai <ph name="USER_EMAIL_ADDRESS"/>.</translation>
 <translation id="8312774691909088652">Untuk setelan lainnya yang berkaitan dengan privasi, keamanan, dan pengumpulan data, lihat <ph name="BEGIN_LINK"/>Layanan Brave<ph name="END_LINK"/></translation>
@@ -909,7 +909,7 @@ Akun Brave Anda mungkin memiliki bentuk histori penjelajahan lain seperti penelu
 <translation id="534580735623577507">Tidak ada situs dari <ph name="TIME_PERIOD"/></translation>
 <translation id="5355191726083956201">Perlindungan yang Ditingkatkan aktif</translation>
 <translation id="4771279424883068914">URL halaman yang Anda beri masukan akan dikirim ke Brave dan mungkin akan ditinjau secara manual untuk meningkatkan fitur ini</translation>
-<translation id="5375577065097716013">Telusuri dengan Lens <ph name="BEGIN_NEW"/>Baru<ph name="END_NEW"/></translation>
+<translation id="5375577065097716013">Telusuri dengan Google Lens <ph name="BEGIN_NEW"/>Baru<ph name="END_NEW"/></translation>
 <translation id="4799771635362945886">Pastikan Anda selalu dapat menggunakan data Brave di Akun Brave Anda</translation>
 <translation id="539881862970320163">Sandi kuat disarankan. Keyboard disembunyikan.</translation>
 <translation id="5409881200985013443">Kirim <ph name="ONE_TIME_CODE"/> di <ph name="CLIENT_NAME"/>?</translation>
@@ -1467,7 +1467,7 @@ Untuk mengubah setelan ini, <ph name="BEGIN_LINK"/>hapus data Brave di akun Anda
 <translation id="7778840695157240389">Periksa kembali nanti untuk membaca artikel baru</translation>
 <translation id="7791543448312431591">Tambahkan</translation>
 <translation id="7798392620021911922">Memulihkan <ph name="TAB_COUNT"/> tab</translation>
-<translation id="780287761701992588">Mendapatkan bookmark, sandi, dan info Anda yang lain di semua perangkat Anda</translation>
+<translation id="780287761701992588">Dapatkan bookmark, sandi, dan info Anda yang lain di semua perangkat Anda</translation>
 <translation id="780301667611848630">Lain kali</translation>
 <translation id="7808889146555843082">Menghapus sandi ini tidak akan menghapus akun Anda di <ph name="SITE"/>. Ubah sandi Anda atau hapus akun Anda di <ph name="SITE"/> untuk menjaganya tetap aman dari orang lain.</translation>
 <translation id="7810647596859435254">Buka dengan...</translation>
@@ -1606,7 +1606,7 @@ Untuk mengubah setelan ini, <ph name="BEGIN_LINK"/>hapus data Brave di akun Anda
 <translation id="8393700583063109961">Kirim pesan</translation>
 <translation id="8402673309244746971">Buka feed Mengikuti</translation>
 <translation id="8413126021676339697">Tampilkan histori lengkap</translation>
-<translation id="5348884013239264115">Melindungi dari situs, download, dan ekstensi yang bereputasi berbahaya. Saat Anda membuka situs, Brave mengirimkan bagian URL yang di-obfuscate ke Brave melalui server privasi yang menyembunyikan alamat IP Anda. Jika situs melakukan hal yang mencurigakan, URL lengkap dan bit konten halaman juga akan dikirim.</translation>
+<translation id="5348884013239264115">Melindungi dari situs, download, dan ekstensi yang diketahui berbahaya. Saat Anda membuka situs, Brave mengirimkan bagian URL yang disamarkan ke Brave melalui server privasi yang menyembunyikan alamat IP Anda. Jika situs melakukan hal yang mencurigakan, URL lengkap dan bit konten halaman juga akan dikirim.</translation>
 <translation id="8414396119627470038">Login ke <ph name="SITE_ETLD_PLUS_ONE"/> dengan <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/></translation>
 <translation id="8419144699778179708">Menghapus histori, termasuk di kotak penelusuran</translation>
 <translation id="8419244640277402268">Sertakan</translation>
@@ -1733,7 +1733,7 @@ Untuk mengubah setelan ini, <ph name="BEGIN_LINK"/>hapus data Brave di akun Anda
 <translation id="8998289560386111590">Tidak tersedia di perangkat Anda</translation>
 <translation id="8998837250940831980">Tidak dapat memperkecil tab. Coba lagi nanti.</translation>
 <translation id="9007002441981613214">Memperbaiki masalah terkait sandi tersimpan</translation>
-<translation id="9012585441087414258">Melindungi dari situs, download, dan ekstensi yang bereputasi berbahaya. Jika halaman melakukan hal yang mencurigakan, URL dan contoh kecil konten halaman akan dikirim ke Google Safe Browsing.</translation>
+<translation id="9012585441087414258">Melindungi dari situs, download, dan ekstensi yang diketahui berbahaya. Jika halaman melakukan hal yang mencurigakan, URL dan contoh kecil konten halaman akan dikirim ke Google Safe Browsing.</translation>
 <translation id="9019199799064251516">Lanjutkan tanpa kunci profil mobil?</translation>
 <translation id="9022774213089566801">Sering dikunjungi</translation>
 <translation id="9022871169049522985">Situs dan pengiklan dapat mengukur performa iklannya</translation>
@@ -1789,7 +1789,7 @@ Untuk mengubah setelan ini, <ph name="BEGIN_LINK"/>hapus data Brave di akun Anda
 <translation id="4596514158372210596">Hapus aktivitas Brave Anda dari Kesehatan Digital</translation>
 <translation id="2830145431802238213">Gunakan Mode Ringan di Brave</translation>
 <translation id="928550791203542716">Mengikuti <ph name="SITE_NAME"/></translation>
-<translation id="930124987204876019">Menghapus histori, cookie, data situs, cache…</translation>
+<translation id="930124987204876019">Hapus histori, cookie, data situs, cache…</translation>
 <translation id="93533588269984624">Semua sandi akan didownload di perangkat Anda dan dihapus dari <ph name="CHROME_CHANNEL"/></translation>
 <translation id="938850635132480979">Kesalahan: <ph name="ERROR_CODE"/></translation>
 <translation id="939598580284253335">Masukkan frasa sandi</translation>

@@ -211,7 +211,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="1357195169723583938">Kas un kad nesen lietoja ierīci</translation>
 <translation id="1358187717814494928">Izveidot izklājlapu</translation>
 <translation id="1359836962251219822">Virtuves un ēdamistabas preces</translation>
-<translation id="1361528602584216624">Ierobežojums katram Pix maksājumam: <ph name="TRANSACTION_LIMIT"/> R$</translation>
+<translation id="1361528602584216624"><ph name="TRANSACTION_LIMIT"/> R$ ierobežojums katram Pix maksājumam</translation>
 <translation id="1363015776076529485">Maksājumu veidi, kurus var atlasīt maksājuma turpināšanai, ir atvērti pilnā augstumā.</translation>
 <translation id="1363028406613469049">Izsekošana</translation>
 <translation id="1364822246244961190">Šī politika ir bloķēta, tās vērtība tiks ignorēta.</translation>

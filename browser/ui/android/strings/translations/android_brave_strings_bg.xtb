@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="bg">
-<translation id="8631427463833030968">Управление на рекламите</translation>
 <translation id="7630214457764713113">Копиране на чиста връзка</translation>
-<translation id="885805571521218129">Това отразява диапазона на прогнозните Ви приходи за Brave Ads този месец.</translation>
 <translation id="3478449063771497234">Нотификациите са деактивирани</translation>
 <translation id="2862978891748913252">Изберете Вашата държава</translation>
 <translation id="3970520675790340955">Изберете вашата държава, за да можем да ви покажем правилните опции и реклами за вашия регион.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Добре дошли в Brave</translation>
 <translation id="4117451092682672487">Поверителност. Опростена.</translation>
 <translation id="7909375417585209817">Когато Brave е избран по подразбиране, всяка връзка, която докоснете, се отваря със защитите на поверителността на Brave.</translation>
-<translation id="3737878115109582442">Добавете уиджета за търсене</translation>
-<translation id="6199413390010319240">Вече можете да сърфирате по-бързо в мрежата с Brave.</translation>
-<translation id="4338600611020922010">Добавете към начален екран</translation>
 <translation id="7370959926683925817">Блокирайте реклами. Запазете своите данните. Всеки ден.</translation>
 <translation id="7281027579943912834">При използване на Brave по подразбиране всяка връзка, която натиснете, получава защитата на Brave против реклами. Отнася се за всяка страница, видеоклип и излъчване.</translation>
 <translation id="5148943178722443958">Помогнете ни да направим Brave по-добър.</translation>
@@ -842,7 +837,6 @@
 <translation id="4351811224047421378">Точност до десетични знаци</translation>
 <translation id="3494964159182650590">Резюме на наградите</translation>
 <translation id="590733288489975971">Награди от реклами</translation>
-<translation id="1886682615222609631">Приходи до момента</translation>
 <translation id="1767561995429774671">Принос</translation>
 <translation id="7335371657242627509">Включено в автоматичния принос</translation>
 <translation id="6727102863431372879">Настройване</translation>
@@ -1228,5 +1222,4 @@
 <translation id="2728518864712716830">Актуализацията е изтеглена.</translation>
 <translation id="8403338849301491865">Списъкът с филтри е успешно актуализиран</translation>
 <translation id="4650851936784160359">Списъкът с филтри не може да бъде актуализиран. Моля, опитайте отново</translation>
-<translation id="1450735350187803276">Реклами, видени този месец</translation>
 </translationbundle>

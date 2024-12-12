@@ -953,7 +953,7 @@
 <translation id="1654580009054503925">不允許顯示要求</translation>
 <translation id="1654713139320245449">找不到投放目的地。需要協助嗎？</translation>
 <translation id="1656528038316521561">背景不透明度</translation>
-<translation id="4711067597921221305">只要自動傳送使用統計資料及當機報告給 Brave，就能助我們一臂之力，讓「<ph name="PRODUCT_NAME"/>」更臻完美</translation>
+<translation id="4711067597921221305">只要自動傳送使用統計資料及當機報告給 Brave，就能助我們一臂之力，讓 <ph name="PRODUCT_NAME"/> 更臻完美</translation>
 <translation id="1657937299377480641">你必須要求家長授予權限，才能再次登入帳戶並存取教育資源</translation>
 <translation id="1658424621194652532">這個網頁正在存取你的麥克風。</translation>
 <translation id="1660763353352708040">電源變壓器發生問題</translation>
@@ -1238,7 +1238,7 @@
 <translation id="1865769994591826607">僅限同網站連線</translation>
 <translation id="186594096341696655">降低取樣率</translation>
 <translation id="186612162884103683">「<ph name="EXTENSION"/>」對於勾選位置中的圖片、影片和聲音檔，具有讀取和寫入權限。</translation>
-<translation id="1867780286110144690">「<ph name="PRODUCT_NAME"/>」已準備好完成安裝程序</translation>
+<translation id="1867780286110144690"><ph name="PRODUCT_NAME"/> 已準備好完成安裝程序</translation>
 <translation id="5547994882402969646">Brave 不支援密碼檢查功能</translation>
 <translation id="1868617395637139709">允許 Android 應用程式和服務使用位置資訊。</translation>
 <translation id="1869433484041798909">書籤按鈕</translation>
@@ -1476,7 +1476,7 @@
 <translation id="2031914984822377766">新增偏好的<ph name="LINK_BEGIN"/>網站語言<ph name="LINK_END"/>。系統會將文字翻譯成清單頂端的語言。</translation>
 <translation id="2034346955588403444">新增其他 WiFi 網路</translation>
 <translation id="203574396658008164">允許在螢幕鎖定狀態下建立記事</translation>
-<translation id="2037445849770872822">你已設定這個 Brave 帳戶的監督功能。如要設定更多家長監護功能，請選取 [繼續]。
+<translation id="2037445849770872822">你已設定這個 Brave 帳戶的監護功能。如要設定更多家長監護功能，請選取 [繼續]。
 
 如果不想繼續設定，請立即登出，你對這個帳戶所做的變更即會反映到此裝置上。
 
@@ -3239,7 +3239,7 @@
 <translation id="3308852433423051161">正在載入 Brave 助理…</translation>
 <translation id="3309124184713871355">建築作品</translation>
 <translation id="3309330461362844500">憑證設定檔 ID</translation>
-<translation id="331080746368555063">私人網站可能會納入貴公司的內部網路等項目</translation>
+<translation id="331080746368555063">私人網站可能會包含貴公司的內部網路等項目</translation>
 <translation id="3311445899360743395">系統可能會從這部裝置中移除與這個應用程式相關聯的資料。</translation>
 <translation id="3312470654018965389">正在設定 Linux 容器</translation>
 <translation id="365826660749219377">如要搜尋特定網站或 Brave，請在網址列輸入相應的搜尋捷徑，然後按下你慣用的鍵盤快速鍵。舉例來說，如果只要搜尋書籤，請輸入「@bookmarks」，然後按下 Tab 鍵或空白鍵。</translation>
@@ -3325,7 +3325,7 @@
 <translation id="3379268272734690">沙漠</translation>
 <translation id="3380365263193509176">未知的錯誤</translation>
 <translation id="3382073616108123819">糟糕！系統無法判別這個裝置的裝置 ID。</translation>
-<translation id="3382200254148930874">正在停用監督功能...</translation>
+<translation id="3382200254148930874">正在停用監護功能...</translation>
 <translation id="3382737653173267704">查看家庭群組</translation>
 <translation id="338323348408199233">封鎖沒有 VPN 連線的流量</translation>
 <translation id="3384362484379805487">為節省磁碟空間，語言檔案會由裝置的所有使用者共用。</translation>
@@ -5700,7 +5700,7 @@
 <translation id="5102244391872941183">系統服務和具有位置存取權的應用程式與網站可使用你的位置資訊</translation>
 <translation id="5103311607312269661">調高螢幕亮度</translation>
 <translation id="5106350808162641062">移除</translation>
-<translation id="510695978163689362"><ph name="USER_EMAIL"/> 目前受到 Family Link 的監督。你可以新增學校帳戶，以便在家長的監督之下存取學校資源。</translation>
+<translation id="510695978163689362"><ph name="USER_EMAIL"/> 目前受到 Family Link 的監護。你可以新增學校帳戶，以便在家長的監護之下存取學校資源。</translation>
 <translation id="5107093668001980925">永不顯示「<ph name="MODULE_NAME"/>」</translation>
 <translation id="5107443654503185812">某個擴充功能已停用安全瀏覽功能</translation>
 <translation id="5108967062857032718">設定 - 移除 Android 應用程式</translation>
@@ -5821,7 +5821,7 @@
 <translation id="5191094172448199359">你輸入的 PIN 碼不相符</translation>
 <translation id="5191251636205085390">進一步瞭解用於取代第三方 Cookie 的全新技術並進行控管</translation>
 <translation id="519185197579575131">使用 QT</translation>
-<translation id="5192062846343383368">開啟 Family Link 應用程式以查看監督功能設定</translation>
+<translation id="5192062846343383368">開啟 Family Link 應用程式以查看監護功能設定</translation>
 <translation id="5193485690196207310">{COUNT,plural, =1{1 個密碼金鑰}other{{COUNT} 個密碼金鑰}}</translation>
 <translation id="5193978546360574373">這麼做會移除這部 Chromebook 的 Brave 雲端硬碟存取權，包括已設為可離線存取的所有檔案存取權</translation>
 <translation id="5193988420012215838">已複製到剪貼簿</translation>
@@ -7066,7 +7066,7 @@
 <translation id="6127598727646973981">安全連線</translation>
 <translation id="7089529486065491663">系統已將所選資料從 Brave 和其他同步的裝置中移除。你的 Brave 帳戶仍可能保留了其他類型的瀏覽記錄，例如其他 Brave 服務中的搜尋和活動記錄 (可前往 <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> 查詢)。</translation>
 <translation id="6129938384427316298">Netscape 憑證評論</translation>
-<translation id="6129953537138746214">空格</translation>
+<translation id="6129953537138746214">空格鍵</translation>
 <translation id="6130692320435119637">新增 Wi-Fi</translation>
 <translation id="6130807998512240230">Phone Hub、鄰近分享</translation>
 <translation id="6130887916931372608">鍵盤按鍵</translation>
@@ -7768,7 +7768,7 @@
 <translation id="6659213950629089752">「<ph name="NAME"/>」擴充功能已調整這個頁面的大小</translation>
 <translation id="6659594942844771486">分頁</translation>
 <translation id="6660099350750552197"><ph name="WINDOW_TITLE"/> - 攝影機正在錄影</translation>
-<translation id="6660301751798595791">語音選項</translation>
+<translation id="6660301751798595791">語音選擇</translation>
 <translation id="6660819301598582123">敏捷的棕色狐狸跳過一條懶狗。</translation>
 <translation id="666099631117081440">印表機伺服器</translation>
 <translation id="6662931079349804328">企業政策已變更，[實驗性功能] 按鈕已從工具列移除。</translation>
@@ -9387,7 +9387,7 @@
 <translation id="7826254698725248775">裝置 ID 發生衝突。</translation>
 <translation id="7828642077514646543">錯誤：無法將憑證解碼</translation>
 <translation id="7829877209233347340">請要求家長登入，授予新增學校帳戶的權限</translation>
-<translation id="7830276128493844263">系統設定中的位置存取權為關閉狀態</translation>
+<translation id="7830276128493844263">系統設定中的定位服務為關閉狀態</translation>
 <translation id="7830833461614351956">要將 <ph name="NUM_OF_FILES"/> 個檔案複製到「<ph name="CLOUD_PROVIDER"/>」再開啟嗎？</translation>
 <translation id="7831754656372780761"><ph name="TAB_TITLE"/> <ph name="EMOJI_MUTING"/></translation>
 <translation id="7833720883933317473">你所儲存的自訂字詞會顯示在這裡</translation>
@@ -9866,7 +9866,7 @@
 <translation id="8155214519979960765">如要再次在這部裝置上使用密碼金鑰登入，請驗證身分。你也可以改用其他方式 (例如密碼) 登入帳戶。</translation>
 <translation id="8155676038687609779">{COUNT,plural, =0{沒有任何密碼外洩}=1{{COUNT} 組密碼外洩}other{{COUNT} 組密碼外洩}}</translation>
 <translation id="8157248655669507702">如要安裝 eSIM 卡設定檔，請啟用行動數據</translation>
-<translation id="8157704005178149728">正在設定監督功能</translation>
+<translation id="8157704005178149728">正在設定監護功能</translation>
 <translation id="8157849462797352650">裝置可享最新版的安全性、穩定性和效能更新</translation>
 <translation id="8158117992543756526">這部裝置已在 <ph name="MONTH_AND_YEAR"/>停止自動更新軟體和安全性。<ph name="LINK_BEGIN"/>瞭解詳情<ph name="LINK_END"/></translation>
 <translation id="8159652640256729753">接收相關操作 (如分割畫面和切換桌面等) 的震動確認。<ph name="LINK_BEGIN"/>瞭解詳情<ph name="LINK_END"/></translation>
@@ -10063,7 +10063,7 @@
 <translation id="8300374739238450534">午夜藍</translation>
 <translation id="8301242268274839723">請輕觸鍵盤左下角的指紋感應器。你的指紋資料會安全地儲存在「<ph name="DEVICE_TYPE"/>」上，絕不會外洩。</translation>
 <translation id="8303616404642252802">{COUNT,plural, =1{地址}other{# 個地址}}</translation>
-<translation id="8304383784961451596">你未獲授權，無法使用這個裝置。請與管理員聯絡，要求對方授予登入權限，或使用受 Family Link 監督的 Brave 帳戶登入。</translation>
+<translation id="8304383784961451596">你未獲授權，無法使用這個裝置。請與管理員聯絡，要求對方授予登入權限，或使用受 Family Link 監護的 Brave 帳戶登入。</translation>
 <translation id="8306063480506363120">移除雲端硬碟存取權</translation>
 <translation id="8306430106790753902">ChromeOS 網路路徑</translation>
 <translation id="8306885873692337975">取得最新功能和改善安全性的資訊。</translation>

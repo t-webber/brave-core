@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>بیشتر بدانید<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">نگران نباشید.</translation>
 <translation id="5027616819996705541">همچنان می‌توانید به‌صورت محرمانه به مرور اینترنت بپردازید!</translation>
-<translation id="1886682615222609631">درآمد تاکنون</translation>
+<translation id="1450735350187803276">درآمد تاکنون</translation>
 <translation id="7649070708921625228">راهنما</translation>
 <translation id="6042308850641462728">بیشتر</translation>
 <translation id="6245259297588415877">پدیدآورندگان</translation>
@@ -2217,8 +2217,8 @@
 <translation id="6821108091726602352">با مشارکت در پروژه کاوش وب Brave، به ما در برطرف کردن مشکل وب کمک کنید. با اشتراک‌گذاری سیگنال‌های جستجوی کاملاً ناشناس، می‌توانید به Brave کمک کنید شاخص جستجو را رشد دهد.</translation>
 <translation id="6764845498618413165">بیشتر بدانید.</translation>
 <translation id="7818938154803162778">حتماً، کمک خواهم کرد</translation>
-<translation id="7821773512278295352">فایروال Brave + ‏VPN: مت‏صل</translation>
-<translation id="6019088868713395120">فایروال Brave +‏ VPN: قطع</translation>
+<translation id="958268166261124668">فایروال Brave + ‏VPN: مت‏صل</translation>
+<translation id="6021669293402055982">فایروال Brave +‏ VPN: قطع</translation>
 <translation id="3541307549916475335">رابط کاربر پانل Brave VPN</translation>
 <translation id="7143207342074048698">در حال اتصال</translation>
 <translation id="1202549130170287307">در حال قطع اتصال</translation>
@@ -2230,7 +2230,6 @@
 <translation id="3357036723290257445">آیا قبلاً Brave VPN را خریداری کرده‌اید؟</translation>
 <translation id="8814357473522731680">تحت پشتیبانی</translation>
 <translation id="8652175077544655965">بستن تنظیمات</translation>
-<translation id="3099126540952997993">فایروال + VPN</translation>
 <translation id="5908163815855240493">رفتن به بخش اصلی</translation>
 <translation id="7805768142964895445">وضعیت</translation>
 <translation id="5747552184818312860">تاریخ انقضا</translation>
@@ -2301,9 +2300,7 @@ Brave یک سرویس کمکی دارد که با فیلتر کردن روشی �
 <translation id="9061845622728745852">منطقه زمانی</translation>
 <translation id="8295393906499561642">جلسه منقضی شد</translation>
 <translation id="3312623558576021182">لطفاً برای تازه‌سازی جلسه VPN خود وارد <ph name="BRAVE_ACCOUNT_BEGIN"/>حساب Brave<ph name="BRAVE_ACCOUNT_END"/> خود شوید.</translation>
-<translation id="6021669293402055982">Brave VPN: قطع شد</translation>
 <translation id="7861195049821776142">Brave VPN: در حال قطع اتصال</translation>
-<translation id="958268166261124668">Brave VPN: وصل شد</translation>
 <translation id="2061807837510296780">Brave VPN: در حال اتصال</translation>
 <translation id="1313124107969703758">Brave VPN: خطا</translation>
 <translation id="8273420301954598554">وضعیت: متصل</translation>
@@ -2318,7 +2315,4 @@ Brave یک سرویس کمکی دارد که با فیلتر کردن روشی �
 <translation id="1538335063514960365">دکمه اینجا را انتخاب کنید، Enter را فشار دهید تا این آدرس وب به جای خروج از زبانه، در زبانه فعلی باز شود</translation>
 <translation id="451189393813405346">از Leo بپرسید</translation>
 <translation id="8525248723479742219">بعداً پخش کنید</translation>
-<translation id="1450735350187803276">تبلیغاتی که این ماه مشاهده شده‌اند</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">تغییر</translation>
 </translationbundle>

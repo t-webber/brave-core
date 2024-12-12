@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Ketahui lebih lanjut<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Jangan bimbang.</translation>
 <translation id="5027616819996705541">Anda masih boleh menyemak imbas secara peribadi!</translation>
-<translation id="1886682615222609631">Pendapatan setakat ini</translation>
+<translation id="1450735350187803276">Pendapatan setakat ini</translation>
 <translation id="7649070708921625228">Bantuan</translation>
 <translation id="6042308850641462728">Lagi</translation>
 <translation id="6245259297588415877">Pencipta</translation>
@@ -2217,8 +2217,8 @@
 <translation id="6821108091726602352">Bantu kami membetulkan web dengan mengambil bahagian dalam Projek Penemuan Web Brave. Dengan berkongsi isyarat carian tanpa nama sepenuhnya, anda boleh membantu Brave mengembangkan indeks carian.</translation>
 <translation id="6764845498618413165">Ketahui Lebih Lanjut.</translation>
 <translation id="7818938154803162778">Sudah tentu, saya akan membantu</translation>
-<translation id="7821773512278295352">Tembok Api Brave + VPN: Disambungkan</translation>
-<translation id="6019088868713395120">Tembok Api Brave + VPN: Dinyahsambungkan</translation>
+<translation id="958268166261124668">Tembok Api Brave + VPN: Disambungkan</translation>
+<translation id="6021669293402055982">Tembok Api Brave + VPN: Dinyahsambungkan</translation>
 <translation id="3541307549916475335">UI Panel VPN Brave</translation>
 <translation id="7143207342074048698">Menyambung</translation>
 <translation id="1202549130170287307">Diputuskan sambungan</translation>
@@ -2230,7 +2230,6 @@
 <translation id="3357036723290257445">Sudah membeli Brave VPN?</translation>
 <translation id="8814357473522731680">Dikuasakan oleh</translation>
 <translation id="8652175077544655965">Tutup tetapan</translation>
-<translation id="3099126540952997993">Firewall + VPN</translation>
 <translation id="5908163815855240493">Pergi ke utama</translation>
 <translation id="7805768142964895445">Status</translation>
 <translation id="5747552184818312860">Tamat tempoh</translation>
@@ -2301,9 +2300,7 @@ Mari sambungkan anda!</translation>
 <translation id="9061845622728745852">Zon waktu:</translation>
 <translation id="8295393906499561642">Sesi luput</translation>
 <translation id="3312623558576021182">Sila log masuk ke <ph name="BRAVE_ACCOUNT_BEGIN"/>Akaun Brave<ph name="BRAVE_ACCOUNT_END"/> untuk menyegarkan semula sesi VPN anda.</translation>
-<translation id="6021669293402055982">VPN Brave: Diputuskan sambungan</translation>
 <translation id="7861195049821776142">VPN Brave: Memutuskan sambungan</translation>
-<translation id="958268166261124668">VPN Brave: Disambungkan</translation>
 <translation id="2061807837510296780">VPN Brave: Sedang membuat sambungan</translation>
 <translation id="1313124107969703758">VPN Brave: Ralat</translation>
 <translation id="8273420301954598554">Status: Disambungkan</translation>
@@ -2319,7 +2316,4 @@ Mari sambungkan anda!</translation>
     tab sedia ada</translation>
 <translation id="451189393813405346">Tanya Leo</translation>
 <translation id="8525248723479742219">Main Kemudian</translation>
-<translation id="1450735350187803276">Iklan dilihat bulan ini</translation>
-<translation id="3960619311638643872">VPN Brave</translation>
-<translation id="8425213833346101688">Tukar</translation>
 </translationbundle>

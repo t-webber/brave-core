@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Jifunze zaidi<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Usiwe na wasiwasi.</translation>
 <translation id="5027616819996705541">Bado unaweza kuvinjari kwa faragha!</translation>
-<translation id="1886682615222609631">Mapato kufikia sasa</translation>
+<translation id="1450735350187803276">Mapato kufikia sasa</translation>
 <translation id="7649070708921625228">Usaidizi</translation>
 <translation id="6042308850641462728">Zaidi</translation>
 <translation id="6245259297588415877">Watayarishi</translation>
@@ -2217,8 +2217,8 @@
 <translation id="6821108091726602352">Tusaidie kurekebisha wavuti kwa kushiriki katika Mradi wa Web Discovery wa Brave. Kwa kushiriki vidokezi vya utafutaji visivyokutambulisha hata kidogo, unaweza kusaidia Brave kukuza faharasa ya utafutaji.</translation>
 <translation id="6764845498618413165">Pata Maelezo Zaidi.</translation>
 <translation id="7818938154803162778">Sawa, nitashiriki</translation>
-<translation id="7821773512278295352">Brave Firewall + VPN: Vimeunganishwa</translation>
-<translation id="6019088868713395120">Brave Firewall + VPN: Havijaunganishwa</translation>
+<translation id="958268166261124668">Brave Firewall + VPN: Vimeunganishwa</translation>
+<translation id="6021669293402055982">Brave Firewall + VPN: Havijaunganishwa</translation>
 <translation id="3541307549916475335">UI ya Paneli ya VPN ya Brave</translation>
 <translation id="7143207342074048698">Inaunganisha</translation>
 <translation id="1202549130170287307">Inaondolewa</translation>
@@ -2230,7 +2230,6 @@
 <translation id="3357036723290257445">Tayari umenunua Brave VPN?</translation>
 <translation id="8814357473522731680">Inaendeshwa na</translation>
 <translation id="8652175077544655965">Funga mipangilio</translation>
-<translation id="3099126540952997993">Firewall na VPN</translation>
 <translation id="5908163815855240493">Nenda kwenye kuu</translation>
 <translation id="7805768142964895445">Hali</translation>
 <translation id="5747552184818312860">Muda wake unakwisha</translation>
@@ -2301,9 +2300,7 @@ Turuhusu tukuunganishe!</translation>
 <translation id="9061845622728745852">Saa za eneo:</translation>
 <translation id="8295393906499561642">Muda wa kikao umeisha</translation>
 <translation id="3312623558576021182">Tafadhali ingia katika <ph name="BRAVE_ACCOUNT_BEGIN"/>Akaunti yako ya Brave<ph name="BRAVE_ACCOUNT_END"/> ili kufungua upya kika chako cha VPN.</translation>
-<translation id="6021669293402055982">Brave VPN: Haijaunganishwa</translation>
 <translation id="7861195049821776142">Brave VPN: Inatenganisha</translation>
-<translation id="958268166261124668">Brave VPN: Imeunganishwa</translation>
 <translation id="2061807837510296780">Brave VPN: Inaunganisha</translation>
 <translation id="1313124107969703758">Brave VPN: Hitilafu</translation>
 <translation id="8273420301954598554">Hali: Imeunganishwa</translation>
@@ -2319,7 +2316,4 @@ Turuhusu tukuunganishe!</translation>
     kichupo kilichopo</translation>
 <translation id="451189393813405346">Uliza Leo</translation>
 <translation id="8525248723479742219">Cheza Baadaye</translation>
-<translation id="1450735350187803276">Matangazo yaliyoonekana mwezi huu</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Badilisha</translation>
 </translationbundle>

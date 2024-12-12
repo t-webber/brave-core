@@ -3099,7 +3099,7 @@ To inače blokiraju podešavanja privatnosti. To omogućava da sadržaj sa koji
 <translation id="6671169470640320959">Zajmovi za kupovinu automobila</translation>
 <translation id="6677351035258626477">Brza hrana</translation>
 <translation id="7207774923603194735">{FINANCIAL_ACCOUNT,plural, =1{Kada kupujete u Brave-u, pogledajte <ph name="FINANCIAL_ACCOUNT_TYPES"/> kao opciju}one{Kada kupujete u Brave-u, pogledajte <ph name="FINANCIAL_ACCOUNT_TYPES"/> kao opcije}few{Kada kupujete u Brave-u, pogledajte <ph name="FINANCIAL_ACCOUNT_TYPES"/> kao opcije}other{Kada kupujete u Brave-u, pogledajte <ph name="FINANCIAL_ACCOUNT_TYPES"/> kao opcije}}</translation>
-<translation id="7691784300114873847">Brave pregledač pokušava da unese lozinku na <ph name="APP_NAME"/>.</translation>
+<translation id="7691784300114873847">Brave pregledač pokušava da unese lozinku u <ph name="APP_NAME"/>.</translation>
 <translation id="6681790815630918386">CVC je sačuvan</translation>
 <translation id="6683022854667115063">Slušalice</translation>
 <translation id="6687230248707087982">Koverta (obična)</translation>

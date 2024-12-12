@@ -211,7 +211,7 @@ Vastasel korral blokeeritakse see teie privaatsusseadetes. See võimaldab teie k
 <translation id="1357195169723583938">Näitab seadme hiljutisi kasutajaid ja kasutamise aega</translation>
 <translation id="1358187717814494928">Loo arvutustabel</translation>
 <translation id="1359836962251219822">Kööginõud ja söögiriistad</translation>
-<translation id="1361528602584216624">Pixi limiit: <ph name="TRANSACTION_LIMIT"/> R$</translation>
+<translation id="1361528602584216624">Limiit Pixi kohta <ph name="TRANSACTION_LIMIT"/> R$</translation>
 <translation id="1363015776076529485">Saadaolevad makseviisid, mida saab maksmise jätkamiseks valida, on avatud täiskõrgusel.</translation>
 <translation id="1363028406613469049">Rada</translation>
 <translation id="1364822246244961190">See reegel on blokeeritud, selle väärtust eiratakse.</translation>
@@ -870,7 +870,7 @@ Vastasel korral blokeeritakse see teie privaatsusseadetes. See võimaldab teie k
 <translation id="2544644783021658368">Üks dokument</translation>
 <translation id="5342827302598046226">Sea Brave vaikebrauseriks</translation>
 <translation id="2545721997179863249">Tehti valik Sisestage kõik</translation>
-<translation id="2546283357679194313">Küpsised ja saidiandmed</translation>
+<translation id="2546283357679194313">Küpsised ja saidi andmed</translation>
 <translation id="254947805923345898">Reegli väärtus on kehtetu.</translation>
 <translation id="2549836668759467704">Ehitusalane nõustamine ja ehituslepingud</translation>
 <translation id="255002559098805027">Host <ph name="HOST_NAME"/> saatis sobimatu vastuse.</translation>

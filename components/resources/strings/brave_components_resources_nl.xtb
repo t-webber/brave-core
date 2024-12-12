@@ -541,7 +541,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Meer informatie<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Maakt u zich geen zorgen.</translation>
 <translation id="5027616819996705541">U kunt nog altijd privé browsen!</translation>
-<translation id="1886682615222609631">Verdiensten tot nu toe</translation>
+<translation id="1450735350187803276">Verdiensten tot nu toe</translation>
 <translation id="7649070708921625228">Hulp</translation>
 <translation id="6042308850641462728">Meer</translation>
 <translation id="6245259297588415877">Creators</translation>
@@ -1980,15 +1980,14 @@
 <translation id="6821108091726602352">Help ons het web beter te maken door deel te nemen aan het Web Discovery Project van Brave. Door volledig anoniem zoeksignalen te delen, kunt u Brave helpen de zoekindex uit te breiden.</translation>
 <translation id="6764845498618413165">Meer informatie.</translation>
 <translation id="7818938154803162778">Natuurlijk, ik wil helpen</translation>
-<translation id="7821773512278295352">Brave Firewall + VPN: verbonden</translation>
-<translation id="6019088868713395120">Brave Firewall + VPN: niet verbonden</translation>
+<translation id="958268166261124668">Brave Firewall + VPN: verbonden</translation>
+<translation id="6021669293402055982">Brave Firewall + VPN: niet verbonden</translation>
 <translation id="3541307549916475335">Gebruikersinterface Brave VPN-venster</translation>
 <translation id="7143207342074048698">Verbinding maken</translation>
 <translation id="2325196879156848326">Verbinden mislukt</translation>
 <translation id="745054660363064771">Kan geen verbinding maken met server</translation>
 <translation id="3936826714240735937">Andere server kiezen</translation>
 <translation id="8814357473522731680">Mogelijk gemaakt door</translation>
-<translation id="3099126540952997993">Firewall + VPN</translation>
 <translation id="7805768142964895445">Status</translation>
 <translation id="5747552184818312860">Verloopt</translation>
 <translation id="8421945428836418371">Automatisch opnieuw verbinden</translation>
@@ -2034,9 +2033,7 @@ We hebben echter gemerkt dat deze hulpservice niet actief is en we willen u toch
 <translation id="9061845622728745852">Tijdzone:</translation>
 <translation id="8295393906499561642">Sessie verlopen</translation>
 <translation id="3312623558576021182">Log in op uw <ph name="BRAVE_ACCOUNT_BEGIN"/>Brave-account<ph name="BRAVE_ACCOUNT_END"/> om uw VPN-sessie te vernieuwen.</translation>
-<translation id="6021669293402055982">Brave VPN: geen verbinding</translation>
 <translation id="7861195049821776142">Brave VPN: verbinding verbreken</translation>
-<translation id="958268166261124668">Brave VPN: verbonden</translation>
 <translation id="2061807837510296780">Brave VPN: verbinding maken</translation>
 <translation id="1313124107969703758">Brave VPN: fout</translation>
 <translation id="8273420301954598554">Status: verbonden</translation>
@@ -2052,7 +2049,4 @@ We hebben echter gemerkt dat deze hulpservice niet actief is en we willen u toch
     bestaande tabblad te gaan</translation>
 <translation id="451189393813405346">Vraag het Leo</translation>
 <translation id="8525248723479742219">Later afspelen</translation>
-<translation id="1450735350187803276">Advertenties bekeken deze maand</translation>
-<translation id="3960619311638643872">Brave-VPN</translation>
-<translation id="8425213833346101688">Wijzigen</translation>
 </translationbundle>

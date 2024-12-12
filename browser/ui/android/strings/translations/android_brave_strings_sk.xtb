@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="sk">
-<translation id="8631427463833030968">Spravovať reklamy</translation>
 <translation id="7630214457764713113">Kopírovať čisté prepojenie</translation>
-<translation id="885805571521218129">Toto odráža váš odhadovaný rozsah zárobkov za Brave Ads tento mesiac.</translation>
 <translation id="3478449063771497234">Upozornenia sú zakázané</translation>
 <translation id="2862978891748913252">Vyberte krajinu</translation>
 <translation id="3970520675790340955">Vyberte svoju krajinu, aby sme vám mohli zobraziť správne možnosti a reklamy pre váš región.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Víta vás prehliadač Brave</translation>
 <translation id="4117451092682672487">Jednoduchý spôsob ochrany vášho súkromia.</translation>
 <translation id="7909375417585209817">S Brave ako predvoleným prehliadačom sa každý odkaz, na ktorý ťuknete, otvorí s ochranou osobných údajov Brave.</translation>
-<translation id="3737878115109582442">Pridajte vyhľadávaciu miniaplikáciu</translation>
-<translation id="6199413390010319240">Majte Brave na dosah ruky a objavujte web rýchlejšie.</translation>
-<translation id="4338600611020922010">Pridajte na plochu</translation>
 <translation id="7370959926683925817">Blokovať reklamy. Uložiť dáta. Každý jeden deň.</translation>
 <translation id="7281027579943912834">Keď je Brave predvolený, každý odkaz, na ktorý klepnete, získa ochranu proti blokovaniu reklám Brave. Každá stránka, video a stream.</translation>
 <translation id="5148943178722443958">Pomôžte zlepšiť prehliadač Brave.</translation>
@@ -842,7 +837,6 @@ Ak túto žiadosť neprijmete, VPN sa znova nepripojí a vaše pripojenie na int
 <translation id="4351811224047421378">Počet desatinných miest presnosti</translation>
 <translation id="3494964159182650590">Súhrn odmien</translation>
 <translation id="590733288489975971">Odmeny za reklamy</translation>
-<translation id="1886682615222609631">Doterajšie zisky</translation>
 <translation id="1767561995429774671">Prispieť</translation>
 <translation id="7335371657242627509">Zapojte do automatického prispievania</translation>
 <translation id="6727102863431372879">Nastaviť</translation>
@@ -1228,5 +1222,4 @@ Ak túto žiadosť neprijmete, VPN sa znova nepripojí a vaše pripojenie na int
 <translation id="2728518864712716830">Aktualizácia je stiahnutá.</translation>
 <translation id="8403338849301491865">Zoznam filtrov je úspešne aktualizovaný</translation>
 <translation id="4650851936784160359">Zoznam filtrov sa nepodarilo aktualizovať. Skúste to znova</translation>
-<translation id="1450735350187803276">Reklamy zobrazené tento mesiac</translation>
 </translationbundle>

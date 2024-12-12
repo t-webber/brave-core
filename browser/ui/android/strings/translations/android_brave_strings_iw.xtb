@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="iw">
-<translation id="8631427463833030968">נהל הודעות</translation>
 <translation id="7630214457764713113">העתק קישור נקי</translation>
-<translation id="885805571521218129">זה משקף את טווח הרווחים המשוער שלך עבור מודעות Brave החודש.</translation>
 <translation id="3478449063771497234">ההתראות מושבתות</translation>
 <translation id="2862978891748913252">בחר את המדינה שלך</translation>
 <translation id="3970520675790340955">בחר את המדינה שלך כדי שנוכל להראות לך את האפשרויות והמודעות הנכונות עבור האזור שלך.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">ברוכים הבאים ל-Brave</translation>
 <translation id="4117451092682672487">פרטיות. בפשטות.</translation>
 <translation id="7909375417585209817">עם Brave כברירת מחדל, כל קישור שאתם מקישים עליו נפתח עם הגנות הפרטיות של Brave.</translation>
-<translation id="3737878115109582442">הוספת ווידג'ט החיפוש</translation>
-<translation id="6199413390010319240">Brave בקצות האצבעות שלך כדי שתוכל למצוא הכל מהר יותר.</translation>
-<translation id="4338600611020922010">הוספה למסך הבית</translation>
 <translation id="7370959926683925817">חסום פרסומות. שמור מידע. כל יום.</translation>
 <translation id="7281027579943912834">עם Brave כברירת מחדל, כל קישור שאתה מקיש מקבל את הגנת חסימת המודעות של Brave. כל עמוד, סרטון וזרם.</translation>
 <translation id="5148943178722443958">עזרו לנו להפוך את Brave לטוב יותר.</translation>
@@ -843,7 +838,6 @@
 <translation id="4351811224047421378">רמת דיוק עשרוני</translation>
 <translation id="3494964159182650590">סיכום תגמולים</translation>
 <translation id="590733288489975971">תגמולים מפרסומות</translation>
-<translation id="1886682615222609631">רווחים עד כה</translation>
 <translation id="1767561995429774671">תרמו</translation>
 <translation id="7335371657242627509">כלול בתרומות העצמיות</translation>
 <translation id="6727102863431372879">הגדר</translation>
@@ -1229,5 +1223,4 @@
 <translation id="2728518864712716830">העדכון הורד</translation>
 <translation id="8403338849301491865">רשימת הסינון עודכנה בהצלחה</translation>
 <translation id="4650851936784160359">רשימת הסינון לא ניתנת לעדכון. אנא נסה שוב.</translation>
-<translation id="1450735350187803276">מודעות שנצפו החודש</translation>
 </translationbundle>

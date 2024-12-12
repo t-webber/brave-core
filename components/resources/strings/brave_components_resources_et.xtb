@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Lisateave<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Ärge muretsege.</translation>
 <translation id="5027616819996705541">Te saate ikkagi privaatselt sirvida.</translation>
-<translation id="1886682615222609631">Senine tulu</translation>
+<translation id="1450735350187803276">Senine tulu</translation>
 <translation id="7649070708921625228">Abi</translation>
 <translation id="6042308850641462728">Rohkem</translation>
 <translation id="6245259297588415877">Loojad</translation>
@@ -2216,8 +2216,8 @@
 <translation id="6821108091726602352">Aidake meil veebi parandada, osaledes Brave'i veebi avastusprojektis. Jagades täiesti anonüümseid otsingusignaale, saate aidata Brave'il kasvatada otsinguindeksit.</translation>
 <translation id="6764845498618413165">Lugege edasi.</translation>
 <translation id="7818938154803162778">Muidugi ma aitan</translation>
-<translation id="7821773512278295352">Brave'i tulemüür + VPN: ühendatud</translation>
-<translation id="6019088868713395120">Brave'i tulemüür + VPN: ühenduseta</translation>
+<translation id="958268166261124668">Brave'i tulemüür + VPN: ühendatud</translation>
+<translation id="6021669293402055982">Brave'i tulemüür + VPN: ühenduseta</translation>
 <translation id="3541307549916475335">Brave'i VPN-i paneeli kasutajaliides</translation>
 <translation id="7143207342074048698">Ühendamine</translation>
 <translation id="1202549130170287307">Ühenduse katkestamine</translation>
@@ -2229,7 +2229,6 @@
 <translation id="3357036723290257445">Kas Brave VPN on juba ostetud?</translation>
 <translation id="8814357473522731680">Platvorm:</translation>
 <translation id="8652175077544655965">Sule seaded</translation>
-<translation id="3099126540952997993">Tulemüür + VPN</translation>
 <translation id="5908163815855240493">Minge pealehele</translation>
 <translation id="7805768142964895445">Olek</translation>
 <translation id="5747552184818312860">Aegub</translation>
@@ -2300,9 +2299,7 @@ Saate alati WireGuardi juurde tagasi pöörduda aadressil brave://settings/syste
 <translation id="9061845622728745852">Ajavöönd:</translation>
 <translation id="8295393906499561642">Seanss on aegunud</translation>
 <translation id="3312623558576021182">VPN-seansi värskendamiseks logige sisse oma <ph name="BRAVE_ACCOUNT_BEGIN"/>Brave’i kontole<ph name="BRAVE_ACCOUNT_END"/>.</translation>
-<translation id="6021669293402055982">Brave'i VPN: ei ole ühendatud</translation>
 <translation id="7861195049821776142">Brave'i VPN: ühenduse katkestamine</translation>
-<translation id="958268166261124668">Brave'i VPN: ühendatud</translation>
 <translation id="2061807837510296780">Brave'i VPN: ühenduse loomine</translation>
 <translation id="1313124107969703758">Brave'i VPN: viga</translation>
 <translation id="8273420301954598554">Olek: ühendatud</translation>
@@ -2318,7 +2315,4 @@ vajutage tabeldusklahvi ja sisestusklahvi, et teha avatud vaheleht aktiivseks</t
 olemasoleval vahelehel</translation>
 <translation id="451189393813405346">Küsi Leolt</translation>
 <translation id="8525248723479742219">Esita hiljem</translation>
-<translation id="1450735350187803276">Sellel kuul nähtud reklaamid</translation>
-<translation id="3960619311638643872">Brave'i VPN</translation>
-<translation id="8425213833346101688">Muuda</translation>
 </translationbundle>

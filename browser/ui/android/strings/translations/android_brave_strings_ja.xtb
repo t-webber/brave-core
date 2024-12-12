@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="ja">
-<translation id="8631427463833030968">広告を管理</translation>
 <translation id="7630214457764713113">クリーンリンクをコピー</translation>
-<translation id="885805571521218129">これは、今月のBrave広告の推定収益範囲を反映しています。</translation>
 <translation id="3478449063771497234">通知は無効です</translation>
 <translation id="2862978891748913252">国を選択</translation>
 <translation id="3970520675790340955">お住まいの国を選択すると、その地域に合ったオプションや広告が表示されます。</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Braveへようこそ</translation>
 <translation id="4117451092682672487">シンプルに、プライバシーを保護。</translation>
 <translation id="7909375417585209817">Braveをデフォルトで使用すると、タップしたすべてのリンクがBrave流のプライバシー保護モードで開かれます。</translation>
-<translation id="3737878115109582442">検索ウィジェットを追加</translation>
-<translation id="6199413390010319240">Braveを活用してWebをより速く検索しましょう。</translation>
-<translation id="4338600611020922010">ホーム画面に追加</translation>
 <translation id="7370959926683925817">広告をブロックする。データを節約する。毎日、毎日。</translation>
 <translation id="7281027579943912834">Braveをデフォルトで使用すると、タップしたすべてのリンクにBraveの広告ブロックが適用されます。すべてのページ、ビデオ、ストリームにです。</translation>
 <translation id="5148943178722443958">Braveの品質向上にご協力ください。</translation>
@@ -842,7 +837,6 @@
 <translation id="4351811224047421378">小数点桁数</translation>
 <translation id="3494964159182650590">リワードの概要</translation>
 <translation id="590733288489975971">Adsによる報酬</translation>
-<translation id="1886682615222609631">これまでの収益</translation>
 <translation id="1767561995429774671">寄付</translation>
 <translation id="7335371657242627509">自動支援の対象に含める</translation>
 <translation id="6727102863431372879">設定</translation>
@@ -1228,5 +1222,4 @@
 <translation id="2728518864712716830">アップデートをダウンロードしました。</translation>
 <translation id="8403338849301491865">フィルターリストを更新しました</translation>
 <translation id="4650851936784160359">フィルターリストを更新できませんでした。もう一度お試しください</translation>
-<translation id="1450735350187803276">今月見た広告</translation>
 </translationbundle>

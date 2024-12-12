@@ -212,7 +212,7 @@ Aks holda bu maxfiylik sozlamalaringiz tomonidan bloklanadi. Bunda siz ochgan sa
 <translation id="1358187717814494928">Jadval yaratish</translation>
 <translation id="1359836962251219822">Oshxona va ovqatlanish</translation>
 <translation id="5497977785983089120">Maxfiy koʻrish uchun yangi inkognito oynasida ochish</translation>
-<translation id="1361528602584216624">Pix limiti: R$ <ph name="TRANSACTION_LIMIT"/></translation>
+<translation id="1361528602584216624">Pix limiti <ph name="TRANSACTION_LIMIT"/> R$</translation>
 <translation id="1363015776076529485">Tanlab ishlatiladigan toʻlov usullari roʻyxati toʻliq hajmda ochildi.</translation>
 <translation id="1363028406613469049">Treking</translation>
 <translation id="1364822246244961190">Bu siyosat bloklangan, qiymati hisobga olinmaydi.</translation>

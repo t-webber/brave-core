@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Več o tem<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Ne skrbite.</translation>
 <translation id="5027616819996705541">Še vedno lahko brskate zasebno!</translation>
-<translation id="1886682615222609631">Dosedanji zaslužek</translation>
+<translation id="1450735350187803276">Dosedanji zaslužek</translation>
 <translation id="7649070708921625228">Pomoč</translation>
 <translation id="6042308850641462728">Več</translation>
 <translation id="6245259297588415877">Ustvarjalci</translation>
@@ -2229,8 +2229,8 @@ other {Brave ščiti so blokirali {BLOCKED_COUNT} sledilce na <ph name="SITE_URL
 <translation id="6821108091726602352">Pomagaj nam popraviti splet s sodelovanjem v projektu Brave Web Discovery Project. Z deljenjem popolnoma anonimnih iskalnih signalov lahko podjetju Brave pomagaš povečati iskalni indeks.</translation>
 <translation id="6764845498618413165">Izvedi več.</translation>
 <translation id="7818938154803162778">Seveda, pomagal bom</translation>
-<translation id="7821773512278295352">Požarni zid Brave + VPN: povezano</translation>
-<translation id="6019088868713395120">Požarni zid Brave + VPN: prekinjena povezava</translation>
+<translation id="958268166261124668">Požarni zid Brave + VPN: povezano</translation>
+<translation id="6021669293402055982">Požarni zid Brave + VPN: prekinjena povezava</translation>
 <translation id="3541307549916475335">Uporabniški vmesnik plošče Brave VPN</translation>
 <translation id="7143207342074048698">Vzpostavljanje povezave</translation>
 <translation id="1202549130170287307">Prekinitev povezave</translation>
@@ -2242,7 +2242,6 @@ other {Brave ščiti so blokirali {BLOCKED_COUNT} sledilce na <ph name="SITE_URL
 <translation id="3357036723290257445">Ste že kupili VPN Brave?</translation>
 <translation id="8814357473522731680">Poganja</translation>
 <translation id="8652175077544655965">Zaprite nastavitve</translation>
-<translation id="3099126540952997993">Požarni zid + VPN</translation>
 <translation id="5908163815855240493">Na glavno stran</translation>
 <translation id="7805768142964895445">Status</translation>
 <translation id="5747552184818312860">Poteče</translation>
@@ -2307,9 +2306,7 @@ Vzpostavimo povezavo!</translation>
 <translation id="9061845622728745852">Časovni pas</translation>
 <translation id="8295393906499561642">Seja je potekla</translation>
 <translation id="3312623558576021182">Vpišite se v svoj<ph name="BRAVE_ACCOUNT_BEGIN"/>uporabniški račun Brave<ph name="BRAVE_ACCOUNT_END"/> in osvežite svojo sejo VPN.</translation>
-<translation id="6021669293402055982">Brave VPN: povezava prekinjena</translation>
 <translation id="7861195049821776142">Brave VPN: Prekinitev povezave</translation>
-<translation id="958268166261124668">Brave VPN: povezan</translation>
 <translation id="2061807837510296780">Brave VPN: Povezovanje</translation>
 <translation id="1313124107969703758">Brave VPN: napaka</translation>
 <translation id="8273420301954598554">Stanje: povezan</translation>
@@ -2325,7 +2322,4 @@ pritisnite Tab in nato Enter, da preklopite na odprti zavihek</translation>
      obstoječi zavihek</translation>
 <translation id="451189393813405346">Vprašaj Lea</translation>
 <translation id="8525248723479742219">Predvajaj kasneje</translation>
-<translation id="1450735350187803276">Oglasi, ogledani ta mesec</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Spremeni</translation>
 </translationbundle>

@@ -352,7 +352,7 @@ Only someone with your passphrase can read your encrypted data. The passphrase i
 <translation id="2669454659051515572">Anyone using this device can see downloaded files</translation>
 <translation id="2702516483241149200">New: Share a link that scrolls to this text</translation>
 <translation id="2705073298859543115">Create summary</translation>
-<translation id="3769942772151914580">Real-time, proactive protection against dangerous sites, downloads, and extensions that’s based on your browsing data getting sent to Brave</translation>
+<translation id="3769942772151914580">Real-time, proactive protection against dangerous sites, downloads and extensions that are based on your browsing data getting sent to Brave</translation>
 <translation id="2708226184420201102">Open in <ph name="PRODUCT_NAME"/> browser</translation>
 <translation id="271033894570825754">New</translation>
 <translation id="2718352093833049315">Only on Wi-Fi</translation>
@@ -526,7 +526,7 @@ Only someone with your passphrase can read your encrypted data. The passphrase i
 <translation id="3518985090088779359">Accept &amp; continue</translation>
 <translation id="3521388823983121502">Can't continue with <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/>.</translation>
 <translation id="3522247891732774234">Update available. More options</translation>
-<translation id="3888465267851728698">You can stop syncing at any time in settings. Brave may personalise Search and other services based on your history.</translation>
+<translation id="3888465267851728698">You can stop syncing at any time in Settings. Brave may personalise Search and other services based on your history.</translation>
 <translation id="3524138585025253783">Developer UI</translation>
 <translation id="3524334353996115845">Let <ph name="ORIGIN"/> verify that it's you</translation>
 <translation id="3527085408025491307">Folder</translation>
@@ -1250,7 +1250,7 @@ For example, some websites may respond to this request by showing you ads that a
 <translation id="686366188661646310">Delete password?</translation>
 <translation id="6864459304226931083">Download image</translation>
 <translation id="686490460830618322">App filter sheet</translation>
-<translation id="6865313869410766144">Auto-fill form data</translation>
+<translation id="6865313869410766144">Autofill form data</translation>
 <translation id="1565666992559765293">Addresses aren't encrypted with your passphrase. This lets you use them in other Brave services.</translation>
 <translation id="6869056123412990582">computer</translation>
 <translation id="6880903702195291049">Permissions look good</translation>
@@ -1319,7 +1319,7 @@ For example, some websites may respond to this request by showing you ads that a
 <translation id="7140829094791862589">Sort by manual order</translation>
 <translation id="7146622961999026732">These sites and apps seem important to you:</translation>
 <translation id="7148400116894863598"><ph name="BEGIN_LINK"/>Get more information<ph name="END_LINK"/> from <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/>.</translation>
-<translation id="7149893636342594995">Last 24 Hours</translation>
+<translation id="7149893636342594995">Last 24 hours</translation>
 <translation id="1206376179559420424">Passphrase encryption doesn't include payment methods and addresses from Google Pay.
 
 To change this setting, <ph name="BEGIN_LINK"/>delete the Brave data in your account<ph name="END_LINK"/>.</translation>

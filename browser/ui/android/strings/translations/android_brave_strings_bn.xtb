@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="bn">
-<translation id="8631427463833030968">বিজ্ঞাপন পরিচালনা করুন</translation>
 <translation id="7630214457764713113">ক্লিন লিঙ্ক কপি করুন</translation>
-<translation id="885805571521218129">এটি এই মাসে Brave বিজ্ঞাপনের জন্য আপনার আনুমানিক আয়ের পরিমাণ দেখায়।</translation>
 <translation id="3478449063771497234">বিজ্ঞপ্তি নিষ্ক্রিয় করা হয়েছে</translation>
 <translation id="2862978891748913252">আপনার দেশ নির্বাচন করুন</translation>
 <translation id="3970520675790340955">আপনার দেশ বেছে নিন যাতে আমরা আপনাকে আপনার অঞ্চলের জন্য সঠিক বিকল্প এবং বিজ্ঞাপন দেখাতে পারি।</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Brave-এ আপনাকে স্বাগত</translation>
 <translation id="4117451092682672487">গোপনীয়তা। সহজ করা হয়েছে।</translation>
 <translation id="7909375417585209817">ডিফল্ট হিসাবে Brave-এর মাধ্যমে, আপনি যে লিঙ্কেই ক্লিক করবেন সেটি Brave-এর গোপনীয়তা সুরক্ষার মাধ্যমে খুলবে।</translation>
-<translation id="3737878115109582442">অনুসন্ধান উইজেট যোগ করুন</translation>
-<translation id="6199413390010319240">দ্রুত ওয়েব অন্বেষণ করতে আপনি Brave নখদর্পণে রাখুন।</translation>
-<translation id="4338600611020922010">হোম স্ক্রিনে যোগ করুন</translation>
 <translation id="7370959926683925817">বিজ্ঞাপন ব্লক করুন। তথ্য সংরক্ষন করুন। প্রতি এক দিন।</translation>
 <translation id="7281027579943912834">Brave ডিফল্ট হিসাবে, আপনার ট্যাপ করা প্রতিটি লিঙ্ক Brave-এর বিজ্ঞাপন-ব্লক সুরক্ষা পায়। প্রতিটি পৃষ্ঠা, ভিডিও এবং স্ট্রিম।</translation>
 <translation id="5148943178722443958">Brave কে আরও ভালো করে তুলতে সাহায্য করুন৷।</translation>
@@ -842,7 +837,6 @@
 <translation id="4351811224047421378">নির্ভুলতার দশমিক</translation>
 <translation id="3494964159182650590">রিওয়ার্ডসের সংক্ষিপ্তসার</translation>
 <translation id="590733288489975971">বিজ্ঞাপন থেকে পুরস্কার</translation>
-<translation id="1886682615222609631">এখনও অবধি উপার্জন</translation>
 <translation id="1767561995429774671">অবদান রাখুন</translation>
 <translation id="7335371657242627509">স্বয়ংক্রিয়ভাবে অবদান রাখায় অন্তর্ভুক্ত করুন</translation>
 <translation id="6727102863431372879">সেট করুন</translation>
@@ -1228,5 +1222,4 @@
 <translation id="2728518864712716830">আপডেট ডাউনলোড করা হয়েছে।</translation>
 <translation id="8403338849301491865">ফিল্টারের তালিকা সফলভাবে আপডেট করা হয়েছে</translation>
 <translation id="4650851936784160359">ফিল্টারের তালিকা আপডেট করা যায়নি। অনুগ্রহ করে আবার চেষ্টা করুন</translation>
-<translation id="1450735350187803276">এই মাসে দেখা বিজ্ঞাপনগুলি</translation>
 </translationbundle>

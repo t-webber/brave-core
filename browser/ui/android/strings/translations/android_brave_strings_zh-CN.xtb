@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="zh-CN">
-<translation id="8631427463833030968">管理广告</translation>
 <translation id="7630214457764713113">复制干净的链接</translation>
-<translation id="885805571521218129">这反映了你对本月Brave 广告的预期收益范围。</translation>
 <translation id="3478449063771497234">通知被禁用</translation>
 <translation id="2862978891748913252">选择国家/地点</translation>
 <translation id="3970520675790340955">请选择您所在的国家/地区，以便我们为您提供适合您所在地区的正确选项和广告。</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">欢迎使用 Brave</translation>
 <translation id="4117451092682672487">轻松保护个人隐私。</translation>
 <translation id="7909375417585209817">只要将 Brave 作为默认设置，您轻击的每个链接都会在 Brave 的隐私保护下打开。</translation>
-<translation id="3737878115109582442">添加搜索小工具</translation>
-<translation id="6199413390010319240">让 Brave 触手可及，让你更快探索网络。</translation>
-<translation id="4338600611020922010">添加到主屏幕</translation>
 <translation id="7370959926683925817">每一天都屏蔽广告、保存数据。</translation>
 <translation id="7281027579943912834">如果将 Brave 设置为默认，您点击的每个链接都会受到 Brave 的广告屏蔽保护。每个页面、每个视频和每个流都会受到保护。</translation>
 <translation id="5148943178722443958">帮助让 Brave 变得更好。</translation>
@@ -842,7 +837,6 @@
 <translation id="4351811224047421378">精确小数点</translation>
 <translation id="3494964159182650590">奖励摘要</translation>
 <translation id="590733288489975971">广告奖励</translation>
-<translation id="1886682615222609631">截止目前的收益</translation>
 <translation id="1767561995429774671">贡献</translation>
 <translation id="7335371657242627509">包含在自动贡献中</translation>
 <translation id="6727102863431372879">设定</translation>
@@ -1228,5 +1222,4 @@
 <translation id="2728518864712716830">已下载更新。</translation>
 <translation id="8403338849301491865">筛选器列表更新成功</translation>
 <translation id="4650851936784160359">无法更新筛选器列表。请重试</translation>
-<translation id="1450735350187803276">本月看到的广告</translation>
 </translationbundle>

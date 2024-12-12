@@ -211,7 +211,7 @@ De lo contrario, la configuración de privacidad bloqueará esta acción. Esto p
 <translation id="1357195169723583938">Quién usó el dispositivo recientemente y cuándo</translation>
 <translation id="1358187717814494928">Crear hoja de cálculo</translation>
 <translation id="1359836962251219822">Cocina</translation>
-<translation id="1361528602584216624">Límite por Pix: R$ <ph name="TRANSACTION_LIMIT"/></translation>
+<translation id="1361528602584216624">Límite de R$ <ph name="TRANSACTION_LIMIT"/> por Pix</translation>
 <translation id="1363015776076529485">Las formas de pago disponibles para seleccionar y continuar con el pago están abiertas en su totalidad.</translation>
 <translation id="1363028406613469049">Seguimiento</translation>
 <translation id="1364822246244961190">Como esta política está bloqueada, se omitirá su valor.</translation>
@@ -2521,7 +2521,7 @@ De lo contrario, la configuración de privacidad bloqueará esta acción. Esto p
 <translation id="5675809467256309336">Música dance y electrónica</translation>
 <translation id="5675959228867414813">Mostrar por fecha</translation>
 <translation id="567604591393105935">La hoja inferior del comercio está abierta a media altura</translation>
-<translation id="5677928146339483299">Bloqueadas</translation>
+<translation id="5677928146339483299">Bloqueados</translation>
 <translation id="5678007133659493065">Lámina</translation>
 <translation id="5680642791693447368">Películas de suspenso, crimen y misterio</translation>
 <translation id="568292603005599551">Posición en el eje X de la imagen</translation>
@@ -3052,7 +3052,7 @@ De lo contrario, la configuración de privacidad bloqueará esta acción. Esto p
 <translation id="6678472970290886941">El administrador puede cambiar la configuración de tu navegador de forma remota. Es posible que la actividad en este dispositivo también se administre fuera de Brave.</translation>
 <translation id="6648524591329069940">Fuente Serif</translation>
 <translation id="6649510485211003056">195 × 270 mm</translation>
-<translation id="6651270836885078973">Administrador:</translation>
+<translation id="6651270836885078973">Administrado por:</translation>
 <translation id="6652101503459149953">Usar Windows Hello</translation>
 <translation id="6654224358955673568">Usar un tono más formal</translation>
 <translation id="6654244995031366386">Vidrio (texturado)</translation>

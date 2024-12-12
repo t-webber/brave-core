@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="ko">
-<translation id="8631427463833030968">광고 관리</translation>
 <translation id="7630214457764713113">클린 링크 복사</translation>
-<translation id="885805571521218129">이번 달 Brave Ads로 적립되는 예상액 범위입니다.</translation>
 <translation id="3478449063771497234">알림 비활성화됨</translation>
 <translation id="2862978891748913252">국가 선택</translation>
 <translation id="3970520675790340955">국가를 선택하세요. 그래야 지역에 맞는 옵션과 광고를 표시해드릴 수 있습니다.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Brave에 오신걸 환영합니다</translation>
 <translation id="4117451092682672487">프라이버시. 더욱 간편하게.</translation>
 <translation id="7909375417585209817">Brave를 기본 브라우저로 설정하면 탭하는 모든 링크가 프라이버시를 보호하는 Brave로 열립니다.</translation>
-<translation id="3737878115109582442">검색 위젯 추가</translation>
-<translation id="6199413390010319240">Brave를 이용하기 편한 곳에 두어 더 빠르게 웹을 탐색하세요.</translation>
-<translation id="4338600611020922010">홈 화면에 추가</translation>
 <translation id="7370959926683925817">광고 차단. 데이터 절약. 언제나.</translation>
 <translation id="7281027579943912834">Brave를 기본 브라우저로 설정하면 탭하는 모든 링크에서 Brave의 광고 차단으로 보호. 어떤 페이지, 비디오, 스트림에서도.</translation>
 <translation id="5148943178722443958">Brave 개선에 참여.</translation>
@@ -842,7 +837,6 @@
 <translation id="4351811224047421378">소수 자릿수</translation>
 <translation id="3494964159182650590">보상 요약</translation>
 <translation id="590733288489975971">광고로 받은 리워드</translation>
-<translation id="1886682615222609631">지금까지의 수익</translation>
 <translation id="1767561995429774671">기부</translation>
 <translation id="7335371657242627509">자동 기부에 포함하기</translation>
 <translation id="6727102863431372879">설정</translation>
@@ -1228,5 +1222,4 @@
 <translation id="2728518864712716830">업데이트가 다운로드되었습니다.</translation>
 <translation id="8403338849301491865">필터 목록 업데이트 성공</translation>
 <translation id="4650851936784160359">필터 목록을 업데이트할 수 없습니다. 다시 시도하세요.</translation>
-<translation id="1450735350187803276">이번 달에 본 광고</translation>
 </translationbundle>

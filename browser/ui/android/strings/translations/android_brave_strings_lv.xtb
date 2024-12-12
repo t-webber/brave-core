@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="lv">
-<translation id="8631427463833030968">Pārvaldīt reklāmas</translation>
 <translation id="7630214457764713113">Kopēt tikai saiti</translation>
-<translation id="885805571521218129">Tas atspoguļo paredzamos Brave reklāmu ieņēmumus šomēnes.</translation>
 <translation id="3478449063771497234">Paziņojumi ir atspējoti</translation>
 <translation id="2862978891748913252">Atlasīt valsti</translation>
 <translation id="3970520675790340955">Atlasiet savu valsti, lai mēs varētu parādīt jūsu reģionam atbilstošas iespējas un reklāmas.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Laipni lūdzam pārlūkā Brave!</translation>
 <translation id="4117451092682672487">Privātums. Vienkārši.</translation>
 <translation id="7909375417585209817">Ja Brave būs noklusējuma pārlūks, visas saites, kam pieskaraties, tiks atvērtas ar Brave privātuma aizsardzību.</translation>
-<translation id="3737878115109582442">Pievienojiet meklēšanas logrīku</translation>
-<translation id="6199413390010319240">Turiet Brave gatavībā, lai pārlūkotu tīmekli ātrāk.</translation>
-<translation id="4338600611020922010">Pievienot sākuma ekrānam</translation>
 <translation id="7370959926683925817">Bloķēt reklāmas. Saglabājiet datus. Katru dienu.</translation>
 <translation id="7281027579943912834">Izmantojot Brave kā noklusējuma pārlūku, katrai saitei, ko atverat, tiek nodrošināta Brave reklāmu bloķēšanas aizsardzība. Katra lapa, videoklips un straumēšana.</translation>
 <translation id="5148943178722443958">Palīdziet uzlabot Brave.</translation>
@@ -843,7 +838,6 @@ Ja šo pieprasījumu nepieņemsiet, savienojums ar VPN netiks atkārtoti izveido
 <translation id="4351811224047421378">Precizitātes decimāldaļas</translation>
 <translation id="3494964159182650590">Balvu kopsavilkums</translation>
 <translation id="590733288489975971">Peļņa no reklāmām</translation>
-<translation id="1886682615222609631">Peļņa līdz šim</translation>
 <translation id="1767561995429774671">Ziedot</translation>
 <translation id="7335371657242627509">Iekļaut automātiskajā ziedošanā</translation>
 <translation id="6727102863431372879">Iestatīt</translation>
@@ -1229,5 +1223,4 @@ Ja šo pieprasījumu nepieņemsiet, savienojums ar VPN netiks atkārtoti izveido
 <translation id="2728518864712716830">Atjauninājums ir lejupielādēts.</translation>
 <translation id="8403338849301491865">Filtru saraksts ir veiksmīgi atjaunināts</translation>
 <translation id="4650851936784160359">Filtru sarakstu neizdevās atjaunināt. Mēģiniet vēlreiz</translation>
-<translation id="1450735350187803276">Šomēnes redzamās reklāmas</translation>
 </translationbundle>

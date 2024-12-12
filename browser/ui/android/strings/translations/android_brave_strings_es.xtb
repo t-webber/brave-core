@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="es">
-<translation id="8631427463833030968">Gestionar anuncios</translation>
 <translation id="7630214457764713113">Copiar enlace limpio</translation>
-<translation id="885805571521218129">Esta es una estimación de las ganancias que has obtenido con Anuncios de Brave este mes.</translation>
 <translation id="3478449063771497234">Las notificaciones están deshabilitadas</translation>
 <translation id="2862978891748913252">Selecciona tu país</translation>
 <translation id="3970520675790340955">Selecciona tu país para que podamos mostrarte las opciones y anuncios adecuados para tu región.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Bienvenido a Brave</translation>
 <translation id="4117451092682672487">La privacidad, simplificada.</translation>
 <translation id="7909375417585209817">Si utilizas Brave de manera predeterminada, todos los enlaces que pulses se abrirán con las protecciones de privacidad de Brave.</translation>
-<translation id="3737878115109582442">Añade el widget de búsqueda</translation>
-<translation id="6199413390010319240">Ten Brave al alcance de la mano para navegar por la web rápidamente.</translation>
-<translation id="4338600611020922010">Añadir a la pantalla de inicio</translation>
 <translation id="7370959926683925817">Bloquea los anuncios. Ahorra datos. Todos los días.</translation>
 <translation id="7281027579943912834">De manera predeterminada, cada enlace que toques en Brave tendrá nuestra protección de bloqueo de anuncios. Cada página, cada vídeo y cada streaming.</translation>
 <translation id="5148943178722443958">Ayuda a mejorar Brave.</translation>
@@ -842,7 +837,6 @@ Si no la aceptas, la VPN no se volverá a conectar y tu conexión a Internet no 
 <translation id="4351811224047421378">Decimales de precisión</translation>
 <translation id="3494964159182650590">Resumen de las recompensas</translation>
 <translation id="590733288489975971">Recompensas de anuncios de Brave</translation>
-<translation id="1886682615222609631">Ganancias hasta ahora</translation>
 <translation id="1767561995429774671">Contribuir</translation>
 <translation id="7335371657242627509">Incluir en contribuciones automáticas</translation>
 <translation id="6727102863431372879">Configurar</translation>
@@ -1228,5 +1222,4 @@ Si no la aceptas, la VPN no se volverá a conectar y tu conexión a Internet no 
 <translation id="2728518864712716830">Se ha descargado una actualización.</translation>
 <translation id="8403338849301491865">Se ha actualizado la lista de filtros</translation>
 <translation id="4650851936784160359">No se ha podido actualizar la lista de filtros. Inténtelo de nuevo.</translation>
-<translation id="1450735350187803276">Anuncios vistos este mes</translation>
 </translationbundle>

@@ -211,7 +211,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="1357195169723583938">Kdo zařízení v poslední době používal a kdy</translation>
 <translation id="1358187717814494928">Vytvořit tabulku</translation>
 <translation id="1359836962251219822">Kuchyně a jídelny</translation>
-<translation id="1361528602584216624">Limit platby Pix: <ph name="TRANSACTION_LIMIT"/> R$</translation>
+<translation id="1361528602584216624">Limit platby Pix je <ph name="TRANSACTION_LIMIT"/> R$</translation>
 <translation id="1363015776076529485">Dostupné platební metody k provedení platby jsou otevřené na celou výšku.</translation>
 <translation id="1363028406613469049">Stopa</translation>
 <translation id="1364822246244961190">Tato zásada je blokována, její hodnota bude ignorována.</translation>
@@ -2529,7 +2529,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="569000877158168851">Hodnota DnsOverHttpsTemplates je relevantní a použije se pouze v případě, že je zásada DnsOverHttpsMode nastavená na hodnotu <ph name="SECURE_DNS_MODE_AUTOMATIC"/> nebo <ph name="SECURE_DNS_MODE_SECURE"/>.</translation>
 <translation id="5691848789297492617">Uložení karty je otevřené na celou výšku.</translation>
 <translation id="5695542892312572833">Chcete nákup ověřit a dokončit pomocí Windows Hello?</translation>
-<translation id="8473265600797831709">Uložené informace a tato stránka se odešlou do Googlu k posouzení, zda automatické vyplňování můžete s tímto formulářem pomoci. Data mohou vidět kontroloři, kteří tuto funkci pomáhají zlepšovat.</translation>
+<translation id="8473265600797831709">Uložené informace a tato stránka se odešlou do Googlu k posouzení, zda automatické vyplňování může s tímto formulářem pomoci. Data mohou vidět kontroloři, kteří tuto funkci pomáhají zlepšovat.</translation>
 <translation id="5699628521141772782">Mléčné výrobky a vejce</translation>
 <translation id="5700761515355162635">Soubory cookie třetích stran jsou povoleny</translation>
 <translation id="5701381305118179107">Na střed</translation>

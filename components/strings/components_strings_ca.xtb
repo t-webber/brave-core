@@ -211,9 +211,9 @@ En cas contrari, la configuració de privadesa el bloquejarà. Això permetrà q
 <translation id="1357195169723583938">Qui ha utilitzat el dispositiu recentment i quan</translation>
 <translation id="1358187717814494928">Crea un full de càlcul</translation>
 <translation id="1359836962251219822">Cuina i menjador</translation>
-<translation id="1361528602584216624">Límit per Pix: <ph name="TRANSACTION_LIMIT"/> R$</translation>
+<translation id="1361528602584216624">Límit de <ph name="TRANSACTION_LIMIT"/> R$ per Pix</translation>
 <translation id="1363015776076529485">Formes de pagament disponibles per seleccionar i continuar amb el pagament obertes a alçada completa.</translation>
-<translation id="1363028406613469049">Pista</translation>
+<translation id="1363028406613469049">Fes un seguiment</translation>
 <translation id="1364822246244961190">Aquesta política està bloquejada i, per tant, se n'ignorarà el valor.</translation>
 <translation id="1368318639262510626">Joc del dinosaure. Un dinosaure pixelat esquiva cactus i pterodàctils tot corrent per un paisatge desolat. Quan sentis un so, prem la barra espaiadora per saltar per damunt dels obstacles.</translation>
 <translation id="1369735141991626842">Emplena els camps amb IA</translation>

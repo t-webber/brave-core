@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="ro">
-<translation id="8631427463833030968">Gestionați anunțurile</translation>
 <translation id="7630214457764713113">Copiați linkul curat</translation>
-<translation id="885805571521218129">Aici sunt reflectate veniturile dvs. din Brave Ads în această lună.</translation>
 <translation id="3478449063771497234">Notificările sunt dezactivate</translation>
 <translation id="2862978891748913252">Selectați țara</translation>
 <translation id="3970520675790340955">Selectați-vă țara ca să vă putem afișa opțiunile și anunțurile adecvate pentru regiunea dvs.</translation>
@@ -806,7 +804,6 @@ Dacă nu acceptați această solicitare, nu se va realiza reconectarea la VPN, i
 <translation id="4351811224047421378">Zecimale de precizie</translation>
 <translation id="3494964159182650590">Rezumat recompense</translation>
 <translation id="590733288489975971">Recompense din reclame</translation>
-<translation id="1886682615222609631">Câștiguri până la data curentă</translation>
 <translation id="1767561995429774671">Contribuie</translation>
 <translation id="7335371657242627509">Include în contribuția automată</translation>
 <translation id="6727102863431372879">Setați</translation>
@@ -1068,6 +1065,7 @@ Dacă nu acceptați această solicitare, nu se va realiza reconectarea la VPN, i
 <translation id="3692772534525889713">Conectați achiziția din Play Store la contul dumneavoastră Brave pentru a utiliza Brave Leo și pe alte dispozitive.</translation>
 <translation id="73236265316873967">Leo Premium</translation>
 <translation id="1028627582482425924">Un an</translation>
+<translation id="2985392169397572983">CEL MAI AVANTAJOS</translation>
 <translation id="1166682575529520472">Lunar</translation>
 <translation id="451189393813405346">Întrebați-l pe Leo</translation>
 <translation id="7322560193401221004">Rețineți poziția de redare a fișierului</translation>
@@ -1191,5 +1189,4 @@ Dacă nu acceptați această solicitare, nu se va realiza reconectarea la VPN, i
 <translation id="2728518864712716830">Actualizarea este descărcată.</translation>
 <translation id="8403338849301491865">Lista de filtre este actualizată cu succes</translation>
 <translation id="4650851936784160359">Lista de filtre nu a putut fi actualizată. Încercați din nou</translation>
-<translation id="1450735350187803276">Reclame văzute luna aceasta</translation>
 </translationbundle>

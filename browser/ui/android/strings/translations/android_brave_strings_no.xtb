@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="no">
-<translation id="8631427463833030968">Administrer reklamer</translation>
 <translation id="7630214457764713113">Kopier ren link</translation>
-<translation id="885805571521218129">Dette gjenspeiler den beregnede inntjeningen for Brave-annonser denne måneden.</translation>
 <translation id="3478449063771497234">Varslinger er deaktivert</translation>
 <translation id="2862978891748913252">Velg landet ditt</translation>
 <translation id="3970520675790340955">Velg landet du er i, slik at vi kan vise de riktige valgmulighetene og annonsene for din region.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Velkommen til Brave</translation>
 <translation id="4117451092682672487">Personvern. Helt enkelt.</translation>
 <translation id="7909375417585209817">Med Brave som standard åpnes alle linker du trykker på, med Braves personvernbeskyttelser.</translation>
-<translation id="3737878115109582442">Legg til søkewidgeten</translation>
-<translation id="6199413390010319240">Ha Brave for hånden for å utforske nettet raskere.</translation>
-<translation id="4338600611020922010">Legg til på Hjem-skjermen</translation>
 <translation id="7370959926683925817">Blokker reklame. Spar data. Hver dag.</translation>
 <translation id="7281027579943912834">Med Brave som standard, vil hver lenke du trykker på få Braves reklameblokkering. Alle sider, videoer og strømminger.</translation>
 <translation id="5148943178722443958">Bidra til å gjøre Brave bedre.</translation>
@@ -842,7 +837,6 @@ Hvis du ikke godtar forespørselen, kobler ikke VPN seg opp igjen, og internetti
 <translation id="4351811224047421378">Presisjonsdesimaler</translation>
 <translation id="3494964159182650590">Sammendrag av belønninger</translation>
 <translation id="590733288489975971">Rewards fra Ads</translation>
-<translation id="1886682615222609631">Inntjening så langt</translation>
 <translation id="1767561995429774671">Bidra</translation>
 <translation id="7335371657242627509">Inkluder i Auto-bidrag</translation>
 <translation id="6727102863431372879">Angi</translation>
@@ -1228,5 +1222,4 @@ Hvis du ikke godtar forespørselen, kobler ikke VPN seg opp igjen, og internetti
 <translation id="2728518864712716830">Oppdatering lastet ned.</translation>
 <translation id="8403338849301491865">Filterlisten er oppdatert</translation>
 <translation id="4650851936784160359">Filterlisten kunne ikke oppdateres. Prøv igjen</translation>
-<translation id="1450735350187803276">Annonser sett denne måneden</translation>
 </translationbundle>

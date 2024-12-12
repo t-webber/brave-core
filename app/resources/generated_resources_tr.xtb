@@ -2354,7 +2354,7 @@ Cihazınızda Family Link uygulamasını yükleyerek bu hesabın ayarlarını y�
 <translation id="2649045351178520408">Base64 kodlu ASCII, sertifika zinciri</translation>
 <translation id="265156376773362237">Standart önceden yükleme</translation>
 <translation id="312102011478921700">{COUNT,plural, =1{{COUNT} şifre yalnızca bu cihaza kaydedilir. Diğer cihazlarınızda kullanabilmek için <ph name="BEGIN_LINK"/>Brave Hesabınıza kaydedin<ph name="END_LINK"/>.}other{{COUNT} şifre yalnızca bu cihaza kaydedilir. Diğer cihazlarınızda kullanabilmek için <ph name="BEGIN_LINK"/>Brave Hesabınıza<ph name="END_LINK"/> kaydedin.}}</translation>
-<translation id="2652129567809778422">Şifre'yi seçin</translation>
+<translation id="2652129567809778422">Şifreyi seçin</translation>
 <translation id="2653266418988778031">Bir Sertifika Yetkilisi (CA) sertifikasını silerseniz, tarayıcınız bundan sonra söz konusu CA tarafından yayınlanan hiçbir sertifikaya güvenmez.</translation>
 <translation id="2653275834716714682">Metin Değiştirme</translation>
 <translation id="2653659639078652383">Gönder</translation>
@@ -2664,7 +2664,7 @@ Cihazınızda Family Link uygulamasını yükleyerek bu hesabın ayarlarını y�
 <translation id="2869511363030898130"><ph name="APP_NAME"/> uygulamasında aç</translation>
 <translation id="2870560284913253234">Site</translation>
 <translation id="2870909136778269686">Güncelleniyor...</translation>
-<translation id="2871733351037274014">Sayfaları önceden yükleme</translation>
+<translation id="2871733351037274014">Sayfaları önceden yükle</translation>
 <translation id="2871813825302180988">Bu hesap bu cihazda zaten kullanılıyor.</translation>
 <translation id="287205682142673348">Bağlantı noktası yönlendirme</translation>
 <translation id="287286579981869940"><ph name="PROVIDER_NAME"/> Sağlayıcısını Ekle...</translation>
@@ -4086,7 +4086,7 @@ Yüklü yazılımlar, dosyalar, tarayıcınız ve cihazın işletim sistemi hakk
 <translation id="3898768766145818464">Videoyu oynatır veya duraklatır</translation>
 <translation id="389901847090970821">Klavye seçin</translation>
 <translation id="3899457911440165602">Sertifika silinirken hata oluştu</translation>
-<translation id="3900966090527141178">Şifreleri dışa aktar</translation>
+<translation id="3900966090527141178">Şifreleri dışa aktarın</translation>
 <translation id="390187954523570172"><ph name="TIME_AGO"/> kullanıldı</translation>
 <translation id="3903187154317825986">Yerleşik klavye</translation>
 <translation id="3903696968689283281">WiFi Direct Sahip Bilgisi:</translation>
@@ -4848,7 +4848,7 @@ Yüklü yazılımlar, dosyalar, tarayıcınız ve cihazın işletim sistemi hakk
 <translation id="4470957202018033307">Harici depolama tercihleri</translation>
 <translation id="4471354919263203780">Konuşma tanıma dosyaları indiriliyor... %<ph name="PERCENT"/></translation>
 <translation id="4472298120638043495">Tercih ettiğiniz Brave Hesabı dilini (<ph name="NEW_LOCALE_FROM_GAIA"/>) kullanabilirsiniz.</translation>
-<translation id="918192811481327695">Brave'un özelliklerini ve performansını iyileştirmeye yardımcı olun</translation>
+<translation id="918192811481327695">Brave'un özelliklerini ve performansını iyileştirmeye yardımcı ol</translation>
 <translation id="4472533928615930332"><ph name="STYLE"/> stilini içeren <ph name="SUBJECT"/> resimden <ph name="INDEX"/>. resim oluşturuldu</translation>
 <translation id="4472575034687746823">Başlayın</translation>
 <translation id="4473559657152613417">Bir sekmeyi sağ tıklayıp "Sekmeyi Yeni Gruba Ekle"yi seçin</translation>
@@ -5106,7 +5106,7 @@ Yüklü yazılımlar, dosyalar, tarayıcınız ve cihazın işletim sistemi hakk
 <translation id="4660465405448977105">{COUNT,plural, =1{Resim}other{# resim}}</translation>
 <translation id="4660476621274971848">Beklenen sürüm "<ph name="EXPECTED_VERSION"/>" idi, ancak "<ph name="NEW_ID"/>" sürümü belirlendi</translation>
 <translation id="4660540330091848931">Yeniden boyutlandırılıyor</translation>
-<translation id="4661407454952063730">Uygulama verisi, geliştiricinin ayarlarına bağlı olarak bir uygulamanın kaydettiği her tür veri olabilir. Bunlar arasında kişiler, mesajlar ve fotoğraflar gibi veriler bulunabilir.</translation>
+<translation id="4661407454952063730">Uygulama verileri, geliştiricinin ayarlarına bağlı olarak bir uygulamanın kaydettiği her tür veri olabilir. Bunlar arasında kişiler, mesajlar ve fotoğraflar gibi veriler bulunabilir.</translation>
 <translation id="4662208278924489774">İndirme uyarısı</translation>
 <translation id="4662373422909645029">Takma ad sayı içeremez</translation>
 <translation id="4662788913887017617">Bu yer işaretini iPhone'unuzla paylaşın</translation>
@@ -6402,7 +6402,7 @@ Hassas bilgileri vermediğinizden emin olun.</translation>
 <translation id="562250930904332809">Canlı Altyazıyı &amp;Devre Dışı Bırak</translation>
 <translation id="5623282979409330487">Bu site, hareket sensörlerinize erişiyor.</translation>
 <translation id="5623842676595125836">Günlük</translation>
-<translation id="5624120631404540903">Şifreleri yönet</translation>
+<translation id="5624120631404540903">Şifreleri yönetin</translation>
 <translation id="5624959475330585145">Güvensiz bağlantıları kullanmadan önce sor</translation>
 <translation id="5625225435499354052">Google Pay'de düzenle</translation>
 <translation id="5626134646977739690">Adı:</translation>
@@ -6514,7 +6514,7 @@ Hassas bilgileri vermediğinizden emin olun.</translation>
 <translation id="5705882733397021510">Geri Git</translation>
 <translation id="5707185214361380026">Uzantı şuradan yüklenemedi:</translation>
 <translation id="5708171344853220004">Microsoft Asıl Adı</translation>
-<translation id="239760341987199724">Brave'u varsayılan tarayıcınız olarak ayarlama</translation>
+<translation id="239760341987199724">Brave'u varsayılan tarayıcınız olarak ayarlayın</translation>
 <translation id="5711010025974903573">Hizmet günlükleri</translation>
 <translation id="5711983031544731014">Kilit açılamıyor. Şifrenizi girin.</translation>
 <translation id="5712153969432126546">Siteler, bazen doküman, sözleşme ve form gibi PDF'ler yayınlar</translation>

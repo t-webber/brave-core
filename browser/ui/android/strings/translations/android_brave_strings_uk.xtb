@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="uk">
-<translation id="8631427463833030968">Керування рекламою</translation>
 <translation id="7630214457764713113">Копіювати чисте посилання</translation>
-<translation id="885805571521218129">Тут відображається приблизний розмір вашого доходу за рекламу Brave цього місяця.</translation>
 <translation id="3478449063771497234">Сповіщення вимкнено</translation>
 <translation id="2862978891748913252">Виберіть свою країну</translation>
 <translation id="3970520675790340955">Виберіть свою країну для показу можливостей і реклами відповідно до вашого регіону.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Вітаємо у Brave!</translation>
 <translation id="4117451092682672487">Приватність – це просто.</translation>
 <translation id="7909375417585209817">Якщо Brave – типовий браузер, – кожне посилання відкривається з використанням вбудованих засобів захисту приватності.</translation>
-<translation id="3737878115109582442">Додавання віджету пошуку</translation>
-<translation id="6199413390010319240">Отримайте постійний доступ до Brave, щоб швидше виконувати пошук в Інтернеті.</translation>
-<translation id="4338600611020922010">Додати на головний екран</translation>
 <translation id="7370959926683925817">Блокуйте рекламу й заощаджуйте дані щодня.</translation>
 <translation id="7281027579943912834">Якщо Brave – типовий браузер, – кожне посилання відкривається з використанням вбудованих засобів захисту і блокування реклами. Це стосується кожної сторінки, відео і трансляції.</translation>
 <translation id="5148943178722443958">Допоможіть поліпшити Brave.</translation>
@@ -842,7 +837,6 @@
 <translation id="4351811224047421378">Знаків після коми</translation>
 <translation id="3494964159182650590">Підсумок винагород</translation>
 <translation id="590733288489975971">Винагороди від рекламних оголошень</translation>
-<translation id="1886682615222609631">Поточні заробітки</translation>
 <translation id="1767561995429774671">Зробити внесок</translation>
 <translation id="7335371657242627509">Додати в автовнесок</translation>
 <translation id="6727102863431372879">Установити</translation>
@@ -1228,5 +1222,4 @@
 <translation id="2728518864712716830">Оновлення завантажено.</translation>
 <translation id="8403338849301491865">Список фільтрів оновлено</translation>
 <translation id="4650851936784160359">Не вдалось оновити список фільтрів. Повторіть спробу.</translation>
-<translation id="1450735350187803276">Реклама, переглянута цього місяця</translation>
 </translationbundle>

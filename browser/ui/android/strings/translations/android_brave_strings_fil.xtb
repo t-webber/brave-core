@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="fil">
-<translation id="8631427463833030968">Pamahalaan ang mga ad</translation>
 <translation id="7630214457764713113">Kopyahin ang clean link</translation>
-<translation id="885805571521218129">Ipinapakita nito ang iyong mga tinatayang range ng nakuha para sa Brave Ads ngayong buwan.</translation>
 <translation id="3478449063771497234">Naka-disable ang mga notification</translation>
 <translation id="2862978891748913252">Piliin ang iyong bansa</translation>
 <translation id="3970520675790340955">Piliin ang iyong bansa para maipakita namin sa iyo ang mga tamang opsyon at ad para sa iyong rehiyon.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Welcome sa Brave</translation>
 <translation id="4117451092682672487">Privacy. Pinasimple.</translation>
 <translation id="7909375417585209817">Kapag default ang Brave, bubukas ang bawat link na ita-tap mo nang may mga proteksyon sa privacy ng Brave.</translation>
-<translation id="3737878115109582442">Idagdag ang widget sa paghahanap</translation>
-<translation id="6199413390010319240">Magkaroon ng Brave para mas mabilis na i-explore ang web.</translation>
-<translation id="4338600611020922010">Idagdag sa home screen</translation>
 <translation id="7370959926683925817">Mag-block ng mga ad. Makatipid sa data. Araw araw.</translation>
 <translation id="7281027579943912834">Kapag default ang Brave, ang bawat link na ita-tap mo ay magkakaroon ng proteksyon sa pag-block ng ad ng Brave. Bawat page, video, at stream.</translation>
 <translation id="5148943178722443958">Tumulong na pagandahin ang Brave.</translation>
@@ -842,7 +837,6 @@ Kung hindi mo tatanggapin ang kahilingang ito, hindi kokonekta ulit ang VPN at h
 <translation id="4351811224047421378">Mga decimal ng katumpakan</translation>
 <translation id="3494964159182650590">Buod ng Mga Pabuya</translation>
 <translation id="590733288489975971">Mga Reward mula sa Ads</translation>
-<translation id="1886682615222609631">Kita sa ngayon</translation>
 <translation id="1767561995429774671">Mag-ambag</translation>
 <translation id="7335371657242627509">Isama sa Awtomatikong Pag-ambag</translation>
 <translation id="6727102863431372879">Itakda</translation>
@@ -1228,5 +1222,4 @@ Kung hindi mo tatanggapin ang kahilingang ito, hindi kokonekta ulit ang VPN at h
 <translation id="2728518864712716830">Na-download na ang update.</translation>
 <translation id="8403338849301491865">Na-update na ang filter list</translation>
 <translation id="4650851936784160359">Hindi ma-update ang filter list. Subukan ulit.</translation>
-<translation id="1450735350187803276">Mga ad na nakita ngayong buwan</translation>
 </translationbundle>

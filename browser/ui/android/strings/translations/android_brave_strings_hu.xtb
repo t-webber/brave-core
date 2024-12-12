@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="hu">
-<translation id="8631427463833030968">Hirdetések kezelése</translation>
 <translation id="7630214457764713113">Tiszta hivatkozás másolása</translation>
-<translation id="885805571521218129">Megmutatja a becsült bevételek tartományát a Brave hirdetéseknél.</translation>
 <translation id="3478449063771497234">Az értesítések le vannak tiltva</translation>
 <translation id="2862978891748913252">Válassza ki az országot</translation>
 <translation id="3970520675790340955">Válassza ki az országát, hogy a régiójának megfelelő lehetőségeket és hirdetéseket mutathassuk.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">A Brave üdvözli Önt!</translation>
 <translation id="4117451092682672487">Adatvédelem. Egyszerűen.</translation>
 <translation id="7909375417585209817">A Brave alapértelmezett böngészőként történő beállításával minden hivatkozás, amelyre rákoppint a Brave adatvédelmi beállításaival fog megnyílni.</translation>
-<translation id="3737878115109582442">Kereső widget hozzáadása</translation>
-<translation id="6199413390010319240">A Brave segítségével gyorsabban felfedezheti az internetet.</translation>
-<translation id="4338600611020922010">Hozzáadás a kezdőképernyőhöz</translation>
 <translation id="7370959926683925817">Blokkolja a hirdetéseket, és csökkentse az adatforgalmat, minden egyes nap.</translation>
 <translation id="7281027579943912834">Ha a Brave-et használja alapértelmezett böngészőként, a Brave hirdetésblokkoló védelme minden megnyitott hivatkozásra kiterjed – minden weblapra, videóra és adatfolyamra.</translation>
 <translation id="5148943178722443958">Segítsen a Brave továbbfejlesztésében.</translation>
@@ -842,7 +837,6 @@ other {<ph name="CITY_COUNT_MANY"/> város - }
 <translation id="4351811224047421378">A pontosság tizedesjegyei</translation>
 <translation id="3494964159182650590">Jutalmak összefoglalója</translation>
 <translation id="590733288489975971">Jutalmak az Ads révén</translation>
-<translation id="1886682615222609631">Eddigi jövedelem</translation>
 <translation id="1767561995429774671">Hozzájárulás</translation>
 <translation id="7335371657242627509">Automatikus Hozzájárulással</translation>
 <translation id="6727102863431372879">Beállítás</translation>
@@ -1228,5 +1222,4 @@ other {<ph name="CITY_COUNT_MANY"/> város - }
 <translation id="2728518864712716830">A frissítés le lett töltve.</translation>
 <translation id="8403338849301491865">A szűrőlista sikeresen frissült</translation>
 <translation id="4650851936784160359">A szűrőlistát nem sikerült frissíteni. Kérjük, próbálja újra.</translation>
-<translation id="1450735350187803276">Ebben a hónapban megtekintett hirdetések</translation>
 </translationbundle>

@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="ms">
-<translation id="8631427463833030968">Urus iklan</translation>
 <translation id="7630214457764713113">Salin pautan bersih</translation>
-<translation id="885805571521218129">Ini menggambarkan anggaran julat pendapatan anda untuk Iklan Brave bulan ini.</translation>
 <translation id="3478449063771497234">Pemberitahuan dinyahdayakan</translation>
 <translation id="2862978891748913252">Pilih negara anda</translation>
 <translation id="3970520675790340955">Pilih negara anda supaya kami boleh menunjukkan pilihan dan iklan yang sesuai untuk rantau anda.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Selamat Datang ke Brave</translation>
 <translation id="4117451092682672487">Privasi. Dipermudahkan.</translation>
 <translation id="7909375417585209817">Apabila Brave ditetapkan sebagai lalai, setiap pautan yang anda ketik akan dibuka dengan perlindungan privasi Brave.</translation>
-<translation id="3737878115109582442">Tambah widget carian</translation>
-<translation id="6199413390010319240">Gunakan Brave dengan mudah untuk meneroka web dengan lebih pantas.</translation>
-<translation id="4338600611020922010">Tambahkan pada skrin utama</translation>
 <translation id="7370959926683925817">Sekat iklan. Simpan data. Setiap hari.</translation>
 <translation id="7281027579943912834">Dengan Brave sebagai pelayar lalai, setiap pautan yang anda ketik mendapat perlindungan sekatan iklan Brave. Setiap halaman, video dan strim.</translation>
 <translation id="5148943178722443958">Bantu usaha menambah baik Brave.</translation>
@@ -842,7 +837,6 @@ Jika anda tidak menerima permintaan ini, VPN tidak akan bersambung semula dan sa
 <translation id="4351811224047421378">Titik perpuluhan tepat</translation>
 <translation id="3494964159182650590">Ringkasan Ganjaran</translation>
 <translation id="590733288489975971">Ganjaran dari Iklan</translation>
-<translation id="1886682615222609631">Pendapatan setakat ini</translation>
 <translation id="1767561995429774671">Beri Sumbangan</translation>
 <translation id="7335371657242627509">Termasuk dalam Auto-Sumbangan</translation>
 <translation id="6727102863431372879">Tetapkan</translation>
@@ -1228,5 +1222,4 @@ Jika anda tidak menerima permintaan ini, VPN tidak akan bersambung semula dan sa
 <translation id="2728518864712716830">Kemas kini dimuat turun.</translation>
 <translation id="8403338849301491865">Senarai penapis berjaya dikemas kini</translation>
 <translation id="4650851936784160359">Senarai penapis tidak dapat dikemas kini. Sila cuba semula</translation>
-<translation id="1450735350187803276">Iklan dilihat bulan ini</translation>
 </translationbundle>

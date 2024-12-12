@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="it">
-<translation id="8631427463833030968">Gestisci gli annunci</translation>
 <translation id="7630214457764713113">Copia link pulito</translation>
-<translation id="885805571521218129">Questo intervallo riflette una stima dei tuoi guadagni del mese per gli Annunci Brave.</translation>
 <translation id="3478449063771497234">Le notifiche sono disattivate</translation>
 <translation id="2862978891748913252">Seleziona il tuo Paese</translation>
 <translation id="3970520675790340955">Seleziona il tuo Paese così potremo mostrarti le opzioni e gli annunci giusti per la tua area geografica.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Benvenuto in Brave</translation>
 <translation id="4117451092682672487">Privacy. In tutta semplicità.</translation>
 <translation id="7909375417585209817">Se Brave è il browser predefinito, tutti i link si aprono con le protezioni per la privacy di Brave.</translation>
-<translation id="3737878115109582442">Aggiungi il widget di ricerca</translation>
-<translation id="6199413390010319240">Tieni Brave a portata di mano per esplorare il web più rapidamente.</translation>
-<translation id="4338600611020922010">Aggiungi alla schermata Home</translation>
 <translation id="7370959926683925817">Blocca gli annunci. Risparmia dati. Ogni giorno.</translation>
 <translation id="7281027579943912834">Con Brave per impostazione predefinita, ogni link che tocchi è protetto dalla funzione di blocco degli annunci di Brave. Ogni pagina, video e streaming.</translation>
 <translation id="5148943178722443958">Contribuisci a migliorare Brave.</translation>
@@ -842,7 +837,6 @@ Se non accetti questa richiesta, la VPN non si riconnetterà e la tua connession
 <translation id="4351811224047421378">Precisione decimale</translation>
 <translation id="3494964159182650590">Riepilogo ricompense</translation>
 <translation id="590733288489975971">Premi di Brave Ads</translation>
-<translation id="1886682615222609631">Guadagni attuali</translation>
 <translation id="1767561995429774671">Contribuisci</translation>
 <translation id="7335371657242627509">Includi nel contributo automatico</translation>
 <translation id="6727102863431372879">Imposta</translation>
@@ -1228,5 +1222,4 @@ Se non accetti questa richiesta, la VPN non si riconnetterà e la tua connession
 <translation id="2728518864712716830">Aggiornamento scaricato.</translation>
 <translation id="8403338849301491865">Elenco dei filtri aggiornato</translation>
 <translation id="4650851936784160359">Impossibile aggiornare l’elenco dei filtri. Riprova</translation>
-<translation id="1450735350187803276">Annunci visti questo mese</translation>
 </translationbundle>

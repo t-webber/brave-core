@@ -237,7 +237,7 @@
 <translation id="4065288863231444640">讓 Brave 在背景執行</translation>
 <translation id="1749140836512789834">{NUM_EXTENSIONS,plural, =1{Brave 建議你移除。<ph name="BEGIN_LINK"/>進一步瞭解支援的擴充功能<ph name="END_LINK"/>}other{Brave 建議你移除。<ph name="BEGIN_LINK"/>進一步瞭解支援的擴充功能<ph name="END_LINK"/>}}</translation>
 <translation id="8148611988012584308">自訂及控制 Brave</translation>
-<translation id="4427306783828095590">強化防護功能可進一步封鎖網路詐騙和惡意軟體</translation>
+<translation id="4427306783828095590">進階防護功能可進一步封鎖網路詐騙和惡意軟體</translation>
 <translation id="4434353761996769206">安裝程式錯誤：<ph name="INSTALLER_ERROR"/></translation>
 <translation id="175926951572479413">Brave 是由「<ph name="MANAGER"/>」管理</translation>
 <translation id="6786534271003695094">關於 Brave for Testing</translation>

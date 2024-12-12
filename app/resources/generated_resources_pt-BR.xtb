@@ -2318,7 +2318,7 @@ Para gerenciar as configurações dessa conta, instale o app Family Link no seu 
 <translation id="261114180663074524">Faça login na sua conta da Microsoft e tente de novo</translation>
 <translation id="2611776654555141051">Ferramenta de retângulo</translation>
 <translation id="2612676031748830579">Número do cartão</translation>
-<translation id="261305050785128654">Informe aos sites os idiomas que você fala. Eles vão mostrar conteúdo nesses idiomas sempre que possível.</translation>
+<translation id="261305050785128654">Informe seus idiomas para que os sites mostrem conteúdo com essas opções sempre que possível.</translation>
 <translation id="2613210758071148851">Não permitir extensões em <ph name="RESTRICTED_SITE"/></translation>
 <translation id="2613535083491958306"><ph name="ORIGIN"/> poderá editar o arquivo <ph name="FILENAME"/></translation>
 <translation id="2613747923081026172">Criar grupo</translation>
@@ -3347,7 +3347,7 @@ Para gerenciar as configurações dessa conta, instale o app Family Link no seu 
 <translation id="338323348408199233">Bloquear tráfego sem VPN</translation>
 <translation id="3384362484379805487">Os arquivos de idioma são compartilhados entre os usuários para economizar espaço em disco.</translation>
 <translation id="3385092118218578224"><ph name="DISPLAY_ZOOM"/>%</translation>
-<translation id="578264744718841969">A Precisão de local fornece dados mais precisos para apps e serviços. Para isso, o Brave processa periodicamente as informações sobre sensores de dispositivos e sinais sem fio do seu dispositivo para contribuir para a localização de sinais sem fio. Essas informações são usadas sem identificar você para melhorar a precisão e os serviços com base na localização e para melhorar, fornecer e manter os Serviços do Brave com base nos interesses legítimos próprios e de terceiros para atender às necessidades dos usuários.</translation>
+<translation id="578264744718841969">O recurso de precisão da localização fornece dados mais exatos para apps e serviços. Para isso ocorrer, o Brave processa periodicamente as informações sobre sensores e sinais do seu dispositivo e, com isso, contribui para a localização de sinais sem fio. Essas informações são usadas sem identificação de usuário para aprimorar a precisão e os serviços que usam a localização. Além disso, esses dados são usados para melhorar, fornecer e manter os Serviços do Brave, com base em interesses legítimos próprios e de terceiros, para atender às necessidades dos usuários.</translation>
 <translation id="338583716107319301">Separador</translation>
 <translation id="3385916046075724800">Agora seus grupos de guias são salvos automaticamente.</translation>
 <translation id="3387023983419383865">,</translation>
@@ -4032,7 +4032,7 @@ Isso pode incluir informações sobre softwares instalados, arquivos, seu navega
 <translation id="3843464315703645664">Na lista de permissões interna</translation>
 <translation id="3844888638014364087">Emoji inserido</translation>
 <translation id="3846116211488856547">Tenha ferramentas para desenvolver sites, apps Android e muito mais. A instalação do Linux causará o download de <ph name="DOWNLOAD_SIZE"/> de dados.</translation>
-<translation id="3847319713229060696">Ajudar a melhorar a segurança para todos na Web</translation>
+<translation id="3847319713229060696">Ajudar a melhorar a segurança para todas as pessoas na Web</translation>
 <translation id="3850172593216628215">As atualizações de segurança foram encerradas. Economize US$ 50 ou mais em um novo Chromebook.</translation>
 <translation id="385051799172605136">Voltar</translation>
 <translation id="3851428669031642514">Carregar scripts não seguros</translation>
@@ -4866,7 +4866,7 @@ Isso pode incluir informações sobre softwares instalados, arquivos, seu navega
 <translation id="4470957202018033307">Preferências de armazenamento externo</translation>
 <translation id="4471354919263203780">Fazendo o download dos arquivos de reconhecimento de fala… <ph name="PERCENT"/>%</translation>
 <translation id="4472298120638043495">Você pode usar o idioma de sua preferência da Conta do Brave (<ph name="NEW_LOCALE_FROM_GAIA"/>)</translation>
-<translation id="918192811481327695">Ajude a melhorar os recursos e o desempenho do Brave</translation>
+<translation id="918192811481327695">Ajudar a melhorar os recursos e o desempenho do Brave</translation>
 <translation id="4472533928615930332">Imagem <ph name="INDEX"/> de <ph name="SUBJECT"/> gerada no estilo <ph name="STYLE"/></translation>
 <translation id="4472575034687746823">Vamos começar</translation>
 <translation id="4473559657152613417">Clique com o botão direito do mouse em uma guia e selecione "Adicionar guia ao novo grupo"</translation>
@@ -5124,7 +5124,7 @@ Isso pode incluir informações sobre softwares instalados, arquivos, seu navega
 <translation id="4660465405448977105">{COUNT,plural, =1{Imagem}one{# imagem}other{# imagens}}</translation>
 <translation id="4660476621274971848">A versão esperada era "<ph name="EXPECTED_VERSION"/>", mas a instalada foi a "<ph name="NEW_ID"/>"</translation>
 <translation id="4660540330091848931">Redimensionando</translation>
-<translation id="4661407454952063730">Os dados de apps podem ser quaisquer dados que um app tenha salvo (com base nas configurações do desenvolvedor), incluindo dados como contatos, mensagens e fotos.</translation>
+<translation id="4661407454952063730">Os dados de apps podem ser quaisquer dados salvos por um aplicativo (com base nas configurações do desenvolvedor), incluindo contatos, mensagens e fotos.</translation>
 <translation id="4662208278924489774">Aviso de download</translation>
 <translation id="4662373422909645029">O apelido não pode ter números</translation>
 <translation id="4662788913887017617">Compartilhar esse favorito com seu iPhone</translation>
@@ -6402,7 +6402,7 @@ As permissões que você já concedeu a sites e apps podem ser aplicadas a essa 
 <translation id="5060827009373522990">Quando sua Conta do Brave <ph name="USER_EMAIL"/> está conectada ao Brave, as senhas são salvas nela. Para desativar esse recurso, acesse as configurações.</translation>
 <translation id="5614190747811328134">Aviso para o usuário</translation>
 <translation id="5614553682702429503">Salvar senha?</translation>
-<translation id="5614625640221885312">Faça login para ter acesso a favoritos, senhas e muito mais em todos os seus dispositivos</translation>
+<translation id="5614625640221885312">Faça login e acesse favoritos, senhas e mais em todos os seus dispositivos</translation>
 <translation id="5614947000616625327">Chaves do iCloud</translation>
 <translation id="561552177910095306">Lista de sites que você visitou recentemente e que podem sugerir anúncios para outros sites enquanto você navega</translation>
 <translation id="5616571005307953937">Mais antigo</translation>
@@ -6584,7 +6584,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="5753652925946671505">Estas guias não são usadas há <ph name="COUNT"/> ou mais dias.</translation>
 <translation id="5756163054456765343">Central de ajuda</translation>
 <translation id="5757187557809630523">próxima faixa</translation>
-<translation id="5758631781033351321">Você encontrará sua lista de leituras aqui</translation>
+<translation id="5758631781033351321">Você vai encontrar sua lista de leituras aqui</translation>
 <translation id="5759397201362801675">Escolha um clima</translation>
 <translation id="5759728514498647443">Os documentos enviados para impressão pelo <ph name="APP_NAME"/> podem ser lidos pelo <ph name="APP_NAME"/>.</translation>
 <translation id="479627652412010603">Excluir também os dados de navegação (<ph name="URL"/>). Sua conta poderá ser desconectada de google.com.br. <ph name="LEARN_MORE"/></translation>
@@ -7081,7 +7081,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="6122095009389448667">Continuar impedindo que esse site veja a área de transferência</translation>
 <translation id="6122513630797178831">Salvar CVC</translation>
 <translation id="6122600716821516697">Compartilhar com esse dispositivo?</translation>
-<translation id="6122831415929794347">Desativar "Navegação segura"?</translation>
+<translation id="6122831415929794347">Desativar a Navegação segura?</translation>
 <translation id="6124650939968185064">As extensões a seguir dependem desta extensão:</translation>
 <translation id="6124698108608891449">Este site precisa de outras permissões.</translation>
 <translation id="6125479973208104919">Adicione sua conta a esse <ph name="DEVICE_TYPE"/> novamente.</translation>
@@ -7939,7 +7939,7 @@ Há # outras senhas comprometidas. O Gerenciador de senhas do Brave recomenda qu
     <ph name="BEGIN_PARAGRAPH2"/>Você pode fazer login nesse dispositivo e consultar os campos listados como chromeosflex_ em chrome://system para conferir os dados enviados ao Brave para filtragem de atualizações, assim como outras instâncias em que você compartilha dados com o Brave.<ph name="END_PARAGRAPH2"/>
     <ph name="BEGIN_PARAGRAPH3"/>Para saber mais detalhes sobre os dados que o <ph name="DEVICE_OS"/> pode compartilhar com o Brave e como eles são usados, acesse g.co/flex/HWDataCollection.<ph name="END_PARAGRAPH3"/></translation>
 <translation id="6770042910635026163">Sites que você visita que definem seus interesses</translation>
-<translation id="6770602306803890733">Melhora a segurança para você e para todos na Web</translation>
+<translation id="6770602306803890733">Melhora a segurança para você e para todas as pessoas na Web</translation>
 <translation id="6771503742377376720">É uma Autoridade de certificação</translation>
 <translation id="6772974422346500939">Abrir e editar</translation>
 <translation id="574857039466693275">Brave Root Store</translation>
@@ -8003,7 +8003,7 @@ Há # outras senhas comprometidas. O Gerenciador de senhas do Brave recomenda qu
 <translation id="6805647936811177813">Faça login para que o <ph name="TOKEN_NAME"/> importe o certificado do cliente de <ph name="HOST_NAME"/>.</translation>
 <translation id="680572642341004180">Ativar rastreamento RLZ no <ph name="SHORT_PRODUCT_OS_NAME"/>.</translation>
 <translation id="6806089545527108739">Não permitir, mas perguntar mais tarde</translation>
-<translation id="9151559458872087737">Proteção proativa em tempo real contra sites, extensões e downloads perigosos baseados nos dados de navegação enviados ao Brave</translation>
+<translation id="9151559458872087737">Proteção proativa em tempo real contra sites, extensões e downloads perigosos baseada nos dados de navegação enviados ao Brave</translation>
 <translation id="505292327770836846">Apenas seus contatos com uma Conta do Brave. <ph name="LINK_BEGIN"/>Ver contatos<ph name="LINK_END"/></translation>
 <translation id="6808039367995747522">Para continuar, insira sua chave de segurança e toque nela</translation>
 <translation id="6808166974213191158">Gravador da imagem do sistema ChromeOS Flex</translation>
@@ -9504,7 +9504,7 @@ Pressione um interruptor ou tecla atribuídos para remover a atribuição.</tran
 <translation id="7896292361319775586">Salvar <ph name="FILE"/>?</translation>
 <translation id="789722939441020330">Não permitir que os sites façam o download automático de vários arquivos</translation>
 <translation id="7897900149154324287">No futuro, não se esqueça de ejetar o dispositivo removível no aplicativo "Arquivos" antes de desconectá-lo. Caso contrário, você poderá perder dados.</translation>
-<translation id="7898725031477653577">Sempre traduzir do</translation>
+<translation id="7898725031477653577">Sempre traduzir</translation>
 <translation id="7901405293566323524">Phone Hub</translation>
 <translation id="7903290522161827520">Procurando componentes do navegador? Acesse</translation>
 <translation id="7903429136755645827">Clique para personalizar os controles do jogo</translation>
@@ -9818,7 +9818,7 @@ Mantenha a sua chave de arquivo em um local seguro. Você precisará dela para c
 <translation id="8100057926383586173">Abrir configurações de idioma</translation>
 <translation id="8100230553590752325">Use senhas salvas em qualquer dispositivo</translation>
 <translation id="810068641062493918"><ph name="LANGUAGE"/> selecionado. Pressione "Pesquisar" junto à barra de espaço para desmarcar.</translation>
-<translation id="8101409298456377967">Crie, salve e gerencie suas senhas para fazer login em sites e apps com facilidade. <ph name="BEGIN_LINK"/>Saiba mais<ph name="END_LINK"/></translation>
+<translation id="8101409298456377967">Crie, salve e gerencie suas senhas para facilitar o login em sites e apps. <ph name="BEGIN_LINK"/>Saiba mais<ph name="END_LINK"/></translation>
 <translation id="810185532889603849">Cor personalizada</translation>
 <translation id="8101987792947961127">Powerwash obrigatório na próxima reinicialização</translation>
 <translation id="8102139037507939978">Remover informações de identificação pessoal de system_logs.txt.</translation>

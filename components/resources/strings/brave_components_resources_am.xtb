@@ -535,7 +535,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>የበለጠ መረጃ<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">አይጨነቁ።</translation>
 <translation id="5027616819996705541">አሁንም በግል ማሰስ ይችላሉ!</translation>
-<translation id="1886682615222609631">እስካሁን የተገኘው ገቢ</translation>
+<translation id="1450735350187803276">እስካሁን የተገኘው ገቢ</translation>
 <translation id="7649070708921625228">እገዛ</translation>
 <translation id="6042308850641462728">ተጨማሪ</translation>
 <translation id="1736419249208073774">አስስ</translation>
@@ -1882,8 +1882,8 @@
 <translation id="546481172717459539">ከስርዓቱ ቅንብር ጋር አዛምድ</translation>
 <translation id="7799817062559422778">የብርሃን ሁነታ</translation>
 <translation id="4117637339509843559">የጨለማ ሁነታ</translation>
-<translation id="7821773512278295352">Brave Firewall + VPN: ተገናኝቷል</translation>
-<translation id="6019088868713395120">Brave Firewall + VPN: ግንኙነቱ ተቋርጧል</translation>
+<translation id="958268166261124668">Brave Firewall + VPN: ተገናኝቷል</translation>
+<translation id="6021669293402055982">Brave Firewall + VPN: ግንኙነቱ ተቋርጧል</translation>
 <translation id="3541307549916475335">የBrave ቪፒኤን ፓነል ዩአይ</translation>
 <translation id="7143207342074048698">በመያያዝ ላይ</translation>
 <translation id="2325196879156848326">ግንኙነት ተቋርጧል</translation>
@@ -1933,9 +1933,7 @@ Brave የDNS ጥያቄዎች በእርስዎ VPN ግንኙነት ላይ በሚ�
 <translation id="9061845622728745852">የሰዓት ሰቅ፡</translation>
 <translation id="8295393906499561642">ክፍለጊዜው አብቅቷል</translation>
 <translation id="3312623558576021182">የVPN ክፍለጊዜን ለማደስ፣ እባክዎ ወደ እርስዎ <ph name="BRAVE_ACCOUNT_BEGIN"/>Brave መለያ<ph name="BRAVE_ACCOUNT_END"/> ይግቡ።</translation>
-<translation id="6021669293402055982">Brave VPN፦ ግንኙነት ተቋርጧል</translation>
 <translation id="7861195049821776142">Brave VPN: ግንኙነት ማቋረጥ</translation>
-<translation id="958268166261124668">Brave VPN፦ ተገናኝቷል</translation>
 <translation id="2061807837510296780">Brave VPN: በማገናኘት ላይ</translation>
 <translation id="1313124107969703758">Brave VPN፦ ስህተት</translation>
 <translation id="8273420301954598554">ሁኔታ፦ ተገናኝቷል</translation>
@@ -1951,6 +1949,4 @@ Brave የDNS ጥያቄዎች በእርስዎ VPN ግንኙነት ላይ በሚ�
 ተጫን</translation>
 <translation id="451189393813405346">Leoን ይጠይቁ</translation>
 <translation id="8525248723479742219">በኋላ ያጫውቱ</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">ለውጥ</translation>
 </translationbundle>

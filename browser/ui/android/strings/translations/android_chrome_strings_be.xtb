@@ -748,7 +748,7 @@
 <translation id="2782276843156939908">Вашы спісы захаваных пароляў для Brave і версіі "<ph name="CHROME_CHANNEL"/>" былі аб’яднаны. Вы і далей можаце выкарыстоўваць аўтазапаўненне для ўсіх захаваных пароляў у абедзвюх праграмах.</translation>
 <translation id="4616150815774728855">Адкрыць <ph name="WEBAPK_NAME"/></translation>
 <translation id="4619564267100705184">Пацвердзіць маю асобу</translation>
-<translation id="2589970573128789862">Brave у рэжыме інкогніта</translation>
+<translation id="2589970573128789862">Brave ў рэжыме інкогніта</translation>
 <translation id="4634124774493850572">Выкарыстаць пароль</translation>
 <translation id="4640331037679501949">{NUM_PASSWORDS,plural, =1{Адзін раскрыты пароль}one{# раскрыты пароль}few{# раскрытыя паролі}many{# раскрытых пароляў}other{# раскрытага пароля}}</translation>
 <translation id="4642472735733036929">Адсочванне цаны прыпынена</translation>
@@ -1737,7 +1737,7 @@
 <translation id="179413535815682755">У залежнасці ад выбраных налад Brave можа таксама перадаваць файлы cookie, ваш бягучы URL-адрас і геаданыя</translation>
 <translation id="8942627711005830162">Адкрыць у іншым акне</translation>
 <translation id="8945143127965743188"><ph name="LANG"/> – не ўдалося спампаваць гэты моўны пакет. Паўтарыце спробу пазней.</translation>
-<translation id="8963117664422609631">Перайсці ў налады сайта</translation>
+<translation id="8963117664422609631">Перайсці ў налады сайтаў</translation>
 <translation id="8965591936373831584">у стане чакання</translation>
 <translation id="8884660759731273973">Неўзабаве паролі перастануць працаваць, бо сэрвісы Google Play недаступныя. Каб выкарыстоўваць паролі, захаваныя ва Уліковым запісе Brave, увайдзіце ва ўліковы запіс на іншай прыладзе ці перайдзіце на passwords.google.com.</translation>
 <translation id="8970887620466824814">Нешта пайшло не так.</translation>

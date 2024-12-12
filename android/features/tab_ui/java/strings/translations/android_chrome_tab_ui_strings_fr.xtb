@@ -198,9 +198,9 @@ Si vous le quittez, vous perdrez immédiatement l'accès au groupe d'onglets "<p
 <translation id="9216898458513705996">Les onglets resteront ouverts sur cet appareil, mais le groupe sera supprimé de tous les appareils connectés à <ph name="USER_EMAIL"/></translation>
 <translation id="927441551066996669">{NUMBER_OF_TABS,plural, =1{Développer le groupe d'onglets de couleur <ph name="COLOR_NAME"/> comprenant <ph name="TABS_COUNT_ONE"/> onglet.}one{Développer le groupe d'onglets de couleur <ph name="COLOR_NAME"/> comprenant <ph name="TABS_COUNT_MANY"/> onglet.}other{Développer le groupe d'onglets de couleur <ph name="COLOR_NAME"/> comprenant <ph name="TABS_COUNT_MANY"/> onglets.}}</translation>
 <translation id="992256792861109788">Rose</translation>
-<translation id="3228718275011575753">Fermer tous les onglets privés ?</translation>
-<translation id="6687920250729800417">Votre activité dans ces onglets privés sera supprimée de cet appareil</translation>
+<translation id="3228718275011575753">Fermer tous les onglets de navigation privée ?</translation>
+<translation id="6687920250729800417">Votre activité dans ces onglets de navigation privée sera supprimée de cet appareil</translation>
 <translation id="6086127758480584723">{INCOGNITO_TABS_COUNT, plural,
-        =1 {Vos onglets et vos groupes fermés peuvent être rouverts dans la section des onglets récents et dans la section des groupes d'onglets. Votre onglet Privé ne sera pas disponible.}
-        other {Vos onglets et vos groupes fermés peuvent être rouverts dans la section des onglets récents et dans la section des groupes d'onglets. Vos # onglets Privés ne seront pas disponibles.}}</translation>
+        =1 {Vos onglets et vos groupes fermés peuvent être rouverts dans la section des onglets récents et dans la section des groupes d'onglets. Votre onglet de navigation privée ne sera pas disponible.}
+        other {Vos onglets et vos groupes fermés peuvent être rouverts dans la section des onglets récents et dans la section des groupes d'onglets. Vos # onglets de navigation privée ne seront pas disponibles.}}</translation>
 </translationbundle>

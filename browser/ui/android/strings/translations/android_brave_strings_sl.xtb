@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="sl">
-<translation id="8631427463833030968">Upravljanje oglasov</translation>
 <translation id="7630214457764713113">Kopirajte čisto povezavo</translation>
-<translation id="885805571521218129">To odraža vaš predvideni razpon zaslužka za Brave Oglase ta mesec.</translation>
 <translation id="3478449063771497234">Obvestila so izključena</translation>
 <translation id="2862978891748913252">Izberite svojo državo</translation>
 <translation id="3970520675790340955">Izberite svojo državo, da vam lahko pokažemo prave možnosti in oglase za vašo regijo.</translation>
@@ -235,9 +233,6 @@
 <translation id="7207456302801184289">Dobrodošli v Brave</translation>
 <translation id="4117451092682672487">Zasebnost. Enostavno preprosto.</translation>
 <translation id="7909375417585209817">Če je privzeta možnost Brave, se vsaka povezava, ki jo tapnete, odpre z zaščito zasebnosti Brave.</translation>
-<translation id="3737878115109582442">Dodajte iskalni pripomoček</translation>
-<translation id="6199413390010319240">Imejte Brave na dosegu roke in še hitreje raziskujte splet.</translation>
-<translation id="4338600611020922010">Dodajanje na začetni zaslon</translation>
 <translation id="7370959926683925817">Blokirajte oglase. Shranite podatke. Vsak dan.</translation>
 <translation id="7281027579943912834">S privzeto funkcijo Brave vsaka povezava, ki se je dotaknete, prejme Braveovo zaščito za blokiranje oglasov. Vsaka stran, videoposnetek in prenos.</translation>
 <translation id="5148943178722443958">Pomagajte izboljšati Brave.</translation>
@@ -849,7 +844,6 @@ je v teku.
 <translation id="4351811224047421378">Decimalke natančnosti</translation>
 <translation id="3494964159182650590">Povzetek nagrad</translation>
 <translation id="590733288489975971">Nagrade z oglaševanjem</translation>
-<translation id="1886682615222609631">Dosedanji zaslužek</translation>
 <translation id="1767561995429774671">Doniraj</translation>
 <translation id="7335371657242627509">Vključi v samodejno doniranje</translation>
 <translation id="6727102863431372879">Nastavi</translation>
@@ -1235,5 +1229,4 @@ je v teku.
 <translation id="2728518864712716830">Posodobitev je prenesena.</translation>
 <translation id="8403338849301491865">Seznam filtrov je bil uspešno posodobljen</translation>
 <translation id="4650851936784160359">Seznama filtrov ni bilo mogoče posodobiti. Prosimo, poskusite znova</translation>
-<translation id="1450735350187803276">Oglasi, ogledani ta mesec</translation>
 </translationbundle>

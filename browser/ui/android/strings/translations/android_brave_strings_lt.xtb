@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="lt">
-<translation id="8631427463833030968">Tvarkyti reklamas</translation>
 <translation id="7630214457764713113">Kopijuoti švarią nuorodą</translation>
-<translation id="885805571521218129">Tai jūsų numatomas uždarbio intervalas už „Brave“ reklamas šį mėnesį.</translation>
 <translation id="3478449063771497234">Pranešimai išjungti</translation>
 <translation id="2862978891748913252">Pasirinkite savo šalį</translation>
 <translation id="3970520675790340955">Pasirinkite savo šalį, kad galėtume rodyti jūsų regionui tinkamas parinktis ir reklamas.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Dėkojame, kad naudojate „Brave“</translation>
 <translation id="4117451092682672487">Privatumas. Paprastai.</translation>
 <translation id="7909375417585209817">Naudojant „Brave“ kaip numatytąją naršyklę, kiekviena paspausta nuoroda atveriama su „Brave“ privatumo apsauga.</translation>
-<translation id="3737878115109582442">Pridėti paieškos valdiklį</translation>
-<translation id="6199413390010319240">Turėkite „Brave“ po ranka, kad galėtumėte greičiau tyrinėti žiniatinklį.</translation>
-<translation id="4338600611020922010">Įtraukti į pagrindinį ekraną</translation>
 <translation id="7370959926683925817">Blokuokite reklamą. Išsaugokite duomenis. Kasdien.</translation>
 <translation id="7281027579943912834">Kai „Brave“ yra numatytoji naršyklė, kiekviena paliesta nuoroda bus apsaugota nuo reklamos. Kiekvienas puslapis, vaizdo įrašas ir srautas.</translation>
 <translation id="5148943178722443958">Padėkite tobulinti „Brave“.</translation>
@@ -846,7 +841,6 @@ Užklausos nepriėmus, prie VPN pakartotinai prisijungta nebus ir interneto ryš
 <translation id="4351811224047421378">Skaičiai po kablelio</translation>
 <translation id="3494964159182650590">Atlygio suvestinė</translation>
 <translation id="590733288489975971">Atlygis už reklamą</translation>
-<translation id="1886682615222609631">Uždarbis iki šiol</translation>
 <translation id="1767561995429774671">Įnešti</translation>
 <translation id="7335371657242627509">Įtraukti į automatinį indėlį</translation>
 <translation id="6727102863431372879">Nustatyti</translation>
@@ -1232,5 +1226,4 @@ Užklausos nepriėmus, prie VPN pakartotinai prisijungta nebus ir interneto ryš
 <translation id="2728518864712716830">Naujinimas atsisiųstas.</translation>
 <translation id="8403338849301491865">Filtrų sąrašas sėkmingai atnaujintas</translation>
 <translation id="4650851936784160359">Filtrų sąrašo atnaujinti nepavyko. Bandykite dar kartą</translation>
-<translation id="1450735350187803276">Šį mėnesį matytos reklamos</translation>
 </translationbundle>

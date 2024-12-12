@@ -569,7 +569,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Dowiedz się więcej<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Nie martw się.</translation>
 <translation id="5027616819996705541">Wciąż możesz przeglądać bez obaw o naruszenie prywatności!</translation>
-<translation id="1886682615222609631">Dochody dotychczas</translation>
+<translation id="1450735350187803276">Dochody dotychczas</translation>
 <translation id="7649070708921625228">Pomoc</translation>
 <translation id="6042308850641462728">Więcej</translation>
 <translation id="6245259297588415877">Twórcy</translation>
@@ -2221,8 +2221,8 @@
 <translation id="6821108091726602352">Pomóż nam w naprawieniu sieci, uczestnicząc w projekcie Brave Web Discovery Project. Udostępniając całkowicie anonimowe sygnały wyszukiwania, możesz pomóc Brave w rozwoju indeksu wyszukiwania.</translation>
 <translation id="6764845498618413165">Dowiedz się więcej.</translation>
 <translation id="7818938154803162778">Chętnie pomogę</translation>
-<translation id="7821773512278295352">Firewall Brave + VPN: połączone</translation>
-<translation id="6019088868713395120">Firewall Brave + VPN: rozłączone</translation>
+<translation id="958268166261124668">Firewall Brave + VPN: połączone</translation>
+<translation id="6021669293402055982">Firewall Brave + VPN: rozłączone</translation>
 <translation id="3541307549916475335">Interfejs użytkownika panelu VPN Brave</translation>
 <translation id="7143207342074048698">Łączenie</translation>
 <translation id="1202549130170287307">Rozłączanie</translation>
@@ -2234,7 +2234,6 @@
 <translation id="3357036723290257445">Masz już wykupioną usługę Brave VPN?</translation>
 <translation id="8814357473522731680">Technologia</translation>
 <translation id="8652175077544655965">Zamknij ustawienia</translation>
-<translation id="3099126540952997993">Zapora + VPN</translation>
 <translation id="5908163815855240493">Przejdź do strony głównej</translation>
 <translation id="7805768142964895445">Status</translation>
 <translation id="5747552184818312860">Wygasa</translation>
@@ -2304,9 +2303,7 @@ Zaraz Cię połączymy!</translation>
 <translation id="9061845622728745852">Strefa czasowa:</translation>
 <translation id="8295393906499561642">Sesja wygasła</translation>
 <translation id="3312623558576021182">Zaloguj się na swoje<ph name="BRAVE_ACCOUNT_BEGIN"/> konto Brave<ph name="BRAVE_ACCOUNT_END"/>, żeby odświeżyć sesję połączenia VPN.</translation>
-<translation id="6021669293402055982">VPN Brave: rozłączony</translation>
 <translation id="7861195049821776142">VPN Brave: rozłączanie</translation>
-<translation id="958268166261124668">VPN Brave: połączony</translation>
 <translation id="2061807837510296780">VPN Brave: łączenie</translation>
 <translation id="1313124107969703758">VPN Brave: błąd</translation>
 <translation id="8273420301954598554">Status: połączony</translation>
@@ -2322,7 +2319,4 @@ Zaraz Cię połączymy!</translation>
     istniejącej karty.</translation>
 <translation id="451189393813405346">Zapytaj Leo</translation>
 <translation id="8525248723479742219">Odtwórz później</translation>
-<translation id="1450735350187803276">Reklamy wyświetlone w tym miesiącu</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Zmień</translation>
 </translationbundle>

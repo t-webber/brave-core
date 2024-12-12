@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Pelajari lebih lanjut<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Jangan khawatir.</translation>
 <translation id="5027616819996705541">Anda masih dapat menjelajah secara privat!</translation>
-<translation id="1886682615222609631">Pendapatan sejauh ini</translation>
+<translation id="1450735350187803276">Pendapatan sejauh ini</translation>
 <translation id="7649070708921625228">Bantuan</translation>
 <translation id="6042308850641462728">Lebih lanjut</translation>
 <translation id="6245259297588415877">Kreator</translation>
@@ -2217,8 +2217,8 @@
 <translation id="6821108091726602352">Bantulah kami memperbaiki web dengan berpartisipasi dalam Proyek Penemuan Web Brave. Dengan membagikan sinyal pencarian yang sepenuhnya anonim, Anda dapat membantu Brave mengembangkan indeks pencarian.</translation>
 <translation id="6764845498618413165">Pelajari Lebih Lanjut.</translation>
 <translation id="7818938154803162778">Tentu saja saya akan membantu</translation>
-<translation id="7821773512278295352">Dinding Api + VPN Brave: Terhubung</translation>
-<translation id="6019088868713395120">Dinding Api + VPN Brave: Terputus</translation>
+<translation id="958268166261124668">Dinding Api + VPN Brave: Terhubung</translation>
+<translation id="6021669293402055982">Dinding Api + VPN Brave: Terputus</translation>
 <translation id="3541307549916475335">UI Panel VPN Brave</translation>
 <translation id="7143207342074048698">Menyambungkan</translation>
 <translation id="1202549130170287307">Memutuskan sambungan</translation>
@@ -2230,14 +2230,13 @@
 <translation id="3357036723290257445">Sudah membeli VPN Brave?</translation>
 <translation id="8814357473522731680">Didukung oleh</translation>
 <translation id="8652175077544655965">Menutup pengaturan</translation>
-<translation id="3099126540952997993">Dinding Api + VPN</translation>
 <translation id="5908163815855240493">Buka beranda utama</translation>
 <translation id="7805768142964895445">Status</translation>
 <translation id="5747552184818312860">Kedaluwarsa</translation>
 <translation id="8421945428836418371">Sambungkan ulang secara otomatis</translation>
 <translation id="434523916398030617">Hubungi dukungan teknis</translation>
 <translation id="1116694919640316211">Tentang</translation>
-<translation id="755045397420611731">Privasi &amp;; keamanan ekstra saat daring</translation>
+<translation id="755045397420611731">Privasi &amp; keamanan ekstra saat daring</translation>
 <translation id="4520128772974831415">Menyembunyikan IP Anda &amp; mengubah lokasi Anda</translation>
 <translation id="2044418816479192294">Ratusan peladen di seluruh dunia</translation>
 <translation id="7410504850864021600">Koneksi secepat kilat</translation>
@@ -2301,9 +2300,7 @@ Mari kita buat Anda terhubung!</translation>
 <translation id="9061845622728745852">Zona Waktu:</translation>
 <translation id="8295393906499561642">Sesi telah berakhir</translation>
 <translation id="3312623558576021182">Harap masuk ke <ph name="BRAVE_ACCOUNT_BEGIN"/>Akun Brave<ph name="BRAVE_ACCOUNT_END"/> Anda untuk menyegarkan sesi VPN Anda.</translation>
-<translation id="6021669293402055982">VPN Brave: Terputus</translation>
 <translation id="7861195049821776142">VPN Brave: Memutuskan koneksi</translation>
-<translation id="958268166261124668">VPN Brave: Tersambung</translation>
 <translation id="2061807837510296780">VPN Brave: Menghubungkan</translation>
 <translation id="1313124107969703758">VPN Brave: Kesalahan</translation>
 <translation id="8273420301954598554">Status: Tersambung</translation>
@@ -2319,10 +2316,4 @@ Mari kita buat Anda terhubung!</translation>
     tab yang sudah ada</translation>
 <translation id="451189393813405346">Tanyakan pada Leo</translation>
 <translation id="8525248723479742219">Putar Nanti</translation>
-<translation id="1450735350187803276">Iklan yang dilihat bulan ini</translation>
-<translation id="3960619311638643872">VPN Brave</translation>
-<translation id="8425213833346101688">Ubah</translation>
-<translation id="6819278685469225453">Lindungi setiap aplikasi &amp; seluruh perangkat Anda</translation>
-<translation id="4295077644587784828">Privasi &amp; keamanan ekstra saat daring.</translation>
-<translation id="8703188411226330709">Mulai uji coba gratis</translation>
 </translationbundle>

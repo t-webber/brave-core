@@ -1538,7 +1538,7 @@
 <translation id="3799805948399000906">请求的字体</translation>
 <translation id="3801265110651850478">在浏览流量中发送“Do Not Track”请求</translation>
 <translation id="3801297763951514916">您经常访问</translation>
-<translation id="380329542618494757">名称</translation>
+<translation id="380329542618494757">姓名</translation>
 <translation id="3803801106042434208">这些搜索引擎在您所在地区非常热门</translation>
 <translation id="3807366285948165054">图片沿 X 轴位移</translation>
 <translation id="3807709094043295184">经典摇滚与老歌</translation>
@@ -3342,7 +3342,7 @@
 <translation id="718872491229180389">啦啦队</translation>
 <translation id="7188840756966467339">重启浏览器并应用政策</translation>
 <translation id="7192188280913829296">还必须指定“vendor_id”属性。</translation>
-<translation id="7192203810768312527">释放了 <ph name="SIZE"/>。当您下次访问时，某些网站的加载速度可能会更慢。</translation>
+<translation id="7192203810768312527">释放 <ph name="SIZE"/>。当您下次访问某些网站时，加载速度可能会变慢。</translation>
 <translation id="7192537357091279678">计算机驱动器和存储设备</translation>
 <translation id="7193661028827781021">参考资料</translation>
 <translation id="719464814642662924">Visa</translation>
@@ -3632,7 +3632,7 @@
 <translation id="7684683146428206649">金属</translation>
 <translation id="5626140961157260107">“删除浏览数据”按钮，激活它即可在 Brave 的“设置”页面中删除浏览记录、Cookie、缓存内容及其他数据</translation>
 <translation id="7684928361160505327">{0,plural, =1{由于政策原因，<ph name="FILE_NAME"/> 已被屏蔽}other{由于政策原因，<ph name="FILE_COUNT"/> 个文件已被屏蔽}}</translation>
-<translation id="7687186412095877299">在付款表单中自动填充已保存的付款方式</translation>
+<translation id="7687186412095877299">在付款表单中自动填充已保存的支付方式</translation>
 <translation id="7687305263118037187">重试超时</translation>
 <translation id="7690647519407127574">Oufuku Hagaki Postcard</translation>
 <translation id="7693583928066320343">收到的页面顺序</translation>
@@ -4038,7 +4038,7 @@
 <translation id="8428213095426709021">设置</translation>
 <translation id="8428634594422941299">知道了</translation>
 <translation id="5808418475906247813"><ph name="MANAGE_COOKIES_FOCUSED_FRIENDLY_MATCH_TEXT"/>，依次按 Tab 键和 Enter 键即可在 Brave 设置中管理您的 Cookie 偏好设置</translation>
-<translation id="8433057134996913067">这将使您退出大多数网站。</translation>
+<translation id="8433057134996913067">若删除此类数据，您会退出大多数网站。</translation>
 <translation id="8434840396568290395">宠物</translation>
 <translation id="8436623588884785770">添加政策</translation>
 <translation id="8437238597147034694">撤消移动(&amp;U)</translation>

@@ -211,7 +211,7 @@ I motsatt fall blir dette blokkert av personverninnstillingene. Dette gjør at i
 <translation id="1357195169723583938">hvem som har brukt enheten i det siste, og når de har gjort det</translation>
 <translation id="1358187717814494928">Opprett regneark</translation>
 <translation id="1359836962251219822">Kjøkken og spiserom</translation>
-<translation id="1361528602584216624">Grense per Pix-betaling: R$ <ph name="TRANSACTION_LIMIT"/></translation>
+<translation id="1361528602584216624">Grense på BRL <ph name="TRANSACTION_LIMIT"/> per Pix-betaling</translation>
 <translation id="1363015776076529485">Tilgjengelige betalingsmåter for å gå videre med betalingen er åpnet i full høyde.</translation>
 <translation id="1363028406613469049">Spor</translation>
 <translation id="1364822246244961190">Denne regelen er blokkert. Regelens verdi ignoreres.</translation>
@@ -2533,7 +2533,7 @@ I motsatt fall blir dette blokkert av personverninnstillingene. Dette gjør at i
 <translation id="569000877158168851">Verdien for DnsOverHttpsTemplates er irrelevant og blir ikke brukt med mindre DnsOverHttpsMode-regelen er satt til enten <ph name="SECURE_DNS_MODE_AUTOMATIC"/> eller <ph name="SECURE_DNS_MODE_SECURE"/>.</translation>
 <translation id="5691848789297492617">Lagringskortet er åpnet i full høyde.</translation>
 <translation id="5695542892312572833">Vil du bruke Windows Hello for å verifisere og fullføre kjøpet?</translation>
-<translation id="8473265600797831709">Informasjon du har lagret, samt denne siden, sendes til Brave. Dette gjøres for å sjekke om autofyll kan hjelpe deg med å fylle ut dette skjemaet. Dataene kan bli sett av menneskelige evaluerere som jobber med å gjøre denne funksjonen bedre.</translation>
+<translation id="8473265600797831709">Informasjon du har lagret, samt denne siden, sendes til Brave for å sjekke om autofyll kan hjelpe deg med å fylle ut dette skjemaet. Dataene kan bli sett av menneskelige evaluerere som jobber med å gjøre denne funksjonen bedre.</translation>
 <translation id="5699628521141772782">Meierivarer og egg</translation>
 <translation id="5700761515355162635">Informasjonskapsler fra tredjeparter tillates</translation>
 <translation id="5701381305118179107">Midtstill</translation>

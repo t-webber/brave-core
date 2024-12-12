@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="pl">
-<translation id="8631427463833030968">Zarządzaj reklamami</translation>
 <translation id="7630214457764713113">Skopiuj wyczyszczone łącze</translation>
-<translation id="885805571521218129">Oto Twoje szacunkowe zarobki z reklam Brave w tym miesiącu</translation>
 <translation id="3478449063771497234">Powiadomienia są wyłączone</translation>
 <translation id="2862978891748913252">Wybierz kraj</translation>
 <translation id="3970520675790340955">Wybierz kraj, żebyśmy mogli pokazać Ci opcje i reklamy właściwe dla Twojego regionu.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Witamy w przeglądarce Brave</translation>
 <translation id="4117451092682672487">Prosta ochrona prywatności.</translation>
 <translation id="7909375417585209817">Gdy Brave jest domyślną przeglądarką, każdy otwarty link otwiera się z ochroną prywatności Brave.</translation>
-<translation id="3737878115109582442">Dodaj widżet wyszukiwania</translation>
-<translation id="6199413390010319240">Miej Brave pod ręką, aby szybciej przeglądać sieć.</translation>
-<translation id="4338600611020922010">Dodaj do ekranu głównego</translation>
 <translation id="7370959926683925817">Blokuj reklamy. Chroń dane. Każdego dnia.</translation>
 <translation id="7281027579943912834">Z Brave jako domyślną przeglądarką każdy link, który klikniesz, zostanie objęty ochroną Brave przed reklamami. Każda strona i transmisja. Każdy film.</translation>
 <translation id="5148943178722443958">Pomóż ulepszyć Brave.</translation>
@@ -843,7 +838,6 @@ Jeżeli nie zaakceptujesz tego żądania, połączenie z VPN nie zostanie ponown
 <translation id="4351811224047421378">Dokładność liczb po przecinku</translation>
 <translation id="3494964159182650590">Podsumowanie nagród</translation>
 <translation id="590733288489975971">Nagrody z reklam</translation>
-<translation id="1886682615222609631">Dochody dotychczas</translation>
 <translation id="1767561995429774671">Wspieraj</translation>
 <translation id="7335371657242627509">Włącz automatyczną dotację</translation>
 <translation id="6727102863431372879">Ustal</translation>
@@ -1229,5 +1223,4 @@ Jeżeli nie zaakceptujesz tego żądania, połączenie z VPN nie zostanie ponown
 <translation id="2728518864712716830">Aktualizacja została pobrana.</translation>
 <translation id="8403338849301491865">Lista filtru została pomyślnie zaktualizowana</translation>
 <translation id="4650851936784160359">Nie można zaktualizować listy filtru. Spróbuj ponownie</translation>
-<translation id="1450735350187803276">Reklamy wyświetlone w tym miesiącu</translation>
 </translationbundle>

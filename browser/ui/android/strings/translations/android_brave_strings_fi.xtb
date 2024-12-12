@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="fi">
-<translation id="8631427463833030968">Hallitse mainoksia</translation>
 <translation id="7630214457764713113">Kopioi puhdas linkki</translation>
-<translation id="885805571521218129">Tämä kuvastaa Brave-mainosten arvioituja tulojasi tässä kuussa.</translation>
 <translation id="3478449063771497234">Ilmoitukset on poistettu käytöstä</translation>
 <translation id="2862978891748913252">Valitse maa</translation>
 <translation id="3970520675790340955">Valitse maasi, jotta voimme näyttää alueesi mukaisia vaihtoehtoja ja mainoksia.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Tervetuloa Braveiin</translation>
 <translation id="4117451092682672487">Yksinkertainen tietosuoja.</translation>
 <translation id="7909375417585209817">Kun Brave on käytössä oletuksena, jokainen napsauttamasi linkki avautuu Braven tietosuoja-asetusten suojaamana.</translation>
-<translation id="3737878115109582442">Lisää hakupienoisohjelma</translation>
-<translation id="6199413390010319240">Voit tutustua verkkoon nopeammin käyttämällä Bravea.</translation>
-<translation id="4338600611020922010">Lisää aloitusnäyttöön</translation>
 <translation id="7370959926683925817">Estä mainokset. Tallenna tiedot. Joka ikinen päivä.</translation>
 <translation id="7281027579943912834">Kun Brave on oletusselain, jokaisen napsauttamasi linkin kohdalla käytetään Brave-mainosestosuojausta. Jokaisen sivun, videon ja suoratoistoistunton kohdalla.</translation>
 <translation id="5148943178722443958">Auta parantamaan Bravea.</translation>
@@ -842,7 +837,6 @@ Jos et hyväksy tätä pyyntöä, yhteyttä VPN:ään ei muodosta uudelleen ja I
 <translation id="4351811224047421378">Desimaalitarkkuus</translation>
 <translation id="3494964159182650590">Palkkioiden yhteenveto</translation>
 <translation id="590733288489975971">Palkinnot Ads-mainoksista</translation>
-<translation id="1886682615222609631">Ansiot tähän mennessä</translation>
 <translation id="1767561995429774671">Lahjoita</translation>
 <translation id="7335371657242627509">Sisällytä automaattiseen lahjoitukseen</translation>
 <translation id="6727102863431372879">Aseta</translation>
@@ -1228,5 +1222,4 @@ Jos et hyväksy tätä pyyntöä, yhteyttä VPN:ään ei muodosta uudelleen ja I
 <translation id="2728518864712716830">Päivitys on ladattu.</translation>
 <translation id="8403338849301491865">Suodatinluettelon päivitys onnistui</translation>
 <translation id="4650851936784160359">Suodatinluettelon päivitys ei onnistunut. Yritä uudellen.</translation>
-<translation id="1450735350187803276">Tässä kuussa nähdyt mainokset</translation>
 </translationbundle>

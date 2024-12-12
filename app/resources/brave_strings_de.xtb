@@ -27,6 +27,7 @@
 <translation id="1330562121671411446">Sprache erkennen</translation>
 <translation id="108284536240904209">Auch Daten aus Brave löschen (<ph name="URL"/>)</translation>
 <translation id="1345251407431278948">Angepinnt! Über die neue Schaltfläche in der Symbolleiste kannst du wieder auf die Bildersuche zugreifen.</translation>
+<translation id="1356661055722410047">Neu! Du kannst sowohl Text als auch Bilder auf deinem Bildschirm übersetzen lassen</translation>
 <translation id="8132634101975074716">Du bist in Brave angemeldet.</translation>
 <translation id="1586284627848250203">Hilfe zu Brave for Testing</translation>
 <translation id="1497802159252041924">Installationsfehler: <ph name="INSTALL_ERROR"/></translation>
@@ -121,8 +122,10 @@
 <translation id="2738871930057338499">Internetverbindung kann nicht hergestellt werden. HTTP 403 Forbidden. Bitte prüfe deine Proxykonfiguration.</translation>
 <translation id="2753623023919742414">Zum Suchen klicken</translation>
 <translation id="2770231113462710648">Standardbrowser ändern in:</translation>
+<translation id="7959931068784982965">Später wirst du von Brave gefragt, ob du gespeicherte Informationen verwenden möchtest, um Formulare automatisch auszufüllen</translation>
 <translation id="1187986649024576560">Diese Erweiterung enthält Malware und ist nicht sicher. Entferne sie aus Brave, damit sie deine Daten auf von dir besuchten Websites nicht mehr abrufen oder ändern kann, auch nicht deine personenbezogenen Daten.</translation>
 <translation id="2799223571221894425">Neu starten</translation>
+<translation id="3355084177729745988">Brave fragt dich, ob du Formularinformationen wie deinen Geburtstag, dein Alter und deine Reisepassnummer speichern möchtest</translation>
 <translation id="3783547330001921298">Dadurch wird ein neues Brave-Profil für <ph name="USER_EMAIL_ADDRESS"/> erstellt</translation>
 <translation id="2841525013647267359">Übersetzen aus Sprache:</translation>
 <translation id="2846251086934905009">Installationsfehler: Die Installation konnte nicht abgeschlossen werden und wurde abgebrochen.</translation>
@@ -217,6 +220,7 @@
 <translation id="4148957013307229264">Installation wird ausgeführt...</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> – Netzwerkanmeldung – Brave</translation>
 <translation id="2871190378186459992">Entdecke tolle Apps, Spiele, Erweiterungen und Designs für Brave.</translation>
+<translation id="6670140629169983459">Wenn du die von deinen Eltern festgelegten Einstellungen nutzen möchtest, um im Internet besser geschützt zu sein, wechsel zu deinem Brave-Profil, in dem du bereits als <ph name="USER_EMAIL_ADDRESS"/> angemeldet bist</translation>
 <translation id="4222932583846282852">Wird abgebrochen…</translation>
 <translation id="4224210481850767180">Die Installation wurde abgebrochen.</translation>
 <translation id="1853997773668795891">Deine Brave-Daten mit diesem Konto verknüpfen?</translation>
@@ -422,6 +426,7 @@ Einige Funktionen stehen möglicherweise nicht zur Verfügung. Gib bitte ein and
 <translation id="6843464627590537736">Such-Bubble für die Bildersuche</translation>
 <translation id="8211837073776713955">Brave wird dich informieren, sollten deine Passwörter nicht mehr sicher sein</translation>
 <translation id="684888714667046800">Internetverbindung kann nicht hergestellt werden. Wenn du eine Firewall verwendest, achte darauf, dass <ph name="PRODUCT_EXE_NAME"/> auf der Zulassungsliste steht.</translation>
+<translation id="9165828751478320966">Brave kann mehr Arten von Informationen verstehen und deine Formulare schneller automatisch ausfüllen. <ph name="BEGIN_LINK"/>Weitere Informationen zu Brave Autofill<ph name="END_LINK"/></translation>
 <translation id="7830723774663008396">Brave – <ph name="PAGE_TITLE"/></translation>
 <translation id="3028928628792374067">Brave hat festgestellt, dass „<ph name="EXTENSION_NAME"/>“ Malware enthält</translation>
 <translation id="6896758677409633944">Kopieren</translation>
@@ -528,6 +533,7 @@ Brave kann deine Einstellungen nicht wiederherstellen.</translation>
 <translation id="1327729221471951979">Brave empfiehlt, sie zu entfernen. <ph name="BEGIN_LINK"/>Weitere Informationen zu unterstützten Erweiterungen<ph name="END_LINK"/></translation>
 <translation id="8577108764439626300">Diese Erweiterung ist möglicherweise nicht sicher – ihre Veröffentlichung wurde vom Entwickler aufgehoben. Entferne sie aus Brave, damit sie deine Daten auf von dir besuchten Websites nicht mehr abrufen oder ändern kann, auch nicht deine personenbezogenen Daten.</translation>
 <translation id="5337999052834672687">{0,plural, =1{Brave innerhalb eines Tages neu starten}other{Brave innerhalb von # Tagen neu starten}}</translation>
+<translation id="8438543370129609977">Wenn du die Bildersuche verwendest, werden der Seitentitel, die URL und der Inhalt, einschließlich PDFs, an den Server gesendet. <ph name="LEARN_MORE"/></translation>
 <translation id="6914496861676471566">Das Installationsarchiv ist beschädigt oder ungültig. Bitte lade Brave erneut herunter.</translation>
 <translation id="4378573854226202617">Für Brave ist Windows 10 oder höher erforderlich.</translation>
 <translation id="6431861494713261006">Optional: Diagnose- und Nutzungsdaten automatisch an Brave senden, um die Funktionen und die Leistung von Brave OS zu verbessern.</translation>
@@ -539,6 +545,7 @@ Brave kann deine Einstellungen nicht wiederherstellen.</translation>
 <translation id="227028348235968071">Brave kann deine Passwörter prüfen, wenn du dich mit deinem Brave-Konto anmeldest</translation>
 <translation id="839677568225616901">Brave wird von mehreren Organisationen verwaltet</translation>
 <translation id="8121009781989288430">Copyright © <ph name="YEAR"/> Die Brave-Autoren. Alle Rechte vorbehalten.</translation>
+<translation id="8601359445272098721">Neu! Du kannst sowohl Text als auch Bilder auf deinem Bildschirm übersetzen, indem du die Schaltfläche „Bildschirm übersetzen“ auswählst</translation>
 <translation id="7890337656251106515"><ph name="BEGIN_BOLD"/>So verwenden wir diese Daten<ph name="END_BOLD"/>: Websites können Daten zu deinen Interessen bei Brave speichern. Wenn du beispielsweise im Internet Schuhe für einen Marathon kaufst, definiert die Website möglicherweise Marathons als eines deiner Interessen. Wenn du dann später eine andere Website besuchst, um dich für ein Wettrennen anzumelden, kann dir auf Grundlage deiner Interessen Werbung zu Laufschuhen angezeigt werden.</translation>
 <translation id="3052349005266761501">Brave wird gestartet…</translation>
 <translation id="6283840329609797763">Die Installation konnte aufgrund eines undefinierten Fehlers nicht abgeschlossen werden. Bitte lade Brave erneut herunter.</translation>

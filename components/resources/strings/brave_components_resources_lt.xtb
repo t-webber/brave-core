@@ -569,7 +569,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Sužinoti daugiau<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Nesijaudinkite.</translation>
 <translation id="5027616819996705541">Galite naršyti privačiai!</translation>
-<translation id="1886682615222609631">Iki šiol uždirbta</translation>
+<translation id="1450735350187803276">Iki šiol uždirbta</translation>
 <translation id="7649070708921625228">Žinynas</translation>
 <translation id="6042308850641462728">Daugiau</translation>
 <translation id="6245259297588415877">Kūrėjai</translation>
@@ -2220,8 +2220,8 @@
 <translation id="6821108091726602352">Padėkite mums sutvarkyti žiniatinklį dalyvaudami „Brave“ žiniatinklio atradimo projekte. Bendrindami visiškai anoniminius paieškos signalus galite padėti „Brave“ plėsti paieškos indeksą.</translation>
 <translation id="6764845498618413165">Sužinokite daugiau.</translation>
 <translation id="7818938154803162778">Žinoma, padėsiu</translation>
-<translation id="7821773512278295352">„Brave Firewall + VPN“: prisijungta</translation>
-<translation id="6019088868713395120">„Brave Firewall + VPN“: atsijungta</translation>
+<translation id="958268166261124668">„Brave Firewall + VPN“: prisijungta</translation>
+<translation id="6021669293402055982">„Brave Firewall + VPN“: atsijungta</translation>
 <translation id="3541307549916475335">„Brave“ VPN skydelio UI</translation>
 <translation id="7143207342074048698">Jungiama</translation>
 <translation id="1202549130170287307">Atsijungiama</translation>
@@ -2233,7 +2233,6 @@
 <translation id="3357036723290257445">Jau įsigijote „Brave“ VPN?</translation>
 <translation id="8814357473522731680">Teikia</translation>
 <translation id="8652175077544655965">Užverti nuostatas</translation>
-<translation id="3099126540952997993">Užkarda ir VPN</translation>
 <translation id="5908163815855240493">Grįžti į pagrindinį</translation>
 <translation id="7805768142964895445">Būsena</translation>
 <translation id="5747552184818312860">Galioja iki</translation>
@@ -2304,9 +2303,7 @@ Būkite prisijungę!</translation>
 <translation id="9061845622728745852">Laiko juosta:</translation>
 <translation id="8295393906499561642">Sesija baigta</translation>
 <translation id="3312623558576021182">Prisijunkite prie savo <ph name="BRAVE_ACCOUNT_BEGIN"/>„Brave“ paskyros<ph name="BRAVE_ACCOUNT_END"/>ir VPN vėl bus įjungtas.</translation>
-<translation id="6021669293402055982">„Brave“ VPN: neprisijungta</translation>
 <translation id="7861195049821776142">„Brave“ VPN: atsijungiama</translation>
-<translation id="958268166261124668">„Brave“ VPN: prisijungta</translation>
 <translation id="2061807837510296780">„Brave“ VPN: jungiamasi</translation>
 <translation id="1313124107969703758">„Brave“ VPN: klaida</translation>
 <translation id="8273420301954598554">Būsena: prisijungta</translation>
@@ -2322,7 +2319,4 @@ Būkite prisijungę!</translation>
     esamą skirtuką</translation>
 <translation id="451189393813405346">Klausti „Leo“</translation>
 <translation id="8525248723479742219">Leisti vėliau</translation>
-<translation id="1450735350187803276">Šį mėnesį matytos reklamos</translation>
-<translation id="3960619311638643872">„Brave“ VPN</translation>
-<translation id="8425213833346101688">Keisti</translation>
 </translationbundle>

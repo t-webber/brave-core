@@ -119,7 +119,7 @@ Jika tidak, ini akan diblokir oleh setelan privasi Anda. Ini akan memungkinkan k
 <translation id="1206967143813997005">Tanda tangan awal tidak valid</translation>
 <translation id="1209206284964581585">Sembunyikan untuk saat ini</translation>
 <translation id="121201262018556460">Anda bermaksud membuka <ph name="DOMAIN"/>, namun server menyajikan sertifikat yang berisi kunci yang lemah. Penyerang mungkin telah merusak kunci pribadi, dan server mungkin bukan yang diharapkan (Anda mungkin sedang berkomunikasi dengan penyerang).</translation>
-<translation id="1212527389003717329">Download dimulai. Untuk melihatnya, tekan dan tahan |<ph name="ACCELERATOR"/>|.</translation>
+<translation id="1212527389003717329">Download dimulai. Untuk melihatnya, tekan lama |<ph name="ACCELERATOR"/>|.</translation>
 <translation id="1219129156119358924">Keamanan Sistem</translation>
 <translation id="1222060260947439312">Baki Kanan</translation>
 <translation id="1224330468394120478">A3x6</translation>
@@ -307,7 +307,7 @@ Jika tidak, ini akan diblokir oleh setelan privasi Anda. Ini akan memungkinkan k
 <translation id="1532118530259321453">Halaman ini menyatakan</translation>
 <translation id="1533966801397200693">Profil yang Anda gunakan untuk login adalah profil terkelola. Administrator dapat melakukan perubahan pada setelan profil Anda dari jarak jauh, menganalisis informasi tentang browser melalui pelaporan, dan melakukan tugas lain yang diperlukan. <ph name="BEGIN_LINK"/>Pelajari lebih lanjut<ph name="END_LINK"/></translation>
 <translation id="1536390784834419204">Terjemahkan halaman</translation>
-<translation id="1538295100801850685">Peningkatan prediksi</translation>
+<translation id="1538295100801850685">Peningkatan kualitas prediksi</translation>
 <translation id="1539840569003678498">Laporan dikirim:</translation>
 <translation id="1542105669288201090">Pendidikan Bisnis</translation>
 <translation id="1545757265410828525">Histori harga</translation>
@@ -897,7 +897,7 @@ disusupi oleh penyerang. Hanya buka <ph name="BEGIN_LINK"/>situs yang tidak aman
 <translation id="2606760465469169465">Verifikasi otomatis</translation>
 <translation id="2608019759319359258">Jika diblokir, topik tidak akan digunakan untuk mempersonalisasi iklan</translation>
 <translation id="2610561535971892504">Klik untuk menyalin</translation>
-<translation id="2612676031748830579">Nomor kartu kredit</translation>
+<translation id="2612676031748830579">Nomor kartu</translation>
 <translation id="686139377353794280">Semua kode keamanan yang disimpan di perangkat Anda dan di Akun Brave akan dihapus</translation>
 <translation id="2616412942031748191">Pemasaran &amp; Pengoptimalan Mesin Telusur</translation>
 <translation id="2618206371527040026">Konferensi &amp; Publikasi Akademik</translation>
@@ -1109,7 +1109,7 @@ disusupi oleh penyerang. Hanya buka <ph name="BEGIN_LINK"/>situs yang tidak aman
 <translation id="2396578282884469363">Anda biasanya terhubung ke situs dengan aman, tetapi Brave tidak dapat menggunakan koneksi yang aman untuk saat ini. Penyerang mungkin mencoba menyadap atau mengubah koneksi jaringan Anda. <ph name="BEGIN_LEARN_MORE_LINK"/>Pelajari lebih lanjut peringatan ini<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="3052964831964880138">Diskon <ph name="PRICE_DROP"/> untuk <ph name="PRODUCT_NAME"/></translation>
 <translation id="3061707000357573562">Layanan Patch</translation>
-<translation id="306198082577913404">Aktifkan peningkatan prediksi</translation>
+<translation id="306198082577913404">Aktifkan peningkatan kualitas prediksi</translation>
 <translation id="3062655045399308513">Hapus Data Penjelajahan...</translation>
 <translation id="306573536155379004">Game dimulai.</translation>
 <translation id="3067505415088964188">Harga rendah</translation>
@@ -1507,7 +1507,7 @@ disusupi oleh penyerang. Hanya buka <ph name="BEGIN_LINK"/>situs yang tidak aman
 <translation id="3727309136762649052">Namespace</translation>
 <translation id="8077319455765501118">Untuk menggunakan Pengelola Sandi Brave dengan Rantai Kunci macOS, luncurkan kembali Brave dan izinkan akses Rantai Kunci. Tab Anda akan dibuka lagi setelah peluncuran kembali.</translation>
 <translation id="2967969024210491578">Browser Brave tidak lagi memerlukan sidik jari Anda untuk mengisi otomatis sandi</translation>
-<translation id="3735143108516366187">Tekan enter untuk mengelola peningkatan prediksi</translation>
+<translation id="3735143108516366187">Tekan enter untuk mengelola peningkatan kualitas prediksi</translation>
 <translation id="3736739313435669994">Anda memblokir situs agar tidak menggunakan cookie pihak ketiga untuk melacak Anda saat menjelajah. Buka setelan untuk <ph name="LINK"/>.</translation>
 <translation id="3738166223076830879">Browser dikelola oleh administrator Anda.</translation>
 <translation id="3738428049780661523">Dibuat <ph name="DATE"/></translation>
@@ -1676,7 +1676,7 @@ disusupi oleh penyerang. Hanya buka <ph name="BEGIN_LINK"/>situs yang tidak aman
 <translation id="4161619938555288542">Izinkan Brave membantu Anda menemukan diskon untuk keranjang Anda</translation>
 <translation id="406358100705415968">Perlengkapan Pelindung Keselamatan Kerja</translation>
 <translation id="4065659219963895623">Restoran</translation>
-<translation id="4067774859633143413">Untuk keluar dari layar penuh dan melihat hasil download, tekan dan tahan |<ph name="ACCELERATOR"/>|</translation>
+<translation id="4067774859633143413">Untuk keluar dari layar penuh dan melihat hasil download, tekan lama |<ph name="ACCELERATOR"/>|</translation>
 <translation id="4067947977115446013">Tambahkan Alamat yang Valid</translation>
 <translation id="4072486802667267160">Terjadi error saat memproses pesanan Anda. Harap coba lagi.</translation>
 <translation id="4073376909608563327">Tidak dapat menggunakan fitur buka kunci perangkat</translation>
@@ -4335,7 +4335,7 @@ disusupi oleh penyerang. Hanya buka <ph name="BEGIN_LINK"/>situs yang tidak aman
 <translation id="9025348182339809926">(Tidak valid)</translation>
 <translation id="902590795160480390">Memuat PDF</translation>
 <translation id="8309858808266687860">Coba Brave Enterprise Core</translation>
-<translation id="9027531288681624875">Untuk keluar dari layar penuh, tekan dan tahan |<ph name="ACCELERATOR"/>|</translation>
+<translation id="9027531288681624875">Untuk keluar dari layar penuh, tekan lama |<ph name="ACCELERATOR"/>|</translation>
 <translation id="9035022520814077154">Kesalahan keamanan</translation>
 <translation id="9035824888276246493">Simpan kode keamanan</translation>
 <translation id="9036306139374661733">Izinkan mikrofon?</translation>

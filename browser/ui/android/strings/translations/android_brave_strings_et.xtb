@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="et">
-<translation id="8631427463833030968">Reklaamide haldamine</translation>
 <translation id="7630214457764713113">Kopeeri puhas link</translation>
-<translation id="885805571521218129">See kajastab teie selle kuu hinnangulist tuluvahemikku Brave'i Reklaamides.</translation>
 <translation id="3478449063771497234">Märguanded on keelatud</translation>
 <translation id="2862978891748913252">Valige oma riik</translation>
 <translation id="3970520675790340955">Valige oma riik, et saaksime kuvada teie piirkonna jaoks õiged valikud ja reklaamid.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Tere tulemast Brave'i</translation>
 <translation id="4117451092682672487">Privaatsus on nüüd lihtne.</translation>
 <translation id="7909375417585209817">Kui kasutate vaikimisi Brave'i, kasutatakse iga puudutatud lingi avamisel Brave'i privaatsuskaitseid.</translation>
-<translation id="3737878115109582442">Otsinguvidina lisamine</translation>
-<translation id="6199413390010319240">Hoidke Brave käepärast, et kiiremini veebi avastada.</translation>
-<translation id="4338600611020922010">Lisa avakuvale</translation>
 <translation id="7370959926683925817">Reklaamid blokeeritakse. Andmed salvestatakse. Päevast päeva.</translation>
 <translation id="7281027579943912834">Kui kasutate vaikimisi Brave'i, saab iga puudutatud link Brave'i reklaamikaitse. Igal lehel, igas videos ja voogesituses.</translation>
 <translation id="5148943178722443958">Aidake Brave'i paremaks muuta.</translation>
@@ -843,7 +838,6 @@ Kui te selle taotlusega ei nõustu, siis VPN-i ühendust ei taastata ja teie int
 <translation id="4351811224047421378">Täpsuse kümnendkohad</translation>
 <translation id="3494964159182650590">Preemiate kokkuvõte</translation>
 <translation id="590733288489975971">Preemiad Adsilt</translation>
-<translation id="1886682615222609631">Senine tulu</translation>
 <translation id="1767561995429774671">Anneta</translation>
 <translation id="7335371657242627509">Lisa automaatsesse panustamisse</translation>
 <translation id="6727102863431372879">Sea</translation>
@@ -1229,5 +1223,4 @@ Kui te selle taotlusega ei nõustu, siis VPN-i ühendust ei taastata ja teie int
 <translation id="2728518864712716830">Uuendus on alla laaditud.</translation>
 <translation id="8403338849301491865">Filtrite loendi uuendamine õnnestus</translation>
 <translation id="4650851936784160359">Filtrite loendit ei õnnestunud uuendada. Proovige uuesti</translation>
-<translation id="1450735350187803276">Sellel kuul nähtud reklaamid</translation>
 </translationbundle>

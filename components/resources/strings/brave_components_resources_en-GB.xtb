@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Learn more<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Don’t worry.</translation>
 <translation id="5027616819996705541">You can still browse privately!</translation>
-<translation id="1886682615222609631">Earnings so far</translation>
+<translation id="1450735350187803276">Earnings so far</translation>
 <translation id="7649070708921625228">Help</translation>
 <translation id="6042308850641462728">More</translation>
 <translation id="6245259297588415877">Creators</translation>
@@ -2217,8 +2217,8 @@
 <translation id="6821108091726602352">Help us fix the web by participating in Brave’s Web Discovery Project. By sharing completely anonymous search signals, you can help Brave grow the search index.</translation>
 <translation id="6764845498618413165">Learn more.</translation>
 <translation id="7818938154803162778">Sure, I'll help</translation>
-<translation id="7821773512278295352">Brave Firewall + VPN: connected</translation>
-<translation id="6019088868713395120">Brave Firewall + VPN: disconnected</translation>
+<translation id="958268166261124668">Brave Firewall + VPN: connected</translation>
+<translation id="6021669293402055982">Brave Firewall + VPN: disconnected</translation>
 <translation id="3541307549916475335">Brave VPN Panel UI</translation>
 <translation id="7143207342074048698">Connecting ...</translation>
 <translation id="1202549130170287307">Disconnecting</translation>
@@ -2230,7 +2230,6 @@
 <translation id="3357036723290257445">Already purchased Brave VPN?</translation>
 <translation id="8814357473522731680">Powered by</translation>
 <translation id="8652175077544655965">Close settings</translation>
-<translation id="3099126540952997993">Firewall + VPN</translation>
 <translation id="5908163815855240493">Go to main</translation>
 <translation id="7805768142964895445">Status</translation>
 <translation id="5747552184818312860">Expires</translation>
@@ -2301,9 +2300,7 @@ Let's get you connected!</translation>
 <translation id="9061845622728745852">Timezone:</translation>
 <translation id="8295393906499561642">Session expired</translation>
 <translation id="3312623558576021182">Please log in to your <ph name="BRAVE_ACCOUNT_BEGIN"/>Brave Account<ph name="BRAVE_ACCOUNT_END"/> to refresh your VPN session.</translation>
-<translation id="6021669293402055982">Brave VPN: disconnected</translation>
 <translation id="7861195049821776142">Brave VPN: disconnecting</translation>
-<translation id="958268166261124668">Brave VPN: connected</translation>
 <translation id="2061807837510296780">Brave VPN: connecting</translation>
 <translation id="1313124107969703758">Brave VPN: error</translation>
 <translation id="8273420301954598554">Status: connected</translation>
@@ -2319,7 +2316,4 @@ Let's get you connected!</translation>
     existing tab</translation>
 <translation id="451189393813405346">Ask Leo</translation>
 <translation id="8525248723479742219">Play later</translation>
-<translation id="1450735350187803276">Ads seen this month</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Change</translation>
 </translationbundle>

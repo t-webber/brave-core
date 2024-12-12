@@ -211,7 +211,7 @@ Jeśli się nie zgodzisz, zostaną one zablokowane ze względu na Twoje ustawien
 <translation id="1357195169723583938">Kto i kiedy ostatnio używał urządzenia</translation>
 <translation id="1358187717814494928">Utwórz arkusz</translation>
 <translation id="1359836962251219822">Kuchnia i jadalnia</translation>
-<translation id="1361528602584216624">Limit płatności Pix: <ph name="TRANSACTION_LIMIT"/> BRL</translation>
+<translation id="1361528602584216624">Limit płatności Pix <ph name="TRANSACTION_LIMIT"/> BRL</translation>
 <translation id="1363015776076529485">Formy płatności, które można wybrać w celu dokonania płatności, są otwarte na całą wysokość.</translation>
 <translation id="1363028406613469049">Utwór</translation>
 <translation id="1364822246244961190">Ta zasada jest zablokowana. Jej wartość będzie ignorowana.</translation>
@@ -1108,7 +1108,7 @@ Jeśli się nie zgodzisz, zostaną one zablokowane ze względu na Twoje ustawien
 <translation id="2396578282884469363">Zazwyczaj łączysz się z witrynami w bezpieczny sposób, ale tym razem w Brave nie udało się użyć bezpiecznego połączenia. Osoba przeprowadzająca atak może próbować podsłuchać lub zmodyfikować Twoje połączenie sieciowe. <ph name="BEGIN_LEARN_MORE_LINK"/>Więcej informacji o tym ostrzeżeniu<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="3052964831964880138"><ph name="PRODUCT_NAME"/> taniej o <ph name="PRICE_DROP"/></translation>
 <translation id="3061707000357573562">Zastosowanie poprawki do usługi</translation>
-<translation id="306198082577913404">Włącz ulepszenia prognoz</translation>
+<translation id="306198082577913404">Włącz ulepszenia podpowiedzi</translation>
 <translation id="3062655045399308513">Usuń dane przeglądania…</translation>
 <translation id="306573536155379004">Gra się rozpoczęła.</translation>
 <translation id="3067505415088964188">Cena jest niska</translation>
@@ -1507,7 +1507,7 @@ Uruchamianie aplikacji może potrwać dłużej niż zwykle.</translation>
 <translation id="3727309136762649052">Przestrzeń nazw</translation>
 <translation id="8077319455765501118">Aby używać Menedżera haseł Brave z pękiem kluczy macOS, uruchom ponownie Brave i zezwól na dostęp do pęku kluczy. Po ponownym uruchomieniu karty zostaną otwarte.</translation>
 <translation id="2967969024210491578">Przeglądarka Brave nie będzie już wymagać odcisku palca do autouzupełniania haseł</translation>
-<translation id="3735143108516366187">Naciśnij Enter, aby zarządzać ulepszeniami prognoz</translation>
+<translation id="3735143108516366187">Naciśnij Enter, aby zarządzać ulepszeniami podpowiedzi</translation>
 <translation id="3736739313435669994">Witryny nie mogą używać plików cookie innych firm, aby uzyskiwać informacje na temat przeglądania przez Ciebie internetu. Otwórz ustawienia, aby <ph name="LINK"/>.</translation>
 <translation id="3738166223076830879">Przeglądarką zarządza administrator.</translation>
 <translation id="3738428049780661523">Utworzono <ph name="DATE"/></translation>

@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="nl">
-<translation id="8631427463833030968">Advertenties beheren</translation>
 <translation id="7630214457764713113">Clean link kopiëren</translation>
-<translation id="885805571521218129">Dit toont uw geschatte inkomstenvoor Brave-advertenties deze maand.</translation>
 <translation id="3478449063771497234">Meldingen zijn uitgeschakeld</translation>
 <translation id="2862978891748913252">Uw land selecteren</translation>
 <translation id="3970520675790340955">Selecteer uw land, zodat we u de juiste opties en advertenties kunnen laten zien voor uw regio.</translation>
@@ -786,7 +784,6 @@ Als je dit verzoek niet accepteert, maakt VPN niet opnieuw verbinding en is je i
 <translation id="4351811224047421378">Zichtbare decimalen</translation>
 <translation id="3494964159182650590">Overzicht van de beloningen</translation>
 <translation id="590733288489975971">Beloningen uit advertenties</translation>
-<translation id="1886682615222609631">Inkomsten tot nu toe</translation>
 <translation id="1767561995429774671">Draag bij</translation>
 <translation id="7335371657242627509">Deelname aan Auto-Contribute</translation>
 <translation id="6727102863431372879">Instellen</translation>
@@ -1165,5 +1162,4 @@ Als je dit verzoek niet accepteert, maakt VPN niet opnieuw verbinding en is je i
 <translation id="2728518864712716830">Update is gedownload.</translation>
 <translation id="8403338849301491865">Filterlijst is bijgewerkt</translation>
 <translation id="4650851936784160359">Filterlijst kon niet worden bijgewerkt. Probeer het opnieuw.</translation>
-<translation id="1450735350187803276">Advertenties bekeken deze maand</translation>
 </translationbundle>

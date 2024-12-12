@@ -568,7 +568,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Finn ut mer<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Men ta det med ro.</translation>
 <translation id="5027616819996705541">Du kan fortsatt surfe privat på nettet!</translation>
-<translation id="1886682615222609631">Inntjening hittil</translation>
+<translation id="1450735350187803276">Inntjening hittil</translation>
 <translation id="7649070708921625228">Hjelp</translation>
 <translation id="6042308850641462728">Mer</translation>
 <translation id="6245259297588415877">Oppfinnere</translation>
@@ -2218,8 +2218,8 @@
 <translation id="6821108091726602352">Hjelp oss med å fikse nettet ved å delta i Braves Web Discovery Project. Ved å dele helt anonyme søkesignaler kan du hjelpe Brave med å vokse søkeindeksen.</translation>
 <translation id="6764845498618413165">Finn ut mer.</translation>
 <translation id="7818938154803162778">Klart, jeg kan hjelpe</translation>
-<translation id="7821773512278295352">Brave Firewall + VPN: Tilkoblet</translation>
-<translation id="6019088868713395120">Brave Firewall + VPN: Frakoblet</translation>
+<translation id="958268166261124668">Brave Firewall + VPN: Tilkoblet</translation>
+<translation id="6021669293402055982">Brave Firewall + VPN: Frakoblet</translation>
 <translation id="3541307549916475335">Brave VPN Panel UI</translation>
 <translation id="7143207342074048698">Kobler til</translation>
 <translation id="1202549130170287307">Kobler fra</translation>
@@ -2231,7 +2231,6 @@
 <translation id="3357036723290257445">Har du allerede kjøpt Brave VPN?</translation>
 <translation id="8814357473522731680">Driftet av</translation>
 <translation id="8652175077544655965">Lukk innstillingene</translation>
-<translation id="3099126540952997993">Brannmur + VPN</translation>
 <translation id="5908163815855240493">Gå til hovedside</translation>
 <translation id="7805768142964895445">Status</translation>
 <translation id="5747552184818312860">Utløper</translation>
@@ -2302,9 +2301,7 @@ La oss koble deg til!</translation>
 <translation id="9061845622728745852">Tidssone:</translation>
 <translation id="8295393906499561642">Økten har utløpt</translation>
 <translation id="3312623558576021182">Logg på <ph name="BRAVE_ACCOUNT_BEGIN"/>Brave-kontoen din<ph name="BRAVE_ACCOUNT_END"/> for å oppdatere VPN-økten.</translation>
-<translation id="6021669293402055982">Brave VPN: Frakoblet</translation>
 <translation id="7861195049821776142">Brave VPN: Kobler fra</translation>
-<translation id="958268166261124668">Brave VPN: Tilkoblet</translation>
 <translation id="2061807837510296780">Brave VPN: Kobler til</translation>
 <translation id="1313124107969703758">Brave VPN: Feil</translation>
 <translation id="8273420301954598554">Status: Tilkoblet</translation>
@@ -2320,7 +2317,4 @@ Trykk på Tab, og deretter på Enter for å bytte til den åpne fanen.</translat
 eksisterende fanen</translation>
 <translation id="451189393813405346">Spør Leo</translation>
 <translation id="8525248723479742219">Spill senere</translation>
-<translation id="1450735350187803276">Annonser sett denne måneden</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Endre</translation>
 </translationbundle>

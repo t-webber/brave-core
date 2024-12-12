@@ -573,7 +573,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>לפרטים נוספים<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">אל דאגה.</translation>
 <translation id="5027616819996705541">אתם עדיין יכולים לגלוש בפרטיות!</translation>
-<translation id="1886682615222609631">רווחים עד כה</translation>
+<translation id="1450735350187803276">רווחים עד כה</translation>
 <translation id="7649070708921625228">עזרה</translation>
 <translation id="6042308850641462728">עוד</translation>
 <translation id="6245259297588415877">יוצרים</translation>
@@ -2229,8 +2229,8 @@ CoinGecko</translation>
 <translation id="6821108091726602352">עזור לנו לתקן את הרשת על ידי השתתפות בפרויקט גילוי הרשת של Brave. על ידי שיתוף אותות חיפוש אנונימיים לחלוטין, תוכל לעזור ל-Brave לגדול את מפתח החיפוש.</translation>
 <translation id="6764845498618413165">למד עוד.</translation>
 <translation id="7818938154803162778">בטח, אעזור</translation>
-<translation id="7821773512278295352">Brave Firewall + VPN: מחובר</translation>
-<translation id="6019088868713395120">Brave Firewall + VPN: לא מחובר</translation>
+<translation id="958268166261124668">Brave Firewall + VPN: מחובר</translation>
+<translation id="6021669293402055982">Brave Firewall + VPN: לא מחובר</translation>
 <translation id="3541307549916475335">Brave VPN Panel UI</translation>
 <translation id="7143207342074048698">מתחבר</translation>
 <translation id="1202549130170287307">מתנתק</translation>
@@ -2242,7 +2242,6 @@ CoinGecko</translation>
 <translation id="3357036723290257445">כבר רכשת VPN של Brave?</translation>
 <translation id="8814357473522731680">מופעל באמצעות</translation>
 <translation id="8652175077544655965">סגור הגדרות</translation>
-<translation id="3099126540952997993">חומת אש + VPN</translation>
 <translation id="5908163815855240493">עבור לדף הראשי</translation>
 <translation id="7805768142964895445">סטטוס</translation>
 <translation id="5747552184818312860">מועד תפוגה</translation>
@@ -2313,9 +2312,7 @@ Brave יש שירות עוזר שמגן עליך מפני חשיפה זו על �
 <translation id="9061845622728745852">אזור זמן:</translation>
 <translation id="8295393906499561642">פג תוקף ההפעלה</translation>
 <translation id="3312623558576021182">התחבר לחשבון <ph name="BRAVE_ACCOUNT_BEGIN"/>האמיץ<ph name="BRAVE_ACCOUNT_END"/> שלך כדי לרענן את הפעלת ה-VPN שלך.</translation>
-<translation id="6021669293402055982">Brave VPN: מנותק</translation>
 <translation id="7861195049821776142">Brave VPN: מתנתק</translation>
-<translation id="958268166261124668">Brave VPN: מחובר</translation>
 <translation id="2061807837510296780">Brave VPN: מתחבר</translation>
 <translation id="1313124107969703758">Brave VPN: שגיאה</translation>
 <translation id="8273420301954598554">סטטוס: מחובר</translation>
@@ -2331,7 +2328,4 @@ Brave יש שירות עוזר שמגן עליך מפני חשיפה זו על �
 הכרטיסייה הקיימת</translation>
 <translation id="451189393813405346">תשאל את ליאו</translation>
 <translation id="8525248723479742219">נגן מאוחר יותר</translation>
-<translation id="1450735350187803276">מודעות שנצפו החודש</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">שינוי</translation>
 </translationbundle>

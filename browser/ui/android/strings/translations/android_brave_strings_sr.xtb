@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="sr">
-<translation id="8631427463833030968">Управлјанје рекламама</translation>
 <translation id="7630214457764713113">Копирати чист линк</translation>
-<translation id="885805571521218129">Ово одражава ваш проценјени распон зараде за Brave реклама овог месеца.</translation>
 <translation id="3478449063771497234">Обавештенја су онемогућена</translation>
 <translation id="2862978891748913252">Изаберите своју землју</translation>
 <translation id="3970520675790340955">Изаберите своју землју да бисмо вам могли показати праве опције и огласе за ваш регион.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Добродошли у Brave</translation>
 <translation id="4117451092682672487">Поједноставлјена заштита приватности.</translation>
 <translation id="7909375417585209817">Када је Brave поставлјен као подразумеван прегледач, сваки линк на који кликнете отвара се са Brave заштитом приватности.</translation>
-<translation id="3737878115109582442">Dodajte vidžet za pretragu</translation>
-<translation id="6199413390010319240">Neka vam Brave bude nadohvat ruke da biste brže istraživali veb.</translation>
-<translation id="4338600611020922010">Dodajte na početni ekran</translation>
 <translation id="7370959926683925817">Блокирајте огласе. Сачувајте податке. Сваког дана.</translation>
 <translation id="7281027579943912834">Када је Brave подешен као подразумевани прегледач, свака веза коју додирнете добија Brave заштиту за блокиранје огласа. То важи за сваку страницу, видео и стрим.</translation>
 <translation id="5148943178722443958">Помозите нам да поболјшамо Brave.</translation>
@@ -842,7 +837,6 @@
 <translation id="4351811224047421378">Децимале прецизности</translation>
 <translation id="3494964159182650590">Резиме награда</translation>
 <translation id="590733288489975971">Награде од Адс</translation>
-<translation id="1886682615222609631">Зараде до сада</translation>
 <translation id="1767561995429774671">Дајте прилог</translation>
 <translation id="7335371657242627509">Уклјучите у аутоматски допринос</translation>
 <translation id="6727102863431372879">Постави</translation>
@@ -1228,5 +1222,4 @@
 <translation id="2728518864712716830">Најновија верзија је преузета.</translation>
 <translation id="8403338849301491865">Списак филтера је успешно ажуриран</translation>
 <translation id="4650851936784160359">Списак филтера не може да се ажурира. Покушајте поново</translation>
-<translation id="1450735350187803276">Огласи виђени овог месеца</translation>
 </translationbundle>

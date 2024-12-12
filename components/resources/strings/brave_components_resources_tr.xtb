@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Daha fazla bilgi edinin<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Endişelenmeyin.</translation>
 <translation id="5027616819996705541">Hala gizli şekilde gezinebilirsiniz!</translation>
-<translation id="1886682615222609631">Şimdiye kadarki kazançlar</translation>
+<translation id="1450735350187803276">Şimdiye kadarki kazançlar</translation>
 <translation id="7649070708921625228">Yardım</translation>
 <translation id="6042308850641462728">Daha fazla</translation>
 <translation id="6245259297588415877">İçerik üreticiler</translation>
@@ -2217,8 +2217,8 @@
 <translation id="6821108091726602352">Brave'in Web Keşif Projesine katılarak web'i düzeltmemize yardımcı olun. Tamamen anonim arama sinyallerini paylaşarak Brave'in arama dizinini büyütmemize yardım edebilirsiniz.</translation>
 <translation id="6764845498618413165">Daha Fazla Bilgi Edinin.</translation>
 <translation id="7818938154803162778">Tabii, yardım ederim</translation>
-<translation id="7821773512278295352">Brave Güvenlik Duvarı + VPN: Bağlı</translation>
-<translation id="6019088868713395120">Brave Güvenlik Duvarı + VPN: Bağlı değil</translation>
+<translation id="958268166261124668">Brave Güvenlik Duvarı + VPN: Bağlı</translation>
+<translation id="6021669293402055982">Brave Güvenlik Duvarı + VPN: Bağlı değil</translation>
 <translation id="3541307549916475335">Brave VPN Paneli Arayüzü</translation>
 <translation id="7143207342074048698">Bağlanıyor</translation>
 <translation id="1202549130170287307">Bağlantı kesiliyor</translation>
@@ -2230,7 +2230,6 @@
 <translation id="3357036723290257445">Brave VPN'i zaten satın aldınız mı?</translation>
 <translation id="8814357473522731680">Destekleyen:</translation>
 <translation id="8652175077544655965">Ayarları kapat</translation>
-<translation id="3099126540952997993">Güvenlik Duvarı + VPN</translation>
 <translation id="5908163815855240493">Ana sayfaya gidin</translation>
 <translation id="7805768142964895445">Durum</translation>
 <translation id="5747552184818312860">Süre sonu tarihi</translation>
@@ -2301,9 +2300,7 @@ Hadi sizi bağlayalım!</translation>
 <translation id="9061845622728745852">Saat dilimi:</translation>
 <translation id="8295393906499561642">Oturumun süresi doldu</translation>
 <translation id="3312623558576021182">Lütfen <ph name="BRAVE_ACCOUNT_BEGIN"/>Brave Hesabınıza<ph name="BRAVE_ACCOUNT_END"/> bağlanarak VPN oturumunuzu yenileyin.</translation>
-<translation id="6021669293402055982">Brave VPN: Bağlı değil</translation>
 <translation id="7861195049821776142">Brave VPN: Bağlantı kesiliyor</translation>
-<translation id="958268166261124668">Brave VPN: Bağlı</translation>
 <translation id="2061807837510296780">Brave VPN: Bağlanıyor</translation>
 <translation id="1313124107969703758">Brave VPN: Hata</translation>
 <translation id="8273420301954598554">Durum: Bağlı</translation>
@@ -2319,10 +2316,4 @@ Hadi sizi bağlayalım!</translation>
     Enter'a basın</translation>
 <translation id="451189393813405346">Leo'ya Sorun</translation>
 <translation id="8525248723479742219">Daha Sonra Oynat</translation>
-<translation id="1450735350187803276">Bu ay görülen reklamlar</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Değiştir</translation>
-<translation id="6819278685469225453">Her uygulamayı ve tüm cihazınızı koruyun</translation>
-<translation id="4295077644587784828">Çevrimiçi ekstra gizlilik ve güvenlik.</translation>
-<translation id="8703188411226330709">Ücretsiz denemeyi başlat</translation>
 </translationbundle>

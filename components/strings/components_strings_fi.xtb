@@ -211,7 +211,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="1357195169723583938">Kuka on äskettäin käyttänyt laitetta ja milloin</translation>
 <translation id="1358187717814494928">Luo taulukko</translation>
 <translation id="1359836962251219822">Keittiö ja ruokailutilat</translation>
-<translation id="1361528602584216624">Pix-kohtainen rajoitus: R$ <ph name="TRANSACTION_LIMIT"/></translation>
+<translation id="1361528602584216624">Pix-kohtainen rajoitus R$ <ph name="TRANSACTION_LIMIT"/></translation>
 <translation id="1363015776076529485">Maksun suorittamiseen käytettävissä olevat maksutavat on avattu koko näytön kokoisena.</translation>
 <translation id="1363028406613469049">Raita</translation>
 <translation id="1364822246244961190">Tämä käytäntö on estetty, sen arvo jätetään huomiotta.</translation>

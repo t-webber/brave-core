@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="vi">
-<translation id="8631427463833030968">Quản lý quảng cáo</translation>
 <translation id="7630214457764713113">Sao chép liên kết sạch</translation>
-<translation id="885805571521218129">Điều này phản ánh phạm vi thu nhập ước tính của bạn cho Brave Quảng cáo trong tháng này.</translation>
 <translation id="3478449063771497234">Đã tắt thông báo</translation>
 <translation id="2862978891748913252">Chọn quốc gia của bạn</translation>
 <translation id="3970520675790340955">Chọn quốc gia của bạn để chúng tôi có thể hiển thị cho bạn các tùy chọn và quảng cáo phù hợp cho khu vực của bạn.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Welcome to Brave</translation>
 <translation id="4117451092682672487">Bảo mật. Đơn giản.</translation>
 <translation id="7909375417585209817">Với việc đặt Brave làm mặc định, mọi liên kết bạn chạm vào sẽ mở ra với các biện pháp bảo vệ quyền riêng tư của Brave.</translation>
-<translation id="3737878115109582442">Thêm tiện ích tìm kiếm</translation>
-<translation id="6199413390010319240">Hãy đặt Brave trong tầm tay để khám phá web nhanh hơn.</translation>
-<translation id="4338600611020922010">Thêm vào Màn hình chính</translation>
 <translation id="7370959926683925817">Chặn quảng cáo. Lưu dữ liệu. Mỗi ngày.</translation>
 <translation id="7281027579943912834">Với Brave làm mặc định, mọi liên kết bạn nhấn vào đều được bảo vệ chặn quảng cáo của Brave. Mọi trang, video và luồng.</translation>
 <translation id="5148943178722443958">Giúp cải thiện Brave.</translation>
@@ -842,7 +837,6 @@ Nếu bạn không chấp nhận yêu cầu này, VPN sẽ không kết nối l�
 <translation id="4351811224047421378">Số thập phân chính xác</translation>
 <translation id="3494964159182650590">Tóm tắt Tiền thưởng</translation>
 <translation id="590733288489975971">Rewards từ Ads</translation>
-<translation id="1886682615222609631">Tiền kiếm được cho đến nay</translation>
 <translation id="1767561995429774671">Đóng góp</translation>
 <translation id="7335371657242627509">Bao gồm trong Tự động Đóng góp</translation>
 <translation id="6727102863431372879">Đặt</translation>
@@ -1228,5 +1222,4 @@ Nếu bạn không chấp nhận yêu cầu này, VPN sẽ không kết nối l�
 <translation id="2728518864712716830">Bản cập nhật được tải xuống.</translation>
 <translation id="8403338849301491865">Danh sách bộ lọc được cập nhật thành công</translation>
 <translation id="4650851936784160359">Không thể cập nhật danh sách bộ lọc. Vui lòng thử lại</translation>
-<translation id="1450735350187803276">Quảng cáo đã xem trong tháng này</translation>
 </translationbundle>

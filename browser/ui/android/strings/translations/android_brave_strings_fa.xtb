@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="fa">
-<translation id="8631427463833030968">مدیریت تبلیغات</translation>
 <translation id="7630214457764713113">کپی کردن پیوند تمیز</translation>
-<translation id="885805571521218129">محدوده درآمد تخمینی شما را برای آگهی‌های Brave در این ماه نشان می‌دهد.</translation>
 <translation id="3478449063771497234">اعلان‌ها غیرفعال شده‌اند</translation>
 <translation id="2862978891748913252">کشور خود را انتخاب کنید</translation>
 <translation id="3970520675790340955">کشور خود را انتخاب کنید تا به شما گزینه‌های صحیح و آگهی‌های مربوط به منطقه‌تان را نشان دهیم.</translation>
@@ -235,9 +233,6 @@
 <translation id="7207456302801184289">‏به Brave خوش آمدید</translation>
 <translation id="4117451092682672487">حریم خصوصی. ساده شده است.</translation>
 <translation id="7909375417585209817">با استفاده از Brave به‌عنوان مرورگر پیش‌فرض، همه پیوندهایی که روی آن‌ها ضربه می‌زنید با محافظت‌های حریم خصوصی Brave باز می‌شوند.</translation>
-<translation id="3737878115109582442">افزودن ابزارک جستجو</translation>
-<translation id="6199413390010319240">برای کاوش سریع‌تر وب، Brave را در دسترس داشته باشید.</translation>
-<translation id="4338600611020922010">افزودن به صفحه اصلی</translation>
 <translation id="7370959926683925817">مسدود کردن تبلیغات. ذخیره داده ها. هر روز</translation>
 <translation id="7281027579943912834">با Brave به‌عنوان پیش‌فرض، هر پیوندی که روی آن ضربه می‌زنید از محافظت از بلوک آگهی Brave برخوردار می‌شود. هر صفحه، ویدیو، و جریان.</translation>
 <translation id="5148943178722443958">به بهبود Brave کمک کنید.</translation>
@@ -844,7 +839,6 @@
 <translation id="4351811224047421378">اعشاریه‌های دقت</translation>
 <translation id="3494964159182650590">خلاصه پاداش‌ها</translation>
 <translation id="590733288489975971">پاداش‌های حاصل از آگهی‌ها</translation>
-<translation id="1886682615222609631">درآمد تاکنون</translation>
 <translation id="1767561995429774671">کمک</translation>
 <translation id="7335371657242627509">لحاظ کردن در کمک خودکار</translation>
 <translation id="6727102863431372879">تنظیم</translation>
@@ -1230,5 +1224,4 @@
 <translation id="2728518864712716830">به‌روزرسانی دانلود می‌شود.</translation>
 <translation id="8403338849301491865">فهرست فیلتر با موفقیت به‌روز شد</translation>
 <translation id="4650851936784160359">فهرست فیلتر به‌روزرسانی نشد. لطفاً دوباره تلاش کنید</translation>
-<translation id="1450735350187803276">تبلیغاتی که این ماه مشاهده شده‌اند</translation>
 </translationbundle>

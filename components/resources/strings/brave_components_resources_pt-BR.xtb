@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Saiba mais<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Não se preocupe.</translation>
 <translation id="5027616819996705541">Você ainda pode navegar de modo privado!</translation>
-<translation id="1886682615222609631">Ganhos até agora</translation>
+<translation id="1450735350187803276">Ganhos até agora</translation>
 <translation id="7649070708921625228">Ajuda</translation>
 <translation id="6042308850641462728">Mais</translation>
 <translation id="6245259297588415877">Criadores</translation>
@@ -2217,8 +2217,8 @@
 <translation id="6821108091726602352">Ajude-nos a consertar a web participando do Projeto Web Discovery do Brave. Ao compartilhar sinais de pesquisa completamente anônimos, você pode ajudar o Brave a aumentar o índice de pesquisa.</translation>
 <translation id="6764845498618413165">Saiba mais.</translation>
 <translation id="7818938154803162778">Claro, vou ajudar</translation>
-<translation id="7821773512278295352">Firewall + VPN Brave: conectado</translation>
-<translation id="6019088868713395120">Firewall + VPN Brave: desconectado</translation>
+<translation id="958268166261124668">Firewall + VPN Brave: conectado</translation>
+<translation id="6021669293402055982">Firewall + VPN Brave: desconectado</translation>
 <translation id="3541307549916475335">UI do painel da VPN Brave</translation>
 <translation id="7143207342074048698">Conectando</translation>
 <translation id="1202549130170287307">Desconectando</translation>
@@ -2230,7 +2230,6 @@
 <translation id="3357036723290257445">Já comprou o Brave VPN?</translation>
 <translation id="8814357473522731680">Desenvolvido por</translation>
 <translation id="8652175077544655965">Fechar configurações</translation>
-<translation id="3099126540952997993">Firewall + VPN</translation>
 <translation id="5908163815855240493">Ir para a página principal</translation>
 <translation id="7805768142964895445">Status</translation>
 <translation id="5747552184818312860">Expira em</translation>
@@ -2301,9 +2300,7 @@ Vamos conectar você!</translation>
 <translation id="9061845622728745852">Fuso horário:</translation>
 <translation id="8295393906499561642">Sessão expirada</translation>
 <translation id="3312623558576021182">Faça login em sua  <ph name="BRAVE_ACCOUNT_BEGIN"/>conta Brave<ph name="BRAVE_ACCOUNT_END"/> para atualizar sua sessão VPN.</translation>
-<translation id="6021669293402055982">Brave VPN: desconectado</translation>
 <translation id="7861195049821776142">Brave VPN: desconectando</translation>
-<translation id="958268166261124668">Brave VPN: conectado</translation>
 <translation id="2061807837510296780">Brave VPN: conectando</translation>
 <translation id="1313124107969703758">Brave VPN: erro</translation>
 <translation id="8273420301954598554">Status: conectado</translation>
@@ -2319,10 +2316,4 @@ Vamos conectar você!</translation>
     guia existente</translation>
 <translation id="451189393813405346">Perguntar ao Leo</translation>
 <translation id="8525248723479742219">Reproduzir mais tarde</translation>
-<translation id="1450735350187803276">Anúncios vistos neste mês</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Alterar</translation>
-<translation id="6819278685469225453">Proteja todos os aplicativos e todo o seu dispositivo</translation>
-<translation id="4295077644587784828">Privacidade e segurança extra on-line.</translation>
-<translation id="8703188411226330709">Iniciar teste gratuito</translation>
 </translationbundle>

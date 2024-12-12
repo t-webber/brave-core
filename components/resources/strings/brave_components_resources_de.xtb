@@ -171,6 +171,8 @@
 <translation id="8510478288840333677">Informieren Sie Braves Entwickler darüber, dass diese Website in Kombination mit Schutz nicht richtig funktioniert:</translation>
 <translation id="3110968385867124099">Diese Seite kann nicht gemeldet werden, weil sie nicht über HTTP/HTTPS bereitgestellt wurde.</translation>
 <translation id="7907023135990310743">Diese Seite ist eine lokale Webseite und kann nicht gemeldet werden</translation>
+<translation id="8740275226259417070">Dies ist eine Fehlerseite. Sie kann nicht als defekte Seite gemeldet werden.</translation>
+<translation id="6806248680442980382">Danke, dass du uns hilfst, Brave für alle besser zu machen. Dieser Bericht wird nur Informationen enthalten, die wir benötigen, um diese Seite zu verbessern.</translation>
 <translation id="6476216365964140603">Zusätzliche Details (optional)</translation>
 <translation id="6145852496180774737">Kontaktieren Sie mich unter: (optional)</translation>
 <translation id="7616645803364270729">E-Mail, Twitter usw.</translation>
@@ -459,6 +461,8 @@
 <translation id="6318437367327684789">für immer</translation>
 <translation id="8797999629784150206">Sie können Ihre <ph name="SITE_PERMISSIONS"/> jederzeit ändern. <ph name="LEARN_MORE"/></translation>
 <translation id="581582843259146919">Site-Berechtigung</translation>
+<translation id="7222371875290545057">Erlaubst du das Öffnen von Leo AI-Chats in Brave?</translation>
+<translation id="1518915449477235311">Erlaubst du <ph name="URL"/>das Öffnen von Leo AI-Chats in Brave?</translation>
 <translation id="4355784577209159847">Verwendung von Drittanbieter-Cookies für die alte Google-Anmeldung zulassen</translation>
 <translation id="5770656036486891920"><ph name="URL"/> möchte Drittanbieter-Cookies für alte Google-Anmeldung nutzen</translation>
 <translation id="6053826678715267477">Zugriff auf Localhost-Ressourcen erlauben</translation>
@@ -563,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Mehr erfahren<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Keine Sorge.</translation>
 <translation id="5027616819996705541">Sie können trotzdem privat surfen!</translation>
-<translation id="1886682615222609631">Bisherige Einnahmen</translation>
+<translation id="1450735350187803276">Bisherige Einnahmen</translation>
 <translation id="7649070708921625228">Hilfe</translation>
 <translation id="6042308850641462728">Mehr</translation>
 <translation id="6245259297588415877">Ersteller</translation>
@@ -691,11 +695,25 @@
 <translation id="957921474773060718">Nächster Beitrag:</translation>
 <translation id="351973834053818251">Wiederkehrende Beiträge</translation>
 <translation id="7751260505918304024">Alle anzeigen</translation>
+<translation id="2894334939992402676">Erfahre mehr über Beitragsmethoden</translation>
 <translation id="4114667046481794032">Beitragshöhe</translation>
+<translation id="2628057126110572782">Dieser Creator akzeptiert nur Beiträge über die folgenden Methoden:</translation>
+<translation id="7396847690567283204">Belohnungsübersicht</translation>
 <translation id="3253225298092156258">Nicht verfügbar</translation>
+<translation id="8028314716653189513">Wähle eine Methode, mit der du zu Brave Software beitragen möchtest:</translation>
+<translation id="4094286757932277327">Wallet</translation>
+<translation id="1511998469385905184">Du kannst es später nochmal versuchen.</translation>
 <translation id="7550470870580166294">Unzureichendes Guthaben</translation>
+<translation id="7020972866926315918">Es sieht so aus, als ob du bei Brave Rewards <ph name="PROVIDER"/> abgemeldet bsit. Logge dich erneut ein, um fortzufahren.</translation>
 <translation id="1166682575529520472">Monatlich</translation>
 <translation id="7138678301420049075">Sonstiges</translation>
+<translation id="2134931506717037391">BAT senden <ph name="AMOUNT"/></translation>
+<translation id="4791565605790056151">Beitrag senden</translation>
+<translation id="8251969358165471584">Web3-Wallet</translation>
+<translation id="7160424977552599351">Verwende dein Web3-Wallet</translation>
+<translation id="6369571967625114920">Brave Private Ads sind in deiner Region noch nicht verfügbar.</translation>
+<translation id="5309155375926073606">Ja, ich möchte auch einen Beitrag zu Brave Search leisten und mich anmelden für <ph name="LINK_BEGIN"/> Web Discovery-Projekt <ph name="LINK_END"/></translation>
+<translation id="7285849890826812669">Trage einige anonyme Such- &amp; Browsing-Daten bei, um Brave Search mit dem Web Discovery- Projekt zu verfeinern. Es ist vollständig Open-Source.</translation>
 <translation id="4174337572777167894">Web Discovery Project</translation>
 <translation id="7090992647511817643">Konto</translation>
 <translation id="4822132585477111396">Chain ID</translation>
@@ -1058,6 +1076,8 @@
 <translation id="793994607260936590">erst</translation>
 <translation id="4709524402122994378">Transaktionen</translation>
 <translation id="4591079278963448049">Das verbundene Token-Konto existiert noch nicht. Ein kleiner SOL-Betrag wird ausgegeben, um es zu erstellen und zu finanzieren.</translation>
+<translation id="3240773103344793224">Änderung der Kontoinhaberschaft beantragt</translation>
+<translation id="8041423758956015568">Bei dieser Transaktion wird das Konto einem neuen Programm zugewiesen. Dieser Vorgang ist unumkehrbar und kann zum Verlust von Geldern führen.</translation>
 <translation id="1426320910664514906">Gaslimit</translation>
 <translation id="1229774280326250926">Gas-Premium</translation>
 <translation id="148169246131967347">Gas-Gebührenobergrenze</translation>
@@ -1280,6 +1300,18 @@
 <translation id="2588752742385122166">Portfolio-Einstellungen</translation>
 <translation id="7662492121143629144">Alle Konten</translation>
 <translation id="8845001906332463065">Hilfe anfordern</translation>
+<translation id="6248202915200795128">Dauert länger als erwartet?</translation>
+<translation id="5417904796609871601">Ansicht in Aktivität</translation>
+<translation id="8915839655070878476">Du kannst das Fenster einfach schließen.</translation>
+<translation id="7020017785602386950">Senden <ph name="AMOUNT_BEFORE"/><ph name="AMOUNT"/><ph name="AMOUNT_AFTER"/>an<ph name="ACCOUNT_BEFORE"/><ph name="ACCOUNT"/><ph name="ACCOUNT_AFTER"/></translation>
+<translation id="4003625688926111212"><ph name="AMOUNT_BEFORE"/><ph name="AMOUNT"/><ph name="AMOUNT_AFTER"/>wurde an Account <ph name="ACCOUNT_BEFORE"/><ph name="ACCOUNT"/><ph name="ACCOUNT_AFTER"/>gesendet</translation>
+<translation id="3068919369514041269">Wechseln <ph name="AMOUNT_BEFORE"/><ph name="AMOUNT"/><ph name="AMOUNT_AFTER"/>zu<ph name="ACCOUNT_BEFORE"/><ph name="ACCOUNT"/><ph name="ACCOUNT_AFTER"/>auf<ph name="NETWORK"/></translation>
+<translation id="312867981877298982">Die Summe von <ph name="AMOUNT_BEFORE"/><ph name="AMOUNT"/><ph name="AMOUNT_AFTER"/>wurde deinem Account <ph name="ACCOUNT_BEFORE"/><ph name="ACCOUNT"/><ph name="ACCOUNT_AFTER"/>hinzugefügt</translation>
+<translation id="2653273412609139189">Brückenbildung <ph name="AMOUNT_BEFORE"/><ph name="AMOUNT"/><ph name="AMOUNT_AFTER"/>zu<ph name="NETWORK_BEFORE"/><ph name="NETWORK"/><ph name="NETWORK_AFTER"/></translation>
+<translation id="1795341197087004042">Nicht möglich <ph name="SEND_SWAP_OR_BRIDGE"/></translation>
+<translation id="6990756606864308319">Es ist ein Fehler aufgetreten beim Versuch<ph name="SEND_SWAP_OR_BRIDGE"/><ph name="AMOUNT_BEFORE"/><ph name="AMOUNT"/><ph name="AMOUNT_AFTER"/>zu<ph name="VALUE_BEFORE"/><ph name="VALUE"/><ph name="VALUE_AFTER"/></translation>
+<translation id="6449575669814542383">Freigabe<ph name="AMOUNT_BEFORE"/><ph name="AMOUNT"/><ph name="AMOUNT_AFTER"/>für<ph name="EXCHANGE_BEFORE"/><ph name="EXCHANGE"/><ph name="EXCHANGE_AFTER"/></translation>
+<translation id="8036159955043245753">Es wird eine neue Transaktion erstellt, um deine bestehende Transaktion zu stornieren.</translation>
 <translation id="6954150712710630841">Transaktion abgesendet</translation>
 <translation id="619697073289995370">Transaktion signiert</translation>
 <translation id="3183790760060544368"><ph name="VALUE"/> wurde an Ihre Wallet zurückgesendet</translation>
@@ -1945,6 +1977,7 @@
 <translation id="1344005710343072293">Diese Kombination wird für <ph name="COMMAND"/> verwendet. Wenn Sie speichern, wird diese Tastenkombination überschrieben.</translation>
 <translation id="831931573200952705">Diese Kombination wird für „<ph name="COMMAND"/>“ verwendet und kann nicht geändert werden.</translation>
 <translation id="3537006124004887164">Diese Kombination wird für „<ph name="COMMAND"/>“ verwendet und kann nicht geändert werden. Versuchen Sie, sie über „App-Tastaturkurzbefehle“ in den Systemeinstellungen zu ändern.</translation>
+<translation id="8536713137312218707">Kurzbefehle</translation>
 <translation id="712598284361781729">Neue geteilte Ansicht</translation>
 <translation id="1130188644637295274">In geteilter Ansicht öffnen</translation>
 <translation id="6459036216700972269">Teilung der Tabs aufheben</translation>
@@ -2051,6 +2084,7 @@
 <translation id="8712637175834984815">Alles klar</translation>
 <translation id="1093419424466417703">Diese Seite ist zu lang für Leo. Teile des Kontexts fehlen in der Unterhaltung möglicherweise. Leo konnte <ph name="PERCENTAGE"/> der Seiteninhalte lesen.</translation>
 <translation id="2186990448773134544">Der Inhalt der Seite wurde verfeinert, indem die wichtigsten Informationen aus der Seite extrahiert wurden, da sie für Leo zu lang war.</translation>
+<translation id="5140068729857132378">Die wichtigsten Inhalte der Website finden...</translation>
 <translation id="4370698775470316661">Diese Unterhaltung ist zu lang und kann nicht fortgesetzt werden. Möglicherweise gibt es andere Modelle, mit denen Leo auch über längere Unterhaltungen richtige Antworten geben kann.</translation>
 <translation id="5719170755629028558">Ihre Antworten werden mithilfe der Brave-Suche verbessert …</translation>
 <translation id="5794962229997281366">Es wird nach besseren Antworten für „<ph name="SEARCH_TERMS"/>“ gesucht</translation>
@@ -2179,8 +2213,8 @@ hat <ph name="NUMBER"/> Tracker, Anzeigen und mehr blockiert</translation>
 <translation id="6821108091726602352">Helfen Sie uns, das Internet zu reparieren, indem Sie beim Web Discovery Project von Brave mitmachen. Indem Sie komplett anonyme Suchsignale teilen, können Sie Brave helfen, den Suchindex zu vergrößern.</translation>
 <translation id="6764845498618413165">Mehr erfahren.</translation>
 <translation id="7818938154803162778">Klar, ich helfe gerne.</translation>
-<translation id="7821773512278295352">Brave Firewall + VPN: verbunden</translation>
-<translation id="6019088868713395120">Brave Firewall + VPN: getrennt</translation>
+<translation id="958268166261124668">Brave Firewall + VPN: verbunden</translation>
+<translation id="6021669293402055982">Brave Firewall + VPN: getrennt</translation>
 <translation id="3541307549916475335">Benutzeroberfläche von Brave VPN Panel</translation>
 <translation id="7143207342074048698">Verbindung wird hergestellt.</translation>
 <translation id="1202549130170287307">Verbindung wird getrennt</translation>
@@ -2192,7 +2226,6 @@ hat <ph name="NUMBER"/> Tracker, Anzeigen und mehr blockiert</translation>
 <translation id="3357036723290257445">Haben Sie Brave-VPN bereits erworben?</translation>
 <translation id="8814357473522731680">Powered by</translation>
 <translation id="8652175077544655965">Einstellungen schließen</translation>
-<translation id="3099126540952997993">Firewall + VPN</translation>
 <translation id="5908163815855240493">Zurück zur Hauptseite</translation>
 <translation id="7805768142964895445">Status</translation>
 <translation id="5747552184818312860">Ablaufdatum</translation>
@@ -2263,9 +2296,7 @@ Lassen Sie uns gemeinsam eine Verbindung herstellen!</translation>
 <translation id="9061845622728745852">Zeitzone:</translation>
 <translation id="8295393906499561642">Sitzung abgelaufen</translation>
 <translation id="3312623558576021182">Bitte melden Sie sich bei Ihrem <ph name="BRAVE_ACCOUNT_BEGIN"/>Brave-Konto<ph name="BRAVE_ACCOUNT_END"/> an, um Ihre VPN-Sitzung zu aktualisieren.</translation>
-<translation id="6021669293402055982">Brave VPN: Verbindung unterbrochen</translation>
 <translation id="7861195049821776142">Brave VPN: Verbindung wird unterbrochen</translation>
-<translation id="958268166261124668">Brave VPN: Verbunden</translation>
 <translation id="2061807837510296780">Brave VPN: Verbindung wird hergestellt</translation>
 <translation id="1313124107969703758">Brave VPN: Fehler</translation>
 <translation id="8273420301954598554">Status: Verbunden</translation>
@@ -2281,10 +2312,4 @@ Lassen Sie uns gemeinsam eine Verbindung herstellen!</translation>
     und nicht zum bestehenden Tab zu wechseln.</translation>
 <translation id="451189393813405346">Leo fragen</translation>
 <translation id="8525248723479742219">Später abspielen</translation>
-<translation id="1450735350187803276">Anzeigen, die diesen Monat gesehen wurden</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">Ändern</translation>
-<translation id="6819278685469225453">Schützen Sie jede App und Ihr gesamtes Gerät</translation>
-<translation id="4295077644587784828">Mehr Privatsphäre und Sicherheit online.</translation>
-<translation id="8703188411226330709">Kostenlos testen</translation>
 </translationbundle>

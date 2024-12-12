@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="pt-PT">
-<translation id="8631427463833030968">Gerir anúncios</translation>
 <translation id="7630214457764713113">Copiar URL amigável</translation>
-<translation id="885805571521218129">Isto reflete a estimativa do intervalo de lucros dos Anúncios do Brave deste mês.</translation>
 <translation id="3478449063771497234">As notificações estão desativadas</translation>
 <translation id="2862978891748913252">Selecione o seu país</translation>
 <translation id="3970520675790340955">Selecione o seu país para que possamos apresentar-lhe as opções e anúncios adequados à região.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Bem-vindo ao Brave</translation>
 <translation id="4117451092682672487">Privacidade simplificada.</translation>
 <translation id="7909375417585209817">Com o Brave predefinido, todos os links em que tocar abrem com as proteções de privacidade do Brave.</translation>
-<translation id="3737878115109582442">Adicione o widget de pesquisa</translation>
-<translation id="6199413390010319240">Tenha o Brave na ponta dos dedos para explorar a Web mais rapidamente.</translation>
-<translation id="4338600611020922010">Adicione ao ecrã principal</translation>
 <translation id="7370959926683925817">Bloqueie anúncios e poupe dados. Todos os dias.</translation>
 <translation id="7281027579943912834">Com o Brave como predefinição, cada ligação em que tocar receberá a proteção do bloqueio de anúncios do Brave. Todas as páginas, vídeos e transmissões.</translation>
 <translation id="5148943178722443958">Ajude a melhorar o Brave.</translation>
@@ -842,7 +837,6 @@ Se não aceitar este pedido, a VPN não voltará a ligar e a sua ligação à In
 <translation id="4351811224047421378">Decimais de precisão</translation>
 <translation id="3494964159182650590">Resumo de Recompensas</translation>
 <translation id="590733288489975971">Rewards do Ads</translation>
-<translation id="1886682615222609631">Lucro até agora</translation>
 <translation id="1767561995429774671">Contribuir</translation>
 <translation id="7335371657242627509">Incluir na Contribuição Automática</translation>
 <translation id="6727102863431372879">Definir</translation>
@@ -1228,5 +1222,4 @@ Se não aceitar este pedido, a VPN não voltará a ligar e a sua ligação à In
 <translation id="2728518864712716830">A atualização foi transferida.</translation>
 <translation id="8403338849301491865">A lista de filtros foi atualizada com êxito</translation>
 <translation id="4650851936784160359">Não foi possível atualizar a lista de filtros. Tente novamente</translation>
-<translation id="1450735350187803276">Anúncios vistos este mês</translation>
 </translationbundle>

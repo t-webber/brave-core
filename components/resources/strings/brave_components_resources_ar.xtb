@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>اطلع على المزيد<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">لا تقلق</translation>
 <translation id="5027616819996705541">لا يزال بإمكانك التصفح بخصوصية!</translation>
-<translation id="1886682615222609631">الأرباح حتى الآن</translation>
+<translation id="1450735350187803276">الأرباح حتى الآن</translation>
 <translation id="7649070708921625228">مساعدة</translation>
 <translation id="6042308850641462728">المزيد</translation>
 <translation id="6245259297588415877">منشئو المحتوى</translation>
@@ -2218,8 +2218,8 @@
 <translation id="6821108091726602352">ساعدنا على إصلاح الموقع الإلكتروني من خلال المشاركة في مشروع اكتشاف الموقع في Brave، وذلك من خلال مشاركة إشارات البحث غير المعروفة تمامًا، حيث يمكنك مساعدة Brave على توسيع فهرس البحث.</translation>
 <translation id="6764845498618413165">اطلع على المزيد من المعلومات.</translation>
 <translation id="7818938154803162778">بالتأكيد، سأقدم المساعدة.</translation>
-<translation id="7821773512278295352">Brave Firewall + VPN: متصل</translation>
-<translation id="6019088868713395120">Brave Firewall + VPN: غير متصل</translation>
+<translation id="958268166261124668">Brave Firewall + VPN: متصل</translation>
+<translation id="6021669293402055982">Brave Firewall + VPN: غير متصل</translation>
 <translation id="3541307549916475335">واجهة مستخدم لوحة Brave VPN</translation>
 <translation id="7143207342074048698">اتصال</translation>
 <translation id="1202549130170287307">قطع الاتصال</translation>
@@ -2231,7 +2231,6 @@
 <translation id="3357036723290257445">هل اشتريت Brave VPN بالفعل؟</translation>
 <translation id="8814357473522731680">مشغل بواسطة</translation>
 <translation id="8652175077544655965">إغلاق الإعدادات</translation>
-<translation id="3099126540952997993">جدار الحماية + VPN</translation>
 <translation id="5908163815855240493">انتقل إلى الصفحة الرئيسية</translation>
 <translation id="7805768142964895445">الحالة</translation>
 <translation id="5747552184818312860">تاريخ انتهاء الصلاحية</translation>
@@ -2302,9 +2301,7 @@
 <translation id="9061845622728745852">المنطقة الزمنية:</translation>
 <translation id="8295393906499561642">انتهت صلاحية الجلسة</translation>
 <translation id="3312623558576021182">يُرجى تسجيل الدخول إلى <ph name="BRAVE_ACCOUNT_BEGIN"/>حساب Brave<ph name="BRAVE_ACCOUNT_END"/> لتحديث جلسة VPN الخاصة بك.</translation>
-<translation id="6021669293402055982">Brave VPN: غير متصل</translation>
 <translation id="7861195049821776142">Brave VPN: يتم إيقاف الاتصال</translation>
-<translation id="958268166261124668">Brave VPN: متصل</translation>
 <translation id="2061807837510296780">Brave VPN: جارٍ الاتصال</translation>
 <translation id="1313124107969703758">Brave VPN: خطأ</translation>
 <translation id="8273420301954598554">الحالة: متصل</translation>
@@ -2318,9 +2315,4 @@
 <translation id="1538335063514960365">زر الفتح من هنا، اضغط على Enter لفتح عنوان url في علامة التبويب الحالية، بدلًا من الانتقال إلى علامة التبويب الموجودة مسبقًا</translation>
 <translation id="451189393813405346">اسأل Leo</translation>
 <translation id="8525248723479742219">تشغيل لاحقًا</translation>
-<translation id="1450735350187803276">الإعلانات التي تمت مشاهدتها هذا الشهر</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">تغيير</translation>
-<translation id="6819278685469225453">حماية كل التطبيقات &amp; وجهازك بالكامل</translation>
-<translation id="8703188411226330709">بدء التجربة المجانية</translation>
 </translationbundle>

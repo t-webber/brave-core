@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="cs">
-<translation id="8631427463833030968">Spravovat reklamy</translation>
 <translation id="7630214457764713113">Kopírovat čistý odkaz</translation>
-<translation id="885805571521218129">To vyjadřuje váš odhadovaný rozsah výdělků za reklamy Brave v tomto měsíci.</translation>
 <translation id="3478449063771497234">Oznámení jsou zakázána.</translation>
 <translation id="2862978891748913252">Zvolte svou zemi</translation>
 <translation id="3970520675790340955">Vyberte svoji zemi, abychom vám mohli zobrazit správné možnosti volby a reklamy pro váš region.</translation>
@@ -233,9 +231,6 @@
 <translation id="7207456302801184289">Vítejte v prohlížeči Brave</translation>
 <translation id="4117451092682672487">Jednoduše soukromí.</translation>
 <translation id="7909375417585209817">Pokud je Brave nastaven jako váš výchozí prohlížeč, každý odkaz, na který kliknete, se otevře s ochranou soukromí Brave.</translation>
-<translation id="3737878115109582442">Přidat widget pro vyhledávání</translation>
-<translation id="6199413390010319240">Mějte Brave na dosah ruky, abyste mohli procházet web rychleji.</translation>
-<translation id="4338600611020922010">Přidat na úvodní obrazovku</translation>
 <translation id="7370959926683925817">Blokování reklam. Zabezpečení dat. Každý den.</translation>
 <translation id="7281027579943912834">Pokud máte Brave nastavenou jako výchozí, každý odkaz, na který klepnete, získá ad-block Brave. Každá stránka, video i stream.</translation>
 <translation id="5148943178722443958">Pomozte vylepšit Brave.</translation>
@@ -842,7 +837,6 @@ Pokud tuto žádost nepřijmete, síť VPN se znovu nepřipojí a vaše připoje
 <translation id="4351811224047421378">Přesnost na desetinná místa</translation>
 <translation id="3494964159182650590">Přehled odměn</translation>
 <translation id="590733288489975971">Odměny z reklam</translation>
-<translation id="1886682615222609631">Dosavadní výdělek</translation>
 <translation id="1767561995429774671">Přispět</translation>
 <translation id="7335371657242627509">Zahrnout v automatickém přispívání</translation>
 <translation id="6727102863431372879">Nastavit</translation>
@@ -1228,5 +1222,4 @@ Pokud tuto žádost nepřijmete, síť VPN se znovu nepřipojí a vaše připoje
 <translation id="2728518864712716830">Aktualizace je stažena.</translation>
 <translation id="8403338849301491865">Seznam filtrů byl úspěšně aktualizován</translation>
 <translation id="4650851936784160359">Seznam filtrů se nepodařilo aktualizovat. Zkuste to prosím znovu</translation>
-<translation id="1450735350187803276">Reklamy zobrazené tento měsíc</translation>
 </translationbundle>

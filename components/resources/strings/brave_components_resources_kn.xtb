@@ -567,7 +567,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>ಹೆಚ್ಚು ತಿಳಿಯಿರಿ<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">ಚಿಂತಿಸಬೇಡಿ.</translation>
 <translation id="5027616819996705541">ನೀವು ಇನ್ನೂ ಸಹ ಖಾಸಗಿಯಾಗಿ ಬ್ರೌಸ್ ಮಾಡಬಹುದು!</translation>
-<translation id="1886682615222609631">ಇಲ್ಲಿಯ ತನಕ ಗಳಿಕೆಗಳು</translation>
+<translation id="1450735350187803276">ಇಲ್ಲಿಯ ತನಕ ಗಳಿಕೆಗಳು</translation>
 <translation id="7649070708921625228">ಸಹಾಯ</translation>
 <translation id="6042308850641462728">ಇನ್ನಷ್ಟು</translation>
 <translation id="6245259297588415877">ರಚನೆಕಾರರು</translation>
@@ -2217,8 +2217,8 @@
 <translation id="6821108091726602352">Brave ನ ವೆಬ್ ಡಿಸ್ಕವರಿ ಪ್ರಾಜೆಕ್ಟ್‌ನಲ್ಲಿ ಭಾಗವಹಿಸುವ ಮೂಲಕ ವೆಬ್ ಸರಿಪಡಿಸಲು ನಮಗೆ ಸಹಾಯ ಮಾಡಿ. ಸಂಪೂರ್ಣವಾಗಿ ಅನಾಮಧೇಯ ಹುಡುಕಾಟ ಸಂಕೇತಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳುವ ಮೂಲಕ, ಹುಡುಕಾಟ ಇಂಡೆಕ್ಸ್‌ನ ಬೆಳವಣಿಗೆ ಮಾಡಲು Brave ಗೆ ನೀವು ಸಹಾಯ ಮಾಡಬಹುದು.</translation>
 <translation id="6764845498618413165">ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ.</translation>
 <translation id="7818938154803162778">ಖಂಡಿತ, ನಾನು ಸಹಾಯ ಮಾಡುತ್ತೇನೆ</translation>
-<translation id="7821773512278295352">Brave ಫೈರ್‌ವಾಲ್ + VPN: ಸಂಪರ್ಕಿತವಾಗಿದೆ</translation>
-<translation id="6019088868713395120">Brave ಫೈರ್‌ವಾಲ್ + VPN: ಸಂಪರ್ಕ ಕಡಿತಗೊಂಡಿದೆ</translation>
+<translation id="958268166261124668">Brave ಫೈರ್‌ವಾಲ್ + VPN: ಸಂಪರ್ಕಿತವಾಗಿದೆ</translation>
+<translation id="6021669293402055982">Brave ಫೈರ್‌ವಾಲ್ + VPN: ಸಂಪರ್ಕ ಕಡಿತಗೊಂಡಿದೆ</translation>
 <translation id="3541307549916475335">Brave VPN ಪ್ಯಾನೆಲ್ UI</translation>
 <translation id="7143207342074048698">ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ</translation>
 <translation id="1202549130170287307">ಸಂಪರ್ಕಕಡಿತಗೊಳ್ಳುತ್ತಿದೆ</translation>
@@ -2230,7 +2230,6 @@
 <translation id="3357036723290257445">ಈಗಾಗಲೇ Brave VPN ಖರೀದಿಸಿದ್ದೀರಾ?</translation>
 <translation id="8814357473522731680">ಇದರಿಂದ ಸಾಮರ್ಥ್ಯ ಪಡೆದಿದೆ</translation>
 <translation id="8652175077544655965">ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಮುಚ್ಚಿ</translation>
-<translation id="3099126540952997993">ಫೈರ್‌ವಾಲ್ + VPN</translation>
 <translation id="5908163815855240493">ಮುಖ್ಯಪುಟಕ್ಕೆ ಹೋಗಿ</translation>
 <translation id="7805768142964895445">ಸ್ಥಿತಿ</translation>
 <translation id="5747552184818312860">ಅವಧಿ ಮೀರುವುದು</translation>
@@ -2301,9 +2300,7 @@
 <translation id="9061845622728745852">ಸಮಯವಲಯ:</translation>
 <translation id="8295393906499561642">ಸೆಷನ್ ಅವಧಿ ಮೀರಿದೆ</translation>
 <translation id="3312623558576021182">ನಿಮ್ಮ VPN ಸೆಷನ್ ರಿಫ್ರೆಶ್ ಮಾಡಲು ನಿಮ್ಮ <ph name="BRAVE_ACCOUNT_BEGIN"/>Brave ಖಾತೆ<ph name="BRAVE_ACCOUNT_END"/>ಗೆ ದಯವಿಟ್ಟು ಲಾಗ್ ಇನ್ ಮಾಡಿ.</translation>
-<translation id="6021669293402055982">Brave VPN: ಸಂಪರ್ಕ ಕಡಿತಗೊಂಡಿದೆ</translation>
 <translation id="7861195049821776142">Brave VPN: ಸಂಪರ್ಕ ಕಡಿತಗೊಳ್ಳುತ್ತಿದೆ</translation>
-<translation id="958268166261124668">Brave VPN: ಸಂಪರ್ಕಗೊಂಡಿದೆ</translation>
 <translation id="2061807837510296780">Brave VPN: ಸಂಪರ್ಕಗೊಳ್ಳುತ್ತಿದೆ</translation>
 <translation id="1313124107969703758">Brave VPN: ದೋಷ</translation>
 <translation id="8273420301954598554">ಸ್ಥಿತಿ: ಸಂಪರ್ಕಗೊಂಡಿದೆ</translation>
@@ -2319,7 +2316,4 @@
     ಎಂಟರ್ ಒತ್ತಿರಿ</translation>
 <translation id="451189393813405346">Leo ಗೆ ಕೇಳಿ</translation>
 <translation id="8525248723479742219">ನಂತರ ಪ್ಲೇ ಮಾಡಿ</translation>
-<translation id="1450735350187803276">ಈ ತಿಂಗಳಲ್ಲಿ ನೋಡಿ ಜಾಹೀರಾತುಗಳು</translation>
-<translation id="3960619311638643872">Brave VPN</translation>
-<translation id="8425213833346101688">ಬದಲಿಸಿ</translation>
 </translationbundle>

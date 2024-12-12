@@ -7999,7 +7999,7 @@ You have # more compromised passwords. Brave Password Manager recommends checkin
 <translation id="6805647936811177813">Please sign in to <ph name="TOKEN_NAME"/> to import client certificate from <ph name="HOST_NAME"/>.</translation>
 <translation id="680572642341004180">Enable RLZ tracking on <ph name="SHORT_PRODUCT_OS_NAME"/>.</translation>
 <translation id="6806089545527108739">Don’t allow but ask later</translation>
-<translation id="9151559458872087737">Real-time, proactive protection against dangerous sites, downloads and extensions that's based on your browsing data being sent to Brave</translation>
+<translation id="9151559458872087737">Real-time, proactive protection against dangerous sites, downloads and extensions that are based on your browsing data being sent to Brave</translation>
 <translation id="505292327770836846">Only your contacts with a Brave sync chain. <ph name="LINK_BEGIN"/>View contacts<ph name="LINK_END"/></translation>
 <translation id="6808039367995747522">To continue, insert and touch your security key</translation>
 <translation id="6808166974213191158">Chrome OS Flex system image writer</translation>
@@ -8101,7 +8101,7 @@ You have # more compromised passwords. Brave Password Manager recommends checkin
 <translation id="6863496016067551393">All extensions allowed</translation>
 <translation id="686366188661646310">Delete password?</translation>
 <translation id="6863925886424789941">The Colosseum</translation>
-<translation id="6865313869410766144">Auto-fill form data</translation>
+<translation id="6865313869410766144">Autofill form data</translation>
 <translation id="6865708901122695652">WebRTC event logs (<ph name="WEBRTC_EVENT_LOG_COUNT"/>)</translation>
 <translation id="686609795364435700">Quiet</translation>
 <translation id="686664946474413495">Colour temperature</translation>
@@ -8481,7 +8481,7 @@ You have # more compromised passwords. Brave Password Manager recommends checkin
 <translation id="7146882055510146554">Microsoft 365 uses OneDrive to open and edit Word, Excel and PowerPoint files. These files will be found in the Files app side navigation labelled 'Microsoft OneDrive'. You'll need to sign in with your Microsoft account. <ph name="LINK_BEGIN"/>Learn more<ph name="LINK_END"/></translation>
 <translation id="7148426638542880639">Sites may not work as you would expect. Choose this option if you don't want to leave information on your device about sites that you visit.</translation>
 <translation id="7149839598364933473">Convert this device into a <ph name="DEVICE_OS"/> device.</translation>
-<translation id="7149893636342594995">Last 24 Hours</translation>
+<translation id="7149893636342594995">Last 24 hours</translation>
 <translation id="7152478047064750137">This extension requires no special permissions</translation>
 <translation id="7153101072880472645">High contrast on/off</translation>
 <translation id="715396040729904728">launcher + shift + <ph name="TOP_ROW_KEY"/></translation>

@@ -258,7 +258,7 @@ Alleen iemand met je wachtwoordzin kan je versleutelde gegevens lezen. De wachtw
 <translation id="2239812875700136898">Beheer je artikelen met de knop 'Opties voor Discover'</translation>
 <translation id="2247789808226901522">Kaart verlopen</translation>
 <translation id="4808014761134300692">Je wachtwoorden worden versleuteld op je apparaat voordat ze worden opgeslagen in Brave Wachtwoordmanager</translation>
-<translation id="2249635629516220541">Pas de informatie aan die sites gebruiken om advertenties te laten zien</translation>
+<translation id="2249635629516220541">Pas de informatie aan die sites gebruiken om advertenties te tonen</translation>
 <translation id="2259659629660284697">Wachtwoorden exporteren…</translation>
 <translation id="781982477617612877">Log in met je Brave-account om je wachtwoorden te checken</translation>
 <translation id="2278052315791335171">Als je dit wachtwoord verwijdert, wordt je account op <ph name="SITE"/> niet verwijderd</translation>
@@ -383,7 +383,7 @@ Alleen iemand met je wachtwoordzin kan je versleutelde gegevens lezen. De wachtw
 <translation id="2842985007712546952">Bovenliggende map</translation>
 <translation id="6324134303015966238">Brave laadt vooraf de pagina's die je waarschijnlijk gaat bezoeken, zodat de pagina's sneller laden als je ze bezoekt</translation>
 <translation id="4362959348993021460">Houd je vinger hierop om te wisselen naar de incognitomodus</translation>
-<translation id="2855243985454069333">Hiermee wordt de geschiedenis van al je gesynchroniseerde apparaten verwijderd</translation>
+<translation id="2855243985454069333">Hiermee wordt de geschiedenis van al je gesynchroniseerde apparaten verwijderd.</translation>
 <translation id="2856503607207334158">Inloggen mislukt</translation>
 <translation id="2860954141821109167">Zorg ervoor dat een telefoon-app aanstaat op dit apparaat</translation>
 <translation id="6518254564747115579">Sommige Brave-functies zijn niet meer beschikbaar</translation>
@@ -792,7 +792,7 @@ Voor je Brave-account kunnen andere vormen van browsegeschiedenis (zoals zoekopd
 <translation id="4787736314074622408">Wil je <ph name="ITEM_TITLE"/> verwijderen?</translation>
 <translation id="4194619960643453552">Meer informatie over hoe Brave je beschermt</translation>
 <translation id="4794291718671962615">(<ph name="MEGABYTES"/>) <ph name="URL"/></translation>
-<translation id="4807098396393229769">Naam op pas</translation>
+<translation id="4807098396393229769">Naam op kaart</translation>
 <translation id="480990236307250886">Open de homepage</translation>
 <translation id="481574578487123132">Gekoppelde apparaten</translation>
 <translation id="4822710610088666676">Tabbladgroep <ph name="TAB_GROUP_TITLE"/> gesloten en opgeslagen</translation>
@@ -1255,7 +1255,7 @@ Zo kunnen sommige websites op dit verzoek reageren door advertenties te bekijken
 <translation id="686366188661646310">Wachtwoord verwijderen?</translation>
 <translation id="6864459304226931083">Afbeelding downloaden</translation>
 <translation id="686490460830618322">Blad voor app-filter</translation>
-<translation id="6865313869410766144">Formuliergegevens voor 'Automatisch invullen'</translation>
+<translation id="6865313869410766144">Formuliergegevens voor automatisch invullen</translation>
 <translation id="1565666992559765293">Adressen worden niet versleuteld met je wachtwoordzin. Zo kun je ze gebruiken in andere Brave-services.</translation>
 <translation id="6869056123412990582">computer</translation>
 <translation id="6880903702195291049">Rechten zien er goed uit</translation>
