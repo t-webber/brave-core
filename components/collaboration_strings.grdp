@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
+<grit-part>
+  <!-- Data Sharing -->
+  <!-- Error Messages -->
+  <message name="IDS_COLLABORATION_SOMETHING_WENT_WRONG_HEADER" desc="The header of the error dialog something went wrong." formatter_data="android_java">
+    Something went wrong.
+  </message>
+  <message name="IDS_COLLABORATION_SOMETHING_WENT_WRONG_BODY" desc="The body of of the error dialog something went wrong." formatter_data="android_java">
+    There was an error. Try again.
+  </message>
+  <!-- Error Messages -->
+  <!-- /Data Sharing -->
+</grit-part>
