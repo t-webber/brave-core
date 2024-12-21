@@ -1,8 +1,8 @@
 diff --git a/chrome/browser/ui/autofill/chrome_autofill_client.h b/chrome/browser/ui/autofill/chrome_autofill_client.h
-index e200840106a545f4170b3c24b135e172238df142..c9c68157e352ee7cc9d32acbc47d048f801a6be2 100644
+index 11b93af607810ff26285a7ce1883c9244b0c4d04..9766ac184653eab34be270c009f4dac87380813f 100644
 --- a/chrome/browser/ui/autofill/chrome_autofill_client.h
 +++ b/chrome/browser/ui/autofill/chrome_autofill_client.h
-@@ -107,9 +107,9 @@ class ChromeAutofillClient : public ContentAutofillClient,
+@@ -109,9 +109,9 @@ class ChromeAutofillClient : public ContentAutofillClient,
    scoped_refptr<network::SharedURLLoaderFactory> GetURLLoaderFactory() final;
    AutofillCrowdsourcingManager& GetCrowdsourcingManager() final;
    VotesUploader& GetVotesUploader() final;
@@ -14,7 +14,7 @@ index e200840106a545f4170b3c24b135e172238df142..c9c68157e352ee7cc9d32acbc47d048f
    FieldClassificationModelHandler*
    GetPasswordManagerFieldClassificationModelHandler() final;
    PersonalDataManager& GetPersonalDataManager() final;
-@@ -172,10 +172,10 @@ class ChromeAutofillClient : public ContentAutofillClient,
+@@ -174,10 +174,10 @@ class ChromeAutofillClient : public ContentAutofillClient,
    void TriggerUserPerceptionOfAutofillSurvey(
        FillingProduct filling_product,
        const std::map<std::string, std::string>& field_filling_stats_data) final;

@@ -1,8 +1,8 @@
 diff --git a/front_end/ui/legacy/themeColors.css b/front_end/ui/legacy/themeColors.css
-index 48f8e210d46c2145269f51429443006f66bb0377..7d603999b49439b4bc3efb0e74cefd0e56b015b1 100644
+index 030c42136df9babc674cdc63cd06e0541e04b43d..80c8dbda70ed20c4aee5a0424a3735c0efe3811b 100644
 --- a/front_end/ui/legacy/themeColors.css
 +++ b/front_end/ui/legacy/themeColors.css
-@@ -581,7 +581,7 @@
+@@ -590,7 +590,7 @@
    /* Outlines */
  
    --sys-color-outline: var(--ref-palette-neutral-variant60);

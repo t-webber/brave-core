@@ -1,8 +1,8 @@
 diff --git a/chrome/browser/BUILD.gn b/chrome/browser/BUILD.gn
-index c2c22a92bccb2487319affed384cac10dbc839a8..b46d77cd7226986a8f31a70b295d8c53f271f9e3 100644
+index 6c8d5a79672eb9806cadafa7737fc560c69b6fbd..db1bef0c7540f40483d61ebc07cfd242ebee07fa 100644
 --- a/chrome/browser/BUILD.gn
 +++ b/chrome/browser/BUILD.gn
-@@ -2506,6 +2506,7 @@ static_library("browser") {
+@@ -2528,6 +2528,7 @@ static_library("browser") {
    } else {
      sources += [ "net/net_error_diagnostics_dialog_stub.cc" ]
    }

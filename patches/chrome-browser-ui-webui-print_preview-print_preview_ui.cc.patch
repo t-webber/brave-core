@@ -1,8 +1,8 @@
 diff --git a/chrome/browser/ui/webui/print_preview/print_preview_ui.cc b/chrome/browser/ui/webui/print_preview/print_preview_ui.cc
-index 82d2bf5da99493cd244dda010c10e789f9886856..b070177ea666661091a793d9465a867e5894e5f9 100644
+index 747e6f67871a2560a8f847a995186063d148ddae..b18964bafadd68b7948b5a186bc99a1a9bbf0db4 100644
 --- a/chrome/browser/ui/webui/print_preview/print_preview_ui.cc
 +++ b/chrome/browser/ui/webui/print_preview/print_preview_ui.cc
-@@ -154,7 +154,7 @@ PrintPreviewRequestIdMap& GetPrintPreviewRequestIdMap() {
+@@ -149,7 +149,7 @@ PrintPreviewRequestIdMap& GetPrintPreviewRequestIdMap() {
  
  // PrintPreviewUI IDMap used to avoid exposing raw pointer addresses to WebUI.
  // Only accessed on the UI thread.
