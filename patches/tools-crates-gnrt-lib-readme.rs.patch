@@ -1,5 +1,5 @@
 diff --git a/tools/crates/gnrt/lib/readme.rs b/tools/crates/gnrt/lib/readme.rs
-index 799db591a8818e99115e0fd4e3d9a9869e6f5989..ec564f883928e75b05602fb5383e4cf4f8fe3aa0 100644
+index 67d245628fff5ac146deb5bc67a673fa95376c76..3cdd1b223f8cb910736ba77f344832afacdce43f 100644
 --- a/tools/crates/gnrt/lib/readme.rs
 +++ b/tools/crates/gnrt/lib/readme.rs
 @@ -122,7 +122,7 @@ pub fn readme_file_from_package<'a>(
@@ -11,25 +11,27 @@ index 799db591a8818e99115e0fd4e3d9a9869e6f5989..ec564f883928e75b05602fb5383e4cf4
              && crate_config
                  .as_ref()
                  .map_or(false, |cfg| cfg.no_license_file_tracked_in_crbug_369075726);
-@@ -187,6 +187,8 @@ enum LicenseKind {
-     ISC,
-     Zlib,
-     UnicodeDfs2016,
+@@ -198,6 +198,9 @@ enum LicenseKind {
+ 
+     /// https://spdx.org/licenses/Unicode-3.0.html
+     Unicode3,
++    UnicodeDfs2016,
 +    BSD2,
 +    Mozzila2,
  }
  
  impl Display for LicenseKind {
-@@ -198,6 +200,8 @@ impl Display for LicenseKind {
+@@ -212,6 +215,9 @@ impl Display for LicenseKind {
              LicenseKind::ISC => write!(f, "ISC"),
              LicenseKind::Zlib => write!(f, "Zlib"),
-             LicenseKind::UnicodeDfs2016 => write!(f, "Unicode-DFS-2016"),
+             LicenseKind::Unicode3 => write!(f, "Unicode-3.0"),
++            LicenseKind::UnicodeDfs2016 => write!(f, "Unicode-DFS-2016"),
 +            LicenseKind::BSD2 => write!(f, "BSD-2-Clause"),
 +            LicenseKind::Mozzila2 => write!(f, "Mozilla-Public-License-2.0"),
          }
      }
  }
-@@ -241,6 +245,11 @@ static LICENSE_STRING_TO_LICENSE_KIND: LazyLock<HashMap<&'static str, Vec<Licens
+@@ -255,6 +261,11 @@ static LICENSE_STRING_TO_LICENSE_KIND: LazyLock<HashMap<&'static str, Vec<Licens
          h.insert("Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT", vec![LicenseKind::Apache2]);
          h.insert("BSD-2-Clause OR Apache-2.0 OR MIT", vec![LicenseKind::Apache2]);
          h.insert("Zlib", vec![LicenseKind::Zlib]);
@@ -41,10 +43,11 @@ index 799db591a8818e99115e0fd4e3d9a9869e6f5989..ec564f883928e75b05602fb5383e4cf4
          h
      });
  
-@@ -269,6 +278,8 @@ static LICENSE_KIND_TO_LICENSE_FILES: LazyLock<HashMap<LicenseKind, Vec<&'static
+@@ -283,6 +294,10 @@ static LICENSE_KIND_TO_LICENSE_FILES: LazyLock<HashMap<LicenseKind, Vec<&'static
          h.insert(LicenseKind::ISC, vec!["LICENSE-ISC", "LICENSE.md", "LICENSE"]);
          h.insert(LicenseKind::Zlib, vec!["LICENSE-ZLIB", "LICENSE.md", "LICENSE"]);
-         h.insert(LicenseKind::UnicodeDfs2016, vec!["LICENSE-UNICODE", "LICENSE.md", "LICENSE"]);
+         h.insert(LicenseKind::Unicode3, vec!["LICENSE-UNICODE", "LICENSE.md", "LICENSE"]);
++        h.insert(LicenseKind::UnicodeDfs2016, vec!["LICENSE-UNICODE", "LICENSE.md", "LICENSE"]);
 +        h.insert(LicenseKind::BSD2, vec!["LICENSE.md", "LICENSE"]);
 +        h.insert(LicenseKind::Mozzila2, vec!["LICENSE.md", "LICENSE"]);
          h
