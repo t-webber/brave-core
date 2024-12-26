@@ -1,5 +1,5 @@
 diff --git a/ios/chrome/browser/flags/about_flags.mm b/ios/chrome/browser/flags/about_flags.mm
-index 415290b514cf7f1422e9eca31f7e829d3abe7d5d..84cf1f7258481d8417d019cb8d898302c7f6d5fb 100644
+index c17164f61f9ae8078898925886688b67a14d839f..ed963032354021e8f7daf1438949e7cefc780266 100644
 --- a/ios/chrome/browser/flags/about_flags.mm
 +++ b/ios/chrome/browser/flags/about_flags.mm
 @@ -1243,6 +1243,7 @@ const FeatureEntry::FeatureVariation kSetUpListDurationVariations[] = {

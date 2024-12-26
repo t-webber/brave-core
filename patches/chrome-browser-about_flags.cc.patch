@@ -1,8 +1,8 @@
 diff --git a/chrome/browser/about_flags.cc b/chrome/browser/about_flags.cc
-index bc1e4d575d63b44bd1324aa36c9ed03ee53d1730..97b59fe2e2155ef3265accdff5dfedc069abdc06 100644
+index 7197019ccc35133e75acd42dc3cd6e8f003591a2..55031c55f343495b1832ca78073dd0a6c44885ca 100644
 --- a/chrome/browser/about_flags.cc
 +++ b/chrome/browser/about_flags.cc
-@@ -4369,6 +4369,7 @@ const FeatureEntry::FeatureVariation kMerchantTrustVariations[] = {
+@@ -4372,6 +4372,7 @@ const FeatureEntry::FeatureVariation kMerchantTrustVariations[] = {
  //
  // When adding a new choice, add it to the end of the list.
  const FeatureEntry kFeatureEntries[] = {

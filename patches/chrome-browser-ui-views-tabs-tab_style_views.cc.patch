@@ -1,5 +1,5 @@
 diff --git a/chrome/browser/ui/views/tabs/tab_style_views.cc b/chrome/browser/ui/views/tabs/tab_style_views.cc
-index 11f55c68b5d45d7392d171d8cd4e4de482162bab..f1134c45c00896dc55bcaa316adbaf278892aae3 100644
+index 4d06216e168c95adf535c4c76e979bb3aa0fa9df..accdd014327859a395e40248aa77a5b9e881bb80 100644
 --- a/chrome/browser/ui/views/tabs/tab_style_views.cc
 +++ b/chrome/browser/ui/views/tabs/tab_style_views.cc
 @@ -139,6 +139,7 @@ class TabStyleViewsImpl : public TabStyleViews {
@@ -18,7 +18,7 @@ index 11f55c68b5d45d7392d171d8cd4e4de482162bab..f1134c45c00896dc55bcaa316adbaf27
  
    SkPath path;
  
-@@ -1047,14 +1049,18 @@ void TabStyleViewsImpl::PaintSeparators(gfx::Canvas* canvas) const {
+@@ -1052,14 +1054,18 @@ void TabStyleViewsImpl::PaintSeparators(gfx::Canvas* canvas) const {
                                                     SK_AlphaOPAQUE));
    };
  
