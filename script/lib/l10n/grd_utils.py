@@ -11,7 +11,8 @@ import os
 import posixpath
 import re
 import FP
-import defusedxml.ElementTree as ET
+from xml.etree import ElementTree as ET
+import defusedxml.ElementTree as DET
 
 from lib.l10n.grd_string_replacements import (branding_replacements,
                                               default_replacements,
@@ -120,7 +121,7 @@ def braveify_grd_tree(source_xml_tree, branding_replacements_only):
 def braveify_grd_in_place(source_string_path):
     """Takes in a grd file and replaces all messages and comments with Brave
        wording"""
-    source_xml_tree = ET.parse(source_string_path)
+    source_xml_tree = DET.parse(source_string_path)
     braveify_grd_tree(source_xml_tree, False)
     print(f'Applying branding to {source_string_path}')
     write_xml_file_from_tree(source_string_path, source_xml_tree)
@@ -195,7 +196,7 @@ def update_xtbs_locally(grd_file_path, brave_source_root):
             print('Warning: Skipping because Chromium path does not exist: ' \
                   f'{chromium_xtb_file}')
             continue
-        xml_tree = ET.parse(chromium_xtb_file)
+        xml_tree = DET.parse(chromium_xtb_file)
 
         for node in xml_tree.xpath('//translation'):
             generate_braveified_node(node, False, True)
@@ -224,7 +225,7 @@ def update_xtbs_locally(grd_file_path, brave_source_root):
 
 def get_xtb_files(grd_file_path):
     """Obtains all the XTB files from the specified GRD"""
-    tree = ET.parse(grd_file_path)
+    tree = DET.parse(grd_file_path)
     all_xtb_file_tags = tree.findall('.//translations/file')
     xtb_files = []
     for xtb_file_tag in all_xtb_file_tags:
@@ -301,7 +302,7 @@ def get_grd_strings(grd_file_path, validate_tags=True):
             message_xml = ET.tostring(
                 message_tag, method='xml', encoding='utf-8')
             errors = validate_tags_in_one_string(
-                ET.fromstring(message_xml), textify)
+                DET.fromstring(message_xml), textify)
             assert errors is None, '\n' + errors
         message_desc = message_tag.get('desc') or ''
         message_value = textify(message_tag)
@@ -346,7 +347,7 @@ def remove_google_chrome_strings(brave_grd_strings, google_chrome_strings_map):
 
 def add_google_chrome_translations(brave_strings_xtb_file, xml_tree,
                                    string_ids):
-    brave_xtb_tree = ET.parse(brave_strings_xtb_file)
+    brave_xtb_tree = DET.parse(brave_strings_xtb_file)
     translationbundle = xml_tree.xpath('//translationbundle')[0]
     for string_id in string_ids:
         translation = brave_xtb_tree.xpath(
@@ -357,7 +358,7 @@ def add_google_chrome_translations(brave_strings_xtb_file, xml_tree,
 def get_grd_message_tags(grd_file_path):
     """Obtains all message tags of the specified GRD file"""
     output_elements = []
-    tree = ET.parse(grd_file_path)
+    tree = DET.parse(grd_file_path)
     elements = tree.findall('.//message')
     for element in elements:
         if element.tag == 'message':
