@@ -34,7 +34,7 @@ const pullL10n = (options) => {
         '--source_string_path', sourceStringPath]
       if (options.debug)
         args.push('--debug')
-      util.run('python3', args, cmdOptions)
+      util.run('python', args, cmdOptions)
     }
   })
 }
