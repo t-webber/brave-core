@@ -81,7 +81,7 @@ def escape_element_text(elem):
 
 
 def escape_messages_text(xml_tree):
-    for elem in xml_tree.xpath('//message'):
+    for elem in xml_tree.xpath('.//message'):
         escape_element_text(elem)
 
 
@@ -111,7 +111,7 @@ def write_xml_file_from_tree(string_path, xml_tree):
 def braveify_grd_tree(source_xml_tree, branding_replacements_only):
     """Takes in a grd(p) tree and replaces all messages and comments with Brave
        wording"""
-    for elem in source_xml_tree.xpath('//message'):
+    for elem in source_xml_tree.xpath('.//message'):
         generate_braveified_node(elem, False, branding_replacements_only)
     for elem in source_xml_tree.xpath('//comment()'):
         generate_braveified_node(elem, True, branding_replacements_only)
@@ -358,7 +358,7 @@ def get_grd_message_tags(grd_file_path):
     """Obtains all message tags of the specified GRD file"""
     output_elements = []
     tree = ET.parse(grd_file_path)
-    elements = tree.findall('//message')
+    elements = tree.findall('.//message')
     for element in elements:
         if element.tag == 'message':
             output_elements.append(element)

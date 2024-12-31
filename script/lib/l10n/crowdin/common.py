@@ -16,7 +16,8 @@ from lib.l10n.grd_utils import textify
 from lib.l10n.crowdin.api_v2_client_wrapper import CrowdinClientWrapper
 # pylint: enable=import-error
 
-brave_project_id = 6  # Brave Core (Android+Chrome)
+# brave_project_id = 6  # Brave Core (Android+Chrome)
+brave_project_id = 25  # Temp Test Project
 
 # This module contains functionality common to both pulling down translations
 # from Crowdin and pushing source strings up to Crowdin.

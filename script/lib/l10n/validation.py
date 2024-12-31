@@ -6,6 +6,7 @@
 # You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import defusedxml.ElementTree as ET  # pylint: disable=import-error
+import re
 
 
 # This module contains functionality to validate XML content of strings
@@ -34,9 +35,12 @@ def validate_tags_in_one_string(string_tag, textify_callback):
     """Validates that all child elements of the |string_tag|'s content XML are
        allowed"""
     string_text = textify_callback(string_tag)
-    string_text = string_text.replace('<ph>', '').replace('</ph>', '')
+    # Strip <ex> tags and their content
+    string_text = re.sub(r'<ex>.+?</ex>', '', string_text)
+    # Strip <ph> tags but not their content
+    string_text = re.sub(r'<ph.+?/?>', '', string_text).replace('</ph>', '')
     string_text = string_text.replace('&lt;', '<').replace('&gt;', '>')
-    
+
     try:
         string_xml = ET.fromstring('<string>' + string_text + '</string>')
     except ET.ParseError as e:
@@ -48,7 +52,7 @@ def validate_tags_in_one_string(string_tag, textify_callback):
         if cont in ('C', 'c'):
             return None
         return errors
-    
+
     errors = validate_elements_tags(list(string_xml))
     if errors is not None:
         tag_text = ET.tostring(
