@@ -5,7 +5,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import defusedxml.ElementTree as ET  # pylint: disable=import-error
+from xml.etree import ElementTree as ET
+import defusedxml.ElementTree as DET  # pylint: disable=import-error
 import re
 
 
@@ -42,8 +43,8 @@ def validate_tags_in_one_string(string_tag, textify_callback):
     string_text = string_text.replace('&lt;', '<').replace('&gt;', '>')
 
     try:
-        string_xml = ET.fromstring('<string>' + string_text + '</string>')
-    except ET.ParseError as e:
+        string_xml = DET.fromstring('<string>' + string_text + '</string>')
+    except DET.ParseError as e:
         errors = '\n--------------------\n' \
             f"{string_text.encode('utf-8')}\nERROR: {str(e)}\n"
         print(errors)

@@ -12,7 +12,7 @@ import json
 import os
 import tempfile
 import defusedxml.ElementTree as ET
-from defusedxml.ElementTree import Element, SubElement, tostring
+from xml.etree.ElementTree import Element, SubElement, tostring
 
 from lib.l10n.grd_utils import (get_grd_languages,
                                 get_grd_strings,

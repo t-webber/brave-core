@@ -8,7 +8,7 @@
 import json
 import re
 import os
-from defusedxml import ElementTree  # Replace lxml.etree import
+from defusedxml import ElementTree as DET  # Replace lxml.etree import
 
 from lib.l10n.grd_utils import textify
 
@@ -75,7 +75,7 @@ def json_lang_to_crowdin_lang(lang):
 
 def get_strings_dict_from_xml_content(xml_content):
     """Obtains a dictionary mapping the string name to text from XML content"""
-    strings = ElementTree.fromstring(xml_content).findall('string')
+    strings = DET.fromstring(xml_content).findall('string')
     return {
         string_tag.get('name'): textify_from_crowdin(string_tag)
         for string_tag in strings

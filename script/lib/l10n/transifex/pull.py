@@ -9,7 +9,8 @@ import html
 import json
 import os
 import re
-from defusedxml import ElementTree
+from defusedxml import ElementTree as DET
+from xml.etree import ElementTree as ET
 
 from lib.l10n.grd_utils import (get_grd_strings,
                                 get_override_file_path,
@@ -83,8 +84,8 @@ def combine_override_xtb_into_original(source_string_path):
         (override_lang, override_xtb_path) = override_xtb_files[idx]
         assert lang == override_lang
 
-        xtb_tree = ElementTree.parse(os.path.join(source_base_path, xtb_path))
-        override_xtb_tree = ElementTree.parse(
+        xtb_tree = DET.parse(os.path.join(source_base_path, xtb_path))
+        override_xtb_tree = DET.parse(
             os.path.join(override_base_path, override_xtb_path))
         translationbundle = xtb_tree.find('.//translationbundle')
         override_translations = override_xtb_tree.findall('.//translation')
@@ -107,7 +108,7 @@ def combine_override_xtb_into_original(source_string_path):
             translationbundle.append(translation)
 
         xtb_content = (b'<?xml version="1.0" ?>\n' +
-            ElementTree.tostring(xtb_tree.getroot(), encoding='utf-8'))
+            ET.tostring(xtb_tree.getroot(), encoding='utf-8'))
         with open(os.path.join(source_base_path, xtb_path), mode='wb') as f:
             f.write(xtb_content)
         # Delete the override xtb for this lang
@@ -161,7 +162,7 @@ def verify_transifex_translation_file_content(content, file_ext):
     if file_ext == '.json':
         json.loads(content)
     elif file_ext == '.grd':
-        ElementTree.fromstring(content)
+        DET.fromstring(content)
 
 
 def fixup_bad_ph_tags_from_raw_transifex_string(xml_content):
@@ -209,13 +210,13 @@ def process_bad_ph_tags_for_one_string(val):
 
 def trim_ph_tags_in_xtb_file_content(xml_content):
     """Removes all children of <ph> tags including text inside ph tag"""
-    tree = ElementTree.fromstring(xml_content)
+    tree = DET.fromstring(xml_content)
     phs = tree.findall('.//ph')
     for ph in phs:
         for child in list(ph):
             ph.remove(child)
         ph.text = ''
-    return ElementTree.tostring(tree, encoding='utf-8')
+    return ET.tostring(tree, encoding='utf-8')
 
 
 def generate_xtb_content(lang_code, grd_strings, translations):
@@ -238,7 +239,7 @@ def generate_xtb_content(lang_code, grd_strings, translations):
                     create_xtb_format_translation_tag(
                         fingerprint, translation))
 
-    xml_string = ElementTree.tostring(translationbundle_tag, encoding='utf-8')
+    xml_string = ET.tostring(translationbundle_tag, encoding='utf-8')
     xml_string = html.unescape(xml_string.decode('utf-8'))
     xml_string = (
         '<?xml version="1.0" ?>\n<!DOCTYPE translationbundle>\n' + xml_string)
@@ -247,7 +248,7 @@ def generate_xtb_content(lang_code, grd_strings, translations):
 
 def create_xtb_format_translationbundle_tag(lang):
     """Creates the root XTB XML element"""
-    translationbundle_tag = ElementTree.Element('translationbundle')
+    translationbundle_tag = ET.Element('translationbundle')
     lang = transifex_lang_to_xtb_lang(lang)
     translationbundle_tag.set('lang', lang)
     translationbundle_tag.text = '\n'
@@ -289,7 +290,7 @@ def check_plural_string_formatting(grd_string_content, translation_content):
 
 def create_xtb_format_translation_tag(fingerprint, string_value):
     """Creates child XTB elements for each translation tag"""
-    string_tag = ElementTree.Element('translation')
+    string_tag = ET.Element('translation')
     string_tag.set('id', str(fingerprint))
     if string_value.count('<') != string_value.count('>'):
         assert False, \
@@ -302,7 +303,7 @@ def create_xtb_format_translation_tag(fingerprint, string_value):
 
 def validate_tags_in_transifex_strings(xml_content):
     """Validates that all child elements of all <string>s are allowed"""
-    xml = ElementTree.fromstring(xml_content)
+    xml = DET.fromstring(xml_content)
     string_tags = xml.findall('.//string')
     errors = None
     for string_tag in string_tags:

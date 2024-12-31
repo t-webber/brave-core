@@ -9,7 +9,9 @@ import html
 import json
 import os
 import re
-import defusedxml.ElementTree as ET
+
+from xml.etree import ElementTree as ET
+import defusedxml.ElementTree as DET
 
 from lib.l10n.grd_utils import (get_grd_strings, get_override_file_path,
                                 get_xtb_files)
@@ -82,8 +84,8 @@ def combine_override_xtb_into_original(source_string_path):
         (override_lang, override_xtb_path) = override_xtb_files[idx]
         assert lang == override_lang
 
-        xtb_tree = ET.parse(os.path.join(source_base_path, xtb_path))
-        override_xtb_tree = ET.parse(
+        xtb_tree = DET.parse(os.path.join(source_base_path, xtb_path))
+        override_xtb_tree = DET.parse(
             os.path.join(override_base_path, override_xtb_path))
         translationbundle = xtb_tree.getroot()
         override_translations = override_xtb_tree.findall('.//translation')
@@ -169,7 +171,7 @@ def verify_crowdin_translation_file_content(content, file_ext):
     if file_ext == '.json':
         json.loads(content)
     elif file_ext == '.grd':
-        ET.fromstring(content)
+        DET.fromstring(content)
 
 
 def fixup_bad_ph_tags_from_raw_crowdin_string(xml_content):
@@ -213,7 +215,7 @@ def process_bad_ph_tags_for_one_string(val):
 
 def trim_ph_tags_in_xtb_file_content(xml_content):
     """Removes all children of <ph> tags including text inside ph tag"""
-    root = ET.fromstring(xml_content)
+    root = DET.fromstring(xml_content)
     for ph in root.findall('.//ph'):
         # Remove all children
         for child in list(ph):
@@ -306,7 +308,7 @@ def create_xtb_format_translation_tag(fingerprint, string_value):
 
 def validate_tags_in_crowdin_strings(xml_content):
     """Validates that all child elements of all <string>s are allowed"""
-    xml = ET.fromstring(xml_content)
+    xml = DET.fromstring(xml_content)
     string_tags = xml.findall('.//string')
     # print(f'Validating HTML tags in {len(string_tags)} strings')
     errors = None
