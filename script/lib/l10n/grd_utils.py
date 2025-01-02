@@ -402,7 +402,7 @@ def add_google_chrome_translations(brave_strings_xtb_file, xml_tree,
     translationbundle = xml_tree.getroot()
     for string_id in string_ids:
         translation = brave_xtb_tree.find(
-            '//translation[@id="{}"]'.format(string_id))[0]
+            './/translation[@id="{}"]'.format(string_id))
         translationbundle.append(translation)
 
 
