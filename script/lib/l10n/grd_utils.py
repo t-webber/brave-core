@@ -82,7 +82,7 @@ def escape_element_text(elem):
 
 
 def escape_messages_text(xml_tree):
-    for elem in xml_tree.xpath('.//message'):
+    for elem in xml_tree.findall('.//message'):
         escape_element_text(elem)
 
 
@@ -112,9 +112,9 @@ def write_xml_file_from_tree(string_path, xml_tree):
 def braveify_grd_tree(source_xml_tree, branding_replacements_only):
     """Takes in a grd(p) tree and replaces all messages and comments with Brave
        wording"""
-    for elem in source_xml_tree.xpath('.//message'):
+    for elem in source_xml_tree.findall('.//message'):
         generate_braveified_node(elem, False, branding_replacements_only)
-    for elem in source_xml_tree.xpath('//comment()'):
+    for elem in source_xml_tree.findall('.//comment()'):
         generate_braveified_node(elem, True, branding_replacements_only)
 
 
@@ -198,7 +198,7 @@ def update_xtbs_locally(grd_file_path, brave_source_root):
             continue
         xml_tree = DET.parse(chromium_xtb_file)
 
-        for node in xml_tree.xpath('//translation'):
+        for node in xml_tree.findall('.//translation'):
             generate_braveified_node(node, False, True)
             # Use our fp, when exists.
             old_fp = node.attrib['id']
@@ -217,10 +217,58 @@ def update_xtbs_locally(grd_file_path, brave_source_root):
                                            brave_strings_string_ids)
 
         transformed_content = (b'<?xml version="1.0" ?>\n' +
-            ET.tostring(xml_tree, pretty_print=True,
-                xml_declaration=False, encoding='utf-8').strip())
+            b'<!DOCTYPE translationbundle>\n' +
+            ET.tostring(xml_tree.getroot(), encoding='utf-8',
+                xml_declaration=False).strip().replace(b'" />', b'"/>'))
         with open(xtb_file, mode='wb') as f:
             f.write(transformed_content)
+
+
+def combine_override_xtb_into_original(source_string_path):
+    """Applies XTB override file to the original"""
+    source_base_path = os.path.dirname(source_string_path)
+    override_path = get_override_file_path(source_string_path)
+    override_base_path = os.path.dirname(override_path)
+    xtb_files = get_xtb_files(source_string_path)
+    override_xtb_files = get_xtb_files(override_path)
+    assert len(xtb_files) == len(override_xtb_files)
+
+    for (idx, _) in enumerate(xtb_files):
+        (lang, xtb_path) = xtb_files[idx]
+        (override_lang, override_xtb_path) = override_xtb_files[idx]
+        assert lang == override_lang
+
+        xtb_tree = DET.parse(os.path.join(source_base_path, xtb_path))
+        override_xtb_tree = DET.parse(
+            os.path.join(override_base_path, override_xtb_path))
+        translationbundle = xtb_tree.getroot()
+        override_translations = override_xtb_tree.findall('.//translation')
+        translations = xtb_tree.findall('.//translation')
+
+        override_translation_fps = [t.attrib['id']
+                                    for t in override_translations]
+        translation_fps = [t.attrib['id'] for t in translations]
+
+        # Remove translations that we have a matching FP for
+        for translation in translations:
+            if translation.attrib['id'] in override_translation_fps:
+                translationbundle.remove(translation)
+            elif translation_fps.count(translation.attrib['id']) > 1:
+                translationbundle.remove(translation)
+                translation_fps.remove(translation.attrib['id'])
+
+        # Append the override translations into the original translation bundle
+        for translation in override_translations:
+            translationbundle.append(translation)
+
+        xtb_content = (b'<?xml version="1.0" ?>\n' +
+            b'<!DOCTYPE translationbundle>\n' +
+            ET.tostring(xtb_tree.getroot(), encoding='utf-8',
+            xml_declaration=False).strip().replace(b'" />', b'"/>'))
+        with open(os.path.join(source_base_path, xtb_path), mode='wb') as f:
+            f.write(xtb_content)
+        # Delete the override xtb for this lang
+        os.remove(os.path.join(override_base_path, override_xtb_path))
 
 
 def get_xtb_files(grd_file_path):
@@ -351,9 +399,9 @@ def remove_google_chrome_strings(brave_grd_strings, google_chrome_strings_map):
 def add_google_chrome_translations(brave_strings_xtb_file, xml_tree,
                                    string_ids):
     brave_xtb_tree = DET.parse(brave_strings_xtb_file)
-    translationbundle = xml_tree.xpath('//translationbundle')[0]
+    translationbundle = xml_tree.getroot()
     for string_id in string_ids:
-        translation = brave_xtb_tree.xpath(
+        translation = brave_xtb_tree.find(
             '//translation[@id="{}"]'.format(string_id))[0]
         translationbundle.append(translation)
 
