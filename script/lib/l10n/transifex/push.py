@@ -155,8 +155,10 @@ def upload_grd_translations_to_transifex(source_string_path, filename,
         for xtb_string in xtb_strings:
             string_fp = xtb_string.get('id')
             matches = [tup for tup in grd_strings if tup[2] == string_fp]
+            # XTB files may have translations for string that are no longer in
+            # the GRD, so only upload those that are needed for the GRD.
             if len(matches):
-                value = ''.join(xtb_string.itertext())
+                value = textify(xtb_string)
                 upload_translation_to_transifex(source_string_path,
                                                 transifex_lang, resource_name,
                                                 matches[0][0], value,

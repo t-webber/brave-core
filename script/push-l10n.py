@@ -10,12 +10,10 @@ import os
 import sys
 
 from lib.l10n.crowdin.common import should_use_crowdin_for_file
-from lib.l10n.crowdin.push import (upload_grd_translations_to_crowdin,
-                                   generate_translation_strings_xml_for_grd,
-                                   upload_json_translations_to_crowdin,
-                                   upload_source_file_to_crowdin,
-                                   check_source_grd_strings_parity_with_crowdin
-                                   )
+from lib.l10n.crowdin.push import (
+    upload_grd_translations_to_crowdin, upload_json_translations_to_crowdin,
+    upload_source_file_to_crowdin, upload_translation_strings_xml_for_grd,
+    check_source_grd_strings_parity_with_crowdin)
 from lib.l10n.transifex.common import should_use_transifex_for_file
 from lib.l10n.transifex.push import (
     check_for_chromium_upgrade,
@@ -32,7 +30,8 @@ SOURCE_ROOT = os.path.dirname(BRAVE_SOURCE_ROOT)
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='Push strings to Transifex')
+    parser = argparse.ArgumentParser(
+        description='Push strings to Transifex or Crowdin')
     parser.add_argument('--source_string_path', nargs=1, required=True)
     parser.add_argument('--service',
                         nargs=1,
@@ -47,14 +46,15 @@ def parse_args():
                        dest='with_translations',
                        action='store_true',
                        help='Uploads translations from the local .xtb and ' \
-                            '.json files to Transifex. WARNING: This will ' \
-                            'overwrite the Transifex translations with the ' \
-                            'local values')
+                            '.json files to Transifex or Crowdin.' \
+                            'WARNING: This will overwrite the Transifex ' \
+                            'translations with the local values')
     group.add_argument('--with_missing_translations',
                        dest='with_missing_translations', action='store_true',
                        help='Uploads translations from the local .xtb and ' \
-                            '.json files to Transifex, but only for strings '\
-                            'that are not translated in Transifex.')
+                            '.json files to Transifex or Crowdin, but only ' \
+                            'for strings that are not translated in ' \
+                            'Transifex/Crowdin.')
     return parser.parse_args()
 
 
@@ -114,8 +114,7 @@ def main():
                                        filename)
 
     # Upload local translations if requested
-    if ('brave-site-specific-scripts' in source_string_path or
-           args.with_translations or args.with_missing_translations):
+    if (args.with_translations or args.with_missing_translations):
         if ext == '.grd':
             upload_grd_translations(
                 use_crowdin,
@@ -153,17 +152,14 @@ def upload_grd_translations(use_crowdin,
                             is_override=False):
     if use_crowdin:
         # String by string upload is too slow, so only use it for missing
-        # translations. For initial upload use the function to generate xml
-        # files in the source format and upload them manually.
-        # TODO: consider automated upload of files by using
-        # TranslationsResource.upload_translation API call.
+        # translations.
         if missing_only:
             upload_grd_translations_to_crowdin(channel, source_string_path,
                                                filename, missing_only,
                                                is_override)
         else:
-            generate_translation_strings_xml_for_grd(source_string_path,
-                                                     filename, is_override)
+            upload_translation_strings_xml_for_grd(channel, source_string_path,
+                                                   filename, is_override)
     else:
         upload_grd_translations_to_transifex(source_string_path, filename,
                                              missing_only, is_override)

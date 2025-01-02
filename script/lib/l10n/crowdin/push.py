@@ -162,9 +162,10 @@ def upload_grd_translations_to_crowdin(channel,
                                    missing_only)
 
 
-def generate_translation_strings_xml_for_grd(source_string_path,
-                                             filename,
-                                             is_override=False):
+def upload_translation_strings_xml_for_grd(channel,
+                                           source_string_path,
+                                           filename,
+                                           is_override=False):
     """Generates string xml files for a GRD file from its XTB files in the
        same format as the source we upload to Crowdin. These xml files can be
        manually uploaded to Crowdin via their Translations page."""
@@ -225,9 +226,11 @@ def generate_translation_strings_xml_for_grd(source_string_path,
                              xml_declaration=True)
         with open(output_xml_file_path, mode='wb') as f:
             f.write(xml_string)
-        print(f'Wrote {output_xml_file_path}')
-    print('Upload translation files manually to Crowdin via project\'s '
-          'Translations page.')
+        print(f'Uploading l10n for {resource_name}: {crowdin_lang}')
+        uploaded = get_crowdin_client_wrapper().upload_grd_l10n_file(
+            channel, output_xml_file_path, resource_name, crowdin_lang)
+        assert uploaded, 'Failed to upload.'
+        os.remove(output_xml_file_path)
 
 
 # Helper functions
@@ -255,7 +258,11 @@ def generate_source_strings_xml_from_grd(output_xml_file_path, grd_file_path):
 
 
 def process_source_string_value(string_value, string_desc):
-    """Process string value and extract placeholder examples"""
+    """Empty everything out from placeholders. The content of placeholders
+       doesn't need to be localized and only confuses localizers. Plus, it
+       gets stripped out anyway when we download the translations. The only
+       useful parts of the placeholders are the example values which we can
+       extract here and add to the comment."""
     root = ElementTree.fromstring('<string>' + string_value + '</string>')
     phs = root.findall('.//ph')
     examples = []
@@ -290,7 +297,8 @@ def add_placeholders_examples_to_description(string_desc, examples):
 
 
 def create_android_format_string_tag(string_name, string_value, string_desc):
-    """Creates intermediate Android format child tag for each translation string"""
+    """Creates intermediate Android format child tag for each translation
+       string"""
     string_tag = Element('string')
     string_tag.set('name', string_name)
     string_tag.set('comment', string_desc)

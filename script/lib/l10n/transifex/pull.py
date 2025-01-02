@@ -160,8 +160,10 @@ def fix_transifex_translation_file_content(content, file_ext):
 def verify_transifex_translation_file_content(content, file_ext):
     """Verifies that Transifex translation file content is parse-able"""
     if file_ext == '.json':
+        # Make sure it's parseable
         json.loads(content)
     elif file_ext == '.grd':
+        # Make sure it's parseable
         DET.fromstring(content)
 
 
@@ -251,6 +253,8 @@ def create_xtb_format_translationbundle_tag(lang):
     translationbundle_tag = ET.Element('translationbundle')
     lang = transifex_lang_to_xtb_lang(lang)
     translationbundle_tag.set('lang', lang)
+    # Adds a newline so the first translation isn't glued to the
+    # translationbundle element for us weak humans.
     translationbundle_tag.text = '\n'
     return translationbundle_tag
 

@@ -134,6 +134,17 @@ class CrowdinClientWrapper():
             languageId=lang_code,
             text=translation)
 
+    def __upload_translation(self, file_id, storage_id, lang_code):
+        uploaded_file = self._client.translations.upload_translation(
+            projectId=self._project_id,
+            languageId=lang_code,
+            storageId=storage_id,
+            fileId=file_id,
+            importEqSuggestions=True,  # Add l10n == source
+            autoApproveImported=True,
+            translateHidden=True)
+        return uploaded_file['data']['fileId']
+
     # Wrapper API
 
     def is_supported_language(self, lang_code):
@@ -177,7 +188,7 @@ class CrowdinClientWrapper():
             f'Unable to get resource {resource_name} for ' +
             f'branch {branch} because the resource doesn\'t exist')
         url = self.__get_resource_download_url(file_id)
-        r = requests.get(url)
+        r = requests.get(url, timeout=10)
         assert r.status_code == 200, \
             f'Aborting. Status code {r.status_code}: {r.content}'
         r.encoding = 'utf-8'
@@ -199,7 +210,7 @@ class CrowdinClientWrapper():
                 f'branch {branch} because the resource doesn\'t exist')
             url = self.__get_resource_translation_download_url(
                 file_id, lang_code)
-            r = requests.get(url)
+            r = requests.get(url, timeout=10)
             assert r.status_code == 200 or r.status_code == 204, \
                 f'Aborting. Status code {r.status_code}: {r.content}'
             if r.status_code == 200:
@@ -253,3 +264,15 @@ class CrowdinClientWrapper():
                 print(f'  Uploading {lang_code}')
                 self.__add_source_string_l10n(string_id, lang_code,
                                               translation)
+
+    def upload_grd_l10n_file(self, branch, upload_file_path, resource_name,
+                             lang):
+        """Upload grd l10n file to Crowdin"""
+        # Create new storage for the file
+        storage_id = self.__create_storage(upload_file_path)
+        # Check if the branch already exists
+        branch_id = self.__get_branch(branch)
+        assert branch_id, f'Branch {branch} doesn\'t exist.'
+        file_id = self.__get_resource_file(branch_id, resource_name)
+        assert file_id, f'Resource {resource_name} doesn\'t exists.'
+        return self.__upload_translation(file_id, storage_id, lang)

@@ -138,13 +138,12 @@ def get_crowdin_translation_file_content(channel, source_file_path, filename,
                                          lang_code, dump_path):
     """Obtains a translation Android xml format and returns the string"""
     ext = os.path.splitext(source_file_path)[1]
-    if ext == '.xtb':
-        lang_code = xtb_lang_to_crowdin_lang(lang_code)
-    elif ext == '.json':
-        lang_code = json_lang_to_crowdin_lang(lang_code)
+    assert ext in ('.grd', '.json'), f'Unexpected extension {ext}'
+    crowdin_lang_code = xtb_lang_to_crowdin_lang(
+        lang_code) if ext == '.grd' else json_lang_to_crowdin_lang(lang_code)
     resource_name = crowdin_name_from_filename(source_file_path, filename)
     content = get_crowdin_client_wrapper().get_resource_l10n(
-        channel, resource_name, lang_code, ext)
+        channel, resource_name, crowdin_lang_code, ext)
     content = fix_crowdin_translation_file_content(content, ext)
     if dump_path:
         with open(dump_path, mode='wb') as f:
@@ -248,7 +247,7 @@ def generate_xtb_content(lang_code, grd_strings, translations):
     xml_string = ET.tostring(translationbundle_tag, encoding='utf-8')
     xml_string = html.unescape(xml_string.decode('utf-8'))
     xml_string = ('<?xml version="1.0" ?>\n<!DOCTYPE translationbundle>\n' +
-                  xml_string)
+                  xml_string.replace('" />', '"/>'))
     return xml_string.encode('utf-8')
 
 
@@ -257,6 +256,8 @@ def create_xtb_format_translationbundle_tag(lang):
     root = ET.Element('translationbundle')
     lang = crowdin_lang_to_xtb_lang(lang)
     root.set('lang', lang)
+    # Adds a newline so the first translation isn't glued to the
+    # translationbundle element for us weak humans.
     root.text = '\n'
     return root
 
