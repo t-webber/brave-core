@@ -86,25 +86,24 @@ def escape_messages_text(xml_tree):
         escape_element_text(elem)
 
 
-def format_xml_style(xml_content):
+def format_xml_style(xml_content, leading_comments):
     """Formats an xml file according to how Chromium GRDs are formatted"""
     xml_content = re.sub(rb'\s+desc="', rb' desc="', xml_content)
-    xml_content = xml_content.replace(b'/>', b' />')
-    xml_content = xml_content.replace(
-        rb'<?xml version="1.0" encoding="UTF-8"?>',
-            rb'<?xml version=\'1.0\' encoding=\'UTF-8\'?>')
     xml_content = xml_content.replace(rb'&amp;#36;', rb'&#36;')
-    return xml_content
+    header = b'<?xml version=\'1.0\' encoding=\'UTF-8\'?>' + b'\n'
+    for comment in leading_comments:
+        header = header + comment.encode('utf-8')
+    return header + xml_content + b'\n'
 
 
-def write_xml_file_from_tree(string_path, xml_tree):
+def write_xml_file_from_tree(string_path, xml_tree, leading_comments):
     """Writes out an xml tree to a file with Chromium GRD formatting
        replacements"""
     escape_messages_text(xml_tree)
-    transformed_content = ET.tostring(xml_tree,
-                                    encoding='UTF-8',
-                                    xml_declaration=True)
-    transformed_content = format_xml_style(transformed_content)
+    transformed_content = ET.tostring(xml_tree.getroot(), encoding='UTF-8',
+        xml_declaration=False)
+    transformed_content = format_xml_style(transformed_content,
+                                           leading_comments)
     with open(string_path, mode='wb') as f:
         f.write(transformed_content)
 
@@ -114,17 +113,73 @@ def braveify_grd_tree(source_xml_tree, branding_replacements_only):
        wording"""
     for elem in source_xml_tree.findall('.//message'):
         generate_braveified_node(elem, False, branding_replacements_only)
-    for elem in source_xml_tree.findall('.//comment()'):
+    for (elem, _) in find_all_comments(source_xml_tree.getroot()):
         generate_braveified_node(elem, True, branding_replacements_only)
+
+
+def find_all_comments(root):
+    """Finds all comment elements in the root and returns a list of tuples of
+       the comment element and its parent which maybe needed for removal of
+       the comment"""
+    comments = []
+    for element in root:
+        if element.tag is ET.Comment:
+            comments.append((element, root))
+        else:
+            comments.extend(find_all_comments(element))
+    return comments
+
+
+def find_all_tags(root, tag):
+    """Finds all elements with the given tag in the root and returns a list of
+       tuples of the matching element and its parent which maybe needed for
+       removal of the element"""
+    tags = []
+    for element in root:
+        if element.tag == tag:
+            tags.append((element, root))
+        else:
+            tags.extend(find_all_tags(element, tag))
+    return tags
 
 
 def braveify_grd_in_place(source_string_path):
     """Takes in a grd file and replaces all messages and comments with Brave
        wording"""
-    source_xml_tree = DET.parse(source_string_path)
+    parser = ET.XMLParser(target=ET.TreeBuilder(insert_comments=True))
+    source_xml_tree = DET.parse(source_string_path, parser)
     braveify_grd_tree(source_xml_tree, False)
+    extension = os.path.splitext(source_string_path)[1]
+    leading_comments = get_grd_leading_comments(source_string_path)
     print(f'Applying branding to {source_string_path}')
-    write_xml_file_from_tree(source_string_path, source_xml_tree)
+    write_xml_file_from_tree(source_string_path, source_xml_tree,
+                             leading_comments)
+
+
+def get_grd_leading_comments(source_string_path):
+    """Retrieve pre-root comments from file_path file as python's xml library
+       doesn't parse them"""
+    comment_text = \
+        '<!--This file is created by l10nUtil.js. Do not edit manually.-->\n'
+    extension = os.path.splitext(source_string_path)[1]
+    grit_tag = 'grit' if extension == '.grd' else 'grit-part'
+    comments = []
+    with open(source_string_path, mode='r', encoding="utf-8") as f:
+        in_comment = False
+        found_generated_comment = False
+        for line in f:
+            if line.startswith(f'<{grit_tag}'):
+                break
+            if in_comment or line.startswith('<!--'):
+                comments.append(braveify_grd_text(line, False, True))
+                in_comment = True
+                if line == comment_text:
+                    found_generated_comment = True
+            if line.endswith('-->\n'):
+                in_comment = False
+    if not found_generated_comment:
+        comments.append(comment_text)
+    return comments
 
 
 def get_override_file_path(source_string_path):
