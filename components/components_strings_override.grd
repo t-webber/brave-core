@@ -86,73 +86,22 @@
   </translations>
   <release seq="1">
     <messages fallback_to_english="true">
-      <part file="arc_strings.grdp" />
-      <part file="autofill_payments_strings.grdp" />
-      <part file="autofill_prediction_improvements_strings.grdp" />
-      <part file="autofill_strings.grdp" />
       <part file="bookmark_bar_strings_override.grdp" />
-      <part file="bookmark_component_strings.grdp" />
-      <part file="blocked_content_strings.grdp" />
-      <part file="browsing_data_strings.grdp" />
-      <part file="commerce_strings.grdp" />
-      <part file="compose_strings.grdp" />
-      <part file="live_caption_strings.grdp" />
-      <part file="components_settings_strings.grdp" />
-      <part file="crash_strings.grdp" />
-      <part file="dialog_strings.grdp" />
-      <part file="dom_distiller_strings.grdp" />
-      <part file="enterprise_strings.grdp" />
-      <part file="error_page_strings.grdp" />
-      <part file="find_in_page_strings.grdp" />
-      <part file="flags_strings.grdp" />
-      <part file="fullscreen_control_strings.grdp" />
-      <part file="global_media_controls_strings.grdp" />
-      <part file="heavy_ad_intervention_strings.grdp" />
-      <part file="history_strings.grdp" />
-      <part file="javascript_dialogs_strings.grdp" />
-      <part file="login_dialog_strings.grdp" />
+      <part file="commerce_strings_override.grdp" />
+      <part file="error_page_strings_override.grdp" />
       <part file="management_strings_override.grdp" />
-      <part file="media_message_center_strings.grdp" />
-      <part file="new_or_sad_tab_strings.grdp" />
+      <part file="new_or_sad_tab_strings_override.grdp" />
       <part file="omnibox_strings_override.grdp" />
       <part file="page_info_strings_override.grdp" />
-      <part file="paint_preview_strings.grdp" />
-      <part file="password_manager_strings.grdp" />
       <part file="payments_strings_override.grdp" />
-      <part file="pdf_strings.grdp" />
-      <part file="permissions_strings.grdp" />
-      <part file="policy_strings.grdp" />
-      <part file="print_media_strings.grdp" />
-      <part file="printing_component_strings.grdp" />
-      <part file="privacy_sandbox_chrome_strings.grdp" />
-      <part file="protocol_handler_strings.grdp" />
-      <part file="reset_password_strings.grdp" />
-      <part file="saved_tab_groups_strings.grdp" />
-      <part file="search_engine_choice_strings.grdp" />
+      <part file="privacy_sandbox_chrome_strings_override.grdp" />
       <part file="security_interstitials_strings_override.grdp" />
-      <part file="send_tab_to_self_strings.grdp" />
-      <part file="site_settings_strings.grdp" />
-      <part file="sms_strings.grdp" />
-      <part file="ssl_errors_strings.grdp" />
-      <part file="subresource_filter_strings.grdp" />
-      <part file="supervised_user_strings.grdp" />
-      <part file="sync_ui_strings.grdp" />
-      <part file="translate_strings.grdp" />
-      <part file="tab_groups_strings.grdp" />
-      <part file="tab_resume_strings.grdp" />
-      <part file="undo_strings.grdp" />
-      <part file="user_education_strings.grdp" />
-      <part file="version_ui_strings.grdp" />
-      <part file="webapps_strings.grdp" />
+      <part file="supervised_user_strings_override.grdp" />
       <part file="history_clusters_strings_override.grdp" />
       <if expr="is_android">
-        <part file="android_system_error_page_strings.grdp" />
-        <part file="external_intents_strings.grdp" />
-        <part file="facilitated_payments_strings.grdp" />
-      </if>
+        </if>
       <if expr="enable_vr">
-        <part file="webxr_strings.grdp" />
-      </if>
+        </if>
 
       <if expr="is_android">
         </if>
