@@ -5,6 +5,7 @@ locale.  The variables is_win, is_macosx, is_linux, and is_posix are available
 for making strings OS specific.  Other platform defines such as use_titlecase
 are declared in tools/grit/grit_rule.gni.
 -->
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit base_dir="." latest_public_release="0" current_release="1" output_all_resource_defines="false" source_lang_id="en" enc_check="möl">
   <translations>
     <file path="resources/generated_resources_override_af.xtb" lang="af" />
@@ -91,29 +92,42 @@ are declared in tools/grit/grit_rule.gni.
   </translations>
   <release seq="1">
     <messages fallback_to_english="true">
-      <part file="bookmarks_strings_override.grdp" />
+      <part file="access_code_cast_strings.grdp" />
+
+      <part file="bookmarks_strings.grdp" />
 
       <part file="app_management_strings_override.grdp" />
 
-      <part file="profiles_strings_override.grdp" />
+      <part file="media_router_strings.grdp" />
+
+      <part file="gmc_strings.grdp" />
+
+      <part file="media_live_preview_strings.grdp" />
+
+      <part file="profiles_strings.grdp" />
 
       <if expr="is_chromeos">
-        </if>
+        <part file="chromeos_shared_strings.grdp" />
+      </if>
       <if expr="chromeos_ash">
+        <part file="chromeos_strings.grdp" />
         <part file="os_settings_strings_override.grdp" />
         <part file="os_settings_search_tag_strings_override.grdp" />
-        </if>
+        <part file="sharesheet_strings.grdp" />
+      </if>
 
       <if expr="not is_android">
-        <part file="settings_strings_override.grdp" />
+        <part file="settings_strings.grdp" />
         <part file="shared_settings_strings_override.grdp" />
       </if>
 
       <if expr="chrome_root_store_cert_management_ui">
-        </if>
+        <part file="certificate_manager.grdp" />
+      </if>
 
       <if expr="not is_android">
-        </if>
+        <part file="support_tool_strings.grdp" />
+      </if>
 
       <if expr="enable_extensions">
         <part file="extensions_strings_override.grdp" />
@@ -124,16 +138,20 @@ are declared in tools/grit/grit_rule.gni.
       </if>
 
       <if expr="not chromeos_ash and not is_android">
-        </if>
+        <part file="welcome_strings.grdp" />
+      </if>
 
       <if expr="not is_android">
-        </if>
+        <part file="whats_new_strings.grdp" />
+      </if>
 
        <if expr="not is_android">
-        </if>
+        <part file="password_manager_ui_strings.grdp" />
+      </if>
 
       <if expr="enable_printing">
-        </if>
+        <part file="printing_strings.grdp" />
+      </if>
 
       <if expr="enable_vr">
         <part file="vr_strings_override.grdp" />

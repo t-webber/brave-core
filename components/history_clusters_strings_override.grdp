@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Strings for the chrome://history/journeys page -->
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
   <if expr="use_titlecase">
   </if>

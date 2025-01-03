@@ -3,6 +3,7 @@
 <!-- There are two kinds of UI strings here: -->
 <!--   * Visible UI labels -->
 <!--   * Invisible screen reader text for screen readers -->
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
   <message name="IDS_OMNIBOX_PEDAL_LAUNCH_INCOGNITO_HINT" desc="The button text contents to suggest pedal action, LAUNCH_INCOGNITO">
     Open Private window

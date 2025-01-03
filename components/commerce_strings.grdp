@@ -34,7 +34,8 @@
          en-us user can access the feature UI. -->
     <!-- TODO(crbug.com/40241740): Remove the special character and enable translation. -->
     <message name="IDS_NATIVE_NTP_CART_DISCOUNT_CONSENT_TITLE" translateable="false" desc="The title shown on the native consent dialog for getting discount.">
-      Let Brave help you find&#13;discounts for your carts
+      Let Brave help you find
+discounts for your carts
     </message>
 
     <message name="IDS_NATIVE_NTP_CART_DISCOUNT_CONSENT_BODY" desc="The actual consent descrition that shows in the native consent dialog.">

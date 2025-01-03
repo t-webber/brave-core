@@ -28,6 +28,7 @@ CHAR_LIMIT guidelines:
   * Context menu items - 30 characters
   * Action bar items - 32 characters
 -->
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit current_release="1" latest_public_release="0" output_all_resource_defines="false">
   <translations>
     <file path="translations/android_chrome_strings_override_af.xtb" lang="af" />

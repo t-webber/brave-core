@@ -8,6 +8,7 @@
 
   Please consult with the privacy team when adding or changing strings.
 -->
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
   <if expr="not is_ios">
     </if>

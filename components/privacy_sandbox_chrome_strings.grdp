@@ -2287,4 +2287,3 @@
     Delete site <ph name="SITE_NAME">%1$s<ex>google.com</ex></ph>
   </message>
 </grit-part>
-<!-- LINT.ThenChange(/components/privacy_sandbox_strings.grd) -->

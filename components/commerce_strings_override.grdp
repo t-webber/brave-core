@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
+<grit-part>
+  <if expr="not is_android and not is_ios">
+    <message name="IDS_NATIVE_NTP_CART_DISCOUNT_CONSENT_TITLE" translateable="false" desc="The title shown on the native consent dialog for getting discount.">
+      Let Brave help you find
+discounts for your carts
+    </message>
+
+    <if expr="use_titlecase">
+      </if> <if expr="not use_titlecase">
+      </if> <if expr="use_titlecase">
+      </if> <if expr="not use_titlecase">
+      </if> <if expr="use_titlecase">
+      </if> <if expr="not use_titlecase">
+      </if> <if expr="is_win or is_linux">
+      <then>
+        </then>
+      <else>
+        </else>
+    </if>
+    </if>
+
+  <if expr="is_android">
+    </if>
+
+  <if expr="use_titlecase">
+    </if> <if expr="not use_titlecase">
+    </if> <if expr="use_titlecase">
+    </if> <if expr="not use_titlecase">
+    </if> <if expr="is_android">
+    </if> <if expr="use_titlecase">
+    </if> <if expr="not use_titlecase">
+    </if> </grit-part>
