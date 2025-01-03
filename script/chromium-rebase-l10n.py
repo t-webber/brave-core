@@ -148,8 +148,8 @@ def generate_overrides_and_replace_strings(source_string_path,
     for (output, parent) in outputs:
         parent.remove(output)
 
-    parts = modified_xml_tree.findall('.//part')
-    for part in parts:
+    parts = find_all_tags(modified_xml_tree.getroot(), 'part')
+    for (part, parent) in parts:
         override_file = get_override_file_path(part.attrib['file'])
         # Check for the special case of brave_stings.grd:
         if (os.path.basename(source_string_path) == 'brave_strings.grd'
@@ -161,7 +161,7 @@ def generate_overrides_and_replace_strings(source_string_path,
             part.attrib['file'] = override_file
         else:
             # No grdp override here, carry on
-            parts.remove(part)
+            parent.remove(part)
     files = modified_xml_tree.findall('.//file')
     for f in files:
         f.attrib['path'] = get_override_file_path(f.attrib['path'])
