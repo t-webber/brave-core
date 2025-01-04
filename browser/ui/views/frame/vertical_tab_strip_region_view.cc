@@ -922,13 +922,7 @@ void VerticalTabStripRegionView::Layout(PassKey) {
   // As we have to update ScrollView's viewport size and its contents size,
   // laying out children manually will be more handy.
 
-  // 1. New tab should be fixed at the bottom of container.
   const auto contents_bounds = GetContentsBounds();
-  new_tab_button_->SetSize(
-      {contents_bounds.width(), new_tab_button_->GetPreferredSize().height()});
-  new_tab_button_->SetPosition(
-      {contents_bounds.x(),
-       contents_bounds.bottom() - new_tab_button_->height()});
 
   const gfx::Size header_size{contents_bounds.width(),
                               tabs::kVerticalTabHeight + kHeaderInset * 2};
@@ -936,11 +930,33 @@ void VerticalTabStripRegionView::Layout(PassKey) {
   header_view_->SetSize(header_size);
 
   contents_view_->SetSize(
-      {contents_bounds.width(), contents_bounds.height() -
-                                    new_tab_button_->height() -
-                                    header_view_->height()});
+      {contents_bounds.width(),
+       original_region_view_->tab_strip_->tab_container_->GetPreferredSize()
+           .height()});
+
   contents_view_->SetPosition({contents_bounds.origin().x(),
                                header_view_->y() + header_view_->height()});
+
+  int new_tab_height = new_tab_button_->GetPreferredSize().height();
+  new_tab_button_->SetSize(gfx::Size(contents_bounds.width(), new_tab_height));
+
+  int contents_view_max_height = contents_bounds.height() -
+                                 new_tab_button_->height() -
+                                 header_view_->height();
+
+  // Position New Tab Button and update the size of contents view if needed.
+  int contents_view_bottom_y = contents_view_->y() + contents_view_->height();
+  int new_tab_button_max_y = contents_bounds.bottom() - new_tab_height;
+  if (contents_view_bottom_y >= new_tab_button_max_y) {
+    contents_view_->SetSize(
+        gfx::Size(contents_bounds.width(), contents_view_max_height));
+    new_tab_button_->SetPosition(gfx::Point(
+        contents_bounds.x(), contents_bounds.bottom() - new_tab_height));
+  } else {
+    new_tab_button_->SetPosition(gfx::Point(
+        contents_bounds.x(), contents_view_->y() + contents_view_->height()));
+  }
+
   UpdateOriginalTabSearchButtonVisibility();
 
   // Put resize area, overlapped with contents.
