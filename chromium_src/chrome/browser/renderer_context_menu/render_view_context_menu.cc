@@ -20,13 +20,15 @@
 #include "brave/browser/ui/browser_commands.h"
 #include "brave/browser/ui/browser_dialogs.h"
 #include "brave/browser/ui/tabs/features.h"
-#include "brave/browser/ui/views/email_aliases_bubble_view.h"
 #include "brave/components/ai_rewriter/common/buildflags/buildflags.h"
+#include "brave/components/email_aliases/browser/pref_names.h"
 #include "brave/components/tor/buildflags/buildflags.h"
 #include "brave/grit/brave_theme_resources.h"
 #include "chrome/browser/autocomplete/chrome_autocomplete_provider_client.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser_list.h"
+#include "chrome/browser/ui/views/frame/browser_view.h"
+#include "chrome/browser/ui/views/location_bar/location_bar_view.h"
 #include "chrome/common/channel_info.h"
 #include "components/omnibox/browser/autocomplete_classifier.h"
 #include "components/omnibox/browser/autocomplete_controller.h"
@@ -38,6 +40,10 @@
 #include "ui/gfx/image/image_skia.h"
 #include "ui/gfx/paint_vector_icon.h"
 #include "url/origin.h"
+
+#if !BUILDFLAG(IS_ANDROID) && !BUILDFLAG(IS_IOS)
+#include "brave/browser/ui/webui/email_aliases/email_aliases_bubble_ui.h"
+#endif  // !BUILDFLAG(IS_ANDROID) && !BUILDFLAG(IS_IOS)
 
 #if BUILDFLAG(ENABLE_TOR)
 #include "brave/browser/tor/tor_profile_manager.h"
@@ -508,8 +514,22 @@ void BraveRenderViewContextMenu::ExecuteCommand(int id, int event_flags) {
     case IDC_NEW_EMAIL_ALIAS:
       if (params_.form_control_type.value() ==
               blink::mojom::FormControlType::kInputEmail ||
+          params_.form_control_type.value() ==
+              blink::mojom::FormControlType::kInputText ||
           params_.is_content_editable_for_autofill) {
-        EmailAliasesBubbleView::Show(GetBrowser(), params_.field_renderer_id);
+        if (GetProfile()
+                ->GetPrefs()
+                ->GetString(kEmailAliasesAccountEmail)
+                .empty()) {
+          brave::ShowEmailAliases(GetBrowser());
+        } else {
+          auto* browser_view =
+              BrowserView::GetBrowserViewForBrowser(GetBrowser());
+          views::View* anchor_view = browser_view->GetLocationBarView();
+          email_aliases::EmailAliasesBubbleUI::Show(GetBrowser(), anchor_view,
+                                                    source_web_contents_,
+                                                    params_.field_renderer_id);
+        }
       }
       break;
     default:
@@ -747,13 +767,23 @@ void BraveRenderViewContextMenu::AppendDeveloperItems() {
     }
   }
 
+#if !BUILDFLAG(IS_ANDROID) && !BUILDFLAG(IS_IOS)
+
+  if (params_.form_control_type) {
+    std::cout << "params_.form_control_type="
+              << params_.form_control_type.value() << std::endl;
+  }
+
   if (base::FeatureList::IsEnabled(features::kBraveEmailAliases) &&
       params_.form_control_type &&
-      params_.form_control_type.value() ==
-          blink::mojom::FormControlType::kInputEmail) {
+      (params_.form_control_type.value() ==
+           blink::mojom::FormControlType::kInputEmail ||
+       params_.form_control_type.value() ==
+           blink::mojom::FormControlType::kInputText)) {
     menu_model_.AddSeparator(ui::NORMAL_SEPARATOR);
     menu_model_.AddItemWithStringId(IDC_NEW_EMAIL_ALIAS, IDS_NEW_EMAIL_ALIAS);
   }
+#endif  // !BUILDFLAG(IS_ANDROID) && !BUILDFLAG(IS_IOS)
 }
 
 void BraveRenderViewContextMenu::SetAIEngineForTesting(

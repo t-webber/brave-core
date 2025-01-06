@@ -5,7 +5,6 @@
 
 #include "brave/browser/ui/webui/settings/brave_email_aliases_handler.h"
 
-#include <iostream>
 #include <memory>
 #include <string>
 #include <utility>
@@ -16,11 +15,12 @@
 #include "base/json/json_writer.h"
 #include "base/values.h"
 #include "brave/browser/brave_browser_process.h"
-#include "brave/browser/ui/views/email_aliases_bubble_view.h"
+#include "brave/browser/ui/webui/email_aliases/email_aliases_bubble_ui.h"
+#include "brave/components/constants/webui_url_constants.h"
 #include "brave/components/email_aliases/browser/pref_names.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/profiles/profile.h"
-#include "chrome/browser/ui/browser_finder.h"
+#include "chrome/browser/ui/singleton_tabs.h"
 #include "components/prefs/pref_service.h"
 #include "components/prefs/scoped_user_pref_update.h"
 #include "content/public/browser/web_ui.h"
@@ -137,6 +137,11 @@ void BraveEmailAliasesHandler::RegisterMessages() {
   web_ui()->RegisterMessageCallback(
       "email_aliases.fillField",
       base::BindRepeating(&BraveEmailAliasesHandler::FillField,
+                          base::Unretained(this)));
+
+  web_ui()->RegisterMessageCallback(
+      "email_aliases.showSettingsPage",
+      base::BindRepeating(&BraveEmailAliasesHandler::ShowSettingsPage,
                           base::Unretained(this)));
 }
 
@@ -351,9 +356,7 @@ void BraveEmailAliasesHandler::OnGetSessionResponse(
       const auto* session_token = response_value->GetDict().Find("authToken");
       if (session_token && session_token->is_string()) {
         // Store the session token for long-term use.
-        session_token_ = session_token->GetString();
-        GetProfile()->GetPrefs()->SetString(kEmailAliasesAuthToken,
-                                            session_token->GetString());
+        SetStringPref(kEmailAliasesAuthToken, session_token->GetString());
         // Acknowledge success to the caller.
         ResolveJavascriptCallback(base::Value(callback_id), base::Value());
         return;
@@ -407,8 +410,8 @@ void BraveEmailAliasesHandler::OnRequestAccountResponse(
 }
 
 void BraveEmailAliasesHandler::GetAccountEmail(const base::Value::List& args) {
-  AllowJavascript();
   CHECK_EQ(1U, args.size());
+  AllowJavascript();
   const auto callback_id = args[0].GetString();
   const auto account_email = GetStringPref(kEmailAliasesAccountEmail);
   ResolveJavascriptCallback(base::Value(callback_id),
@@ -425,7 +428,7 @@ void BraveEmailAliasesHandler::Logout(const base::Value::List& args) {
 
 void BraveEmailAliasesHandler::CloseBubble(const base::Value::List& args) {
   CHECK_EQ(1U, args.size());
-  EmailAliasesBubbleView::Close();
+  email_aliases::EmailAliasesBubbleUI::Close();
 }
 
 void BraveEmailAliasesHandler::FillField(const base::Value::List& args) {
@@ -433,6 +436,12 @@ void BraveEmailAliasesHandler::FillField(const base::Value::List& args) {
   AllowJavascript();
   const auto callback_id = args[0].GetString();
   const auto field_value = args[1].GetString();
-  EmailAliasesBubbleView::FillFieldWithNewAlias(field_value);
+  email_aliases::EmailAliasesBubbleUI::FillField(field_value);
   ResolveJavascriptCallback(base::Value(callback_id), base::Value());
+}
+
+void BraveEmailAliasesHandler::ShowSettingsPage(const base::Value::List& args) {
+  CHECK_EQ(1U, args.size());
+  ShowSingletonTabOverwritingNTP(GetProfile(), GURL(kEmailAliasesSettingsURL));
+  email_aliases::EmailAliasesBubbleUI::Close();
 }
