@@ -101,7 +101,9 @@ class SyncServiceObserverMock : public SyncServiceObserver {
 class BraveSyncServiceImplTest : public testing::Test {
  public:
   BraveSyncServiceImplTest()
-      : brave_sync_prefs_(sync_service_impl_bundle_.pref_service()),
+      : task_environment_(
+            base::test::SingleThreadTaskEnvironment::TimeSource::MOCK_TIME),
+        brave_sync_prefs_(sync_service_impl_bundle_.pref_service()),
         sync_prefs_(sync_service_impl_bundle_.pref_service()) {
     sync_service_impl_bundle_.identity_test_env()
         ->SetAutomaticIssueOfAccessTokens(true);
@@ -735,8 +737,8 @@ TEST_F(BraveSyncServiceImpl_EnableDefaultPasswordSyncingTest,
   CreateSyncService(DataTypeSet({BOOKMARKS, PASSWORDS}));
   EXPECT_FALSE(engine());
   brave_sync_service_impl()->SetSyncCode(kValidSyncCode);
-  task_environment_.RunUntilIdle();
-  
+  task_environment_.FastForwardUntilNoTasksRemain();
+
   auto sync_blocker = brave_sync_service_impl()->GetSetupInProgressHandle();
   brave_sync_service_impl()
       ->GetUserSettings()
