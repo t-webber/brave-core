@@ -75,7 +75,8 @@ std::vector<web::JavaScriptFeature*> BraveWebClient::GetJavaScriptFeatures(
   features.push_back(
       security_interstitials::IOSSecurityInterstitialJavaScriptFeature::
           GetInstance());
-  features.push_back(translate::TranslateJavaScriptFeature::GetInstance());
+  // FIXME: Add TranslateController support from Chromium
+  //  features.push_back(translate::TranslateJavaScriptFeature::GetInstance());
   return features;
 }
 

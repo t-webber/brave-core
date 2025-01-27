@@ -495,7 +495,7 @@ extension BrowserViewController: CWVNavigationDelegate {
         // Ensure the webView is not a link preview popup.
         if self.presentedViewController == nil {
           let showSearchResultAdClickedPrivacyNotice =
-          rewards.ads.shouldShowSearchResultAdClickedInfoBar()
+            rewards.ads.shouldShowSearchResultAdClickedInfoBar()
           BraveSearchResultAdManager.maybeTriggerSearchResultAdClickedEvent(
             requestURL,
             rewards: rewards,
@@ -1258,7 +1258,7 @@ extension BrowserViewController {
 
     if case let origin = URLOrigin(url: url), !origin.isOpaque {
       let displayHost =
-      "\(origin.scheme)://\(origin.host):\(origin.port)"
+        "\(origin.scheme)://\(origin.host):\(origin.port)"
       alertTitle = String(format: Strings.openExternalAppURLTitle, displayHost)
     } else if let displayHost = tab?.url?.withoutWWW.host {
       alertTitle = String(format: Strings.openExternalAppURLTitle, displayHost)
