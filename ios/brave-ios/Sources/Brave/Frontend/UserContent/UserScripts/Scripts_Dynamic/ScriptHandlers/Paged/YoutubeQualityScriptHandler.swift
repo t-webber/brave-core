@@ -42,7 +42,7 @@ class YoutubeQualityScriptHandler: NSObject, TabContentScript {
   static let scriptName = "YoutubeQualityScript"
   static let scriptId = UUID().uuidString
   static let messageHandlerName = "\(scriptName)_\(messageUUID)"
-  static let scriptSandbox: WKContentWorld = .page
+  static let scriptSandbox: WKContentWorld = .defaultClient
   static let userScript: WKUserScript? = {
     guard var script = loadUserScript(named: scriptName) else {
       return nil
