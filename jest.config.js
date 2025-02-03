@@ -40,8 +40,6 @@ const jestConfig = {
   }),
   testEnvironment: '<rootDir>/components/test/testEnvironment.ts',
   moduleFileExtensions: ['js', 'tsx', 'ts', 'json'],
-  extensionsToTreatAsEsm: [".ts", ".tsx"],
-  // @ts-ignore
   reporters: getReporters(),
   clearMocks: true,
   resetMocks: true,
@@ -72,11 +70,12 @@ const jestConfig = {
   ],
   testTimeout: 30000,
   transformIgnorePatterns: [
-    '<rootDir>/node_modules',
+    // '<rootDir>/node_modules',
     // prevent jest from transforming itself
     // https://github.com/jestjs/jest/issues/9503#issuecomment-709041807
     '<rootDir>/node_modules/@babel',
     '<rootDir>/node_modules/@jest',
+    '<rootDir>/node_modules/jest-runtime',
     '<rootDir>/node_modules/lodash',
     'signal-exit',
     'is-typedarray'
