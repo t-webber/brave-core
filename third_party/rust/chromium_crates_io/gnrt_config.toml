@@ -117,6 +117,10 @@ license_files = ['LICENSE']
 extra_input_roots = ['../doc', '../README.md' ]
 license_files = ['LICENSE.txt']
 
+[crate.cargo-audit]
+group = 'test'
+license_files = ['LICENSE']
+
 [crate.cid]
 license_files = ['LICENSE']
 

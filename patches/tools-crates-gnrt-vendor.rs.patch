@@ -1,5 +1,5 @@
 diff --git a/tools/crates/gnrt/vendor.rs b/tools/crates/gnrt/vendor.rs
-index 057957da712ab5afca997ddb5c1ac49c1d694fcb..72baf9387b17a9533d210256d15b00d901130572 100644
+index 057957da712ab5afca997ddb5c1ac49c1d694fcb..c874d1a801f16f69e506eefd704c22c1bb3ccaea 100644
 --- a/tools/crates/gnrt/vendor.rs
 +++ b/tools/crates/gnrt/vendor.rs
 @@ -96,7 +96,7 @@ fn vendor_impl(args: VendorCommandArgs, paths: &paths::ChromiumPaths) -> Result<
@@ -20,3 +20,12 @@ index 057957da712ab5afca997ddb5c1ac49c1d694fcb..72baf9387b17a9533d210256d15b00d9
      else {
          // No patches for this crate.
          return Ok(());
+@@ -393,7 +393,7 @@ fn placeholder_crate(
+                 .dependencies
+                 .iter()
+                 .find(|f| f.name == d.name)
+-                .expect("dependency not in list");
++                .expect(&format!("dependency not in list: {} for package {}", d.name, package.id));
+             PlaceholderDependency {
+                 name: &d.name,
+                 version: "*",

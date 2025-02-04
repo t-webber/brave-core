@@ -1,5 +1,5 @@
 diff --git a/tools/crates/gnrt/lib/readme.rs b/tools/crates/gnrt/lib/readme.rs
-index 67d245628fff5ac146deb5bc67a673fa95376c76..b4319dcba610ed4969f5d4e0a7304748d7424190 100644
+index 67d245628fff5ac146deb5bc67a673fa95376c76..f023ddf90ec675b99fa5446d312bfeddaed5403d 100644
 --- a/tools/crates/gnrt/lib/readme.rs
 +++ b/tools/crates/gnrt/lib/readme.rs
 @@ -122,7 +122,7 @@ pub fn readme_file_from_package<'a>(
@@ -31,7 +31,7 @@ index 67d245628fff5ac146deb5bc67a673fa95376c76..b4319dcba610ed4969f5d4e0a7304748
          }
      }
  }
-@@ -255,6 +261,11 @@ static LICENSE_STRING_TO_LICENSE_KIND: LazyLock<HashMap<&'static str, Vec<Licens
+@@ -255,6 +261,14 @@ static LICENSE_STRING_TO_LICENSE_KIND: LazyLock<HashMap<&'static str, Vec<Licens
          h.insert("Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT", vec![LicenseKind::Apache2]);
          h.insert("BSD-2-Clause OR Apache-2.0 OR MIT", vec![LicenseKind::Apache2]);
          h.insert("Zlib", vec![LicenseKind::Zlib]);
@@ -40,10 +40,13 @@ index 67d245628fff5ac146deb5bc67a673fa95376c76..b4319dcba610ed4969f5d4e0a7304748
 +        h.insert("BSD-2-Clause", vec![LicenseKind::BSD2]);
 +        h.insert("MPL-2.0", vec![LicenseKind::Mozzila2]);
 +        h.insert("CC0-1.0 OR Apache-2.0", vec![LicenseKind::Apache2]);
++        h.insert("Apache-2.0 OR ISC OR MIT", vec![LicenseKind::Apache2]);
++        h.insert("Apache-2.0 WITH LLVM-exception", vec![LicenseKind::Apache2]);
++        h.insert("Unicode-3.0", vec![LicenseKind::Unicode3]);
          h
      });
  
-@@ -283,6 +294,9 @@ static LICENSE_KIND_TO_LICENSE_FILES: LazyLock<HashMap<LicenseKind, Vec<&'static
+@@ -283,6 +297,9 @@ static LICENSE_KIND_TO_LICENSE_FILES: LazyLock<HashMap<LicenseKind, Vec<&'static
          h.insert(LicenseKind::ISC, vec!["LICENSE-ISC", "LICENSE.md", "LICENSE"]);
          h.insert(LicenseKind::Zlib, vec!["LICENSE-ZLIB", "LICENSE.md", "LICENSE"]);
          h.insert(LicenseKind::Unicode3, vec!["LICENSE-UNICODE", "LICENSE.md", "LICENSE"]);
