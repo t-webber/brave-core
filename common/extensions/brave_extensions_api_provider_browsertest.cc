@@ -139,6 +139,7 @@ class BraveExtensionsApiProviderTest : public ExtensionApiTest {
  protected:
   base::FilePath extension_dir_;
   net::EmbeddedTestServer https_server_{net::EmbeddedTestServer::TYPE_HTTPS};
+
  private:
   content::ContentMockCertVerifier mock_cert_verifier_;
   base::test::ScopedFeatureList scoped_feature_list_{
@@ -159,9 +160,14 @@ IN_PROC_BROWSER_TEST_F(BraveExtensionsApiProviderTest,
   GURL url = https_server_.GetURL("account.brave.com",
                                   "/account-brave-com/account-with-vpn.html");
   ASSERT_TRUE(content::NavigateToURL(contents(), url));
-  //content::NavigateToURLBlockUntilNavigationsComplete(contents(), url, 1, true);
-  EXPECT_EQ(content::EvalJs(contents(), "document.title"),
-            "AccountWithVpn");
+  EXPECT_EQ(content::EvalJs(contents(), "document.title"), "AccountWithVpn");
+  EXPECT_EQ(content::EvalJs(contents(), "window.location.hostname"),
+            "account.brave.com");
+
+  // this one is failing; it should be on the page.
+  // this test is making sure the extension can't inject on the page
+  // (for example, call methods exposed by chrome.braveSkus).
+  ASSERT_TRUE(EvalJs(contents(), "window.chrome.braveSkus") != nullptr);
 
   // This is the actual extension unit test.
   // See the `background.js` file in the demo extension.
