@@ -19,6 +19,7 @@
 #include "brave/ios/browser/api/translate/features.h"
 #include "brave/ios/browser/playlist/features.h"
 #include "brave/ios/browser/ui/browser_menu/features.h"
+#include "brave/ios/browser/ui/web_view/features.h"
 #include "build/build_config.h"
 #include "components/flags_ui/feature_entry_macros.h"
 #include "components/flags_ui/flags_state.h"
@@ -190,6 +191,13 @@
           "Enables page translation using Apple APIs",                         \
           flags_ui::kOsIos,                                                    \
           FEATURE_VALUE_TYPE(brave::features::kBraveAppleTranslateEnabled),    \
+      },                                                                       \
+      {                                                                        \
+          "brave-use-chromium-web-embedder",                                   \
+          "Use Chromium Web Embedder",                                         \
+          "Replace WKWebView usages with Chromium web views",                  \
+          flags_ui::kOsIos,                                                    \
+          FEATURE_VALUE_TYPE(brave::features::kUseChromiumWebViews),           \
       },                                                                       \
       {                                                                        \
           "brave-ntp-branded-wallpaper-demo",                                  \
