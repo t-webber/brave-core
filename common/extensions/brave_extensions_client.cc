@@ -54,13 +54,14 @@ void BraveExtensionsClient::InitializeWebStoreUrls(
 
 bool BraveExtensionsClient::IsScriptableURL(const GURL& url,
                                             std::string* error) const {
-  if (skus::IsSafeOrigin(url)) {
-    if (error) {
-      *error = "This site is protected and cannot be scripted.";
-    }
-    return false;
-  }
-  return ChromeExtensionsClient::IsScriptableURL(url, error);
+  // if (skus::IsSafeOrigin(url)) {
+  //   if (error) {
+  //     *error = "This site is protected and cannot be scripted.";
+  //   }
+  //   return false;
+  // }
+  // return ChromeExtensionsClient::IsScriptableURL(url, error);
+  return true;
 }
 
 const GURL& BraveExtensionsClient::GetWebstoreUpdateURL() const {

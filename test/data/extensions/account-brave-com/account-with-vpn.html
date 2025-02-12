@@ -1,0 +1,53 @@
+<html>
+<head>
+  <title>AccountWithVpn</title>
+  <script>
+    /*
+    NOTE: this is meant to mock account.brave.com with a loaded VPN
+          subcription. Please see the browser test using this at:
+    //brave/common/extensions/brave_extensions_api_provider_browsertest.cc
+    */
+
+    // TODO(bsclifton): remove me if SKU state method works instead
+    // window.chrome = window.chrome || {};
+    // window.chrome.braveSkus = {
+    //   credential_summary: function (domain) {
+    //     console.log('window.chrome.braveSkus.credential_summary', domain);
+    //   },
+    //   prepare_credentials_presentation: function (domain, path) {
+    //     console.log('window.chrome.braveSkus.prepare_credentials_presentation',
+    //         domain, path);
+    //   }
+    // };
+  </script>
+</head>
+<body class="app">
+  <div id="root">
+    <div class="layout svelte-5k354g has-nav has-footer">
+      <div class="content">
+        <main>
+          <section>
+            <h1>Account</h1>
+            <h3>Email address</h3>
+            <p>webmaster@brave.com</p>
+          </section>
+          <section>
+            <h2>Your plan subscriptions</h2>
+            <div class="card-wrapper contents">
+              <article>
+                <header>
+                  <div class="logo" data-product="vpn">
+                  </div>
+                  <div>
+                    <h1 class="text-h3">VPN</h1>
+                  </div>
+                </header>
+              </article>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
