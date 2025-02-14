@@ -183,6 +183,10 @@ class TabManager: NSObject {
     return allTabs[index]
   }
 
+  subscript(webView: CWVWebView) -> Tab? {
+    return nil
+  }
+
   subscript(webView: WKWebView) -> Tab? {
     assert(Thread.isMainThread)
 
