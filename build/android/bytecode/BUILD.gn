@@ -20,6 +20,7 @@ java_binary("java_bytecode_rewriter") {
     "//brave/build/android/bytecode/java/org/brave/bytecode/BraveBookmarkActivityClassAdapter.java",
     "//brave/build/android/bytecode/java/org/brave/bytecode/BraveBookmarkBridgeClassAdapter.java",
     "//brave/build/android/bytecode/java/org/brave/bytecode/BraveBookmarkDelegateClassAdapter.java",
+    "//brave/build/android/bytecode/java/org/brave/bytecode/BraveHelpAndFeedbackLauncherDelegateClassAdapter.java",
     "//brave/build/android/bytecode/java/org/brave/bytecode/BraveBookmarkManagerCoordinatorClassAdapter.java",
     "//brave/build/android/bytecode/java/org/brave/bytecode/BraveBookmarkManagerMediatorClassAdapter.java",
     "//brave/build/android/bytecode/java/org/brave/bytecode/BraveBookmarkModelClassAdapter.java",
