@@ -41,7 +41,7 @@ class LivePlaylistWebLoader: UIView, PlaylistWebLoader {
       script: .playlistMediaSource,
       enabled: true
     )
-    $0.webView?.scrollView.layer.masksToBounds = true
+    $0.webScrollView?.layer.masksToBounds = true
   }
 
   private weak var certStore: CertStore?
@@ -50,7 +50,7 @@ class LivePlaylistWebLoader: UIView, PlaylistWebLoader {
   init() {
     super.init(frame: .zero)
 
-    guard let webView = tab.webView else {
+    guard let webView = tab.webContentView else {
       return
     }
 
@@ -107,7 +107,7 @@ class LivePlaylistWebLoader: UIView, PlaylistWebLoader {
 
   func stop() {
     guard let webView = tab.webView else { return }
-    webView.stopLoading()
+    tab.stop()
     self.handler?(nil)
     webView.loadHTMLString("<html><body>PlayList</body></html>", baseURL: nil)
   }
@@ -288,7 +288,7 @@ extension LivePlaylistWebLoader: WKNavigationDelegate {
   }
 
   func webView(_ webView: WKWebView, didCommit navigation: WKNavigation!) {
-    webView.evaluateSafeJavaScript(
+    tab.evaluateSafeJavaScript(
       functionName:
         "window.__firefox__.\(PlaylistWebLoaderContentHelper.playlistProcessDocumentLoad)()",
       args: [],

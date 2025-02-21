@@ -71,8 +71,8 @@ class BraveLeoScriptTabHelper: AIChatWebDelegate {
   }
 
   func getPageContentType() async -> String? {
-    guard let webView = tab?.webView else { return nil }
-    return try? await webView.evaluateSafeJavaScriptThrowing(
+    guard let tab else { return nil }
+    return try? await tab.evaluateSafeJavaScriptThrowing(
       functionName: "document.contentType",
       contentWorld: BraveLeoScriptHandler.scriptSandbox,
       escapeArgs: false,
@@ -82,10 +82,10 @@ class BraveLeoScriptTabHelper: AIChatWebDelegate {
 
   @MainActor
   func getMainArticle() async -> String? {
-    guard let webView = tab?.webView else { return nil }
+    guard let tab else { return nil }
     do {
       let articleText =
-        try await webView.evaluateSafeJavaScriptThrowing(
+        try await tab.evaluateSafeJavaScriptThrowing(
           functionName: "window.__firefox__.\(BraveLeoScriptHandler.getMainArticle)",
           args: [BraveLeoScriptHandler.scriptId],
           contentWorld: BraveLeoScriptHandler.scriptSandbox,

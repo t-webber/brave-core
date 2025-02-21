@@ -278,9 +278,9 @@ class BraveTranslateTabHelper: NSObject, TabObserver {
   func presentUI(on controller: UIViewController) {
     if translationController?.parent != controller {
       controller.addChild(translationController)
-      tab?.webView?.addSubview(translationController.view)
+      tab?.webScrollView?.addSubview(translationController.view)
       translationController.didMove(toParent: controller)
-      tab?.webView?.sendSubviewToBack(translationController.view)
+      tab?.webScrollView?.sendSubviewToBack(translationController.view)
     }
   }
 
