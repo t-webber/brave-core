@@ -495,6 +495,11 @@ export function createModel(): AppModel {
       stateManager.update({ selfCustodyInviteDismissed: true })
     },
 
+    async joinSelfCustodyWaitlist() {
+      // TODO
+      return false
+    },
+
     async onCaptchaResult(success) {
       await pageHandler.onCaptchaResult(success)
       if (!success) {

@@ -151,6 +151,7 @@ export interface AppState {
   balance: Optional<number>
   tosUpdateRequired: boolean
   selfCustodyInviteDismissed: boolean
+  selfCustodyWaitlistPending: boolean
   adsInfo: AdsInfo | null
   recurringContributions: RecurringContribution[]
   rewardsParameters: RewardsParameters | null
@@ -177,6 +178,7 @@ export function defaultState(): AppState {
     balance: new Optional(),
     tosUpdateRequired: false,
     selfCustodyInviteDismissed: false,
+    selfCustodyWaitlistPending: false,
     adsInfo: null,
     recurringContributions: [],
     rewardsParameters: null,

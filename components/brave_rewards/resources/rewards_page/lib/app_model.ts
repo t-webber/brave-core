@@ -43,6 +43,7 @@ export interface AppModel {
     (creatorID: string, amount: number, recurring: boolean) => Promise<boolean>
   acceptTermsOfServiceUpdate: () => Promise<void>
   dismissSelfCustodyInvite: () => Promise<void>
+  joinSelfCustodyWaitlist: () => Promise<boolean>
   onCaptchaResult: (success: boolean) => Promise<void>
   clearNotification: (id: string) => Promise<void>
 }
@@ -100,6 +101,8 @@ export function defaultModel(): AppModel {
     async acceptTermsOfServiceUpdate() {},
 
     async dismissSelfCustodyInvite() {},
+
+    async joinSelfCustodyWaitlist() { return false },
 
     async onCaptchaResult(success) {},
 

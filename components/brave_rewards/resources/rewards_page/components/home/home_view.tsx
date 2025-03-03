@@ -12,6 +12,7 @@ import { EarningCard } from './earning_card'
 import { PayoutAccountCard } from './payout_account_card'
 import { BenefitsCard } from './benefits_card'
 import { RecurringContributionCard } from './recurring_contribution_card'
+import { SolanaWaitlistCard } from './solana_waitlist_card'
 
 import { style } from './home_view.style'
 
@@ -45,6 +46,7 @@ export function HomeView() {
       <ContributeCard />
       <EarningCard />
       <PayoutAccountCard />
+      <SolanaWaitlistCard />
       <BenefitsCard />
       {
         !embedder.isBubble && <>

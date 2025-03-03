@@ -264,6 +264,11 @@ export function createModel(): AppModel {
       stateManager.update({ selfCustodyInviteDismissed: true })
     },
 
+    async joinSelfCustodyWaitlist() {
+      await delay(400)
+      return false
+    },
+
     async onCaptchaResult(success) {
       stateManager.update({ captchaInfo: null })
     },
