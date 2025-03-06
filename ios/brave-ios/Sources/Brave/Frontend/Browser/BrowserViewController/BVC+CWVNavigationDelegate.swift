@@ -31,26 +31,16 @@ class ChromiumNavigationDelegateAdapter: NSObject, @preconcurrency BraveWebViewN
     _ webView: CWVWebView,
     shouldBlockJavaScriptFor request: URLRequest
   ) -> Bool {
-    let isPrivateBrowsing = privateBrowsingManager.isPrivateBrowsing
-    guard let url = request.mainDocumentURL ?? request.url else {
-      return false
-    }
-    let domainForShields = Domain.getOrCreate(forUrl: url, persistent: !isPrivateBrowsing)
-    let isScriptsBlocked = domainForShields.isShieldExpected(
-      .noScript,
-      considerAllShieldsOption: true
-    )
-    return isScriptsBlocked
+    guard let tab = tabManager[webView], let delegate else { return false }
+    return delegate.tab(tab, shouldBlockJavaScriptForRequest: request)
   }
 
   public func webView(
     _ webView: CWVWebView,
     shouldBlockUniversalLinksFor request: URLRequest
   ) -> Bool {
-    return shouldBlockUniversalLinksFor(
-      request: request,
-      isPrivateBrowsing: privateBrowsingManager.isPrivateBrowsing
-    )
+    guard let tab = tabManager[webView], let delegate else { return false }
+    return delegate.tab(tab, shouldBlockUniversalLinksForRequest: request)
   }
 
   public func webView(
@@ -85,7 +75,7 @@ class ChromiumNavigationDelegateAdapter: NSObject, @preconcurrency BraveWebViewN
     decisionHandler: @escaping (CWVNavigationActionPolicy) -> Void
   ) {
     guard let tab = tabManager[webView] else { return }
-    var navigationType: WebNavigationType = {
+    let navigationType: WebNavigationType = {
       if navigationAction.navigationType.contains(.forwardBack) {
         return .backForward
       }
@@ -277,7 +267,7 @@ class ChromiumUIDelegateAdapter: NSObject, @preconcurrency CWVUIDelegate {
     _ webView: CWVWebView,
     runJavaScriptTextInputPanelWithPrompt prompt: String,
     defaultText: String,
-    pageURL URL: URL,
+    pageURL url: URL,
     completionHandler: @escaping (String?) -> Void
   ) {
     guard let tab = tabManager[webView], let delegate else {
@@ -289,7 +279,7 @@ class ChromiumUIDelegateAdapter: NSObject, @preconcurrency CWVUIDelegate {
         tab,
         runJavaScriptConfirmPanelWithPrompt: prompt,
         defaultText: defaultText,
-        pageURL: URL
+        pageURL: url
       )
       completionHandler(result)
     }
