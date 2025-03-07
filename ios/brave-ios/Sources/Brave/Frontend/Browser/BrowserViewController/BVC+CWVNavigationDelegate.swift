@@ -14,17 +14,20 @@ class ChromiumNavigationDelegateAdapter: NSObject, @preconcurrency BraveWebViewN
   private weak var delegate: TabWebDelegate?
   private weak var navigationDelegate: TabWebNavigationDelegate?
   private weak var policyDecider: TabWebPolicyDecider?
+  private weak var downloadDelegate: TabDownloadDelegate?
 
   init(
     tabManager: TabManager,
     privateBrowsingManager: PrivateBrowsingManager,
-    delegate: TabWebNavigationDelegate?,
-    policyDecider: TabWebPolicyDecider?
+    delegate: TabWebNavigationDelegate,
+    policyDecider: TabWebPolicyDecider,
+    downloadDelegate: TabDownloadDelegate
   ) {
     self.tabManager = tabManager
     self.privateBrowsingManager = privateBrowsingManager
     self.navigationDelegate = delegate
     self.policyDecider = policyDecider
+    self.downloadDelegate = downloadDelegate
   }
 
   public func webView(
@@ -155,7 +158,15 @@ class ChromiumNavigationDelegateAdapter: NSObject, @preconcurrency BraveWebViewN
   }
 
   public func webView(_ webView: CWVWebView, didRequestDownloadWith task: CWVDownloadTask) {
-
+    guard let tab = tabManager[webView] else { return }
+    let pendingDownload = ChromiumDownload(
+      downloadTask: task,
+      didFinish: { [weak self, weak tab] download, error in
+        guard let self, let tab else { return }
+        downloadDelegate?.tab(tab, didFinishDownload: download, error: error)
+      }
+    )
+    downloadDelegate?.tab(tab, didCreateDownload: pendingDownload)
   }
 }
 
