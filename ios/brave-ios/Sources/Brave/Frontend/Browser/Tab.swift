@@ -935,6 +935,10 @@ class Tab: NSObject {
   }
 
   deinit {
+    observers.forEach {
+      $0.tabWillBeDestroyed(self)
+    }
+
     deleteWebView()
     deleteNewTabPageController()
     contentScriptManager.helpers.removeAll()
