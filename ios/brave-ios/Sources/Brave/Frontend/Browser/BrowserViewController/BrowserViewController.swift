@@ -2386,9 +2386,6 @@ extension BrowserViewController: TabDelegate {
   func tab(_ tab: Tab, didCreateWebView webView: WKWebView) {
     webView.frame = webViewContainer.frame
 
-    webView.navigationDelegate = self
-    webView.uiDelegate = self
-
     var injectedScripts: [TabContentScript] = [
       ReaderModeScriptHandler(),
       ErrorPageHelper(certStore: profile.certStore),
@@ -2476,7 +2473,6 @@ extension BrowserViewController: TabDelegate {
   func tab(_ tab: Tab, willDeleteWebView webView: WKWebView) {
     tab.cancelQueuedAlerts()
     toolbarVisibilityViewModel.endScrollViewObservation(webView.scrollView)
-    webView.uiDelegate = nil
     webView.removeFromSuperview()
   }
 

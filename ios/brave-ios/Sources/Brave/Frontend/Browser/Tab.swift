@@ -105,6 +105,16 @@ class Tab: NSObject {
 
   private var observers: Set<AnyTabObserver> = .init()
 
+  // WebKit handlers
+  private var navigationHandler: TabWKNavigationHandler?
+  private var uiHandler: TabWKUIHandler?
+
+  var certStore: CertStore?
+  weak var navigationDelegate: TabWebNavigationDelegate?
+  weak var policyDecider: TabWebPolicyDecider?
+  weak var webDelegate: TabWebDelegate?
+  weak var downloadDelegate: TabDownloadDelegate?
+
   func addObserver(_ observer: some TabObserver) {
     observers.insert(.init(observer))
   }
@@ -527,6 +537,8 @@ class Tab: NSObject {
     super.init()
 
     self.contentScriptManager.tab = self
+    self.navigationHandler = TabWKNavigationHandler(tab: self)
+    self.uiHandler = TabWKUIHandler(tab: self)
   }
 
   /// A helper property that handles native to Brave Search communication.
@@ -578,6 +590,8 @@ class Tab: NSObject {
       webView.accessibilityLabel = Strings.webContentAccessibilityLabel
       webView.allowsBackForwardNavigationGestures = true
       webView.allowsLinkPreview = true
+      webView.navigationDelegate = navigationHandler
+      webView.uiDelegate = uiHandler
 
       // Turning off masking allows the web content to flow outside of the scrollView's frame
       // which allows the content appear beneath the toolbars in the BrowserViewController
