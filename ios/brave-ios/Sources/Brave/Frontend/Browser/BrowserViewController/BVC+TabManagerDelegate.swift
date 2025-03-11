@@ -171,7 +171,6 @@ extension BrowserViewController: TabManagerDelegate {
     tab.tabDelegate = self
     tab.addObserver(self)
     tab.addPolicyDecider(self)
-    tab.navigationDelegate = self
     tab.webDelegate = self
     tab.downloadDelegate = self
     tab.certStore = profile.certStore
