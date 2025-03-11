@@ -2329,7 +2329,7 @@ extension BrowserViewController: SettingsDelegate {
     self.openURLInNewTab(
       url,
       isPrivate: privateBrowsingManager.isPrivateBrowsing,
-      isPrivileged: false
+      isPrivileged: url.scheme == InternalURL.scheme
     )
   }
 
