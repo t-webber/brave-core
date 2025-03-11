@@ -1078,6 +1078,8 @@ void BraveAddEmailAliasesStrings(content::WebUIDataSource* html_source) {
        IDS_SETTINGS_EMAIL_ALIASES_CREATE_ALIAS_LABEL},
       {"emailAliasesRefreshButtonTitle",
        IDS_SETTINGS_EMAIL_ALIASES_REFRESH_BUTTON_TITLE},
+      {"emailAliasesGeneratingNewAlias",
+       IDS_SETTINGS_EMAIL_ALIASES_GENERATING_NEW_ALIAS},
       {"emailAliasesNoteLabel", IDS_SETTINGS_EMAIL_ALIASES_NOTE_LABEL},
       {"emailAliasesEditNotePlaceholder",
        IDS_SETTINGS_EMAIL_ALIASES_EDIT_NOTE_PLACEHOLDER},
@@ -1105,7 +1107,6 @@ void BraveAddEmailAliasesStrings(content::WebUIDataSource* html_source) {
       {"emailAliasesClickOnSecureLogin",
        IDS_SETTINGS_EMAIL_ALIASES_CLICK_ON_SECURE_LOGIN},
       {"emailAliasesDontSeeEmail", IDS_SETTINGS_EMAIL_ALIASES_DONT_SEE_EMAIL},
-      {"emailAliasesTryAgain", IDS_SETTINGS_EMAIL_ALIASES_TRY_AGAIN},
   };
   html_source->AddLocalizedStrings(localized_strings);
 }
