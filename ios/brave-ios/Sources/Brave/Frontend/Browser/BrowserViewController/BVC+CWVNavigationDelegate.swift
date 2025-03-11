@@ -12,20 +12,17 @@ class ChromiumNavigationDelegateAdapter: NSObject, @preconcurrency BraveWebViewN
   private let tabManager: TabManager
   private let privateBrowsingManager: PrivateBrowsingManager
   private weak var delegate: TabWebDelegate?
-  private weak var navigationDelegate: TabWebNavigationDelegate?
   private weak var policyDecider: TabWebPolicyDecider?
   private weak var downloadDelegate: TabDownloadDelegate?
 
   init(
     tabManager: TabManager,
     privateBrowsingManager: PrivateBrowsingManager,
-    delegate: TabWebNavigationDelegate,
     policyDecider: TabWebPolicyDecider,
     downloadDelegate: TabDownloadDelegate
   ) {
     self.tabManager = tabManager
     self.privateBrowsingManager = privateBrowsingManager
-    self.navigationDelegate = delegate
     self.policyDecider = policyDecider
     self.downloadDelegate = downloadDelegate
   }
@@ -69,7 +66,7 @@ class ChromiumNavigationDelegateAdapter: NSObject, @preconcurrency BraveWebViewN
 
   public func webViewDidStartNavigation(_ webView: CWVWebView) {
     guard let tab = tabManager[webView] else { return }
-    navigationDelegate?.tabDidStartWebViewNavigation(tab)
+    tab.didStartNavigation()
   }
 
   public func webView(
@@ -128,7 +125,7 @@ class ChromiumNavigationDelegateAdapter: NSObject, @preconcurrency BraveWebViewN
     guard let tab = tabManager[webView] else { return }
     // Set the committed url which will also set tab.url
     tab.committedURL = webView.lastCommittedURL
-    navigationDelegate?.tabDidCommitWebViewNavigation(tab)
+    tab.didCommitNavigation()
   }
 
   public func webView(
@@ -149,12 +146,12 @@ class ChromiumNavigationDelegateAdapter: NSObject, @preconcurrency BraveWebViewN
 
   public func webViewDidFinishNavigation(_ webView: CWVWebView) {
     guard let tab = tabManager[webView] else { return }
-    navigationDelegate?.tabDidFinishWebViewNavigation(tab)
+    tab.didFinishNavigation()
   }
 
   public func webView(_ webView: CWVWebView, didFailNavigationWithError error: any Error) {
     guard let tab = tabManager[webView] else { return }
-    _ = navigationDelegate?.tab(tab, didFailWebViewNavigationWithError: error)
+    tab.didFailNavigation(with: error)
   }
 
   public func webView(_ webView: CWVWebView, didRequestDownloadWith task: CWVDownloadTask) {
