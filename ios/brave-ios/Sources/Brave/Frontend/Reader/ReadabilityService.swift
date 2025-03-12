@@ -58,7 +58,6 @@ class ReadabilityOperation: Operation {
     }
 
     DispatchQueue.main.async {
-      self.tab.removeObserver(self)
       self.tab = nil
     }
 
