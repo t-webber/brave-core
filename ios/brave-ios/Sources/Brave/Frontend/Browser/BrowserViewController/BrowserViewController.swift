@@ -2108,7 +2108,9 @@ public class BrowserViewController: UIViewController {
   }
 
   func navigateInTab(tab: Tab) {
-    tabManager.expireSnackbars()
+    for tab in tabManager.allTabs {
+      SnackBarTabHelper.from(tab: tab)?.expireSnackbars()
+    }
 
     if let url = tab.url {
       // Whether to show search icon or + icon
@@ -2476,38 +2478,6 @@ extension BrowserViewController: TabDelegate {
       toolbarVisibilityViewModel.endScrollViewObservation(scrollView)
     }
     webView.removeFromSuperview()
-  }
-
-  func showBar(_ bar: SnackBar, animated: Bool) {
-    view.layoutIfNeeded()
-    UIView.animate(
-      withDuration: animated ? 0.25 : 0,
-      animations: {
-        self.alertStackView.insertArrangedSubview(bar, at: 0)
-        self.view.layoutIfNeeded()
-      }
-    )
-  }
-
-  func removeBar(_ bar: SnackBar, animated: Bool) {
-    UIView.animate(
-      withDuration: animated ? 0.25 : 0,
-      animations: {
-        bar.removeFromSuperview()
-      }
-    )
-  }
-
-  func removeAllBars() {
-    alertStackView.arrangedSubviews.forEach { $0.removeFromSuperview() }
-  }
-
-  func tab(_ tab: Tab, didAddSnackbar bar: SnackBar) {
-    showBar(bar, animated: true)
-  }
-
-  func tab(_ tab: Tab, didRemoveSnackbar bar: SnackBar) {
-    removeBar(bar, animated: true)
   }
 
   /// Triggered when "Search with Brave" is selected on selected web text

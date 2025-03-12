@@ -101,6 +101,8 @@ class Tab: NSObject {
     return type.isPrivate
   }
 
+  var data: TabDataValues = .init()
+
   private var webViewObservations: [AnyCancellable] = []
 
   private var observers: Set<AnyTabObserver> = .init()
@@ -282,7 +284,6 @@ class Tab: NSObject {
     webView?.sampledPageTopColor
   }
   var tabDelegate: TabDelegate?
-  var bars = [SnackBar]()
   var favicon: Favicon
   var lastExecutedTime: Timestamp?
   fileprivate var lastRequest: URLRequest?
@@ -1233,32 +1234,6 @@ class Tab: NSObject {
     }
   }
 
-  func addSnackbar(_ bar: SnackBar) {
-    bars.append(bar)
-    observers.forEach {
-      $0.tab(self, didAddSnackbar: bar)
-    }
-  }
-
-  func removeSnackbar(_ bar: SnackBar) {
-    if let index = bars.firstIndex(of: bar) {
-      bars.remove(at: index)
-      observers.forEach {
-        $0.tab(self, didRemoveSnackbar: bar)
-      }
-    }
-  }
-
-  func removeAllSnackbars() {
-    // Enumerate backwards here because we'll remove items from the list as we go.
-    bars.reversed().forEach { removeSnackbar($0) }
-  }
-
-  func expireSnackbars() {
-    // Enumerate backwards here because we may remove items from the list as we go.
-    bars.reversed().filter({ !$0.shouldPersist(self) }).forEach({ removeSnackbar($0) })
-  }
-
   func setScreenshot(_ screenshot: UIImage?) {
     self.screenshot = screenshot
     onScreenshotUpdated?()
@@ -1899,5 +1874,42 @@ extension Tab {
     } else {
       return result.0
     }
+  }
+}
+
+struct TabDataValues {
+  private var storage: [AnyHashable: Any] = [:]
+
+  public subscript<Key: TabHelperKey>(key: Key.Type) -> Key.Value? {
+    get {
+      guard let helper = storage[ObjectIdentifier(key)] as? Key.Value else {
+        return nil
+      }
+      return helper
+    }
+    set {
+      storage[ObjectIdentifier(key)] = newValue
+    }
+  }
+}
+
+protocol TabHelperKey {
+  associatedtype Value
+}
+
+protocol TabHelper {
+  init(tab: Tab)
+  static var keyPath: WritableKeyPath<TabDataValues, Self?> { get }
+  static func create(for tab: Tab)
+}
+
+extension TabHelper {
+  static func create(for tab: Tab) {
+    if tab.data[keyPath: keyPath] == nil {
+      tab.data[keyPath: keyPath] = Self(tab: tab)
+    }
+  }
+  static func from(tab: Tab) -> Self? {
+    tab.data[keyPath: keyPath]
   }
 }

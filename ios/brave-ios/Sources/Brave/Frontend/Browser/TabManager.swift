@@ -438,14 +438,6 @@ class TabManager: NSObject {
     _selectedIndex = -1
   }
 
-  func expireSnackbars() {
-    assert(Thread.isMainThread)
-
-    for tab in allTabs {
-      tab.expireSnackbars()
-    }
-  }
-
   @MainActor func addPopupForParentTab(
     _ parentTab: Tab,
     configuration: WKWebViewConfiguration

@@ -16,6 +16,10 @@ import WebKit
 import os.log
 
 extension BrowserViewController: TabManagerDelegate {
+  func attachTabHelpers(to tab: Tab) {
+    SnackBarTabHelper.create(for: tab)
+  }
+
   func tabManager(_ tabManager: TabManager, didSelectedTabChange selected: Tab?, previous: Tab?) {
     // Remove the old accessibilityLabel. Since this webview shouldn't be visible, it doesn't need it
     // and having multiple views with the same label confuses tests.
@@ -100,7 +104,7 @@ extension BrowserViewController: TabManagerDelegate {
     updateStatusBarOverlayColor()
 
     removeAllBars()
-    if let bars = selected?.bars {
+    if let bars = selected.flatMap(SnackBarTabHelper.from)?.bars {
       for bar in bars {
         showBar(bar, animated: true)
       }
@@ -174,6 +178,9 @@ extension BrowserViewController: TabManagerDelegate {
     tab.webDelegate = self
     tab.downloadDelegate = self
     tab.certStore = profile.certStore
+    attachTabHelpers(to: tab)
+
+    SnackBarTabHelper.from(tab: tab)?.delegate = self
 
     tab.walletKeyringService = BraveWallet.KeyringServiceFactory.get(privateMode: tab.isPrivate)
     updateTabsBarVisibility()
