@@ -1,0 +1,39 @@
+# Copyright (c) 2024 The Brave Authors. All rights reserved.
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this file,
+# You can obtain one at https://mozilla.org/MPL/2.0/.
+
+source_set("infobar") {
+  sources = [
+    "new_tab_page_ad_viewed_infobar_delegate.cc",
+    "new_tab_page_ad_viewed_infobar_delegate.h",
+  ]
+
+  public_deps = [
+    "//base",
+    "//brave/components/brave_ads/core/mojom",
+    "//components/infobars/core",
+    "//content/public/browser",
+  ]
+
+  deps = [
+    "//brave/app:brave_generated_resources_grit_grit",
+    "//brave/browser/brave_ads",
+    "//brave/components/brave_ads/browser",
+    "//brave/components/brave_ads/content/browser",
+    "//brave/components/brave_ads/core",
+    "//brave/components/brave_rewards/core",
+    "//brave/components/brave_search/common",
+    "//brave/components/vector_icons",
+    "//chrome/browser:browser_public_dependencies",
+    "//chrome/browser/profiles:profile",
+    "//chrome/common",
+    "//components/infobars/content",
+    "//components/infobars/core",
+    "//components/prefs",
+    "//components/strings:components_strings_grit",
+    "//components/vector_icons",
+    "//ui/base",
+    "//url",
+  ]
+}

@@ -80,6 +80,8 @@ void ViewCounterService::RegisterProfilePrefs(
       prefs::kNewTabPageSuperReferralThemesOption, SUPER_REFERRAL);
   registry->RegisterBooleanPref(
       prefs::kNewTabPageShowBackgroundImage, true);
+  registry->RegisterBooleanPref(
+      prefs::kShouldShowNewTabPageAdViewedInfoBar, true);
 }
 
 void ViewCounterService::RegisterProfilePrefsForMigration(

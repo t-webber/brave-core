@@ -22,6 +22,10 @@ template <typename T>
 class NoDestructor;
 }  // namespace base
 
+namespace content {
+class WebContents;
+}  // namespace content
+
 namespace ntp_background_images {
 struct NTPBackgroundImagesData;
 struct NTPSponsoredImagesData;
@@ -52,7 +56,8 @@ class NTPBackgroundImagesBridge : public NTPBackgroundImagesService::Observer,
       const base::android::JavaParamRef<jstring>& jwallpaperId);
   base::android::ScopedJavaLocalRef<jobject> GetCurrentWallpaper(
       JNIEnv* env,
-      const base::android::JavaParamRef<jobject>& obj);
+      const base::android::JavaParamRef<jobject>& obj,
+      const base::android::JavaParamRef<jobject>& jweb_contents);
   void GetTopSites(JNIEnv* env,
                    const base::android::JavaParamRef<jobject>& obj);
   bool IsSuperReferral(JNIEnv* env,
@@ -76,7 +81,8 @@ class NTPBackgroundImagesBridge : public NTPBackgroundImagesService::Observer,
   base::android::ScopedJavaLocalRef<jobject> CreateWallpaper(
       const base::Value::Dict& data);
   base::android::ScopedJavaLocalRef<jobject> CreateBrandedWallpaper(
-      const base::Value::Dict& data);
+      const base::Value::Dict& data,
+      content::WebContents* web_contents);
 
   raw_ptr<Profile> profile_ = nullptr;
   raw_ptr<ViewCounterService> view_counter_service_ = nullptr;

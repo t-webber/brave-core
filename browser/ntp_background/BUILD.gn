@@ -20,6 +20,7 @@ source_set("ntp_background") {
     "//base",
     "//brave/browser:browser_process",
     "//brave/browser/brave_ads",
+    "//brave/browser/ntp_background/infobar",
     "//brave/components/brave_ads/browser",
     "//brave/components/brave_ads/core/public:headers",
     "//brave/components/brave_rewards/core",

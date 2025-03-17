@@ -32,6 +32,7 @@
 #include "components/keyed_service/content/browser_context_dependency_manager.h"
 #include "content/public/browser/browser_context.h"
 #include "content/public/browser/browser_thread.h"
+#include "content/public/browser/web_contents.h"
 
 using base::android::AttachCurrentThread;
 using base::android::ConvertUTF8ToJavaString;
@@ -152,7 +153,8 @@ NTPBackgroundImagesBridge::CreateWallpaper(const base::Value::Dict& data) {
 
 base::android::ScopedJavaLocalRef<jobject>
 NTPBackgroundImagesBridge::CreateBrandedWallpaper(
-    const base::Value::Dict& data) {
+    const base::Value::Dict& data,
+    content::WebContents* web_contents) {
   JNIEnv* env = AttachCurrentThread();
 
   auto* image_path =
@@ -188,6 +190,15 @@ NTPBackgroundImagesBridge::CreateBrandedWallpaper(
       wallpaper_id ? *wallpaper_id : "",
       creative_instance_id ? *creative_instance_id : "",
       campaign_id ? *campaign_id : "");
+
+  ntp_background_images::NewTabPageAdViewedInfoBarDelegate::Create(
+      web_contents, profile_->GetPrefs());
+
+  // TODO(aseren): Show NTP ad infobar if it wasn't shown before.
+  // web_contents: Get from java side
+  // HINT: web_contents->GetJavaWebContents()
+  // prefs: profile_->GetPrefs()
+  //     std::make_unique<brave_ads::CreativeNewTabPageAdViewedInfoBarDelegate>());
 
   return Java_NTPBackgroundImagesBridge_createBrandedWallpaper(
       env, ConvertUTF8ToJavaString(env, *image_path), focal_point_x,
@@ -255,7 +266,8 @@ NTPBackgroundImagesBridge::GetReferralApiKey(JNIEnv* env,
 base::android::ScopedJavaLocalRef<jobject>
 NTPBackgroundImagesBridge::GetCurrentWallpaper(
     JNIEnv* env,
-    const JavaParamRef<jobject>& obj) {
+    const JavaParamRef<jobject>& obj,
+    const base::android::JavaParamRef<jobject>& jweb_contents) {
   DCHECK_CURRENTLY_ON(BrowserThread::UI);
 
   std::optional<base::Value::Dict> data;
@@ -268,7 +280,8 @@ NTPBackgroundImagesBridge::GetCurrentWallpaper(
   bool is_background =
       data->FindBool(ntp_background_images::kIsBackgroundKey).value_or(false);
   if (!is_background) {
-    return CreateBrandedWallpaper(*data);
+    return CreateBrandedWallpaper(
+        *data, content::WebContents::FromJavaWebContents(jweb_contents));
   } else {
     return CreateWallpaper(*data);
   }

@@ -16,6 +16,7 @@
 #include "base/threading/thread_restrictions.h"
 #include "base/values.h"
 #include "brave/browser/brave_ads/ads_service_factory.h"
+#include "brave/browser/ntp_background/infobar/new_tab_page_ad_viewed_infobar_delegate.h"
 #include "brave/browser/ntp_background/view_counter_service_factory.h"
 #include "brave/browser/profiles/profile_util.h"
 #include "brave/components/brave_ads/core/public/ads_util.h"
@@ -526,6 +527,9 @@ void BraveNewTabMessageHandler::HandleGetWallpaperData(
       wallpaper_id ? *wallpaper_id : "",
       creative_instance_id ? *creative_instance_id : "",
       campaign_id ? *campaign_id : "");
+
+  ntp_background_images::NewTabPageAdViewedInfoBarDelegate::Create(
+      web_ui()->GetWebContents(), profile_->GetPrefs());
 
   constexpr char kBrandedWallpaperKey[] = "brandedWallpaper";
   wallpaper.Set(kBrandedWallpaperKey, std::move(*data));
