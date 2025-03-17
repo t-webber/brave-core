@@ -153,8 +153,7 @@ NTPBackgroundImagesBridge::CreateWallpaper(const base::Value::Dict& data) {
 
 base::android::ScopedJavaLocalRef<jobject>
 NTPBackgroundImagesBridge::CreateBrandedWallpaper(
-    const base::Value::Dict& data,
-    content::WebContents* web_contents) {
+    const base::Value::Dict& data) {
   JNIEnv* env = AttachCurrentThread();
 
   auto* image_path =
@@ -191,8 +190,8 @@ NTPBackgroundImagesBridge::CreateBrandedWallpaper(
       creative_instance_id ? *creative_instance_id : "",
       campaign_id ? *campaign_id : "");
 
-  ntp_background_images::NewTabPageAdViewedInfoBarDelegate::Create(
-      web_contents, profile_->GetPrefs());
+  // ntp_background_images::NewTabPageAdViewedInfoBarDelegate::Create(
+  //     web_contents, profile_->GetPrefs());
 
   // TODO(aseren): Show NTP ad infobar if it wasn't shown before.
   // web_contents: Get from java side
@@ -266,8 +265,7 @@ NTPBackgroundImagesBridge::GetReferralApiKey(JNIEnv* env,
 base::android::ScopedJavaLocalRef<jobject>
 NTPBackgroundImagesBridge::GetCurrentWallpaper(
     JNIEnv* env,
-    const JavaParamRef<jobject>& obj,
-    const base::android::JavaParamRef<jobject>& jweb_contents) {
+    const JavaParamRef<jobject>& obj) {
   DCHECK_CURRENTLY_ON(BrowserThread::UI);
 
   std::optional<base::Value::Dict> data;
@@ -280,8 +278,7 @@ NTPBackgroundImagesBridge::GetCurrentWallpaper(
   bool is_background =
       data->FindBool(ntp_background_images::kIsBackgroundKey).value_or(false);
   if (!is_background) {
-    return CreateBrandedWallpaper(
-        *data, content::WebContents::FromJavaWebContents(jweb_contents));
+    return CreateBrandedWallpaper(*data);
   } else {
     return CreateWallpaper(*data);
   }

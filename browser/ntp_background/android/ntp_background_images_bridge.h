@@ -56,8 +56,7 @@ class NTPBackgroundImagesBridge : public NTPBackgroundImagesService::Observer,
       const base::android::JavaParamRef<jstring>& jwallpaperId);
   base::android::ScopedJavaLocalRef<jobject> GetCurrentWallpaper(
       JNIEnv* env,
-      const base::android::JavaParamRef<jobject>& obj,
-      const base::android::JavaParamRef<jobject>& jweb_contents);
+      const base::android::JavaParamRef<jobject>& obj);
   void GetTopSites(JNIEnv* env,
                    const base::android::JavaParamRef<jobject>& obj);
   bool IsSuperReferral(JNIEnv* env,
@@ -81,8 +80,7 @@ class NTPBackgroundImagesBridge : public NTPBackgroundImagesService::Observer,
   base::android::ScopedJavaLocalRef<jobject> CreateWallpaper(
       const base::Value::Dict& data);
   base::android::ScopedJavaLocalRef<jobject> CreateBrandedWallpaper(
-      const base::Value::Dict& data,
-      content::WebContents* web_contents);
+      const base::Value::Dict& data);
 
   raw_ptr<Profile> profile_ = nullptr;
   raw_ptr<ViewCounterService> view_counter_service_ = nullptr;
