@@ -1454,6 +1454,12 @@ Are you sure you want to do this?
       <message name="IDS_PREFS_NEW_TAB_PAGE" desc="Title of New Tab Page settings.">
         New Tab Page
       </message>
+      <message name="IDS_NEW_TAB_TAKEOVER_VIEWED_INFOBAR_MESSAGE" desc="The text of new tab takeover viewed infobar message.">
+        Sponsored background images such as this one fund the development of Brave. Unlike Big Tech, we measure ad performance anonymously to preserve your privacy.
+      </message>
+      <message name="IDS_NEW_TAB_TAKEOVER_VIEWED_INFOBAR_LEARN_MORE" desc="The text of new tab takeover viewed infobar learn more link.">
+        Learn more
+      </message>
       <message name="IDS_BACKGROUND_IMAGES" desc= "Category title of background images option.">
         Background Images
       </message>

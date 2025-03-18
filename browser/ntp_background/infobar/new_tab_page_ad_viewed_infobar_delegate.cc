@@ -38,10 +38,10 @@ void NewTabPageAdViewedInfoBarDelegate::Create(
   CHECK(web_contents);
   CHECK(prefs);
 
-  if (!prefs->GetBoolean(prefs::kShouldShowNewTabPageAdViewedInfoBar)) {
+  if (!prefs->GetBoolean(prefs::kNewTabPageShowNewTabTakeoverViewedInfobar)) {
     return;
   }
-  prefs->SetBoolean(prefs::kShouldShowNewTabPageAdViewedInfoBar, false);
+  prefs->SetBoolean(prefs::kNewTabPageShowNewTabTakeoverViewedInfobar, false);
 
   infobars::ContentInfoBarManager* infobar_manager =
       infobars::ContentInfoBarManager::FromWebContents(web_contents);

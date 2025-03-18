@@ -81,7 +81,7 @@ void ViewCounterService::RegisterProfilePrefs(
   registry->RegisterBooleanPref(
       prefs::kNewTabPageShowBackgroundImage, true);
   registry->RegisterBooleanPref(
-      prefs::kShouldShowNewTabPageAdViewedInfoBar, true);
+      prefs::kNewTabPageShowNewTabTakeoverViewedInfobar, true);
 }
 
 void ViewCounterService::RegisterProfilePrefsForMigration(
