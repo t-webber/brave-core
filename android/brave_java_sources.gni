@@ -6,8 +6,6 @@
 import("//brave/android/features/tab_ui/brave_tab_management_java_sources.gni")
 import("//brave/android/feed/brave_feed_java_sources.gni")
 import("//brave/android/java/org/chromium/chrome/browser/billing/sources.gni")
-import(
-    "//brave/android/java/org/chromium/chrome/browser/fullscreen/brave_fullscreen_java_sources.gni")
 import("//brave/android/java/org/chromium/chrome/browser/playlist/sources.gni")
 import("//brave/base/brave_base_shared_preferences_java.gni")
 import("//brave/browser/brave_ads/android/java_sources.gni")
@@ -526,7 +524,6 @@ brave_java_sources += brave_feed_java_sources
 brave_java_sources += brave_public_tab_management_java_sources
 brave_java_sources += brave_share_java_sources
 brave_java_sources += brave_app_billing_sources
-brave_java_sources += brave_fullscreen_java_sources
 
 brave_browser_ui_android_appmenu_internal_sources = [ "//brave/browser/ui/android/appmenu/internal/java/src/org/chromium/chrome/browser/ui/appmenu/BraveAppMenu.java" ]
 
