@@ -4,6 +4,7 @@
 // file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 import Shared
+import Web
 import WebKit
 
 private let messageOpenInSafari = "openInSafari"

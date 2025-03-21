@@ -257,7 +257,8 @@ import os
 
     // Reset Webkit configuration to remove data from memory
     if clearAffectsTabs {
-      self.tabManager.resetConfiguration()
+      // FIXME: Not sure what we're supposed to do here now
+      //      self.tabManager.resetConfiguration()
       // Unlock the folders to allow clearing of data.
       await _toggleFolderAccessForBlockCookies(locked: false)
     }

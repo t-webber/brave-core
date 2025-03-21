@@ -16,6 +16,7 @@ import Shared
 import SnapKit
 import SwiftUI
 import UIKit
+import Web
 
 protocol TabTrayDelegate: AnyObject {
   /// Notifies the delegate that order of tabs on tab tray has changed.
@@ -28,8 +29,8 @@ protocol TabTrayDelegate: AnyObject {
 
 class TabTrayController: AuthenticationController {
 
-  typealias DataSource = UICollectionViewDiffableDataSource<TabTraySection, Tab>
-  typealias Snapshot = NSDiffableDataSourceSnapshot<TabTraySection, Tab>
+  typealias DataSource = UICollectionViewDiffableDataSource<TabTraySection, Web.Tab.ID>
+  typealias Snapshot = NSDiffableDataSourceSnapshot<TabTraySection, Web.Tab.ID>
 
   // MARK: Internal
 
@@ -79,8 +80,13 @@ class TabTrayController: AuthenticationController {
   private(set) lazy var dataSource =
     DataSource(
       collectionView: tabTrayView.collectionView,
-      cellProvider: { [weak self] collectionView, indexPath, tab -> UICollectionViewCell? in
-        self?.cellProvider(collectionView: collectionView, indexPath: indexPath, tab: tab)
+      cellProvider: { [weak self] collectionView, indexPath, tabID -> UICollectionViewCell? in
+        guard let self,
+          let tab = self.tabManager.tabsForCurrentMode.first(where: { $0.id == tabID })
+        else {
+          return nil
+        }
+        return cellProvider(collectionView: collectionView, indexPath: indexPath, tab: tab)
       }
     )
 
@@ -426,7 +432,7 @@ class TabTrayController: AuthenticationController {
     containerView.addSubview(contentStackView)
 
     if FeatureList.kBraveShredFeature.enabled,
-      let url = tabManager.selectedTab?.url,
+      let url = tabManager.selectedTab?.visibleURL,
       url.isShredAvailable
     {
       tabTypeSelectorContainerView.addSubview(shredButton)
@@ -545,7 +551,7 @@ class TabTrayController: AuthenticationController {
     if initialScrollCompleted { return }
 
     if let selectedTab = tabManager.selectedTab,
-      let selectedIndexPath = dataSource.indexPath(for: selectedTab)
+      let selectedIndexPath = dataSource.indexPath(for: selectedTab.id)
     {
       DispatchQueue.main.async {
         self.tabTrayView.collectionView.scrollToItem(
@@ -604,7 +610,7 @@ class TabTrayController: AuthenticationController {
   func applySnapshot(for query: String? = nil) {
     var snapshot = Snapshot()
     snapshot.appendSections([.main])
-    snapshot.appendItems(tabManager.tabsForCurrentMode(for: query))
+    snapshot.appendItems(tabManager.tabsForCurrentMode(for: query).map(\.id))
     dataSource.apply(snapshot, animatingDifferences: true) { [weak self] in
       guard let self = self else { return }
 
@@ -624,7 +630,7 @@ class TabTrayController: AuthenticationController {
   private func cellProvider(
     collectionView: UICollectionView,
     indexPath: IndexPath,
-    tab: Tab
+    tab: Web.Tab
   ) -> UICollectionViewCell? {
     guard
       let cell =
@@ -637,7 +643,7 @@ class TabTrayController: AuthenticationController {
 
     cell.configure(with: tab)
 
-    if tab == tabManager.selectedTab {
+    if tab === tabManager.selectedTab {
       cell.setTabSelected(tab)
     }
 
@@ -742,7 +748,7 @@ class TabTrayController: AuthenticationController {
   }
 
   @objc func shredButtonPressed() {
-    guard let tab = self.tabManager.selectedTab, let url = tab.url else { return }
+    guard let tab = self.tabManager.selectedTab, let url = tab.visibleURL else { return }
 
     let alert = UIAlertController.shredDataAlert(url: url) { _ in
       LottieAnimationView.showShredAnimation(
@@ -891,7 +897,7 @@ class TabTrayController: AuthenticationController {
       privateMode && !BraveCore.FeatureList.kBraveShredFeature.enabled
   }
 
-  func remove(tab: Tab) {
+  func remove(tab: Web.Tab) {
     // Initially add the tab to recently closed and remove it from Tab Data after
     tabManager.addTabToRecentlyClosed(tab)
     tabManager.removeTab(tab)
@@ -959,9 +965,9 @@ class TabTrayController: AuthenticationController {
     present(settingsNavigationController, animated: true)
   }
 
-  private func scrollToSelectedTab(_ tab: Tab?) {
+  private func scrollToSelectedTab(_ tab: Web.Tab?) {
     if let selectedTab = tab,
-      let selectedIndexPath = dataSource.indexPath(for: selectedTab)
+      let selectedIndexPath = dataSource.indexPath(for: selectedTab.id)
     {
       DispatchQueue.main.async {
         self.tabTrayView.collectionView.scrollToItem(
@@ -995,7 +1001,7 @@ extension TabTrayController: PresentingModalViewControllerDelegate {
 // MARK: TabManagerDelegate
 
 extension TabTrayController: TabManagerDelegate {
-  func tabManager(_ tabManager: TabManager, didAddTab tab: Tab) {
+  func tabManager(_ tabManager: TabManager, didAddTab tab: Web.Tab) {
     updateShredButtonVisibility()
     applySnapshot()
 
@@ -1009,7 +1015,7 @@ extension TabTrayController: TabManagerDelegate {
     }
   }
 
-  func tabManager(_ tabManager: TabManager, didRemoveTab tab: Tab) {
+  func tabManager(_ tabManager: TabManager, didRemoveTab tab: Web.Tab) {
     // When user removes their last tab, a new one is created.
     // Until then, the view is dismissed and takes the user directly to that tab.
     if tabManager.tabsForCurrentMode.count < 1 {
@@ -1017,13 +1023,17 @@ extension TabTrayController: TabManagerDelegate {
     }
 
     if BraveCore.FeatureList.kBraveShredFeature.enabled {
-      shredButton.isHidden = tabManager.selectedTab?.url?.isShredAvailable == false
+      shredButton.isHidden = tabManager.selectedTab?.visibleURL?.isShredAvailable == false
     }
   }
 
-  func tabManager(_ tabManager: TabManager, didSelectedTabChange selected: Tab?, previous: Tab?) {}
-  func tabManager(_ tabManager: TabManager, willAddTab tab: Tab) {}
-  func tabManager(_ tabManager: TabManager, willRemoveTab tab: Tab) {}
+  func tabManager(
+    _ tabManager: TabManager,
+    didSelectedTabChange selected: Web.Tab?,
+    previous: Web.Tab?
+  ) {}
+  func tabManager(_ tabManager: TabManager, willAddTab tab: Web.Tab) {}
+  func tabManager(_ tabManager: TabManager, willRemoveTab tab: Web.Tab) {}
   func tabManagerDidAddTabs(_ tabManager: TabManager) {}
   func tabManagerDidRestoreTabs(_ tabManager: TabManager) {}
   func tabManagerDidRemoveAllTabs(_ tabManager: TabManager, toast: ButtonToast?) {}

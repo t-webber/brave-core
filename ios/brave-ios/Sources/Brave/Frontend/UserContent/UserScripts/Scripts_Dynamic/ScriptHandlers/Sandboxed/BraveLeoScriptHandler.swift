@@ -5,6 +5,7 @@
 
 import AIChat
 import Foundation
+import Web
 import WebKit
 import os.log
 
@@ -59,7 +60,7 @@ class BraveLeoScriptTabHelper: AIChatWebDelegate {
   }
 
   var isLoading: Bool {
-    tab?.loading == true
+    tab?.isLoading == true
   }
 
   var title: String? {
@@ -67,12 +68,12 @@ class BraveLeoScriptTabHelper: AIChatWebDelegate {
   }
 
   var url: URL? {
-    tab?.url
+    tab?.visibleURL
   }
 
   func getPageContentType() async -> String? {
     guard let tab else { return nil }
-    return try? await tab.evaluateSafeJavaScriptThrowing(
+    return try? await tab.evaluateJavaScript(
       functionName: "document.contentType",
       contentWorld: BraveLeoScriptHandler.scriptSandbox,
       escapeArgs: false,
@@ -85,7 +86,7 @@ class BraveLeoScriptTabHelper: AIChatWebDelegate {
     guard let tab else { return nil }
     do {
       let articleText =
-        try await tab.evaluateSafeJavaScriptThrowing(
+        try await tab.evaluateJavaScript(
           functionName: "window.__firefox__.\(BraveLeoScriptHandler.getMainArticle)",
           args: [BraveLeoScriptHandler.scriptId],
           contentWorld: BraveLeoScriptHandler.scriptSandbox,
@@ -101,7 +102,7 @@ class BraveLeoScriptTabHelper: AIChatWebDelegate {
   @MainActor
   func getPDFDocument() async -> String? {
     guard let tab else { return nil }
-    if let pdfData = tab.dataForDisplayedPDF() {
+    if let pdfData = tab.dataForDisplayedPDF {
       return pdfData.base64EncodedString()
     }
 

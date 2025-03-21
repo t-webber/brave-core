@@ -5,6 +5,7 @@
 import Foundation
 import Shared
 import Storage
+import Web
 import WebKit
 import os.log
 
@@ -25,14 +26,15 @@ class MetadataParserHelper: TabEventHandler {
   func tab(_ tab: Tab, didChangeURL url: URL) {
     // Get the metadata out of the page-metadata-parser, and into a type safe struct as soon
     // as possible.
-    guard let url = tab.url, url.isWebPage(includeDataURIs: false), !InternalURL.isValid(url: url)
+    guard let url = tab.visibleURL, url.isWebPage(includeDataURIs: false),
+      !InternalURL.isValid(url: url)
     else {
       // TabEvent.post(.pageMetadataNotAvailable, for: tab)
       tab.pageMetadata = nil
       return
     }
 
-    tab.evaluateSafeJavaScript(
+    tab.evaluateJavaScript(
       functionName: "__firefox__.metadata && __firefox__.metadata.getMetadata()",
       contentWorld: .defaultClient,
       asFunction: false

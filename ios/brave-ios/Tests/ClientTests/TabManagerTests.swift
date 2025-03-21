@@ -165,7 +165,7 @@ open class MockTabManagerDelegate: TabManagerDelegate {
       tab.setVirtualURL(URL(string: "http://yahoo.com")!)
       manager.configureTab(
         tab,
-        request: URLRequest(url: tab.url!),
+        request: URLRequest(url: tab.visibleURL!),
         flushToDisk: false,
         zombie: false
       )

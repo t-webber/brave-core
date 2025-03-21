@@ -7,10 +7,12 @@
 #define BRAVE_IOS_BROWSER_API_WEB_VIEW_BRAVE_WEB_VIEW_H_
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import <WebKit/WebKit.h>
 
 #import "cwv_export.h"               // NOLINT
 #import "cwv_navigation_delegate.h"  // NOLINT
+#import "cwv_ui_delegate.h"          // NOLINT
 #import "cwv_web_view.h"             // NOLINT
 
 NS_ASSUME_NONNULL_BEGIN
@@ -36,6 +38,15 @@ CWV_EXPORT
                                      NSString* _Nullable password))handler;
 @end
 
+CWV_EXPORT
+@protocol BraveWebViewUIDelegate <CWVUIDelegate>
+@optional
+/// Build the edit menu that will be displayed when long pressing static content
+/// on the page.
+- (void)webView:(CWVWebView*)webView
+    buildEditMenuWithBuilder:(id<UIMenuBuilder>)builder;
+@end
+
 /// A CWVWebView with Chrome tab helpers attached and the ability to handle
 /// some Brave specific features
 CWV_EXPORT
@@ -44,6 +55,9 @@ CWV_EXPORT
 // This web view's navigation delegate.
 @property(nonatomic, weak, nullable) id<BraveWebViewNavigationDelegate>
     navigationDelegate;
+
+// This web view's UI delegate.
+@property(nonatomic, weak, nullable) id<BraveWebViewUIDelegate> UIDelegate;
 
 @end
 

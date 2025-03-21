@@ -14,6 +14,7 @@ import PlaylistUI
 import Preferences
 import Shared
 import UIKit
+import Web
 import os.log
 
 extension BrowserViewController: PlaylistScriptHandlerDelegate,
@@ -73,7 +74,7 @@ extension BrowserViewController: PlaylistScriptHandlerDelegate,
       tab.playlistItem = item
 
       let shouldShowPlaylistURLBarButton =
-        tab.url?.isPlaylistSupportedSiteURL == true
+        tab.visibleURL?.isPlaylistSupportedSiteURL == true
         && Preferences.Playlist.enablePlaylistURLBarButton.value
 
       let browsers = UIApplication.shared.connectedScenes.compactMap({ $0 as? UIWindowScene })
@@ -120,7 +121,7 @@ extension BrowserViewController: PlaylistScriptHandlerDelegate,
 
     guard let selectedTab = tabManager.selectedTab,
       selectedTab === tab,
-      selectedTab.url?.isPlaylistSupportedSiteURL == true
+      selectedTab.visibleURL?.isPlaylistSupportedSiteURL == true
     else {
       return
     }
@@ -234,7 +235,7 @@ extension BrowserViewController: PlaylistScriptHandlerDelegate,
       return
     }
 
-    let shouldShowOnboarding = tab?.url?.isPlaylistSupportedSiteURL == true
+    let shouldShowOnboarding = tab?.visibleURL?.isPlaylistSupportedSiteURL == true
 
     if shouldShowOnboarding {
       if Preferences.Playlist.addToPlaylistURLBarOnboardingCount.value < 2,

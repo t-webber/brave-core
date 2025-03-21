@@ -9,6 +9,7 @@ import Foundation
 import OrderedCollections
 import Shared
 import Storage
+import Web
 
 class FrequencyQuery {
 
@@ -106,7 +107,7 @@ class FrequencyQuery {
     }
 
     for tab in tabs {
-      if let url = tab.url, url.isWebPage(), !(InternalURL(url)?.isAboutHomeURL ?? false) {
+      if let url = tab.visibleURL, url.isWebPage(), !(InternalURL(url)?.isAboutHomeURL ?? false) {
         if selectedTab.id == tab.id {
           continue
         }

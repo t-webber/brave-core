@@ -6,6 +6,7 @@
 import BraveShared
 import Foundation
 import Shared
+import Web
 import WebKit
 
 enum InternalPageSchemeHandlerError: Error {
@@ -20,14 +21,6 @@ public protocol InternalSchemeResponse {
 }
 
 public class InternalSchemeHandler: NSObject, WKURLSchemeHandler {
-
-  private weak var tab: Tab?
-
-  init(tab: Tab?) {
-    self.tab = tab
-    super.init()
-  }
-
   public static func response(forUrl url: URL) -> URLResponse {
     return URLResponse(
       url: url,

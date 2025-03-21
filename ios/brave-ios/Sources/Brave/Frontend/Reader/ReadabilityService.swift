@@ -3,6 +3,7 @@
 // file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 import Foundation
+import Web
 import WebKit
 
 enum ReadabilityOperationResult {
@@ -33,10 +34,9 @@ class ReadabilityOperation: Operation {
     // and WebKit are not safe from other threads.
 
     DispatchQueue.main.async {
-      let configuration = WKWebViewConfiguration()
-      self.tab = Tab(configuration: configuration)
+      self.tab = TabFactory.create(with: .init(braveCore: nil))
       self.tab.browserData = .init(tab: self.tab, tabGeneratorAPI: nil)
-      self.tab.createWebview()
+      self.tab.createWebView()
       self.tab.addObserver(self)
 
       let readerMode = ReaderModeScriptHandler()
@@ -87,7 +87,7 @@ extension ReadabilityOperation: TabObserver {
   }
 
   func tabDidFinishNavigation(_ tab: Tab) {
-    tab.evaluateSafeJavaScript(
+    tab.evaluateJavaScript(
       functionName: "\(readerModeNamespace).checkReadability",
       contentWorld: ReaderModeScriptHandler.scriptSandbox
     )
@@ -111,7 +111,7 @@ extension ReadabilityOperation: ReaderModeScriptHandlerDelegate {
     didParseReadabilityResult readabilityResult: ReadabilityResult,
     forTab tab: Tab
   ) {
-    guard tab == self.tab else {
+    guard tab === self.tab else {
       return
     }
 

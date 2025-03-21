@@ -5,6 +5,7 @@
 import Foundation
 import Shared
 import UIKit
+import Web
 import WebKit
 import os.log
 
@@ -19,7 +20,7 @@ class ScreenshotHelper {
   }
 
   func takeScreenshot(_ tab: Tab) {
-    guard let url = tab.url else {
+    guard let url = tab.visibleURL, tab.canTakeSnapshot else {
       Logger.module.error("Tab webView or url is nil")
       tab.browserData?.setScreenshot(nil)
       return
@@ -33,7 +34,8 @@ class ScreenshotHelper {
         tab.browserData?.setScreenshot(nil)
       }
     } else {
-      tab.takeSnapshot { [weak tab] image in
+      Task { @MainActor [weak tab] in
+        let image = await tab?.takeSnapshot(rect: .null)
         if let image = image {
           tab?.browserData?.setScreenshot(image)
         } else {

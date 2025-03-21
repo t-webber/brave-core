@@ -7,6 +7,7 @@ import BraveShields
 import Data
 import Preferences
 import Shared
+import Web
 import WebKit
 import os.log
 
@@ -61,7 +62,7 @@ extension ContentBlockerHelper: TabContentScript {
   ) {
     defer { replyHandler(nil, nil) }
 
-    guard let currentTabURL = tab.url else {
+    guard let currentTabURL = tab.visibleURL else {
       assertionFailure("Missing tab or webView")
       return
     }
@@ -119,7 +120,7 @@ extension ContentBlockerHelper: TabContentScript {
           // For subframes which may use different etld+1 than the main frame (example `reddit.com` and `redditmedia.com`)
           // We simply check the known subframeURLs on this page.
           guard
-            self.tab?.url?.baseDomain == sourceURL.baseDomain
+            self.tab?.visibleURL?.baseDomain == sourceURL.baseDomain
               || self.tab?.currentPageData?.allSubframeURLs.contains(sourceURL) == true
           else {
             return

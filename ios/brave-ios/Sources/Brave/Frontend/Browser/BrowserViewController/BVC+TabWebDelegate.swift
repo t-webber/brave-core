@@ -11,126 +11,15 @@ import Preferences
 import Shared
 import Strings
 import UIKit
+import Web
 
-/// A protocol that tells an object about web UI related events happening
-///
-/// `WKWebView` specific things should not be accessed from these methods, if you need to access
-/// the underlying web view, you should only access it via `Tab`
-protocol TabWebDelegate: AnyObject {
-  func tabWebViewDidClose(_ tab: Tab)
-  func tab(
-    _ tab: Tab,
-    contextMenuConfigurationForLinkURL linkURL: URL?
-  ) async -> UIContextMenuConfiguration?
-  func tab(
-    _ tab: Tab,
-    requestMediaCapturePermissionsFor type: WebMediaCaptureType
-  ) async -> WebPermissionDecision
-  func tab(_ tab: Tab, runJavaScriptAlertPanelWithMessage message: String, pageURL: URL) async
-  func tab(
-    _ tab: Tab,
-    runJavaScriptConfirmPanelWithMessage message: String,
-    pageURL: URL
-  ) async -> Bool
-  func tab(
-    _ tab: Tab,
-    runJavaScriptConfirmPanelWithPrompt prompt: String,
-    defaultText: String?,
-    pageURL: URL
-  ) async -> String?
-  func tab(
-    _ tab: Tab,
-    didRequestHTTPAuthFor protectionSpace: URLProtectionSpace,
-    proposedCredential credential: URLCredential?,
-    previousFailureCount: Int
-  ) async -> URLCredential?
-  func tab(
-    _ tab: Tab,
-    createNewTabWithRequest request: URLRequest,
-    configuration: WKWebViewConfiguration
-  ) -> Tab?
-  func tab(_ tab: Tab, shouldBlockJavaScriptForRequest request: URLRequest) -> Bool
-  func tab(_ tab: Tab, shouldBlockUniversalLinksForRequest request: URLRequest) -> Bool
-  func tab(_ tab: Tab, buildEditMenuWithBuilder builder: any UIMenuBuilder)
-}
-
-/// Media device capture types that a web page may request
-enum WebMediaCaptureType {
-  case camera
-  case microphone
-  case cameraAndMicrophone
-}
-
-/// Permission decisions for responding to various permission prompts
-enum WebPermissionDecision {
-  case prompt
-  case grant
-  case deny
-}
-
-extension TabWebDelegate {
-  func tabWebViewDidClose(_ tab: Tab) {}
-
-  func tab(
-    _ tab: Tab,
-    contextMenuConfigurationForLinkURL linkURL: URL?
-  ) async -> UIContextMenuConfiguration? {
-    return nil
-  }
-
-  func tab(
-    _ tab: Tab,
-    requestMediaCapturePermissionsFor type: WebMediaCaptureType
-  ) async -> WebPermissionDecision {
-    return .prompt
-  }
-
-  func tab(_ tab: Tab, runJavaScriptAlertPanelWithMessage message: String, pageURL: URL) async {}
-
-  func tab(
-    _ tab: Tab,
-    runJavaScriptConfirmPanelWithMessage message: String,
-    pageURL: URL
-  ) async -> Bool {
-    return false
-  }
-
-  func tab(
-    _ tab: Tab,
-    runJavaScriptConfirmPanelWithPrompt prompt: String,
-    defaultText: String?,
-    pageURL: URL
-  ) async -> String? {
-    return nil
-  }
-
-  func tab(
-    _ tab: Tab,
-    didRequestHTTPAuthFor protectionSpace: URLProtectionSpace,
-    proposedCredential credential: URLCredential?,
-    previousFailureCount: Int
-  ) async -> URLCredential? {
-    return nil
-  }
-
-  func tab(_ tab: Tab, shouldBlockJavaScriptForRequest request: URLRequest) -> Bool {
-    return false
-  }
-
-  func tab(_ tab: Tab, shouldBlockUniversalLinksForRequest request: URLRequest) -> Bool {
-    return false
-  }
-
-  func tab(_ tab: Tab, buildEditMenuWithBuilder builder: any UIMenuBuilder) {}
-}
-
-extension BrowserViewController: TabWebDelegate {
-  func tabWebViewDidClose(_ tab: Tab) {
+extension BrowserViewController: TabDelegate {
+  public func tabWebViewDidClose(_ tab: Tab) {
     tabManager.addTabToRecentlyClosed(tab)
     tabManager.removeTab(tab)
   }
 
-  func tab(
+  public func tab(
     _ tab: Tab,
     contextMenuConfigurationForLinkURL linkURL: URL?
   ) async -> UIContextMenuConfiguration? {
@@ -142,11 +31,9 @@ extension BrowserViewController: TabWebDelegate {
 
     let actionProvider: UIContextMenuActionProvider = { _ -> UIMenu? in
       var actions = [UIAction]()
-
       if let currentTab = self.tabManager.selectedTab {
-        let tabType = currentTab.type
-
-        if !tabType.isPrivate {
+        let isPrivate = currentTab.isPrivate
+        if !isPrivate {
           let openNewTabAction = UIAction(
             title: Strings.openNewTabButtonTitle,
             image: UIImage(systemName: "plus")
@@ -162,7 +49,7 @@ extension BrowserViewController: TabWebDelegate {
           title: Strings.openNewPrivateTabButtonTitle,
           image: UIImage(named: "private_glasses", in: .module, compatibleWith: nil)!.template
         ) { _ in
-          if !tabType.isPrivate, Preferences.Privacy.privateBrowsingLock.value {
+          if !isPrivate, Preferences.Privacy.privateBrowsingLock.value {
             self.askForLocalAuthentication { [weak self] success, error in
               if success {
                 self?.addTab(url: url, inPrivateMode: true, currentTab: currentTab)
@@ -177,7 +64,7 @@ extension BrowserViewController: TabWebDelegate {
         actions.append(openNewPrivateTabAction)
 
         if UIApplication.shared.supportsMultipleScenes {
-          if !tabType.isPrivate {
+          if !isPrivate {
             let openNewWindowAction = UIAction(
               title: Strings.openInNewWindowTitle,
               image: UIImage(braveSystemNamed: "leo.window")
@@ -193,7 +80,7 @@ extension BrowserViewController: TabWebDelegate {
             title: Strings.openInNewPrivateWindowTitle,
             image: UIImage(braveSystemNamed: "leo.window.tab-private")
           ) { _ in
-            if !tabType.isPrivate, Preferences.Privacy.privateBrowsingLock.value {
+            if !isPrivate, Preferences.Privacy.privateBrowsingLock.value {
               self.askForLocalAuthentication { [weak self] success, error in
                 if success {
                   self?.openInNewWindow(url: url, isPrivate: true)
@@ -288,11 +175,11 @@ extension BrowserViewController: TabWebDelegate {
     )
   }
 
-  func tab(
+  public func tab(
     _ tab: Tab,
     requestMediaCapturePermissionsFor type: WebMediaCaptureType
   ) async -> WebPermissionDecision {
-    guard let origin = tab.committedURL?.origin, tab === tabManager.selectedTab else {
+    guard let origin = tab.lastCommittedURL?.origin, tab === tabManager.selectedTab else {
       return .deny
     }
 
@@ -356,7 +243,11 @@ extension BrowserViewController: TabWebDelegate {
     }
   }
 
-  func tab(_ tab: Tab, runJavaScriptAlertPanelWithMessage message: String, pageURL: URL) async {
+  public func tab(
+    _ tab: Tab,
+    runJavaScriptAlertPanelWithMessage message: String,
+    pageURL: URL
+  ) async {
     guard case let origin = pageURL.origin, !origin.isOpaque, tab === tabManager.selectedTab else {
       return
     }
@@ -376,7 +267,7 @@ extension BrowserViewController: TabWebDelegate {
     }
   }
 
-  func tab(
+  public func tab(
     _ tab: Tab,
     runJavaScriptConfirmPanelWithMessage message: String,
     pageURL: URL
@@ -400,7 +291,7 @@ extension BrowserViewController: TabWebDelegate {
     }
   }
 
-  func tab(
+  public func tab(
     _ tab: Tab,
     runJavaScriptConfirmPanelWithPrompt prompt: String,
     defaultText: String?,
@@ -426,7 +317,7 @@ extension BrowserViewController: TabWebDelegate {
     }
   }
 
-  func tab(_ tab: Tab, shouldBlockJavaScriptForRequest request: URLRequest) -> Bool {
+  public func tab(_ tab: Tab, shouldBlockJavaScriptForRequest request: URLRequest) -> Bool {
     guard let documentTargetURL = request.mainDocumentURL else { return false }
     let domainForShields = Domain.getOrCreate(
       forUrl: documentTargetURL,
@@ -435,7 +326,7 @@ extension BrowserViewController: TabWebDelegate {
     return domainForShields.isShieldExpected(.noScript, considerAllShieldsOption: true)
   }
 
-  func tab(_ tab: Tab, shouldBlockUniversalLinksForRequest request: URLRequest) -> Bool {
+  public func tab(_ tab: Tab, shouldBlockUniversalLinksForRequest request: URLRequest) -> Bool {
     func isYouTubeLoad() -> Bool {
       guard let domain = request.mainDocumentURL?.baseDomain else {
         return false
@@ -451,18 +342,18 @@ extension BrowserViewController: TabWebDelegate {
     return false
   }
 
-  func tab(_ tab: Tab, buildEditMenuWithBuilder builder: any UIMenuBuilder) {
+  public func tab(_ tab: Tab, buildEditMenuWithBuilder builder: any UIMenuBuilder) {
     let forcePaste = UIAction(title: Strings.forcePaste) { [weak tab] _ in
       if let string = UIPasteboard.general.string {
-        tab?.evaluateSafeJavaScript(
+        tab?.evaluateJavaScript(
           functionName: "window.__firefox__.forcePaste",
           args: [string, UserScriptManager.securityToken],
           contentWorld: .defaultClient
-        ) { _, _ in }
+        )
       }
     }
     let searchWithBrave = UIAction(title: Strings.searchWithBrave) { [weak tab, weak self] _ in
-      tab?.evaluateSafeJavaScript(
+      tab?.evaluateJavaScript(
         functionName: "getSelection().toString",
         contentWorld: .defaultClient
       ) {
@@ -526,15 +417,17 @@ extension BrowserViewController {
   }
 
   func suppressJSAlerts(tab: Tab) {
-    let script = """
-      window.alert=window.confirm=window.prompt=function(n){},
-      [].slice.apply(document.querySelectorAll('iframe')).forEach(function(n){if(n.contentWindow != window){n.contentWindow.alert=n.contentWindow.confirm=n.contentWindow.prompt=function(n){}}})
-      """
-    tab.evaluateSafeJavaScript(
-      functionName: script,
-      contentWorld: .defaultClient,
-      asFunction: false
-    )
+    Task {
+      let script = """
+        window.alert=window.confirm=window.prompt=function(n){},
+        [].slice.apply(document.querySelectorAll('iframe')).forEach(function(n){if(n.contentWindow != window){n.contentWindow.alert=n.contentWindow.confirm=n.contentWindow.prompt=function(n){}}})
+        """
+      try await tab.evaluateJavaScript(
+        functionName: script,
+        contentWorld: .defaultClient,
+        asFunction: false
+      )
+    }
   }
 
   func handleAlert<T: JSAlertInfo>(
@@ -623,7 +516,7 @@ extension BrowserViewController {
     }
   }
 
-  func tab(
+  public func tab(
     _ tab: Tab,
     didRequestHTTPAuthFor protectionSpace: URLProtectionSpace,
     proposedCredential credential: URLCredential?,
@@ -637,19 +530,17 @@ extension BrowserViewController {
     tab.isDisplayingBasicAuthPrompt = true
     defer { tab.isDisplayingBasicAuthPrompt = false }
 
-    if let webView = tab.webContentView {
-      let isHidden = webView.isHidden
-      defer { webView.isHidden = isHidden }
+    let isHidden = tab.view.isHidden
+    defer { tab.view.isHidden = isHidden }
 
-      // Manually trigger a `url` change notification
-      if host != tab.url?.host {
-        webView.isHidden = true
+    // Manually trigger a `url` change notification
+    if host != tab.visibleURL?.host {
+      tab.view.isHidden = true
 
-        if tabManager.selectedTab === tab {
-          updateToolbarCurrentURL(
-            URL(string: "\(InternalURL.baseUrl)/\(InternalURL.Path.basicAuth.rawValue)")
-          )
-        }
+      if tabManager.selectedTab === tab {
+        updateToolbarCurrentURL(
+          URL(string: "\(InternalURL.baseUrl)/\(InternalURL.Path.basicAuth.rawValue)")
+        )
       }
     }
 
@@ -674,10 +565,9 @@ extension BrowserViewController {
     }
   }
 
-  func tab(
+  public func tab(
     _ tab: Tab,
-    createNewTabWithRequest request: URLRequest,
-    configuration: WKWebViewConfiguration
+    createNewTabWithRequest request: URLRequest
   ) -> Tab? {
     guard !request.isInternalUnprivileged,
       let navigationURL = request.url,
@@ -694,7 +584,7 @@ extension BrowserViewController {
     // If the page uses `window.open()` or `[target="_blank"]`, open the page in a new tab.
     // IMPORTANT!!: WebKit will perform the `URLRequest` automatically!! Attempting to do
     // the request here manually leads to incorrect results!!
-    let newTab = tabManager.addPopupForParentTab(tab, configuration: configuration)
+    let newTab = tabManager.addPopupForParentTab(tab)
 
     newTab.setVirtualURL(URL(string: "about:blank"))
 
@@ -709,7 +599,7 @@ extension BrowserViewController {
       var updated: ((URL?) -> Void)?
 
       func tabDidUpdateURL(_ tab: Tab) {
-        updated?(tab.url)
+        updated?(tab.visibleURL)
         updated = nil
         tab.removeObserver(self)
       }
@@ -729,7 +619,7 @@ extension BrowserViewController {
       guard let self = self, let tab = newTab else { return }
 
       // When a child tab is being selected, dismiss any popups on the parent tab
-      tab.parent?.shownPromptAlert?.dismiss(animated: false)
+      tab.opener?.shownPromptAlert?.dismiss(animated: false)
       self.tabManager.selectTab(tab)
     }
     return newTab

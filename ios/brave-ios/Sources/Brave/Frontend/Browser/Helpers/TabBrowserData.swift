@@ -11,6 +11,7 @@ import Foundation
 import Preferences
 import Shared
 import Storage
+import Web
 
 extension TabDataValues {
   private struct TabBrowserDataKey: TabDataKey {
@@ -21,6 +22,16 @@ extension TabDataValues {
     get { self[TabBrowserDataKey.self] }
     set { self[TabBrowserDataKey.self] = newValue }
   }
+}
+
+// A number of delegate methods that should be shifted away to their respective tab helpers in
+// the future
+protocol TabMiscDelegate: AnyObject {
+  func showRequestRewardsPanel(_ tab: Tab)
+  func stopMediaPlayback(_ tab: Tab)
+  func showWalletNotification(_ tab: Tab, origin: URLOrigin)
+  func updateURLBarWalletButton()
+  func isTabVisible(_ tab: Tab) -> Bool
 }
 
 /// A broad container of assorted data that was previously stored in Tab
@@ -77,7 +88,11 @@ class TabBrowserData: NSObject, TabObserver {
     }
   }
 
+  weak var miscDelegate: TabMiscDelegate?
+
   let rewardsId: UInt32 = .random(in: 1...UInt32.max)
+
+  var lastTitle: String?
 
   var pendingScreenshot = false
   fileprivate(set) var screenshot: UIImage?
@@ -130,7 +145,7 @@ class TabBrowserData: NSObject, TabObserver {
   var tabDappStore: TabDappStore = .init()
   var isWalletIconVisible: Bool = false {
     didSet {
-      tab?.tabDelegate?.updateURLBarWalletButton()
+      miscDelegate?.updateURLBarWalletButton()
     }
   }
 
@@ -387,7 +402,7 @@ class TabBrowserData: NSObject, TabObserver {
   }
 
   func tabDidUpdateURL(_ tab: Tab) {
-    if let url = tab.url, !tab.isPrivate, !url.isLocal, !InternalURL.isValid(url: url),
+    if let url = tab.visibleURL, !tab.isPrivate, !url.isLocal, !InternalURL.isValid(url: url),
       !url.isInternalURL(for: .readermode)
     {
       syncTab?.setURL(url)
@@ -497,7 +512,7 @@ extension Tab {
     {
       return siteURL
     }
-    return self.url
+    return self.visibleURL
   }
 
   /// The URL that should be shared when requested by the user via the share sheet
@@ -507,7 +522,7 @@ extension Tab {
   /// also ensuring single page applications which don't update their canonical URLs on navigation share
   /// the current pages URL
   var shareURL: URL? {
-    guard let url = url else { return nil }
+    guard let url = visibleURL else { return nil }
     if let canonicalURL = canonicalURL, canonicalURL.baseDomain != url.baseDomain {
       return canonicalURL
     }

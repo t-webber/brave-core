@@ -6,6 +6,7 @@
 import Data
 import Foundation
 import Shared
+import Web
 import WebKit
 import os.log
 
@@ -88,7 +89,7 @@ class CosmeticFiltersScriptHandler: TabContentScript {
         }
 
         // cache blocked selectors
-        if let url = tab.url {
+        if let url = tab.visibleURL {
           tab.contentBlocker?.cacheSelectors(
             for: url,
             standardSelectors: standardSelectors,

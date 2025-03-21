@@ -6,6 +6,7 @@
 import BraveShared
 import Shared
 import Storage
+import Web
 import WebKit
 
 // MARK: - ReaderModeDelegate
@@ -146,14 +147,15 @@ extension BrowserViewController {
   /// of the current page is there. And if so, we go there.
 
   func enableReaderMode() {
-    guard let tab = tabManager.selectedTab else { return }
-    let backForwardList = tab.backForwardList
+    guard let tab = tabManager.selectedTab, let backForwardList = tab.backForwardList else {
+      return
+    }
 
     let backList = backForwardList.backList
     let forwardList = backForwardList.forwardList
 
     guard let currentURL = backForwardList.currentItem?.url,
-      let headers = (tab.responses[currentURL] as? HTTPURLResponse)?.allHeaderFields
+      let headers = (tab.responses?[currentURL] as? HTTPURLResponse)?.allHeaderFields
         as? [String: String],
       let readerModeURL = currentURL.encodeEmbeddedInternalURL(for: .readermode, headers: headers)
     else { return }
@@ -172,7 +174,7 @@ extension BrowserViewController {
       self.updateTranslateURLBar(tab: tab, state: translationState)
     } else {
       // Store the readability result in the cache and load it. This will later move to the ReadabilityHelper.
-      tab.evaluateSafeJavaScript(
+      tab.evaluateJavaScript(
         functionName: "\(readerModeNamespace).readerize",
         contentWorld: ReaderModeScriptHandler.scriptSandbox
       ) { (object, error) -> Void in
@@ -181,10 +183,9 @@ extension BrowserViewController {
           let translationState = tab.translationState ?? .unavailable
           Task { @MainActor in
             try? await self.readerModeCache.put(currentURL, readabilityResult)
-            if tab.loadRequest(PrivilegedRequest(url: readerModeURL) as URLRequest) != nil {
-              PlaylistScriptHandler.updatePlaylistTab(tab: tab, item: playlistItem)
-              self.updateTranslateURLBar(tab: tab, state: translationState)
-            }
+            tab.loadRequest(PrivilegedRequest(url: readerModeURL) as URLRequest)
+            PlaylistScriptHandler.updatePlaylistTab(tab: tab, item: playlistItem)
+            self.updateTranslateURLBar(tab: tab, state: translationState)
           }
         }
       }
@@ -197,8 +198,7 @@ extension BrowserViewController {
   /// of the page is either to the left or right in the BackForwardList. If that is the case, we navigate there.
 
   func disableReaderMode() {
-    if let tab = tabManager.selectedTab {
-      let backForwardList = tab.backForwardList
+    if let tab = tabManager.selectedTab, let backForwardList = tab.backForwardList {
       let backList = backForwardList.backList
       let forwardList = backForwardList.forwardList
 
@@ -215,10 +215,9 @@ extension BrowserViewController {
             PlaylistScriptHandler.updatePlaylistTab(tab: tab, item: playlistItem)
             self.updateTranslateURLBar(tab: tab, state: translationState)
           } else {
-            if tab.loadRequest(URLRequest(url: originalURL)) != nil {
-              PlaylistScriptHandler.updatePlaylistTab(tab: tab, item: playlistItem)
-              self.updateTranslateURLBar(tab: tab, state: translationState)
-            }
+            tab.loadRequest(URLRequest(url: originalURL))
+            PlaylistScriptHandler.updatePlaylistTab(tab: tab, item: playlistItem)
+            self.updateTranslateURLBar(tab: tab, state: translationState)
           }
         }
       }

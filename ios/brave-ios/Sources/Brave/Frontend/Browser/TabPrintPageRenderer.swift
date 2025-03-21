@@ -4,6 +4,7 @@
 
 import Foundation
 import UIKit
+import Web
 
 private struct PrintedPageUX {
   static let pageInsets = CGFloat(36.0)
@@ -53,7 +54,11 @@ class TabPrintPageRenderer: UIPrintPageRenderer {
     let headerRect = paperRect.inset(by: headerInsets)
 
     // url on left
-    self.drawTextAtPoint(tab!.url?.displayURL?.absoluteString ?? "", rect: headerRect, onLeft: true)
+    self.drawTextAtPoint(
+      tab!.visibleURL?.displayURL?.absoluteString ?? "",
+      rect: headerRect,
+      onLeft: true
+    )
 
     // page number on right
     let pageNumberString = "\(pageIndex + 1)"

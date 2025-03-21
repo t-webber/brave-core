@@ -7,6 +7,7 @@ import Favicon
 import Shared
 import Storage
 import UIKit
+import Web
 import WebKit
 import os.log
 
@@ -31,12 +32,11 @@ extension BrowserViewController {
   @discardableResult
   func evaluateWebsiteSupportOpenSearchEngine(in tab: Tab) -> Bool {
     if let openSearchMetaData = tab.pageMetadata?.search,
-      let url = tab.url,
-      url.isSecureWebPage(),
-      let webContentView = tab.webContentView
+      let url = tab.visibleURL,
+      url.isSecureWebPage()
     {
       return updateAddOpenSearchEngine(
-        webContentView,
+        tab.view,
         referenceObject: OpenSearchReference(
           reference: openSearchMetaData.href,
           title: openSearchMetaData.title
@@ -142,8 +142,8 @@ extension BrowserViewController {
       return
     }
 
-    guard let scheme = tabManager.selectedTab?.url?.scheme,
-      let host = tabManager.selectedTab?.url?.host
+    guard let scheme = tabManager.selectedTab?.visibleURL?.scheme,
+      let host = tabManager.selectedTab?.visibleURL?.host
     else {
       Logger.module.error("Selected Tab doesn't have URL")
       return

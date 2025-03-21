@@ -39,6 +39,12 @@ CWV_EXPORT
 @property(readonly, nullable)
     NSURL* originalRequestURLForLastCommitedNavigation;
 
+/// The MIME type for the contents currently loaded in the web view
+@property(readonly) NSString* contentsMIMEType;
+
+/// The last time that the web view was active
+@property(readonly) NSDate* lastActiveTime;
+
 #pragma mark -
 
 /// Creates a PDF of the current page

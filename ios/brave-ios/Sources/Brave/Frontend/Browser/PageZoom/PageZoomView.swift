@@ -8,6 +8,7 @@ import Data
 import Preferences
 import Shared
 import SwiftUI
+import Web
 import WebKit
 
 private struct ZoomView: View {

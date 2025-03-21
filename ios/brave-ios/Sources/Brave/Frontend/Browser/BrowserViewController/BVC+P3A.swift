@@ -11,6 +11,7 @@ import Foundation
 import Growth
 import Preferences
 import Shared
+import Web
 import os.log
 
 extension BrowserViewController {
@@ -54,7 +55,7 @@ extension BrowserViewController {
     var urlSubmissionNewTabStorage = P3ATimedStorage<Int>.urlSubmissionNewTabStorage
 
     if let tab, !tab.isPrivate {
-      let isNewTab = tab.url.flatMap { InternalURL($0) }?.isAboutHomeURL == true
+      let isNewTab = tab.visibleURL.flatMap { InternalURL($0) }?.isAboutHomeURL == true
       if isNewTab {
         urlSubmissionNewTabStorage.add(value: 1, to: Date())
       }

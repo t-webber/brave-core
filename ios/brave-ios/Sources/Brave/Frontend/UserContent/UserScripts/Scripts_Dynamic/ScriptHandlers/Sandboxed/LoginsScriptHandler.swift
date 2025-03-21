@@ -8,6 +8,7 @@ import Preferences
 import Shared
 import Storage
 import SwiftyJSON
+import Web
 import WebKit
 import os.log
 
@@ -218,7 +219,7 @@ class LoginsScriptHandler: TabContentScript {
 
       // Check for current tab has a url to begin with
       // and the frame is not modified
-      guard let currentURL = tab.url,
+      guard let currentURL = tab.visibleURL,
         LoginsScriptHandler.checkIsSameFrame(
           url: currentURL,
           frameScheme: securityOrigin.protocol,
@@ -246,7 +247,7 @@ class LoginsScriptHandler: TabContentScript {
       return
     }
 
-    tab.evaluateSafeJavaScript(
+    tab.evaluateJavaScript(
       functionName: "window.__firefox__.logins.inject",
       args: [jsonString],
       contentWorld: LoginsScriptHandler.scriptSandbox,

@@ -4,6 +4,7 @@
 
 import Foundation
 import Shared
+import Web
 import WebKit
 import os.log
 
@@ -50,7 +51,7 @@ class PrintScriptHandler: TabContentScript {
       return
     }
 
-    if let url = tab.url, let webContentView = tab.webContentView,
+    if let url = tab.visibleURL, case let webContentView = tab.view,
       let viewPrintFormatter = tab.viewPrintFormatter
     {
       // If the main-frame's URL has changed

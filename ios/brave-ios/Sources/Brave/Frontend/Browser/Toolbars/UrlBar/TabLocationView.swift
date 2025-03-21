@@ -13,6 +13,7 @@ import Shared
 import SnapKit
 import Strings
 import UIKit
+import Web
 
 protocol TabLocationViewDelegate {
   func tabLocationViewDidTapLocation(_ tabLocationView: TabLocationView)
@@ -52,7 +53,7 @@ class TabLocationView: UIView {
     }
   }
 
-  var secureContentState: TabSecureContentState = .unknown {
+  var secureContentState: SecureContentState = .unknown {
     didSet {
       updateLeadingItem()
     }
@@ -94,7 +95,7 @@ class TabLocationView: UIView {
     switch secureContentState {
     case .localhost, .secure:
       break
-    case .invalidCert:
+    case .invalidCertificate:
       configuration.baseForegroundColor = UIColor(braveSystemName: .systemfeedbackErrorIcon)
       if isTitleVisible {
         configuration.attributedTitle = title

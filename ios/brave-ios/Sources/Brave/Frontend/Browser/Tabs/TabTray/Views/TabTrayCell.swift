@@ -8,6 +8,7 @@ import Favicon
 import Foundation
 import Shared
 import UIKit
+import Web
 
 class TabCell: UICollectionViewCell {
 
@@ -66,7 +67,7 @@ class TabCell: UICollectionViewCell {
     if !tab.displayTitle.isEmpty {
       accessibilityLabel = tab.displayTitle
     } else {
-      if let url = tab.url {
+      if let url = tab.visibleURL {
         accessibilityLabel = InternalURL(url)?.aboutComponent ?? ""
       } else {
         accessibilityLabel = ""
@@ -81,7 +82,7 @@ class TabCell: UICollectionViewCell {
     // Tab may not be restored and so may not include a tab URL yet...
     if let displayFavicon = tab.displayFavicon {
       favicon.image = displayFavicon.image ?? Favicon.defaultImage
-    } else if let url = tab.url, !url.isLocal, !InternalURL.isValid(url: url) {
+    } else if let url = tab.visibleURL, !url.isLocal, !InternalURL.isValid(url: url) {
       favicon.loadFavicon(for: url, isPrivateBrowsing: tab.isPrivate)
     } else {
       favicon.image = Favicon.defaultImage

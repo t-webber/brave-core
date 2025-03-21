@@ -6,6 +6,7 @@
 import BraveCore
 import Foundation
 import Shared
+import Web
 import WebKit
 
 class HTTPBlockedScriptHandler: TabContentScript {
@@ -51,7 +52,7 @@ class HTTPBlockedScriptHandler: TabContentScript {
   }
 
   private func didProceed(tab: Tab) {
-    guard let url = tab.upgradedHTTPSRequest?.url ?? tab.url?.strippedInternalURL else {
+    guard let url = tab.upgradedHTTPSRequest?.url ?? tab.visibleURL?.strippedInternalURL else {
       //      assertionFailure(
       //        "There should be no way this method can be triggered if the tab is not on an internal url"
       //      )
@@ -71,7 +72,7 @@ class HTTPBlockedScriptHandler: TabContentScript {
 
   @MainActor private func didGoBack(tab: Tab) {
     tab.upgradedHTTPSRequest = nil
-    if tab.backList?.isEmpty == true {
+    if tab.backForwardList?.backList.isEmpty == true {
       // interstitial was opened in a new tab
       tabManager?.addTabToRecentlyClosed(tab)
       tabManager?.removeTab(tab)

@@ -12,6 +12,7 @@ import BraveShared
 import BraveCore
 import os.log
 import BraveTalk
+import Web
 
 class BraveTalkScriptHandler: TabContentScript {
   private weak var rewards: BraveRewards?
@@ -140,7 +141,7 @@ class BraveTalkScriptHandler: TabContentScript {
     tab.rewardsEnabledCallback = { [weak self] success in
       self?.rewardsEnabledReplyHandler?(success, nil)
     }
-    tab.tabDelegate?.showRequestRewardsPanel(tab)
+    tab.miscDelegate?.showRequestRewardsPanel(tab)
   }
 }
 

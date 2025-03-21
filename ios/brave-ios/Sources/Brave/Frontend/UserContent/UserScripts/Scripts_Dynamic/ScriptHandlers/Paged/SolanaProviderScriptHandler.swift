@@ -7,6 +7,7 @@ import BraveCore
 import BraveShared
 import Foundation
 import Strings
+import Web
 import WebKit
 import os.log
 
@@ -398,10 +399,10 @@ class SolanaProviderScriptHandler: TabContentScript {
     )
   }
 
-  @MainActor private func emitConnectEvent(tab: Tab, publicKey: String) async {
+  @MainActor private func emitConnectEvent(tab: Tab, publicKey: String) {
     let script =
       "window.solana.emit('connect', new \(UserScriptManager.walletSolanaNameSpace).solanaWeb3.PublicKey('\(publicKey.htmlEntityEncodedString)'))"
-    await tab.evaluateSafeJavaScript(
+    tab.evaluateJavaScript(
       functionName: script,
       contentWorld: .page,
       asFunction: false

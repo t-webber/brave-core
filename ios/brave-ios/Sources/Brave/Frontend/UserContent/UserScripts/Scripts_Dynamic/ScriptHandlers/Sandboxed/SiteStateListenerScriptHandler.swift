@@ -6,6 +6,7 @@
 import BraveShields
 import Foundation
 import Shared
+import Web
 import WebKit
 import os.log
 
@@ -74,7 +75,7 @@ class SiteStateListenerScriptHandler: TabContentScript {
 
           var cachedStandardSelectors: Set<String> = .init()
           var cachedAggressiveSelectors: Set<String> = .init()
-          if let url = tab.url,
+          if let url = tab.visibleURL,
             let (standard, aggressive) = tab.contentBlocker?.cachedSelectors(for: url)
           {
             cachedStandardSelectors = standard
@@ -98,7 +99,7 @@ class SiteStateListenerScriptHandler: TabContentScript {
             for: .contentCosmetic(setup, proceduralActions: proceduralActions)
           )
 
-          try await tab.evaluateSafeJavaScriptThrowing(
+          try await tab.evaluateJavaScript(
             functionName: script.source,
             frame: message.frameInfo,
             contentWorld: CosmeticFiltersScriptHandler.scriptSandbox,

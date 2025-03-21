@@ -10,6 +10,7 @@ import Growth
 import Preferences
 import Shared
 import UIKit
+import Web
 import os.log
 
 extension BrowserViewController {
@@ -82,7 +83,7 @@ extension BrowserViewController {
 
     // Toogle Reader Mode Activity
     // If the reader mode button is occluded due to a secure content state warning add it as an activity
-    if let tab = tabManager.selectedTab, tab.lastKnownSecureContentState.shouldDisplayWarning {
+    if let tab = tabManager.selectedTab, tab.visibleSecureContentState.shouldDisplayWarning {
       if tab.readerModeAvailableOrActive == true {
         activities.append(
           BasicMenuActivity(
@@ -217,48 +218,43 @@ extension BrowserViewController {
           BasicMenuActivity(
             activityType: .createPDF,
             callback: {
-              tab.createPDF { [weak self] result in
-                dispatchPrecondition(condition: .onQueue(.main))
-                guard let self = self else {
-                  return
-                }
-                switch result {
-                case .success(let pdfData):
-                  Task {
-                    // Create a valid filename
-                    let validFilenameSet = CharacterSet(charactersIn: ":/")
-                      .union(.newlines)
-                      .union(.controlCharacters)
-                      .union(.illegalCharacters)
-                    let filename =
-                      tab.title?.components(separatedBy: validFilenameSet).joined() ?? ""
-                    let url = URL(fileURLWithPath: NSTemporaryDirectory())
-                      .appendingPathComponent("\(filename.isEmpty ? "Untitled" : filename).pdf")
-                    do {
-                      try await Task.detached {
-                        try pdfData.write(to: url)
-                      }.value
-                      let pdfActivityController = UIActivityViewController(
-                        activityItems: [url],
-                        applicationActivities: nil
-                      )
-                      if let popoverPresentationController = pdfActivityController
-                        .popoverPresentationController
-                      {
-                        popoverPresentationController.sourceView = sourceView
-                        popoverPresentationController.sourceRect = sourceRect
-                        popoverPresentationController.permittedArrowDirections = arrowDirection
-                        popoverPresentationController.delegate = self
-                      }
-                      self.present(pdfActivityController, animated: true)
-                    } catch {
-                      Logger.module.error(
-                        "Failed to write PDF to disk: \(error.localizedDescription, privacy: .public)"
-                      )
-                    }
+              Task { @MainActor in
+                do {
+                  guard let pdfData = try await tab.createFullPagePDF() else {
+                    return
                   }
-
-                case .failure(let error):
+                  // Create a valid filename
+                  let validFilenameSet = CharacterSet(charactersIn: ":/")
+                    .union(.newlines)
+                    .union(.controlCharacters)
+                    .union(.illegalCharacters)
+                  let filename =
+                    tab.title?.components(separatedBy: validFilenameSet).joined() ?? ""
+                  let url = URL(fileURLWithPath: NSTemporaryDirectory())
+                    .appendingPathComponent("\(filename.isEmpty ? "Untitled" : filename).pdf")
+                  do {
+                    try await Task.detached {
+                      try pdfData.write(to: url)
+                    }.value
+                    let pdfActivityController = UIActivityViewController(
+                      activityItems: [url],
+                      applicationActivities: nil
+                    )
+                    if let popoverPresentationController = pdfActivityController
+                      .popoverPresentationController
+                    {
+                      popoverPresentationController.sourceView = sourceView
+                      popoverPresentationController.sourceRect = sourceRect
+                      popoverPresentationController.permittedArrowDirections = arrowDirection
+                      popoverPresentationController.delegate = self
+                    }
+                    self.present(pdfActivityController, animated: true)
+                  } catch {
+                    Logger.module.error(
+                      "Failed to write PDF to disk: \(error.localizedDescription, privacy: .public)"
+                    )
+                  }
+                } catch {
                   Logger.module.error(
                     "Failed to create PDF with error: \(error.localizedDescription)"
                   )
@@ -272,8 +268,9 @@ extension BrowserViewController {
       // Add Feed To Brave News Activity
       // Check if it's a feed, url is a temp document file URL
       if let selectedTab = tabManager.selectedTab,
-        selectedTab.mimeType == "application/xml" || selectedTab.mimeType == "application/json",
-        let tabURL = selectedTab.url
+        selectedTab.contentsMimeType == "application/xml"
+          || selectedTab.contentsMimeType == "application/json",
+        let tabURL = selectedTab.visibleURL
       {
 
         let parser = FeedParser(URL: url)
@@ -316,7 +313,7 @@ extension BrowserViewController {
     }
 
     // Display Certificate Activity
-    if let tabURL = tabManager.selectedTab?.url,
+    if let tabURL = tabManager.selectedTab?.visibleURL,
       tabManager.selectedTab?.serverTrust != nil
         || ErrorPageHelper.hasCertificates(for: tabURL)
     {

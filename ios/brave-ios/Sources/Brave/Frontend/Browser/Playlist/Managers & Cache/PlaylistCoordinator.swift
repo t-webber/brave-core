@@ -14,6 +14,7 @@ import Playlist
 import PlaylistUI
 import Preferences
 import Shared
+import Web
 import os.log
 
 /// Coordinates the usage of playlist across the main UI, Picture in Picture and CarPlay
@@ -144,7 +145,9 @@ public class PlaylistCoordinator: NSObject {
     // Even if another controller is presented and even when PIP is enabled in playlist.
     // Therefore we need to stop the page/tab from playing when using playlist.
     // On iPad, media will continue to play with or without the background play setting.
-    tab?.stopMediaPlayback()
+    if let tab {
+      tab.miscDelegate?.stopMediaPlayback(tab)
+    }
 
     if FeatureList.kNewPlaylistUI.enabled {
       let mediaStreamer = PlaylistMediaStreamer(

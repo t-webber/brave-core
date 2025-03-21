@@ -9,6 +9,7 @@ import Foundation
 import Shared
 import SnapKit
 import UIKit
+import Web
 
 /// A view that displays the tab's secure content state and the URL while scrolling into the page
 class CollapsedURLBarView: UIView {
@@ -76,7 +77,7 @@ class CollapsedURLBarView: UIView {
     switch secureContentState {
     case .localhost, .secure:
       break
-    case .invalidCert:
+    case .invalidCertificate:
       configuration.baseForegroundColor = UIColor(braveSystemName: .systemfeedbackErrorIcon)
       if isTitleVisible {
         configuration.attributedTitle = title
@@ -95,7 +96,7 @@ class CollapsedURLBarView: UIView {
     return configuration
   }
 
-  var secureContentState: TabSecureContentState = .unknown {
+  var secureContentState: SecureContentState = .unknown {
     didSet {
       updateLockImageView()
     }

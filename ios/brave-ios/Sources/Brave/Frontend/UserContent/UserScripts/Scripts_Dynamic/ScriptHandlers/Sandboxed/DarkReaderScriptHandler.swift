@@ -6,6 +6,7 @@
 import Foundation
 import Preferences
 import Shared
+import Web
 import WebKit
 
 public class DarkReaderScriptHandler: TabContentScript {
@@ -51,12 +52,12 @@ public class DarkReaderScriptHandler: TabContentScript {
   static func enable(for tab: Tab) {
     // This is needed to ensure that CORS fetches work correctly, otherwise you get this error:
     // "Embedded Dark Reader cannot access a cross-origin resource"
-    tab.evaluateSafeJavaScript(
+    tab.evaluateJavaScript(
       functionName: "DarkReader.setFetchMethod(window.fetch)",
       contentWorld: Self.scriptSandbox,
       asFunction: false
     )
-    tab.evaluateSafeJavaScript(
+    tab.evaluateJavaScript(
       functionName: "DarkReader.enable",
       args: configuration.isEmpty ? [] : [configuration],
       contentWorld: Self.scriptSandbox
@@ -65,7 +66,7 @@ public class DarkReaderScriptHandler: TabContentScript {
 
   /// Disables DarkReader
   static func disable(for tab: Tab) {
-    tab.evaluateSafeJavaScript(
+    tab.evaluateJavaScript(
       functionName: "DarkReader.disable",
       args: [],
       contentWorld: Self.scriptSandbox
@@ -77,18 +78,18 @@ public class DarkReaderScriptHandler: TabContentScript {
     if enabled {
       // This is needed to ensure that CORS fetches work correctly, otherwise you get this error:
       // "Embedded Dark Reader cannot access a cross-origin resource"
-      tab.evaluateSafeJavaScript(
+      tab.evaluateJavaScript(
         functionName: "DarkReader.setFetchMethod(window.fetch)",
         contentWorld: Self.scriptSandbox,
         asFunction: false
       )
-      tab.evaluateSafeJavaScript(
+      tab.evaluateJavaScript(
         functionName: "DarkReader.auto",
         args: configuration.isEmpty ? [] : [configuration],
         contentWorld: Self.scriptSandbox
       )
     } else {
-      tab.evaluateSafeJavaScript(
+      tab.evaluateJavaScript(
         functionName: "DarkReader.auto",
         args: [false],
         contentWorld: Self.scriptSandbox

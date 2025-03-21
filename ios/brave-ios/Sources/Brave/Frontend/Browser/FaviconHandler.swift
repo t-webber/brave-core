@@ -8,6 +8,7 @@ import SDWebImage
 import Shared
 import Storage
 import UIKit
+import Web
 
 class FaviconHandler {
   static let maximumFaviconSize = 1 * 1024 * 1024  // 1 MiB file size limit
@@ -39,7 +40,7 @@ class FaviconHandler {
 
 extension FaviconHandler: TabEventHandler {
   func tab(_ tab: Tab, didLoadPageMetadata metadata: PageMetadata) {
-    if let currentURL = tab.url {
+    if let currentURL = tab.visibleURL {
       Task { @MainActor in
         if let favicon = await FaviconFetcher.getIconFromCache(for: currentURL) {
           tab.favicon = favicon

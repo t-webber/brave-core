@@ -7,6 +7,7 @@ import Foundation
 import MobileCoreServices
 import Shared
 import UniformTypeIdentifiers
+import Web
 import WebKit
 import os.log
 
@@ -37,7 +38,7 @@ class DownloadContentScriptHandler: TabContentScript {
       return false
     }
 
-    tab.evaluateSafeJavaScript(
+    tab.evaluateJavaScript(
       functionName: "window.__firefox__.download",
       args: [safeUrl],
       contentWorld: scriptSandbox

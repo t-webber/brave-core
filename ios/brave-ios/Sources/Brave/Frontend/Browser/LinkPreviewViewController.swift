@@ -5,6 +5,7 @@
 import Data
 import Shared
 import UIKit
+import Web
 import WebKit
 
 class LinkPreviewViewController: UIViewController {
@@ -31,21 +32,21 @@ class LinkPreviewViewController: UIViewController {
       return
     }
 
-    currentTab = Tab(
-      configuration: parentTab.configuration,
-      type: parentTab.isPrivate ? .private : .regular
-    ).then {
-      $0.tabDelegate = browserController
-      $0.createWebview()
-      $0.addPolicyDecider(browserController)
-      $0.webDelegate = browserController
-      $0.downloadDelegate = browserController
-      $0.webScrollView?.layer.masksToBounds = true
-    }
+    let tab = TabFactory.create(
+      with: .init(
+        configurationProvider: { parentTab.configuration },
+        braveCore: browserController.braveCore
+      )
+    )
+    tab.miscDelegate = browserController
+    tab.createWebView()
+    tab.addPolicyDecider(browserController)
+    tab.delegate = browserController
+    tab.downloadDelegate = browserController
+    tab.webViewProxy?.scrollView?.layer.masksToBounds = true
+    self.currentTab = tab
 
-    guard let currentTab = currentTab,
-      let webView = currentTab.webContentView
-    else {
+    guard let currentTab = currentTab else {
       return
     }
 
@@ -59,8 +60,8 @@ class LinkPreviewViewController: UIViewController {
       }
     }
 
-    webView.frame = view.bounds
-    view.addSubview(webView)
+    currentTab.view.frame = view.bounds
+    view.addSubview(currentTab.view)
 
     currentTab.loadRequest(URLRequest(url: url))
   }

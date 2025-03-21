@@ -9,6 +9,7 @@ import Foundation
 import Playlist
 import Preferences
 import Shared
+import Web
 import WebKit
 import os.log
 
@@ -33,15 +34,10 @@ class PlaylistScriptHandler: NSObject, TabContentScript, TabObserver {
   private static let queue = DispatchQueue(label: "com.playlisthelper.queue", qos: .userInitiated)
 
   init(tab: Tab) {
-    self.url = tab.url
+    self.url = tab.visibleURL
     super.init()
 
     tab.addObserver(self)
-    tab.webContentView?.addGestureRecognizer(
-      UILongPressGestureRecognizer(target: self, action: #selector(onLongPressedWebView(_:))).then {
-        $0.delegate = self
-      }
-    )
   }
 
   deinit {
@@ -134,7 +130,7 @@ class PlaylistScriptHandler: NSObject, TabContentScript, TabObserver {
     item = PlaylistInfo(
       name: item.name,
       src: item.src,
-      pageSrc: tab.url?.absoluteString ?? item.pageSrc,
+      pageSrc: tab.visibleURL?.absoluteString ?? item.pageSrc,
       pageTitle: tab.title ?? item.pageTitle,
       mimeType: item.mimeType,
       duration: item.duration,
@@ -217,7 +213,7 @@ class PlaylistScriptHandler: NSObject, TabContentScript, TabObserver {
   // MARK: - TabObserver
 
   func tabDidUpdateURL(_ tab: Tab) {
-    url = tab.url
+    url = tab.visibleURL
     asset?.cancelLoading()
     asset = nil
 
@@ -226,53 +222,6 @@ class PlaylistScriptHandler: NSObject, TabContentScript, TabObserver {
 
   func tabWillBeDestroyed(_ tab: Tab) {
     tab.removeObserver(self)
-  }
-}
-
-extension PlaylistScriptHandler: UIGestureRecognizerDelegate {
-  @objc
-  func onLongPressedWebView(_ gestureRecognizer: UILongPressGestureRecognizer) {
-    if gestureRecognizer.state == .began,
-      let webView = gestureRecognizer.view as? TabWebView,
-      Preferences.Playlist.enableLongPressAddToPlaylist.value
-    {
-
-      // If this URL is blocked from Playlist support, do nothing
-      if url?.isPlaylistBlockedSiteURL == true {
-        return
-      }
-
-      let touchPoint = gestureRecognizer.location(in: webView)
-
-      webView.evaluateSafeJavaScript(
-        functionName: "window.__firefox__.\(PlaylistScriptHandler.playlistLongPressed)",
-        args: [touchPoint.x, touchPoint.y, Self.scriptId],
-        contentWorld: Self.scriptSandbox,
-        asFunction: true
-      ) { _, error in
-
-        if let error = error {
-          Logger.module.error("Error executing onLongPressActivated: \(error.localizedDescription)")
-        }
-      }
-    }
-  }
-
-  func gestureRecognizer(
-    _ gestureRecognizer: UIGestureRecognizer,
-    shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer
-  ) -> Bool {
-    if otherGestureRecognizer.isKind(of: UILongPressGestureRecognizer.self) {
-      return true
-    }
-    return false
-  }
-
-  func gestureRecognizer(
-    _ gestureRecognizer: UIGestureRecognizer,
-    shouldBeRequiredToFailBy otherGestureRecognizer: UIGestureRecognizer
-  ) -> Bool {
-    return false
   }
 }
 
@@ -287,39 +236,38 @@ extension PlaylistScriptHandler {
       return
     }
 
-    tab.evaluateSafeJavaScript(
-      functionName: "window.__firefox__.\(mediaCurrentTimeFromTag)",
-      args: [nodeTag, Self.scriptId],
-      contentWorld: Self.scriptSandbox,
-      asFunction: true
-    ) { value, error in
-
-      if let error = error {
-        Logger.module.error(
-          "Error Retrieving Playlist Page Media Current Time: \(error.localizedDescription)"
+    Task { @MainActor in
+      do {
+        let value = try await tab.evaluateJavaScript(
+          functionName: "window.__firefox__.\(mediaCurrentTimeFromTag)",
+          args: [nodeTag, Self.scriptId],
+          contentWorld: Self.scriptSandbox,
+          asFunction: true
         )
-      }
-
-      DispatchQueue.main.async {
         if let value = value as? Double {
           completion(value)
         } else {
           completion(0.0)
         }
+      } catch {
+        Logger.module.error(
+          "Error Retrieving Playlist Page Media Current Time: \(error.localizedDescription)"
+        )
       }
     }
   }
 
   static func stopPlayback(tab: Tab?) {
     guard let tab = tab else { return }
-
-    tab.evaluateSafeJavaScript(
-      functionName: "window.__firefox__.\(stopMediaPlayback)",
-      args: [Self.scriptId],
-      contentWorld: Self.scriptSandbox,
-      asFunction: true
-    ) { value, error in
-      if let error = error {
+    Task {
+      do {
+        try await tab.evaluateJavaScript(
+          functionName: "window.__firefox__.\(stopMediaPlayback)",
+          args: [Self.scriptId],
+          contentWorld: Self.scriptSandbox,
+          asFunction: true
+        )
+      } catch {
         Logger.module.error(
           "Error Retrieving Stopping Media Playback: \(error.localizedDescription)"
         )

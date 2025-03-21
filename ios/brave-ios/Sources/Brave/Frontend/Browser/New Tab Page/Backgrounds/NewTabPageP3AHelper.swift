@@ -8,6 +8,7 @@ import Foundation
 import Growth
 import OSLog
 import Preferences
+import Web
 
 /// A P3A helper that will handle reporting dynamic P3A metrics around NTP SI interactions
 ///
@@ -63,7 +64,7 @@ final class NewTabPageP3AHelper {
         [weak self, weak tab] _ in
         guard let self = self, let tab = tab else { return }
         if let expectedURL = self.expectedLandingURL, expectedURL.isWebPage(),
-          tab.url?.host == expectedURL.host
+          tab.visibleURL?.host == expectedURL.host
         {
           self.recordEvent(.landed, on: tab, for: sponsoredImage)
         }

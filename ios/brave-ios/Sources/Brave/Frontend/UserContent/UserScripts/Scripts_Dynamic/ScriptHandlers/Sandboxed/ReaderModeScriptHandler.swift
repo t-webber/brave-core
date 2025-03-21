@@ -5,6 +5,7 @@
 import Foundation
 import Shared
 import SwiftyJSON
+import Web
 import WebKit
 import os.log
 
@@ -339,7 +340,7 @@ class ReaderModeScriptHandler: TabContentScript {
 
   func setStyle(_ style: ReaderModeStyle, in tab: Tab) {
     if state == ReaderModeState.active {
-      tab.evaluateSafeJavaScript(
+      tab.evaluateJavaScript(
         functionName: "\(readerModeNamespace).setStyle",
         args: [style.encode()],
         contentWorld: Self.scriptSandbox,
@@ -351,12 +352,8 @@ class ReaderModeScriptHandler: TabContentScript {
   }
 
   static func cache(for tab: Tab?) -> ReaderModeCache {
-    switch TabType.of(tab) {
-    case .regular:
-      return DiskReaderModeCache.sharedInstance
-    case .private:
-      return MemoryReaderModeCache.sharedInstance
-    }
+    guard let tab else { return MemoryReaderModeCache.sharedInstance }
+    return tab.isPrivate ? MemoryReaderModeCache.sharedInstance : DiskReaderModeCache.sharedInstance
   }
 
 }

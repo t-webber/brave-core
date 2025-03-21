@@ -7,6 +7,7 @@ import Data
 import Foundation
 import Preferences
 import Shared
+import Web
 
 class PageZoomHandler: ObservableObject {
 
@@ -37,11 +38,11 @@ class PageZoomHandler: ObservableObject {
 
     if let tab {
       // Fetch the current value for zoom
-      if let url = tab.url, let domain = Domain.getPersistedDomain(for: url) {
+      if let url = tab.visibleURL, let domain = Domain.getPersistedDomain(for: url) {
         currentValue =
           domain.zoom_level?.doubleValue ?? Preferences.General.defaultPageZoomLevel.value
       } else {
-        currentValue = tab.pageZoomLevel
+        currentValue = tab.viewScale
       }
     }
   }
@@ -71,8 +72,8 @@ class PageZoomHandler: ObservableObject {
   }
 
   private func storeChanges() {
-    guard let tab, let url = tab.url else { return }
-    tab.pageZoomLevel = currentValue
+    guard let tab, let url = tab.visibleURL else { return }
+    tab.viewScale = currentValue
 
     // Do NOT store the changes in the Domain
     if !isPrivateBrowsing {

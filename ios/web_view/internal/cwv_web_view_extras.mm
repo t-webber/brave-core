@@ -139,4 +139,12 @@ const CWVUserAgentType CWVUserAgentTypeDesktop =
   return net::NSURLWithGURL(item->GetOriginalRequestURL());
 }
 
+- (NSString*)contentsMIMEType {
+  return base::SysUTF8ToNSString(self.webState->GetContentsMimeType());
+}
+
+- (NSDate*)lastActiveTime {
+  return self.webState->GetLastActiveTime().ToNSDate();
+}
+
 @end

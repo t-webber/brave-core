@@ -7,6 +7,7 @@ import BraveUI
 import Foundation
 import Preferences
 import Shared
+import Web
 import WebKit
 
 class YoutubeQualityScriptHandler: NSObject, TabContentScript, TabObserver {
@@ -14,7 +15,7 @@ class YoutubeQualityScriptHandler: NSObject, TabContentScript, TabObserver {
   private var urlObserver: NSObjectProtocol?
 
   init(tab: Tab) {
-    self.url = tab.url
+    self.url = tab.visibleURL
     super.init()
 
     tab.addObserver(self)
@@ -52,7 +53,7 @@ class YoutubeQualityScriptHandler: NSObject, TabContentScript, TabObserver {
   static func setEnabled(option: Preferences.Option<String>, for tab: Tab) {
     let enabled = canEnableHighQuality(option: option)
 
-    tab.evaluateSafeJavaScript(
+    tab.evaluateJavaScript(
       functionName: "window.__firefox__.\(Self.setQuality)",
       args: [enabled ? Self.highestQuality : "''"],
       contentWorld: Self.scriptSandbox,
@@ -97,12 +98,12 @@ class YoutubeQualityScriptHandler: NSObject, TabContentScript, TabObserver {
   // MARK: - TabObserver
 
   func tabDidUpdateURL(_ tab: Tab) {
-    if url?.withoutFragment == tab.url?.withoutFragment {
+    if url?.withoutFragment == tab.visibleURL?.withoutFragment {
       return
     }
 
-    url = tab.url
-    tab.evaluateSafeJavaScript(
+    url = tab.visibleURL
+    tab.evaluateJavaScript(
       functionName: "window.__firefox__.\(Self.refreshQuality)",
       contentWorld: Self.scriptSandbox,
       asFunction: true

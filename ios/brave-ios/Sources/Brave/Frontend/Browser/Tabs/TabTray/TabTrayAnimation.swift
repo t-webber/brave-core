@@ -84,7 +84,7 @@ extension TabTrayController: BasicAnimationControllerDelegate {
       var tabCell: TabCell?
       var cellFrame: CGRect?
       var cellTitleSnapshot: UIView?
-      if let indexPath = dataSource.indexPath(for: selectedTab) {
+      if let indexPath = dataSource.indexPath(for: selectedTab.id) {
         // This is needed for some reason otherwise the collection views content offest is
         // incorrect.
         cv.scrollToItem(at: indexPath, at: .centeredVertically, animated: false)
@@ -227,7 +227,7 @@ extension TabTrayController: BasicAnimationControllerDelegate {
 
       var tabCell: TabCell?
       var cellTitleSnapshot: UIView?
-      if let tab = tabManager.selectedTab, let indexPath = dataSource.indexPath(for: tab) {
+      if let tab = tabManager.selectedTab, let indexPath = dataSource.indexPath(for: tab.id) {
         // This is needed for some reason otherwise the collection views content offest is
         // incorrect.
         cv.scrollToItem(at: indexPath, at: .centeredVertically, animated: false)

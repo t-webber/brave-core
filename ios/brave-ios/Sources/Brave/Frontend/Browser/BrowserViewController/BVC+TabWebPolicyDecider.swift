@@ -14,115 +14,10 @@ import OSLog
 import Preferences
 import Shared
 import UIKit
+import Web
 
-/// Decides the navigation policy for a tab's navigations
-protocol TabWebPolicyDecider: AnyObject {
-  /// Decide whether or not a request should be allowed
-  func tab(
-    _ tab: Tab,
-    shouldAllowRequest request: URLRequest,
-    requestInfo: WebRequestInfo
-  ) async -> WebPolicyDecision
-
-  /// Decide whether or not a response should be allowed
-  func tab(
-    _ tab: Tab,
-    shouldAllowResponse response: URLResponse,
-    responseInfo: WebResponseInfo
-  ) async -> WebPolicyDecision
-}
-
-extension TabWebPolicyDecider {
-  func tab(
-    _ tab: Tab,
-    shouldAllowRequest: URLRequest,
-    requestInfo: WebRequestInfo
-  ) async -> WebPolicyDecision {
-    return .allow
-  }
-
-  func tab(
-    _ tab: Tab,
-    shouldAllowResponse: URLResponse,
-    responseInfo: WebResponseInfo
-  ) async -> WebPolicyDecision {
-    return .allow
-  }
-}
-
-class AnyTabWebPolicyDecider: TabWebPolicyDecider, Hashable {
-  var id: ObjectIdentifier
-
-  private let _shouldAllowRequest: (Tab, URLRequest, WebRequestInfo) async -> WebPolicyDecision
-  private let _shouldAllowResponse: (Tab, URLResponse, WebResponseInfo) async -> WebPolicyDecision
-
-  init(_ policyDecider: some TabWebPolicyDecider) {
-    id = ObjectIdentifier(policyDecider)
-    _shouldAllowRequest = { [weak policyDecider] in
-      await policyDecider?.tab($0, shouldAllowRequest: $1, requestInfo: $2) ?? .allow
-    }
-    _shouldAllowResponse = { [weak policyDecider] in
-      await policyDecider?.tab($0, shouldAllowResponse: $1, responseInfo: $2) ?? .allow
-    }
-  }
-
-  func tab(
-    _ tab: Tab,
-    shouldAllowRequest request: URLRequest,
-    requestInfo: WebRequestInfo
-  ) async -> WebPolicyDecision {
-    return await _shouldAllowRequest(tab, request, requestInfo)
-  }
-
-  func tab(
-    _ tab: Tab,
-    shouldAllowResponse response: URLResponse,
-    responseInfo: WebResponseInfo
-  ) async -> WebPolicyDecision {
-    return await _shouldAllowResponse(tab, response, responseInfo)
-  }
-
-  static func == (lhs: AnyTabWebPolicyDecider, rhs: AnyTabWebPolicyDecider) -> Bool {
-    lhs.id == rhs.id
-  }
-
-  func hash(into hasher: inout Hasher) {
-    hasher.combine(id)
-  }
-}
-
-/// The policy to pass back to a policy decider
-enum WebPolicyDecision {
-  case allow
-  case cancel
-}
-
-/// The type of action triggering a navigation
-enum WebNavigationType: Int {
-  case linkActivated
-  case formSubmitted
-  case backForward
-  case reload
-  case formResubmitted
-  case other = -1
-}
-
-/// Information about an action that may trigger a navigation, which can be used to make policy
-/// decisions.
-struct WebRequestInfo {
-  var navigationType: WebNavigationType
-  var isMainFrame: Bool
-  var isNewWindow: Bool
-  var isUserInitiated: Bool
-}
-
-/// Information about a navigation response that can be used to make policy decisions
-struct WebResponseInfo {
-  var isForMainFrame: Bool
-}
-
-extension BrowserViewController: TabWebPolicyDecider {
-  func tab(
+extension BrowserViewController: TabPolicyDecider {
+  public func tab(
     _ tab: Tab,
     shouldAllowResponse response: URLResponse,
     responseInfo: WebResponseInfo
@@ -132,7 +27,7 @@ extension BrowserViewController: TabWebPolicyDecider {
 
     // Store the response in the tab
     if let responseURL = responseURL {
-      tab.responses[responseURL] = response
+      //      tab.responses[responseURL] = response
     }
 
     // Check if we upgraded to https and if so we need to update the url of frame evaluations
@@ -173,14 +68,12 @@ extension BrowserViewController: TabWebPolicyDecider {
       } else {
         tab.temporaryDocument = nil
       }
-
-      tab.mimeType = response.mimeType
     }
 
     return .allow
   }
 
-  func tab(
+  public func tab(
     _ tab: Tab,
     shouldAllowRequest request: URLRequest,
     requestInfo: WebRequestInfo
@@ -298,7 +191,7 @@ extension BrowserViewController: TabWebPolicyDecider {
       let result = await decentralizedDNSHelper.lookup(
         domain: requestURL.schemelessAbsoluteDisplayString
       )
-      topToolbar.locationView.loading = tabManager.selectedTab?.loading ?? false
+      topToolbar.locationView.loading = tabManager.selectedTab?.isLoading ?? false
       guard !Task.isCancelled else {  // user pressed stop, or typed new url
         return .cancel
       }
@@ -355,7 +248,7 @@ extension BrowserViewController: TabWebPolicyDecider {
 
         // Forget any websites that have "forget me" enabled
         // if we navigated away from the previous domain
-        if let currentURL = tab.url,
+        if let currentURL = tab.visibleURL,
           !InternalURL.isValid(url: currentURL),
           let currentETLDP1 = currentURL.baseDomain,
           mainDocumentURL.baseDomain != currentETLDP1
@@ -566,7 +459,7 @@ extension BrowserViewController: TabWebPolicyDecider {
       )
 
       // Reset the block alert bool on new host.
-      if let newHost: String = requestURL.host, let oldHost: String = tab.url?.host,
+      if let newHost: String = requestURL.host, let oldHost: String = tab.visibleURL?.host,
         newHost != oldHost
       {
         self.tabManager.selectedTab?.alertShownCount = 0
@@ -678,7 +571,7 @@ extension BrowserViewController {
     // (i.e. appropriate settings are enabled for that redirect rule)
     if let debounceService = DebounceServiceFactory.get(privateMode: tab.isPrivate),
       debounceService.isEnabled,
-      let currentURL = tab.url,
+      let currentURL = tab.visibleURL,
       currentURL.baseDomain != requestURL.baseDomain
     {
       if let redirectURL = debounceService.debounce(requestURL) {
@@ -688,7 +581,7 @@ extension BrowserViewController {
         // Also strip query params if debouncing
         modifiedRequest =
           modifiedRequest.stripQueryParams(
-            initiatorURL: tab.committedURL,
+            initiatorURL: tab.lastCommittedURL,
             redirectSourceURL: requestURL,
             isInternalRedirect: false
           ) ?? modifiedRequest
@@ -708,7 +601,7 @@ extension BrowserViewController {
 
     // Handle query param stripping
     if let request = request.stripQueryParams(
-      initiatorURL: tab.committedURL,
+      initiatorURL: tab.lastCommittedURL,
       redirectSourceURL: tab.redirectSourceURL,
       isInternalRedirect: tab.isInternalRedirect == true
     ) {
@@ -750,7 +643,7 @@ extension BrowserViewController {
             if let url = modifiedRequest.url,
               let request = handleInvalidHTTPSUpgrade(tab: tab, responseURL: url)
             {
-              tab.stop()
+              tab.stopLoading()
               tab.loadRequest(request)
             }
           }
@@ -831,19 +724,19 @@ extension BrowserViewController {
   ) async -> Bool {
     // Do not open external links for child tabs automatically
     // The user must tap on the link to open it.
-    if tab.parent != nil && requestInfo.navigationType != .linkActivated {
+    if tab.opener != nil && requestInfo.navigationType != .linkActivated {
       return false
     }
 
     // Check if the current url of the caller has changed
-    if let domain = tab.url?.baseDomain,
+    if let domain = tab.visibleURL?.baseDomain,
       domain != tab.externalAppURLDomain
     {
       tab.externalAppAlertCounter = 0
       tab.isExternalAppAlertSuppressed = false
     }
 
-    tab.externalAppURLDomain = tab.url?.baseDomain
+    tab.externalAppURLDomain = tab.visibleURL?.baseDomain
 
     // Do not try to present over existing warning
     if let tabData = tab.browserData,
@@ -865,13 +758,13 @@ extension BrowserViewController {
       let displayHost =
         "\(origin.scheme)://\(origin.host):\(origin.port)"
       alertTitle = String(format: Strings.openExternalAppURLTitle, displayHost)
-    } else if let displayHost = tab.url?.withoutWWW.host {
+    } else if let displayHost = tab.visibleURL?.withoutWWW.host {
       alertTitle = String(format: Strings.openExternalAppURLTitle, displayHost)
     }
 
     // Handling condition when Tab is empty when handling an external URL we should remove the tab once the user decides
     let removeTabIfEmpty = { [weak self] in
-      if tab.url == nil {
+      if tab.visibleURL == nil {
         self?.tabManager.removeTab(tab)
       }
     }

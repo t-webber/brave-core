@@ -7,6 +7,7 @@ import BraveCore
 import Foundation
 import Preferences
 import Shared
+import Web
 import WebKit
 import os.log
 
@@ -56,7 +57,7 @@ class BraveTranslateScriptHandler: NSObject, TabContentScript {
   }
 
   static func checkTranslate(tab: Tab) {
-    tab.evaluateSafeJavaScript(
+    tab.evaluateJavaScript(
       functionName:
         """
         try {
@@ -76,8 +77,8 @@ class BraveTranslateScriptHandler: NSObject, TabContentScript {
     replyHandler: @escaping (Any?, String?) -> Void
   ) {
     // Setup
-    let isReaderMode = tab.url?.isInternalURL(for: .readermode) == true
-    if tab.lastKnownSecureContentState != .secure && !isReaderMode {
+    let isReaderMode = tab.visibleURL?.isInternalURL(for: .readermode) == true
+    if tab.visibleSecureContentState != .secure && !isReaderMode {
       Logger.module.debug("Translation Disabled - Insecure Page")
       replyHandler(nil, BraveTranslateError.translateDisabled.rawValue)
       return

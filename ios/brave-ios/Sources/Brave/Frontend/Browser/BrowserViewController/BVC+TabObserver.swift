@@ -3,17 +3,120 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
+import BraveCore
 import BraveUI
 import BraveWallet
 import Foundation
 import Preferences
 import Shared
+import Web
 
 extension BrowserViewController: TabObserver {
-  func tabDidStartNavigation(_ tab: Tab) {
+  public func tab(_ tab: Web.Tab, didCreateWebView webView: UIView) {
+    webView.frame = webViewContainer.frame
+
+    var injectedScripts: [TabContentScript] = [
+      ReaderModeScriptHandler(),
+      ErrorPageHelper(certStore: profile.certStore),
+      BlockedDomainScriptHandler(),
+      HTTPBlockedScriptHandler(tabManager: tabManager),
+      PrintScriptHandler(browserController: self),
+      CustomSearchScriptHandler(),
+      DarkReaderScriptHandler(),
+      FocusScriptHandler(),
+      BraveGetUA(),
+      BraveSearchScriptHandler(profile: profile, rewards: rewards),
+      ResourceDownloadScriptHandler(),
+      DownloadContentScriptHandler(browserController: self),
+      PlaylistScriptHandler(tab: tab),
+      PlaylistFolderSharingScriptHandler(),
+      AdsMediaReportingScriptHandler(rewards: rewards),
+      ReadyStateScriptHandler(),
+      DeAmpScriptHandler(),
+      SiteStateListenerScriptHandler(),
+      CosmeticFiltersScriptHandler(),
+      URLPartinessScriptHandler(),
+      FaviconScriptHandler(),
+      Web3NameServiceScriptHandler(),
+      YoutubeQualityScriptHandler(tab: tab),
+      BraveLeoScriptHandler(),
+      BraveSkusScriptHandler(),
+    ]
+
+    if let contentBlocker = tab.contentBlocker {
+      injectedScripts.append(contentBlocker)
+    }
+    if let requestBlockingContentHelper = tab.requestBlockingContentHelper {
+      injectedScripts.append(requestBlockingContentHelper)
+    }
+
+    #if canImport(BraveTalk)
+    injectedScripts.append(
+      BraveTalkScriptHandler(
+        rewards: rewards,
+        launchNativeBraveTalk: { [weak self] tab, room, token in
+          self?.launchNativeBraveTalk(tab: tab, room: room, token: token)
+        }
+      )
+    )
+    #endif
+
+    // Only add the logins handler and wallet provider if the tab is NOT a private browsing tab
+    if !tab.isPrivate {
+      injectedScripts += [
+        LoginsScriptHandler(profile: profile, passwordAPI: braveCore.passwordAPI),
+        EthereumProviderScriptHandler(),
+        SolanaProviderScriptHandler(),
+        BraveSearchResultAdScriptHandler(),
+      ]
+    }
+
+    if FeatureList.kBraveTranslateEnabled.enabled {
+      injectedScripts.append(contentsOf: [
+        BraveTranslateScriptLanguageDetectionHandler(),
+        BraveTranslateScriptHandler(),
+      ])
+    }
+
+    // XXX: Bug 1390200 - Disable NSUserActivity/CoreSpotlight temporarily
+    // let spotlightHelper = SpotlightHelper(tab: tab)
+    // tab.addHelper(spotlightHelper, name: SpotlightHelper.name())
+
+    injectedScripts.forEach {
+      tab.browserData?.addContentScript(
+        $0,
+        name: type(of: $0).scriptName,
+        contentWorld: type(of: $0).scriptSandbox
+      )
+    }
+
+    (tab.browserData?.getContentScript(name: ReaderModeScriptHandler.scriptName)
+      as? ReaderModeScriptHandler)?
+      .delegate = self
+    (tab.browserData?.getContentScript(name: PlaylistScriptHandler.scriptName)
+      as? PlaylistScriptHandler)?
+      .delegate = self
+    (tab.browserData?.getContentScript(name: PlaylistFolderSharingScriptHandler.scriptName)
+      as? PlaylistFolderSharingScriptHandler)?.delegate = self
+    (tab.browserData?.getContentScript(name: Web3NameServiceScriptHandler.scriptName)
+      as? Web3NameServiceScriptHandler)?.delegate = self
+
+    // Translate Helper
+    tab.translateHelper = BraveTranslateTabHelper(tab: tab, delegate: self)
+  }
+
+  public func tab(_ tab: Web.Tab, willDeleteWebView webView: UIView) {
+    tab.browserData?.cancelQueuedAlerts()
+    if let scrollView = tab.webViewProxy?.scrollView {
+      toolbarVisibilityViewModel.endScrollViewObservation(scrollView)
+    }
+    webView.removeFromSuperview()
+  }
+
+  public func tabDidStartNavigation(_ tab: Tab) {
     tab.contentBlocker?.clearPageStats()
 
-    let visibleURL = tab.url
+    let visibleURL = tab.visibleURL
 
     if tab === tabManager.selectedTab {
       toolbarVisibilityViewModel.toolbarState = .expanded
@@ -37,7 +140,7 @@ extension BrowserViewController: TabObserver {
 
     // check if web view is loading a different origin than the one currently loaded
     if let selectedTab = tabManager.selectedTab,
-      selectedTab.url?.origin != visibleURL?.origin
+      selectedTab.visibleURL?.origin != visibleURL?.origin
     {
       // new site has a different origin, hide wallet icon.
       tabManager.selectedTab?.isWalletIconVisible = false
@@ -56,11 +159,11 @@ extension BrowserViewController: TabObserver {
     // Reset redirect chain
     tab.redirectChain = []
     if let url = visibleURL {
-      tab.redirectChain.append(url)
+      tab.redirectChain?.append(url)
     }
   }
 
-  func tabDidCommitNavigation(_ tab: Tab) {
+  public func tabDidCommitNavigation(_ tab: Tab) {
     // Reset the stored http request now that load has committed.
     tab.upgradedHTTPSRequest = nil
     tab.upgradeHTTPSTimeoutTimer?.invalidate()
@@ -109,7 +212,7 @@ extension BrowserViewController: TabObserver {
     // before the tab is considered loaded.
     rewards.maybeNotifyTabDidChange(
       tab: tab,
-      isSelected: tabManager.selectedTab == tab
+      isSelected: tabManager.selectedTab === tab
     )
     rewards.maybeNotifyTabDidLoad(tab: tab)
 
@@ -124,7 +227,7 @@ extension BrowserViewController: TabObserver {
     updateBackForwardActionStatus(for: tab)
   }
 
-  func tabDidFinishNavigation(_ tab: Tab) {
+  public func tabDidFinishNavigation(_ tab: Tab) {
     if !Preferences.Privacy.privateBrowsingOnly.value
       && (!tab.isPrivate || Preferences.Privacy.persistentPrivateBrowsing.value)
     {
@@ -157,10 +260,10 @@ extension BrowserViewController: TabObserver {
     navigateInTab(tab: tab)
     rewards.reportTabUpdated(
       tab: tab,
-      isSelected: tabManager.selectedTab == tab,
+      isSelected: tabManager.selectedTab === tab,
       isPrivate: privateBrowsingManager.isPrivateBrowsing
     )
-    tab.browserData?.reportPageLoad(to: rewards, redirectChain: tab.redirectChain)
+    tab.browserData?.reportPageLoad(to: rewards, redirectChain: tab.redirectChain ?? [])
     // Reset `rewardsReportingState` tab property so that listeners
     // can be notified of tab changes when a new navigation happens.
     tab.rewardsReportingState = RewardsTabChangeReportingState()
@@ -170,16 +273,16 @@ extension BrowserViewController: TabObserver {
       await tab.browserData?.updateSolanaProperties()
     }
 
-    if tab.url?.isLocal == false {
+    if tab.visibleURL?.isLocal == false {
       // Set rewards inter site url as new page load url.
-      tab.rewardsXHRLoadURL = tab.url
+      tab.rewardsXHRLoadURL = tab.visibleURL
     }
 
     if tab.walletEthProvider != nil {
       tab.browserData?.emitEthereumEvent(.connect)
     }
 
-    if let lastCommittedURL = tab.committedURL {
+    if let lastCommittedURL = tab.lastCommittedURL {
       maybeRecordBraveSearchDailyUsage(url: lastCommittedURL)
     }
 
@@ -190,7 +293,7 @@ extension BrowserViewController: TabObserver {
     recordFinishedPageLoadP3A()
   }
 
-  func tab(_ tab: Tab, didFailNavigationWithError error: any Error) {
+  public func tab(_ tab: Tab, didFailNavigationWithError error: any Error) {
     let error = error as NSError
     if error.code == Int(CFNetworkErrors.cfurlErrorCancelled.rawValue) {
       // load cancelled / user stopped load. Cancel https upgrade fallback timer.
@@ -198,8 +301,9 @@ extension BrowserViewController: TabObserver {
       tab.upgradeHTTPSTimeoutTimer?.invalidate()
       tab.upgradeHTTPSTimeoutTimer = nil
 
+      // FIXME: Tab.visibleURL
       if tab === tabManager.selectedTab {
-        if let displayURL = tab.url?.displayURL {
+        if let displayURL = tab.visibleURL?.displayURL {
           updateToolbarCurrentURL(displayURL)
         } else if let url = tab.visibleURL, !url.isLocal, !InternalURL.isValid(url: url) {
           updateToolbarCurrentURL(url.displayURL)
@@ -219,16 +323,21 @@ extension BrowserViewController: TabObserver {
       {
         // load original or strict mode interstitial
         tab.loadRequest(response)
+        return
+      }
+
+      if !FeatureList.kUseChromiumWebViews.enabled {
+        ErrorPageHelper(certStore: profile.certStore).loadPage(error, forUrl: url, inTab: tab)
       }
     }
   }
 
-  func tabDidUpdateURL(_ tab: Tab) {
+  public func tabDidUpdateURL(_ tab: Tab) {
     if tab === tabManager.selectedTab && !tab.isRestoring {
       updateUIForReaderHomeStateForTab(tab)
     }
 
-    if tab.url?.origin == tab.previousComittedURL?.origin {
+    if tab.visibleURL?.origin == tab.previousCommittedURL?.origin {
       // Catch history pushState navigation, but ONLY for same origin navigation,
       // for reasons above about URL spoofing risk.
       navigateInTab(tab: tab)
@@ -238,12 +347,13 @@ extension BrowserViewController: TabObserver {
       // If navigation will start from NTP, tab display url will be nil until
       // didCommit is called and it will cause url bar be empty in that period
       // To fix this when tab display url is empty, webview url is used
-      if tab === tabManager.selectedTab, tab.url?.displayURL == nil {
+      if tab === tabManager.selectedTab, tab.visibleURL?.displayURL == nil {
+        // FIXME: Tab.visibleURL
         if let url = tab.visibleURL, !url.isLocal, !InternalURL.isValid(url: url) {
           updateToolbarCurrentURL(url.displayURL)
         }
-      } else if tab === tabManager.selectedTab, tab.url?.displayURL?.scheme == "about",
-        !tab.loading
+      } else if tab === tabManager.selectedTab, tab.visibleURL?.displayURL?.scheme == "about",
+        !tab.isLoading
       {
         if !tab.isRestoring {
           updateUIForReaderHomeStateForTab(tab)
@@ -260,7 +370,7 @@ extension BrowserViewController: TabObserver {
     }
 
     // Rewards reporting
-    if let url = tab.url, !url.isLocal {
+    if let url = tab.visibleURL, !url.isLocal {
       // Notify Brave Rewards library of the same document navigation.
       if let tab = tabManager.selectedTab,
         let rewardsURL = tab.rewardsXHRLoadURL,
@@ -279,15 +389,15 @@ extension BrowserViewController: TabObserver {
     }
 
     Task {
-      await tab.updateSecureContentState()
       if self.tabManager.selectedTab === tab {
-        self.updateToolbarSecureContentState(tab.lastKnownSecureContentState)
+        self.updateToolbarSecureContentState(tab.visibleSecureContentState)
       }
     }
   }
 
-  func tabDidChangeLoadProgress(_ tab: Tab) {
+  public func tabDidChangeLoadProgress(_ tab: Tab) {
     guard tab === tabManager.selectedTab else { return }
+    // FIXME: Tab.visibleURL
     if let url = tab.visibleURL, !InternalURL.isValid(url: url) {
       topToolbar.updateProgressBar(Float(tab.estimatedProgress))
     } else {
@@ -295,24 +405,24 @@ extension BrowserViewController: TabObserver {
     }
   }
 
-  func tabDidStartLoading(_ tab: Tab) {
+  public func tabDidStartLoading(_ tab: Tab) {
     guard tab === tabManager.selectedTab else { return }
-    topToolbar.locationView.loading = tab.loading
+    topToolbar.locationView.loading = tab.isLoading
   }
 
-  func tabDidStopLoading(_ tab: Tab) {
+  public func tabDidStopLoading(_ tab: Tab) {
     guard tab === tabManager.selectedTab else { return }
-    topToolbar.locationView.loading = tab.loading
+    topToolbar.locationView.loading = tab.isLoading
     if tab.estimatedProgress != 1 {
       topToolbar.updateProgressBar(1)
     }
   }
 
-  func tabDidChangeTitle(_ tab: Tab) {
+  public func tabDidChangeTitle(_ tab: Tab) {
     // Ensure that the tab title *actually* changed to prevent repeated calls
     // to navigateInTab(tab:).
     guard
-      let title = (tab.title?.isEmpty == true ? tab.url?.absoluteString : tab.title)
+      let title = (tab.title?.isEmpty == true ? tab.visibleURL?.absoluteString : tab.title)
     else { return }
     if !title.isEmpty && title != tab.lastTitle {
       navigateInTab(tab: tab)
@@ -320,18 +430,18 @@ extension BrowserViewController: TabObserver {
     }
   }
 
-  func tabDidChangeBackForwardState(_ tab: Tab) {
+  public func tabDidChangeBackForwardState(_ tab: Tab) {
     if tab !== tabManager.selectedTab { return }
     updateBackForwardActionStatus(for: tab)
   }
 
-  func tabDidChangeVisibleSecurityState(_ tab: Tab) {
+  public func tabDidChangeVisibleSecurityState(_ tab: Tab) {
     if tabManager.selectedTab === tab {
-      self.updateToolbarSecureContentState(tab.lastKnownSecureContentState)
+      self.updateToolbarSecureContentState(tab.visibleSecureContentState)
     }
   }
 
-  func tabDidChangeSampledPageTopColor(_ tab: Tab) {
+  public func tabDidChangeSampledPageTopColor(_ tab: Tab) {
     if tabManager.selectedTab === tab {
       updateStatusBarOverlayColor()
     }

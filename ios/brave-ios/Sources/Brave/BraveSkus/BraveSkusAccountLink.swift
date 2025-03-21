@@ -7,6 +7,7 @@ import AIChat
 import BraveStore
 import Foundation
 import Preferences
+import Web
 import WebKit
 import os.log
 
@@ -67,7 +68,7 @@ class BraveSkusAccountLink {
     product: BraveStoreProduct
   ) async -> Bool {
     // The WebView has no URL so do nothing
-    guard let url = tab.url else {
+    guard let url = tab.visibleURL else {
       return false
     }
 
@@ -92,7 +93,7 @@ class BraveSkusAccountLink {
       let receipt = try BraveSkusSDK.receipt(for: product)
 
       // Inject the receipt into LocalStorage
-      try await tab.evaluateSafeJavaScriptThrowing(
+      try? await tab.evaluateJavaScript(
         functionName: "localStorage.setItem",
         args: [storageKey, receipt],
         contentWorld: .defaultClient
@@ -100,7 +101,7 @@ class BraveSkusAccountLink {
 
       // Brave-Leo requires Order-ID to be injected into LocalStorage.
       if let orderId = Preferences.AIChat.subscriptionOrderId.value {
-        try await tab.evaluateSafeJavaScriptThrowing(
+        try await tab.evaluateJavaScript(
           functionName: "localStorage.setItem",
           args: ["braveLeo.orderId", orderId],
           contentWorld: .defaultClient

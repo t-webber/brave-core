@@ -157,7 +157,7 @@ extension BrowserViewController: BraveWalletDelegate {
       // dismiss to show the new tab
       self.dismiss(animated: true)
     }
-    if let url = tabManager.selectedTab?.url, InternalURL.isValid(url: url) {
+    if let url = tabManager.selectedTab?.visibleURL, InternalURL.isValid(url: url) {
       select(url: destinationURL, isUserDefinedURLNavigation: false)
     } else {
       _ = tabManager.addTabAndSelect(
@@ -193,15 +193,15 @@ extension BrowserViewController: BraveWalletDelegate {
 
 extension TabBrowserData: BraveWalletProviderDelegate {
   func showPanel() {
-    guard let tab, let origin = tab.url?.origin else {
+    guard let tab, let origin = tab.visibleURL?.origin else {
       Logger.module.error("Failing to show Wallet panel due to unavailable tab url origin")
       return
     }
-    tab.tabDelegate?.showWalletNotification(tab, origin: origin)
+    tab.miscDelegate?.showWalletNotification(tab, origin: origin)
   }
 
   func getOrigin() -> URLOrigin {
-    guard let origin = tab?.url?.origin else {
+    guard let origin = tab?.visibleURL?.origin else {
       // A nil url is possible if multiple tabs are restored but one or more
       // of the tabs is not opened yet (loaded the url). When a new chain is
       // assigned for a specific origin, the provider(s) will check origin
@@ -290,12 +290,12 @@ extension TabBrowserData: BraveWalletProviderDelegate {
           case .rejected:
             completion(.none, [])
           }
-          tab.tabDelegate?.updateURLBarWalletButton()
+          tab.miscDelegate?.updateURLBarWalletButton()
         }
       )
 
       tabDappStore.latestPendingPermissionRequest = request
-      tab.tabDelegate?.showWalletNotification(tab, origin: origin)
+      tab.miscDelegate?.showWalletNotification(tab, origin: origin)
     }
   }
 
@@ -315,7 +315,7 @@ extension TabBrowserData: BraveWalletProviderDelegate {
     // For Ethereum, locked status is checked in `EthereumProviderImpl::GetAllowedAccounts`
     // For Solana, locked status is checked in `SolanaProviderImpl::Connect` before
     // calling `IsAccountAllowed` delegate method.
-    guard let originURL = tab?.url?.origin.url,
+    guard let originURL = tab?.visibleURL?.origin.url,
       let permittedAccountAddresses = Domain.walletPermissions(forUrl: originURL, coin: type)
     else {
       return []
@@ -353,7 +353,7 @@ extension TabBrowserData: BraveWalletProviderDelegate {
 
   func isTabVisible() -> Bool {
     guard let tab else { return false }
-    return tab.tabDelegate?.isTabVisible(tab) ?? false
+    return tab.isVisible
   }
 
   func isPermissionDenied(_ type: BraveWallet.CoinType) -> Bool {
@@ -383,7 +383,7 @@ extension TabBrowserData: BraveWalletProviderDelegate {
       let isWalletCreated = await keyringService.isWalletCreated()
       if !isWalletCreated {
         // Wallet is not setup. User must onboard / setup wallet first.
-        tab.tabDelegate?.showWalletNotification(tab, origin: origin)
+        tab.miscDelegate?.showWalletNotification(tab, origin: origin)
         return
       }
 
@@ -395,10 +395,10 @@ extension TabBrowserData: BraveWalletProviderDelegate {
 
       // store the account creation request
       accountCreationRequestManager.beginRequest(for: origin, coinType: coin) { [weak tab] in
-        tab?.tabDelegate?.updateURLBarWalletButton()
+        tab?.miscDelegate?.updateURLBarWalletButton()
       }
       // show wallet notification
-      tab.tabDelegate?.showWalletNotification(tab, origin: origin)
+      tab.miscDelegate?.showWalletNotification(tab, origin: origin)
     }
   }
 
@@ -438,11 +438,10 @@ extension TabBrowserData: BraveWalletEventsListener {
     if let eventArgs = event.arguments {
       arguments.append(eventArgs)
     }
-    tab.evaluateSafeJavaScript(
+    tab.evaluateJavaScript(
       functionName: "window.ethereum.emit",
       args: arguments,
-      contentWorld: EthereumProviderScriptHandler.scriptSandbox,
-      completion: nil
+      contentWorld: EthereumProviderScriptHandler.scriptSandbox
     )
   }
 
@@ -502,14 +501,14 @@ extension TabBrowserData: BraveWalletEventsListener {
     }
 
     let chainId = await provider.chainId()
-    await tab.evaluateSafeJavaScript(
+    try? await tab.evaluateJavaScript(
       functionName: "window.ethereum.chainId = \"\(chainId)\"",
       contentWorld: EthereumProviderScriptHandler.scriptSandbox,
       asFunction: false
     )
 
     let networkVersion = valueOrUndefined(Int(chainId.removingHexPrefix, radix: 16))
-    await tab.evaluateSafeJavaScript(
+    try? await tab.evaluateJavaScript(
       functionName: "window.ethereum.networkVersion = \"\(networkVersion)\"",
       contentWorld: EthereumProviderScriptHandler.scriptSandbox,
       asFunction: false
@@ -535,7 +534,7 @@ extension TabBrowserData: BraveWalletEventsListener {
         selectedAccount = valueOrUndefined(Optional<String>.none)
       }
     }
-    await tab.evaluateSafeJavaScript(
+    try? await tab.evaluateJavaScript(
       functionName: "window.ethereum.selectedAddress = \(selectedAccount)",
       contentWorld: EthereumProviderScriptHandler.scriptSandbox,
       asFunction: false
@@ -566,7 +565,7 @@ extension TabBrowserData: BraveWalletSolanaEventsListener {
         } else {
           script = "window.solana.emit('accountChanged')"
         }
-        await tab.evaluateSafeJavaScript(
+        try? await tab.evaluateJavaScript(
           functionName: script,
           contentWorld: .page,
           asFunction: false
@@ -591,7 +590,7 @@ extension TabBrowserData: BraveWalletSolanaEventsListener {
       if let eventArgs = event.arguments {
         arguments.append(eventArgs)
       }
-      await tab.evaluateSafeJavaScript(
+      try? await tab.evaluateJavaScript(
         functionName: "window.solana.emit",
         args: arguments,
         contentWorld: .page
@@ -608,7 +607,7 @@ extension TabBrowserData: BraveWalletSolanaEventsListener {
       return
     }
     let isConnected = await provider.isConnected()
-    await tab.evaluateSafeJavaScript(
+    try? await tab.evaluateJavaScript(
       functionName: "window.solana.isConnected = \(isConnected)",
       contentWorld: .page,
       asFunction: false
@@ -618,7 +617,7 @@ extension TabBrowserData: BraveWalletSolanaEventsListener {
       let publicKey = await keyringService.allAccounts().solDappSelectedAccount?.address,
       self.isSolanaAccountConnected(publicKey)
     {
-      await tab.evaluateSafeJavaScript(
+      try? await tab.evaluateJavaScript(
         functionName: """
           if (\(UserScriptManager.walletSolanaNameSpace).solanaWeb3) {
             window.__firefox__.execute(function($) {
@@ -645,7 +644,7 @@ extension TabBrowserData: BraveWalletKeyringServiceObserver {
   func walletReset() {
     guard let tab else { return }
     tab.reload()
-    tab.tabDelegate?.updateURLBarWalletButton()
+    tab.miscDelegate?.updateURLBarWalletButton()
   }
 
   func locked() {
@@ -656,7 +655,7 @@ extension TabBrowserData: BraveWalletKeyringServiceObserver {
   }
 
   func unlocked() {
-    guard let origin = tab?.url?.origin,
+    guard let origin = tab?.visibleURL?.origin,
       let keyringService = walletKeyringService
     else { return }
     Task { @MainActor in

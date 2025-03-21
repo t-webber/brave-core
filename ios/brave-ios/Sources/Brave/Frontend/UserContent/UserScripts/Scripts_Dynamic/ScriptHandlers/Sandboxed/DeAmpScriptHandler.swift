@@ -5,6 +5,7 @@
 
 import Foundation
 import Shared
+import Web
 import WebKit
 
 public class DeAmpScriptHandler: TabContentScript {
@@ -52,8 +53,9 @@ public class DeAmpScriptHandler: TabContentScript {
       // or that previousURL is nil which indicates circular loop cause by a client side redirect
       // Also check that our window url does not match the previously committed url
       // or that previousURL is nil which indicates as circular loop caused by a server side redirect
-      let shouldRedirect =
-        dto.destURL != tab.previousComittedURL && tab.committedURL != tab.previousComittedURL
+      // FIXME: DeAmp without previous committed URL?
+      let shouldRedirect = false
+      //      dto.destURL != tab.previousComittedURL && tab.lastCommittedURL != tab.previousComittedURL
       replyHandler(shouldRedirect, nil)
     } catch {
       assertionFailure("Invalid type of message. Fix the `RequestBlocking.js` script")
