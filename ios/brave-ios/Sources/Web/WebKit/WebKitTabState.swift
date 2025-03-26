@@ -587,6 +587,10 @@ class WebKitTabState: TabState, TabStateImpl {
     webView?.backForwardList.clear()
   }
 
+  func updateScripts() {
+    // Nothing to do
+  }
+
   // MARK: - TabStateImpl
 
   weak var delegate: TabDelegate?
