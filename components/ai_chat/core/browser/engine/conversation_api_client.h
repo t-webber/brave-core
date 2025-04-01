@@ -68,6 +68,7 @@ class ConversationAPIClient {
     DedupeTopics,
     GetSuggestedAndDedupeTopicsForFocusTabs,
     GetFocusTabsForTopic,
+    PageScreenshot,
     // TODO(petemill):
     // - Search in-progress?
     // - Sources?
