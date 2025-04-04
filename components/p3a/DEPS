@@ -20,4 +20,7 @@ specific_include_rules = {
   "star_randomness_points\.h": [
     "+third_party/rust/cxx/v1/cxx.h",
   ],
+  "remote_metric_manager\.cc": [
+    "+chrome/common/pref_names.h",
+  ],
 }
