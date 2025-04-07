@@ -4,6 +4,7 @@
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
 import { Alias, MappingService } from './types'
+// TODO: uncomment this once we have a real implementation
 //import { sendWithPromise } from 'chrome://resources/js/cr.js';
 
 export class RemoteMappingService implements MappingService {
@@ -53,8 +54,8 @@ export class RemoteMappingService implements MappingService {
     // return sendWithPromise('email_aliases.generateAlias')
   }
   async onAccountReady(): Promise<boolean> {
-    // TODO: remove this once we have a real implementation
     return Promise.resolve(true)
+    // TODO: uncomment this once we have a real implementation
     /*
     while (!this.pending_cancellation_) {
       try {
