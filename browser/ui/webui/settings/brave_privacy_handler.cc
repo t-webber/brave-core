@@ -106,7 +106,7 @@ void BravePrivacyHandler::AddLoadTimeData(content::WebUIDataSource* data_source,
           ai_chat::features::IsOpenAIChatFromBraveSearchEnabled());
   data_source->AddBoolean(
       "isEmailAliasesFeatureEnabled",
-      base::FeatureList::IsEnabled(features::kBraveEmailAliases));
+      base::FeatureList::IsEnabled(features::kEmailAliases));
 }
 
 void BravePrivacyHandler::SetLocalStateBooleanEnabled(

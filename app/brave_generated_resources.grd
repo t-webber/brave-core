@@ -210,9 +210,6 @@
         <message name="IDS_BOOKMAR_BAR_MENU_SHOW_NTP" desc="The name of the context menu item to show bookmark bar on ntp only">
           Only On the New Tab Page
         </message>
-        <message name="IDS_SHOW_EMAIL_ALIASES" desc="The show Email Aliases menu in the app menu">
-          Email Aliases
-        </message>
       </if>
       <if expr="not use_titlecase">
         <message name="IDS_BRAVE_NEW_INCOGNITO_WINDOW" desc="The text label of a menu item for opening a new Private window">
@@ -226,9 +223,6 @@
         </message>
         <message name="IDS_BOOKMAR_BAR_MENU_SHOW_NTP" desc="The name of the context menu item to show bookmark bar on ntp only">
            Only on the new tab page
-        </message>
-        <message name="IDS_SHOW_EMAIL_ALIASES" desc="The show Email Aliases menu in the app menu">
-           Email aliases
         </message>
       </if>
       <message name="IDS_SHOW_BRAVE_SYNC" desc="The show brave sync menu in the app menu">
@@ -362,14 +356,9 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>brave://settings/ext
         Check details
       </message>
 
-      <!-- Adblock context menu -->
+      <!-- Adblock contenxt menu -->
       <message name="IDS_ADBLOCK_CONTEXT_BLOCK_ELEMENTS" desc="Message for context menu that enables the element picker UI to apply cosmetic filter rules to the page">
         Block elements
-      </message>
-
-      <!-- Email aliases context menu -->
-      <message name="IDS_NEW_EMAIL_ALIAS" desc="Message for context menu that enables the Email Alias generator UI for the page">
-        New Email Alias
       </message>
 
       <message name="IDS_LOCATION_BAR_ONION_AVAILABLE" desc="Button in location bar to indicate onion available site to open a new tab in tor window.">

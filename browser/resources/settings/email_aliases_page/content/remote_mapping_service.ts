@@ -4,41 +4,58 @@
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
 import { Alias, MappingService } from './types'
-import { sendWithPromise } from 'chrome://resources/js/cr.js';
+//import { sendWithPromise } from 'chrome://resources/js/cr.js';
 
 export class RemoteMappingService implements MappingService {
-  private pending_cancellation_ = false
+  //private pending_cancellation_ = false
   async getAccountEmail (): Promise<string | undefined> {
-    return sendWithPromise('email_aliases.getAccountEmail')
+    // TODO: remove this once we have a real implementation
+    return Promise.resolve("account-email@gmail.com")
+    // return sendWithPromise('email_aliases.getAccountEmail')
   }
   async logout (): Promise<void> {
-    await sendWithPromise('email_aliases.logout')
+    // TODO: remove this once we have a real implementation
+    return Promise.resolve()
+    // await sendWithPromise('email_aliases.logout')
   }
-  async requestAccount (accountEmail: string): Promise<void> {
-    await sendWithPromise('email_aliases.requestAccount', accountEmail)
+  async requestAccount (_accountEmail: string): Promise<void> {
+    // TODO: remove this once we have a real implementation
+    return Promise.resolve()
+    // await sendWithPromise('email_aliases.requestAccount', accountEmail)
   }
   async getAliases (): Promise<Alias[]> {
-    const result = await sendWithPromise('email_aliases.getAliases')
-    return result
+    // TODO: remove this once we have a real implementation
+    return Promise.resolve([
+      { email: "mock-alias1@sandbox.bravealias.com", note: "Mock Alias 1", status: true },
+      { email: "mock-alias2@sandbox.bravealias.com", note: "Mock Alias 2", status: false }
+    ])
+    // const result = await sendWithPromise('email_aliases.getAliases')
+    // return result
   }
-  async createAlias (email: string, note: string): Promise<void> {
-    await sendWithPromise('email_aliases.createAlias', email, note)
+  async createAlias (_email: string, _note: string): Promise<void> {
+    // TODO: remove this once we have a real implementation
+    return Promise.resolve()
+    // await sendWithPromise('email_aliases.createAlias', email, note)
   }
-  async updateAlias (email: string, note: string, status: boolean): Promise<void> {
-    await sendWithPromise('email_aliases.updateAlias', email, note, status)
+  async updateAlias (_email: string, _note: string, _status: boolean): Promise<void> {
+    // TODO: remove this once we have a real implementation
+    return Promise.resolve()
+    // await sendWithPromise('email_aliases.updateAlias', email, note, status)
   }
-  async deleteAlias (email: string): Promise<void> {
-    await sendWithPromise('email_aliases.deleteAlias', email)
+  async deleteAlias (_email: string): Promise<void> {
+    // TODO: remove this once we have a real implementation
+    return Promise.resolve()
+    // await sendWithPromise('email_aliases.deleteAlias', email)
   }
-  /*
-  async generateAlias (): Promise<string> {
-    return sendWithPromise('email_aliases.generateAlias')
-  }*/
-  async generateAlias (): Promise<string> {
-    return "mock-" + Math.random().toString().slice(2,6) + "@sandbox.bravealias.com"
+  generateAlias (): Promise<string> {
+    // TODO: remove this once we have a real implementation
+    return Promise.resolve("mock-" + Math.random().toString().slice(2,6) + "@sandbox.bravealias.com")
+    // return sendWithPromise('email_aliases.generateAlias')
   }
   async onAccountReady(): Promise<boolean> {
-    this.pending_cancellation_ = false
+    // TODO: remove this once we have a real implementation
+    return Promise.resolve(true)
+    /*
     while (!this.pending_cancellation_) {
       try {
         await sendWithPromise('email_aliases.getSession')
@@ -48,17 +65,25 @@ export class RemoteMappingService implements MappingService {
       }
     }
     return false
+    */
   }
-  async cancelAccountRequest(): Promise<void> {
-    this.pending_cancellation_ = true
+  cancelAccountRequest(): Promise<void> {
+    //this.pending_cancellation_ = true
+    return Promise.resolve()
   }
   async closeBubble(): Promise<void> {
-    await sendWithPromise('email_aliases.closeBubble')
+    // TODO: remove this once we have a real implementation
+    return Promise.resolve()
+    // await sendWithPromise('email_aliases.closeBubble')
   }
-  async fillField(fieldValue: string): Promise<void> {
-    await sendWithPromise('email_aliases.fillField', fieldValue)
+  async fillField(_fieldValue: string): Promise<void> {
+    // TODO: remove this once we have a real implementation
+    return Promise.resolve()
+    // await sendWithPromise('email_aliases.fillField', fieldValue)
   }
   async showSettingsPage(): Promise<void> {
-    await sendWithPromise('email_aliases.showSettingsPage')
+    // TODO: remove this once we have a real implementation
+    return Promise.resolve()
+    // await sendWithPromise('email_aliases.showSettingsPage')
   }
 }

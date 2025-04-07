@@ -303,8 +303,6 @@ void BraveBrowserCommandController::InitBraveCommandState() {
 
   UpdateCommandEnabled(IDC_BRAVE_SEND_TAB_TO_SELF, true);
 
-  UpdateCommandEnabled(IDC_SHOW_EMAIL_ALIASES, true);
-
   UpdateCommandsForTabs();
   UpdateCommandsForSend();
   UpdateCommandsForPin();
@@ -700,9 +698,6 @@ bool BraveBrowserCommandController::ExecuteBraveCommandWithDisposition(
       break;
     case IDC_SWAP_SPLIT_VIEW:
       brave::SwapTabsInTile(&*browser_);
-      break;
-    case IDC_SHOW_EMAIL_ALIASES:
-      brave::ShowEmailAliases(&*browser_);
       break;
     default:
       LOG(WARNING) << "Received Unimplemented Command: " << id;

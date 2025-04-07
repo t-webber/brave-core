@@ -1013,12 +1013,12 @@ const flags_ui::FeatureEntry::FeatureVariation kZCashFeatureVariations[] = {
           FEATURE_VALUE_TYPE(features::kBraveWebViewRoundedCorners),           \
       },                                                                       \
       {                                                                        \
-          "brave-email-aliases",                                               \
+          "email-aliases",                                               \
           "Enable Email Aliases",                                              \
           "Enables the Email Aliases feature, which allows you to hide your "  \
           "real email address behind an alias email address.",                 \
           kOsWin | kOsLinux | kOsMac,                                          \
-          FEATURE_VALUE_TYPE(features::kBraveEmailAliases),                    \
+          FEATURE_VALUE_TYPE(features::kEmailAliases),                    \
       })                                                                       \
   BRAVE_NATIVE_WALLET_FEATURE_ENTRIES                                          \
   BRAVE_NEWS_FEATURE_ENTRIES                                                   \
