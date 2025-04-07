@@ -9,13 +9,12 @@ import { color, spacing, font } from '@brave/leo/tokens/css/variables'
 import { Alias, MappingService, ViewState } from './content/types'
 import { Col, Row, Card, BraveIconCircle } from './content/style'
 import Icon from '@brave/leo/react/icon'
-import { StyleSheetManager } from 'styled-components'
 import { getLocale } from '$web-common/locale'
 import SecureLink from '$web-common/SecureLink'
 import { EmailAliasModal, ModalWithCloseButton } from './content/email_aliases_modal';
 import { MainEmailEntryForm } from './content/email_aliases_signin_page'
 import { AliasList } from './content/email_aliases_list'
-import styled from 'styled-components'
+import styled, { StyleSheetManager } from 'styled-components'
 
 const MainEmailTextContainer = styled(Col)`
   justify-content: center;
