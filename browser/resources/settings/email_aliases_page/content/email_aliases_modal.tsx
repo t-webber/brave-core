@@ -97,7 +97,7 @@ const onEnterKey = (onSubmit: () => void) =>
     }
   }
 
-const RefreshButton = ({ onClicked }: { onClicked: () => void }) => {
+const RefreshButton = ({ onClicked }: { onClicked: () => Promise<void> }) => {
   const [waiting, setWaiting] = React.useState(false)
   const onClick = async () => {
     setWaiting(true)
