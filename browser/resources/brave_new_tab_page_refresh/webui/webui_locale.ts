@@ -4,6 +4,7 @@
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
 import { loadTimeData } from 'chrome://resources/js/load_time_data.js'
+import { PluralStringProxyImpl } from 'chrome://resources/js/plural_string_proxy.js'
 
 export function createLocale() {
   return {
@@ -12,7 +13,7 @@ export function createLocale() {
     },
 
     async getPluralString(key: string, count: number) {
-      throw new Error('Not implemented')
+      return PluralStringProxyImpl.getInstance().getPluralString(key, count)
     }
   }
 }

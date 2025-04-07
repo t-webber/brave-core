@@ -5,11 +5,11 @@
 
 import * as React from 'react'
 
-import { StringKey } from '../../models/locale_strings'
+import { StringKey, PluralStringKey } from '../../models/locale_strings'
 
 export interface Locale {
   getString: (key: StringKey) => string
-  getPluralString: (key: StringKey, count: number) => Promise<string>
+  getPluralString: (key: PluralStringKey, count: number) => Promise<string>
 }
 
 const Context = React.createContext<Locale>({
@@ -35,7 +35,7 @@ export function useLocale(): Locale {
 }
 
 export function usePluralString(
-  key: StringKey,
+  key: PluralStringKey,
   count: number | undefined | null
 ) {
   const locale = useLocale()

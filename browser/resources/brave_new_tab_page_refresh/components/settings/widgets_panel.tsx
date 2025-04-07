@@ -22,6 +22,7 @@ export function WidgetsPanel() {
   const showRewardsWidget = useAppState((s) => s.showRewardsWidget)
   const vpnFeatureEnabled = useAppState((s) => s.vpnFeatureEnabled)
   const showVpnWidget = useAppState((s) => s.showVpnWidget)
+  const showNewsWidget = useAppState((s) => s.showNewsWidget)
 
   return (
     <div data-css-scope={style.scope}>
@@ -30,9 +31,15 @@ export function WidgetsPanel() {
         <Toggle
           size='small'
           checked={showStats}
-          onChange={({ checked }) => {
-            actions.setShowShieldsStats(checked)
-          }}
+          onChange={({ checked }) => { actions.setShowShieldsStats(checked) }}
+        />
+      </div>
+      <div className='form-control-row'>
+        <label>{getString('showNewsWidgetLabel')}</label>
+        <Toggle
+          size='small'
+          checked={showNewsWidget}
+          onChange={({ checked }) => { actions.setShowNewsWidget(checked) }}
         />
       </div>
       {
@@ -42,9 +49,7 @@ export function WidgetsPanel() {
             <Toggle
               size='small'
               checked={showVpnWidget}
-              onChange={({ checked }) => {
-                actions.setShowVpnWidget(checked)
-              }}
+              onChange={({ checked }) => { actions.setShowVpnWidget(checked) }}
             />
           </div>
       }
