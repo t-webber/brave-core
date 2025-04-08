@@ -7,14 +7,19 @@ import * as React from 'react'
 import { createRoot } from 'react-dom/client';
 import { color, spacing, font } from '@brave/leo/tokens/css/variables'
 import { Alias, MappingService, ViewState } from './content/types'
-import { Col, Row, Card, BraveIconCircle } from './content/style'
+import Col from './content/styles/Col'
+import Row from './content/styles/Row'
+import Card from './content/styles/Card'
+import BraveIconCircle from './content/styles/BraveIconCircle'
 import Icon from '@brave/leo/react/icon'
 import { getLocale } from '$web-common/locale'
 import SecureLink from '$web-common/SecureLink'
-import { EmailAliasModal, ModalWithCloseButton } from './content/email_aliases_modal';
+import { EmailAliasModal } from './content/email_aliases_modal';
 import { MainEmailEntryForm } from './content/email_aliases_signin_page'
 import { AliasList } from './content/email_aliases_list'
 import styled, { StyleSheetManager } from 'styled-components'
+import { RemoteMappingService } from './content/remote_mapping_service'
+import Dialog from '@brave/leo/react/dialog'
 
 const MainEmailTextContainer = styled(Col)`
   justify-content: center;
@@ -88,7 +93,10 @@ const MainEmailDisplay = ({ email, onLogout }: { email: string, onLogout: () => 
       </Row>
       <ManageAccountButton
         title={getLocale('emailAliasesSignOutTitle')}
-        onClick={(e) => { e.preventDefault(); onLogout() }}>
+        onClick={(e) => {
+          e.preventDefault()
+          onLogout()
+        }}>
         <Icon name="outside" />
         <span>{getLocale('emailAliasesSignOut')}</span>
       </ManageAccountButton>
@@ -107,20 +115,21 @@ const MainView = ({
   setViewState: (viewState: ViewState) => void,
   mappingService: MappingService,
   onListChange: () => void
-}) =>
-  (viewState.mode === 'Startup' ?
-    <Row style={{ margin: '1em', flexGrow: 1, justifyContent: 'center', alignItems: 'center' }}><Icon name='loading-spinner' />
-      <h3>{getLocale('emailAliasesConnectingToBraveAccount')}</h3>
-    </Row> :
-    <span>
-      <MainEmailDisplay onLogout={onLogout} email={mainEmail} />
-      <AliasList aliases={aliasesState} onViewChange={setViewState}
-        mappingService={mappingService}
-        onListChange={onListChange}/>
-    </span>)
+}) => (viewState.mode === 'Startup'
+  ? <Row style={{ margin: '1em', flexGrow: 1, justifyContent: 'center', alignItems: 'center' }}>
+    <Icon name='loading-spinner' />
+    <h3>{getLocale('emailAliasesConnectingToBraveAccount')}</h3>
+  </Row>
+  : <span>
+    <MainEmailDisplay onLogout={onLogout} email={mainEmail} />
+    <AliasList aliases={aliasesState}
+      onViewChange={setViewState}
+      mappingService={mappingService}
+      onListChange={onListChange} />
+  </span>)
 
 export const GrayOverlay = styled.div`
-  background-color: var(--leo-color-dialogs-scrim-background);
+  background-color: ${color.dialogs.scrimBackground};
   position: fixed;
   z-index: 1;
   inset: 0;
@@ -167,61 +176,75 @@ export const ManagePage = ({ mappingService }:
   React.useEffect(() => {
     onEmailChange();
     onListChange();
-    document.addEventListener('visibilitychange', () => {
+    const onVisibilityChange = () => {
       if (document.visibilityState === 'visible') {
         onEmailChange();
         onListChange();
       }
-    })
+    }
+    document.addEventListener('visibilitychange', onVisibilityChange)
     return () => {
-      document.removeEventListener('visibilitychange', () => {})
+      document.removeEventListener('visibilitychange', onVisibilityChange)
     }
   }, [] /* Only run at mount. */)
   return (
     <PageCol>
       <Introduction />
-      {viewState.mode === 'SignUp' || viewState.mode === 'AwaitingAuthorization' ?
-        <MainEmailEntryForm viewState={viewState} mainEmail={mainEmail} onEmailSubmitted={onMainEmailSubmitted} onRestart={onRestart} /> :
-        <MainView viewState={viewState} mainEmail={mainEmail} onLogout={onLogout} aliasesState={aliasesState} setViewState={setViewState} mappingService={mappingService} onListChange={onListChange} />}
+      {viewState.mode === 'SignUp' || viewState.mode === 'AwaitingAuthorization'
+        ? <MainEmailEntryForm
+            viewState={viewState}
+            mainEmail={mainEmail}
+            onEmailSubmitted={onMainEmailSubmitted}
+            onRestart={onRestart} />
+        : <MainView
+            viewState={viewState}
+            mainEmail={mainEmail}
+            onLogout={onLogout}
+            aliasesState={aliasesState}
+            setViewState={setViewState}
+            mappingService={mappingService}
+            onListChange={onListChange} />}
       {(viewState.mode === 'Create' || viewState.mode === 'Edit') &&
-        <span>
-          <GrayOverlay onClick={onReturnToMain}>&nbsp;</GrayOverlay>
-          <ModalWithCloseButton onReturnToMain={onReturnToMain}>
-            <EmailAliasModal
-              onReturnToMain={onReturnToMain}
-              viewState={viewState}
-              email={mainEmail}
-              mode={viewState.mode}
-              mappingService={mappingService} />
-          </ModalWithCloseButton>
-        </span>}
+      <Dialog
+        isOpen
+        onClose={onReturnToMain}
+        backdropClickCloses
+        modal
+        showClose>
+        <EmailAliasModal
+          onReturnToMain={onReturnToMain}
+            viewState={viewState}
+            email={mainEmail}
+            mode={viewState.mode}
+            mappingService={mappingService} />
+        </Dialog>}
     </PageCol>
   )
 }
 
-export const mount = (at: HTMLElement, mappingService: MappingService) => {
+export const mount = (at: HTMLElement) => {
   const root = createRoot(at);
   root.render(
     <StyleSheetManager target={at}>
-      <ManagePage mappingService={mappingService} />
+      <ManagePage mappingService={new RemoteMappingService()} />
     </StyleSheetManager>
   )
 }
 
-
-export const mountModal = (at: HTMLElement, mappingService: MappingService) => {
+export const mountModal = (at: HTMLElement) => {
   const root = createRoot(at);
+  const mappingService = new RemoteMappingService()
   root.render(
     <StyleSheetManager target={at}>
       <EmailAliasModal
         onReturnToMain={mappingService.closeBubble}
-        bubble={true}
-        mode={'Create'}
-        email={'test@test.com'}
+        bubble
+        mode='Create'
+        email='test@test.com'
         mappingService={mappingService} />
     </StyleSheetManager>
   )
 }
 
-; (window as any).mountEmailAliases = mount
-; (window as any).mountModal = mountModal
+  ; (window as any).mountEmailAliases = mount
+  ; (window as any).mountEmailAliasesModal = mountModal

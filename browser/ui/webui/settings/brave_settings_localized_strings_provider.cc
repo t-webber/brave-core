@@ -1044,8 +1044,6 @@ void BraveAddSyncStrings(content::WebUIDataSource* html_source) {
                          passphraseDecryptionErrorMessage);
 }
 
-}  // namespace
-
 void BraveAddEmailAliasesStrings(content::WebUIDataSource* html_source) {
   webui::LocalizedString localized_strings[] = {
       {"emailAliasesLabel", IDS_SETTINGS_EMAIL_ALIASES_LABEL},
@@ -1110,6 +1108,8 @@ void BraveAddEmailAliasesStrings(content::WebUIDataSource* html_source) {
   };
   html_source->AddLocalizedStrings(localized_strings);
 }
+
+}  // namespace
 
 void BraveAddLocalizedStrings(content::WebUIDataSource* html_source,
                               Profile* profile) {

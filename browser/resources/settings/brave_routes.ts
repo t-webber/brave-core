@@ -118,8 +118,7 @@ export default function addBraveRoutes(r: Partial<SettingsRoutes>) {
       '[Settings] Could not move autofill route to advanced route', r)
   }
 
-  const isEmailAliasesFeatureEnabled = loadTimeData.getBoolean('isEmailAliasesFeatureEnabled')
-  if (isEmailAliasesFeatureEnabled && r.AUTOFILL) {
+  if (loadTimeData.getBoolean('isEmailAliasesFeatureEnabled') && r.AUTOFILL) {
     r.EMAIL_ALIASES = r.AUTOFILL.createChild('/email-aliases')
   }
 

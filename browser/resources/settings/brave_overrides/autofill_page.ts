@@ -3,9 +3,9 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import {html, RegisterPolymerTemplateModifications, RegisterPolymerComponentReplacement} from 'chrome://resources/brave/polymer_overriding.js'
-import {BraveSettingsAutofillPageElement} from '../brave_autofill_page/brave_autofill_page.js'
-import {loadTimeData} from '../i18n_setup.js'
+import { html, RegisterPolymerTemplateModifications, RegisterPolymerComponentReplacement } from 'chrome://resources/brave/polymer_overriding.js'
+import { BraveSettingsAutofillPageElement } from '../brave_autofill_page/brave_autofill_page.js'
+import { loadTimeData } from '../i18n_setup.js'
 
 import '../email_aliases_page/email_aliases_page.js'
 
@@ -19,13 +19,17 @@ RegisterPolymerTemplateModifications({
     const isEmailAliasesFeatureEnabled = loadTimeData.getBoolean('isEmailAliasesFeatureEnabled')
     if (isEmailAliasesFeatureEnabled) {
       const parentManagerButton = templateContent.getElementById('paymentManagerButton')
-      parentManagerButton.parentNode.insertBefore(html`
+      if (!parentManagerButton) {
+        console.error('[overrides]: Couldn\'t find payment manager button')
+      } else {
+        parentManagerButton.parentNode.insertBefore(html`
         <cr-link-row id="emailAliasesButton"
             start-icon="email-shield"
             label="${loadTimeData.getString('emailAliasesLabel')}"
             on-click="onEmailAliasesClicked_"
             role-description="${loadTimeData.getString('subpageArrowRoleDescription')}"></cr-link-row>
       `, parentManagerButton)
+      }
     }
     templateContent.appendChild(html`
         <settings-toggle-button
@@ -39,16 +43,19 @@ RegisterPolymerTemplateModifications({
       `)
     if (isEmailAliasesFeatureEnabled) {
       const pages = templateContent.getElementById('pages')
-      pages.appendChild(html`
-      <template is="dom-if" route-path="/email-aliases">
-        <settings-subpage
+      if (!pages) {
+        console.error('[overrides]: Couldn\'t find pages')
+      } else {
+        pages.appendChild(html`
+        <template is="dom-if" route-path="/email-aliases">
+          <settings-subpage
             associated-control="[[$$('#paymentManagerButton')]]"
             page-title="${loadTimeData.getString('emailAliasesLabel')}"
             learn-more-url="${loadTimeData.getString('addressesAndPaymentMethodsLearnMoreURL')}">
           <settings-email-aliases-page id="emailAliasesSection" prefs="{{prefs}}" />
-        </settings-subpage>
-      </template>
-    `)
+          </settings-subpage>
+        </template>`)
+      }
     }
   },
 }

@@ -5,7 +5,9 @@
 
 import * as React from 'react'
 import { Alias, MappingService, MAX_ALIASES, ViewState } from './types'
-import { Card, Col, Row } from './style'
+import Card from './styles/Card'
+import Col from './styles/Col'
+import Row from './styles/Row'
 import styled from 'styled-components'
 import Icon from '@brave/leo/react/icon'
 import { color } from '@brave/leo/tokens/css/variables'
@@ -15,16 +17,11 @@ import formatMessage from '$web-common/formatMessage'
 import Button from '@brave/leo/react/button'
 import ButtonMenu from '@brave/leo/react/buttonMenu'
 
-const AliasLeoMenuItem = styled('leo-menu-item')`
-  & ${Row} { font-size: 90%; }
-  & ${Row} span { margin-inline-start: 0.5em; }
-`
-
 const AliasItemRow = styled(Row)`
   margin: 0px;
   font-size: 125%;
   padding: 18px 0px 18px 25px;
-  border-top: ${color.legacy.divider1} 1px solid;
+  border-top: ${color.divider.subtle} 1px solid;
   justify-content: space-between;
 `
 
@@ -32,7 +29,7 @@ const AliasAnnotation = styled.div`
   font-size: 80%;
   font-weight: 400;
   padding-top: 0.25em;
-  color: var(--leo-color-neutral-variant-50);
+  color: ${color.neutralVariant[50]};
 `
 
 const AliasControls = styled(Row)`
@@ -55,12 +52,12 @@ const EmailContainer = styled.div`
 
 const CopyButtonWrapper = styled.div`
   cursor: pointer;
-  color: var(--leo-color-neutral-variant-60);
+  color: ${color.neutralVariant[60]};
   &:hover {
-    background-color: var(--leo-color-desktopbrowser-toolbar-button-hover);
+    background-color: ${color.desktopbrowser.toolbar.button.hover};
   }
   &:active {
-    background-color: var(--leo-color-desktopbrowser-toolbar-button-active);
+    background-color: ${color.desktopbrowser.toolbar.button.active};
   }
   padding: 0.25em;
   border-radius: 0.5em;
@@ -78,13 +75,13 @@ const BorderedCard = styled(Card)`
 
 const AliasMenuItem = ({ onClick, iconName, text }:
   { onClick: EventListener, iconName: string, text: string }) =>
-  <AliasLeoMenuItem
+  <leo-menu-item
     onClick={onClick}>
     <Row>
       <Icon name={iconName} />
       <span>{text}</span>
     </Row>
-  </AliasLeoMenuItem>
+  </leo-menu-item>
 
 const CopyToast = ({ text, tabIndex, children }: { text: string, tabIndex?: number, children: React.ReactNode }) => {
   const [copied, setCopied] = React.useState<boolean>(false)
@@ -167,8 +164,6 @@ export const AliasList = ({ aliases, onViewChange, onListChange, mappingService 
         onClick={
           async () => {
             onViewChange({ mode: 'Create' })
-            const newEmailAlias = await mappingService.generateAlias()
-            onViewChange({ mode: 'Create', alias: { email: newEmailAlias } })
           }
         }>
         {getLocale('emailAliasesCreateAliasLabel')}

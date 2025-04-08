@@ -4,21 +4,17 @@
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
 import { getLocale } from "$web-common/locale";
-import { BraveIconCircle, Card, Col, Row } from "./style"
+import Card from "./styles/Card"
+import Col from "./styles/Col"
+import Row from "./styles/Row"
+import BraveIconCircle from "./styles/BraveIconCircle"
 import { ViewState } from "./types"
 import * as React from 'react'
-import Input, { InputEventDetail } from '@brave/leo/react/input'
+import Input from '@brave/leo/react/input'
 import Button from '@brave/leo/react/button'
 import formatMessage from '$web-common/formatMessage'
 import styled from 'styled-components'
-
-const onEnterKey = (onSubmit: () => void) =>
-  (e: InputEventDetail) => {
-    const innerEvent = e.innerEvent as unknown as KeyboardEvent
-    if (innerEvent.key === 'Enter') {
-      onSubmit()
-    }
-  }
+import onEnterKey from "./onEnterKey"
 
 const SignupRow = styled(Row)`
   justify-content: space-between;
@@ -48,8 +44,7 @@ const BeforeSendingEmailForm = ({ initEmail, onSubmit }: { initEmail: string, on
         name='email'
         type='text'
         placeholder={getLocale('emailAliasesEmailAddressPlaceholder')}
-        value={email}
-      ></StretchyInput>
+        value={email} />
       <Button onClick={() => onSubmit(email)} type='submit' kind='filled'>{getLocale('emailAliasesGetLoginLinkButton')}</Button>
     </Row>
   </Col>

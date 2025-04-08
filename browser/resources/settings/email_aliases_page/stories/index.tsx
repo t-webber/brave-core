@@ -4,11 +4,11 @@
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
 import * as React from 'react'
-import { ManagePage } from '../../../../../../../browser/resources/settings/email_aliases_page/email_aliases'
-import { EmailAliasModal } from '../../../../../../../browser/resources/settings/email_aliases_page/content/email_aliases_modal'
-import { Alias, MappingService } from '../../../../../../../browser/resources/settings/email_aliases_page/content/types'
+import { ManagePage } from '../email_aliases'
+import { EmailAliasModal } from '../content/email_aliases_modal'
+import { Alias, MappingService } from '../content/types'
 
-import { provideStrings } from '../../../../../../../.storybook/locale'
+import { provideStrings } from '../../../../../.storybook/locale'
 
 type AccountState = 'NoAccount' | 'AccountReady' | 'AwaitingAccount'
 

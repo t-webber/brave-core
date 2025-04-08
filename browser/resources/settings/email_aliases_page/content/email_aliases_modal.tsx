@@ -9,66 +9,45 @@ import { getLocale } from '$web-common/locale'
 import formatMessage from '$web-common/formatMessage'
 import * as React from 'react'
 import { ViewState, ViewMode, MappingService, MAX_ALIASES } from "./types"
-import { Col, Row } from "./style"
-import Input, { InputEventDetail } from "@brave/leo/react/input"
+import Col from "./styles/Col"
+import Row from "./styles/Row"
+import Input from "@brave/leo/react/input"
 import styled from "styled-components"
+import onEnterKey from "./onEnterKey"
+import { color, font, spacing } from "@brave/leo/tokens/css/variables"
 
-const Modal = styled(Col)`
-  border-radius: var(--cr-card-border-radius);
-  background-color: white;
-  z-index: 2;
-  border: none;
-  opacity: 100%;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  justify-content: flex-start;
-`
-
-const InnerModal = styled.div`
-  width: 42em;
-  margin: 1em 2em;
-`
 
 const ModalSectionCol = styled(Col)`
-  margin: 1em 0em;
+  margin: ${spacing["2Xl"]} 0;
   & h3 {
-    margin: 0.25em;
+    margin: ${spacing.s} ${spacing.m};
   }
   & leo-input {
-    margin: 0.25em 0em;
+    margin: ${spacing.s} 0;
   }
 `
 
 const ButtonRow = styled(Row)<{ bubble: boolean }>`
   justify-content: ${props => props.bubble ? 'space-between' : 'end'};
-  margin: 1em 0em;
+  margin: ${spacing["2Xl"]} 0;
   & leo-button {
     flex-grow: 0;
   }
   & span {
     display: flex;
     flex-direction: row;
-    column-gap: 1em;
+    column-gap: ${spacing.m};
   }
 `
 
-const CloseButton = styled.span`
-  cursor: pointer;
-  position: absolute;
-  top: 1.75em;
-  right: 1.75em;
-`
-
 const GeneratedEmailContainer = styled(Row)`
-  font-size: 135%;
-  background-color:var(--leo-color-neutral-variant-10);
-  border-radius: 0.5em;
-  padding: 0em 0em 0em 0.75em;
-  margin: 0.25em 0em;
+  font: ${font.large.regular};
+  background-color: ${color.neutralVariant[10]};
+  border-radius: ${spacing.m};
+  padding: 0 0 0 ${spacing.m};
+  margin: ${spacing.s} 0;
   justify-content: space-between;
-  height: 2.6em;
+  height: ${spacing["5Xl"]};
   & leo-button {
     flex-grow: 0;
   }
@@ -85,40 +64,21 @@ const ButtonWrapper = styled.div`
   & .waiting {
     animation: spin 1s linear infinite;
   }
-  width: 4em;
+  width: ${spacing["4Xl"]};
   height: 100%;
 `
 
-const onEnterKey = (onSubmit: () => void) =>
-  (e: InputEventDetail) => {
-    const innerEvent = e.innerEvent as unknown as KeyboardEvent
-    if (innerEvent.key === 'Enter') {
-      onSubmit()
-    }
-  }
-
-const RefreshButton = ({ onClicked }: { onClicked: () => Promise<void> }) => {
-  const [waiting, setWaiting] = React.useState(false)
-  const onClick = async () => {
-    setWaiting(true)
-    await onClicked()
-    setWaiting(false)
-  }
+const RefreshButton = ({ onClick, waiting }: { onClick: () => Promise<void>, waiting: boolean }) => {
   return <ButtonWrapper title={getLocale('emailAliasesRefreshButtonTitle')}>
-    {waiting ? <Icon className='waiting' name="loading-spinner" /> :
-      <Button title={getLocale('emailAliasesGeneratingNewAlias')}
+    {waiting
+      ? <Icon className='waiting' name="loading-spinner" />
+      : <Button title={getLocale('emailAliasesGeneratingNewAlias')}
         onClick={onClick}
         kind="plain" >
         <Icon name="refresh" />
       </Button>}
   </ButtonWrapper>
 }
-
-export const ModalWithCloseButton = ({ children, onReturnToMain }: React.PropsWithChildren & { onReturnToMain: () => void }) =>
-  <Modal>
-    <CloseButton onClick={onReturnToMain}><Icon name='close' /></CloseButton>
-    {children}
-  </Modal>
 
 export const EmailAliasModal = (
   { onReturnToMain, viewState, email, mode, mappingService, bubble }:
@@ -135,6 +95,7 @@ export const EmailAliasModal = (
   const [mainEmail, setMainEmail] = React.useState<string>(email)
   const [proposedAlias, setProposedAlias] = React.useState<string>(viewState?.alias?.email ?? '')
   const [proposedNote, setProposedNote] = React.useState<string>(viewState?.alias?.note ?? '')
+  const [awaitingProposedAlias, setAwaitingProposedAlias] = React.useState<boolean>(true)
   const createOrSave = async () => {
     if (proposedAlias) {
       if (mode === 'Create') {
@@ -147,8 +108,12 @@ export const EmailAliasModal = (
     }
   }
   const regenerateAlias = async () => {
+    setAwaitingProposedAlias(true)
     const newEmailAlias = await mappingService.generateAlias()
-    setProposedAlias(newEmailAlias)
+    if (viewState?.mode === 'Create' || viewState?.mode === 'Edit') {
+      setProposedAlias(newEmailAlias)
+      setAwaitingProposedAlias(false)
+    }
   }
   React.useEffect(() => {
     if (mode === 'Create') {
@@ -162,7 +127,7 @@ export const EmailAliasModal = (
     }
   }, [mode])
   return (
-    <InnerModal>
+    <div>
       <h2>{mode === 'Create' ? getLocale('emailAliasesCreateAliasTitle') : getLocale('emailAliasesEditAliasTitle')}</h2>
       {bubble && <div>{getLocale('emailAliasesBubbleDescription')}</div>}
       {(bubble && limitReached) ?
@@ -172,7 +137,7 @@ export const EmailAliasModal = (
             <h3>{getLocale('emailAliasesAliasLabel')}</h3>
             <GeneratedEmailContainer>
               <div>{proposedAlias}</div>
-              {mode === 'Create' && <RefreshButton onClicked={regenerateAlias} />}
+              {mode === 'Create' && <RefreshButton onClick={regenerateAlias} waiting={awaitingProposedAlias} />}
             </GeneratedEmailContainer>
             <div>{formatMessage(getLocale('emailAliasesEmailsWillBeForwardedTo'), { placeholders: { $1: mainEmail } })}</div>
           </ModalSectionCol>
@@ -206,12 +171,12 @@ export const EmailAliasModal = (
           </Button>
           <Button
             kind='filled'
-            isDisabled={limitReached}
+            isDisabled={mode === 'Create' && (limitReached || awaitingProposedAlias)}
             onClick={createOrSave}>
             {mode === 'Create' ? getLocale('emailAliasesCreateAliasButton') : getLocale('emailAliasesSaveAliasButton')}
           </Button>
         </span>
       </ButtonRow>
-    </InnerModal>
+    </div>
   )
 }

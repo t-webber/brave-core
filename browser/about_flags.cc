@@ -1016,7 +1016,7 @@ const flags_ui::FeatureEntry::FeatureVariation kZCashFeatureVariations[] = {
           "email-aliases",                                                     \
           "Enable Email Aliases",                                              \
           "Enables the Email Aliases feature, which allows you to hide your "  \
-          "real email address behind an alias email address.",                 \
+          "real email address behind an alias.",                               \
           kOsWin | kOsLinux | kOsMac,                                          \
           FEATURE_VALUE_TYPE(features::kEmailAliases),                         \
       })                                                                       \
