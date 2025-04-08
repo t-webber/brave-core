@@ -86,12 +86,21 @@ const AliasMenuItem = ({ onClick, iconName, text }:
     </Row>
   </AliasLeoMenuItem>
 
-const CopyToast = ({ children }: React.PropsWithChildren) => {
+const CopyToast = ({ text, tabIndex, children }: { text: string, tabIndex?: number, children: React.ReactNode }) => {
   const [copied, setCopied] = React.useState<boolean>(false)
-  return <div onClick={() => {
+  const copy = () => {
+    navigator.clipboard.writeText(text)
     setCopied(true)
     setTimeout(() => setCopied(false), 1000)
-  }}>
+  }
+  return <div
+    tabIndex={tabIndex}
+    onKeyDown={(e) => {
+      if (e.key === 'Enter') {
+        copy()
+      }
+    }}
+    onClick={copy}>
     <Tooltip text={copied ? getLocale('emailAliasesCopiedToClipboard') : ''} mode="mini" visible={copied}>
       {children}
     </Tooltip>
@@ -101,9 +110,8 @@ const CopyToast = ({ children }: React.PropsWithChildren) => {
 const AliasItem = ({ alias, onEdit, onDelete }: { alias: Alias, onEdit: () => void, onDelete: () => void }) =>
   <AliasItemRow>
     <Col>
-      <CopyToast>
-        <EmailContainer title={getLocale('emailAliasesClickToCopyAlias')}
-            onClick={(event) => navigator.clipboard.writeText(alias.email)}>
+      <CopyToast text={alias.email}>
+        <EmailContainer title={getLocale('emailAliasesClickToCopyAlias')}>
             {alias.email}
           </EmailContainer>
         </CopyToast>
@@ -116,12 +124,9 @@ const AliasItem = ({ alias, onEdit, onDelete }: { alias: Alias, onEdit: () => vo
           </AliasAnnotation>}
         </Col>
       <AliasControls>
-        <CopyToast>
+        <CopyToast text={alias.email} tabIndex={0}>
           <CopyButtonWrapper
-            title={getLocale('emailAliasesClickToCopyAlias')}
-            onClick={() => {
-              navigator.clipboard.writeText(alias.email)
-            }}>
+            title={getLocale('emailAliasesClickToCopyAlias')}>
             <Icon name="copy"/>
           </CopyButtonWrapper>
         </CopyToast>
