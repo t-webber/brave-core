@@ -338,6 +338,13 @@ public class BraveTabbedAppMenuPropertiesDelegate extends TabbedAppMenuPropertie
         }
 
         CustomizeMenuUtils.saveMenuItems(customMenuItems);
+
+        for (CustomMenuItem item : CustomizeMenuUtils.loadMenuItems()) {
+            MenuItem customMenuItem = menu.findItem(item.getItemId());
+            if (customMenuItem != null) {
+                customMenuItem.setVisible(item.shouldShow());
+            }
+        }
     }
 
     @Override

@@ -47,7 +47,7 @@ public class CustomizeMenuUtils {
         }
     }
 
-    private static List<CustomMenuItem> loadMenuItems() {
+    public static List<CustomMenuItem> loadMenuItems() {
         String jsonString =
                 ChromeSharedPreferences.getInstance().readString(CUSTOMIZE_MENU_ITEMS, null);
         if (jsonString == null) {

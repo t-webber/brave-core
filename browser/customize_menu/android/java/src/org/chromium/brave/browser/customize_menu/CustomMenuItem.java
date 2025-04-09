@@ -18,15 +18,18 @@ public class CustomMenuItem {
 
     private int itemId;
     private String title;
+    private boolean shouldShow;
 
     public CustomMenuItem(MenuItem item) {
         this.itemId = item.getItemId();
         this.title = item.getTitle() != null ? item.getTitle().toString() : "";
+        this.shouldShow = true;
     }
 
-    public CustomMenuItem(int itemId, String title) {
+    public CustomMenuItem(int itemId, String title, boolean shouldShow) {
         this.itemId = itemId;
         this.title = title;
+        this.shouldShow = shouldShow;
     }
 
     public JSONObject toJson() {
@@ -34,6 +37,11 @@ public class CustomMenuItem {
         try {
             json.put("itemId", itemId);
             json.put("title", title);
+            if (itemId == R.id.brave_rewards_id) {
+                json.put("shouldShow", false);
+            } else {
+                json.put("shouldShow", shouldShow);
+            }
         } catch (JSONException e) {
             Log.e(TAG, "Error converting MenuItem to JSON", e);
         }
@@ -45,7 +53,8 @@ public class CustomMenuItem {
         try {
             int itemId = json.getInt("itemId");
             String title = json.getString("title");
-            return new CustomMenuItem(itemId, title);
+            boolean shouldShow = json.getBoolean("shouldShow");
+            return new CustomMenuItem(itemId, title, shouldShow);
         } catch (JSONException e) {
             Log.e(TAG, "Error converting JSON to MenuItem", e);
             return null;
@@ -54,5 +63,17 @@ public class CustomMenuItem {
 
     public CustomMenuItem fromJsonString(String jsonString) throws JSONException {
         return fromJson(new JSONObject(jsonString));
+    }
+
+    public int getItemId() {
+        return itemId;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public boolean shouldShow() {
+        return shouldShow;
     }
 }
