@@ -445,6 +445,8 @@ public abstract class BraveActivity extends ChromeActivity
             layout.addMediaToPlaylist();
         } else if (id == R.id.brave_news_id) {
             openBraveNewsSettings();
+        } else if (id == R.id.brave_customize_menu_id) {
+            openCustomizeMenu();
         } else if (id == R.id.request_brave_vpn_id || id == R.id.request_brave_vpn_check_id) {
             if (!InternetConnection.isNetworkAvailable(BraveActivity.this)) {
                 Toast.makeText(BraveActivity.this, R.string.no_internet, Toast.LENGTH_SHORT).show();
@@ -1621,6 +1623,11 @@ public abstract class BraveActivity extends ChromeActivity
     }
 
     public void openBraveNewsSettings() {
+        SettingsNavigation settingsLauncher = SettingsNavigationFactory.createSettingsNavigation();
+        settingsLauncher.startSettings(this, BraveNewsPreferencesV2.class);
+    }
+
+    public void openCustomizeMenu() {
         SettingsNavigation settingsLauncher = SettingsNavigationFactory.createSettingsNavigation();
         settingsLauncher.startSettings(this, BraveNewsPreferencesV2.class);
     }

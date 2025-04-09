@@ -4091,6 +4091,9 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     <message name="IDS_PRIVATE_TAB_SCREENSHOT_SUMMARY" desc="A summary to show private tab screenshot">
       If allowed, private tabs will also be visible when multiple apps are open.
     </message>
+    <message name="IDS_CUSTOMIZE_MENU_TITLE" desc="A title to show customize menu">
+      Customize menu
+    </message>
   </messages>
   </release>
 </grit>
