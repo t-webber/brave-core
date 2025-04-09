@@ -24,6 +24,8 @@ import org.chromium.base.BravePreferenceKeys;
 import org.chromium.base.supplier.ObservableSupplier;
 import org.chromium.base.supplier.OneshotSupplier;
 import org.chromium.base.supplier.Supplier;
+import org.chromium.brave.browser.customize_menu.CustomMenuItem;
+import org.chromium.brave.browser.customize_menu.CustomizeMenuUtils;
 import org.chromium.brave_vpn.mojom.BraveVpnConstants;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.ActivityTabProvider;
@@ -58,6 +60,9 @@ import org.chromium.chrome.browser.vpn.utils.BraveVpnUtils;
 import org.chromium.components.embedder_support.util.UrlUtilities;
 import org.chromium.components.user_prefs.UserPrefs;
 import org.chromium.ui.modaldialog.ModalDialogManager;
+
+import java.util.LinkedList;
+import java.util.List;
 
 /** Brave's extension for TabbedAppMenuPropertiesDelegate */
 public class BraveTabbedAppMenuPropertiesDelegate extends TabbedAppMenuPropertiesDelegate {
@@ -305,6 +310,7 @@ public class BraveTabbedAppMenuPropertiesDelegate extends TabbedAppMenuPropertie
         // Remove unused dividers. This needs to be done after the visibility of all the items is
         // set.
         boolean hasItemBetweenDividers = false;
+
         for (int i = 0; i < menu.size(); ++i) {
             MenuItem item = menu.getItem(i);
             if (item.getItemId() == R.id.divider_line_id) {
@@ -321,6 +327,17 @@ public class BraveTabbedAppMenuPropertiesDelegate extends TabbedAppMenuPropertie
                 hasItemBetweenDividers = true;
             }
         }
+
+        List<CustomMenuItem> customMenuItems = new LinkedList<>();
+        for (int i = 0; i < menu.size(); ++i) {
+            MenuItem item = menu.getItem(i);
+            // Add items to customize
+            if (item.isVisible()) {
+                customMenuItems.add(new CustomMenuItem(item));
+            }
+        }
+
+        CustomizeMenuUtils.saveMenuItems(customMenuItems);
     }
 
     @Override

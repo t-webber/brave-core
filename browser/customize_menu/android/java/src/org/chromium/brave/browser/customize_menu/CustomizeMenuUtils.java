@@ -1,4 +1,4 @@
-/* Copyright (c) 2024 The Brave Authors. All rights reserved.
+/* Copyright (c) 2025 The Brave Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
@@ -10,9 +10,15 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.PopupMenu;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import org.chromium.base.Log;
+import org.chromium.chrome.browser.preferences.ChromeSharedPreferences;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -22,6 +28,48 @@ import java.util.List;
 public class CustomizeMenuUtils {
 
     private static final String TAG = "CustomizeMenuUtils";
+    private static final String CUSTOMIZE_MENU_ITEMS = "customize_menu_items";
+
+    public static void saveMenuItems(List<CustomMenuItem> menuItems) {
+        if (menuItems == null) {
+            return;
+        }
+
+        try {
+            JSONArray jsonArray = new JSONArray();
+            for (CustomMenuItem item : menuItems) {
+                jsonArray.put(item.toJson());
+            }
+            ChromeSharedPreferences.getInstance()
+                    .writeString(CUSTOMIZE_MENU_ITEMS, jsonArray.toString());
+        } catch (Exception e) {
+            Log.e(TAG, "Error saving search engines", e);
+        }
+    }
+
+    private static List<CustomMenuItem> loadMenuItems() {
+        String jsonString =
+                ChromeSharedPreferences.getInstance().readString(CUSTOMIZE_MENU_ITEMS, null);
+        if (jsonString == null) {
+            return new LinkedList<>();
+        }
+
+        try {
+            JSONArray jsonArray = new JSONArray(jsonString);
+            List<CustomMenuItem> menuItems = new ArrayList<>();
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject jsonObject = jsonArray.getJSONObject(i);
+                CustomMenuItem item = CustomMenuItem.fromJson(jsonObject);
+                if (item != null) {
+                    menuItems.add(item);
+                }
+            }
+            return menuItems;
+        } catch (JSONException e) {
+            Log.e(TAG, "Error loading menu items", e);
+            return new LinkedList<>();
+        }
+    }
 
     /**
      * Gets a list of menu items belonging to a specific group ID.

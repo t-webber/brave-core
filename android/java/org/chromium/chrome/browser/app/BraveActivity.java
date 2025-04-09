@@ -30,8 +30,6 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.ImageView;
 
-import android.widget.TextView;
-
 import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -76,7 +74,6 @@ import org.chromium.base.supplier.ObservableSupplier;
 import org.chromium.base.supplier.UnownedUserDataSupplier;
 import org.chromium.base.task.PostTask;
 import org.chromium.base.task.TaskTraits;
-import org.chromium.brave.browser.customize_menu.CustomizeMenuUtils;
 import org.chromium.brave_news.mojom.BraveNewsController;
 import org.chromium.brave_wallet.mojom.AssetRatioService;
 import org.chromium.brave_wallet.mojom.BlockchainRegistry;
@@ -1330,7 +1327,6 @@ public abstract class BraveActivity extends ChromeActivity
         }
 
         ContextUtils.getAppSharedPreferences().registerOnSharedPreferenceChangeListener(this);
-        CustomizeMenuUtils.getMenuItemsByGroup(BraveActivity.this, R.id.PAGE_MENU);
     }
 
     private void applyChangesForYahooJp() {

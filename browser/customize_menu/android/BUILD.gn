@@ -9,12 +9,16 @@ import("//build/config/android/rules.gni")  # Android build rules
 # Define an Android library target for the customize menu feature
 android_library("java") {
   # Java source files to compile
-  sources = [ "java/src/org/chromium/brave/browser/customize_menu/CustomizeMenuUtils.java" ]
+  sources = [
+    "java/src/org/chromium/brave/browser/customize_menu/CustomMenuItem.java",
+    "java/src/org/chromium/brave/browser/customize_menu/CustomizeMenuUtils.java",
+  ]
 
   # Dependencies required by this library
   deps = [
     "//base:base_java",  # Core Java utilities
-    "//chrome/android:chrome_app_java_resources",  # Chrome Android resources
+    "//chrome/android:chrome_app_java_resources",
+    "//chrome/browser/preferences:java",
   ]
 
   # Package name for generated R.java resource class
