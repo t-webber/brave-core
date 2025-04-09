@@ -12,15 +12,30 @@ android_library("java") {
   sources = [
     "java/src/org/chromium/brave/browser/customize_menu/CustomMenuItem.java",
     "java/src/org/chromium/brave/browser/customize_menu/CustomizeMenuUtils.java",
+    "java/src/org/chromium/brave/browser/customize_menu/settings/CustomizeMenuAdapter.java",
+    "java/src/org/chromium/brave/browser/customize_menu/settings/CustomizeMenuListener.java",
+    "java/src/org/chromium/brave/browser/customize_menu/settings/CustomizeMenuPreferenceFragment.java",
   ]
 
   # Dependencies required by this library
   deps = [
+    ":java_resources",
     "//base:base_java",  # Core Java utilities
     "//chrome/android:chrome_app_java_resources",
     "//chrome/browser/preferences:java",
+    "//chrome/browser/settings:java",
+    "//third_party/android_deps:material_design_java",
+    "//third_party/androidx:androidx_annotation_annotation_java",
+    "//third_party/androidx:androidx_recyclerview_recyclerview_java",
   ]
 
   # Package name for generated R.java resource class
   resources_package = "org.chromium.brave.browser.customize_menu"
+}
+
+android_resources("java_resources") {
+  sources = [
+    "java/res/layout/custom_menu_item_layout.xml",
+    "java/res/layout/customize_menu_preference_layout.xml",
+  ]
 }

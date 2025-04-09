@@ -4094,6 +4094,9 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     <message name="IDS_CUSTOMIZE_MENU_TITLE" desc="A title to show customize menu">
       Customize menu
     </message>
+    <message name="IDS_CUSTOMIZE_MENU_SETTINGS_TITLE" desc="A title to show customize menu settings">
+      Show or hide icons in the main menu
+    </message>
   </messages>
   </release>
 </grit>

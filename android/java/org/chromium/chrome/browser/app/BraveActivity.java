@@ -74,6 +74,7 @@ import org.chromium.base.supplier.ObservableSupplier;
 import org.chromium.base.supplier.UnownedUserDataSupplier;
 import org.chromium.base.task.PostTask;
 import org.chromium.base.task.TaskTraits;
+import org.chromium.brave.browser.customize_menu.settings.CustomizeMenuPreferenceFragment;
 import org.chromium.brave_news.mojom.BraveNewsController;
 import org.chromium.brave_wallet.mojom.AssetRatioService;
 import org.chromium.brave_wallet.mojom.BlockchainRegistry;
@@ -1629,7 +1630,7 @@ public abstract class BraveActivity extends ChromeActivity
 
     public void openCustomizeMenu() {
         SettingsNavigation settingsLauncher = SettingsNavigationFactory.createSettingsNavigation();
-        settingsLauncher.startSettings(this, BraveNewsPreferencesV2.class);
+        settingsLauncher.startSettings(this, CustomizeMenuPreferenceFragment.class);
     }
 
     public void openBraveContentFilteringSettings() {

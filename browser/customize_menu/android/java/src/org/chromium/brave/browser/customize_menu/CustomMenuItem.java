@@ -65,6 +65,14 @@ public class CustomMenuItem {
         return fromJson(new JSONObject(jsonString));
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (!(obj instanceof CustomMenuItem)) return false;
+        CustomMenuItem other = (CustomMenuItem) obj;
+        return itemId == other.getItemId();
+    }
+
     public int getItemId() {
         return itemId;
     }
