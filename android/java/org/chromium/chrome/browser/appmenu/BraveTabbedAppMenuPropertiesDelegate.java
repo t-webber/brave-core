@@ -309,6 +309,16 @@ public class BraveTabbedAppMenuPropertiesDelegate extends TabbedAppMenuPropertie
             updateBookmarkMenuItemShortcut(bookmarkItem, currentTab, /* fromCct= */ false);
         }
 
+        for (int i = 0; i < menu.size(); ++i) {
+            MenuItem item = menu.getItem(i);
+            if (item.isVisible()) {
+                boolean shoudlShow =
+                        ChromeSharedPreferences.getInstance()
+                                .readBoolean(String.valueOf(item.getItemId()), true);
+                item.setVisible(shoudlShow);
+            }
+        }
+
         // Remove unused dividers. This needs to be done after the visibility of all the items is
         // set.
         boolean hasItemBetweenDividers = false;
@@ -327,16 +337,6 @@ public class BraveTabbedAppMenuPropertiesDelegate extends TabbedAppMenuPropertie
                 // When the item isn't a divider line and is visible, we set hasItemBetweenDividers
                 // to be true.
                 hasItemBetweenDividers = true;
-            }
-        }
-
-        for (int i = 0; i < menu.size(); ++i) {
-            MenuItem item = menu.getItem(i);
-            if (item.isVisible()) {
-                boolean shoudlShow =
-                        ChromeSharedPreferences.getInstance()
-                                .readBoolean(String.valueOf(item.getItemId()), true);
-                item.setVisible(shoudlShow);
             }
         }
 

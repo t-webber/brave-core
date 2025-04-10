@@ -421,6 +421,7 @@
     <color name="schemes_primary">#3e37d4</color>
     <color name="schemes_on_primary">#ffffff</color>
     <color name="schemes_surface_container_highest">#c7c7cc</color>
+    <color name="schemes_surface_container_high">#e7e7ec</color>
     <color name="schemes_surface_container_lowest">#FFFFFF</color>
 
     <color name="button_background_widget_promo">#4551D1</color>

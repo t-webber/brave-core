@@ -5,44 +5,51 @@
      You can obtain one at https://mozilla.org/MPL/2.0/.
 -->
 
-<LinearLayout
+<FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:paddingHorizontal="16dp"
-    android:orientation="horizontal">
+    android:layout_height="wrap_content">
 
-    <ImageView
-        android:id="@+id/menu_item_icon"
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:layout_marginEnd="16dp"
-        android:layout_gravity="center_vertical"
-        android:contentDescription="@null"/>
-
-    <TextView
-        android:id="@+id/menu_item_text"
-        android:layout_width="0dp"
+    <LinearLayout
+        android:id="@+id/menu_item_container"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        style="@style/LargeRegular"
-        android:layout_gravity="center_vertical"
-        android:layout_marginEnd="16dp"
-        android:textColor="@color/schemes_on_surface"/>
+        android:paddingHorizontal="16dp"
+        android:orientation="horizontal">
 
-    <com.google.android.material.materialswitch.MaterialSwitch
-        android:id="@+id/menu_item_switch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:trackTint="@color/brave_switch_stroke_color"
-        app:showText="false"
-        android:clickable="false"/>
+        <ImageView
+            android:id="@+id/menu_item_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="16dp"
+            android:layout_gravity="center_vertical"
+            app:tint="@color/schemes_on_surface_variant"
+            android:contentDescription="@null"/>
+
+        <TextView
+            android:id="@+id/menu_item_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/LargeRegular"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="16dp"
+            android:textColor="@color/schemes_on_surface"/>
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/menu_item_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:trackTint="@color/brave_switch_stroke_color"
+            app:showText="false"
+            android:clickable="false"/>
+    </LinearLayout>
     
      <View
           android:id="@+id/divider"
           android:layout_width="match_parent"
           android:layout_height="1dp"
-          android:background="@color/divider_subtle"/>
+          android:background="@color/schemes_surface_container_high"/>
 
-</LinearLayout>
+</FrameLayout>

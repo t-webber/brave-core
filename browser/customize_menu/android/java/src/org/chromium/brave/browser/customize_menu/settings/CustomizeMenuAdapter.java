@@ -19,6 +19,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.materialswitch.MaterialSwitch;
 
+import org.chromium.brave.browser.customize_menu.CustomizeMenuUtils;
 import org.chromium.brave.browser.customize_menu.R;
 import org.chromium.chrome.browser.preferences.ChromeSharedPreferences;
 
@@ -60,6 +61,21 @@ public class CustomizeMenuAdapter extends ListAdapter<MenuItem, CustomizeMenuAda
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         MenuItem currentMenuItem = getItem(position);
+        if (CustomizeMenuUtils.dividerIdList.contains(currentMenuItem.getItemId())) {
+            showDivider(holder);
+        } else {
+            showMenuItem(holder, currentMenuItem);
+        }
+    }
+
+    private void showDivider(ViewHolder holder) {
+        holder.mDivider.setVisibility(View.VISIBLE);
+        holder.mMenuItemContainer.setVisibility(View.GONE);
+    }
+
+    private void showMenuItem(ViewHolder holder, MenuItem currentMenuItem) {
+        holder.mDivider.setVisibility(View.GONE);
+        holder.mMenuItemContainer.setVisibility(View.VISIBLE);
 
         holder.mMenuItemText.setText(currentMenuItem.getTitle());
 
@@ -77,20 +93,11 @@ public class CustomizeMenuAdapter extends ListAdapter<MenuItem, CustomizeMenuAda
                         mCustomizeMenuListener.onMenuItemSelected(currentMenuItem, !isShown);
                     }
                 });
-        if (currentMenuItem.getItemId() == R.id.divider_line_id) {
-            holder.mDivider.setVisibility(View.VISIBLE);
-            holder.mMenuItemText.setVisibility(View.GONE);
-            holder.mMenuItemSwitch.setVisibility(View.GONE);
-            holder.mMenuItemIcon.setVisibility(View.GONE);
-        } else {
-            holder.mDivider.setVisibility(View.GONE);
-            holder.mMenuItemText.setVisibility(View.VISIBLE);
-            holder.mMenuItemSwitch.setVisibility(View.VISIBLE);
-            holder.mMenuItemIcon.setVisibility(View.VISIBLE);
-        }
     }
 
     static class ViewHolder extends RecyclerView.ViewHolder {
+
+        final View mMenuItemContainer;
         final ImageView mMenuItemIcon;
         final TextView mMenuItemText;
         final MaterialSwitch mMenuItemSwitch;
@@ -98,6 +105,7 @@ public class CustomizeMenuAdapter extends ListAdapter<MenuItem, CustomizeMenuAda
 
         ViewHolder(View itemView) {
             super(itemView);
+            mMenuItemContainer = itemView.findViewById(R.id.menu_item_container);
             mMenuItemIcon = itemView.findViewById(R.id.menu_item_icon);
             mMenuItemText = itemView.findViewById(R.id.menu_item_text);
             mMenuItemSwitch = itemView.findViewById(R.id.menu_item_switch);
