@@ -74,7 +74,11 @@ class AIChatService : public KeyedService,
       ModelService* model_service,
       std::unique_ptr<AIChatCredentialManager> ai_chat_credential_manager,
       PrefService* profile_prefs,
+#if BUILDFLAG(IS_IOS)
+      std::unique_ptr<AIChatMetrics> ai_chat_metrics,
+#else
       AIChatMetrics* ai_chat_metrics,
+#endif
       os_crypt_async::OSCryptAsync* os_crypt_async,
       scoped_refptr<network::SharedURLLoaderFactory> url_loader_factory,
       std::string_view channel_string,
@@ -275,7 +279,11 @@ class AIChatService : public KeyedService,
 
   raw_ptr<ModelService> model_service_;
   raw_ptr<PrefService> profile_prefs_;
+#if BUILDFLAG(IS_IOS)
+  std::unique_ptr<AIChatMetrics> ai_chat_metrics_;
+#else
   raw_ptr<AIChatMetrics> ai_chat_metrics_;
+#endif
   raw_ptr<os_crypt_async::OSCryptAsync> os_crypt_async_;
   scoped_refptr<network::SharedURLLoaderFactory> url_loader_factory_;
   PrefChangeRegistrar pref_change_registrar_;

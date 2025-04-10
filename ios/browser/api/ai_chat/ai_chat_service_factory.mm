@@ -37,9 +37,7 @@ AIChatServiceFactory::AIChatServiceFactory()
     : ProfileKeyedServiceFactoryIOS("AIChatService",
                                     ProfileSelection::kRedirectedInIncognito,
                                     ServiceCreation::kCreateLazily,
-                                    TestingCreation::kNoServiceForTests),
-      ai_chat_metrics_(std::make_unique<AIChatMetrics>(
-          GetApplicationContext()->GetLocalState())) {}
+                                    TestingCreation::kNoServiceForTests) {}
 
 AIChatServiceFactory::~AIChatServiceFactory() {}
 
@@ -60,10 +58,13 @@ std::unique_ptr<KeyedService> AIChatServiceFactory::BuildServiceInstanceFor(
       base::Unretained(profile));
   auto credential_manager = std::make_unique<AIChatCredentialManager>(
       std::move(skus_service_getter), GetApplicationContext()->GetLocalState());
+  auto metrics = std::make_unique<AIChatMetrics>(
+      GetApplicationContext()->GetLocalState(), profile->GetPrefs());
+
   ModelService* model_service = ModelServiceFactory::GetForProfile(profile);
   return std::make_unique<AIChatService>(
       model_service, std::move(credential_manager),
-      user_prefs::UserPrefs::Get(context), ai_chat_metrics_.get(),
+      user_prefs::UserPrefs::Get(context), std::move(metrics),
       GetApplicationContext()->GetOSCryptAsync(),
       context->GetSharedURLLoaderFactory(),
       version_info::GetChannelString(::GetChannel()), profile->GetStatePath());

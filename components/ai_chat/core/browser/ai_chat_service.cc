@@ -92,14 +92,22 @@ AIChatService::AIChatService(
     ModelService* model_service,
     std::unique_ptr<AIChatCredentialManager> ai_chat_credential_manager,
     PrefService* profile_prefs,
+#if BUILDFLAG(IS_IOS)
+    std::unique_ptr<AIChatMetrics> ai_chat_metrics,
+#else
     AIChatMetrics* ai_chat_metrics,
+#endif
     os_crypt_async::OSCryptAsync* os_crypt_async,
     scoped_refptr<network::SharedURLLoaderFactory> url_loader_factory,
     std::string_view channel_string,
     base::FilePath profile_path)
     : model_service_(model_service),
       profile_prefs_(profile_prefs),
+#if BUILDFLAG(IS_IOS)
+      ai_chat_metrics_(std::move(ai_chat_metrics)),
+#else
       ai_chat_metrics_(ai_chat_metrics),
+#endif
       os_crypt_async_(os_crypt_async),
       url_loader_factory_(url_loader_factory),
       feedback_api_(

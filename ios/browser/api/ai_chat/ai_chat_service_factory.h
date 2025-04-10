@@ -42,8 +42,6 @@ class AIChatServiceFactory : public ProfileKeyedServiceFactoryIOS {
   // ProfileKeyedServiceFactoryIOS implementation.
   std::unique_ptr<KeyedService> BuildServiceInstanceFor(
       web::BrowserState* context) const override;
-
-  std::unique_ptr<AIChatMetrics> ai_chat_metrics_;
 };
 }  // namespace ai_chat
 
