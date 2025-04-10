@@ -61,7 +61,7 @@ public class CustomizeMenuAdapter extends ListAdapter<MenuItem, CustomizeMenuAda
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         MenuItem currentMenuItem = getItem(position);
-        if (CustomizeMenuUtils.dividerIdList.contains(currentMenuItem.getItemId())) {
+        if (CustomizeMenuUtils.sDividerIdList.contains(currentMenuItem.getItemId())) {
             showDivider(holder);
         } else {
             showMenuItem(holder, currentMenuItem);

@@ -10,7 +10,6 @@
         android:key="brave_customize_menu"
         android:icon="@drawable/ic_window_screwdriver"
         android:title="@string/customize_menu_title"/>
-        
     <org.chromium.components.browser_ui.settings.ChromeBasePreference
         android:fragment="org.chromium.chrome.browser.toolbar.settings.AddressBarSettingsFragment"
         android:key="address_bar"

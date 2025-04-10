@@ -3,21 +3,16 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-# Import required GN build configuration files
 import("//build/config/android/rules.gni")  # Android build rules
 
-# Define an Android library target for the customize menu feature
 android_library("java") {
-  # Java source files to compile
   sources = [
-    "java/src/org/chromium/brave/browser/customize_menu/CustomMenuItem.java",
     "java/src/org/chromium/brave/browser/customize_menu/CustomizeMenuUtils.java",
     "java/src/org/chromium/brave/browser/customize_menu/settings/CustomizeMenuAdapter.java",
     "java/src/org/chromium/brave/browser/customize_menu/settings/CustomizeMenuListener.java",
     "java/src/org/chromium/brave/browser/customize_menu/settings/CustomizeMenuPreferenceFragment.java",
   ]
 
-  # Dependencies required by this library
   deps = [
     ":java_resources",
     "//base:base_java",  # Core Java utilities
@@ -30,7 +25,6 @@ android_library("java") {
     "//third_party/androidx:androidx_recyclerview_recyclerview_java",
   ]
 
-  # Package name for generated R.java resource class
   resources_package = "org.chromium.brave.browser.customize_menu"
 }
 

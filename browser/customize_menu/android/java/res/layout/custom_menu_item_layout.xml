@@ -45,7 +45,6 @@
             app:showText="false"
             android:clickable="false"/>
     </LinearLayout>
-    
      <View
           android:id="@+id/divider"
           android:layout_width="match_parent"

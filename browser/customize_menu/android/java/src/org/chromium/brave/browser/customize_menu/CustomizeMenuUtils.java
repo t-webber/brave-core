@@ -13,16 +13,10 @@ import android.view.MenuItem;
 import androidx.appcompat.content.res.AppCompatResources;
 import androidx.appcompat.view.menu.MenuBuilder;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import org.chromium.base.Log;
-import org.chromium.chrome.browser.preferences.ChromeSharedPreferences;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -34,10 +28,10 @@ public class CustomizeMenuUtils {
     private static final String TAG = "CustomizeMenuUtils";
     private static final String CUSTOMIZE_MENU_ITEMS = "customize_menu_items";
 
-    public static List<Integer> dividerIdList =
+    public static List<Integer> sDividerIdList =
             new ArrayList<>(Arrays.asList(R.id.divider_line_id, R.id.managed_by_divider_line_id));
 
-    private static List<Integer> exceptionIdList =
+    private static List<Integer> sExceptionIdList =
             new ArrayList<>(
                     Arrays.asList(
                             R.id.update_menu_id,
@@ -54,47 +48,6 @@ public class CustomizeMenuUtils {
                             R.id.ntp_customization_id,
                             R.id.managed_by_divider_line_id,
                             R.id.managed_by_menu_id));
-
-    public static void saveMenuItems(List<CustomMenuItem> menuItems) {
-        if (menuItems == null) {
-            return;
-        }
-
-        try {
-            JSONArray jsonArray = new JSONArray();
-            for (CustomMenuItem item : menuItems) {
-                jsonArray.put(item.toJson());
-            }
-            ChromeSharedPreferences.getInstance()
-                    .writeString(CUSTOMIZE_MENU_ITEMS, jsonArray.toString());
-        } catch (Exception e) {
-            Log.e(TAG, "Error saving search engines", e);
-        }
-    }
-
-    public static List<CustomMenuItem> loadMenuItems() {
-        String jsonString =
-                ChromeSharedPreferences.getInstance().readString(CUSTOMIZE_MENU_ITEMS, null);
-        if (jsonString == null) {
-            return new LinkedList<>();
-        }
-
-        try {
-            JSONArray jsonArray = new JSONArray(jsonString);
-            List<CustomMenuItem> menuItems = new ArrayList<>();
-            for (int i = 0; i < jsonArray.length(); i++) {
-                JSONObject jsonObject = jsonArray.getJSONObject(i);
-                CustomMenuItem item = CustomMenuItem.fromJson(jsonObject);
-                if (item != null) {
-                    menuItems.add(item);
-                }
-            }
-            return menuItems;
-        } catch (JSONException e) {
-            Log.e(TAG, "Error loading menu items", e);
-            return new LinkedList<>();
-        }
-    }
 
     /**
      * Gets a list of menu items belonging to a specific group ID.
@@ -113,7 +66,7 @@ public class CustomizeMenuUtils {
         for (int i = 0; i < menu.size(); i++) {
             MenuItem menuItem = menu.getItem(i);
             if (menuItem.getGroupId() == groupId
-                    && !exceptionIdList.contains(menuItem.getItemId())) {
+                    && !sExceptionIdList.contains(menuItem.getItemId())) {
                 logMenuItemDetails(menuItem);
                 filteredItems.add(menuItem);
             }
