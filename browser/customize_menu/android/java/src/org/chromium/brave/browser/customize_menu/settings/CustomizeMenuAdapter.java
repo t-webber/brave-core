@@ -6,6 +6,7 @@
 package org.chromium.brave.browser.customize_menu.settings;
 
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -18,29 +19,28 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.materialswitch.MaterialSwitch;
 
-import org.chromium.brave.browser.customize_menu.CustomMenuItem;
 import org.chromium.brave.browser.customize_menu.R;
+import org.chromium.chrome.browser.preferences.ChromeSharedPreferences;
 
-public class CustomizeMenuAdapter
-        extends ListAdapter<CustomMenuItem, CustomizeMenuAdapter.ViewHolder> {
+public class CustomizeMenuAdapter extends ListAdapter<MenuItem, CustomizeMenuAdapter.ViewHolder> {
     private CustomizeMenuListener mCustomizeMenuListener;
 
     public CustomizeMenuAdapter() {
         super(DIFF_CALLBACK);
     }
 
-    private static final DiffUtil.ItemCallback<CustomMenuItem> DIFF_CALLBACK =
-            new DiffUtil.ItemCallback<CustomMenuItem>() {
+    private static final DiffUtil.ItemCallback<MenuItem> DIFF_CALLBACK =
+            new DiffUtil.ItemCallback<MenuItem>() {
                 @Override
                 public boolean areItemsTheSame(
-                        @NonNull CustomMenuItem oldItem, @NonNull CustomMenuItem newItem) {
-                    return oldItem.equals(newItem);
+                        @NonNull MenuItem oldItem, @NonNull MenuItem newItem) {
+                    return oldItem.getItemId() == newItem.getItemId();
                 }
 
                 @Override
                 public boolean areContentsTheSame(
-                        @NonNull CustomMenuItem oldItem, @NonNull CustomMenuItem newItem) {
-                    return oldItem.equals(newItem);
+                        @NonNull MenuItem oldItem, @NonNull MenuItem newItem) {
+                    return oldItem.getItemId() == newItem.getItemId();
                 }
             };
 
@@ -59,15 +59,22 @@ public class CustomizeMenuAdapter
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        CustomMenuItem currentMenuItem = getItem(position);
+        MenuItem currentMenuItem = getItem(position);
 
         holder.mMenuItemText.setText(currentMenuItem.getTitle());
-        holder.mMenuItemSwitch.setChecked(currentMenuItem.shouldShow());
+
+        boolean isSelected =
+                ChromeSharedPreferences.getInstance()
+                        .readBoolean(String.valueOf(currentMenuItem.getItemId()), true);
+        holder.mMenuItemSwitch.setChecked(isSelected);
+        holder.mMenuItemIcon.setImageDrawable(currentMenuItem.getIcon());
 
         holder.itemView.setOnClickListener(
                 v -> {
                     if (mCustomizeMenuListener != null) {
-                        mCustomizeMenuListener.onCustomMenuItemSelected(currentMenuItem);
+                        boolean isShown = holder.mMenuItemSwitch.isChecked();
+                        holder.mMenuItemSwitch.setChecked(!isShown);
+                        mCustomizeMenuListener.onMenuItemSelected(currentMenuItem, !isShown);
                     }
                 });
         if (currentMenuItem.getItemId() == R.id.divider_line_id) {

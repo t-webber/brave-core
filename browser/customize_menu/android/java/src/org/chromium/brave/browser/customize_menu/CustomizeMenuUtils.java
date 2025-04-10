@@ -6,9 +6,10 @@
 package org.chromium.brave.browser.customize_menu;
 
 import android.content.Context;
-import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.widget.PopupMenu;
+
+import androidx.appcompat.view.menu.MenuBuilder;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -80,7 +81,8 @@ public class CustomizeMenuUtils {
      */
     public static List<MenuItem> getMenuItemsByGroup(Context context, int groupId) {
         List<MenuItem> filteredItems = new ArrayList<>();
-        Menu menu = createPopupMenu(context);
+        MenuBuilder menu = new MenuBuilder(context);
+        new MenuInflater(context).inflate(R.menu.brave_main_menu, menu);
 
         for (int i = 0; i < menu.size(); i++) {
             MenuItem menuItem = menu.getItem(i);
@@ -93,17 +95,8 @@ public class CustomizeMenuUtils {
         return filteredItems;
     }
 
-    /** Creates and initializes a PopupMenu with the brave_main_menu inflated. */
-    private static Menu createPopupMenu(Context context) {
-        PopupMenu popupMenu = new PopupMenu(context, null);
-        Menu menu = popupMenu.getMenu();
-        popupMenu.getMenuInflater().inflate(R.menu.brave_main_menu, menu);
-        return menu;
-    }
-
     /** Logs details about a menu item for debugging purposes. */
     private static void logMenuItemDetails(MenuItem menuItem) {
-        Log.e(TAG, "Menu item: " + menuItem.getTitle());
-        Log.e(TAG, "Menu item: " + menuItem.getItemId());
+        Log.e(TAG, "Menu item: " + menuItem.getTitle() + " ID: " + menuItem.getItemId());
     }
 }

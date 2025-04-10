@@ -1034,6 +1034,8 @@ public abstract class BraveActivity extends ChromeActivity
     public void finishNativeInitialization() {
         super.finishNativeInitialization();
 
+        // CustomizeMenuUtils.getMenuItemsByGroup(BraveActivity.this, R.id.PAGE_MENU);
+
         boolean isFirstInstall = PackageUtils.isFirstInstall(this);
 
         String countryCode = Locale.getDefault().getCountry();

@@ -6,6 +6,7 @@ package org.chromium.brave.browser.customize_menu.settings;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -16,9 +17,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import org.chromium.base.supplier.ObservableSupplier;
 import org.chromium.base.supplier.ObservableSupplierImpl;
-import org.chromium.brave.browser.customize_menu.CustomMenuItem;
 import org.chromium.brave.browser.customize_menu.CustomizeMenuUtils;
 import org.chromium.brave.browser.customize_menu.R;
+import org.chromium.chrome.browser.preferences.ChromeSharedPreferences;
 import org.chromium.chrome.browser.settings.ChromeBaseSettingsFragment;
 
 public class CustomizeMenuPreferenceFragment extends ChromeBaseSettingsFragment
@@ -52,13 +53,16 @@ public class CustomizeMenuPreferenceFragment extends ChromeBaseSettingsFragment
 
         CustomizeMenuAdapter adapter = new CustomizeMenuAdapter();
         adapter.setCustomizeMenuListener(this);
-        adapter.submitList(CustomizeMenuUtils.loadMenuItems());
+        adapter.submitList(CustomizeMenuUtils.getMenuItemsByGroup(getActivity(), R.id.PAGE_MENU));
         mRecyclerView.setAdapter(adapter);
         return view;
     }
 
     @Override
-    public void onCustomMenuItemSelected(CustomMenuItem menuItem) {}
+    public void onMenuItemSelected(MenuItem menuItem, boolean isShown) {
+        ChromeSharedPreferences.getInstance()
+                .writeBoolean(String.valueOf(menuItem.getItemId()), isShown);
+    }
 
     @Override
     public ObservableSupplier<String> getPageTitle() {

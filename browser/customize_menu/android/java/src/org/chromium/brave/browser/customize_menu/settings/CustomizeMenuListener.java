@@ -5,8 +5,8 @@
 
 package org.chromium.brave.browser.customize_menu.settings;
 
-import org.chromium.brave.browser.customize_menu.CustomMenuItem;
+import android.view.MenuItem;
 
 public interface CustomizeMenuListener {
-    void onCustomMenuItemSelected(CustomMenuItem menuItem);
+    void onMenuItemSelected(MenuItem menuItem, boolean isShown);
 }
