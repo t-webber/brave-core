@@ -5,6 +5,9 @@
 
 package org.chromium.brave.browser.customize_menu.settings;
 
+import android.text.SpannableString;
+import android.text.Spanned;
+import android.text.style.ForegroundColorSpan;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -77,7 +80,22 @@ public class CustomizeMenuAdapter extends ListAdapter<MenuItem, CustomizeMenuAda
         holder.mDivider.setVisibility(View.GONE);
         holder.mMenuItemContainer.setVisibility(View.VISIBLE);
 
-        holder.mMenuItemText.setText(currentMenuItem.getTitle());
+        String title = currentMenuItem.getTitle().toString();
+        if (CustomizeMenuUtils.sContexualIdList.contains(currentMenuItem.getItemId())) {
+            title = title + "*";
+            SpannableString spannableString = new SpannableString(title);
+            ForegroundColorSpan foregroundSpan =
+                    new ForegroundColorSpan(
+                            holder.itemView.getContext().getColor(R.color.system_feedback_error));
+            spannableString.setSpan(
+                    foregroundSpan,
+                    title.length() - 1,
+                    title.length(),
+                    Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+            holder.mMenuItemText.setText(spannableString);
+        } else {
+            holder.mMenuItemText.setText(title);
+        }
 
         boolean isSelected =
                 ChromeSharedPreferences.getInstance()

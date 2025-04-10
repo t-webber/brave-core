@@ -49,6 +49,24 @@ public class CustomizeMenuUtils {
                             R.id.managed_by_divider_line_id,
                             R.id.managed_by_menu_id));
 
+    public static List<Integer> sContexualIdList =
+            new ArrayList<>(
+                    Arrays.asList(
+                            R.id.page_zoom_id,
+                            R.id.download_page_id,
+                            R.id.print_id,
+                            R.id.enable_price_tracking_menu_id,
+                            R.id.disable_price_tracking_menu_id,
+                            R.id.find_in_page_id,
+                            R.id.translate_id,
+                            R.id.readaloud_menu_id,
+                            R.id.open_with_id,
+                            R.id.universal_install,
+                            R.id.open_webapk_id,
+                            R.id.auto_dark_web_contents_row_menu_id,
+                            R.id.paint_preview_show_id,
+                            R.id.get_image_descriptions_id));
+
     /**
      * Gets a list of menu items belonging to a specific group ID.
      *
@@ -143,6 +161,10 @@ public class CustomizeMenuUtils {
             } else if (item.getItemId() == R.id.request_brave_vpn_row_menu_id) {
                 item.setIcon(AppCompatResources.getDrawable(context, R.drawable.ic_vpn));
                 item.setTitle(context.getString(R.string.brave_vpn));
+            } else if (item.getItemId() == R.id.open_webapk_id) {
+                item.setTitle(context.getString(R.string.open_app));
+            } else if (item.getItemId() == R.id.manage_all_windows_menu_id) {
+                item.setTitle(context.getString(R.string.manage_windows));
             }
         }
     }

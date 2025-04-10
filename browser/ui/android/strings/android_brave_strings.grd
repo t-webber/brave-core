@@ -4097,6 +4097,15 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     <message name="IDS_CUSTOMIZE_MENU_SETTINGS_TITLE" desc="A title to show customize menu settings">
       Show or hide icons in the main menu
     </message>
+    <message name="IDS_MANAGE_WINDOWS" desc="A title to show manage windows">
+      Manage windows
+    </message>
+    <message name="IDS_OPEN_APP" desc="A title to show open app">
+      Open app
+    </message>
+    <message name="IDS_CUSTOMIZE_MENU_CONTEXUAL_TEXT" desc="A text to show contextual text">
+      * This is a contextual menu item, it will only be visible on the menu when supported by the currently open webpage.
+    </message>
   </messages>
   </release>
 </grit>

@@ -17,6 +17,14 @@
         android:textColor="@color/schemes_primary"
         android:textSize="14sp"
         android:padding="16dp"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/customize_menu_contexual_text"
+        android:textColor="@color/system_feedback_error"
+        android:textSize="14sp"
+        android:padding="16dp"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/custom_menu_item_list"
