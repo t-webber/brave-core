@@ -18,9 +18,8 @@ br_elements_non_web_component_files_no_preprocess = [
 ]
 br_elements_css_files_no_preprocess = [ "cr_lottie/cr_lottie.css" ]
 
-brave_br_elements_non_web_component_files =
-    br_elements_non_web_component_files +
-    br_elements_non_web_component_files_no_preprocess
+brave_br_elements_ts_files = br_elements_non_web_component_files +
+                             br_elements_non_web_component_files_no_preprocess
 
 brave_br_elements_css_files =
     br_elements_css_files + br_elements_css_files_no_preprocess
