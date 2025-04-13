@@ -56,10 +56,6 @@ interface MessageData {
   canvas?: OffscreenCanvas;
 }
 
-interface CanvasElementWithOffscreen extends HTMLCanvasElement {
-  transferControlToOffscreen: () => OffscreenCanvas;
-}
-
 interface LottiePlayerProps {
   animationUrl: string
   play: boolean
@@ -117,7 +113,7 @@ class LottiePlayerState {
     loadAnimation(value).then(data => {
       const message: MessageData = {
         animationData: data,
-        drawSize: this.getCanasSize(),
+        drawSize: this.getCanvasSize(),
         params: { loop: !!this.props.loop, autoplay: this.play },
       }
 
@@ -131,7 +127,7 @@ class LottiePlayerState {
     })
   }
 
-  constructor(private readonly canvas: CanvasElementWithOffscreen, autoplay: boolean) {
+  constructor(private readonly canvas: HTMLCanvasElement, autoplay: boolean) {
     this.isPlaying = autoplay
     this.worker = new Worker(getLottieWorkerURL() as unknown as URL, { type: 'module' })
     this.worker.onmessage = (event: MessageEvent) => {
@@ -157,13 +153,13 @@ class LottiePlayerState {
 
     this.resizeObserver = new ResizeObserver(e => {
       this.initPromise?.then(() => {
-        this.worker.postMessage({ drawSize: this.getCanasSize() })
+        this.worker.postMessage({ drawSize: this.getCanvasSize() })
       })
     })
     this.resizeObserver.observe(this.canvas)
   }
 
-  private getCanasSize(): { width: number, height: number } {
+  private getCanvasSize(): { width: number, height: number } {
     const canvasElement = this.canvas;
     const devicePixelRatio = window.devicePixelRatio;
     const clientRect = canvasElement.getBoundingClientRect();
@@ -201,7 +197,7 @@ function LottiePlayer(props: LottiePlayerProps) {
   React.useEffect(() => {
     if (!ref.current) throw new Error("Canvas element not found")
 
-    const state = new LottiePlayerState(ref.current! as CanvasElementWithOffscreen, props.play)
+    const state = new LottiePlayerState(ref.current, props.play)
     setState(state)
 
     return () => {
