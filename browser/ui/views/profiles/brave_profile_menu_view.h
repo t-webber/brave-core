@@ -20,17 +20,11 @@ class BraveProfileMenuView : public ProfileMenuView {
 
   // Helper methods for building the menu.
   void SetProfileIdentityInfo(
-      const std::u16string& profile_name,
-      SkColor profile_background_color,
-      std::optional<EditButtonParams> edit_button_params,
       const ui::ImageModel& image_model,
-      const ui::ImageModel& management_badge,
       const std::u16string& title,
       const std::u16string& subtitle = std::u16string(),
-      const std::u16string& management_label = std::u16string(),
       const gfx::VectorIcon* header_art_icon = nullptr) override;
   void BuildFeatureButtons() override;
-  gfx::ImageSkia GetSyncIcon() const override;
 };
 
 #endif  // BRAVE_BROWSER_UI_VIEWS_PROFILES_BRAVE_PROFILE_MENU_VIEW_H_
