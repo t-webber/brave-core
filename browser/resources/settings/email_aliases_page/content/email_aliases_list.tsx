@@ -162,7 +162,7 @@ export const AliasList = ({ aliases, onViewChange, onListChange, mappingService 
         title={getLocale('emailAliasesCreateAliasTitle')}
         id='add-alias'
         onClick={
-          async () => {
+          () => {
             onViewChange({ mode: 'Create' })
           }
         }>
