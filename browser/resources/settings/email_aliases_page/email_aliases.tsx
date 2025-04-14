@@ -74,7 +74,8 @@ const Introduction = () =>
   <Card>
     <h2>{getLocale('emailAliasesShortDescription')}</h2>
     <div>{getLocale('emailAliasesDescription')} &emsp;
-      {/* TODO: Link to the email aliases support page */}
+      {/* TODO(https://github.com/brave/brave-browser/issues/45408):
+       // Link to the email aliases support page */}
       <SecureLink href="https://support.brave.com" target='_blank'>
         {getLocale('emailAliasesLearnMore')}
       </SecureLink>
