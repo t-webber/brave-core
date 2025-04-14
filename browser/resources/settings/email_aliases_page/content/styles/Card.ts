@@ -10,7 +10,7 @@ const Card = styled.div`
   background-color: ${color.container.background};
   border: none;
   overflow: hidden;
-  padding: ${spacing.l};
+  padding: ${spacing.l} ${spacing['2Xl']};
 `
 
 export default Card

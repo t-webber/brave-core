@@ -13,7 +13,7 @@ import { provideStrings } from '../../../../../.storybook/locale'
 type AccountState = 'NoAccount' | 'AccountReady' | 'AwaitingAccount'
 
 provideStrings({
-  emailAliasesShortDescription: 'Email Aliases',
+  emailAliasesShortDescription: 'Keep your personal email address private',
   emailAliasesDescription: 'Create unique, random addresses that forward to your Brave account email and can be deleted at any time. Keep your actual email address from being disclosed or used by advertisers.',
   emailAliasesLearnMore: 'Learn More',
   emailAliasesSignOut: 'Sign Out',
@@ -26,8 +26,8 @@ provideStrings({
   emailAliasesEdit: 'Edit',
   emailAliasesDelete: 'Delete',
   emailAliasesCreateDescription: 'Create up to 5 free email aliases to protect your real email address.',
-  emailAliasesListTitle: 'Your email aliases',
-  emailAliasesCreateAliasTitle: 'Create a new alias email',
+  emailAliasesListTitle: 'Your Email aliases',
+  emailAliasesCreateAliasTitle: 'New email alias',
   emailAliasesCreateAliasLabel: 'New alias',
   emailAliasesRefreshButtonTitle: 'Suggest another email alias',
   emailAliasesGeneratingNewAlias: 'Generating new alias...',
@@ -38,7 +38,7 @@ provideStrings({
   emailAliasesAliasLabel: 'Email alias',
   emailAliasesEmailsWillBeForwardedTo: 'Emails will be forwarded to $1',
   emailAliasesEditAliasTitle: 'Edit email alias',
-  emailAliasesCreateAliasButton: 'Create',
+  emailAliasesCreateAliasButton: 'Create alias',
   emailAliasesSaveAliasButton: 'Save',
   emailAliasesSignInOrCreateAccount: 'To get started, sign in or create a Brave account',
   emailAliasesEnterEmailToGetLoginLink: 'Enter your email address to get a secure login link sent to your email. Clicking this link will either create or access a Brave Account and let you use the free Email Aliases service.',
@@ -56,7 +56,7 @@ export default {
 }
 
 const demoData = {
-  email: 'username@brave.com',
+  email: 'aguscr182@gmail.com',
   aliases: [
     {
       email: 'horse.radish.record57@bravealias.com',

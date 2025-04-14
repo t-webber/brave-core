@@ -3,74 +3,62 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import * as React from 'react'
 import { Alias, MappingService, ViewState } from './types'
-import Card from './styles/Card'
-import Col from './styles/Col'
-import Row from './styles/Row'
-import styled from 'styled-components'
-import Icon from '@brave/leo/react/icon'
-import { color } from '@brave/leo/tokens/css/variables'
-import Tooltip from '@brave/leo/react/tooltip'
+import { color, spacing } from '@brave/leo/tokens/css/variables'
+import { font } from '@brave/leo/tokens/css/variables'
 import { getLocale } from '$web-common/locale'
-import formatMessage from '$web-common/formatMessage'
+import { MAX_ALIASES } from './constant'
+import { onEnterKeyForDiv } from './onEnterKey'
+import * as React from 'react'
 import Button from '@brave/leo/react/button'
 import ButtonMenu from '@brave/leo/react/buttonMenu'
-import { MAX_ALIASES } from './constant'
+import Col from './styles/Col'
+import Description from './styles/Description'
+import formatMessage from '$web-common/formatMessage'
+import Icon from '@brave/leo/react/icon'
+import Row from './styles/Row'
+import styled from 'styled-components'
+import Tooltip from '@brave/leo/react/tooltip'
+
 const AliasItemRow = styled(Row)`
-  margin: 0px;
-  font-size: 125%;
-  padding: 18px 0px 18px 25px;
+  font: ${font.default.regular};
+  padding: ${spacing.l} ${spacing['2Xl']};
   border-top: ${color.divider.subtle} 1px solid;
   justify-content: space-between;
 `
 
 const AliasAnnotation = styled.div`
-  font-size: 80%;
-  font-weight: 400;
-  padding-top: 0.25em;
-  color: ${color.neutralVariant[50]};
-`
-
-const AliasControls = styled(Row)`
-  height: 1.5em;
-  user-select: none;
-  align-items: top;
+  font: ${font.small.regular};
+  color: ${color.text.secondary};
 `
 
 const AliasListIntro = styled(Row)`
-  margin-bottom: 20px;
   justify-content: space-between;
+  padding: ${spacing.l} ${spacing['2Xl']};
   & leo-button {
     flex-grow: 0;
+    font: ${font.components.buttonSmall};
   }
 `
 
 const EmailContainer = styled.div`
   cursor: pointer;
+  font: ${font.default.regular};
 `
 
-const CopyButtonWrapper = styled.div`
-  cursor: pointer;
-  color: ${color.neutralVariant[60]};
-  &:hover {
-    background-color: ${color.desktopbrowser.toolbar.button.hover};
-  }
-  &:active {
-    background-color: ${color.desktopbrowser.toolbar.button.active};
-  }
-  padding: 0.25em;
-  border-radius: 0.5em;
+const AliasControls = styled(Row)`
+  user-select: none;
 `
 
-const MenuButton = styled(Button)`
+const ButtonUnpadded = styled(Button)`
   --leo-button-padding: 0;
-  flex-grow: 0;
-  width: 1.5em;
+  & leo-icon {
+    color: ${color.icon.default};
+  }
 `
 
-const BorderedCard = styled(Card)`
-  border-top: ${color.material.divider} 1px solid;
+const DivWithTopDivider = styled.div`
+  border-top: ${color.divider.subtle} 2px solid;
 `
 
 const AliasMenuItem = ({ onClick, iconName, text }:
@@ -92,11 +80,7 @@ const CopyToast = ({ text, tabIndex, children }: { text: string, tabIndex?: numb
   }
   return <div
     tabIndex={tabIndex}
-    onKeyDown={(e) => {
-      if (e.key === 'Enter') {
-        copy()
-      }
-    }}
+    onKeyDown={onEnterKeyForDiv(copy)}
     onClick={copy}>
     <Tooltip text={copied ? getLocale('emailAliasesCopiedToClipboard') : ''} mode="mini" visible={copied}>
       {children}
@@ -122,15 +106,22 @@ const AliasItem = ({ alias, onEdit, onDelete }: { alias: Alias, onEdit: () => vo
         </Col>
       <AliasControls>
         <CopyToast text={alias.email} tabIndex={0}>
-          <CopyButtonWrapper
-            title={getLocale('emailAliasesClickToCopyAlias')}>
+          <ButtonUnpadded
+            title={getLocale('emailAliasesClickToCopyAlias')}
+            kind='plain'
+            size='medium'
+            onClick={() => navigator.clipboard.writeText(alias.email)}>
             <Icon name="copy"/>
-          </CopyButtonWrapper>
+          </ButtonUnpadded>
         </CopyToast>
         <ButtonMenu>
-          <MenuButton slot='anchor-content' kind='plain-faint' size="large">
+          <ButtonUnpadded
+            slot='anchor-content'
+            kind='plain'
+            size="large"
+            onClick={() => {}}>
             <Icon name="more-vertical" />
-          </MenuButton>
+          </ButtonUnpadded>
           <AliasMenuItem
             iconName="edit-pencil"
             text={getLocale('emailAliasesEdit')}
@@ -149,14 +140,16 @@ export const AliasList = ({ aliases, onViewChange, onListChange, mappingService 
     onViewChange: (viewState: ViewState) => void,
     onListChange: () => void
   }) =>
-  <BorderedCard>
+  <DivWithTopDivider>
     <AliasListIntro>
       <Col>
-        <h2>{getLocale('emailAliasesListTitle')}</h2>
-        {getLocale('emailAliasesCreateDescription')}
+        <h4>{getLocale('emailAliasesListTitle')}</h4>
+        <Description>{getLocale('emailAliasesCreateDescription')}</Description>
       </Col>
       <Button
         isDisabled={aliases.length >= MAX_ALIASES}
+        kind='filled'
+        size='small'
         title={getLocale('emailAliasesCreateAliasTitle')}
         id='add-alias'
         onClick={
@@ -176,4 +169,4 @@ export const AliasList = ({ aliases, onViewChange, onListChange, mappingService 
           await mappingService.deleteAlias(alias.email)
           onListChange()
         }}></AliasItem>)}
-  </BorderedCard>
+  </DivWithTopDivider>

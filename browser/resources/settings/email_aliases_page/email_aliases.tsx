@@ -3,23 +3,49 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import * as React from 'react'
-import { createRoot } from 'react-dom/client';
-import { color, spacing, font } from '@brave/leo/tokens/css/variables'
 import { Alias, MappingService, ViewState } from './content/types'
-import Col from './content/styles/Col'
-import Row from './content/styles/Row'
-import Card from './content/styles/Card'
-import BraveIconCircle from './content/styles/BraveIconCircle'
-import Icon from '@brave/leo/react/icon'
-import { getLocale } from '$web-common/locale'
-import SecureLink from '$web-common/SecureLink'
-import { EmailAliasModal } from './content/email_aliases_modal';
-import { MainEmailEntryForm } from './content/email_aliases_signin_page'
 import { AliasList } from './content/email_aliases_list'
-import styled, { StyleSheetManager } from 'styled-components'
+import { color, spacing, font, radius, typography } from '@brave/leo/tokens/css/variables'
+import { createRoot } from 'react-dom/client';
+import { EmailAliasModal } from './content/email_aliases_modal';
+import { getLocale } from '$web-common/locale'
+import { MainEmailEntryForm } from './content/email_aliases_signin_page'
 import { RemoteMappingService } from './content/remote_mapping_service'
+import * as React from 'react'
+import BraveIconCircle from './content/styles/BraveIconCircle'
+import Button from '@brave/leo/react/button'
+import Card from './content/styles/Card'
+import Col from './content/styles/Col'
 import Dialog from '@brave/leo/react/dialog'
+import Icon from '@brave/leo/react/icon'
+import LoadingIcon from './content/LoadingIcon'
+import Row from './content/styles/Row'
+import SecureLink from '$web-common/SecureLink'
+import styled, { StyleSheetManager } from 'styled-components'
+
+const PageCol = styled(Col)`
+  font: ${font.default.regular};
+  padding: 0;
+  margin: 0;
+  & h4 {
+    font: ${font.heading.h4};
+    line-height: ${typography.heading.h4.lineHeight};
+    margin: 0;
+  }
+`
+
+const AliasDialog = styled(Dialog)`
+  --leo-dialog-backdrop-background: ${color.dialogs.scrimBackground};
+  --leo-dialog-padding: ${spacing['2Xl']};
+`
+
+const SectionTitle = styled(Card)`
+  border-radius: ${radius.m};
+  padding: ${spacing['2Xl']} ${spacing['2Xl']} ${spacing.l} ${spacing['2Xl']};
+  display: flex;
+  flex-direction: column;
+  row-gap: ${spacing.m};
+`
 
 const MainEmailTextContainer = styled(Col)`
   justify-content: center;
@@ -27,83 +53,69 @@ const MainEmailTextContainer = styled(Col)`
   user-select: none;
 `
 
-const MainEmailDescription = styled.div`
-  font: ${font.default.regular};
+const MainEmail = styled.div`
+  font: ${font.default.semibold};
 `
 
-const MainEmail = styled.div`
-  font: ${font.large.semibold};
-  padding-bottom: ${spacing.s};
+const MainEmailDescription = styled.div`
+  font: ${font.small.regular};
 `
 
 const AccountRow = styled(Row)`
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: ${spacing.l} 0px ${spacing.l};
-`
-
-const ManageAccountButton = styled.button`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  font: ${font.default.regular};
-  align-items: center;
-  color: ${color.text.secondary};
-  text-decoration: none;
-  background: none;
-  border: none;
-  border-radius: 0.5em;
-  padding: 0.5em;
-  & > span {
-    margin: 0.25em;
+  padding: 0;
+  & * {
+    flex-grow: 0;
+    column-gap: ${spacing.xl};
   }
-  cursor: pointer;
-  &:hover {
-    background-color: var(--leo-color-desktopbrowser-toolbar-button-hover);
-  }
-  &:active {
-    background-color: var(--leo-color-desktopbrowser-toolbar-button-active);
-  }
-`
-
-const PageCol = styled(Col)`
-  padding: ${spacing.l};
 `
 
 const Introduction = () =>
-  <Card>
-    <h2>{getLocale('emailAliasesShortDescription')}</h2>
-    <div>{getLocale('emailAliasesDescription')} &emsp;
-      {/* TODO(https://github.com/brave/brave-browser/issues/45408):
-       // Link to the email aliases support page */}
-      <SecureLink href="https://support.brave.com" target='_blank'>
-        {getLocale('emailAliasesLearnMore')}
-      </SecureLink>
-    </div>
-  </Card>
+  <SectionTitle>
+      <div>
+      <h4>{getLocale('emailAliasesShortDescription')}</h4>
+      </div>
+      <div>
+        {getLocale('emailAliasesDescription')}  {
+           /* TODO(https://github.com/brave/brave-browser/issues/45408):
+           // Link to the email aliases support page */}
+        <SecureLink href="https://support.brave.com" target='_blank'>
+          {getLocale('emailAliasesLearnMore')}
+        </SecureLink>
+      </div>
+  </SectionTitle>
 
 const MainEmailDisplay = ({ email, onLogout }: { email: string, onLogout: () => void }) =>
   <Card>
     <AccountRow>
       <Row>
-        <BraveIconCircle name='brave-icon-release-color' />
+        <BraveIconCircle name='social-brave-release-favicon-fullheight-color' />
         <MainEmailTextContainer>
           <MainEmail>{email === '' ? getLocale('emailAliasesConnectingToBraveAccount') : email}</MainEmail>
           <MainEmailDescription>{getLocale('emailAliasesBraveAccount')}</MainEmailDescription>
         </MainEmailTextContainer>
       </Row>
-      <ManageAccountButton
+      <Button
+        kind='plain-faint'
         title={getLocale('emailAliasesSignOutTitle')}
+        size='small'
         onClick={(e) => {
-          e.preventDefault()
           onLogout()
         }}>
-        <Icon name="outside" />
+        <Icon slot='icon-before' name="outside" />
         <span>{getLocale('emailAliasesSignOut')}</span>
-      </ManageAccountButton>
+      </Button>
     </AccountRow>
   </Card>
 
+const SpacedRow = styled(Row)`
+  gap: ${spacing.m};
+  justify-content: center;
+  align-items: center;
+  font: ${font.default.semibold};
+`
 
 const MainView = ({
   viewState, mainEmail, onLogout, aliasesState, setViewState,
@@ -117,24 +129,17 @@ const MainView = ({
   mappingService: MappingService,
   onListChange: () => void
 }) => (viewState.mode === 'Startup'
-  ? <Row style={{ margin: '1em', flexGrow: 1, justifyContent: 'center', alignItems: 'center' }}>
-    <Icon name='loading-spinner' />
-    <h3>{getLocale('emailAliasesConnectingToBraveAccount')}</h3>
-  </Row>
-  : <span>
-    <MainEmailDisplay onLogout={onLogout} email={mainEmail} />
-    <AliasList aliases={aliasesState}
-      onViewChange={setViewState}
-      mappingService={mappingService}
-      onListChange={onListChange} />
-  </span>)
-
-export const GrayOverlay = styled.div`
-  background-color: ${color.dialogs.scrimBackground};
-  position: fixed;
-  z-index: 1;
-  inset: 0;
-`
+        ? <SpacedRow>
+            <LoadingIcon />
+            <div>{getLocale('emailAliasesConnectingToBraveAccount')}</div>
+          </SpacedRow>
+        : <span>
+            <MainEmailDisplay onLogout={onLogout} email={mainEmail} />
+            <AliasList aliases={aliasesState}
+              onViewChange={setViewState}
+              mappingService={mappingService}
+              onListChange={onListChange} />
+          </span>)
 
 export const ManagePage = ({ mappingService }:
   {
@@ -206,7 +211,7 @@ export const ManagePage = ({ mappingService }:
             mappingService={mappingService}
             onListChange={onListChange} />}
       {(viewState.mode === 'Create' || viewState.mode === 'Edit') &&
-      <Dialog
+      <AliasDialog
         isOpen
         onClose={onReturnToMain}
         backdropClickCloses
@@ -218,7 +223,7 @@ export const ManagePage = ({ mappingService }:
             email={mainEmail}
             mode={viewState.mode}
             mappingService={mappingService} />
-        </Dialog>}
+        </AliasDialog>}
     </PageCol>
   )
 }

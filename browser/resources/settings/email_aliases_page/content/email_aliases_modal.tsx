@@ -3,51 +3,59 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import Button from "@brave/leo/react/button"
-import Icon from "@brave/leo/react/icon"
+import { color, font, radius, spacing, typography } from "@brave/leo/tokens/css/variables"
 import { getLocale } from '$web-common/locale'
-import formatMessage from '$web-common/formatMessage'
-import * as React from 'react'
-import { ViewState, ViewMode, MappingService } from "./types"
-import Col from "./styles/Col"
-import Row from "./styles/Row"
-import Input from "@brave/leo/react/input"
-import styled from "styled-components"
-import onEnterKey from "./onEnterKey"
-import { color, font, spacing } from "@brave/leo/tokens/css/variables"
 import { MAX_ALIASES } from "./constant"
+import { onEnterKeyForInput } from "./onEnterKey"
+import { ViewState, ViewMode, MappingService } from "./types"
+import * as React from 'react'
+import Button from "@brave/leo/react/button"
+import Col from "./styles/Col"
+import formatMessage from '$web-common/formatMessage'
+import Icon from "@brave/leo/react/icon"
+import Input from "@brave/leo/react/input"
+import Row from "./styles/Row"
+import styled from "styled-components"
+import LoadingIcon from "./LoadingIcon"
 
-const ModalSectionCol = styled(Col)`
-  margin: ${spacing["2Xl"]} 0;
-  & h3 {
-    margin: ${spacing.s} ${spacing.m};
-  }
-  & leo-input {
-    margin: ${spacing.s} 0;
-  }
+const ModalCol = styled(Col)`
+  row-gap: ${spacing["2Xl"]};
 `
 
-const ButtonRow = styled(Row)<{ bubble?: boolean }>`
-  justify-content: ${props => props.bubble ? 'space-between' : 'end'};
-  margin: ${spacing["2Xl"]} 0;
-  & leo-button {
-    flex-grow: 0;
-  }
-  & span {
-    display: flex;
-    flex-direction: row;
-    column-gap: ${spacing.m};
-  }
+const ModalTitle = styled.h4`
+  color: ${color.text.secondary};
+  font: ${font.heading.h4};
+  margin: 0;
+  line-height: ${typography.heading.h4.lineHeight};
+`
+
+const ModalDescription = styled.div`
+  font: ${font.default.regular};
+  color: ${color.text.primary};
+`
+
+const ModalSectionCol = styled(Col)`
+  row-gap: ${spacing.s};
+`
+
+const ModalLabel = styled.div`
+  font: ${font.small.semibold};
+  line-height: ${typography.lineHeight.small};
+  margin: 0;
+  padding: 0 ${spacing.s};
 `
 
 const GeneratedEmailContainer = styled(Row)`
-  font: ${font.large.regular};
+  font: ${font.default.regular};
   background-color: ${color.neutralVariant[10]};
-  border-radius: ${spacing.m};
-  padding: 0 0 0 ${spacing.m};
-  margin: ${spacing.s} 0;
+  border-radius: ${radius.m};
+  padding: 11px ${spacing.m};
   justify-content: space-between;
-  height: ${spacing["5Xl"]};
+  align-items: center;
+  height: 44px;
+  & div {
+    padding: 0 ${spacing.s};
+  }
   & leo-button {
     flex-grow: 0;
   }
@@ -57,6 +65,9 @@ const ButtonWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  width: ${spacing["4Xl"]};
+  height: 100%;
+  --leo-button-color: ${color.icon.default};
   @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
@@ -64,14 +75,40 @@ const ButtonWrapper = styled.div`
   & .waiting {
     animation: spin 1s linear infinite;
   }
-  width: ${spacing["4Xl"]};
-  height: 100%;
+`
+
+const ModalDetails = styled.div`
+  font: ${font.small.regular};
+  color: ${color.text.tertiary};
+  padding: 0 4px;
+`
+
+const NoteInput = styled(Input)`
+  font: ${font.default.regular};
+  padding: 0 0;
+  margin 0;
+`
+
+const WarningText = styled.div`
+  font: ${font.default.semibold};
+`
+
+const ButtonRow = styled(Row)<{ bubble?: boolean }>`
+  justify-content: ${props => props.bubble ? 'space-between' : 'end'};
+  & leo-button {
+    flex-grow: 0;
+  }
+  & span {
+    display: flex;
+    flex-direction: row;
+    gap: ${spacing.m};
+  }
 `
 
 const RefreshButton = ({ onClick, waiting }: { onClick: () => Promise<void>, waiting: boolean }) => {
   return <ButtonWrapper title={getLocale('emailAliasesRefreshButtonTitle')}>
     {waiting
-      ? <Icon className='waiting' name="loading-spinner" />
+      ? <LoadingIcon />
       : <Button title={getLocale('emailAliasesGeneratingNewAlias')}
         onClick={onClick}
         kind="plain" >
@@ -127,46 +164,46 @@ export const EmailAliasModal = (
     }
   }, [mode])
   return (
-    <div>
-      <h2>{mode === 'Create' ? getLocale('emailAliasesCreateAliasTitle') : getLocale('emailAliasesEditAliasTitle')}</h2>
-      {bubble && <div>{getLocale('emailAliasesBubbleDescription')}</div>}
-      {(bubble && limitReached) ?
-        <h3>{getLocale('emailAliasesBubbleLimitReached')}</h3> :
-        <span>
-          <ModalSectionCol>
-            <h3>{getLocale('emailAliasesAliasLabel')}</h3>
-            <GeneratedEmailContainer>
-              <div>{proposedAlias}</div>
-              {mode === 'Create' && <RefreshButton onClick={regenerateAlias} waiting={awaitingProposedAlias} />}
-            </GeneratedEmailContainer>
-            <div>{formatMessage(getLocale('emailAliasesEmailsWillBeForwardedTo'), { placeholders: { $1: mainEmail } })}</div>
-          </ModalSectionCol>
-          <ModalSectionCol>
-            <h3>{getLocale('emailAliasesNoteLabel')}</h3>
-            <Input
-              type='text'
-              placeholder={getLocale('emailAliasesEditNotePlaceholder')}
-              maxlength={255}
-              value={proposedNote}
-              onChange={(detail) => setProposedNote(detail.value)}
-              onKeyDown={onEnterKey(createOrSave)}>
-            </Input>
-            {mode === 'Edit' && viewState?.alias?.domains &&
-             <div>
-               {formatMessage(getLocale('emailAliasesUsedBy'),
-                              { placeholders: { $1: viewState?.alias?.domains?.join(', ') } })}
-              </div>}
-          </ModalSectionCol>
-        </span>
+    <ModalCol>
+      <ModalTitle>{mode === 'Create' ? getLocale('emailAliasesCreateAliasTitle') : getLocale('emailAliasesEditAliasTitle')}</ModalTitle>
+      {bubble && <ModalDescription>{getLocale('emailAliasesBubbleDescription')}</ModalDescription>}
+      {(bubble && limitReached)
+        ? <WarningText>{getLocale('emailAliasesBubbleLimitReached')}</WarningText>
+        : <ModalCol>
+            <ModalSectionCol>
+              <ModalLabel>{getLocale('emailAliasesAliasLabel')}</ModalLabel>
+              <GeneratedEmailContainer>
+                <div>{proposedAlias}</div>
+                {mode === 'Create' && <RefreshButton onClick={regenerateAlias} waiting={awaitingProposedAlias} />}
+              </GeneratedEmailContainer>
+              <ModalDetails>{formatMessage(getLocale('emailAliasesEmailsWillBeForwardedTo'), { placeholders: { $1: mainEmail } })}</ModalDetails>
+            </ModalSectionCol>
+            <ModalSectionCol>
+              <ModalLabel>{getLocale('emailAliasesNoteLabel')}</ModalLabel>
+              <NoteInput
+                type='text'
+                placeholder={getLocale('emailAliasesEditNotePlaceholder')}
+                maxlength={255}
+                value={proposedNote}
+                onChange={(detail) => setProposedNote(detail.value)}
+                onKeyDown={onEnterKeyForInput(createOrSave)}>
+              </NoteInput>
+              {mode === 'Edit' && viewState?.alias?.domains &&
+              <div>
+                {formatMessage(getLocale('emailAliasesUsedBy'),
+                                { placeholders: { $1: viewState?.alias?.domains?.join(', ') } })}
+                </div>}
+            </ModalSectionCol>
+          </ModalCol>
       }
       <ButtonRow bubble={bubble}>
         <span>
-          {bubble && <Button onClick={mappingService.showSettingsPage} kind='plain'>
+          {bubble && <Button kind='plain-faint' onClick={mappingService.showSettingsPage}>
             {getLocale('emailAliasesManageButton')}
           </Button>}
         </span>
         <span>
-          <Button onClick={onReturnToMain} kind='plain'>
+          <Button onClick={onReturnToMain} kind='plain-faint'>
             {getLocale('emailAliasesCancelButton')}
           </Button>
           <Button
@@ -177,6 +214,6 @@ export const EmailAliasModal = (
           </Button>
         </span>
       </ButtonRow>
-    </div>
+    </ModalCol>
   )
 }

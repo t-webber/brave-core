@@ -4,12 +4,17 @@
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
 import { InputEventDetail } from "@brave/leo/react/input";
+import { KeyboardEvent } from "react";
 
-const onEnterKey = (onSubmit: () => void) => (e: InputEventDetail) => {
-  const innerEvent = e.innerEvent as unknown as KeyboardEvent;
-  if (innerEvent.key === 'Enter') {
+const onEnterKeyForDiv = (onSubmit: () => void) => (e: KeyboardEvent) => {
+  if (e.key === 'Enter') {
     onSubmit();
   }
-};
+}
 
-export default onEnterKey;
+const onEnterKeyForInput = (onSubmit: () => void) => (e: InputEventDetail) => {
+  const innerEvent = e.innerEvent as unknown as KeyboardEvent;
+  return onEnterKeyForDiv(onSubmit)(innerEvent);
+}
+
+export { onEnterKeyForInput, onEnterKeyForDiv };
