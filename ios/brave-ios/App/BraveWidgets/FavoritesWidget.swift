@@ -8,6 +8,7 @@ import FaviconModels
 import Strings
 import SwiftUI
 import WidgetKit
+import BraveShared
 
 struct FavoritesWidget: Widget {
   var body: some WidgetConfiguration {

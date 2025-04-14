@@ -9,6 +9,7 @@ import Foundation
 import Strings
 import SwiftUI
 import WidgetKit
+import BraveShared
 
 struct LockScreenFavoriteWidget: Widget {
   var body: some WidgetConfiguration {
@@ -101,7 +102,7 @@ private struct LockScreenFavoriteView: View {
               .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
               .padding(12)
           } else {
-            Text(verbatim: fav.url.baseDomain?.first?.uppercased() ?? "")
+            Text(verbatim: fav.url.etldPlusOne?.first?.uppercased() ?? "")
               .frame(maxWidth: .infinity, maxHeight: .infinity)
               .font(.system(size: 28))
               .clipped()

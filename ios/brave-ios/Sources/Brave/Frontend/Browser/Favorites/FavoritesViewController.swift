@@ -649,8 +649,7 @@ extension FavoritesViewController: NSFetchedResultsControllerDelegate {
         if let text = recentSearch.text,
           let websiteUrl = recentSearch.websiteUrl
         {
-          let website =
-            URL(string: websiteUrl)?.baseDomain ?? URL(string: websiteUrl)?.host ?? websiteUrl
+          let website = URL(string: websiteUrl)?.etldPlusOne ?? URL(string: websiteUrl)?.host ?? websiteUrl
 
           let title = NSMutableAttributedString(
             string: text,
