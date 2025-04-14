@@ -1,8 +1,8 @@
 diff --git a/chrome/browser/prefs/browser_prefs.cc b/chrome/browser/prefs/browser_prefs.cc
-index 7393b3400afe4486d93e50826e22ee808e15d503..cd09b43ae739a1b00b863afb69eb0ddd5f0654b8 100644
+index b743d32f9bd7c75bdf587ede8388db0b15623827..f21aa97185dcc97eb4c7e968aa8ec284270bba6e 100644
 --- a/chrome/browser/prefs/browser_prefs.cc
 +++ b/chrome/browser/prefs/browser_prefs.cc
-@@ -1829,6 +1829,7 @@ void RegisterLocalState(PrefRegistrySimple* registry) {
+@@ -1841,6 +1841,7 @@ void RegisterLocalState(PrefRegistrySimple* registry) {
    registry->RegisterIntegerPref(prefs::kToastAlertLevel, 0);
  
    // This is intentionally last.
@@ -10,7 +10,7 @@ index 7393b3400afe4486d93e50826e22ee808e15d503..cd09b43ae739a1b00b863afb69eb0ddd
    RegisterLocalStatePrefsForMigration(registry);
  }
  
-@@ -2261,6 +2262,7 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry,
+@@ -2277,6 +2278,7 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry,
    registry->RegisterIntegerPref(prefs::kLensOverlayStartCount, 0);
  
    registry->RegisterDictionaryPref(prefs::kReportingEndpoints);

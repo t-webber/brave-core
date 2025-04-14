@@ -1,8 +1,8 @@
 diff --git a/chrome/browser/ui/actions/chrome_action_id.h b/chrome/browser/ui/actions/chrome_action_id.h
-index 854bab91558a6e10234eea6fba07b8210025df32..27f859f0ce3437ecf492e5738b61efd07be80dd0 100644
+index 102e070dabfc47bb42cc5abd9a159f20e9f11ecb..915e0bbf448a34a24a1d98dec5e4e57d0e01aa2e 100644
 --- a/chrome/browser/ui/actions/chrome_action_id.h
 +++ b/chrome/browser/ui/actions/chrome_action_id.h
-@@ -521,6 +521,7 @@
+@@ -523,6 +523,7 @@
    /* Side Panel items */ \
    E(kActionSidePanelShowAboutThisSite) \
    E(kActionSidePanelShowAssistant) \
