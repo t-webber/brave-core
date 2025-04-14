@@ -32,7 +32,7 @@ import java.util.List;
 
 public class CustomSearchEnginesUtil {
 
-    private static final String TAG = "CustomSearchEnginesUtil";
+    private static final String TAG = "CustomSearchEngines";
 
     private static final String CUSTOM_SEARCH_ENGINES = "custom_search_engines";
 
