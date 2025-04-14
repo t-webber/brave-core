@@ -735,6 +735,17 @@
         Tap to return to the site
       </message>
 
+      <!-- Serial port -->
+      <message name="IDS_CONNECTED_TO_SERIAL_PORT_NOTIFICATION_TITLE" desc="Text to be shown as a notification when a website is connected to a serial port.">
+        Connected to a serial port
+      </message>
+      <message name="IDS_SERIAL_NOTIFICATION_CONTENT_TEXT" desc="Url of the current tab. The notification will display this text for the user to identify the tab to return to.">
+        Tap to return to <ph name="URL_OF_THE_CURRENT_TAB">%1$s<ex>https://googlechromelabs.github.io/serial-terminal/</ex></ph>
+      </message>
+      <message name="IDS_SERIAL_NOTIFICATION_CONTENT_TEXT_INCOGNITO" desc="The notification will display this text for the user to return to the Private tab which has created the notification.">
+        Tap to return to the site
+      </message>
+
       <message name="IDS_SHARE_LINK_CHOOSER_TITLE" desc="title for the share dialog when sharing the current address [CHAR_LIMIT=27]">
         Share via
       </message>
@@ -920,9 +931,6 @@
       </message>
       <message name="IDS_IMMERSIVE_FULLSCREEN_GESTURE_NAVIGATION_MODE_API_NOTIFICATION" desc="Notification message when a site has entered immersive fullscreen and the directions of how to exit when the system gesture navigation mode is on.">
         Drag from top and swipe from the left or right edge to exit full screen.
-      </message>
-      <message name="IDS_IMMERSIVE_FULLSCREEN_API_NOTIFICATION_AUTOMOTIVE" desc="Notification message when a site has entered immersive fullscreen and the directions of how to exit.">
-        Press the back button to exit full screen.
       </message>
       <message name="IDS_IMMERSIVE_FULLSCREEN_AUTOMOTIVE_TOOLBAR_IMPROVEMENTS" desc="Notification message when a site has entered immersive fullscreen and the directions of how to exit by swiping left.">
         Drag from the side of the screen to exit full screen.
@@ -1230,6 +1238,12 @@
       <message name="IDS_EDUCATIONAL_TIP_DEFAULT_BROWSER_BOTTOM_SHEET_ACCESSIBILITY_OPENED_FULL" desc="Accessibility string that describes that the default browser bottom sheet has fully opened.">
         Default browser bottom sheet opened at full height
       </message>
+      <message name="IDS_EDUCATIONAL_TIP_HISTORY_SYNC_TITLE" desc="Title of the history sync promo that invites users to turn on history sync in the educational tip module on NTP.">
+        Browse across devices
+      </message>
+      <message name="IDS_EDUCATIONAL_TIP_HISTORY_SYNC_DESCRIPTION" desc="Description of the history sync promo that invites users to turn on history sync in the educational tip module on NTP.">
+        Get your history on all your devices, so you can easily pick up where you left off
+      </message>
 
       <!-- Safety Hub Magic Stack strings -->
       <message name="IDS_SAFETY_HUB_MAGIC_STACK_MODULE_NAME" desc="Title for the Magic Stack card for all Safety Check modules.">
@@ -1274,7 +1288,7 @@
       <message name="IDS_NTP_CUSTOMIZATION_SUBTITLE" desc="Subtitle of the new tab page customization bottom sheet">
         Quickly get to what matters to you
       </message>
-      <message name="IDS_NTP_CUSTOMIZATION_FEED_SETTING_TITLE" desc="Open setting page for feed section customization when clicked">
+      <message name="IDS_NTP_CUSTOMIZATION_FEED_SETTINGS_TITLE" desc="Open setting page for feed section customization when clicked">
         Discover feed
       </message>
       <message name="IDS_NTP_CUSTOMIZATION_FEED_SECTION_ON" desc="This texts show the feed section is visible at the new tab page">
@@ -1288,6 +1302,9 @@
       </message>
       <message name="IDS_NTP_CUSTOMIZATION_MAIN_BOTTOM_SHEET_CLOSED" desc="Accessibility string that describes closing the new tab page customization main bottom sheet">
         Customize your new tab page bottom sheet closed
+      </message>
+      <message name="IDS_NTP_CUSTOMIZATION_FEED_LIST_ITEMS_TITLE" desc="Title of the list items in the new tab page customization discover feed bottom sheet">
+        Manage your feed
       </message>
 
       <!-- What's New page strings -->
