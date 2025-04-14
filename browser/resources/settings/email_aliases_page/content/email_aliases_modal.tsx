@@ -27,7 +27,7 @@ const ModalSectionCol = styled(Col)`
   }
 `
 
-const ButtonRow = styled(Row)<{ bubble: boolean }>`
+const ButtonRow = styled(Row)<{ bubble?: boolean }>`
   justify-content: ${props => props.bubble ? 'space-between' : 'end'};
   margin: ${spacing["2Xl"]} 0;
   & leo-button {
@@ -143,7 +143,7 @@ export const EmailAliasModal = (
           </ModalSectionCol>
           <ModalSectionCol>
             <h3>{getLocale('emailAliasesNoteLabel')}</h3>
-            <Input id='note-input'
+            <Input
               type='text'
               placeholder={getLocale('emailAliasesEditNotePlaceholder')}
               maxlength={255}
@@ -159,7 +159,7 @@ export const EmailAliasModal = (
           </ModalSectionCol>
         </span>
       }
-      <ButtonRow bubble={bubble ?? false}>
+      <ButtonRow bubble={bubble}>
         <span>
           {bubble && <Button onClick={mappingService.showSettingsPage} kind='plain'>
             {getLocale('emailAliasesManageButton')}
