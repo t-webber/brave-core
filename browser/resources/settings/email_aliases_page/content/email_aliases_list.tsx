@@ -153,9 +153,7 @@ export const AliasList = ({ aliases, onViewChange, onListChange, mappingService 
     <AliasListIntro>
       <Col>
         <h2>{getLocale('emailAliasesListTitle')}</h2>
-        <div>
-          {getLocale('emailAliasesCreateDescription')}
-        </div>
+        {getLocale('emailAliasesCreateDescription')}
       </Col>
       <Button
         isDisabled={aliases.length >= MAX_ALIASES}
