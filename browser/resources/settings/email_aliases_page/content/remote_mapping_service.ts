@@ -6,7 +6,6 @@
 import { Alias, MappingService } from './types'
 
 export class RemoteMappingService implements MappingService {
-  //private pending_cancellation_ = false
   async getAccountEmail (): Promise<string | undefined> {
     // TODO: remove this once we have a real implementation
     return Promise.resolve("account-email@gmail.com")
@@ -46,7 +45,6 @@ export class RemoteMappingService implements MappingService {
     return Promise.resolve(true)
   }
   cancelAccountRequest(): Promise<void> {
-    //this.pending_cancellation_ = true
     return Promise.resolve()
   }
   async closeBubble(): Promise<void> {

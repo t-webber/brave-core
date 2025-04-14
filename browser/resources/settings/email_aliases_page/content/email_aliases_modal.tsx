@@ -8,14 +8,14 @@ import Icon from "@brave/leo/react/icon"
 import { getLocale } from '$web-common/locale'
 import formatMessage from '$web-common/formatMessage'
 import * as React from 'react'
-import { ViewState, ViewMode, MappingService, MAX_ALIASES } from "./types"
+import { ViewState, ViewMode, MappingService } from "./types"
 import Col from "./styles/Col"
 import Row from "./styles/Row"
 import Input from "@brave/leo/react/input"
 import styled from "styled-components"
 import onEnterKey from "./onEnterKey"
 import { color, font, spacing } from "@brave/leo/tokens/css/variables"
-
+import { MAX_ALIASES } from "./constant"
 
 const ModalSectionCol = styled(Col)`
   margin: ${spacing["2Xl"]} 0;

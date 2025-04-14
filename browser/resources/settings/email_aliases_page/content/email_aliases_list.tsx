@@ -4,7 +4,7 @@
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
 import * as React from 'react'
-import { Alias, MappingService, MAX_ALIASES, ViewState } from './types'
+import { Alias, MappingService, ViewState } from './types'
 import Card from './styles/Card'
 import Col from './styles/Col'
 import Row from './styles/Row'
@@ -16,7 +16,7 @@ import { getLocale } from '$web-common/locale'
 import formatMessage from '$web-common/formatMessage'
 import Button from '@brave/leo/react/button'
 import ButtonMenu from '@brave/leo/react/buttonMenu'
-
+import { MAX_ALIASES } from './constant'
 const AliasItemRow = styled(Row)`
   margin: 0px;
   font-size: 125%;

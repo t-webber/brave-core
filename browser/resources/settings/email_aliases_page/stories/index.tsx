@@ -88,25 +88,25 @@ class MockMappingService implements MappingService {
     }
   }
 
-  async createAlias (email: string, note: string): Promise<void> {
+  async createAlias (email: string, note: string) {
     const alias = { email, note }
     this.aliases_.set(email, alias)
   }
 
-  async getAliases (): Promise<Alias[]> {
+  async getAliases () {
     return [...this.aliases_.values()]
   }
 
-  async updateAlias (email: string, note: string, status: boolean): Promise<void> {
+  async updateAlias (email: string, note: string, status: boolean) {
     const alias = { email, note }
     this.aliases_.set(email, alias)
   }
 
-  async deleteAlias (email: string): Promise<void> {
+  async deleteAlias (email: string) {
     this.aliases_.delete(email)
   }
 
-  async generateAlias (): Promise<string> {
+  async generateAlias () {
     let generated: string = ''
     do {
       generated = "mock-" + Math.random().toString().slice(2,6) + "@bravealias.com"
@@ -115,11 +115,11 @@ class MockMappingService implements MappingService {
     return generated
   }
 
-  async getAccountEmail (): Promise<string | undefined> {
+  async getAccountEmail () {
     return this.accountEmail_
   }
 
-  async requestAccount (accountEmail: string): Promise<void> {
+  async requestAccount (accountEmail: string) {
     this.accountState_ = 'AwaitingAccount'
     this.accountRequestId_ = window.setTimeout(() => {
       this.accountEmail_ = accountEmail
@@ -127,31 +127,31 @@ class MockMappingService implements MappingService {
     }, 5000);
   }
 
-  async onAccountReady (): Promise<boolean> {
+  async onAccountReady () {
     while (this.accountState_ === 'AwaitingAccount') {
       await new Promise(resolve => setTimeout(resolve, 250));
     }
     return this.accountState_ === 'AccountReady'
   }
 
-  async cancelAccountRequest (): Promise<void> {
+  async cancelAccountRequest () {
     this.accountState_ = 'NoAccount'
     window.clearTimeout(this.accountRequestId_)
   }
 
-  async logout (): Promise<void> {
+  async logout () {
     this.accountState_ = 'NoAccount'
   }
 
-  async closeBubble (): Promise<void> {
+  async closeBubble () {
     console.log("closeBubble")
   }
 
-  async fillField (fieldValue: string): Promise<void> {
+  async fillField (fieldValue: string) {
     console.log("fillField", fieldValue)
   }
 
-  async showSettingsPage (): Promise<void> {
+  async showSettingsPage () {
     console.log("showSettingsPage")
   }
 }
