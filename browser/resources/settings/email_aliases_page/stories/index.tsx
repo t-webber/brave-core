@@ -72,75 +72,75 @@ const demoData = {
       note: 'Marketplace email for Facebook'
     }
   ]
-}
+} satisfies { email: string, aliases: Alias[] }
 
 class MockMappingService implements MappingService {
-  accountEmail_: string
-  aliases_ : Map<string, Alias>
-  accountState_ : AccountState
-  accountRequestId_ : number
+  accountEmail: string
+  aliases: Map<string, Alias>
+  accountState: AccountState
+  accountRequestId: number
   constructor(accountState: AccountState, accountEmail: string) {
-    this.accountState_ = accountState
-    this.accountEmail_ = accountEmail
-    this.aliases_ = new Map<string, Alias>();
+    this.accountState = accountState
+    this.accountEmail = accountEmail
+    this.aliases = new Map<string, Alias>();
     for (const alias of demoData.aliases) {
-      this.aliases_.set(alias.email, alias)
+      this.aliases.set(alias.email, alias)
     }
   }
 
   async createAlias (email: string, note: string) {
     const alias = { email, note }
-    this.aliases_.set(email, alias)
+    this.aliases.set(email, alias)
   }
 
   async getAliases () {
-    return [...this.aliases_.values()]
+    return [...this.aliases.values()]
   }
 
   async updateAlias (email: string, note: string, status: boolean) {
     const alias = { email, note }
-    this.aliases_.set(email, alias)
+    this.aliases.set(email, alias)
   }
 
   async deleteAlias (email: string) {
-    this.aliases_.delete(email)
+    this.aliases.delete(email)
   }
 
   async generateAlias () {
     let generated: string = ''
     do {
       generated = "mock-" + Math.random().toString().slice(2,6) + "@bravealias.com"
-    } while (this.aliases_.has(generated))
+    } while (this.aliases.has(generated))
     await new Promise(resolve => setTimeout(resolve, 1000))
     return generated
   }
 
   async getAccountEmail () {
-    return this.accountEmail_
+    return this.accountEmail
   }
 
   async requestAccount (accountEmail: string) {
-    this.accountState_ = 'AwaitingAccount'
-    this.accountRequestId_ = window.setTimeout(() => {
-      this.accountEmail_ = accountEmail
-      this.accountState_ = 'AccountReady'
+    this.accountState = 'AwaitingAccount'
+    this.accountRequestId = window.setTimeout(() => {
+      this.accountEmail = accountEmail
+      this.accountState = 'AccountReady'
     }, 5000);
   }
 
   async onAccountReady () {
-    while (this.accountState_ === 'AwaitingAccount') {
+    while (this.accountState === 'AwaitingAccount') {
       await new Promise(resolve => setTimeout(resolve, 250));
     }
-    return this.accountState_ === 'AccountReady'
+    return this.accountState === 'AccountReady'
   }
 
   async cancelAccountRequest () {
-    this.accountState_ = 'NoAccount'
-    window.clearTimeout(this.accountRequestId_)
+    this.accountState = 'NoAccount'
+    window.clearTimeout(this.accountRequestId)
   }
 
   async logout () {
-    this.accountState_ = 'NoAccount'
+    this.accountState = 'NoAccount'
   }
 
   async closeBubble () {
