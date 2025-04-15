@@ -12,7 +12,7 @@
 namespace brave_ads {
 
 bool HasIssuersPermission() {
-  if (!UserHasJoinedBraveRewards()) {
+  if (!UserHasJoinedBraveRewardsAndConnectedWallet()) {
     return true;
   }
 

@@ -16,7 +16,7 @@ constexpr size_t kMinimumConfirmationTokenThreshold = 10;
 }  // namespace
 
 bool HasConfirmationTokensPermission() {
-  if (!UserHasJoinedBraveRewards()) {
+  if (!UserHasJoinedBraveRewardsAndConnectedWallet()) {
     return true;
   }
 
