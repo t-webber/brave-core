@@ -574,16 +574,14 @@ public class BraveRewardsHelper implements LargeIconBridge.LargeIconCallback {
 
         ChromeClickableSpan termsOfServiceClickableSpan =
                 new ChromeClickableSpan(
-                        context,
-                        colorRes,
+                        context.getColor(colorRes),
                         (textView) -> {
                             CustomTabActivity.showInfoPage(context, BraveActivity.BRAVE_TERMS_PAGE);
                         });
 
         ChromeClickableSpan privacyPolicyClickableSpan =
                 new ChromeClickableSpan(
-                        context,
-                        colorRes,
+                        context.getColor(colorRes),
                         (textView) -> {
                             CustomTabActivity.showInfoPage(
                                     context, BraveActivity.BRAVE_PRIVACY_POLICY);
@@ -615,8 +613,7 @@ public class BraveRewardsHelper implements LargeIconBridge.LargeIconCallback {
 
         ChromeClickableSpan substringClickableSpan =
                 new ChromeClickableSpan(
-                        context,
-                        colorRes,
+                        context.getColor(colorRes),
                         (textView) -> {
                             onSubstringClicked.onResult(context);
                         });
