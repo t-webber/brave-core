@@ -480,7 +480,7 @@ extension SceneDelegate {
         break
       }
 
-      scene.browserViewController?.switchToTabForURLOrOpen(url, isPrivileged: true)
+      scene.browserViewController?.switchToTabForURLOrOpen(url, isPrivileged: false)
       return
     }
   }
