@@ -148,7 +148,22 @@ class ScriptFactory {
     case .domainUserScript(let domainUserScript):
       resultingScript = try self.makeScript(for: domainUserScript)
 
-    case .contentCosmetic(let setup, let proceduralActions):
+    case .contentCosmetic(var setup, let proceduralActions):
+      if setup.standardSelectors.contains("#xpromo-bottom-sheet[aria-label*=\"See Reddit in...\"]") || setup.aggressiveSelectors.contains("#xpromo-bottom-sheet[aria-label*=\"See Reddit in...\"]") {
+        var aggressiveSelectors = setup.aggressiveSelectors
+        aggressiveSelectors.remove("#xpromo-bottom-sheet[aria-label*=\"See Reddit in...\"]")
+        var standardSelectors = setup.aggressiveSelectors
+        standardSelectors.remove("#xpromo-bottom-sheet[aria-label*=\"See Reddit in...\"]")
+        setup = .init(
+          hideFirstPartyContent: setup.hideFirstPartyContent,
+          genericHide: setup.genericHide,
+          firstSelectorsPollingDelayMs: setup.firstSelectorsPollingDelayMs,
+          switchToSelectorsPollingThreshold: setup.switchToSelectorsPollingThreshold,
+          fetchNewClassIdRulesThrottlingMs: setup.fetchNewClassIdRulesThrottlingMs,
+          aggressiveSelectors: aggressiveSelectors,
+          standardSelectors: standardSelectors
+        )
+      }
       let encoder = JSONEncoder()
       let data = try encoder.encode(setup)
       let args = String(data: data, encoding: .utf8)!

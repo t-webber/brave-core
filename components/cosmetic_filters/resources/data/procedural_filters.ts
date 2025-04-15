@@ -562,8 +562,16 @@ const _determineInitNodesAndIndex = (selector: CompiledProceduralSelector,
 
 const applyCompiledSelector = (selector: CompiledProceduralSelector,
                                initNodes?: HTMLElement[]): HTMLElement[] => {
+  // if (initNodes) {
+  //   const initNodesIds = Array.from(initNodes).map((x) => x.getAttribute('id'));
+  //   console.log('LOG: applyCompiledSelector - selector=' + JSON.stringify(selector) + ' initNodesIds=' + JSON.stringify(initNodesIds));
+  // }
   const initState = _determineInitNodesAndIndex(selector, initNodes)
   let [index, nodesToConsider] = initState
+  // if (nodesToConsider) {
+  //   const nodesToConsiderIds = Array.from(nodesToConsider).map((x) => x.getAttribute('id'));
+  //   console.log('LOG: applyCompiledSelector - selector=' + JSON.stringify(selector) + ' nodesToConsiderIds=' + JSON.stringify(nodesToConsiderIds));
+  // }
   const numOperators = selector.length
   for (index; nodesToConsider.length > 0 && index < numOperators; ++index) {
     const operator = selector[index]
@@ -573,6 +581,7 @@ const applyCompiledSelector = (selector: CompiledProceduralSelector,
     // Note that we special case the :matches-path case here, since if
     // if it passes for one element, then it will pass for all elements.
     if (fastPathOperatorTypes.includes(operatorType)) {
+      // console.log('LOG: applyCompiledSelector - fastPathOperatorTypes.includes(operatorType)');
       const firstNode = nodesToConsider[0]
       if (operatorFunc(firstNode).length === 0) {
         nodesToConsider = []
@@ -590,6 +599,10 @@ const applyCompiledSelector = (selector: CompiledProceduralSelector,
     }
     nodesToConsider = newNodesToConsider
   }
+  // if (nodesToConsider) {
+  //   const newNodesToConsiderIds = Array.from(nodesToConsider).map((x) => x.getAttribute('id'));
+  //   console.log('LOG: applyCompiledSelector - selector=' + JSON.stringify(selector) + ' newNodesToConsiderIds=' + JSON.stringify(newNodesToConsiderIds));
+  // }
 
   return nodesToConsider
 }

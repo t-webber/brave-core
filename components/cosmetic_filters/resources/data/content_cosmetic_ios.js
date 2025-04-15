@@ -1082,6 +1082,7 @@ import { applyCompiledSelector, compileProceduralSelector } from './procedural_f
    * Rewrite the stylesheet body with the hidden rules and style rules
    */
   const setRulesOnStylesheet = () => {
+    console.log('LOG: setRulesOnStylesheet');
     const hideRules = Array.from(CC.hiddenSelectors)
       .map(selector => {
         return selector + '{display:none !important;}'
@@ -1163,6 +1164,7 @@ import { applyCompiledSelector, compileProceduralSelector } from './procedural_f
     // creates new attribute and adds to `styleAttrMap`
     const getStyleAttr = (style) => {
       let styleAttr = styleAttrMap.get(style)
+      console.log('LOG: getStyleAttr - style=' + style + ' styleAttr=' + styleAttr);
       if (styleAttr === undefined) {
         styleAttr = generateRandomAttr()
         styleAttrMap.set(style, styleAttr);
@@ -1173,6 +1175,7 @@ import { applyCompiledSelector, compileProceduralSelector } from './procedural_f
     }
 
     const performAction = (element, action) => {
+      console.log('LOG: executeProceduralActions - performAction - element.id=' + element.getAttribute('id') + ' action=' + action);
       if (action === undefined) {
         const attr = getStyleAttr('display: none !important')
         element.setAttribute(globalStyleAttr, '')
@@ -1205,6 +1208,9 @@ import { applyCompiledSelector, compileProceduralSelector } from './procedural_f
       } else if (added === undefined) {
         matchingElements = document.querySelectorAll('*');
       } else {
+        if (self === top && selector[0].arg == '#xpromo-bottom-sheet') {
+          console.log('LOG: executeProceduralActions - 3 - CC.proceduralActionFilters loop selector=' + JSON.stringify(selector) + ' action=' + JSON.stringify(action));
+        }
         matchingElements = added;
       }
 
@@ -1217,7 +1223,12 @@ import { applyCompiledSelector, compileProceduralSelector } from './procedural_f
         try {
           const filter = compileProceduralSelector(
             selector.slice(startOperator));
-          applyCompiledSelector(filter, matchingElements).forEach(elem => {
+          const matchingElementsIds = Array.from(matchingElements).map((x) => x.getAttribute('id'));
+          console.log('LOG: executeProceduralActions - matchingElementsIds=' + JSON.stringify(matchingElementsIds) + ' selector=' + JSON.stringify(selector));
+          const filteredElements = applyCompiledSelector(filter, matchingElements);
+          const filteredElementsIds = Array.from(filteredElements).map((x) => x.getAttribute('id'));
+          console.log('LOG: executeProceduralActions - filteredElementsIds=' + JSON.stringify(filteredElementsIds) + ' selector=' + JSON.stringify(selector));
+          filteredElements.forEach(elem => {
             performAction(elem, action);
           });
         } catch (e) {
@@ -1227,6 +1238,7 @@ import { applyCompiledSelector, compileProceduralSelector } from './procedural_f
           console.error(e.stack);
         }
       }
+      setRulesOnStylesheetThrottled();
     }
   };
 
