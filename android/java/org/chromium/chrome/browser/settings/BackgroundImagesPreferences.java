@@ -22,6 +22,7 @@ import org.chromium.chrome.browser.ntp.NtpUtil;
 import org.chromium.chrome.browser.ntp_background_images.NTPBackgroundImagesBridge;
 import org.chromium.chrome.browser.preferences.BravePref;
 import org.chromium.chrome.browser.profiles.ProfileManager;
+import org.chromium.chrome.browser.util.BraveConstants;
 import org.chromium.chrome.browser.util.TabUtils;
 import org.chromium.components.browser_ui.settings.ChromeSwitchPreference;
 import org.chromium.components.browser_ui.settings.ClickableSpansTextMessagePreference;
@@ -41,8 +42,6 @@ public class BackgroundImagesPreferences extends BravePreferenceFragment
     public static final String PREF_BACKGROUND_IMAGES_CATEGORY = "background_images";
 
     public static final String PREF_SPONSORED_IMAGES_LEARN_MORE = "sponsored_images_learn_more";
-    public static final String SPONSORED_IMAGES_LEARN_MORE_URL =
-            "https://support.brave.com/hc/en-us/articles/35182999599501";
 
     private ChromeSwitchPreference mShowBackgroundImagesPref;
     private ChromeSwitchPreference mShowSponsoredImagesPref;
@@ -150,7 +149,7 @@ public class BackgroundImagesPreferences extends BravePreferenceFragment
     private Callback<View> sponsoredImagesLearnMoreClickedCallback() {
         return (view) -> {
             try {
-                TabUtils.openUrlInNewTab(false, SPONSORED_IMAGES_LEARN_MORE_URL);
+                TabUtils.openUrlInNewTab(false, BraveConstants.NEW_TAB_TAKEOVER_LEARN_MORE_URL);
                 TabUtils.bringChromeTabbedActivityToTheTop(BraveActivity.getBraveActivity());
             } catch (BraveActivity.BraveActivityNotFoundException e) {
             }

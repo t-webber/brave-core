@@ -36,4 +36,7 @@ public final class BraveConstants {
     public static final String DEEPLINK_ANDROID_VPN = "deeplink-android-vpn";
 
     public static final String YOUTUBE_DOMAIN = "youtube.com";
+
+    public static final String NEW_TAB_TAKEOVER_LEARN_MORE_URL =
+            "https://support.brave.com/hc/en-us/articles/35182999599501";
 }

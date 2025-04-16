@@ -7,15 +7,17 @@ import * as React from 'react'
 import styled from 'styled-components'
 
 // Common components
-import { LearnMoreLink, LearnMoreText, SettingsText } from '../../../components/default'
+import {
+  LearnMoreLink,
+  LearnMoreText,
+  SettingsText } from '../../../components/default'
 import Icon from '@brave/leo/react/icon'
 import Toggle from '@brave/leo/react/toggle'
 import Tooltip from '@brave/leo/react/tooltip'
 
 // Utilities
 import { getLocale } from '../../../../common/locale'
-
-const sponsoredImagesLearnMoreLink = 'https://support.brave.com/hc/en-us/articles/35182999599501'
+import { loadTimeData } from '$web-common/loadTimeData'
 
 interface Props {
   onChange: () => void
@@ -183,7 +185,8 @@ export default function SponsoredImageToggle (
           <LearnMoreText>
             {getLocale('sponsoredImageOptInDescription')}
             {' '}
-            <LearnMoreLink href={sponsoredImagesLearnMoreLink}>
+            <LearnMoreLink
+              href={loadTimeData.getString('newTabTakeoverLearnMoreUrl')}>
               {getLocale('sponsoredImageOptInLearnMore')}
             </LearnMoreLink>
           </LearnMoreText>
