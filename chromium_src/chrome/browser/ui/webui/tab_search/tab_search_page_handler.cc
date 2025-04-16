@@ -53,6 +53,8 @@ void TabSearchPageHandler::OnTabOrganizationFeaturePrefChanged(
       ai_chat::features::IsTabOrganizationEnabled() &&
       profile->GetPrefs()->GetBoolean(
           ai_chat::prefs::kBraveAIChatTabOrganizationEnabled));
+  page_->ShowFREChanged(!profile->GetPrefs()->HasPrefPath(
+      ai_chat::prefs::kBraveAIChatTabOrganizationEnabled));
 }
 
 TabSearchPageHandler::~TabSearchPageHandler() = default;
