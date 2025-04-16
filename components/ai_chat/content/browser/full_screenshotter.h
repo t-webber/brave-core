@@ -13,6 +13,7 @@
 
 #include "base/memory/raw_ptr.h"
 #include "base/memory/weak_ptr.h"
+#include "base/task/sequenced_task_runner.h"
 #include "base/types/expected.h"
 #include "components/paint_preview/browser/paint_preview_base_service.h"
 #include "components/paint_preview/public/paint_preview_compositor_service.h"
@@ -33,6 +34,18 @@ class FullScreenshotter : public paint_preview::PaintPreviewBaseService {
       base::expected<std::vector<std::vector<uint8_t>>, std::string>)>;
   void CaptureScreenshots(const raw_ptr<content::WebContents> web_contents,
                           CaptureScreenshotsCallback callback);
+
+  void InitCompositorServiceForTest(
+      std::unique_ptr<paint_preview::PaintPreviewCompositorService,
+                      base::OnTaskRunnerDeleter> service);
+
+  paint_preview::PaintPreviewCompositorService* GetCompositorServiceForTest() {
+    return paint_preview_compositor_service_.get();
+  }
+
+  paint_preview::PaintPreviewCompositorClient* GetCompositorClientForTest() {
+    return paint_preview_compositor_client_.get();
+  }
 
  private:
   void OnScreenshotCaptured(

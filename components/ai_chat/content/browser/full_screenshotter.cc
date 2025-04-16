@@ -9,6 +9,7 @@
 #include <utility>
 
 #include "base/strings/stringprintf.h"
+#include "base/task/sequenced_task_runner.h"
 #include "base/task/task_traits.h"
 #include "base/task/thread_pool.h"
 #include "base/types/expected.h"
@@ -19,8 +20,6 @@
 #include "content/public/browser/render_widget_host_view.h"
 #include "mojo/public/cpp/base/proto_wrapper.h"
 #include "third_party/skia/include/core/SkBitmap.h"
-#include "third_party/skia/include/core/SkCanvas.h"
-#include "third_party/skia/include/core/SkImage.h"
 #include "ui/gfx/codec/png_codec.h"
 #include "ui/gfx/geometry/rect.h"
 
@@ -34,12 +33,7 @@ FullScreenshotter::FullScreenshotter()
       paint_preview_compositor_service_(nullptr,
                                         base::OnTaskRunnerDeleter(nullptr)),
       paint_preview_compositor_client_(nullptr,
-                                       base::OnTaskRunnerDeleter(nullptr)) {
-  paint_preview_compositor_service_ = paint_preview::StartCompositorService(
-      base::BindOnce(&FullScreenshotter::OnCompositorServiceDisconnected,
-                     weak_ptr_factory_.GetWeakPtr()));
-  CHECK(paint_preview_compositor_service_);
-}
+                                       base::OnTaskRunnerDeleter(nullptr)) {}
 
 FullScreenshotter::~FullScreenshotter() = default;
 
@@ -52,7 +46,7 @@ void FullScreenshotter::CaptureScreenshots(
   current_web_contents_ = web_contents;
   if (!web_contents) {
     std::move(callback).Run(
-        base::unexpected("The given web contents no longer valid"));
+        base::unexpected("The given web contents is no longer valid"));
     return;
   }
 
@@ -65,6 +59,14 @@ void FullScreenshotter::CaptureScreenshots(
       capture_params,
       base::BindOnce(&FullScreenshotter::OnScreenshotCaptured,
                      weak_ptr_factory_.GetWeakPtr(), std::move(callback)));
+}
+
+void FullScreenshotter::InitCompositorServiceForTest(
+    std::unique_ptr<paint_preview::PaintPreviewCompositorService,
+                    base::OnTaskRunnerDeleter> service) {
+  paint_preview_compositor_service_ = std::move(service);
+  paint_preview_compositor_client_ =
+      paint_preview_compositor_service_->CreateCompositor(base::DoNothing());
 }
 
 void FullScreenshotter::OnScreenshotCaptured(
@@ -80,6 +82,11 @@ void FullScreenshotter::OnScreenshotCaptured(
   }
 
   if (!paint_preview_compositor_client_) {
+    if (!paint_preview_compositor_service_) {
+      paint_preview_compositor_service_ = paint_preview::StartCompositorService(
+          base::BindOnce(&FullScreenshotter::OnCompositorServiceDisconnected,
+                         weak_ptr_factory_.GetWeakPtr()));
+    }
     paint_preview_compositor_client_ =
         paint_preview_compositor_service_->CreateCompositor(
             base::BindOnce(&FullScreenshotter::SendCompositeRequest,
@@ -139,7 +146,7 @@ void FullScreenshotter::OnCompositeFinished(
     paint_preview::mojom::PaintPreviewBeginCompositeResponsePtr response) {
   if (status != paint_preview::mojom::PaintPreviewCompositor::
                     BeginCompositeStatus::kSuccess) {
-    std::move(callback).Run(base::unexpected("Failed to begin composite"));
+    std::move(callback).Run(base::unexpected("BeginMainFrameComposite failed"));
     return;
   }
 
