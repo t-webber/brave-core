@@ -674,6 +674,15 @@ async function createDefaultAccounts({
             keyringIdForNewAccount(net.coin, net.chainId),
             suggestNewAccountName(accounts, net)
           )
+          return
+        }
+        case BraveWallet.CoinType.ZEC: {
+          await keyringService.addAccount(
+            net.coin,
+            keyringIdForNewAccount(net.coin, net.chainId),
+            suggestNewAccountName(accounts, net)
+          )
+          return
         }
       }
     }
