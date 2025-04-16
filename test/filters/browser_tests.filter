@@ -1639,6 +1639,7 @@
 
 # These tests fail because we provide our own override of the side panel which
 # does not enable this feature
+-All/LensOverlayControllerBrowserPDFContextualizationTest.CurrentPageIncludedInRequest/*
 -All/LensOverlayControllerBrowserPDFContextualizationTest.Histograms/*
 -All/LensOverlayControllerBrowserPDFContextualizationTest.LargePdfNotIncludedInRequest/*
 -All/LensOverlayControllerBrowserPDFContextualizationTest.PageUrlIncludedInRequest/*
@@ -1761,6 +1762,7 @@
 -DestroyProfileOnBrowserClose/ProfileHelperTestWithDestroyProfile.*
 -DestroyProfileOnBrowserClose/ProfileManagerBrowserTest.*
 -ProfilePickerGlicFlowControllerBrowserTest.PickProfileWithProfileNotLoaded
+-ProfilePickerWithGlicParamBrowserTest.GlicLearnMoreClicked/*
 -WebAppProfileDeletionTest_WebContentsGracefulShutdown.DataRetrieverWebAppInfoFetching
 -WebAppProfileDeletionTest_WebContentsGracefulShutdown.IconDownloading
 -WebAppProfileDeletionTest_WebContentsGracefulShutdown.UrlLoading
@@ -2106,6 +2108,7 @@
 
 # This test fails because it conflicts with our own split view layout,
 # specifically with how we currently manage our vertical tabs host view
+-SideBySideBrowserViewTest.SplitViewActiveIndexTest
 -SideBySideBrowserViewTest.SplitViewInactiveIndexReturnsCorrectly
 
 # Tests below this point have not been diagnosed or had issues created yet.
